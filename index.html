@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>オンライン診療 枠モニタ</title>
+<link rel="icon" href="data:,">
+<style>
+:root {
+  --bg: #f5f6f8;
+  --fg: #1d1d1f;
+  --muted: #6b6f76;
+  --card: #ffffff;
+  --line: #e6e6ea;
+  --open: #19a974;
+  --booked: #f5a524;
+  --closed: #c8c8cd;
+  --c: #3b82f6;
+  --s: #ec4899;
+  --k: #8b5cf6;
+  --g: #10b981;
+  --n: #f97316;
+  --h: #78716c;
+  --gcal: #eab308;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#111214; --fg:#f5f5f5; --muted:#9ea3ab; --card:#1c1e22; --line:#2a2d33; --closed:#444; }
+}
+* { box-sizing: border-box; }
+body {
+  font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  margin: 0; background: var(--bg); color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+}
+header {
+  padding: 14px 16px 10px;
+  border-bottom: 1px solid var(--line);
+  background: var(--card);
+  position: sticky; top: 0; z-index: 10;
+}
+header h1 { margin: 0; font-size: 17px; }
+header .updated { margin: 2px 0 0; font-size: 12px; color: var(--muted); }
+
+.today-hero {
+  padding: 16px;
+  margin: 12px;
+  background: var(--card);
+  border-radius: 14px;
+  border: 1px solid var(--line);
+}
+.today-hero h2 { margin: 0 0 4px; font-size: 14px; color: var(--muted); font-weight: 600; }
+.hero-range {
+  font-size: 28px; font-weight: 800; letter-spacing: -0.01em;
+}
+.hero-range.dim { color: var(--muted); font-size: 18px; font-weight: 600; }
+.hero-stats { margin-top: 6px; font-size: 13px; color: var(--muted); }
+.hero-stats b { color: var(--fg); font-weight: 700; }
+.hero-next {
+  margin-top: 8px; padding: 8px 10px; background: rgba(25,169,116,0.1);
+  border-radius: 8px; font-size: 14px;
+}
+
+section { margin: 12px; }
+section > h2 {
+  margin: 0 0 8px; font-size: 13px; color: var(--muted); font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.05em;
+}
+
+details.day {
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 12px; margin-bottom: 8px; overflow: hidden;
+}
+details.day > summary {
+  padding: 12px 14px; cursor: pointer;
+  display: flex; align-items: center; gap: 10px;
+  list-style: none;
+}
+details.day > summary::-webkit-details-marker { display: none; }
+details.day[open] > summary { border-bottom: 1px solid var(--line); }
+
+.day-date {
+  font-weight: 700; min-width: 60px; font-size: 15px;
+}
+.day-date.today { color: var(--open); }
+.day-range {
+  font-size: 14px; flex: 1; color: var(--fg); font-weight: 600;
+}
+.day-range.empty { color: var(--muted); font-weight: 500; }
+.day-badges { display: flex; gap: 6px; }
+.badge {
+  padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 700;
+  background: var(--line); color: var(--fg);
+}
+.badge.open { background: rgba(25,169,116,0.15); color: var(--open); }
+.badge.booked { background: rgba(245,165,36,0.15); color: var(--booked); }
+
+.slot-grid {
+  padding: 6px 10px 12px;
+}
+.slot-row {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 8px; align-items: center;
+  padding: 5px 4px; border-top: 1px solid var(--line);
+}
+.slot-row:first-child { border-top: none; }
+.slot-time { font-variant-numeric: tabular-nums; font-size: 14px; color: var(--fg); font-weight: 600; }
+.slot-time.past { color: var(--muted); }
+.slot-platforms { display: flex; flex-wrap: wrap; gap: 5px; }
+.pill {
+  display: inline-flex; align-items: center; gap: 2px;
+  padding: 2px 8px; border-radius: 999px; font-size: 12px; font-weight: 700;
+  color: #fff; line-height: 1.4;
+}
+.pill.c { background: var(--c); }
+.pill.s { background: var(--s); }
+.pill.k { background: var(--k); }
+.pill.g { background: var(--g); }
+.pill.n { background: var(--n); }
+.pill.h { background: var(--h); }
+.pill.closed { background: var(--closed); color: #666; }
+.pill .st { opacity: 0.85; font-weight: 500; font-size: 10px; margin-left: 2px; }
+.pill.booked { box-shadow: inset 0 0 0 2px var(--booked); }
+.pill.reserved { background: var(--booked); color: #000; }
+
+.long-table {
+  width: 100%; border-collapse: collapse;
+  background: var(--card); border-radius: 12px; overflow: hidden;
+  border: 1px solid var(--line);
+  font-size: 13px;
+}
+.long-table th, .long-table td {
+  text-align: left; padding: 8px 10px; border-top: 1px solid var(--line);
+}
+.long-table th { background: transparent; color: var(--muted); font-weight: 600; font-size: 12px; border-top: none; }
+.long-table td.num { font-variant-numeric: tabular-nums; text-align: right; }
+.long-table .empty { color: var(--muted); }
+
+.legend {
+  margin: 12px; padding: 10px 12px; font-size: 12px; color: var(--muted);
+  display: flex; flex-wrap: wrap; gap: 10px;
+}
+.legend .item { display: inline-flex; align-items: center; gap: 4px; }
+.swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+
+footer {
+  padding: 20px 16px 40px; text-align: center; color: var(--muted); font-size: 11px;
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>オンライン診療 枠モニタ</h1>
+  <p class="updated" id="updated"></p>
+</header>
+
+<div id="hero" class="today-hero"></div>
+
+<section>
+  <h2>今日〜1週間（詳細）</h2>
+  <div id="week"></div>
+</section>
+
+<section>
+  <h2>8〜30日先（サマリ）</h2>
+  <div id="long"></div>
+</section>
+
+<div class="legend">
+  <span class="item"><span class="swatch" style="background:var(--c)"></span>C=CLINICS</span>
+  <span class="item"><span class="swatch" style="background:var(--s)"></span>S=SOKUYAKU</span>
+  <span class="item"><span class="swatch" style="background:var(--k)"></span>K=クロン</span>
+  <span class="item"><span class="swatch" style="background:var(--g)"></span>G=GMO</span>
+  <span class="item"><span class="swatch" style="background:var(--n)"></span>N=ドクターナウ</span>
+  <span class="item"><span class="swatch" style="background:var(--h)"></span>H=HdD24</span>
+  <span class="item">予約済= 枠が黄色</span>
+</div>
+
+<footer>
+  <div>This page is private. Do not share the URL.</div>
+</footer>
+
+<script>
+const PAYLOAD = {"generated": "2026-04-17T01:29:00.082850+09:00", "timezone": "Asia/Tokyo", "next_open": "22:00", "days": [{"date": "2026-04-17", "short": "4/17(金)", "dow": "金", "open_count": 6, "booked_count": 7, "first_open": "22:00", "last_open": "23:50", "first_booked": "22:10", "last_booked": "23:45", "per_platform_open": {"クロン": 2, "CLINICS": 4}, "per_platform_booked": {"CLINICS": 2, "SOKUYAKU": 4, "GMO": 1}, "slots": [{"time": "22:00", "platforms": {"クロン": {"status": "open", "end_time": "22:10"}}, "gcal": null}, {"time": "22:10", "platforms": {"CLINICS": {"status": "booked", "end_time": ""}}, "gcal": null}, {"time": "22:20", "platforms": {"CLINICS": {"status": "booked", "end_time": ""}}, "gcal": null}, {"time": "22:30", "platforms": {"SOKUYAKU": {"status": "booked", "end_time": "22:45"}}, "gcal": null}, {"time": "22:45", "platforms": {"SOKUYAKU": {"status": "booked", "end_time": "23:00"}}, "gcal": null}, {"time": "22:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:00", "platforms": {"GMO": {"status": "booked", "end_time": "23:10"}}, "gcal": null}, {"time": "23:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:30", "platforms": {"SOKUYAKU": {"status": "booked", "end_time": "23:45"}, "クロン": {"status": "open", "end_time": "23:40"}}, "gcal": null}, {"time": "23:45", "platforms": {"SOKUYAKU": {"status": "booked", "end_time": "24:00"}}, "gcal": null}, {"time": "23:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}], "last_updated": "2026-04-17T01:23:43.183834+09:00"}, {"date": "2026-04-18", "short": "4/18(土)", "dow": "土", "open_count": 5, "booked_count": 0, "first_open": "22:50", "last_open": "23:50", "first_booked": "", "last_booked": "", "per_platform_open": {"CLINICS": 4, "クロン": 1}, "per_platform_booked": {}, "slots": [{"time": "12:00", "platforms": {"クロン": {"status": "closed", "end_time": "12:10"}}, "gcal": null}, {"time": "13:30", "platforms": {"クロン": {"status": "closed", "end_time": "13:40"}}, "gcal": null}, {"time": "19:30", "platforms": {"クロン": {"status": "closed", "end_time": "19:40"}}, "gcal": null}, {"time": "22:00", "platforms": {"クロン": {"status": "closed", "end_time": "22:10"}}, "gcal": null}, {"time": "22:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:30", "platforms": {"クロン": {"status": "open", "end_time": "23:40"}}, "gcal": null}, {"time": "23:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}], "last_updated": "2026-04-17T01:24:23.501356+09:00"}, {"date": "2026-04-19", "short": "4/19(日)", "dow": "日", "open_count": 5, "booked_count": 2, "first_open": "22:20", "last_open": "23:50", "first_booked": "22:10", "last_booked": "22:30", "per_platform_open": {"CLINICS": 5}, "per_platform_booked": {"CLINICS": 1, "SOKUYAKU": 1}, "slots": [{"time": "22:10", "platforms": {"CLINICS": {"status": "booked", "end_time": ""}}, "gcal": null}, {"time": "22:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:30", "platforms": {"SOKUYAKU": {"status": "booked", "end_time": "22:45"}}, "gcal": null}, {"time": "22:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}], "last_updated": "2026-04-17T01:25:29.573074+09:00"}, {"date": "2026-04-20", "short": "4/20(月)", "dow": "月", "open_count": 10, "booked_count": 3, "first_open": "12:10", "last_open": "23:20", "first_booked": "12:00", "last_booked": "18:40", "per_platform_open": {"CLINICS": 10}, "per_platform_booked": {"CLINICS": 3}, "slots": [{"time": "12:00", "platforms": {"CLINICS": {"status": "booked", "end_time": ""}}, "gcal": null}, {"time": "12:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "12:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "12:40", "platforms": {"CLINICS": {"status": "booked", "end_time": ""}}, "gcal": null}, {"time": "13:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "13:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "13:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "18:40", "platforms": {"CLINICS": {"status": "booked", "end_time": ""}}, "gcal": null}, {"time": "22:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}], "last_updated": "2026-04-17T01:26:20.231440+09:00"}, {"date": "2026-04-21", "short": "4/21(火)", "dow": "火", "open_count": 5, "booked_count": 1, "first_open": "22:10", "last_open": "23:20", "first_booked": "23:00", "last_booked": "23:00", "per_platform_open": {"CLINICS": 5}, "per_platform_booked": {"GMO": 1}, "slots": [{"time": "22:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:00", "platforms": {"GMO": {"status": "booked", "end_time": "23:10"}}, "gcal": null}, {"time": "23:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}], "last_updated": "2026-04-17T01:27:13.400947+09:00"}, {"date": "2026-04-22", "short": "4/22(水)", "dow": "水", "open_count": 6, "booked_count": 0, "first_open": "22:10", "last_open": "23:50", "first_booked": "", "last_booked": "", "per_platform_open": {"CLINICS": 6}, "per_platform_booked": {}, "slots": [{"time": "22:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}], "last_updated": "2026-04-17T01:28:04.456575+09:00"}, {"date": "2026-04-23", "short": "4/23(木)", "dow": "木", "open_count": 5, "booked_count": 0, "first_open": "22:10", "last_open": "23:20", "first_booked": "", "last_booked": "", "per_platform_open": {"CLINICS": 5}, "per_platform_booked": {}, "slots": [{"time": "22:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "22:50", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:10", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}, {"time": "23:20", "platforms": {"CLINICS": {"status": "open", "end_time": ""}}, "gcal": null}], "last_updated": "2026-04-17T01:28:59.924834+09:00"}]};
+const PLATFORM_CSS = {C:"c", S:"s", "クロン":"k", GMO:"g", CLINICS:"c", SOKUYAKU:"s"};
+const PLATFORM_SHORT = {CLINICS:"C", SOKUYAKU:"S", "クロン":"K", GMO:"G"};
+const GCAL_CSS = {C:"c", S:"s", K:"k", G:"g", N:"n", H:"h"};
+
+function fmtJst(iso) {
+  if (!iso) return "";
+  try {
+    const d = new Date(iso);
+    const pad = n => String(n).padStart(2, "0");
+    return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+  } catch(e) { return iso; }
+}
+
+function renderHero() {
+  const today = PAYLOAD.days[0];
+  const hero = document.getElementById("hero");
+  if (!today) { hero.innerHTML = "<h2>今日</h2><div class='hero-range dim'>データなし</div>"; return; }
+
+  let range = "";
+  if (today.first_open) {
+    range = `<div class="hero-range">${today.first_open} – ${today.last_open}</div>`;
+  } else {
+    range = `<div class="hero-range dim">本日の空き枠はありません</div>`;
+  }
+  let stats = `<div class="hero-stats">空き <b>${today.open_count}</b> / 予約 <b>${today.booked_count}</b></div>`;
+  let next = "";
+  if (PAYLOAD.next_open) {
+    next = `<div class="hero-next">次の空き: <b>${PAYLOAD.next_open}</b></div>`;
+  }
+  hero.innerHTML = `<h2>本日 ${today.short}</h2>${range}${stats}${next}`;
+}
+
+function platformPill(name, info) {
+  const short = PLATFORM_SHORT[name] || name;
+  const css = PLATFORM_CSS[name] || "";
+  const st = info.status;
+  let cls = `pill ${css}`;
+  let label = short;
+  if (st === "open") {
+    label = short;
+  } else if (st === "booked") {
+    cls += " booked";
+    label = short + "●";
+  } else if (st === "closed") {
+    cls = "pill closed";
+    label = short + "×";
+  }
+  return `<span class="${cls}">${label}</span>`;
+}
+
+function gcalPill(gc) {
+  const css = GCAL_CSS[gc.code] || "h";
+  const label = (gc.code || "?") + (gc.visit_type ? `:${gc.visit_type}` : "");
+  return `<span class="pill reserved ${css}" style="background:var(--${css});color:#fff">${label}</span>`;
+}
+
+function dayDetails(day, isToday) {
+  let rows = "";
+  const now = new Date();
+  const pad = n => String(n).padStart(2, "0");
+  const nowHHMM = `${pad(now.getHours())}:${pad(now.getMinutes())}`;
+  for (const cell of day.slots) {
+    let pills = "";
+    for (const [name, info] of Object.entries(cell.platforms)) {
+      pills += platformPill(name, info);
+    }
+    if (cell.gcal) {
+      pills += gcalPill(cell.gcal);
+    }
+    const past = (isToday && cell.time < nowHHMM) ? " past" : "";
+    rows += `<div class="slot-row"><div class="slot-time${past}">${cell.time}</div><div class="slot-platforms">${pills}</div></div>`;
+  }
+  return `<div class="slot-grid">${rows || "<div style='padding:10px;color:var(--muted)'>枠なし</div>"}</div>`;
+}
+
+function renderWeek() {
+  const target = document.getElementById("week");
+  const today = PAYLOAD.days[0] ? PAYLOAD.days[0].date : "";
+  const html = PAYLOAD.days.slice(0, 7).map((day, i) => {
+    const isToday = day.date === today && i === 0;
+    const openCls = isToday ? "today" : "";
+    const rangeText = day.first_open
+      ? `${day.first_open} – ${day.last_open}`
+      : "空き枠なし";
+    const rangeCls = day.first_open ? "day-range" : "day-range empty";
+    const attrOpen = i === 0 ? "open" : "";
+    return `<details class="day" ${attrOpen}>
+      <summary>
+        <span class="day-date ${openCls}">${day.short}</span>
+        <span class="${rangeCls}">${rangeText}</span>
+        <span class="day-badges">
+          <span class="badge open">空${day.open_count}</span>
+          <span class="badge booked">予${day.booked_count}</span>
+        </span>
+      </summary>
+      ${dayDetails(day, isToday)}
+    </details>`;
+  }).join("");
+  target.innerHTML = html;
+}
+
+function renderLong() {
+  const target = document.getElementById("long");
+  const days = PAYLOAD.days.slice(7);
+  if (!days.length) { target.innerHTML = "<div class='empty' style='color:var(--muted);font-size:13px'>データがありません（日次長期ジョブを起動後に表示）</div>"; return; }
+  let rows = "";
+  for (const day of days) {
+    const range = day.first_open ? `${day.first_open}–${day.last_open}` : "—";
+    const rangeCls = day.first_open ? "" : "empty";
+    rows += `<tr>
+      <td>${day.short}</td>
+      <td class="${rangeCls}">${range}</td>
+      <td class="num">${day.open_count}</td>
+      <td class="num">${day.booked_count}</td>
+    </tr>`;
+  }
+  target.innerHTML = `<table class="long-table">
+    <thead><tr><th>日付</th><th>空き時間帯</th><th>空き</th><th>予約</th></tr></thead>
+    <tbody>${rows}</tbody></table>`;
+}
+
+document.getElementById("updated").textContent = "最終更新: " + fmtJst(PAYLOAD.generated);
+renderHero();
+renderWeek();
+renderLong();
+</script>
+</body>
+</html>
