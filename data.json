@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-17T05:30:58.890540+09:00",
+  "generated": "2026-04-17T06:05:04.776683+09:00",
   "timezone": "Asia/Tokyo",
   "next_open": "22:00",
   "days": [
@@ -69,7 +69,7 @@
           "platforms": {
             "SOKUYAKU": {
               "status": "booked",
-              "end_time": "22:45"
+              "end_time": "23:00"
             }
           },
           "gcal": {
@@ -144,7 +144,7 @@
           "platforms": {
             "SOKUYAKU": {
               "status": "booked",
-              "end_time": "23:45"
+              "end_time": "23:59"
             },
             "クロン": {
               "status": "open",
@@ -184,19 +184,20 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T05:27:31.835209+09:00"
+      "last_updated": "2026-04-17T06:02:04.222827+09:00"
     },
     {
       "date": "2026-04-18",
       "short": "4/18(土)",
       "dow": "土",
-      "open_count": 6,
+      "open_count": 7,
       "booked_count": 0,
-      "first_open": "22:50",
+      "first_open": "22:30",
       "last_open": "23:50",
       "first_booked": "",
       "last_booked": "",
       "per_platform_open": {
+        "SOKUYAKU": 2,
         "CLINICS": 4,
         "GMO": 1,
         "クロン": 1
@@ -239,6 +240,16 @@
             "クロン": {
               "status": "closed",
               "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
             }
           },
           "gcal": null
@@ -289,6 +300,10 @@
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
             }
           },
           "gcal": null
@@ -304,7 +319,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T05:28:10.514971+09:00"
+      "last_updated": "2026-04-17T06:02:29.333474+09:00"
     },
     {
       "date": "2026-04-19",
@@ -319,7 +334,8 @@
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
-        "GMO": 1
+        "GMO": 1,
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "CLINICS": 1,
@@ -397,7 +413,7 @@
           "platforms": {
             "SOKUYAKU": {
               "status": "booked",
-              "end_time": "22:45"
+              "end_time": "23:00"
             }
           },
           "gcal": {
@@ -453,6 +469,10 @@
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
             }
           },
           "gcal": null
@@ -468,7 +488,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T05:28:57.039189+09:00"
+      "last_updated": "2026-04-17T06:03:00.226379+09:00"
     },
     {
       "date": "2026-04-20",
@@ -487,12 +507,18 @@
       },
       "per_platform_booked": {
         "gcal": 8,
+        "SOKUYAKU": 3,
         "CLINICS": 3
       },
       "slots": [
         {
           "time": "11:30",
-          "platforms": {},
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "12:00"
+            }
+          },
           "gcal": {
             "code": "S",
             "visit_type": "再診",
@@ -602,7 +628,12 @@
         },
         {
           "time": "13:30",
-          "platforms": {},
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "14:00"
+            }
+          },
           "gcal": {
             "code": "S",
             "visit_type": "再診",
@@ -687,7 +718,12 @@
         },
         {
           "time": "22:30",
-          "platforms": {},
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "23:00"
+            }
+          },
           "gcal": {
             "code": "S",
             "visit_type": "再診",
@@ -746,7 +782,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T05:29:27.550485+09:00"
+      "last_updated": "2026-04-17T06:03:30.713151+09:00"
     },
     {
       "date": "2026-04-21",
@@ -765,6 +801,7 @@
       "per_platform_booked": {
         "CLINICS": 1,
         "gcal": 3,
+        "SOKUYAKU": 1,
         "GMO": 1
       },
       "slots": [
@@ -805,7 +842,12 @@
         },
         {
           "time": "22:30",
-          "platforms": {},
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "23:00"
+            }
+          },
           "gcal": {
             "code": "S",
             "visit_type": "再診",
@@ -869,13 +911,13 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T05:29:58.042525+09:00"
+      "last_updated": "2026-04-17T06:04:01.106693+09:00"
     },
     {
       "date": "2026-04-22",
       "short": "4/22(水)",
       "dow": "水",
-      "open_count": 9,
+      "open_count": 10,
       "booked_count": 0,
       "first_open": "22:00",
       "last_open": "23:50",
@@ -884,6 +926,7 @@
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 6,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {},
@@ -914,6 +957,16 @@
             "CLINICS": {
               "status": "open",
               "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
             }
           },
           "gcal": null
@@ -964,6 +1017,10 @@
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
             }
           },
           "gcal": null
@@ -979,13 +1036,13 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T05:30:28.003795+09:00"
+      "last_updated": "2026-04-17T06:04:34.010642+09:00"
     },
     {
       "date": "2026-04-23",
       "short": "4/23(木)",
       "dow": "木",
-      "open_count": 8,
+      "open_count": 9,
       "booked_count": 0,
       "first_open": "22:00",
       "last_open": "23:30",
@@ -994,6 +1051,7 @@
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
+        "SOKUYAKU": 1,
         "GMO": 1
       },
       "per_platform_booked": {},
@@ -1039,6 +1097,16 @@
           "gcal": null
         },
         {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
           "time": "22:50",
           "platforms": {
             "CLINICS": {
@@ -1089,7 +1157,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T05:30:58.587567+09:00"
+      "last_updated": "2026-04-17T06:05:04.305425+09:00"
     }
   ]
 }
