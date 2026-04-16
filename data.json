@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-17T07:13:23.144658+09:00",
+  "generated": "2026-04-17T07:34:31.526883+09:00",
   "timezone": "Asia/Tokyo",
   "next_open": "22:00",
   "days": [
@@ -8,7 +8,7 @@
       "short": "4/17(金)",
       "dow": "金",
       "open_count": 6,
-      "booked_count": 8,
+      "booked_count": 7,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
@@ -20,7 +20,7 @@
       "per_platform_booked": {
         "CLINICS": 2,
         "gcal": 7,
-        "SOKUYAKU": 5,
+        "SOKUYAKU": 4,
         "GMO": 1
       },
       "slots": [
@@ -159,16 +159,6 @@
           }
         },
         {
-          "time": "23:44",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:59"
-            }
-          },
-          "gcal": null
-        },
-        {
           "time": "23:45",
           "platforms": {
             "SOKUYAKU": {
@@ -194,7 +184,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T07:10:21.521137+09:00"
+      "last_updated": "2026-04-17T07:18:03.294111+09:00"
     },
     {
       "date": "2026-04-18",
@@ -307,13 +297,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcal": null
@@ -329,7 +319,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T07:10:45.605813+09:00"
+      "last_updated": "2026-04-17T07:18:26.303982+09:00"
     },
     {
       "date": "2026-04-19",
@@ -476,13 +466,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcal": null
@@ -498,7 +488,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T07:11:16.810065+09:00"
+      "last_updated": "2026-04-17T07:18:56.356607+09:00"
     },
     {
       "date": "2026-04-20",
@@ -516,8 +506,8 @@
         "クロン": 3
       },
       "per_platform_booked": {
-        "gcal": 8,
         "SOKUYAKU": 5,
+        "gcal": 8,
         "CLINICS": 3
       },
       "slots": [
@@ -802,7 +792,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T07:11:47.795810+09:00"
+      "last_updated": "2026-04-17T07:19:26.532435+09:00"
     },
     {
       "date": "2026-04-21",
@@ -931,7 +921,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T07:12:18.580888+09:00"
+      "last_updated": "2026-04-17T07:19:56.438612+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1034,13 +1024,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcal": null
@@ -1056,7 +1046,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T07:12:49.781294+09:00"
+      "last_updated": "2026-04-17T07:20:26.416234+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1177,7 +1167,4886 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T07:13:22.708322+09:00"
+      "last_updated": "2026-04-17T07:20:56.074201+09:00"
+    },
+    {
+      "date": "2026-04-24",
+      "short": "4/24(金)",
+      "dow": "金",
+      "open_count": 6,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:00",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 1,
+        "CLINICS": 3,
+        "SOKUYAKU": 1,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:21:25.438180+09:00"
+    },
+    {
+      "date": "2026-04-25",
+      "short": "4/25(土)",
+      "dow": "土",
+      "open_count": 5,
+      "booked_count": 0,
+      "first_open": "23:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "GMO": 1,
+        "CLINICS": 3,
+        "SOKUYAKU": 1,
+        "クロン": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "13:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:21:54.930810+09:00"
+    },
+    {
+      "date": "2026-04-26",
+      "short": "4/26(日)",
+      "dow": "日",
+      "open_count": 9,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:30",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 5,
+        "SOKUYAKU": 2,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "10:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "10:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:22:27.864176+09:00"
+    },
+    {
+      "date": "2026-04-27",
+      "short": "4/27(月)",
+      "dow": "月",
+      "open_count": 26,
+      "booked_count": 2,
+      "first_open": "11:30",
+      "last_open": "23:30",
+      "first_booked": "12:30",
+      "last_booked": "18:30",
+      "per_platform_open": {
+        "SOKUYAKU": 4,
+        "CLINICS": 17,
+        "クロン": 4,
+        "GMO": 1
+      },
+      "per_platform_booked": {
+        "GMO": 2,
+        "gcal": 2
+      },
+      "slots": [
+        {
+          "time": "11:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "12:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "GMO": {
+              "status": "booked",
+              "end_time": "12:40"
+            }
+          },
+          "gcal": {
+            "code": "G",
+            "visit_type": "再診",
+            "department": "総診",
+            "end_time": "12:40"
+          }
+        },
+        {
+          "time": "12:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "14:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "booked",
+              "end_time": "18:40"
+            }
+          },
+          "gcal": {
+            "code": "G",
+            "visit_type": "再診",
+            "department": "",
+            "end_time": "18:40"
+          }
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:23:01.199373+09:00"
+    },
+    {
+      "date": "2026-04-28",
+      "short": "4/28(火)",
+      "dow": "火",
+      "open_count": 9,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:30",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 5,
+        "SOKUYAKU": 1,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:23:33.766332+09:00"
+    },
+    {
+      "date": "2026-04-29",
+      "short": "4/29(水)",
+      "dow": "水",
+      "open_count": 10,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 6,
+        "SOKUYAKU": 2,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "10:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "10:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:24:06.996898+09:00"
+    },
+    {
+      "date": "2026-04-30",
+      "short": "4/30(木)",
+      "dow": "木",
+      "open_count": 18,
+      "booked_count": 3,
+      "first_open": "12:10",
+      "last_open": "23:30",
+      "first_booked": "11:30",
+      "last_booked": "12:00",
+      "per_platform_open": {
+        "CLINICS": 11,
+        "GMO": 2,
+        "クロン": 3,
+        "SOKUYAKU": 2
+      },
+      "per_platform_booked": {
+        "SOKUYAKU": 2,
+        "gcal": 3,
+        "CLINICS": 1
+      },
+      "slots": [
+        {
+          "time": "11:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "11:45"
+            }
+          },
+          "gcal": {
+            "code": "S",
+            "visit_type": "再診",
+            "department": "整形",
+            "end_time": "11:40"
+          }
+        },
+        {
+          "time": "11:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "12:00"
+            }
+          },
+          "gcal": {
+            "code": "S",
+            "visit_type": "再診",
+            "department": "整形",
+            "end_time": "11:55"
+          }
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "booked",
+              "end_time": ""
+            }
+          },
+          "gcal": {
+            "code": "C",
+            "visit_type": "再診",
+            "department": "",
+            "end_time": "12:10"
+          }
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "12:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "14:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:24:39.681954+09:00"
+    },
+    {
+      "date": "2026-05-01",
+      "short": "5/1(金)",
+      "dow": "金",
+      "open_count": 10,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 6,
+        "SOKUYAKU": 2,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:25:11.970232+09:00"
+    },
+    {
+      "date": "2026-05-02",
+      "short": "5/2(土)",
+      "dow": "土",
+      "open_count": 27,
+      "booked_count": 1,
+      "first_open": "12:00",
+      "last_open": "23:50",
+      "first_booked": "12:10",
+      "last_booked": "12:10",
+      "per_platform_open": {
+        "クロン": 5,
+        "CLINICS": 16,
+        "SOKUYAKU": 4,
+        "GMO": 3
+      },
+      "per_platform_booked": {
+        "CLINICS": 1,
+        "gcal": 1
+      },
+      "slots": [
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "booked",
+              "end_time": ""
+            }
+          },
+          "gcal": {
+            "code": "C",
+            "visit_type": "再診",
+            "department": "",
+            "end_time": "12:20"
+          }
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "13:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "18:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:25:44.663791+09:00"
+    },
+    {
+      "date": "2026-05-03",
+      "short": "5/3(日)",
+      "dow": "日",
+      "open_count": 37,
+      "booked_count": 0,
+      "first_open": "10:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 5,
+        "CLINICS": 24,
+        "SOKUYAKU": 5,
+        "GMO": 4
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "10:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "10:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "10:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "10:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "10:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "11:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "11:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "13:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "18:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:26:21.108753+09:00"
+    },
+    {
+      "date": "2026-05-04",
+      "short": "5/4(月)",
+      "dow": "月",
+      "open_count": 28,
+      "booked_count": 0,
+      "first_open": "10:00",
+      "last_open": "23:30",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 5,
+        "SOKUYAKU": 4,
+        "CLINICS": 17,
+        "GMO": 3
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "10:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "10:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "12:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "12:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "14:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "18:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:26:56.782172+09:00"
+    },
+    {
+      "date": "2026-05-05",
+      "short": "5/5(火)",
+      "dow": "火",
+      "open_count": 12,
+      "booked_count": 0,
+      "first_open": "10:00",
+      "last_open": "23:30",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 5,
+        "CLINICS": 5,
+        "SOKUYAKU": 1,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "10:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "10:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:27:32.806753+09:00"
+    },
+    {
+      "date": "2026-05-06",
+      "short": "5/6(水)",
+      "dow": "水",
+      "open_count": 13,
+      "booked_count": 0,
+      "first_open": "10:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 5,
+        "CLINICS": 6,
+        "SOKUYAKU": 2,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "10:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "10:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:28:08.331859+09:00"
+    },
+    {
+      "date": "2026-05-07",
+      "short": "5/7(木)",
+      "dow": "木",
+      "open_count": 19,
+      "booked_count": 1,
+      "first_open": "11:30",
+      "last_open": "23:30",
+      "first_booked": "12:00",
+      "last_booked": "12:00",
+      "per_platform_open": {
+        "SOKUYAKU": 3,
+        "CLINICS": 11,
+        "GMO": 2,
+        "クロン": 3
+      },
+      "per_platform_booked": {
+        "CLINICS": 1,
+        "gcal": 1
+      },
+      "slots": [
+        {
+          "time": "11:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "12:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "booked",
+              "end_time": ""
+            }
+          },
+          "gcal": {
+            "code": "C",
+            "visit_type": "再診",
+            "department": "",
+            "end_time": "12:10"
+          }
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "12:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "14:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:28:44.499792+09:00"
+    },
+    {
+      "date": "2026-05-08",
+      "short": "5/8(金)",
+      "dow": "金",
+      "open_count": 10,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 6,
+        "SOKUYAKU": 2,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:29:20.069432+09:00"
+    },
+    {
+      "date": "2026-05-09",
+      "short": "5/9(土)",
+      "dow": "土",
+      "open_count": 27,
+      "booked_count": 2,
+      "first_open": "12:00",
+      "last_open": "23:50",
+      "first_booked": "12:30",
+      "last_booked": "12:45",
+      "per_platform_open": {
+        "クロン": 5,
+        "CLINICS": 17,
+        "GMO": 3,
+        "SOKUYAKU": 3
+      },
+      "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 1
+      },
+      "slots": [
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "13:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:45",
+          "platforms": {},
+          "gcal": {
+            "code": "S",
+            "visit_type": "再診",
+            "department": "耳鼻",
+            "end_time": "12:55"
+          }
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "18:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:29:56.987895+09:00"
+    },
+    {
+      "date": "2026-05-10",
+      "short": "5/10(日)",
+      "dow": "日",
+      "open_count": 37,
+      "booked_count": 0,
+      "first_open": "10:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 5,
+        "CLINICS": 24,
+        "SOKUYAKU": 5,
+        "GMO": 4
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "10:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "10:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "10:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "10:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "10:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "11:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "11:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "11:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "13:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "18:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:30:35.795875+09:00"
+    },
+    {
+      "date": "2026-05-11",
+      "short": "5/11(月)",
+      "dow": "月",
+      "open_count": 26,
+      "booked_count": 2,
+      "first_open": "12:00",
+      "last_open": "23:30",
+      "first_booked": "11:30",
+      "last_booked": "19:40",
+      "per_platform_open": {
+        "CLINICS": 16,
+        "GMO": 3,
+        "クロン": 4,
+        "SOKUYAKU": 3
+      },
+      "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 1,
+        "CLINICS": 1
+      },
+      "slots": [
+        {
+          "time": "11:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "12:00"
+            }
+          },
+          "gcal": {
+            "code": "S",
+            "visit_type": "再診",
+            "department": "不眠",
+            "end_time": "11:40"
+          }
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "12:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "14:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "18:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "booked",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:31:15.610021+09:00"
+    },
+    {
+      "date": "2026-05-12",
+      "short": "5/12(火)",
+      "dow": "火",
+      "open_count": 9,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:30",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 5,
+        "SOKUYAKU": 1,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:31:54.563823+09:00"
+    },
+    {
+      "date": "2026-05-13",
+      "short": "5/13(水)",
+      "dow": "水",
+      "open_count": 10,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 6,
+        "SOKUYAKU": 2,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:32:33.279677+09:00"
+    },
+    {
+      "date": "2026-05-14",
+      "short": "5/14(木)",
+      "dow": "木",
+      "open_count": 20,
+      "booked_count": 0,
+      "first_open": "11:30",
+      "last_open": "23:30",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "SOKUYAKU": 3,
+        "CLINICS": 12,
+        "GMO": 2,
+        "クロン": 3
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "11:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "12:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "12:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "14:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:33:11.821434+09:00"
+    },
+    {
+      "date": "2026-05-15",
+      "short": "5/15(金)",
+      "dow": "金",
+      "open_count": 10,
+      "booked_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 6,
+        "SOKUYAKU": 2,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:33:51.366139+09:00"
+    },
+    {
+      "date": "2026-05-16",
+      "short": "5/16(土)",
+      "dow": "土",
+      "open_count": 28,
+      "booked_count": 0,
+      "first_open": "12:00",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 5,
+        "CLINICS": 17,
+        "SOKUYAKU": 4,
+        "GMO": 3
+      },
+      "per_platform_booked": {},
+      "slots": [
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "13:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "13:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "18:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcal": null
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcal": null
+        }
+      ],
+      "last_updated": "2026-04-17T07:34:31.049906+09:00"
     }
   ]
 }
