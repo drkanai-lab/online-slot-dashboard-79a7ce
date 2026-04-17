@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-17T09:30:43.434402+09:00",
+  "generated": "2026-04-17T10:04:51.304094+09:00",
   "timezone": "Asia/Tokyo",
   "next_open": "22:00",
   "days": [
@@ -189,7 +189,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T09:27:44.195672+09:00"
+      "last_updated": "2026-04-17T10:01:53.149500+09:00"
     },
     {
       "date": "2026-04-18",
@@ -324,7 +324,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T09:28:08.386273+09:00"
+      "last_updated": "2026-04-17T10:02:17.419073+09:00"
     },
     {
       "date": "2026-04-19",
@@ -493,28 +493,27 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T09:28:38.711931+09:00"
+      "last_updated": "2026-04-17T10:02:48.369060+09:00"
     },
     {
       "date": "2026-04-20",
       "short": "4/20(月)",
       "dow": "月",
       "open_count": 14,
-      "booked_count": 9,
-      "first_open": "12:10",
+      "booked_count": 10,
+      "first_open": "12:20",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "22:30",
       "per_platform_open": {
-        "CLINICS": 10,
-        "クロン": 3,
-        "GMO": 1
+        "CLINICS": 9,
+        "GMO": 2,
+        "クロン": 3
       },
       "per_platform_booked": {
         "SOKUYAKU": 5,
-        "gcal": 9,
-        "CLINICS": 3,
-        "GMO": 1
+        "gcal": 10,
+        "CLINICS": 4
       },
       "slots": [
         {
@@ -566,11 +565,16 @@
           "time": "12:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
+              "status": "booked",
               "end_time": ""
             }
           },
-          "gcal": null
+          "gcal": {
+            "code": "C",
+            "visit_type": "再診",
+            "department": "",
+            "end_time": "12:20"
+          }
         },
         {
           "time": "12:20",
@@ -586,7 +590,7 @@
           "time": "12:30",
           "platforms": {
             "GMO": {
-              "status": "booked",
+              "status": "open",
               "end_time": "12:40"
             }
           },
@@ -803,7 +807,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T09:29:09.314575+09:00"
+      "last_updated": "2026-04-17T10:03:19.282079+09:00"
     },
     {
       "date": "2026-04-21",
@@ -932,7 +936,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T09:29:40.457511+09:00"
+      "last_updated": "2026-04-17T10:03:50.248632+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1057,7 +1061,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T09:30:11.042963+09:00"
+      "last_updated": "2026-04-17T10:04:20.638226+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1178,7 +1182,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T09:30:42.163969+09:00"
+      "last_updated": "2026-04-17T10:04:50.945955+09:00"
     }
   ]
 }
