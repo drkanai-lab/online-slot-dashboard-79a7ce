@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-18T00:26:48.952797+09:00",
+  "generated": "2026-04-18T01:01:23.045741+09:00",
   "timezone": "Asia/Tokyo",
   "next_open": "23:10",
   "days": [
@@ -8,17 +8,17 @@
       "short": "4/18(土)",
       "dow": "土",
       "open_count": 3,
-      "booked_count": 5,
+      "booked_count": 6,
       "first_open": "23:10",
       "last_open": "23:50",
       "first_booked": "22:30",
-      "last_booked": "23:30",
+      "last_booked": "23:45",
       "per_platform_open": {
         "CLINICS": 3
       },
       "per_platform_booked": {
-        "SOKUYAKU": 3,
-        "gcal": 5,
+        "SOKUYAKU": 4,
+        "gcal": 6,
         "CLINICS": 1,
         "GMO": 1,
         "クロン": 1
@@ -156,7 +156,7 @@
           "platforms": {
             "SOKUYAKU": {
               "status": "booked",
-              "end_time": "23:59"
+              "end_time": "23:45"
             },
             "クロン": {
               "status": "booked",
@@ -171,6 +171,21 @@
           }
         },
         {
+          "time": "23:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "23:59"
+            }
+          },
+          "gcal": {
+            "code": "S",
+            "visit_type": "再診",
+            "department": "総診",
+            "end_time": "23:55"
+          }
+        },
+        {
           "time": "23:50",
           "platforms": {
             "CLINICS": {
@@ -181,18 +196,18 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T00:23:32.199490+09:00"
+      "last_updated": "2026-04-18T00:58:03.461002+09:00"
     },
     {
       "date": "2026-04-19",
       "short": "4/19(日)",
       "dow": "日",
       "open_count": 8,
-      "booked_count": 2,
+      "booked_count": 3,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
-      "last_booked": "22:30",
+      "last_booked": "22:45",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
@@ -201,8 +216,8 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 2,
-        "SOKUYAKU": 1
+        "gcal": 3,
+        "SOKUYAKU": 2
       },
       "ranges": [
         [
@@ -282,7 +297,7 @@
           "platforms": {
             "SOKUYAKU": {
               "status": "booked",
-              "end_time": "23:00"
+              "end_time": "22:45"
             }
           },
           "gcal": {
@@ -290,6 +305,21 @@
             "visit_type": "再診",
             "department": "心療",
             "end_time": "22:40"
+          }
+        },
+        {
+          "time": "22:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": {
+            "code": "S",
+            "visit_type": "再診",
+            "department": "皮膚",
+            "end_time": "22:55"
           }
         },
         {
@@ -357,7 +387,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T00:24:03.959237+09:00"
+      "last_updated": "2026-04-18T00:58:38.534418+09:00"
     },
     {
       "date": "2026-04-20",
@@ -700,7 +730,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T00:24:43.196813+09:00"
+      "last_updated": "2026-04-18T00:59:09.277620+09:00"
     },
     {
       "date": "2026-04-21",
@@ -830,7 +860,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T00:25:15.238981+09:00"
+      "last_updated": "2026-04-18T00:59:42.565683+09:00"
     },
     {
       "date": "2026-04-22",
@@ -962,7 +992,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T00:25:46.571848+09:00"
+      "last_updated": "2026-04-18T01:00:14.748287+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1090,7 +1120,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T00:26:17.703727+09:00"
+      "last_updated": "2026-04-18T01:00:52.128725+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1188,7 +1218,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T00:26:48.534120+09:00"
+      "last_updated": "2026-04-18T01:01:22.582029+09:00"
     }
   ]
 }
