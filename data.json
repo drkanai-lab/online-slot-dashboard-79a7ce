@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-17T20:24:12.349151+09:00",
+  "generated": "2026-04-17T20:58:45.204334+09:00",
   "timezone": "Asia/Tokyo",
   "next_open": "22:00",
   "days": [
@@ -7,19 +7,19 @@
       "date": "2026-04-17",
       "short": "4/17(金)",
       "dow": "金",
-      "open_count": 5,
-      "booked_count": 8,
+      "open_count": 4,
+      "booked_count": 9,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
       "last_booked": "23:45",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 3
+        "CLINICS": 2
       },
       "per_platform_booked": {
-        "CLINICS": 3,
-        "gcal": 8,
+        "CLINICS": 4,
+        "gcal": 9,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -135,11 +135,16 @@
           "time": "23:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
+              "status": "booked",
               "end_time": ""
             }
           },
-          "gcal": null
+          "gcal": {
+            "code": "C",
+            "visit_type": "初診",
+            "department": "心療",
+            "end_time": "23:20"
+          }
         },
         {
           "time": "23:20",
@@ -196,18 +201,18 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T20:21:05.124233+09:00"
+      "last_updated": "2026-04-17T20:55:45.650720+09:00"
     },
     {
       "date": "2026-04-18",
       "short": "4/18(土)",
       "dow": "土",
       "open_count": 6,
-      "booked_count": 1,
+      "booked_count": 2,
       "first_open": "22:50",
       "last_open": "23:50",
       "first_booked": "22:30",
-      "last_booked": "22:30",
+      "last_booked": "22:45",
       "per_platform_open": {
         "CLINICS": 4,
         "GMO": 1,
@@ -215,8 +220,8 @@
         "クロン": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
-        "gcal": 1
+        "SOKUYAKU": 2,
+        "gcal": 2
       },
       "ranges": [
         [
@@ -271,7 +276,7 @@
           "platforms": {
             "SOKUYAKU": {
               "status": "booked",
-              "end_time": "23:00"
+              "end_time": "22:45"
             }
           },
           "gcal": {
@@ -279,6 +284,21 @@
             "visit_type": "再診",
             "department": "耳鼻",
             "end_time": "22:40"
+          }
+        },
+        {
+          "time": "22:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "23:00"
+            }
+          },
+          "gcal": {
+            "code": "S",
+            "visit_type": "初診",
+            "department": "整形",
+            "end_time": "22:55"
           }
         },
         {
@@ -346,7 +366,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T20:21:29.417403+09:00"
+      "last_updated": "2026-04-17T20:56:09.803549+09:00"
     },
     {
       "date": "2026-04-19",
@@ -522,7 +542,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T20:22:00.800614+09:00"
+      "last_updated": "2026-04-17T20:56:41.750827+09:00"
     },
     {
       "date": "2026-04-20",
@@ -860,7 +880,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T20:22:38.237573+09:00"
+      "last_updated": "2026-04-17T20:57:12.093509+09:00"
     },
     {
       "date": "2026-04-21",
@@ -990,7 +1010,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T20:23:09.317617+09:00"
+      "last_updated": "2026-04-17T20:57:42.348495+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1122,7 +1142,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T20:23:40.168963+09:00"
+      "last_updated": "2026-04-17T20:58:13.231870+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1250,7 +1270,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T20:24:11.949872+09:00"
+      "last_updated": "2026-04-17T20:58:44.736412+09:00"
     }
   ]
 }
