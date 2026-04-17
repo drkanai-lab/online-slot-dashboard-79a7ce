@@ -1,25 +1,25 @@
 {
-  "generated": "2026-04-17T22:42:21.386963+09:00",
+  "generated": "2026-04-17T23:17:42.067346+09:00",
   "timezone": "Asia/Tokyo",
-  "next_open": "23:20",
+  "next_open": "23:30",
   "days": [
     {
       "date": "2026-04-17",
       "short": "4/17(金)",
       "dow": "金",
-      "open_count": 4,
-      "booked_count": 9,
+      "open_count": 3,
+      "booked_count": 10,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
       "last_booked": "23:45",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 2
+        "CLINICS": 1
       },
       "per_platform_booked": {
-        "CLINICS": 4,
-        "gcal": 9,
+        "CLINICS": 5,
+        "gcal": 10,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -150,11 +150,16 @@
           "time": "23:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
+              "status": "booked",
               "end_time": ""
             }
           },
-          "gcal": null
+          "gcal": {
+            "code": "C",
+            "visit_type": "再診",
+            "department": "",
+            "end_time": "23:30"
+          }
         },
         {
           "time": "23:30",
@@ -201,27 +206,27 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T22:39:08.863689+09:00"
+      "last_updated": "2026-04-17T23:14:09.382504+09:00"
     },
     {
       "date": "2026-04-18",
       "short": "4/18(土)",
       "dow": "土",
       "open_count": 5,
-      "booked_count": 3,
+      "booked_count": 4,
       "first_open": "22:50",
       "last_open": "23:50",
       "first_booked": "22:30",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 4,
-        "SOKUYAKU": 1,
-        "クロン": 1
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 3,
-        "GMO": 1
+        "gcal": 4,
+        "GMO": 1,
+        "クロン": 1
       },
       "ranges": [
         [
@@ -354,11 +359,16 @@
               "end_time": "23:59"
             },
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:40"
             }
           },
-          "gcal": null
+          "gcal": {
+            "code": "K",
+            "visit_type": "再診",
+            "department": "",
+            "end_time": "23:40"
+          }
         },
         {
           "time": "23:50",
@@ -371,7 +381,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T22:39:34.983668+09:00"
+      "last_updated": "2026-04-17T23:14:42.376168+09:00"
     },
     {
       "date": "2026-04-19",
@@ -547,7 +557,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T22:40:06.881866+09:00"
+      "last_updated": "2026-04-17T23:15:19.911218+09:00"
     },
     {
       "date": "2026-04-20",
@@ -890,7 +900,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T22:40:43.757402+09:00"
+      "last_updated": "2026-04-17T23:15:53.707451+09:00"
     },
     {
       "date": "2026-04-21",
@@ -1020,7 +1030,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T22:41:15.003948+09:00"
+      "last_updated": "2026-04-17T23:16:28.840028+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1152,7 +1162,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T22:41:48.472127+09:00"
+      "last_updated": "2026-04-17T23:17:02.624209+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1280,7 +1290,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T22:42:20.242451+09:00"
+      "last_updated": "2026-04-17T23:17:41.626674+09:00"
     }
   ]
 }
