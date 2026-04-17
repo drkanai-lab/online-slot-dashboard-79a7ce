@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-17T16:23:45.780870+09:00",
+  "generated": "2026-04-17T16:57:57.622082+09:00",
   "timezone": "Asia/Tokyo",
   "next_open": "22:00",
   "days": [
@@ -196,7 +196,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T16:20:44.073307+09:00"
+      "last_updated": "2026-04-17T16:54:56.170212+09:00"
     },
     {
       "date": "2026-04-18",
@@ -346,7 +346,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T16:21:08.639168+09:00"
+      "last_updated": "2026-04-17T16:55:20.565100+09:00"
     },
     {
       "date": "2026-04-19",
@@ -522,7 +522,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T16:21:39.782271+09:00"
+      "last_updated": "2026-04-17T16:55:51.825926+09:00"
     },
     {
       "date": "2026-04-20",
@@ -860,7 +860,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T16:22:10.840648+09:00"
+      "last_updated": "2026-04-17T16:56:22.880442+09:00"
     },
     {
       "date": "2026-04-21",
@@ -996,20 +996,19 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T16:22:43.787092+09:00"
+      "last_updated": "2026-04-17T16:56:54.555798+09:00"
     },
     {
       "date": "2026-04-22",
       "short": "4/22(水)",
       "dow": "水",
-      "open_count": 10,
+      "open_count": 9,
       "booked_count": 0,
-      "first_open": "22:00",
+      "first_open": "22:10",
       "last_open": "23:50",
       "first_booked": "",
       "last_booked": "",
       "per_platform_open": {
-        "クロン": 2,
         "CLINICS": 6,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -1017,22 +1016,12 @@
       "per_platform_booked": {},
       "ranges": [
         [
-          "22:00",
+          "22:10",
           "24:00"
         ]
       ],
-      "range_text": "22:00〜24:00",
+      "range_text": "22:10〜24:00",
       "slots": [
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "22:10"
-            }
-          },
-          "gcal": null
-        },
         {
           "time": "22:10",
           "platforms": {
@@ -1109,10 +1098,6 @@
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:59"
-            },
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
             }
           },
           "gcal": null
@@ -1128,7 +1113,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T16:23:14.247968+09:00"
+      "last_updated": "2026-04-17T16:57:26.040570+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1256,7 +1241,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-17T16:23:45.434211+09:00"
+      "last_updated": "2026-04-17T16:57:57.166019+09:00"
     }
   ]
 }
