@@ -1,35 +1,35 @@
 {
-  "generated": "2026-04-18T12:06:38.683364+09:00",
+  "generated": "2026-04-18T12:15:56.905017+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-18",
     "short": "4/18(土)",
-    "time": "22:30",
+    "time": "12:30",
     "code": "S",
-    "patient_name": "小野松 智大",
-    "visit_type": "再診",
-    "department": "耳鼻"
+    "patient_name": "鈴木 利枝",
+    "visit_type": "初診",
+    "department": "眼"
   },
   "days": [
     {
       "date": "2026-04-18",
       "short": "4/18(土)",
       "dow": "土",
-      "open_count": 17,
-      "booked_count": 6,
+      "open_count": 15,
+      "booked_count": 8,
       "first_open": "12:10",
       "last_open": "23:50",
-      "first_booked": "22:30",
+      "first_booked": "12:30",
       "last_booked": "23:45",
       "per_platform_open": {
         "CLINICS": 11,
-        "SOKUYAKU": 4,
         "GMO": 2,
+        "SOKUYAKU": 2,
         "クロン": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 4,
-        "gcal": 6,
+        "SOKUYAKU": 6,
+        "gcal": 7,
         "CLINICS": 1,
         "GMO": 1,
         "クロン": 1
@@ -84,17 +84,23 @@
           "time": "12:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:45"
             }
           },
-          "gcal": null
+          "gcal": {
+            "code": "S",
+            "patient_name": "鈴木 利枝",
+            "visit_type": "初診",
+            "department": "眼",
+            "end_time": "12:40"
+          }
         },
         {
           "time": "12:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:00"
             }
           },
@@ -355,7 +361,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T12:03:30.787553+09:00"
+      "last_updated": "2026-04-18T12:12:49.766564+09:00"
     },
     {
       "date": "2026-04-19",
@@ -559,7 +565,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T12:04:01.440196+09:00"
+      "last_updated": "2026-04-18T12:13:20.649878+09:00"
     },
     {
       "date": "2026-04-20",
@@ -925,7 +931,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T12:04:33.444079+09:00"
+      "last_updated": "2026-04-18T12:13:52.080995+09:00"
     },
     {
       "date": "2026-04-21",
@@ -1067,7 +1073,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T12:05:04.893221+09:00"
+      "last_updated": "2026-04-18T12:14:23.212361+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1219,7 +1225,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T12:05:35.802167+09:00"
+      "last_updated": "2026-04-18T12:14:53.897012+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1357,7 +1363,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T12:06:07.126831+09:00"
+      "last_updated": "2026-04-18T12:15:24.349162+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1465,7 +1471,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T12:06:38.326688+09:00"
+      "last_updated": "2026-04-18T12:15:56.177841+09:00"
     }
   ]
 }
