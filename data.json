@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T01:27:00.246838+09:00",
+  "generated": "2026-04-19T01:32:17.738407+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-19",
@@ -17,8 +17,8 @@
       "dow": "日",
       "open_count": 4,
       "booked_count": 9,
-      "new_count": 1,
-      "revisit_count": 8,
+      "new_count": 2,
+      "revisit_count": 7,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
@@ -29,7 +29,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 8,
+        "gcal": 9,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -197,7 +197,15 @@
               "end_time": ""
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "和久井己季",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "23:20"
+            }
+          ]
         },
         {
           "time": "23:20",
@@ -260,7 +268,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T01:24:15.921313+09:00"
+      "last_updated": "2026-04-19T01:30:33.136448+09:00"
     },
     {
       "date": "2026-04-20",
@@ -674,7 +682,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T01:24:40.345716+09:00"
+      "last_updated": "2026-04-19T01:30:58.473638+09:00"
     },
     {
       "date": "2026-04-21",
@@ -830,7 +838,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T01:25:05.235493+09:00"
+      "last_updated": "2026-04-19T01:31:22.753090+09:00"
     },
     {
       "date": "2026-04-22",
@@ -994,7 +1002,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T01:25:30.265147+09:00"
+      "last_updated": "2026-04-19T01:31:47.269790+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1145,7 +1153,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T01:25:54.175209+09:00"
+      "last_updated": "2026-04-19T01:32:11.242421+09:00"
     },
     {
       "date": "2026-04-24",
