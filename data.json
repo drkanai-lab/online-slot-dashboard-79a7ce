@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-18T19:17:10.337478+09:00",
+  "generated": "2026-04-18T19:26:30.657205+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-18",
@@ -356,7 +356,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T19:14:01.840023+09:00"
+      "last_updated": "2026-04-18T19:23:21.157730+09:00"
     },
     {
       "date": "2026-04-19",
@@ -574,7 +574,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T19:14:33.368785+09:00"
+      "last_updated": "2026-04-18T19:23:52.902671+09:00"
     },
     {
       "date": "2026-04-20",
@@ -986,7 +986,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T19:15:05.132490+09:00"
+      "last_updated": "2026-04-18T19:24:23.695181+09:00"
     },
     {
       "date": "2026-04-21",
@@ -1133,25 +1133,26 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T19:15:37.042452+09:00"
+      "last_updated": "2026-04-18T19:24:55.932879+09:00"
     },
     {
       "date": "2026-04-22",
       "short": "4/22(水)",
       "dow": "水",
-      "open_count": 12,
-      "booked_count": 0,
+      "open_count": 11,
+      "booked_count": 1,
       "first_open": "22:00",
       "last_open": "23:50",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "23:00",
+      "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 6,
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 4
+      },
+      "per_platform_booked": {
         "GMO": 1
       },
-      "per_platform_booked": {},
       "ranges": [
         [
           "22:00",
@@ -1224,7 +1225,7 @@
           "time": "23:00",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:10"
             }
           },
@@ -1285,7 +1286,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T19:16:08.127301+09:00"
+      "last_updated": "2026-04-18T19:25:27.754026+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1423,7 +1424,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T19:16:39.088975+09:00"
+      "last_updated": "2026-04-18T19:25:58.977070+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1531,7 +1532,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T19:17:09.998659+09:00"
+      "last_updated": "2026-04-18T19:26:29.535065+09:00"
     }
   ]
 }
