@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-18T20:04:09.312569+09:00",
+  "generated": "2026-04-18T20:13:30.483012+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-18",
@@ -356,27 +356,27 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T20:01:01.043332+09:00"
+      "last_updated": "2026-04-18T20:10:20.345495+09:00"
     },
     {
       "date": "2026-04-19",
       "short": "4/19(日)",
       "dow": "日",
       "open_count": 8,
-      "booked_count": 4,
+      "booked_count": 5,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 4,
-        "SOKUYAKU": 2,
+        "gcal": 5,
+        "SOKUYAKU": 3,
         "GMO": 1
       },
       "ranges": [
@@ -543,7 +543,7 @@
           "time": "23:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             },
             "クロン": {
@@ -551,7 +551,15 @@
               "end_time": "23:40"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "長谷川 郁美",
+              "visit_type": "再診",
+              "department": "内科",
+              "end_time": "23:40"
+            }
+          ]
         },
         {
           "time": "23:45",
@@ -574,7 +582,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T20:01:32.541183+09:00"
+      "last_updated": "2026-04-18T20:10:51.065610+09:00"
     },
     {
       "date": "2026-04-20",
@@ -986,7 +994,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T20:02:04.543599+09:00"
+      "last_updated": "2026-04-18T20:11:23.629133+09:00"
     },
     {
       "date": "2026-04-21",
@@ -1133,7 +1141,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T20:02:35.188656+09:00"
+      "last_updated": "2026-04-18T20:11:55.089969+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1295,7 +1303,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T20:03:06.339936+09:00"
+      "last_updated": "2026-04-18T20:12:27.270827+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1433,7 +1441,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T20:03:37.459266+09:00"
+      "last_updated": "2026-04-18T20:12:59.035843+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1541,7 +1549,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T20:04:08.976518+09:00"
+      "last_updated": "2026-04-18T20:13:29.714543+09:00"
     }
   ]
 }
