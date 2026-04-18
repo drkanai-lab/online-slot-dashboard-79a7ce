@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-18T22:06:29.158541+09:00",
+  "generated": "2026-04-18T22:15:46.361934+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-18",
@@ -356,27 +356,26 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T22:03:22.122865+09:00"
+      "last_updated": "2026-04-18T22:12:39.544926+09:00"
     },
     {
       "date": "2026-04-19",
       "short": "4/19(日)",
       "dow": "日",
-      "open_count": 7,
-      "booked_count": 6,
+      "open_count": 6,
+      "booked_count": 7,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
-      "last_booked": "23:30",
+      "last_booked": "23:45",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 4,
-        "SOKUYAKU": 1
+        "CLINICS": 4
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 6,
-        "SOKUYAKU": 3,
+        "gcal": 7,
+        "SOKUYAKU": 4,
         "GMO": 1
       },
       "ranges": [
@@ -573,11 +572,19 @@
           "time": "23:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:59"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "宮崎 将徳",
+              "visit_type": "再診",
+              "department": "小児",
+              "end_time": "23:55"
+            }
+          ]
         },
         {
           "time": "23:50",
@@ -590,7 +597,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T22:03:53.917148+09:00"
+      "last_updated": "2026-04-18T22:13:10.342882+09:00"
     },
     {
       "date": "2026-04-20",
@@ -1002,7 +1009,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T22:04:24.526908+09:00"
+      "last_updated": "2026-04-18T22:13:41.735195+09:00"
     },
     {
       "date": "2026-04-21",
@@ -1149,7 +1156,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T22:04:55.649034+09:00"
+      "last_updated": "2026-04-18T22:14:12.376678+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1311,7 +1318,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T22:05:26.227765+09:00"
+      "last_updated": "2026-04-18T22:14:43.440344+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1449,7 +1456,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T22:05:57.203202+09:00"
+      "last_updated": "2026-04-18T22:15:14.876288+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1557,7 +1564,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T22:06:28.402820+09:00"
+      "last_updated": "2026-04-18T22:15:45.696249+09:00"
     }
   ]
 }
