@@ -1,36 +1,35 @@
 {
-  "generated": "2026-04-18T23:40:44.648432+09:00",
+  "generated": "2026-04-18T23:50:05.315285+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-04-18",
-    "short": "4/18(土)",
-    "time": "23:45",
-    "code": "S",
-    "patient_name": "久村 直生",
+    "date": "2026-04-19",
+    "short": "4/19(日)",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "堤大洋",
     "visit_type": "再診",
-    "department": "総診"
+    "department": ""
   },
   "days": [
     {
       "date": "2026-04-18",
       "short": "4/18(土)",
       "dow": "土",
-      "open_count": 13,
-      "booked_count": 8,
+      "open_count": 14,
+      "booked_count": 7,
       "first_open": "12:10",
       "last_open": "23:50",
       "first_booked": "12:30",
       "last_booked": "23:45",
       "per_platform_open": {
-        "CLINICS": 9,
+        "CLINICS": 10,
         "SOKUYAKU": 2,
         "GMO": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
-        "gcal": 9,
-        "CLINICS": 1,
+        "gcal": 8,
         "GMO": 1,
         "クロン": 1
       },
@@ -246,19 +245,11 @@
           "time": "22:50",
           "platforms": {
             "CLINICS": {
-              "status": "booked",
+              "status": "open",
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "川西史人",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:00"
-            }
-          ]
+          "gcals": []
         },
         {
           "time": "23:00",
@@ -356,25 +347,25 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T23:37:26.104666+09:00"
+      "last_updated": "2026-04-18T23:46:55.511432+09:00"
     },
     {
       "date": "2026-04-19",
       "short": "4/19(日)",
       "dow": "日",
-      "open_count": 6,
-      "booked_count": 7,
+      "open_count": 5,
+      "booked_count": 8,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
       "last_booked": "23:45",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 4
+        "CLINICS": 3
       },
       "per_platform_booked": {
-        "CLINICS": 2,
-        "gcal": 7,
+        "CLINICS": 3,
+        "gcal": 8,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -502,11 +493,19 @@
           "time": "22:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
+              "status": "booked",
               "end_time": ""
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "川西史人",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ]
         },
         {
           "time": "23:00",
@@ -597,7 +596,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T23:37:57.538750+09:00"
+      "last_updated": "2026-04-18T23:47:27.051692+09:00"
     },
     {
       "date": "2026-04-20",
@@ -1009,7 +1008,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T23:38:29.242492+09:00"
+      "last_updated": "2026-04-18T23:47:58.706263+09:00"
     },
     {
       "date": "2026-04-21",
@@ -1156,7 +1155,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T23:39:00.688582+09:00"
+      "last_updated": "2026-04-18T23:48:29.976328+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1318,7 +1317,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T23:39:31.634078+09:00"
+      "last_updated": "2026-04-18T23:49:01.016423+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1456,7 +1455,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T23:40:03.202133+09:00"
+      "last_updated": "2026-04-18T23:49:32.282976+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1564,7 +1563,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T23:40:44.307743+09:00"
+      "last_updated": "2026-04-18T23:50:04.372728+09:00"
     }
   ]
 }
