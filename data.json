@@ -1,22 +1,22 @@
 {
-  "generated": "2026-04-18T13:30:49.690566+09:00",
+  "generated": "2026-04-18T13:40:06.695444+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-18",
     "short": "4/18(土)",
-    "time": "13:30",
-    "code": "S",
-    "patient_name": "稲村 亜紀",
-    "visit_type": "初診",
-    "department": "泌尿"
+    "time": "18:30",
+    "code": "G",
+    "patient_name": "",
+    "visit_type": "",
+    "department": ""
   },
   "days": [
     {
       "date": "2026-04-18",
       "short": "4/18(土)",
       "dow": "土",
-      "open_count": 16,
-      "booked_count": 9,
+      "open_count": 15,
+      "booked_count": 10,
       "first_open": "12:10",
       "last_open": "23:50",
       "first_booked": "12:30",
@@ -24,14 +24,14 @@
       "per_platform_open": {
         "CLINICS": 11,
         "SOKUYAKU": 2,
-        "GMO": 2,
+        "GMO": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
         "gcal": 9,
+        "GMO": 2,
         "CLINICS": 1,
-        "GMO": 1,
         "クロン": 1
       },
       "ranges": [
@@ -196,7 +196,7 @@
           "time": "18:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "18:40"
             }
           },
@@ -373,7 +373,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T13:27:42.199465+09:00"
+      "last_updated": "2026-04-18T13:36:59.978092+09:00"
     },
     {
       "date": "2026-04-19",
@@ -577,7 +577,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T13:28:14.019516+09:00"
+      "last_updated": "2026-04-18T13:37:31.209109+09:00"
     },
     {
       "date": "2026-04-20",
@@ -944,7 +944,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T13:28:45.447612+09:00"
+      "last_updated": "2026-04-18T13:38:02.356205+09:00"
     },
     {
       "date": "2026-04-21",
@@ -1087,7 +1087,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T13:29:16.461348+09:00"
+      "last_updated": "2026-04-18T13:38:33.022846+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1239,7 +1239,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T13:29:47.287244+09:00"
+      "last_updated": "2026-04-18T13:39:03.966096+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1377,7 +1377,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T13:30:18.280709+09:00"
+      "last_updated": "2026-04-18T13:39:34.965974+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1485,7 +1485,7 @@
           "gcal": null
         }
       ],
-      "last_updated": "2026-04-18T13:30:49.365912+09:00"
+      "last_updated": "2026-04-18T13:40:05.961485+09:00"
     }
   ]
 }
