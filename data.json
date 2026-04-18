@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-18T21:57:11.900326+09:00",
+  "generated": "2026-04-18T22:06:29.158541+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-18",
@@ -15,22 +15,22 @@
       "date": "2026-04-18",
       "short": "4/18(土)",
       "dow": "土",
-      "open_count": 12,
-      "booked_count": 9,
+      "open_count": 13,
+      "booked_count": 8,
       "first_open": "12:10",
       "last_open": "23:50",
       "first_booked": "12:30",
       "last_booked": "23:45",
       "per_platform_open": {
-        "CLINICS": 8,
+        "CLINICS": 9,
         "SOKUYAKU": 2,
         "GMO": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
-        "gcal": 10,
-        "CLINICS": 2,
+        "gcal": 9,
+        "CLINICS": 1,
         "GMO": 1,
         "クロン": 1
       },
@@ -282,19 +282,11 @@
           "time": "23:10",
           "platforms": {
             "CLINICS": {
-              "status": "booked",
+              "status": "open",
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "川口麻里",
-              "visit_type": "初診",
-              "department": "アレ",
-              "end_time": "23:20"
-            }
-          ]
+          "gcals": []
         },
         {
           "time": "23:20",
@@ -364,26 +356,26 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T21:54:01.656446+09:00"
+      "last_updated": "2026-04-18T22:03:22.122865+09:00"
     },
     {
       "date": "2026-04-19",
       "short": "4/19(日)",
       "dow": "日",
-      "open_count": 8,
-      "booked_count": 5,
+      "open_count": 7,
+      "booked_count": 6,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
       "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 5,
+        "CLINICS": 4,
         "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "CLINICS": 1,
-        "gcal": 5,
+        "CLINICS": 2,
+        "gcal": 6,
         "SOKUYAKU": 3,
         "GMO": 1
       },
@@ -457,11 +449,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
+              "status": "booked",
               "end_time": ""
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "川口麻里",
+              "visit_type": "初診",
+              "department": "アレ",
+              "end_time": "22:30"
+            }
+          ]
         },
         {
           "time": "22:30",
@@ -590,7 +590,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T21:54:36.141232+09:00"
+      "last_updated": "2026-04-18T22:03:53.917148+09:00"
     },
     {
       "date": "2026-04-20",
@@ -1002,7 +1002,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T21:55:07.780369+09:00"
+      "last_updated": "2026-04-18T22:04:24.526908+09:00"
     },
     {
       "date": "2026-04-21",
@@ -1149,7 +1149,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T21:55:38.903366+09:00"
+      "last_updated": "2026-04-18T22:04:55.649034+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1311,7 +1311,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T21:56:09.628653+09:00"
+      "last_updated": "2026-04-18T22:05:26.227765+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1449,7 +1449,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T21:56:40.754021+09:00"
+      "last_updated": "2026-04-18T22:05:57.203202+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1557,7 +1557,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-18T21:57:11.572811+09:00"
+      "last_updated": "2026-04-18T22:06:28.402820+09:00"
     }
   ]
 }
