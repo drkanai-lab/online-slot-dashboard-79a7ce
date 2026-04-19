@@ -1,14 +1,14 @@
 {
-  "generated": "2026-04-20T00:32:43.789420+09:00",
+  "generated": "2026-04-20T00:46:36.879366+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-20",
     "short": "4/20(月)",
-    "time": "11:30",
-    "code": "S",
-    "patient_name": "林 洋行",
+    "time": "11:20",
+    "code": "C",
+    "patient_name": "熊谷聡子",
     "visit_type": "再診",
-    "department": "漢方"
+    "department": ""
   },
   "days": [
     {
@@ -16,21 +16,21 @@
       "short": "4/20(月)",
       "dow": "月",
       "open_count": 6,
-      "booked_count": 18,
+      "booked_count": 19,
       "new_count": 4,
-      "revisit_count": 14,
+      "revisit_count": 15,
       "first_open": "12:20",
       "last_open": "23:30",
-      "first_booked": "11:30",
+      "first_booked": "11:20",
       "last_booked": "23:10",
       "per_platform_open": {
         "CLINICS": 4,
         "クロン": 2
       },
       "per_platform_booked": {
+        "CLINICS": 10,
+        "gcal": 19,
         "SOKUYAKU": 6,
-        "gcal": 18,
-        "CLINICS": 9,
         "GMO": 2,
         "クロン": 1
       },
@@ -46,7 +46,7 @@
       ],
       "ranges": [
         [
-          "11:30",
+          "11:20",
           "14:00"
         ],
         [
@@ -58,8 +58,26 @@
           "23:40"
         ]
       ],
-      "range_text": "11:30〜14:00, 18:40〜18:50, 22:00〜23:40",
+      "range_text": "11:20〜14:00, 18:40〜18:50, 22:00〜23:40",
       "slots": [
+        {
+          "time": "11:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "booked",
+              "end_time": "11:30"
+            }
+          },
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "熊谷聡子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "11:30"
+            }
+          ]
+        },
         {
           "time": "11:30",
           "platforms": {
@@ -101,7 +119,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "12:10"
             }
           },
           "gcals": [
@@ -119,7 +137,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "12:20"
             }
           },
           "gcals": [
@@ -165,7 +183,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "12:50"
             }
           },
           "gcals": [
@@ -201,7 +219,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "13:20"
             }
           },
           "gcals": [
@@ -219,7 +237,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "13:30"
             }
           },
           "gcals": [
@@ -273,7 +291,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "14:00"
             }
           },
           "gcals": [
@@ -291,7 +309,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "18:50"
             }
           },
           "gcals": [
@@ -329,7 +347,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "22:20"
             }
           },
           "gcals": [
@@ -421,7 +439,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "23:20"
             }
           },
           "gcals": [
@@ -455,7 +473,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:30:02.562762+09:00"
+      "last_updated": "2026-04-20T00:44:00.074435+09:00"
     },
     {
       "date": "2026-04-21",
@@ -621,7 +639,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:30:33.440753+09:00"
+      "last_updated": "2026-04-20T00:44:25.645778+09:00"
     },
     {
       "date": "2026-04-22",
@@ -808,7 +826,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:30:58.274616+09:00"
+      "last_updated": "2026-04-20T00:44:50.348805+09:00"
     },
     {
       "date": "2026-04-23",
@@ -911,7 +929,7 @@
           "platforms": {
             "CLINICS": {
               "status": "booked",
-              "end_time": ""
+              "end_time": "23:00"
             }
           },
           "gcals": [
@@ -973,7 +991,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:31:23.138036+09:00"
+      "last_updated": "2026-04-20T00:45:15.175662+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1084,7 +1102,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:31:47.338796+09:00"
+      "last_updated": "2026-04-20T00:45:39.951167+09:00"
     },
     {
       "date": "2026-04-25",
@@ -1230,35 +1248,41 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:32:11.953673+09:00"
+      "last_updated": "2026-04-20T00:46:04.107954+09:00"
     },
     {
       "date": "2026-04-26",
       "short": "4/26(日)",
       "dow": "日",
       "open_count": 11,
-      "booked_count": 0,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 0,
+      "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "23:45",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "12:10",
+      "last_booked": "12:10",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
         "SOKUYAKU": 4,
         "GMO": 1
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "CLINICS": 1
+      },
       "full_platforms": [],
       "ranges": [
+        [
+          "12:10",
+          "12:20"
+        ],
         [
           "22:00",
           "23:59"
         ]
       ],
-      "range_text": "22:00〜23:59",
+      "range_text": "12:10〜12:20, 22:00〜23:59",
       "slots": [
         {
           "time": "10:00",
@@ -1276,6 +1300,16 @@
             "クロン": {
               "status": "closed",
               "end_time": "12:10"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "booked",
+              "end_time": "12:20"
             }
           },
           "gcals": []
@@ -1405,7 +1439,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:32:43.182480+09:00"
+      "last_updated": "2026-04-20T00:46:36.245514+09:00"
     }
   ]
 }
