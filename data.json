@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T10:37:11.538866+09:00",
+  "generated": "2026-04-19T10:45:48.983249+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-19",
@@ -270,7 +270,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T10:34:41.663968+09:00"
+      "last_updated": "2026-04-19T10:43:21.884392+09:00"
     },
     {
       "date": "2026-04-20",
@@ -691,7 +691,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T10:35:07.236851+09:00"
+      "last_updated": "2026-04-19T10:43:47.083281+09:00"
     },
     {
       "date": "2026-04-21",
@@ -857,7 +857,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T10:35:32.268227+09:00"
+      "last_updated": "2026-04-19T10:44:11.678851+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1027,31 +1027,36 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T10:35:56.768801+09:00"
+      "last_updated": "2026-04-19T10:44:35.518325+09:00"
     },
     {
       "date": "2026-04-23",
       "short": "4/23(木)",
       "dow": "木",
-      "open_count": 9,
-      "booked_count": 1,
+      "open_count": 8,
+      "booked_count": 2,
       "new_count": 0,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:30",
       "first_booked": "22:50",
-      "last_booked": "22:50",
+      "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 4,
-        "SOKUYAKU": 2,
-        "GMO": 1
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 1
+        "gcal": 1,
+        "GMO": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "GMO",
+          "code": "G"
+        }
+      ],
       "ranges": [
         [
           "22:00",
@@ -1142,7 +1147,7 @@
           "time": "23:00",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:10"
             }
           },
@@ -1179,7 +1184,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T10:36:22.133591+09:00"
+      "last_updated": "2026-04-19T10:45:00.345422+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1290,7 +1295,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T10:36:47.009880+09:00"
+      "last_updated": "2026-04-19T10:45:24.158152+09:00"
     },
     {
       "date": "2026-04-25",
@@ -1425,7 +1430,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T10:37:11.166246+09:00"
+      "last_updated": "2026-04-19T10:45:48.331874+09:00"
     }
   ]
 }
