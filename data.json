@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T23:57:12.352935+09:00",
+  "generated": "2026-04-20T00:06:06.551472+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-20",
@@ -12,311 +12,25 @@
   },
   "days": [
     {
-      "date": "2026-04-19",
-      "short": "4/19(日)",
-      "dow": "日",
-      "open_count": 2,
-      "booked_count": 11,
-      "new_count": 2,
-      "revisit_count": 9,
-      "first_open": "23:30",
-      "last_open": "23:50",
-      "first_booked": "22:00",
-      "last_booked": "23:45",
-      "per_platform_open": {
-        "クロン": 1,
-        "CLINICS": 1
-      },
-      "per_platform_booked": {
-        "クロン": 1,
-        "gcal": 11,
-        "CLINICS": 5,
-        "SOKUYAKU": 4,
-        "GMO": 1
-      },
-      "full_platforms": [
-        {
-          "name": "SOKUYAKU",
-          "code": "S"
-        },
-        {
-          "name": "GMO",
-          "code": "G"
-        }
-      ],
-      "ranges": [
-        [
-          "22:00",
-          "24:00"
-        ]
-      ],
-      "range_text": "22:00〜24:00",
-      "slots": [
-        {
-          "time": "10:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "10:10"
-            }
-          },
-          "gcals": []
-        },
-        {
-          "time": "12:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "12:10"
-            }
-          },
-          "gcals": []
-        },
-        {
-          "time": "19:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "19:40"
-            }
-          },
-          "gcals": []
-        },
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "畠山 瞬",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:10"
-            }
-          ]
-        },
-        {
-          "time": "22:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": ""
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "堤大洋",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:20"
-            }
-          ]
-        },
-        {
-          "time": "22:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": ""
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "川口麻里",
-              "visit_type": "初診",
-              "department": "アレ",
-              "end_time": "22:30"
-            }
-          ]
-        },
-        {
-          "time": "22:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "22:45"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "高柳美月",
-              "visit_type": "再診",
-              "department": "心療",
-              "end_time": "22:40"
-            }
-          ]
-        },
-        {
-          "time": "22:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "松田 琉之介",
-              "visit_type": "再診",
-              "department": "皮膚",
-              "end_time": "22:55"
-            }
-          ]
-        },
-        {
-          "time": "22:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": ""
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "川西史人",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:00"
-            }
-          ]
-        },
-        {
-          "time": "23:00",
-          "platforms": {
-            "GMO": {
-              "status": "booked",
-              "end_time": "23:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "YANG ZIXU",
-              "visit_type": "再診",
-              "department": "総診",
-              "end_time": "23:10"
-            }
-          ]
-        },
-        {
-          "time": "23:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": ""
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "畠下和幸",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:20"
-            }
-          ]
-        },
-        {
-          "time": "23:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": ""
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "芦見真知",
-              "visit_type": "初診",
-              "department": "皮膚",
-              "end_time": "23:30"
-            }
-          ]
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:45"
-            },
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "長谷川 郁美",
-              "visit_type": "再診",
-              "department": "内科",
-              "end_time": "23:40"
-            }
-          ]
-        },
-        {
-          "time": "23:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:59"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "宮崎 将徳",
-              "visit_type": "再診",
-              "department": "小児",
-              "end_time": "23:55"
-            }
-          ]
-        },
-        {
-          "time": "23:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": []
-        }
-      ],
-      "last_updated": "2026-04-19T23:54:45.411052+09:00"
-    },
-    {
       "date": "2026-04-20",
       "short": "4/20(月)",
       "dow": "月",
-      "open_count": 7,
-      "booked_count": 17,
+      "open_count": 6,
+      "booked_count": 18,
       "new_count": 3,
-      "revisit_count": 14,
+      "revisit_count": 15,
       "first_open": "12:20",
       "last_open": "23:30",
       "first_booked": "11:30",
-      "last_booked": "23:00",
+      "last_booked": "23:10",
       "per_platform_open": {
-        "CLINICS": 5,
+        "CLINICS": 4,
         "クロン": 2
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
         "gcal": 17,
-        "CLINICS": 8,
+        "CLINICS": 9,
         "GMO": 2,
         "クロン": 1
       },
@@ -706,7 +420,7 @@
           "time": "23:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
+              "status": "booked",
               "end_time": ""
             }
           },
@@ -733,7 +447,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T23:55:09.524773+09:00"
+      "last_updated": "2026-04-20T00:03:31.718735+09:00"
     },
     {
       "date": "2026-04-21",
@@ -899,7 +613,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T23:55:33.828205+09:00"
+      "last_updated": "2026-04-20T00:03:56.639647+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1078,7 +792,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T23:55:57.642175+09:00"
+      "last_updated": "2026-04-20T00:04:20.193512+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1243,7 +957,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T23:56:22.730970+09:00"
+      "last_updated": "2026-04-20T00:04:44.653483+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1354,7 +1068,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T23:56:47.446951+09:00"
+      "last_updated": "2026-04-20T00:05:08.675450+09:00"
     },
     {
       "date": "2026-04-25",
@@ -1500,7 +1214,182 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T23:57:12.017608+09:00"
+      "last_updated": "2026-04-20T00:05:34.318058+09:00"
+    },
+    {
+      "date": "2026-04-26",
+      "short": "4/26(日)",
+      "dow": "日",
+      "open_count": 11,
+      "booked_count": 0,
+      "new_count": 0,
+      "revisit_count": 0,
+      "first_open": "22:00",
+      "last_open": "23:45",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "クロン": 2,
+        "CLINICS": 5,
+        "SOKUYAKU": 4,
+        "GMO": 1
+      },
+      "per_platform_booked": {},
+      "full_platforms": [],
+      "ranges": [
+        [
+          "22:00",
+          "23:59"
+        ]
+      ],
+      "range_text": "22:00〜23:59",
+      "slots": [
+        {
+          "time": "10:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "10:10"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "12:10"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "19:40"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "22:45"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "22:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcals": []
+        },
+        {
+          "time": "23:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            }
+          },
+          "gcals": []
+        }
+      ],
+      "last_updated": "2026-04-20T00:06:05.640357+09:00"
     }
   ]
 }
