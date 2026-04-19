@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T11:55:35.852321+09:00",
+  "generated": "2026-04-19T12:04:15.107938+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-19",
@@ -270,7 +270,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T11:53:08.167075+09:00"
+      "last_updated": "2026-04-19T12:01:45.851618+09:00"
     },
     {
       "date": "2026-04-20",
@@ -691,7 +691,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T11:53:32.880232+09:00"
+      "last_updated": "2026-04-19T12:02:10.330379+09:00"
     },
     {
       "date": "2026-04-21",
@@ -857,7 +857,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T11:53:57.667250+09:00"
+      "last_updated": "2026-04-19T12:02:36.490374+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1036,7 +1036,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T11:54:21.996824+09:00"
+      "last_updated": "2026-04-19T12:03:01.544238+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1201,7 +1201,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T11:54:46.420857+09:00"
+      "last_updated": "2026-04-19T12:03:25.513030+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1312,27 +1312,30 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T11:55:11.086710+09:00"
+      "last_updated": "2026-04-19T12:03:50.213623+09:00"
     },
     {
       "date": "2026-04-25",
       "short": "4/25(土)",
       "dow": "土",
-      "open_count": 6,
-      "booked_count": 0,
+      "open_count": 5,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 0,
+      "revisit_count": 1,
       "first_open": "23:00",
       "last_open": "23:50",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "23:45",
+      "last_booked": "23:45",
       "per_platform_open": {
         "GMO": 1,
         "CLINICS": 3,
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 1,
         "クロン": 1
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 1
+      },
       "full_platforms": [],
       "ranges": [
         [
@@ -1430,11 +1433,19 @@
           "time": "23:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:59"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "中野 真樹",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "23:55"
+            }
+          ]
         },
         {
           "time": "23:50",
@@ -1447,7 +1458,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T11:55:35.503335+09:00"
+      "last_updated": "2026-04-19T12:04:14.368471+09:00"
     }
   ]
 }
