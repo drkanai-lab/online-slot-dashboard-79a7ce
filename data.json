@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-19T20:10:58.576070+09:00",
+  "generated": "2026-04-19T20:19:53.809989+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-19",
@@ -295,28 +295,28 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T20:08:31.045200+09:00"
+      "last_updated": "2026-04-19T20:17:23.677191+09:00"
     },
     {
       "date": "2026-04-20",
       "short": "4/20(月)",
       "dow": "月",
-      "open_count": 8,
-      "booked_count": 16,
+      "open_count": 7,
+      "booked_count": 17,
       "new_count": 3,
-      "revisit_count": 13,
+      "revisit_count": 14,
       "first_open": "12:20",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 6,
+        "CLINICS": 5,
         "クロン": 2
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
-        "gcal": 16,
-        "CLINICS": 7,
+        "gcal": 17,
+        "CLINICS": 8,
         "GMO": 2,
         "クロン": 1
       },
@@ -614,11 +614,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
+              "status": "booked",
               "end_time": ""
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "柏田滋美",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ]
         },
         {
           "time": "22:20",
@@ -725,7 +733,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T20:08:56.039450+09:00"
+      "last_updated": "2026-04-19T20:17:48.675282+09:00"
     },
     {
       "date": "2026-04-21",
@@ -891,7 +899,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T20:09:20.370322+09:00"
+      "last_updated": "2026-04-19T20:18:13.568452+09:00"
     },
     {
       "date": "2026-04-22",
@@ -1070,7 +1078,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T20:09:45.176772+09:00"
+      "last_updated": "2026-04-19T20:18:38.341788+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1235,7 +1243,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T20:10:09.579077+09:00"
+      "last_updated": "2026-04-19T20:19:03.602566+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1346,7 +1354,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T20:10:33.823874+09:00"
+      "last_updated": "2026-04-19T20:19:28.086074+09:00"
     },
     {
       "date": "2026-04-25",
@@ -1492,7 +1500,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-19T20:10:58.175005+09:00"
+      "last_updated": "2026-04-19T20:19:52.905658+09:00"
     }
   ]
 }
