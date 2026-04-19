@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-20T00:46:36.879366+09:00",
+  "generated": "2026-04-20T00:55:30.851508+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-20",
@@ -473,22 +473,22 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:44:00.074435+09:00"
+      "last_updated": "2026-04-20T00:52:52.108875+09:00"
     },
     {
       "date": "2026-04-21",
       "short": "4/21(火)",
       "dow": "火",
-      "open_count": 7,
+      "open_count": 6,
       "booked_count": 3,
       "new_count": 1,
       "revisit_count": 2,
       "first_open": "22:00",
-      "last_open": "23:30",
+      "last_open": "23:20",
       "first_booked": "22:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "クロン": 2,
+        "クロン": 1,
         "CLINICS": 5
       },
       "per_platform_booked": {
@@ -509,10 +509,10 @@
       "ranges": [
         [
           "22:00",
-          "23:40"
+          "23:30"
         ]
       ],
-      "range_text": "22:00〜23:40",
+      "range_text": "22:00〜23:30",
       "slots": [
         {
           "time": "22:00",
@@ -632,14 +632,14 @@
           "time": "23:30",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "closed",
               "end_time": "23:40"
             }
           },
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:44:25.645778+09:00"
+      "last_updated": "2026-04-20T00:53:17.061578+09:00"
     },
     {
       "date": "2026-04-22",
@@ -826,22 +826,22 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:44:50.348805+09:00"
+      "last_updated": "2026-04-20T00:53:41.062681+09:00"
     },
     {
       "date": "2026-04-23",
       "short": "4/23(木)",
       "dow": "木",
-      "open_count": 8,
+      "open_count": 7,
       "booked_count": 2,
       "new_count": 0,
       "revisit_count": 2,
       "first_open": "22:00",
-      "last_open": "23:30",
+      "last_open": "23:20",
       "first_booked": "22:50",
       "last_booked": "23:00",
       "per_platform_open": {
-        "クロン": 2,
+        "クロン": 1,
         "CLINICS": 4,
         "SOKUYAKU": 2
       },
@@ -859,10 +859,10 @@
       "ranges": [
         [
           "22:00",
-          "23:40"
+          "23:30"
         ]
       ],
-      "range_text": "22:00〜23:40",
+      "range_text": "22:00〜23:30",
       "slots": [
         {
           "time": "13:00",
@@ -984,14 +984,14 @@
           "time": "23:30",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "closed",
               "end_time": "23:40"
             }
           },
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:45:15.175662+09:00"
+      "last_updated": "2026-04-20T00:54:06.189694+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1102,7 +1102,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:45:39.951167+09:00"
+      "last_updated": "2026-04-20T00:54:33.061332+09:00"
     },
     {
       "date": "2026-04-25",
@@ -1248,7 +1248,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:46:04.107954+09:00"
+      "last_updated": "2026-04-20T00:54:56.623836+09:00"
     },
     {
       "date": "2026-04-26",
@@ -1439,7 +1439,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T00:46:36.245514+09:00"
+      "last_updated": "2026-04-20T00:55:29.245292+09:00"
     }
   ]
 }
