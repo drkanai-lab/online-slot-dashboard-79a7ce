@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-20T21:18:53.425296+09:00",
+  "generated": "2026-04-20T21:27:56.467222+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-20",
@@ -15,30 +15,36 @@
       "date": "2026-04-20",
       "short": "4/20(月)",
       "dow": "月",
-      "open_count": 4,
-      "booked_count": 21,
+      "open_count": 2,
+      "booked_count": 23,
       "new_count": 4,
-      "revisit_count": 17,
+      "revisit_count": 19,
       "first_open": "22:00",
       "last_open": "23:30",
       "first_booked": "11:20",
-      "last_booked": "23:10",
+      "last_booked": "23:20",
       "per_platform_open": {
-        "クロン": 2,
-        "GMO": 1,
-        "CLINICS": 1
+        "クロン": 2
       },
       "per_platform_booked": {
-        "CLINICS": 13,
-        "gcal": 21,
+        "CLINICS": 14,
+        "gcal": 22,
         "SOKUYAKU": 6,
-        "GMO": 1,
+        "GMO": 2,
         "クロン": 1
       },
       "full_platforms": [
         {
+          "name": "CLINICS",
+          "code": "C"
+        },
+        {
           "name": "SOKUYAKU",
           "code": "S"
+        },
+        {
+          "name": "GMO",
+          "code": "G"
         }
       ],
       "ranges": [
@@ -441,7 +447,7 @@
           "time": "23:00",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:10"
             }
           },
@@ -469,11 +475,19 @@
           "time": "23:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:30"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "山柿真芳慈",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:30"
+            }
+          ]
         },
         {
           "time": "23:30",
@@ -486,7 +500,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T21:16:18.634566+09:00"
+      "last_updated": "2026-04-20T21:25:14.675678+09:00"
     },
     {
       "date": "2026-04-21",
@@ -652,7 +666,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T21:16:43.491432+09:00"
+      "last_updated": "2026-04-20T21:25:38.532608+09:00"
     },
     {
       "date": "2026-04-22",
@@ -839,7 +853,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T21:17:08.009846+09:00"
+      "last_updated": "2026-04-20T21:26:02.347555+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1013,7 +1027,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T21:17:33.044163+09:00"
+      "last_updated": "2026-04-20T21:26:33.574476+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1124,7 +1138,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T21:17:56.996112+09:00"
+      "last_updated": "2026-04-20T21:26:57.567647+09:00"
     },
     {
       "date": "2026-04-25",
@@ -1270,7 +1284,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T21:18:20.928958+09:00"
+      "last_updated": "2026-04-20T21:27:22.361058+09:00"
     },
     {
       "date": "2026-04-26",
@@ -1470,7 +1484,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T21:18:52.717682+09:00"
+      "last_updated": "2026-04-20T21:27:54.619004+09:00"
     }
   ]
 }
