@@ -1,14 +1,14 @@
 {
-  "generated": "2026-04-20T22:17:39.496230+09:00",
+  "generated": "2026-04-20T22:26:51.336022+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-20",
     "short": "4/20(月)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "山本広人",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "武内 綾子",
     "visit_type": "再診",
-    "department": ""
+    "department": "皮膚"
   },
   "days": [
     {
@@ -515,7 +515,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T22:14:32.630904+09:00"
+      "last_updated": "2026-04-20T22:24:05.404285+09:00"
     },
     {
       "date": "2026-04-21",
@@ -690,28 +690,28 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T22:15:04.524103+09:00"
+      "last_updated": "2026-04-20T22:24:34.795318+09:00"
     },
     {
       "date": "2026-04-22",
       "short": "4/22(水)",
       "dow": "水",
       "open_count": 9,
-      "booked_count": 3,
+      "booked_count": 4,
       "new_count": 1,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:30",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 6,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 3,
+        "SOKUYAKU": 3,
+        "gcal": 4,
         "GMO": 1
       },
       "full_platforms": [
@@ -846,7 +846,7 @@
           "time": "23:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             },
             "クロン": {
@@ -854,7 +854,15 @@
               "end_time": "23:40"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "高野 愛",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "23:40"
+            }
+          ]
         },
         {
           "time": "23:45",
@@ -877,7 +885,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T22:15:35.112661+09:00"
+      "last_updated": "2026-04-20T22:24:59.760030+09:00"
     },
     {
       "date": "2026-04-23",
@@ -1051,7 +1059,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T22:16:03.578615+09:00"
+      "last_updated": "2026-04-20T22:25:26.015355+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1162,7 +1170,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T22:16:34.453023+09:00"
+      "last_updated": "2026-04-20T22:25:50.197618+09:00"
     },
     {
       "date": "2026-04-25",
@@ -1308,7 +1316,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T22:17:04.440011+09:00"
+      "last_updated": "2026-04-20T22:26:14.792922+09:00"
     },
     {
       "date": "2026-04-26",
@@ -1508,7 +1516,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T22:17:38.741304+09:00"
+      "last_updated": "2026-04-20T22:26:50.235731+09:00"
     }
   ]
 }
