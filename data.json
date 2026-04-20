@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-20T19:30:36.208011+09:00",
+  "generated": "2026-04-20T19:39:32.169760+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-20",
@@ -489,7 +489,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T19:27:57.768019+09:00"
+      "last_updated": "2026-04-20T19:36:55.728032+09:00"
     },
     {
       "date": "2026-04-21",
@@ -655,7 +655,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T19:28:21.934560+09:00"
+      "last_updated": "2026-04-20T19:37:20.512015+09:00"
     },
     {
       "date": "2026-04-22",
@@ -842,28 +842,29 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T19:28:46.246351+09:00"
+      "last_updated": "2026-04-20T19:37:45.226393+09:00"
     },
     {
       "date": "2026-04-23",
       "short": "4/23(木)",
       "dow": "木",
-      "open_count": 7,
-      "booked_count": 2,
+      "open_count": 6,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "23:20",
-      "first_booked": "22:50",
+      "first_booked": "22:30",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 4,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 3,
         "CLINICS": 1,
-        "gcal": 2,
         "GMO": 1
       },
       "full_platforms": [
@@ -924,11 +925,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "PARK ILGYU",
+              "visit_type": "再診",
+              "department": "内科",
+              "end_time": "22:40"
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -1007,7 +1016,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T19:29:12.365994+09:00"
+      "last_updated": "2026-04-20T19:38:10.001684+09:00"
     },
     {
       "date": "2026-04-24",
@@ -1118,7 +1127,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T19:29:36.964176+09:00"
+      "last_updated": "2026-04-20T19:38:34.211691+09:00"
     },
     {
       "date": "2026-04-25",
@@ -1264,7 +1273,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T19:30:01.757049+09:00"
+      "last_updated": "2026-04-20T19:38:58.294109+09:00"
     },
     {
       "date": "2026-04-26",
@@ -1464,7 +1473,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-20T19:30:35.571101+09:00"
+      "last_updated": "2026-04-20T19:39:30.982948+09:00"
     }
   ]
 }
