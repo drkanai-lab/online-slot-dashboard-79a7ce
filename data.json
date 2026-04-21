@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-22T00:49:20.007916+09:00",
+  "generated": "2026-04-22T00:54:05.987067+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-22",
@@ -30,8 +30,8 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "GMO": 1,
-        "gcal": 1
+        "gcal": 5,
+        "GMO": 1
       },
       "full_platforms": [
         {
@@ -89,7 +89,15 @@
               "end_time": "22:45"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:45"
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -99,7 +107,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -161,7 +177,15 @@
               "end_time": "23:40"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:45"
+            }
+          ]
         },
         {
           "time": "23:45",
@@ -171,7 +195,15 @@
               "end_time": "23:59"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:59"
+            }
+          ]
         },
         {
           "time": "23:50",
@@ -184,7 +216,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T00:46:31.060652+09:00"
+      "last_updated": "2026-04-22T00:51:13.950507+09:00"
     },
     {
       "date": "2026-04-23",
@@ -204,8 +236,8 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
+        "gcal": 4,
         "CLINICS": 1,
-        "gcal": 2,
         "GMO": 1
       },
       "full_platforms": [
@@ -274,7 +306,15 @@
               "end_time": "22:45"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:45"
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -284,7 +324,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -353,7 +401,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T00:46:55.247664+09:00"
+      "last_updated": "2026-04-22T00:51:38.986096+09:00"
     },
     {
       "date": "2026-04-24",
@@ -373,7 +421,8 @@
         "GMO": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2
+        "SOKUYAKU": 2,
+        "gcal": 2
       },
       "full_platforms": [
         {
@@ -427,7 +476,15 @@
               "end_time": "22:45"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:45"
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -437,7 +494,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -470,7 +535,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T00:47:19.289269+09:00"
+      "last_updated": "2026-04-22T00:52:03.602909+09:00"
     },
     {
       "date": "2026-04-25",
@@ -491,7 +556,8 @@
         "クロン": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1
+        "SOKUYAKU": 1,
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -594,7 +660,15 @@
               "end_time": "23:59"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:59"
+            }
+          ]
         },
         {
           "time": "23:50",
@@ -607,7 +681,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T00:47:43.107211+09:00"
+      "last_updated": "2026-04-22T00:52:30.204935+09:00"
     },
     {
       "date": "2026-04-26",
@@ -816,7 +890,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T00:48:13.541479+09:00"
+      "last_updated": "2026-04-22T00:53:01.924642+09:00"
     },
     {
       "date": "2026-04-27",
@@ -1195,7 +1269,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T00:48:44.474795+09:00"
+      "last_updated": "2026-04-22T00:53:34.349531+09:00"
     },
     {
       "date": "2026-04-28",
@@ -1326,7 +1400,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T00:49:14.019048+09:00"
+      "last_updated": "2026-04-22T00:54:05.259532+09:00"
     },
     {
       "date": "2026-04-29",
