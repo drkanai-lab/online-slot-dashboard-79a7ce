@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-21T16:13:58.459195+09:00",
+  "generated": "2026-04-21T16:23:05.001607+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-21",
@@ -193,7 +193,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:11:12.661017+09:00"
+      "last_updated": "2026-04-21T16:20:21.744219+09:00"
     },
     {
       "date": "2026-04-22",
@@ -388,7 +388,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:11:36.931292+09:00"
+      "last_updated": "2026-04-21T16:20:46.670273+09:00"
     },
     {
       "date": "2026-04-23",
@@ -573,7 +573,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:12:02.111637+09:00"
+      "last_updated": "2026-04-21T16:21:11.090713+09:00"
     },
     {
       "date": "2026-04-24",
@@ -684,7 +684,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:12:27.120807+09:00"
+      "last_updated": "2026-04-21T16:21:35.231186+09:00"
     },
     {
       "date": "2026-04-25",
@@ -830,7 +830,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:12:51.705770+09:00"
+      "last_updated": "2026-04-21T16:21:59.031583+09:00"
     },
     {
       "date": "2026-04-26",
@@ -1046,19 +1046,19 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:13:24.343601+09:00"
+      "last_updated": "2026-04-21T16:22:31.281483+09:00"
     },
     {
       "date": "2026-04-27",
       "short": "4/27(月)",
       "dow": "月",
       "open_count": 30,
-      "booked_count": 3,
+      "booked_count": 2,
       "new_count": 0,
-      "revisit_count": 3,
+      "revisit_count": 2,
       "first_open": "11:30",
       "last_open": "23:30",
-      "first_booked": "12:30",
+      "first_booked": "18:30",
       "last_booked": "19:50",
       "per_platform_open": {
         "SOKUYAKU": 8,
@@ -1067,8 +1067,8 @@
         "クロン": 4
       },
       "per_platform_booked": {
-        "gcal": 3,
         "GMO": 1,
+        "gcal": 2,
         "CLINICS": 1
       },
       "full_platforms": [],
@@ -1146,15 +1146,7 @@
               "end_time": "12:40"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "岡留　康文",
-              "visit_type": "再診",
-              "department": "総診",
-              "end_time": "12:40"
-            }
-          ]
+          "gcals": []
         },
         {
           "time": "12:40",
@@ -1433,7 +1425,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:13:56.406809+09:00"
+      "last_updated": "2026-04-21T16:23:03.888572+09:00"
     }
   ]
 }
