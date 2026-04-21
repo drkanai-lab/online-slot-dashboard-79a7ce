@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-21T13:29:44.857187+09:00",
+  "generated": "2026-04-21T13:38:55.998981+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-21",
@@ -185,7 +185,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T13:27:00.013666+09:00"
+      "last_updated": "2026-04-21T13:36:12.310732+09:00"
     },
     {
       "date": "2026-04-22",
@@ -380,32 +380,35 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T13:27:25.507241+09:00"
+      "last_updated": "2026-04-21T13:36:37.346013+09:00"
     },
     {
       "date": "2026-04-23",
       "short": "4/23(木)",
       "dow": "木",
-      "open_count": 6,
-      "booked_count": 3,
+      "open_count": 5,
+      "booked_count": 4,
       "new_count": 0,
-      "revisit_count": 3,
+      "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "22:30",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 4,
-        "SOKUYAKU": 1
+        "CLINICS": 4
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
-        "gcal": 3,
+        "SOKUYAKU": 2,
+        "gcal": 4,
         "CLINICS": 1,
         "GMO": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -481,11 +484,19 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "山下 久美子",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:55"
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -554,7 +565,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T13:27:49.894476+09:00"
+      "last_updated": "2026-04-21T13:37:02.314089+09:00"
     },
     {
       "date": "2026-04-24",
@@ -665,7 +676,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T13:28:14.156567+09:00"
+      "last_updated": "2026-04-21T13:37:27.245037+09:00"
     },
     {
       "date": "2026-04-25",
@@ -811,7 +822,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T13:28:40.143616+09:00"
+      "last_updated": "2026-04-21T13:37:51.448067+09:00"
     },
     {
       "date": "2026-04-26",
@@ -1027,7 +1038,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T13:29:11.955337+09:00"
+      "last_updated": "2026-04-21T13:38:22.853202+09:00"
     },
     {
       "date": "2026-04-27",
@@ -1414,7 +1425,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T13:29:44.119434+09:00"
+      "last_updated": "2026-04-21T13:38:54.887444+09:00"
     }
   ]
 }
