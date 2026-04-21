@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-21T16:04:40.441661+09:00",
+  "generated": "2026-04-21T16:13:58.459195+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-21",
@@ -16,21 +16,21 @@
       "date": "2026-04-21",
       "short": "4/21(火)",
       "dow": "火",
-      "open_count": 5,
-      "booked_count": 4,
+      "open_count": 4,
+      "booked_count": 5,
       "new_count": 1,
-      "revisit_count": 3,
+      "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 4
+        "CLINICS": 3
       },
       "per_platform_booked": {
-        "CLINICS": 1,
-        "gcal": 4,
+        "CLINICS": 2,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -130,11 +130,19 @@
           "time": "22:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:00"
             }
           },
-          "gcals": []
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "野村彩季",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ]
         },
         {
           "time": "23:00",
@@ -185,7 +193,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:01:56.235310+09:00"
+      "last_updated": "2026-04-21T16:11:12.661017+09:00"
     },
     {
       "date": "2026-04-22",
@@ -380,7 +388,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:02:20.031060+09:00"
+      "last_updated": "2026-04-21T16:11:36.931292+09:00"
     },
     {
       "date": "2026-04-23",
@@ -565,7 +573,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:02:45.548620+09:00"
+      "last_updated": "2026-04-21T16:12:02.111637+09:00"
     },
     {
       "date": "2026-04-24",
@@ -676,7 +684,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:03:11.996136+09:00"
+      "last_updated": "2026-04-21T16:12:27.120807+09:00"
     },
     {
       "date": "2026-04-25",
@@ -822,7 +830,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:03:36.149656+09:00"
+      "last_updated": "2026-04-21T16:12:51.705770+09:00"
     },
     {
       "date": "2026-04-26",
@@ -1038,13 +1046,13 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:04:07.685586+09:00"
+      "last_updated": "2026-04-21T16:13:24.343601+09:00"
     },
     {
       "date": "2026-04-27",
       "short": "4/27(月)",
       "dow": "月",
-      "open_count": 29,
+      "open_count": 30,
       "booked_count": 3,
       "new_count": 0,
       "revisit_count": 3,
@@ -1055,12 +1063,12 @@
       "per_platform_open": {
         "SOKUYAKU": 8,
         "CLINICS": 16,
-        "クロン": 4,
-        "GMO": 1
+        "GMO": 2,
+        "クロン": 4
       },
       "per_platform_booked": {
-        "GMO": 2,
         "gcal": 3,
+        "GMO": 1,
         "CLINICS": 1
       },
       "full_platforms": [],
@@ -1134,7 +1142,7 @@
           "time": "12:30",
           "platforms": {
             "GMO": {
-              "status": "booked",
+              "status": "open",
               "end_time": "12:40"
             }
           },
@@ -1425,7 +1433,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-21T16:04:39.658300+09:00"
+      "last_updated": "2026-04-21T16:13:56.406809+09:00"
     }
   ]
 }
