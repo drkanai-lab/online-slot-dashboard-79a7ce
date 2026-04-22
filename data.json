@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-22T21:14:54.068936+09:00",
+  "generated": "2026-04-22T21:24:50.408409+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-22",
@@ -16,21 +16,22 @@
       "date": "2026-04-22",
       "short": "4/22(水)",
       "dow": "水",
-      "open_count": 7,
-      "booked_count": 6,
+      "open_count": 6,
+      "booked_count": 7,
       "new_count": 2,
-      "revisit_count": 4,
-      "first_open": "22:10",
+      "revisit_count": 5,
+      "first_open": "22:20",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:45",
       "per_platform_open": {
-        "CLINICS": 6,
+        "CLINICS": 5,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
         "gcal": 7,
+        "CLINICS": 1,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -81,8 +82,8 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
           "gcals": []
@@ -232,7 +233,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T21:11:52.533360+09:00"
+      "last_updated": "2026-04-22T21:21:47.366273+09:00"
     },
     {
       "date": "2026-04-23",
@@ -417,7 +418,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T21:12:30.338525+09:00"
+      "last_updated": "2026-04-22T21:22:12.352291+09:00"
     },
     {
       "date": "2026-04-24",
@@ -563,7 +564,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T21:12:54.216620+09:00"
+      "last_updated": "2026-04-22T21:22:36.074464+09:00"
     },
     {
       "date": "2026-04-25",
@@ -709,7 +710,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T21:13:18.240523+09:00"
+      "last_updated": "2026-04-22T21:23:13.709085+09:00"
     },
     {
       "date": "2026-04-26",
@@ -927,7 +928,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T21:13:49.781949+09:00"
+      "last_updated": "2026-04-22T21:23:44.907223+09:00"
     },
     {
       "date": "2026-04-27",
@@ -1329,7 +1330,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T21:14:22.562133+09:00"
+      "last_updated": "2026-04-22T21:24:17.588809+09:00"
     },
     {
       "date": "2026-04-28",
@@ -1460,7 +1461,7 @@
           "gcals": []
         }
       ],
-      "last_updated": "2026-04-22T21:14:52.809379+09:00"
+      "last_updated": "2026-04-22T21:24:48.050851+09:00"
     },
     {
       "date": "2026-04-29",
