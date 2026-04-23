@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-23T11:26:05.441218+09:00",
+  "generated": "2026-04-23T11:34:45.060021+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-23",
@@ -226,7 +226,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T11:24:18.806386+09:00",
+      "last_updated": "2026-04-23T11:33:04.208094+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -393,7 +393,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T11:24:35.393061+09:00",
+      "last_updated": "2026-04-23T11:33:20.465446+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -556,7 +556,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T11:24:51.839256+09:00",
+      "last_updated": "2026-04-23T11:33:35.715563+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -796,7 +796,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T11:25:08.707152+09:00",
+      "last_updated": "2026-04-23T11:33:52.758062+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -805,8 +805,8 @@
       "dow": "月",
       "open_count": 25,
       "booked_count": 7,
-      "new_count": 3,
-      "revisit_count": 4,
+      "new_count": 4,
+      "revisit_count": 3,
       "first_open": "11:30",
       "last_open": "23:30",
       "first_booked": "12:00",
@@ -819,7 +819,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 3,
-        "gcal": 7,
+        "gcal": 9,
         "GMO": 2,
         "クロン": 1,
         "SOKUYAKU": 1
@@ -1108,7 +1108,22 @@
               "end_time": "19:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "中野緑",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:50"
+            },
+            {
+              "code": "C",
+              "patient_name": "中野緑",
+              "visit_type": "初診",
+              "department": "アレ",
+              "end_time": "19:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1255,7 +1270,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T11:25:29.306220+09:00",
+      "last_updated": "2026-04-23T11:34:12.114528+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1414,7 +1429,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T11:25:45.342621+09:00",
+      "last_updated": "2026-04-23T11:34:27.950467+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1615,7 +1630,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T11:26:01.695682+09:00",
+      "last_updated": "2026-04-23T11:34:43.264509+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
