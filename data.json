@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-23T21:10:20.040896+09:00",
+  "generated": "2026-04-23T21:23:48.213210+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-23",
@@ -17,8 +17,8 @@
       "short": "4/23(木)",
       "dow": "木",
       "open_count": 1,
-      "booked_count": 8,
-      "new_count": 3,
+      "booked_count": 7,
+      "new_count": 2,
       "revisit_count": 5,
       "first_open": "23:20",
       "last_open": "23:20",
@@ -29,7 +29,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 8,
+        "gcal": 7,
         "CLINICS": 4,
         "SOKUYAKU": 2
       },
@@ -189,20 +189,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "23:00",
-          "platforms": {},
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "利根川　瑞月",
-              "visit_type": "初診",
-              "department": "",
-              "end_time": "23:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "23:10",
           "platforms": {
             "CLINICS": {
@@ -244,7 +230,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T21:04:13.087342+09:00",
+      "last_updated": "2026-04-23T21:17:50.820402+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -252,20 +238,20 @@
       "short": "4/24(金)",
       "dow": "金",
       "open_count": 4,
-      "booked_count": 3,
-      "new_count": 2,
+      "booked_count": 2,
+      "new_count": 1,
       "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "22:50",
       "first_booked": "22:30",
-      "last_booked": "23:00",
+      "last_booked": "22:45",
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 3
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 3
+        "gcal": 2
       },
       "full_platforms": [
         {
@@ -376,20 +362,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "23:00",
-          "platforms": {},
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "永井　葵",
-              "visit_type": "初診",
-              "department": "心療",
-              "end_time": "23:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "23:30",
           "platforms": {
             "クロン": {
@@ -401,7 +373,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T21:05:07.155154+09:00",
+      "last_updated": "2026-04-23T21:18:45.299667+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -409,12 +381,12 @@
       "short": "4/25(土)",
       "dow": "土",
       "open_count": 4,
-      "booked_count": 2,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 1,
       "first_open": "23:10",
       "last_open": "23:50",
-      "first_booked": "23:00",
+      "first_booked": "23:45",
       "last_booked": "23:45",
       "per_platform_open": {
         "CLINICS": 3,
@@ -422,8 +394,8 @@
         "クロン": 1
       },
       "per_platform_booked": {
-        "gcal": 2,
-        "SOKUYAKU": 1
+        "SOKUYAKU": 1,
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -476,20 +448,6 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:00",
-          "platforms": {},
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "松井　菜穂子",
-              "visit_type": "再診",
-              "department": "総診",
-              "end_time": "23:10"
-            }
-          ],
           "sokuyaku_truth": []
         },
         {
@@ -566,7 +524,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T21:06:02.887435+09:00",
+      "last_updated": "2026-04-23T21:19:39.338911+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -574,13 +532,13 @@
       "short": "4/26(日)",
       "dow": "日",
       "open_count": 8,
-      "booked_count": 4,
-      "new_count": 1,
+      "booked_count": 3,
+      "new_count": 0,
       "revisit_count": 3,
       "first_open": "22:10",
       "last_open": "23:45",
       "first_booked": "12:10",
-      "last_booked": "23:00",
+      "last_booked": "22:45",
       "per_platform_open": {
         "CLINICS": 5,
         "SOKUYAKU": 3,
@@ -588,7 +546,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 4,
+        "gcal": 3,
         "クロン": 1,
         "SOKUYAKU": 1
       },
@@ -746,20 +704,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "23:00",
-          "platforms": {},
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "鈴木　愛美",
-              "visit_type": "初診",
-              "department": "心療",
-              "end_time": "23:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "23:10",
           "platforms": {
             "CLINICS": {
@@ -808,7 +752,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T21:07:09.870065+09:00",
+      "last_updated": "2026-04-23T21:20:40.348704+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -816,9 +760,9 @@
       "short": "4/27(月)",
       "dow": "月",
       "open_count": 23,
-      "booked_count": 8,
+      "booked_count": 6,
       "new_count": 5,
-      "revisit_count": 3,
+      "revisit_count": 1,
       "first_open": "11:30",
       "last_open": "23:30",
       "first_booked": "12:00",
@@ -830,7 +774,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 8,
+        "gcal": 6,
         "クロン": 1,
         "SOKUYAKU": 1
       },
@@ -915,20 +859,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "12:30",
-          "platforms": {},
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "辻 栞",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "12:40"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "12:40",
           "platforms": {
             "CLINICS": {
@@ -1003,20 +933,6 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:30",
-          "platforms": {},
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "西村　美和子",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "18:40"
-            }
-          ],
           "sokuyaku_truth": []
         },
         {
@@ -1253,7 +1169,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T21:08:14.104315+09:00",
+      "last_updated": "2026-04-23T21:21:45.343993+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1400,7 +1316,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T21:09:14.384519+09:00",
+      "last_updated": "2026-04-23T21:22:45.935136+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1589,7 +1505,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-23T21:10:15.488849+09:00",
+      "last_updated": "2026-04-23T21:23:46.687175+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
