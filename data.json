@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-27T00:44:56.792247+09:00",
+  "generated": "2026-04-27T00:55:01.900423+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-27",
@@ -391,7 +391,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T00:40:38.671393+09:00",
+      "last_updated": "2026-04-27T00:52:26.392464+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -589,7 +589,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T00:41:04.077631+09:00",
+      "last_updated": "2026-04-27T00:52:51.817933+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -790,7 +790,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T00:41:28.168735+09:00",
+      "last_updated": "2026-04-27T00:53:16.325761+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1128,7 +1128,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T00:41:56.374142+09:00",
+      "last_updated": "2026-04-27T00:53:41.006379+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1296,7 +1296,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T00:42:49.429042+09:00",
+      "last_updated": "2026-04-27T00:54:05.063813+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1712,7 +1712,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T00:43:56.432472+09:00",
+      "last_updated": "2026-04-27T00:54:29.870311+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1734,7 +1734,8 @@
         "GMO": 1
       },
       "per_platform_booked": {
-        "GMO": 1
+        "GMO": 1,
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -1773,7 +1774,15 @@
               "slot_closed": true
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "11:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1957,7 +1966,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T00:44:55.027978+09:00",
+      "last_updated": "2026-04-27T00:55:00.028109+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
