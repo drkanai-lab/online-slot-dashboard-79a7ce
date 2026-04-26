@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-26T18:26:00.060961+09:00",
+  "generated": "2026-04-26T18:35:40.495038+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-26",
@@ -409,31 +409,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-26T18:23:10.145358+09:00",
+      "last_updated": "2026-04-26T18:33:00.743978+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-04-27",
       "short": "4/27(月)",
       "dow": "月",
-      "open_count": 15,
-      "booked_count": 9,
+      "open_count": 14,
+      "booked_count": 10,
       "new_count": 4,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "12:10",
       "last_open": "23:30",
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 9,
-        "クロン": 3,
-        "SOKUYAKU": 3
+        "SOKUYAKU": 3,
+        "クロン": 2
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 9,
+        "gcal": 10,
         "GMO": 3,
-        "クロン": 1,
+        "クロン": 2,
         "SOKUYAKU": 1
       },
       "full_platforms": [
@@ -522,11 +522,19 @@
           "time": "13:00",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "奥田 歩美",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "13:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -801,7 +809,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-26T18:23:38.345417+09:00",
+      "last_updated": "2026-04-26T18:33:29.203990+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -982,7 +990,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-26T18:24:03.558355+09:00",
+      "last_updated": "2026-04-26T18:33:55.914016+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1183,33 +1191,32 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-26T18:24:28.240469+09:00",
+      "last_updated": "2026-04-26T18:34:21.730913+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-04-30",
       "short": "4/30(木)",
       "dow": "木",
-      "open_count": 18,
-      "booked_count": 5,
+      "open_count": 19,
+      "booked_count": 4,
       "new_count": 0,
-      "revisit_count": 5,
+      "revisit_count": 4,
       "first_open": "12:10",
       "last_open": "23:30",
       "first_booked": "11:30",
-      "last_booked": "13:00",
+      "last_booked": "12:30",
       "per_platform_open": {
         "CLINICS": 11,
+        "クロン": 3,
         "SOKUYAKU": 4,
-        "クロン": 2,
         "GMO": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 5,
+        "gcal": 4,
         "CLINICS": 1,
-        "GMO": 1,
-        "クロン": 1
+        "GMO": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -1349,19 +1356,11 @@
           "time": "13:00",
           "platforms": {
             "クロン": {
-              "status": "booked",
+              "status": "open",
               "end_time": "13:10"
             }
           },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "奥田 歩美",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "13:10"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -1530,7 +1529,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-26T18:24:53.900583+09:00",
+      "last_updated": "2026-04-26T18:34:47.761036+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1698,7 +1697,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-26T18:25:32.910358+09:00",
+      "last_updated": "2026-04-26T18:35:12.335554+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2114,7 +2113,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-26T18:25:58.671545+09:00",
+      "last_updated": "2026-04-26T18:35:38.152530+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
