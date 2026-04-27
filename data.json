@@ -1,24 +1,24 @@
 {
-  "generated": "2026-04-27T18:50:46.185933+09:00",
+  "generated": "2026-04-27T19:00:22.228869+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-27",
     "short": "4/27(月)",
-    "time": "18:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "岡室亜矢子",
+    "visit_type": "初診",
+    "department": "皮膚",
+    "status": "booked"
   },
   "days": [
     {
       "date": "2026-04-27",
       "short": "4/27(月)",
       "dow": "月",
-      "open_count": 10,
-      "booked_count": 16,
-      "new_count": 8,
+      "open_count": 9,
+      "booked_count": 17,
+      "new_count": 9,
       "revisit_count": 8,
       "first_open": "12:10",
       "last_open": "23:30",
@@ -26,17 +26,20 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 8,
-        "SOKUYAKU": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "CLINICS": 7,
-        "gcal": 16,
+        "gcal": 17,
         "GMO": 3,
         "クロン": 3,
-        "SOKUYAKU": 3
+        "SOKUYAKU": 4
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -237,12 +240,26 @@
           "time": "19:15",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:30"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "小島 裕樹",
+              "visit_type": "初診",
+              "department": "眼",
+              "end_time": "19:25"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "小島 裕樹",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:20",
@@ -491,7 +508,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T18:48:08.010992+09:00",
+      "last_updated": "2026-04-27T18:57:45.084703+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -689,7 +706,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T18:48:32.775016+09:00",
+      "last_updated": "2026-04-27T18:58:10.187236+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -905,7 +922,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T18:48:57.675566+09:00",
+      "last_updated": "2026-04-27T18:58:34.157189+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1243,7 +1260,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T18:49:23.175012+09:00",
+      "last_updated": "2026-04-27T18:58:58.705312+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1411,7 +1428,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T18:49:47.187621+09:00",
+      "last_updated": "2026-04-27T18:59:23.724222+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1827,7 +1844,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T18:50:13.402056+09:00",
+      "last_updated": "2026-04-27T18:59:48.658461+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2081,7 +2098,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-27T18:50:44.755561+09:00",
+      "last_updated": "2026-04-27T19:00:19.888421+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8319,5 +8336,13 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": []
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "小島 裕樹",
+      "date": "2026-04-27",
+      "time": "19:15",
+      "ts": "2026-04-27T19:00:21+09:00"
+    }
+  ]
 }
