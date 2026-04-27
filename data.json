@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T07:19:06.262432+09:00",
+  "generated": "2026-04-28T07:28:40.865209+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-28",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 3,
-        "gcal": 4,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -145,7 +145,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "宝力祐司",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -201,7 +209,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T07:16:27.726651+09:00",
+      "last_updated": "2026-04-28T07:26:03.037479+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -417,7 +425,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T07:16:51.209978+09:00",
+      "last_updated": "2026-04-28T07:26:26.904307+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -722,7 +730,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T07:17:15.485344+09:00",
+      "last_updated": "2026-04-28T07:26:51.290736+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -890,7 +898,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T07:17:38.932573+09:00",
+      "last_updated": "2026-04-28T07:27:14.798631+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1306,7 +1314,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T07:18:04.160293+09:00",
+      "last_updated": "2026-04-28T07:27:39.594228+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1560,7 +1568,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T07:18:34.278448+09:00",
+      "last_updated": "2026-04-28T07:28:09.693069+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1761,7 +1769,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T07:19:04.517561+09:00",
+      "last_updated": "2026-04-28T07:28:39.884541+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
