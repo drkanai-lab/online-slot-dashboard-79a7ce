@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T01:00:24.791943+09:00",
+  "generated": "2026-04-28T01:10:05.829243+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-28",
@@ -16,21 +16,21 @@
       "date": "2026-04-28",
       "short": "4/28(火)",
       "dow": "火",
-      "open_count": 6,
-      "booked_count": 4,
+      "open_count": 5,
+      "booked_count": 5,
       "new_count": 1,
-      "revisit_count": 3,
+      "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:30",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 4
+        "CLINICS": 3
       },
       "per_platform_booked": {
-        "CLINICS": 1,
-        "gcal": 3,
+        "CLINICS": 2,
+        "gcal": 4,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -86,11 +86,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "土屋陽子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -193,7 +201,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T00:57:42.875557+09:00",
+      "last_updated": "2026-04-28T01:07:22.719237+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -409,7 +417,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T00:58:07.298583+09:00",
+      "last_updated": "2026-04-28T01:07:47.582231+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -714,7 +722,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T00:58:33.688140+09:00",
+      "last_updated": "2026-04-28T01:08:13.356504+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -882,7 +890,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T00:58:57.651580+09:00",
+      "last_updated": "2026-04-28T01:08:37.218683+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1298,7 +1306,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T00:59:22.766245+09:00",
+      "last_updated": "2026-04-28T01:09:02.413190+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1552,7 +1560,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T00:59:53.125629+09:00",
+      "last_updated": "2026-04-28T01:09:33.551757+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1753,7 +1761,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T01:00:23.616663+09:00",
+      "last_updated": "2026-04-28T01:10:03.914128+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8079,5 +8087,13 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": []
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "土屋陽子",
+      "date": "2026-04-28",
+      "time": "22:20",
+      "ts": "2026-04-28T01:10:04+09:00"
+    }
+  ]
 }
