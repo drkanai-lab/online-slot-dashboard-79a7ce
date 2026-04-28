@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-28T23:36:27.204895+09:00",
+  "generated": "2026-04-28T23:46:10.030021+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-29",
@@ -251,16 +251,16 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T23:33:36.900649+09:00",
+      "last_updated": "2026-04-28T23:43:25.955095+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-04-29",
       "short": "4/29(水)",
       "dow": "水",
-      "open_count": 8,
-      "booked_count": 4,
-      "new_count": 0,
+      "open_count": 7,
+      "booked_count": 5,
+      "new_count": 1,
       "revisit_count": 4,
       "first_open": "22:10",
       "last_open": "23:50",
@@ -268,13 +268,13 @@
       "last_booked": "23:45",
       "per_platform_open": {
         "CLINICS": 6,
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 4,
-        "SOKUYAKU": 2,
+        "gcal": 5,
+        "SOKUYAKU": 3,
         "GMO": 1
       },
       "full_platforms": [
@@ -394,12 +394,26 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "王 智聰",
+              "visit_type": "初診",
+              "department": "漢方",
+              "end_time": "22:55"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "王 智聰",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -505,7 +519,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T23:34:00.906536+09:00",
+      "last_updated": "2026-04-28T23:43:49.950912+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -831,7 +845,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T23:34:33.459227+09:00",
+      "last_updated": "2026-04-28T23:44:15.919604+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1014,7 +1028,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T23:34:57.707057+09:00",
+      "last_updated": "2026-04-28T23:44:40.666288+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1446,7 +1460,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T23:35:24.101944+09:00",
+      "last_updated": "2026-04-28T23:45:07.015227+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1712,7 +1726,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T23:35:54.459522+09:00",
+      "last_updated": "2026-04-28T23:45:37.516561+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1913,7 +1927,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-28T23:36:25.773423+09:00",
+      "last_updated": "2026-04-28T23:46:07.933521+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8242,13 +8256,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "大見 英二",
-      "date": "2026-04-29",
-      "time": "23:45",
-      "ts": "2026-04-28T19:46:26+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "久保田将史",
       "date": "2026-04-28",
       "time": "23:10",
@@ -8260,6 +8267,13 @@
       "date": "2026-04-28",
       "time": "23:20",
       "ts": "2026-04-28T22:42:24+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "王 智聰",
+      "date": "2026-04-29",
+      "time": "22:45",
+      "ts": "2026-04-28T23:46:09+09:00"
     }
   ]
 }
