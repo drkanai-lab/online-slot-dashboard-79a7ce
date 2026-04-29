@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-29T21:24:40.072146+09:00",
+  "generated": "2026-04-29T21:34:27.695436+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-29",
@@ -311,30 +311,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:21:50.879758+09:00",
+      "last_updated": "2026-04-29T21:31:36.694345+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-04-30",
       "short": "4/30(木)",
       "dow": "木",
-      "open_count": 13,
-      "booked_count": 7,
+      "open_count": 12,
+      "booked_count": 8,
       "new_count": 1,
-      "revisit_count": 6,
+      "revisit_count": 7,
       "first_open": "12:20",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 9,
+        "CLINICS": 8,
         "クロン": 2,
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 7,
-        "CLINICS": 2,
+        "gcal": 8,
+        "CLINICS": 3,
         "GMO": 2,
         "クロン": 1
       },
@@ -541,11 +541,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "持田勇貴",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -645,7 +653,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:22:16.852610+09:00",
+      "last_updated": "2026-04-29T21:32:03.046957+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -828,7 +836,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:22:41.373428+09:00",
+      "last_updated": "2026-04-29T21:32:26.959598+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1260,7 +1268,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:23:07.262466+09:00",
+      "last_updated": "2026-04-29T21:32:53.336164+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1526,7 +1534,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:23:37.706350+09:00",
+      "last_updated": "2026-04-29T21:33:24.753473+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1727,7 +1735,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:24:08.379575+09:00",
+      "last_updated": "2026-04-29T21:33:54.867673+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1962,7 +1970,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:24:38.660376+09:00",
+      "last_updated": "2026-04-29T21:34:25.465880+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8337,6 +8345,13 @@
       "date": "2026-04-29",
       "time": "22:20",
       "ts": "2026-04-29T20:05:54+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "持田勇貴",
+      "date": "2026-04-30",
+      "time": "22:10",
+      "ts": "2026-04-29T21:34:26+09:00"
     }
   ]
 }
