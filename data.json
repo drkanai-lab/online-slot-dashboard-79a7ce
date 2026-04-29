@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-29T17:38:05.077209+09:00",
+  "generated": "2026-04-29T17:48:06.127598+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-29",
@@ -286,7 +286,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:35:10.833140+09:00",
+      "last_updated": "2026-04-29T17:45:00.010872+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -620,7 +620,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:35:37.099489+09:00",
+      "last_updated": "2026-04-29T17:45:25.151180+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -803,7 +803,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:36:02.843451+09:00",
+      "last_updated": "2026-04-29T17:45:49.464587+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1235,7 +1235,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:36:30.441094+09:00",
+      "last_updated": "2026-04-29T17:46:14.084476+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1501,7 +1501,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:37:01.603637+09:00",
+      "last_updated": "2026-04-29T17:46:44.265052+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1702,7 +1702,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:37:32.550011+09:00",
+      "last_updated": "2026-04-29T17:47:14.742642+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1710,22 +1710,22 @@
       "short": "5/5(火)",
       "dow": "火",
       "open_count": 9,
-      "booked_count": 2,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "23:45",
       "first_booked": "22:30",
-      "last_booked": "22:45",
+      "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
         "GMO": 1,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 2
+        "SOKUYAKU": 3,
+        "gcal": 3
       },
       "full_platforms": [],
       "ranges": [
@@ -1900,7 +1900,7 @@
           "time": "23:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             },
             "クロン": {
@@ -1908,7 +1908,15 @@
               "end_time": "23:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 愛",
+              "visit_type": "再診",
+              "department": "泌尿",
+              "end_time": "23:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 愛",
@@ -1929,7 +1937,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:38:03.314415+09:00",
+      "last_updated": "2026-04-29T17:48:04.009983+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2035,7 +2043,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "黒井 奈央子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
