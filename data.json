@@ -1,10 +1,10 @@
 {
-  "generated": "2026-04-29T23:03:24.687308+09:00",
+  "generated": "2026-04-29T23:13:12.294252+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-29",
     "short": "4/29(水)",
-    "time": "23:10",
+    "time": "23:20",
     "code": "",
     "patient_name": "",
     "visit_type": "",
@@ -319,30 +319,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:00:14.149559+09:00",
+      "last_updated": "2026-04-29T23:10:23.014519+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-04-30",
       "short": "4/30(木)",
       "dow": "木",
-      "open_count": 12,
-      "booked_count": 8,
-      "new_count": 1,
-      "revisit_count": 7,
-      "first_open": "12:20",
+      "open_count": 10,
+      "booked_count": 10,
+      "new_count": 2,
+      "revisit_count": 8,
+      "first_open": "12:40",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 8,
+        "CLINICS": 7,
         "クロン": 2,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 8,
-        "CLINICS": 3,
+        "SOKUYAKU": 3,
+        "gcal": 10,
+        "CLINICS": 4,
         "GMO": 2,
         "クロン": 1
       },
@@ -456,11 +456,19 @@
           "time": "12:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "12:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "中村友合香",
+              "visit_type": "初診",
+              "department": "花粉",
+              "end_time": "12:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -579,12 +587,26 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "竹内 大稀",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "22:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "竹内 大稀",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -661,7 +683,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:00:40.412870+09:00",
+      "last_updated": "2026-04-29T23:10:48.815488+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -683,8 +705,8 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "GMO": 1,
-        "gcal": 1
+        "gcal": 2,
+        "GMO": 1
       },
       "full_platforms": [
         {
@@ -719,7 +741,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "石原ひろみ",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -845,7 +875,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:01:06.175430+09:00",
+      "last_updated": "2026-04-29T23:11:13.020371+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1277,7 +1307,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:01:50.954195+09:00",
+      "last_updated": "2026-04-29T23:11:37.470854+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1543,7 +1573,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:02:21.646744+09:00",
+      "last_updated": "2026-04-29T23:12:07.540354+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1744,7 +1774,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:02:51.478357+09:00",
+      "last_updated": "2026-04-29T23:12:37.909126+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1979,7 +2009,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:03:22.287248+09:00",
+      "last_updated": "2026-04-29T23:13:09.783046+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7711,7 +7741,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:47:40.674513+09:00",
+      "last_updated": "2026-04-29T23:04:01.032184+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7879,7 +7909,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:48:20.426453+09:00",
+      "last_updated": "2026-04-29T23:04:42.238693+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8168,7 +8198,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:49:00.527806+09:00",
+      "last_updated": "2026-04-29T23:05:22.195035+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8336,31 +8366,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T21:49:40.835831+09:00",
+      "last_updated": "2026-04-29T23:06:02.789991+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "熊谷誠",
-      "date": "2026-04-29",
-      "time": "22:20",
-      "ts": "2026-04-29T20:05:54+09:00"
-    },
-    {
-      "type": "new",
-      "patient_name": "持田勇貴",
-      "date": "2026-04-30",
-      "time": "22:10",
-      "ts": "2026-04-29T21:34:26+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "和田紗都美",
       "date": "2026-04-29",
       "time": "22:50",
       "ts": "2026-04-29T22:13:54+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "中村友合香",
+      "date": "2026-04-30",
+      "time": "12:20",
+      "ts": "2026-04-29T23:13:11+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "竹内 大稀",
+      "date": "2026-04-30",
+      "time": "22:30",
+      "ts": "2026-04-29T23:13:11+09:00"
     }
   ]
 }
