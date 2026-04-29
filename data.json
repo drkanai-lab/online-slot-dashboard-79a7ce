@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-29T19:56:04.271359+09:00",
+  "generated": "2026-04-29T20:05:55.332410+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-29",
@@ -16,22 +16,22 @@
       "date": "2026-04-29",
       "short": "4/29(水)",
       "dow": "水",
-      "open_count": 6,
-      "booked_count": 7,
-      "new_count": 4,
+      "open_count": 5,
+      "booked_count": 8,
+      "new_count": 5,
       "revisit_count": 3,
-      "first_open": "22:20",
+      "first_open": "22:50",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:45",
       "per_platform_open": {
-        "CLINICS": 5,
+        "CLINICS": 4,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
-        "CLINICS": 1,
+        "gcal": 8,
+        "CLINICS": 2,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -128,11 +128,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "熊谷誠",
+              "visit_type": "初診",
+              "department": "泌尿",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -303,7 +311,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T19:52:49.191775+09:00",
+      "last_updated": "2026-04-29T20:03:02.679977+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -637,7 +645,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T19:53:24.093603+09:00",
+      "last_updated": "2026-04-29T20:03:30.512454+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -820,7 +828,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T19:53:48.873095+09:00",
+      "last_updated": "2026-04-29T20:03:54.830618+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1252,7 +1260,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T19:54:29.423350+09:00",
+      "last_updated": "2026-04-29T20:04:21.285025+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1518,7 +1526,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T19:55:00.747233+09:00",
+      "last_updated": "2026-04-29T20:04:51.723596+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1719,7 +1727,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T19:55:31.347291+09:00",
+      "last_updated": "2026-04-29T20:05:23.024872+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1954,7 +1962,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T19:56:02.850277+09:00",
+      "last_updated": "2026-04-29T20:05:53.292437+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8322,6 +8330,13 @@
       "date": "2026-04-29",
       "time": "23:30",
       "ts": "2026-04-29T18:27:13+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "熊谷誠",
+      "date": "2026-04-29",
+      "time": "22:20",
+      "ts": "2026-04-29T20:05:54+09:00"
     }
   ]
 }
