@@ -1,15 +1,15 @@
 {
-  "generated": "2026-04-29T23:13:12.294252+09:00",
+  "generated": "2026-04-29T23:22:59.201629+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-29",
     "short": "4/29(水)",
-    "time": "23:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:30",
+    "code": "S",
+    "patient_name": "植木 茉優",
+    "visit_type": "初診",
+    "department": "内科",
+    "status": "booked"
   },
   "days": [
     {
@@ -319,16 +319,16 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:10:23.014519+09:00",
+      "last_updated": "2026-04-29T23:20:09.628152+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-04-30",
       "short": "4/30(木)",
       "dow": "木",
-      "open_count": 10,
-      "booked_count": 10,
-      "new_count": 2,
+      "open_count": 9,
+      "booked_count": 11,
+      "new_count": 3,
       "revisit_count": 8,
       "first_open": "12:40",
       "last_open": "23:30",
@@ -336,17 +336,20 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 7,
-        "クロン": 2,
-        "SOKUYAKU": 1
+        "クロン": 2
       },
       "per_platform_booked": {
-        "SOKUYAKU": 3,
-        "gcal": 10,
+        "SOKUYAKU": 4,
+        "gcal": 11,
         "CLINICS": 4,
         "GMO": 2,
         "クロン": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -612,12 +615,26 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "審良 聡太郎",
+              "visit_type": "初診",
+              "department": "呼吸器科",
+              "end_time": "22:55"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "審良 聡太郎",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -683,7 +700,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:10:48.815488+09:00",
+      "last_updated": "2026-04-29T23:20:35.812122+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -875,7 +892,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:11:13.020371+09:00",
+      "last_updated": "2026-04-29T23:21:00.367357+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1307,7 +1324,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:11:37.470854+09:00",
+      "last_updated": "2026-04-29T23:21:25.507634+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1573,7 +1590,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:12:07.540354+09:00",
+      "last_updated": "2026-04-29T23:21:56.508533+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1774,7 +1791,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:12:37.909126+09:00",
+      "last_updated": "2026-04-29T23:22:26.470959+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2009,7 +2026,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T23:13:09.783046+09:00",
+      "last_updated": "2026-04-29T23:22:56.820629+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8373,13 +8390,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "和田紗都美",
-      "date": "2026-04-29",
-      "time": "22:50",
-      "ts": "2026-04-29T22:13:54+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "中村友合香",
       "date": "2026-04-30",
       "time": "12:20",
@@ -8391,6 +8401,13 @@
       "date": "2026-04-30",
       "time": "22:30",
       "ts": "2026-04-29T23:13:11+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "審良 聡太郎",
+      "date": "2026-04-30",
+      "time": "22:45",
+      "ts": "2026-04-29T23:22:58+09:00"
     }
   ]
 }
