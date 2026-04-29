@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-29T18:56:52.969099+09:00",
+  "generated": "2026-04-29T19:06:43.751244+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-29",
@@ -303,7 +303,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:54:03.283754+09:00",
+      "last_updated": "2026-04-29T19:03:49.652150+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -637,7 +637,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:54:29.015711+09:00",
+      "last_updated": "2026-04-29T19:04:15.388925+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -820,7 +820,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:54:53.102280+09:00",
+      "last_updated": "2026-04-29T19:04:39.750646+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1252,7 +1252,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:55:19.231634+09:00",
+      "last_updated": "2026-04-29T19:05:07.463322+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1518,7 +1518,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:55:49.907567+09:00",
+      "last_updated": "2026-04-29T19:05:39.211605+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1719,7 +1719,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:56:20.363275+09:00",
+      "last_updated": "2026-04-29T19:06:10.110655+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1954,7 +1954,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:56:51.651486+09:00",
+      "last_updated": "2026-04-29T19:06:42.360136+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2172,30 +2172,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:48:06.932203+09:00",
+      "last_updated": "2026-04-29T19:04:10.158560+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-07",
       "short": "5/7(木)",
       "dow": "木",
-      "open_count": 21,
-      "booked_count": 2,
+      "open_count": 19,
+      "booked_count": 4,
       "new_count": 0,
-      "revisit_count": 2,
-      "first_open": "11:30",
+      "revisit_count": 4,
+      "first_open": "11:45",
       "last_open": "23:30",
-      "first_booked": "12:00",
-      "last_booked": "12:30",
+      "first_booked": "11:30",
+      "last_booked": "22:30",
       "per_platform_open": {
-        "SOKUYAKU": 6,
+        "SOKUYAKU": 4,
         "CLINICS": 11,
         "クロン": 3,
         "GMO": 1
       },
       "per_platform_booked": {
+        "SOKUYAKU": 2,
+        "gcal": 4,
         "CLINICS": 1,
-        "gcal": 2,
         "GMO": 1
       },
       "full_platforms": [],
@@ -2215,12 +2216,26 @@
           "time": "11:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "11:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "塚本 力",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "11:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "塚本 力",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "11:45",
@@ -2407,12 +2422,26 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 奈央子",
+              "visit_type": "再診",
+              "department": "内科",
+              "end_time": "22:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "黒井 奈央子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -2481,7 +2510,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:48:39.203979+09:00",
+      "last_updated": "2026-04-29T19:04:42.825282+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2649,7 +2678,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:49:18.532831+09:00",
+      "last_updated": "2026-04-29T19:05:13.872959+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2985,7 +3014,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:49:49.040907+09:00",
+      "last_updated": "2026-04-29T19:05:44.227143+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3289,7 +3318,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T17:50:24.288152+09:00",
+      "last_updated": "2026-04-29T19:06:17.634385+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
