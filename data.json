@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-29T18:17:26.938536+09:00",
+  "generated": "2026-04-29T18:27:14.556622+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-29",
@@ -17,8 +17,8 @@
       "short": "4/29(水)",
       "dow": "水",
       "open_count": 6,
-      "booked_count": 6,
-      "new_count": 3,
+      "booked_count": 7,
+      "new_count": 4,
       "revisit_count": 3,
       "first_open": "22:20",
       "last_open": "23:50",
@@ -26,17 +26,20 @@
       "last_booked": "23:45",
       "per_platform_open": {
         "CLINICS": 5,
-        "SOKUYAKU": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 1,
-        "SOKUYAKU": 3,
+        "SOKUYAKU": 4,
         "GMO": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -238,7 +241,7 @@
           "time": "23:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             },
             "クロン": {
@@ -246,8 +249,22 @@
               "end_time": "23:40"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "植木 茉優",
+              "visit_type": "初診",
+              "department": "内科",
+              "end_time": "23:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "植木 茉優",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "23:45",
@@ -286,7 +303,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:14:36.268021+09:00",
+      "last_updated": "2026-04-29T18:24:22.563193+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -620,7 +637,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:15:02.677451+09:00",
+      "last_updated": "2026-04-29T18:24:47.792845+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -803,7 +820,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:15:26.404935+09:00",
+      "last_updated": "2026-04-29T18:25:11.773474+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1235,7 +1252,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:15:52.021228+09:00",
+      "last_updated": "2026-04-29T18:25:40.113247+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1501,7 +1518,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:16:23.500058+09:00",
+      "last_updated": "2026-04-29T18:26:11.041120+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1702,7 +1719,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:16:55.246839+09:00",
+      "last_updated": "2026-04-29T18:26:42.028659+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1937,7 +1954,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-29T18:17:25.640772+09:00",
+      "last_updated": "2026-04-29T18:27:12.676160+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8269,5 +8286,13 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": []
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "植木 茉優",
+      "date": "2026-04-29",
+      "time": "23:30",
+      "ts": "2026-04-29T18:27:13+09:00"
+    }
+  ]
 }
