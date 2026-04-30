@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-30T09:40:53.357477+09:00",
+  "generated": "2026-04-30T09:50:49.801261+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-04-30",
@@ -16,22 +16,22 @@
       "date": "2026-04-30",
       "short": "4/30(木)",
       "dow": "木",
-      "open_count": 8,
-      "booked_count": 12,
+      "open_count": 7,
+      "booked_count": 13,
       "new_count": 4,
-      "revisit_count": 8,
+      "revisit_count": 9,
       "first_open": "13:10",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 6,
+        "CLINICS": 5,
         "クロン": 2
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 12,
-        "CLINICS": 5,
+        "gcal": 13,
+        "CLINICS": 6,
         "GMO": 2,
         "クロン": 1
       },
@@ -277,11 +277,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "館農駿祐",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -398,7 +406,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-30T09:37:57.713973+09:00",
+      "last_updated": "2026-04-30T09:47:54.008749+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -605,7 +613,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-30T09:38:22.626279+09:00",
+      "last_updated": "2026-04-30T09:48:18.647324+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1045,7 +1053,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-30T09:38:49.168523+09:00",
+      "last_updated": "2026-04-30T09:48:44.501234+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1311,7 +1319,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-30T09:39:20.788249+09:00",
+      "last_updated": "2026-04-30T09:49:15.801839+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1512,7 +1520,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-30T09:39:50.893925+09:00",
+      "last_updated": "2026-04-30T09:49:46.029811+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1747,7 +1755,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-30T09:40:20.946445+09:00",
+      "last_updated": "2026-04-30T09:50:16.634030+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1965,7 +1973,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-04-30T09:40:51.943975+09:00",
+      "last_updated": "2026-04-30T09:50:47.594737+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8507,13 +8515,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "竹内 大稀",
-      "date": "2026-04-30",
-      "time": "22:30",
-      "ts": "2026-04-29T23:13:11+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "審良 聡太郎",
       "date": "2026-04-30",
       "time": "22:45",
@@ -8525,6 +8526,13 @@
       "date": "2026-05-01",
       "time": "22:30",
       "ts": "2026-04-29T23:42:35+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "館農駿祐",
+      "date": "2026-04-30",
+      "time": "22:20",
+      "ts": "2026-04-30T09:50:48+09:00"
     }
   ]
 }
