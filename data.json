@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-01T20:01:30.696856+09:00",
+  "generated": "2026-05-01T20:11:40.786265+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-01",
@@ -294,16 +294,16 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-01T19:58:25.164604+09:00",
+      "last_updated": "2026-05-01T20:08:29.829981+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-02",
       "short": "5/2(土)",
       "dow": "土",
-      "open_count": 22,
-      "booked_count": 10,
-      "new_count": 2,
+      "open_count": 21,
+      "booked_count": 11,
+      "new_count": 3,
       "revisit_count": 8,
       "first_open": "12:00",
       "last_open": "23:50",
@@ -311,13 +311,13 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 4,
-        "SOKUYAKU": 7,
-        "CLINICS": 12
+        "CLINICS": 12,
+        "SOKUYAKU": 6
       },
       "per_platform_booked": {
         "CLINICS": 5,
-        "gcal": 10,
-        "SOKUYAKU": 1,
+        "gcal": 11,
+        "SOKUYAKU": 2,
         "GMO": 3,
         "クロン": 1
       },
@@ -421,12 +421,26 @@
           "time": "12:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "杉島英翔",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "12:55"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "杉島英翔",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -786,7 +800,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-01T19:58:54.561701+09:00",
+      "last_updated": "2026-05-01T20:08:58.420638+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1052,7 +1066,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-01T19:59:24.639724+09:00",
+      "last_updated": "2026-05-01T20:09:30.218832+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1268,7 +1282,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-01T19:59:56.104908+09:00",
+      "last_updated": "2026-05-01T20:10:02.053006+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1516,7 +1530,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-01T20:00:26.148630+09:00",
+      "last_updated": "2026-05-01T20:10:34.069844+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1748,7 +1762,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-01T20:00:57.641547+09:00",
+      "last_updated": "2026-05-01T20:11:04.790957+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2061,7 +2075,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-01T20:01:29.290599+09:00",
+      "last_updated": "2026-05-01T20:11:38.470536+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8574,13 +8588,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "原口 習",
-      "date": "2026-05-01",
-      "time": "23:45",
-      "ts": "2026-05-01T19:31:12+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "宮崎 悟瑠",
       "date": "2026-05-02",
       "time": "12:30",
@@ -8592,6 +8599,13 @@
       "date": "2026-05-02",
       "time": "13:50",
       "ts": "2026-05-01T19:31:12+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "杉島英翔",
+      "date": "2026-05-02",
+      "time": "12:45",
+      "ts": "2026-05-01T20:11:40+09:00"
     }
   ]
 }
