@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T19:37:55.847082+09:00",
+  "generated": "2026-05-02T19:38:54.339156+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
@@ -16,23 +16,23 @@
       "date": "2026-05-02",
       "short": "5/2(土)",
       "dow": "土",
-      "open_count": 17,
-      "booked_count": 19,
+      "open_count": 16,
+      "booked_count": 20,
       "new_count": 7,
-      "revisit_count": 12,
+      "revisit_count": 13,
       "first_open": "13:40",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 11,
-        "SOKUYAKU": 6
+        "SOKUYAKU": 5
       },
       "per_platform_booked": {
         "クロン": 5,
-        "gcal": 19,
+        "gcal": 20,
         "CLINICS": 9,
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 3,
         "GMO": 3
       },
       "full_platforms": [
@@ -492,11 +492,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "佐藤 明浩",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "佐藤 明浩",
@@ -614,7 +622,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T19:36:22.826736+09:00",
+      "last_updated": "2026-05-02T19:38:52.307203+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8610,13 +8618,6 @@
   ],
   "recent_events": [
     {
-      "type": "new",
-      "patient_name": "岡田照真",
-      "date": "2026-05-02",
-      "time": "14:00",
-      "ts": "2026-05-02T13:51:24+09:00"
-    },
-    {
       "type": "moved",
       "patient_name": "北澤千緒",
       "date": "2026-05-02",
@@ -8633,6 +8634,13 @@
       "date": "2026-05-02",
       "time": "19:00",
       "ts": "2026-05-02T18:51:42+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "佐藤 明浩",
+      "date": "2026-05-02",
+      "time": "22:30",
+      "ts": "2026-05-02T19:38:53+09:00"
     }
   ]
 }
