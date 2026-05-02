@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T07:20:16.672422+09:00",
+  "generated": "2026-05-03T07:22:41.959442+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -17,8 +17,8 @@
       "short": "5/3(日)",
       "dow": "日",
       "open_count": 26,
-      "booked_count": 8,
-      "new_count": 3,
+      "booked_count": 9,
+      "new_count": 4,
       "revisit_count": 5,
       "first_open": "11:50",
       "last_open": "23:50",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 2,
         "SOKUYAKU": 4
       },
@@ -121,7 +121,15 @@
               "end_time": "12:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "馮 笑",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "12:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -531,7 +539,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T07:20:15.753601+09:00",
+      "last_updated": "2026-05-03T07:22:39.905173+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -809,7 +817,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T07:13:00.978138+09:00",
+      "last_updated": "2026-05-03T07:22:23.271126+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8233,13 +8241,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "三野 友美",
-      "date": "2026-05-03",
-      "time": "12:45",
-      "ts": "2026-05-02T22:30:54+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "長嶺俐月",
       "date": "2026-05-03",
       "time": "11:40",
@@ -8251,6 +8252,13 @@
       "date": "2026-05-03",
       "time": "22:30",
       "ts": "2026-05-03T00:59:15+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "馮 笑",
+      "date": "2026-05-03",
+      "time": "12:00",
+      "ts": "2026-05-03T07:22:41+09:00"
     }
   ]
 }
