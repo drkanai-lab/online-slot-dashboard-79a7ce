@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T23:59:03.835978+09:00",
+  "generated": "2026-05-03T00:01:26.902173+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -12,668 +12,6 @@
     "status": "booked"
   },
   "days": [
-    {
-      "date": "2026-05-02",
-      "short": "5/2(土)",
-      "dow": "土",
-      "open_count": 12,
-      "booked_count": 23,
-      "new_count": 8,
-      "revisit_count": 15,
-      "first_open": "13:40",
-      "last_open": "23:50",
-      "first_booked": "12:00",
-      "last_booked": "23:45",
-      "per_platform_open": {
-        "CLINICS": 10,
-        "SOKUYAKU": 2
-      },
-      "per_platform_booked": {
-        "クロン": 5,
-        "gcal": 24,
-        "CLINICS": 10,
-        "SOKUYAKU": 6,
-        "GMO": 3
-      },
-      "full_platforms": [
-        {
-          "name": "クロン",
-          "code": "K"
-        },
-        {
-          "name": "GMO",
-          "code": "G"
-        }
-      ],
-      "ranges": [
-        [
-          "12:00",
-          "14:10"
-        ],
-        [
-          "18:30",
-          "20:00"
-        ],
-        [
-          "22:00",
-          "24:00"
-        ]
-      ],
-      "range_text": "12:00〜14:10, 18:30〜20:00, 22:00〜24:00",
-      "slots": [
-        {
-          "time": "12:00",
-          "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "12:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "田岡 菜穂",
-              "visit_type": "初診",
-              "department": "",
-              "end_time": "12:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "12:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "12:20"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "かわぐちけんた",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "12:25"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "12:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "12:30"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "原田優維",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "12:30"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "12:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "12:45"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "宮崎 悟瑠",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "12:45"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "宮崎 悟瑠",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
-        },
-        {
-          "time": "12:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "13:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "杉島英翔",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "13:00"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "杉島英翔",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
-        },
-        {
-          "time": "13:00",
-          "platforms": {
-            "GMO": {
-              "status": "booked",
-              "end_time": "13:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "松井　伸雄",
-              "visit_type": "初診",
-              "department": "消内",
-              "end_time": "13:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "13:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "13:20"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "神尾朋彦",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "13:20"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "13:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "13:30"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "野田功",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "13:30"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "13:30",
-          "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "13:40"
-            }
-          },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "石橋 泰典",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "13:40"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "13:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "13:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "14:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "松本雄大",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "14:00"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "14:00",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "14:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "岡田照真",
-              "visit_type": "初診",
-              "department": "耳鼻",
-              "end_time": "14:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:30",
-          "platforms": {
-            "GMO": {
-              "status": "booked",
-              "end_time": "18:40"
-            }
-          },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "なりた ななみ",
-              "visit_type": "再診",
-              "department": "心療",
-              "end_time": "18:40"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "19:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "北澤千緒",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "19:00"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:00",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "19:10"
-            },
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "19:15"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "山本竜輝",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "19:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:15",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "19:30"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:30",
-          "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "19:40"
-            }
-          },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "小澤 友美",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "19:40"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "19:50"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "大関翔太",
-              "visit_type": "初診",
-              "department": "",
-              "end_time": "19:50"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "オウ シエン",
-              "visit_type": "初診",
-              "department": "",
-              "end_time": "22:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "22:20"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "小栁仁美",
-              "visit_type": "初診",
-              "department": "整形",
-              "end_time": "22:20"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "22:45"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "佐藤 明浩",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:45"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "佐藤 明浩",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
-        },
-        {
-          "time": "22:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "津久井 理絵",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:00"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "津久井 理絵",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
-        },
-        {
-          "time": "22:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:00",
-          "platforms": {
-            "GMO": {
-              "status": "booked",
-              "end_time": "23:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "清水　則貴",
-              "visit_type": "再診",
-              "department": "肛門",
-              "end_time": "23:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "23:40"
-            },
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:45"
-            }
-          },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "楠城 嘉章",
-              "visit_type": "初診",
-              "department": "",
-              "end_time": "23:40"
-            },
-            {
-              "code": "S",
-              "patient_name": "小山 息吹",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:45"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "小山 息吹",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
-        },
-        {
-          "time": "23:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:59"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "黒田 みつ美",
-              "visit_type": "初診",
-              "department": "ピル",
-              "end_time": "23:55"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "黒田 みつ美",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
-        },
-        {
-          "time": "23:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        }
-      ],
-      "last_updated": "2026-05-02T23:59:02.500410+09:00",
-      "sokuyaku_reserve_ok": true
-    },
     {
       "date": "2026-05-03",
       "short": "5/3(日)",
@@ -1111,13 +449,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -1146,7 +484,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T23:49:50.365300+09:00",
+      "last_updated": "2026-05-03T00:01:25.921561+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1424,7 +762,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T23:50:21.355189+09:00",
+      "last_updated": "2026-05-03T00:00:42.881648+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1672,7 +1010,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T23:50:51.479883+09:00",
+      "last_updated": "2026-05-03T00:01:06.676795+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8701,6 +8039,27 @@
       ],
       "last_updated": "2026-05-02T23:43:54.048324+09:00",
       "sokuyaku_reserve_ok": true
+    },
+    {
+      "date": "2026-06-02",
+      "short": "6/2(火)",
+      "dow": "火",
+      "open_count": 0,
+      "booked_count": 0,
+      "new_count": 0,
+      "revisit_count": 0,
+      "first_open": "",
+      "last_open": "",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {},
+      "per_platform_booked": {},
+      "full_platforms": [],
+      "ranges": [],
+      "range_text": "",
+      "slots": [],
+      "last_updated": null,
+      "sokuyaku_reserve_ok": false
     }
   ],
   "recent_events": [
