@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T20:18:55.854534+09:00",
+  "generated": "2026-05-02T20:21:28.501652+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
@@ -16,23 +16,23 @@
       "date": "2026-05-02",
       "short": "5/2(土)",
       "dow": "土",
-      "open_count": 16,
-      "booked_count": 20,
+      "open_count": 15,
+      "booked_count": 21,
       "new_count": 7,
-      "revisit_count": 13,
+      "revisit_count": 14,
       "first_open": "13:40",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 11,
-        "SOKUYAKU": 5
+        "SOKUYAKU": 4
       },
       "per_platform_booked": {
         "クロン": 5,
         "gcal": 20,
         "CLINICS": 9,
-        "SOKUYAKU": 3,
+        "SOKUYAKU": 4,
         "GMO": 3
       },
       "full_platforms": [
@@ -517,12 +517,18 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "津久井 理絵",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -622,7 +628,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T20:18:54.462111+09:00",
+      "last_updated": "2026-05-02T20:21:25.942712+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
