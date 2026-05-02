@@ -1,12 +1,12 @@
 {
-  "generated": "2026-05-02T18:46:48.731066+09:00",
+  "generated": "2026-05-02T18:51:43.299604+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
     "short": "5/2(土)",
-    "time": "18:50",
+    "time": "19:00",
     "code": "C",
-    "patient_name": "北澤千緒",
+    "patient_name": "山本竜輝",
     "visit_type": "再診",
     "department": "",
     "status": "booked"
@@ -17,21 +17,21 @@
       "short": "5/2(土)",
       "dow": "土",
       "open_count": 17,
-      "booked_count": 18,
+      "booked_count": 19,
       "new_count": 7,
-      "revisit_count": 11,
+      "revisit_count": 12,
       "first_open": "13:40",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:30",
       "per_platform_open": {
-        "CLINICS": 12,
+        "CLINICS": 11,
         "SOKUYAKU": 6
       },
       "per_platform_booked": {
         "クロン": 5,
-        "gcal": 18,
-        "CLINICS": 8,
+        "gcal": 19,
+        "CLINICS": 9,
         "SOKUYAKU": 2,
         "GMO": 3
       },
@@ -346,15 +346,23 @@
           "time": "19:00",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:10"
             },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "山本竜輝",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -557,13 +565,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "booked",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [
@@ -600,7 +608,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T18:43:41.138763+09:00",
+      "last_updated": "2026-05-02T18:51:41.255808+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8597,13 +8605,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "田岡 菜穂",
-      "date": "2026-05-02",
-      "time": "12:00",
-      "ts": "2026-05-02T09:55:14+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "岡田照真",
       "date": "2026-05-02",
       "time": "14:00",
@@ -8619,6 +8620,13 @@
         "time": "13:20"
       },
       "ts": "2026-05-02T15:32:48+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "山本竜輝",
+      "date": "2026-05-02",
+      "time": "19:00",
+      "ts": "2026-05-02T18:51:42+09:00"
     }
   ]
 }
