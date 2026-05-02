@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-02T19:13:38.857215+09:00",
+  "generated": "2026-05-02T19:16:10.078616+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
     "short": "5/2(土)",
-    "time": "19:15",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "19:20",
+    "code": "C",
+    "patient_name": "宮本絵美",
+    "visit_type": "初診",
+    "department": "婦人",
+    "status": "booked"
   },
   "days": [
     {
@@ -18,8 +18,8 @@
       "dow": "土",
       "open_count": 16,
       "booked_count": 20,
-      "new_count": 7,
-      "revisit_count": 13,
+      "new_count": 8,
+      "revisit_count": 12,
       "first_open": "13:40",
       "last_open": "23:50",
       "first_booked": "12:00",
@@ -437,7 +437,7 @@
             {
               "code": "C",
               "patient_name": "大関翔太",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "",
               "end_time": "19:50"
             }
@@ -616,7 +616,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T19:13:36.941403+09:00",
+      "last_updated": "2026-05-02T19:16:08.645214+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1053,7 +1053,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T19:04:51.271719+09:00",
+      "last_updated": "2026-05-02T19:15:04.831679+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1331,7 +1331,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T19:05:22.353938+09:00",
+      "last_updated": "2026-05-02T19:15:35.841080+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1579,7 +1579,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T19:05:56.185343+09:00",
+      "last_updated": "2026-05-02T19:16:06.324416+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
