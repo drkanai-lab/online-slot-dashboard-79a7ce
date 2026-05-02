@@ -1,12 +1,12 @@
 {
-  "generated": "2026-05-02T13:40:37.760564+09:00",
+  "generated": "2026-05-02T13:51:25.038993+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
     "short": "5/2(土)",
-    "time": "13:40",
+    "time": "14:00",
     "code": "C",
-    "patient_name": "岡田富久美",
+    "patient_name": "岡田照真",
     "visit_type": "初診",
     "department": "耳鼻",
     "status": "booked"
@@ -16,23 +16,23 @@
       "date": "2026-05-02",
       "short": "5/2(土)",
       "dow": "土",
-      "open_count": 18,
-      "booked_count": 15,
-      "new_count": 5,
+      "open_count": 17,
+      "booked_count": 16,
+      "new_count": 6,
       "revisit_count": 10,
-      "first_open": "14:00",
+      "first_open": "18:50",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 11,
+        "CLINICS": 10,
         "SOKUYAKU": 6,
         "クロン": 2
       },
       "per_platform_booked": {
         "クロン": 3,
-        "gcal": 15,
-        "CLINICS": 7,
+        "gcal": 16,
+        "CLINICS": 8,
         "SOKUYAKU": 2,
         "GMO": 3
       },
@@ -283,11 +283,19 @@
           "time": "14:00",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "14:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "岡田照真",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "14:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -558,7 +566,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T13:37:29.444231+09:00",
+      "last_updated": "2026-05-02T13:48:16.254853+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -971,7 +979,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T13:38:00.595594+09:00",
+      "last_updated": "2026-05-02T13:48:47.097712+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1187,7 +1195,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T13:38:30.626994+09:00",
+      "last_updated": "2026-05-02T13:49:17.367257+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1435,7 +1443,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T13:39:02.283526+09:00",
+      "last_updated": "2026-05-02T13:49:48.128401+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1667,7 +1675,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T13:39:33.387165+09:00",
+      "last_updated": "2026-05-02T13:50:19.035806+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1980,7 +1988,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T13:40:05.573319+09:00",
+      "last_updated": "2026-05-02T13:50:51.754760+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2163,7 +2171,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T13:40:36.445572+09:00",
+      "last_updated": "2026-05-02T13:51:22.972927+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8492,6 +8500,13 @@
       "date": "2026-05-02",
       "time": "12:00",
       "ts": "2026-05-02T09:55:14+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "岡田照真",
+      "date": "2026-05-02",
+      "time": "14:00",
+      "ts": "2026-05-02T13:51:24+09:00"
     }
   ]
 }
