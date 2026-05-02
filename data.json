@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T22:04:15.123831+09:00",
+  "generated": "2026-05-02T22:06:45.942908+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
@@ -16,23 +16,23 @@
       "date": "2026-05-02",
       "short": "5/2(土)",
       "dow": "土",
-      "open_count": 13,
+      "open_count": 14,
       "booked_count": 22,
-      "new_count": 9,
-      "revisit_count": 13,
+      "new_count": 7,
+      "revisit_count": 15,
       "first_open": "13:40",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 10,
-        "SOKUYAKU": 3
+        "SOKUYAKU": 4
       },
       "per_platform_booked": {
         "クロン": 5,
-        "gcal": 23,
+        "gcal": 18,
         "CLINICS": 10,
-        "SOKUYAKU": 5,
+        "SOKUYAKU": 4,
         "GMO": 3
       },
       "full_platforms": [
@@ -126,16 +126,14 @@
               "end_time": "12:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "宮崎 悟瑠",
               "visit_type": "再診",
-              "department": "小児",
-              "end_time": "12:40"
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "12:45",
@@ -145,16 +143,14 @@
               "end_time": "13:00"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "杉島英翔",
-              "visit_type": "初診",
-              "department": "皮膚",
-              "end_time": "12:55"
+              "visit_type": "再診",
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "13:00",
@@ -492,16 +488,14 @@
               "end_time": "22:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "佐藤 明浩",
               "visit_type": "再診",
-              "department": "耳鼻",
-              "end_time": "22:40"
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:45",
@@ -511,16 +505,14 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "津久井 理絵",
-              "visit_type": "初診",
-              "department": "婦人",
-              "end_time": "22:55"
+              "visit_type": "再診",
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:50",
@@ -582,18 +574,11 @@
               "end_time": "23:40"
             },
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "23:45"
             }
           },
           "gcals": [
-            {
-              "code": "S",
-              "patient_name": "小山 息吹",
-              "visit_type": "初診",
-              "department": "眼",
-              "end_time": "23:40"
-            },
             {
               "code": "K",
               "patient_name": "楠城 嘉章",
@@ -602,7 +587,13 @@
               "end_time": "23:40"
             }
           ],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "小山 息吹",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "23:45",
@@ -627,7 +618,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T22:04:11.292306+09:00",
+      "last_updated": "2026-05-02T22:06:44.114521+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
