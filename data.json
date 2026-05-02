@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T00:58:56.158184+09:00",
+  "generated": "2026-05-03T00:59:16.196224+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -16,10 +16,10 @@
       "date": "2026-05-03",
       "short": "5/3(日)",
       "dow": "日",
-      "open_count": 28,
-      "booked_count": 5,
+      "open_count": 27,
+      "booked_count": 6,
       "new_count": 3,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "11:30",
@@ -28,13 +28,13 @@
         "クロン": 4,
         "CLINICS": 18,
         "GMO": 1,
-        "SOKUYAKU": 6
+        "SOKUYAKU": 5
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 5,
+        "gcal": 6,
         "CLINICS": 1,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 3
       },
       "full_platforms": [],
       "ranges": [
@@ -376,11 +376,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "松山しほ",
+              "visit_type": "再診",
+              "department": "婦人",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "松山しほ",
@@ -490,7 +498,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T00:56:41.655360+09:00",
+      "last_updated": "2026-05-03T00:59:14.087215+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8071,13 +8079,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "安部 結香",
-      "date": "2026-05-03",
-      "time": "12:30",
-      "ts": "2026-05-02T20:48:57+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "三野 友美",
       "date": "2026-05-03",
       "time": "12:45",
@@ -8089,6 +8090,13 @@
       "date": "2026-05-03",
       "time": "11:40",
       "ts": "2026-05-02T23:52:24+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "松山しほ",
+      "date": "2026-05-03",
+      "time": "22:30",
+      "ts": "2026-05-03T00:59:15+09:00"
     }
   ]
 }
