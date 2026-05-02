@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T08:30:29.058993+09:00",
+  "generated": "2026-05-03T08:32:56.004428+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -17,8 +17,8 @@
       "short": "5/3(日)",
       "dow": "日",
       "open_count": 24,
-      "booked_count": 10,
-      "new_count": 4,
+      "booked_count": 11,
+      "new_count": 5,
       "revisit_count": 6,
       "first_open": "12:10",
       "last_open": "23:50",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 10,
+        "gcal": 11,
         "CLINICS": 3,
         "クロン": 1,
         "SOKUYAKU": 4
@@ -350,7 +350,15 @@
               "end_time": "19:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "矢部 柚紀",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "19:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -548,7 +556,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T08:30:27.732715+09:00",
+      "last_updated": "2026-05-03T08:32:53.929937+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8243,18 +8251,11 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T07:15:42.077720+09:00",
+      "last_updated": "2026-05-03T08:30:57.793782+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
   "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "松山しほ",
-      "date": "2026-05-03",
-      "time": "22:30",
-      "ts": "2026-05-03T00:59:15+09:00"
-    },
     {
       "type": "new",
       "patient_name": "馮 笑",
@@ -8268,6 +8269,13 @@
       "date": "2026-05-03",
       "time": "11:50",
       "ts": "2026-05-03T08:23:11+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "矢部 柚紀",
+      "date": "2026-05-03",
+      "time": "19:30",
+      "ts": "2026-05-03T08:32:55+09:00"
     }
   ]
 }
