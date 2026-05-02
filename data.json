@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T19:11:08.235049+09:00",
+  "generated": "2026-05-02T19:13:38.857215+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "クロン": 5,
-        "gcal": 19,
+        "gcal": 20,
         "CLINICS": 10,
         "SOKUYAKU": 2,
         "GMO": 3
@@ -433,7 +433,15 @@
               "end_time": "19:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "大関翔太",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -608,7 +616,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T19:11:06.975706+09:00",
+      "last_updated": "2026-05-02T19:13:36.941403+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
