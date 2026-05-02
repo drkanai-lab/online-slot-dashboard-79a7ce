@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T15:22:41.754557+09:00",
+  "generated": "2026-05-02T15:32:49.371762+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
@@ -16,23 +16,23 @@
       "date": "2026-05-02",
       "short": "5/2(土)",
       "dow": "土",
-      "open_count": 18,
-      "booked_count": 15,
+      "open_count": 17,
+      "booked_count": 16,
       "new_count": 5,
-      "revisit_count": 10,
+      "revisit_count": 11,
       "first_open": "13:40",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 11,
+        "CLINICS": 10,
         "SOKUYAKU": 6,
         "クロン": 2
       },
       "per_platform_booked": {
         "クロン": 3,
-        "gcal": 15,
-        "CLINICS": 7,
+        "gcal": 16,
+        "CLINICS": 8,
         "SOKUYAKU": 2,
         "GMO": 3
       },
@@ -332,11 +332,19 @@
           "time": "18:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "北澤千緒",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -558,7 +566,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T15:19:36.270764+09:00",
+      "last_updated": "2026-05-02T15:29:43.333860+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -971,7 +979,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T15:20:06.577966+09:00",
+      "last_updated": "2026-05-02T15:30:13.676688+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1187,7 +1195,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T15:20:36.660164+09:00",
+      "last_updated": "2026-05-02T15:30:43.793720+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1435,7 +1443,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T15:21:07.575435+09:00",
+      "last_updated": "2026-05-02T15:31:14.496357+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1667,7 +1675,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T15:21:37.549053+09:00",
+      "last_updated": "2026-05-02T15:31:45.219054+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1675,9 +1683,9 @@
       "short": "5/7(木)",
       "dow": "木",
       "open_count": 16,
-      "booked_count": 5,
+      "booked_count": 4,
       "new_count": 0,
-      "revisit_count": 5,
+      "revisit_count": 4,
       "first_open": "11:45",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -1690,7 +1698,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 5,
+        "gcal": 4,
         "CLINICS": 1,
         "GMO": 1
       },
@@ -1844,15 +1852,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "北澤千緒",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "13:30"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -1980,7 +1980,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T15:22:09.642000+09:00",
+      "last_updated": "2026-05-02T15:32:16.528523+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2163,7 +2163,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T15:22:39.959974+09:00",
+      "last_updated": "2026-05-02T15:32:47.241486+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8450,13 +8450,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "小澤 友美",
-      "date": "2026-05-02",
-      "time": "19:30",
-      "ts": "2026-05-02T08:23:22+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "田岡 菜穂",
       "date": "2026-05-02",
       "time": "12:00",
@@ -8468,6 +8461,17 @@
       "date": "2026-05-02",
       "time": "14:00",
       "ts": "2026-05-02T13:51:24+09:00"
+    },
+    {
+      "type": "moved",
+      "patient_name": "北澤千緒",
+      "date": "2026-05-02",
+      "time": "18:50",
+      "from": {
+        "date": "2026-05-07",
+        "time": "13:20"
+      },
+      "ts": "2026-05-02T15:32:48+09:00"
     }
   ]
 }
