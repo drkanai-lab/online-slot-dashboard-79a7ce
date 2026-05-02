@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-02T20:44:04.143332+09:00",
+  "generated": "2026-05-02T20:46:35.401661+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-02",
@@ -636,16 +636,16 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T20:44:02.734032+09:00",
+      "last_updated": "2026-05-02T20:46:33.917513+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-03",
       "short": "5/3(日)",
       "dow": "日",
-      "open_count": 31,
-      "booked_count": 2,
-      "new_count": 1,
+      "open_count": 30,
+      "booked_count": 3,
+      "new_count": 2,
       "revisit_count": 1,
       "first_open": "11:40",
       "last_open": "23:50",
@@ -654,12 +654,13 @@
       "per_platform_open": {
         "CLINICS": 19,
         "クロン": 4,
-        "SOKUYAKU": 8,
+        "SOKUYAKU": 7,
         "GMO": 1
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 2
+        "gcal": 3,
+        "SOKUYAKU": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -756,12 +757,26 @@
           "time": "12:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "安部 結香",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "12:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "安部 結香",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "12:45",
@@ -1073,7 +1088,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-02T20:36:14.574261+09:00",
+      "last_updated": "2026-05-02T20:46:20.474513+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
