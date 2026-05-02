@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T02:15:55.577733+09:00",
+  "generated": "2026-05-03T02:18:18.794412+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 1,
         "SOKUYAKU": 4
       },
@@ -416,7 +416,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "高柳美月",
+              "visit_type": "再診",
+              "department": "心療",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "高柳美月",
@@ -515,7 +523,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T02:15:53.710047+09:00",
+      "last_updated": "2026-05-03T02:18:17.841554+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
