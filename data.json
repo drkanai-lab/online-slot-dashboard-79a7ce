@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T11:25:10.582277+09:00",
+  "generated": "2026-05-03T11:27:40.761426+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -19,8 +19,8 @@
       "short": "5/3(日)",
       "dow": "日",
       "open_count": 21,
-      "booked_count": 13,
-      "new_count": 7,
+      "booked_count": 14,
+      "new_count": 8,
       "revisit_count": 6,
       "first_open": "12:20",
       "last_open": "23:50",
@@ -28,13 +28,13 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 13,
-        "SOKUYAKU": 6,
         "GMO": 1,
+        "SOKUYAKU": 6,
         "クロン": 2
       },
       "per_platform_booked": {
         "GMO": 3,
-        "gcal": 13,
+        "gcal": 15,
         "CLINICS": 4,
         "クロン": 2,
         "SOKUYAKU": 4
@@ -245,7 +245,7 @@
           "time": "13:00",
           "platforms": {
             "GMO": {
-              "status": "booked",
+              "status": "open",
               "end_time": "13:10"
             }
           },
@@ -253,6 +253,13 @@
             {
               "code": "G",
               "patient_name": "中村　武利",
+              "visit_type": "初診",
+              "department": "総診",
+              "end_time": "13:10"
+            },
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
               "visit_type": "初診",
               "department": "総診",
               "end_time": "13:10"
@@ -318,11 +325,19 @@
           "time": "18:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "18:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "総診",
+              "end_time": "18:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -602,7 +617,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T11:25:09.295841+09:00",
+      "last_updated": "2026-05-03T11:27:37.099446+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8203,13 +8218,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "松尾昌宗",
-      "date": "2026-05-03",
-      "time": "11:50",
-      "ts": "2026-05-03T08:23:11+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "矢部 柚紀",
       "date": "2026-05-03",
       "time": "19:30",
@@ -8221,6 +8229,13 @@
       "date": "2026-05-03",
       "time": "12:10",
       "ts": "2026-05-03T10:37:31+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "患者名不明",
+      "date": "2026-05-03",
+      "time": "18:30",
+      "ts": "2026-05-03T11:27:39+09:00"
     }
   ],
   "sigma_qualified_count": 21
