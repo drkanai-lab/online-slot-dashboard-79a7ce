@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T10:34:05.207719+09:00",
+  "generated": "2026-05-03T10:34:57.969006+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -9,7 +9,9 @@
     "patient_name": "岡留　康文",
     "visit_type": "再診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.03 01:21:22"
   },
   "days": [
     {
@@ -79,7 +81,9 @@
               "patient_name": "岡留　康文",
               "visit_type": "再診",
               "department": "",
-              "end_time": "11:40"
+              "end_time": "11:40",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:21:22"
             }
           ],
           "sokuyaku_truth": []
@@ -98,7 +102,9 @@
               "patient_name": "長嶺俐月",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "11:50"
+              "end_time": "11:50",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:13:30"
             }
           ],
           "sokuyaku_truth": []
@@ -117,7 +123,9 @@
               "patient_name": "松尾昌宗",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:00"
+              "end_time": "12:00",
+              "qualified": true,
+              "qualified_at": "R08.05.03 09:50:27"
             }
           ],
           "sokuyaku_truth": []
@@ -136,7 +144,9 @@
               "patient_name": "馮 笑",
               "visit_type": "初診",
               "department": "",
-              "end_time": "12:10"
+              "end_time": "12:10",
+              "qualified": true,
+              "qualified_at": "R08.05.03 09:50:27"
             }
           ],
           "sokuyaku_truth": []
@@ -177,14 +187,18 @@
               "patient_name": "安部 結香",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "12:40"
+              "end_time": "12:40",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:16:14"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "安部 結香",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:16:14"
             }
           ]
         },
@@ -202,14 +216,18 @@
               "patient_name": "三野 友美",
               "visit_type": "再診",
               "department": "耳鼻",
-              "end_time": "12:55"
+              "end_time": "12:55",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:20:42"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "三野 友美",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:20:42"
             }
           ]
         },
@@ -238,7 +256,9 @@
               "patient_name": "下林良博",
               "visit_type": "再診",
               "department": "",
-              "end_time": "13:20"
+              "end_time": "13:20",
+              "qualified": true,
+              "qualified_at": "R08.05.03 09:50:27"
             }
           ],
           "sokuyaku_truth": []
@@ -356,7 +376,9 @@
               "patient_name": "矢部 柚紀",
               "visit_type": "初診",
               "department": "",
-              "end_time": "19:40"
+              "end_time": "19:40",
+              "qualified": true,
+              "qualified_at": "R08.05.03 09:50:27"
             }
           ],
           "sokuyaku_truth": []
@@ -430,14 +452,18 @@
               "patient_name": "松山しほ",
               "visit_type": "再診",
               "department": "婦人",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:20:10"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "松山しほ",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:20:10"
             }
           ]
         },
@@ -491,7 +517,9 @@
               "patient_name": "幸田　知穂",
               "visit_type": "初診",
               "department": "整形",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.05.03 01:19:11"
             }
           ],
           "sokuyaku_truth": []
@@ -556,7 +584,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T10:32:29.844144+09:00",
+      "last_updated": "2026-05-03T10:34:56.646545+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8177,5 +8205,5 @@
       "ts": "2026-05-03T08:32:55+09:00"
     }
   ],
-  "sigma_qualified_count": 0
+  "sigma_qualified_count": 20
 }
