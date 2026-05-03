@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T00:47:15.253310+09:00",
+  "generated": "2026-05-04T00:48:54.689971+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -216,7 +216,9 @@
               "patient_name": "仲宗根　綾",
               "visit_type": "初診",
               "department": "眼",
-              "end_time": "18:40"
+              "end_time": "18:40",
+              "qualified": true,
+              "qualified_at": "R08.05.04 00:07:12"
             }
           ],
           "sokuyaku_truth": []
@@ -257,14 +259,18 @@
               "patient_name": "魚住 悌也",
               "visit_type": "初診",
               "department": "頭痛",
-              "end_time": "19:10"
+              "end_time": "19:10",
+              "qualified": true,
+              "qualified_at": "R08.05.04 00:11:58"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "魚住 悌也",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.04 00:11:58"
             }
           ]
         },
@@ -442,7 +448,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T00:46:27.674731+09:00",
+      "last_updated": "2026-05-04T00:48:53.417364+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5990,7 +5996,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T23:33:00.921436+09:00",
+      "last_updated": "2026-05-04T00:47:49.173488+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6158,7 +6164,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T23:33:38.956981+09:00",
+      "last_updated": "2026-05-04T00:48:25.523900+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7842,5 +7848,5 @@
       "ts": "2026-05-03T22:23:24+09:00"
     }
   ],
-  "sigma_qualified_count": 0
+  "sigma_qualified_count": 2
 }
