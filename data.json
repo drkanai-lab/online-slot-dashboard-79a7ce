@@ -1,14 +1,14 @@
 {
-  "generated": "2026-05-03T12:47:40.666448+09:00",
+  "generated": "2026-05-03T12:48:20.837084+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
     "short": "5/3(日)",
     "time": "13:00",
     "code": "G",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
+    "patient_name": "大城　美憂",
+    "visit_type": "初診",
+    "department": "耳鼻",
     "status": "booked"
   },
   "days": [
@@ -18,8 +18,8 @@
       "dow": "日",
       "open_count": 21,
       "booked_count": 13,
-      "new_count": 6,
-      "revisit_count": 7,
+      "new_count": 7,
+      "revisit_count": 6,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "11:30",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "GMO": 3,
-        "gcal": 12,
+        "gcal": 13,
         "CLINICS": 4,
         "クロン": 2,
         "SOKUYAKU": 4
@@ -247,7 +247,15 @@
               "end_time": "13:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "大城　美憂",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "13:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -592,7 +600,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T12:45:49.238769+09:00",
+      "last_updated": "2026-05-03T12:48:19.499535+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
