@@ -1,14 +1,14 @@
 {
-  "generated": "2026-05-03T13:39:49.572898+09:00",
+  "generated": "2026-05-03T13:42:20.287411+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
     "short": "5/3(日)",
     "time": "18:30",
     "code": "G",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
+    "patient_name": "患者名不明",
+    "visit_type": "初診",
+    "department": "不眠",
     "status": "booked"
   },
   "days": [
@@ -16,25 +16,25 @@
       "date": "2026-05-03",
       "short": "5/3(日)",
       "dow": "日",
-      "open_count": 18,
-      "booked_count": 14,
-      "new_count": 7,
-      "revisit_count": 7,
+      "open_count": 17,
+      "booked_count": 15,
+      "new_count": 9,
+      "revisit_count": 6,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 13,
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 3,
         "クロン": 2
       },
       "per_platform_booked": {
         "GMO": 4,
-        "gcal": 13,
+        "gcal": 15,
         "CLINICS": 4,
         "クロン": 2,
-        "SOKUYAKU": 4
+        "SOKUYAKU": 5
       },
       "full_platforms": [
         {
@@ -302,7 +302,15 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "不眠",
+              "end_time": "18:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -331,11 +339,19 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒田 千月",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "19:10"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒田 千月",
@@ -588,7 +604,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T13:39:48.311393+09:00",
+      "last_updated": "2026-05-03T13:42:17.675534+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8203,13 +8219,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "矢部 柚紀",
-      "date": "2026-05-03",
-      "time": "19:30",
-      "ts": "2026-05-03T08:32:55+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "若江珠空",
       "date": "2026-05-03",
       "time": "12:10",
@@ -8221,6 +8230,13 @@
       "date": "2026-05-03",
       "time": "18:30",
       "ts": "2026-05-03T11:27:39+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "黒田 千月",
+      "date": "2026-05-03",
+      "time": "19:00",
+      "ts": "2026-05-03T13:42:19+09:00"
     }
   ],
   "sigma_qualified_count": 21
