@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-03T22:19:29.050713+09:00",
+  "generated": "2026-05-03T22:21:59.430505+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
     "short": "5/3(日)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "原田晃男",
-    "visit_type": "初診",
-    "department": "総診",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "松山しほ",
+    "visit_type": "再診",
+    "department": "婦人",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.03 21:49:24"
+    "qualified_at": "R08.05.03 01:20:10"
   },
   "days": [
     {
@@ -714,32 +714,32 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T22:19:27.670425+09:00",
+      "last_updated": "2026-05-03T22:21:58.065760+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 24,
-      "booked_count": 4,
-      "new_count": 2,
+      "open_count": 23,
+      "booked_count": 5,
+      "new_count": 3,
       "revisit_count": 2,
-      "first_open": "11:30",
+      "first_open": "11:45",
       "last_open": "23:30",
-      "first_booked": "12:00",
+      "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "SOKUYAKU": 5,
+        "SOKUYAKU": 4,
         "CLINICS": 15,
         "GMO": 1,
         "クロン": 3
       },
       "per_platform_booked": {
+        "SOKUYAKU": 2,
+        "gcal": 5,
         "クロン": 1,
-        "gcal": 4,
-        "GMO": 2,
-        "SOKUYAKU": 1
+        "GMO": 2
       },
       "full_platforms": [],
       "ranges": [
@@ -773,12 +773,26 @@
           "time": "11:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "11:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "木村 勇太",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "11:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "木村 勇太",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "11:45",
@@ -1116,7 +1130,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T22:11:50.842459+09:00",
+      "last_updated": "2026-05-03T22:21:20.288323+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1364,7 +1378,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T22:12:14.960710+09:00",
+      "last_updated": "2026-05-03T22:21:44.402007+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7678,7 +7692,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:04:16.223255+09:00",
+      "last_updated": "2026-05-03T22:19:45.238194+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7967,7 +7981,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:04:56.510711+09:00",
+      "last_updated": "2026-05-03T22:20:27.443792+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8326,7 +8340,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:05:36.404378+09:00",
+      "last_updated": "2026-05-03T22:21:07.490632+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8468,7 +8482,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:06:16.212806+09:00",
+      "last_updated": "2026-05-03T22:21:47.269068+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
