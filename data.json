@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-03T23:20:24.299004+09:00",
+  "generated": "2026-05-03T23:21:00.401032+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
     "short": "5/3(日)",
-    "time": "23:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:30",
+    "code": "S",
+    "patient_name": "臼井 あゆみ",
+    "visit_type": "初診",
+    "department": "耳鼻",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.03 20:26:22"
   },
   "days": [
     {
@@ -2087,7 +2089,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T23:10:53.934698+09:00",
+      "last_updated": "2026-05-03T23:20:33.137623+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2441,7 +2443,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T23:11:19.442123+09:00",
+      "last_updated": "2026-05-03T23:20:59.165707+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
