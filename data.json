@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T23:53:16.140569+09:00",
+  "generated": "2026-05-03T23:55:46.752146+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -18,8 +18,8 @@
       "dow": "日",
       "open_count": 10,
       "booked_count": 23,
-      "new_count": 14,
-      "revisit_count": 9,
+      "new_count": 15,
+      "revisit_count": 8,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "11:30",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "GMO": 4,
-        "gcal": 22,
+        "gcal": 23,
         "CLINICS": 10,
         "クロン": 2,
         "SOKUYAKU": 7
@@ -460,7 +460,17 @@
               "end_time": "20:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "宮川和嘉",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "20:05",
+              "qualified": true,
+              "qualified_at": "R08.05.03 23:40:16"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -702,7 +712,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T23:53:14.413591+09:00",
+      "last_updated": "2026-05-03T23:55:45.377132+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
