@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T16:22:54.920031+09:00",
+  "generated": "2026-05-03T16:25:27.258262+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -127,7 +127,7 @@
               "department": "",
               "end_time": "12:00",
               "qualified": true,
-              "qualified_at": "R08.05.03 14:30:41"
+              "qualified_at": "R08.05.03 09:50:27"
             }
           ],
           "sokuyaku_truth": []
@@ -148,7 +148,7 @@
               "department": "",
               "end_time": "12:10",
               "qualified": true,
-              "qualified_at": "R08.05.03 14:30:41"
+              "qualified_at": "R08.05.03 09:50:27"
             }
           ],
           "sokuyaku_truth": []
@@ -167,9 +167,7 @@
               "patient_name": "若江珠空",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "12:20",
-              "qualified": true,
-              "qualified_at": "R08.05.03 14:30:41"
+              "end_time": "12:20"
             }
           ],
           "sokuyaku_truth": []
@@ -257,9 +255,7 @@
               "patient_name": "大城　美憂",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "13:10",
-              "qualified": true,
-              "qualified_at": "R08.05.03 12:53:41"
+              "end_time": "13:10"
             }
           ],
           "sokuyaku_truth": []
@@ -280,7 +276,7 @@
               "department": "",
               "end_time": "13:20",
               "qualified": true,
-              "qualified_at": "R08.05.03 14:30:41"
+              "qualified_at": "R08.05.03 09:50:27"
             }
           ],
           "sokuyaku_truth": []
@@ -329,9 +325,7 @@
               "patient_name": "安田知世",
               "visit_type": "初診",
               "department": "",
-              "end_time": "18:50",
-              "qualified": true,
-              "qualified_at": "R08.05.03 14:30:41"
+              "end_time": "18:50"
             }
           ],
           "sokuyaku_truth": []
@@ -418,7 +412,7 @@
               "department": "",
               "end_time": "19:40",
               "qualified": true,
-              "qualified_at": "R08.05.03 14:30:41"
+              "qualified_at": "R08.05.03 09:50:27"
             }
           ],
           "sokuyaku_truth": []
@@ -624,7 +618,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T16:22:53.525275+09:00",
+      "last_updated": "2026-05-03T16:25:25.823852+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8274,5 +8268,5 @@
       "ts": "2026-05-03T16:00:20+09:00"
     }
   ],
-  "sigma_qualified_count": 25
+  "sigma_qualified_count": 20
 }
