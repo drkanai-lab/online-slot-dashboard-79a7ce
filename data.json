@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T14:14:59.985537+09:00",
+  "generated": "2026-05-03T14:17:33.290268+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "GMO": 4,
-        "gcal": 15,
+        "gcal": 16,
         "CLINICS": 5,
         "クロン": 2,
         "SOKUYAKU": 5
@@ -323,7 +323,15 @@
               "end_time": "18:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "安田知世",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "18:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -606,7 +614,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T14:14:57.053476+09:00",
+      "last_updated": "2026-05-03T14:17:31.280595+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
