@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T15:57:39.122122+09:00",
+  "generated": "2026-05-03T16:00:08.937249+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -624,30 +624,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T15:57:37.805849+09:00",
+      "last_updated": "2026-05-03T16:00:07.644078+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 18,
-      "booked_count": 1,
-      "new_count": 0,
+      "open_count": 17,
+      "booked_count": 2,
+      "new_count": 1,
       "revisit_count": 1,
       "first_open": "18:30",
       "last_open": "23:30",
-      "first_booked": "23:00",
+      "first_booked": "19:00",
       "last_booked": "23:00",
       "per_platform_open": {
         "GMO": 1,
         "CLINICS": 10,
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 3,
         "クロン": 3
       },
       "per_platform_booked": {
-        "GMO": 1,
-        "gcal": 1
+        "SOKUYAKU": 1,
+        "gcal": 2,
+        "GMO": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -721,12 +722,26 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "魚住 悌也",
+              "visit_type": "初診",
+              "department": "頭痛",
+              "end_time": "19:10"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "魚住 悌也",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:15",
@@ -902,7 +917,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T15:48:42.671143+09:00",
+      "last_updated": "2026-05-03T15:58:16.629893+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1150,7 +1165,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T15:49:07.108953+09:00",
+      "last_updated": "2026-05-03T15:58:41.269093+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1382,7 +1397,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T15:49:31.937690+09:00",
+      "last_updated": "2026-05-03T15:59:04.803720+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1665,7 +1680,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T15:49:58.327841+09:00",
+      "last_updated": "2026-05-03T15:59:29.572031+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1848,7 +1863,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T15:50:23.237876+09:00",
+      "last_updated": "2026-05-03T15:59:54.210080+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5916,7 +5931,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T14:42:41.103715+09:00",
+      "last_updated": "2026-05-03T15:58:06.319978+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6286,7 +6301,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T14:43:18.851971+09:00",
+      "last_updated": "2026-05-03T15:58:44.083495+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6428,7 +6443,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T14:43:55.791803+09:00",
+      "last_updated": "2026-05-03T15:59:21.407986+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6596,7 +6611,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T14:44:32.228239+09:00",
+      "last_updated": "2026-05-03T15:59:58.929900+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
