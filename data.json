@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T00:29:40.548101+09:00",
+  "generated": "2026-05-04T00:32:04.762616+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -17,8 +17,8 @@
       "short": "5/4(月)",
       "dow": "月",
       "open_count": 23,
-      "booked_count": 6,
-      "new_count": 4,
+      "booked_count": 5,
+      "new_count": 3,
       "revisit_count": 2,
       "first_open": "11:45",
       "last_open": "23:30",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 6,
+        "gcal": 5,
         "クロン": 1,
         "GMO": 2
       },
@@ -127,15 +127,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "田中椛",
-              "visit_type": "初診",
-              "department": "［小児/大人ともOK］",
-              "end_time": "12:20"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -433,7 +425,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T00:29:39.159124+09:00",
+      "last_updated": "2026-05-04T00:32:03.214584+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
