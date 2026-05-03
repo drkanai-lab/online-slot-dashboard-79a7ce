@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T17:32:46.631419+09:00",
+  "generated": "2026-05-03T17:35:11.944239+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -646,33 +646,37 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T17:32:45.213818+09:00",
+      "last_updated": "2026-05-03T17:35:10.524139+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 17,
-      "booked_count": 2,
-      "new_count": 1,
+      "open_count": 16,
+      "booked_count": 3,
+      "new_count": 2,
       "revisit_count": 1,
-      "first_open": "18:30",
+      "first_open": "18:40",
       "last_open": "23:30",
-      "first_booked": "19:00",
+      "first_booked": "18:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "GMO": 1,
         "CLINICS": 10,
         "SOKUYAKU": 3,
         "クロン": 3
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
-        "gcal": 2,
-        "GMO": 1
+        "GMO": 2,
+        "gcal": 3,
+        "SOKUYAKU": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "GMO",
+          "code": "G"
+        }
+      ],
       "ranges": [
         [
           "18:30",
@@ -711,11 +715,19 @@
           "time": "18:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "18:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "眼",
+              "end_time": "18:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -939,7 +951,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T17:24:14.926161+09:00",
+      "last_updated": "2026-05-03T17:34:10.291464+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1187,7 +1199,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T17:24:39.126373+09:00",
+      "last_updated": "2026-05-03T17:34:34.770937+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1209,7 +1221,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 2,
+        "gcal": 3,
         "GMO": 1
       },
       "full_platforms": [
@@ -1361,7 +1373,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "荒木　昭子",
+              "visit_type": "再診",
+              "department": "アレ",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1424,7 +1444,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T17:25:04.692421+09:00",
+      "last_updated": "2026-05-03T17:34:58.481361+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
