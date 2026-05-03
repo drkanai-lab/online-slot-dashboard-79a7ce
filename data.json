@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-03T12:59:06.702098+09:00",
+  "generated": "2026-05-03T13:01:33.249852+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
     "short": "5/3(日)",
-    "time": "13:00",
-    "code": "G",
-    "patient_name": "大城　美憂",
-    "visit_type": "初診",
-    "department": "耳鼻",
-    "status": "booked"
+    "time": "13:10",
+    "code": "C",
+    "patient_name": "下林良博",
+    "visit_type": "再診",
+    "department": "",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.03 10:50:30"
   },
   "days": [
     {
@@ -600,7 +602,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T12:59:05.281516+09:00",
+      "last_updated": "2026-05-03T13:01:31.925771+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
