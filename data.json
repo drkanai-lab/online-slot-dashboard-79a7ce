@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T21:11:42.877545+09:00",
+  "generated": "2026-05-03T21:14:11.910856+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -682,7 +682,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:11:41.446247+09:00",
+      "last_updated": "2026-05-03T21:14:10.589575+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -705,8 +705,8 @@
       },
       "per_platform_booked": {
         "クロン": 1,
+        "gcal": 4,
         "GMO": 2,
-        "gcal": 3,
         "SOKUYAKU": 1
       },
       "full_platforms": [],
@@ -767,7 +767,15 @@
               "end_time": "12:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "松丸 玲子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1076,7 +1084,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:04:33.674055+09:00",
+      "last_updated": "2026-05-03T21:14:07.759257+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
