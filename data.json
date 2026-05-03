@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T22:01:50.582585+09:00",
+  "generated": "2026-05-03T22:04:23.898809+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -20,8 +20,8 @@
       "dow": "日",
       "open_count": 10,
       "booked_count": 23,
-      "new_count": 14,
-      "revisit_count": 9,
+      "new_count": 15,
+      "revisit_count": 8,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "11:30",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 4,
-        "gcal": 22,
+        "gcal": 23,
         "CLINICS": 10,
         "クロン": 2,
         "SOKUYAKU": 7
@@ -108,7 +108,7 @@
               "department": "皮膚",
               "end_time": "11:50",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -129,7 +129,7 @@
               "department": "",
               "end_time": "12:00",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -150,7 +150,7 @@
               "department": "",
               "end_time": "12:10",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -171,7 +171,7 @@
               "department": "耳鼻",
               "end_time": "12:20",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -282,7 +282,7 @@
               "department": "",
               "end_time": "13:20",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -314,7 +314,7 @@
               "department": "不眠",
               "end_time": "18:40",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -335,7 +335,7 @@
               "department": "",
               "end_time": "18:50",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -356,7 +356,7 @@
               "department": "",
               "end_time": "19:00",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -417,7 +417,7 @@
               "department": "耳鼻",
               "end_time": "19:30",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -438,7 +438,7 @@
               "department": "",
               "end_time": "19:40",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -470,7 +470,7 @@
               "department": "小児",
               "end_time": "20:00",
               "qualified": true,
-              "qualified_at": "R08.05.03 21:50:52"
+              "qualified_at": "R08.05.03 22:00:33"
             }
           ],
           "sokuyaku_truth": []
@@ -681,7 +681,15 @@
               "end_time": "23:59"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "原 一哲",
+              "visit_type": "初診",
+              "department": "内科",
+              "end_time": "23:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "原 一哲",
@@ -702,7 +710,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T22:01:48.930821+09:00",
+      "last_updated": "2026-05-03T22:04:22.561052+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1104,7 +1112,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:52:46.740411+09:00",
+      "last_updated": "2026-05-03T22:02:20.161011+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1352,7 +1360,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:53:11.678042+09:00",
+      "last_updated": "2026-05-03T22:02:45.972057+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1597,7 +1605,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:53:35.651977+09:00",
+      "last_updated": "2026-05-03T22:03:10.029549+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1880,7 +1888,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:54:00.979091+09:00",
+      "last_updated": "2026-05-03T22:03:34.775074+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2063,7 +2071,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:54:25.905737+09:00",
+      "last_updated": "2026-05-03T22:03:58.455879+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
