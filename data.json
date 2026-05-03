@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T07:59:00.836238+09:00",
+  "generated": "2026-05-04T08:01:25.351974+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -203,7 +203,9 @@
               "patient_name": "小山零偉",
               "visit_type": "初診",
               "department": "眼",
-              "end_time": "12:50"
+              "end_time": "12:50",
+              "qualified": true,
+              "qualified_at": "R08.05.04 07:45:39"
             }
           ],
           "sokuyaku_truth": []
@@ -484,7 +486,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T07:58:59.269153+09:00",
+      "last_updated": "2026-05-04T08:01:24.030934+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8024,5 +8026,5 @@
       "ts": "2026-05-04T07:17:52+09:00"
     }
   ],
-  "sigma_qualified_count": 41
+  "sigma_qualified_count": 42
 }
