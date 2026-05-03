@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T19:21:13.193042+09:00",
+  "generated": "2026-05-03T19:22:59.881195+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 4,
-        "gcal": 19,
+        "gcal": 20,
         "CLINICS": 8,
         "クロン": 2,
         "SOKUYAKU": 6
@@ -484,7 +484,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "川西史人",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -662,7 +670,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T19:20:20.787732+09:00",
+      "last_updated": "2026-05-03T19:22:58.546781+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
