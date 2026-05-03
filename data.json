@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-03T12:20:02.269855+09:00",
+  "generated": "2026-05-03T12:22:47.843031+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
     "short": "5/3(日)",
-    "time": "12:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "12:30",
+    "code": "S",
+    "patient_name": "安部 結香",
+    "visit_type": "初診",
+    "department": "耳鼻",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.03 01:16:14"
   },
   "days": [
     {
@@ -592,7 +594,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T12:20:00.840366+09:00",
+      "last_updated": "2026-05-03T12:22:46.485689+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
