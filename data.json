@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T14:45:04.121916+09:00",
+  "generated": "2026-05-03T14:47:38.292549+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -16,23 +16,23 @@
       "date": "2026-05-03",
       "short": "5/3(日)",
       "dow": "日",
-      "open_count": 16,
-      "booked_count": 16,
+      "open_count": 15,
+      "booked_count": 17,
       "new_count": 10,
-      "revisit_count": 6,
+      "revisit_count": 7,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 12,
+        "CLINICS": 11,
         "SOKUYAKU": 3,
         "クロン": 2
       },
       "per_platform_booked": {
         "GMO": 4,
-        "gcal": 16,
-        "CLINICS": 5,
+        "gcal": 17,
+        "CLINICS": 6,
         "クロン": 2,
         "SOKUYAKU": 5
       },
@@ -340,11 +340,19 @@
           "time": "18:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "榊原尚",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -616,7 +624,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T14:45:02.813678+09:00",
+      "last_updated": "2026-05-03T14:47:36.285824+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6870,7 +6878,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T13:29:40.765907+09:00",
+      "last_updated": "2026-05-03T14:45:10.491600+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7038,7 +7046,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T13:30:17.513980+09:00",
+      "last_updated": "2026-05-03T14:45:47.544098+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7434,7 +7442,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T13:30:55.771312+09:00",
+      "last_updated": "2026-05-03T14:46:24.612230+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7723,7 +7731,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T13:31:37.644570+09:00",
+      "last_updated": "2026-05-03T14:47:06.083084+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8231,13 +8239,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "若江珠空",
-      "date": "2026-05-03",
-      "time": "12:10",
-      "ts": "2026-05-03T10:37:31+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "患者名不明",
       "date": "2026-05-03",
       "time": "18:30",
@@ -8249,6 +8250,13 @@
       "date": "2026-05-03",
       "time": "19:00",
       "ts": "2026-05-03T13:42:19+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "榊原尚",
+      "date": "2026-05-03",
+      "time": "18:50",
+      "ts": "2026-05-03T14:47:37+09:00"
     }
   ],
   "sigma_qualified_count": 25
