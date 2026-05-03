@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T07:15:26.811608+09:00",
+  "generated": "2026-05-04T07:17:53.479421+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -19,13 +19,13 @@
       "short": "5/4(月)",
       "dow": "月",
       "open_count": 19,
-      "booked_count": 9,
+      "booked_count": 10,
       "new_count": 6,
-      "revisit_count": 3,
+      "revisit_count": 4,
       "first_open": "11:45",
       "last_open": "23:30",
       "first_booked": "11:30",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "SOKUYAKU": 4,
         "CLINICS": 12,
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 9,
+        "gcal": 10,
         "クロン": 1,
         "CLINICS": 3,
         "GMO": 3
@@ -472,11 +472,19 @@
               "end_time": "23:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "小林 恵里沙",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:40"
+            }
+          ],
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T07:15:25.556844+09:00",
+      "last_updated": "2026-05-04T07:17:51.551577+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -724,7 +732,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T07:07:38.859992+09:00",
+      "last_updated": "2026-05-04T07:17:12.784817+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -969,7 +977,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T07:08:06.164107+09:00",
+      "last_updated": "2026-05-04T07:17:36.269239+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8007,6 +8015,13 @@
       "date": "2026-05-04",
       "time": "11:30",
       "ts": "2026-05-03T22:23:24+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "小林 恵里沙",
+      "date": "2026-05-04",
+      "time": "23:30",
+      "ts": "2026-05-04T07:17:52+09:00"
     }
   ],
   "sigma_qualified_count": 41
