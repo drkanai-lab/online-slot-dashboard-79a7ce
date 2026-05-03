@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T10:34:57.969006+09:00",
+  "generated": "2026-05-03T10:37:32.616750+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -18,24 +18,24 @@
       "date": "2026-05-03",
       "short": "5/3(日)",
       "dow": "日",
-      "open_count": 23,
-      "booked_count": 11,
-      "new_count": 5,
+      "open_count": 22,
+      "booked_count": 12,
+      "new_count": 6,
       "revisit_count": 6,
-      "first_open": "12:10",
+      "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 14,
+        "CLINICS": 13,
         "GMO": 2,
         "SOKUYAKU": 6,
         "クロン": 2
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 11,
-        "CLINICS": 3,
+        "gcal": 12,
+        "CLINICS": 4,
         "クロン": 2,
         "SOKUYAKU": 4
       },
@@ -155,11 +155,19 @@
           "time": "12:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "12:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "若江珠空",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "12:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -584,7 +592,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T10:34:56.646545+09:00",
+      "last_updated": "2026-05-03T10:37:30.529768+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8185,13 +8193,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "馮 笑",
-      "date": "2026-05-03",
-      "time": "12:00",
-      "ts": "2026-05-03T07:22:41+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "松尾昌宗",
       "date": "2026-05-03",
       "time": "11:50",
@@ -8203,6 +8204,13 @@
       "date": "2026-05-03",
       "time": "19:30",
       "ts": "2026-05-03T08:32:55+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "若江珠空",
+      "date": "2026-05-03",
+      "time": "12:10",
+      "ts": "2026-05-03T10:37:31+09:00"
     }
   ],
   "sigma_qualified_count": 20
