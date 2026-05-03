@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T11:35:05.767864+09:00",
+  "generated": "2026-05-03T11:37:37.361961+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -19,8 +19,8 @@
       "short": "5/3(日)",
       "dow": "日",
       "open_count": 22,
-      "booked_count": 13,
-      "new_count": 7,
+      "booked_count": 12,
+      "new_count": 6,
       "revisit_count": 6,
       "first_open": "12:20",
       "last_open": "23:50",
@@ -34,7 +34,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 13,
+        "gcal": 12,
         "CLINICS": 4,
         "クロン": 2,
         "SOKUYAKU": 4
@@ -314,15 +314,7 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "中村　武利",
-              "visit_type": "初診",
-              "department": "総診",
-              "end_time": "18:40"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -602,7 +594,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T11:35:03.852872+09:00",
+      "last_updated": "2026-05-03T11:37:35.476814+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
