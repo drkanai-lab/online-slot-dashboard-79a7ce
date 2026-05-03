@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-03T21:59:20.579354+09:00",
+  "generated": "2026-05-03T22:01:50.582585+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
     "short": "5/3(日)",
-    "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "川西史人",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.03 21:51:37"
   },
   "days": [
     {
@@ -700,7 +702,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T21:59:17.842086+09:00",
+      "last_updated": "2026-05-03T22:01:48.930821+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
