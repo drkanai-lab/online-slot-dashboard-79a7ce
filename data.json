@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T08:20:44.421565+09:00",
+  "generated": "2026-05-04T08:23:09.264805+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -143,7 +143,9 @@
               "patient_name": "松丸 玲子",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:10"
+              "end_time": "12:10",
+              "qualified": true,
+              "qualified_at": "R08.05.04 08:12:40"
             }
           ],
           "sokuyaku_truth": []
@@ -457,7 +459,9 @@
               "patient_name": "中口　美樹",
               "visit_type": "再診",
               "department": "不眠",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.05.04 08:13:51"
             }
           ],
           "sokuyaku_truth": []
@@ -504,7 +508,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:20:43.204206+09:00",
+      "last_updated": "2026-05-04T08:23:08.003065+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6052,7 +6056,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T07:05:09.767319+09:00",
+      "last_updated": "2026-05-04T08:21:12.359903+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6220,7 +6224,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T07:05:46.427781+09:00",
+      "last_updated": "2026-05-04T08:21:48.536720+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6502,7 +6506,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T07:06:24.279989+09:00",
+      "last_updated": "2026-05-04T08:22:25.319096+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6670,7 +6674,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T07:07:00.267891+09:00",
+      "last_updated": "2026-05-04T08:23:02.240994+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8044,5 +8048,5 @@
       "ts": "2026-05-04T07:17:52+09:00"
     }
   ],
-  "sigma_qualified_count": 43
+  "sigma_qualified_count": 45
 }
