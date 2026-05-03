@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-03T19:35:37.525557+09:00",
+  "generated": "2026-05-03T19:38:09.906409+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-03",
@@ -16,23 +16,23 @@
       "date": "2026-05-03",
       "short": "5/3(日)",
       "dow": "日",
-      "open_count": 13,
-      "booked_count": 20,
-      "new_count": 12,
+      "open_count": 12,
+      "booked_count": 21,
+      "new_count": 13,
       "revisit_count": 8,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "11:30",
       "last_booked": "23:30",
       "per_platform_open": {
-        "CLINICS": 9,
+        "CLINICS": 8,
         "SOKUYAKU": 2,
         "クロン": 2
       },
       "per_platform_booked": {
         "GMO": 4,
-        "gcal": 20,
-        "CLINICS": 8,
+        "gcal": 21,
+        "CLINICS": 9,
         "クロン": 2,
         "SOKUYAKU": 6
       },
@@ -456,11 +456,19 @@
           "time": "19:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "20:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "宮川和嘉",
+              "visit_type": "初診",
+              "department": "小児",
+              "end_time": "20:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -668,7 +676,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T19:35:36.240791+09:00",
+      "last_updated": "2026-05-03T19:38:07.072187+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2590,7 +2598,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T18:21:52.654020+09:00",
+      "last_updated": "2026-05-03T19:37:15.983245+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2998,7 +3006,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-03T18:22:25.889127+09:00",
+      "last_updated": "2026-05-03T19:37:48.465416+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8332,13 +8340,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "魚住 悌也",
-      "date": "2026-05-04",
-      "time": "19:00",
-      "ts": "2026-05-03T16:00:20+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "患者名不明",
       "date": "2026-05-04",
       "time": "18:30",
@@ -8350,6 +8351,13 @@
       "date": "2026-05-03",
       "time": "23:30",
       "ts": "2026-05-03T19:17:49+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "宮川和嘉",
+      "date": "2026-05-03",
+      "time": "19:50",
+      "ts": "2026-05-03T19:38:08+09:00"
     }
   ],
   "sigma_qualified_count": 29
