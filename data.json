@@ -1,32 +1,32 @@
 {
-  "generated": "2026-05-04T09:14:23.511342+09:00",
+  "generated": "2026-05-04T09:15:09.504785+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
     "short": "5/4(月)",
-    "time": "11:30",
-    "code": "S",
-    "patient_name": "木村 勇太",
-    "visit_type": "初診",
-    "department": "耳鼻",
-    "status": "booked"
+    "time": "10:30",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 16,
+      "open_count": 21,
       "booked_count": 12,
       "new_count": 8,
       "revisit_count": 4,
-      "first_open": "13:20",
+      "first_open": "10:30",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:30",
       "per_platform_open": {
-        "CLINICS": 11,
-        "SOKUYAKU": 3,
+        "SOKUYAKU": 5,
+        "CLINICS": 14,
         "クロン": 2
       },
       "per_platform_booked": {
@@ -44,7 +44,7 @@
       ],
       "ranges": [
         [
-          "11:30",
+          "10:30",
           "13:30"
         ],
         [
@@ -56,7 +56,7 @@
           "23:40"
         ]
       ],
-      "range_text": "11:30〜13:30, 18:30〜20:00, 22:00〜23:40",
+      "range_text": "10:30〜13:30, 18:30〜20:00, 22:00〜23:40",
       "slots": [
         {
           "time": "10:00",
@@ -64,6 +64,61 @@
             "クロン": {
               "status": "closed",
               "end_time": "10:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "10:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "10:45"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "10:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "11:00"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "11:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "11:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "11:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
             }
           },
           "gcals": [],
@@ -514,7 +569,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:12:37.809269+09:00",
+      "last_updated": "2026-05-04T09:15:08.071997+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
