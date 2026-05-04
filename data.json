@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T18:06:22.604914+09:00",
+  "generated": "2026-05-04T18:08:55.067207+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -20,8 +20,8 @@
       "dow": "月",
       "open_count": 11,
       "booked_count": 21,
-      "new_count": 15,
-      "revisit_count": 6,
+      "new_count": 16,
+      "revisit_count": 5,
       "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "11:20",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 20,
+        "gcal": 21,
         "SOKUYAKU": 6,
         "クロン": 4,
         "GMO": 3
@@ -575,7 +575,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "安藤 リリアン",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "安藤 リリアン",
@@ -660,7 +668,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T18:06:20.334079+09:00",
+      "last_updated": "2026-05-04T18:08:53.640625+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
