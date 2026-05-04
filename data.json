@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T12:56:53.555033+09:00",
+  "generated": "2026-05-04T12:57:34.505097+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -18,8 +18,8 @@
       "dow": "月",
       "open_count": 14,
       "booked_count": 18,
-      "new_count": 12,
-      "revisit_count": 6,
+      "new_count": 13,
+      "revisit_count": 5,
       "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "11:20",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 6,
-        "gcal": 17,
+        "gcal": 18,
         "SOKUYAKU": 5,
         "クロン": 4,
         "GMO": 3
@@ -439,7 +439,15 @@
               "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "森友香里",
+              "visit_type": "初診",
+              "department": "眼",
+              "end_time": "19:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -626,7 +634,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T12:54:57.465104+09:00",
+      "last_updated": "2026-05-04T12:57:32.845197+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
