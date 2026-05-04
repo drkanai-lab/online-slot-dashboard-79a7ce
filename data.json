@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-04T13:00:19.406239+09:00",
+  "generated": "2026-05-04T13:02:50.182755+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
     "short": "5/4(月)",
-    "time": "13:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "13:10",
+    "code": "C",
+    "patient_name": "松田周",
+    "visit_type": "初診",
+    "department": "耳鼻",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.04 09:01:26"
   },
   "days": [
     {
@@ -634,7 +636,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T13:00:17.982023+09:00",
+      "last_updated": "2026-05-04T13:02:48.599992+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
