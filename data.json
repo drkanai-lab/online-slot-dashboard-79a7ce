@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T10:47:47.833412+09:00",
+  "generated": "2026-05-04T10:50:15.862683+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -7,7 +7,7 @@
     "time": "11:20",
     "code": "C",
     "patient_name": "武藤貴宏",
-    "visit_type": "再診",
+    "visit_type": "初診",
     "department": "",
     "status": "booked"
   },
@@ -16,15 +16,16 @@
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 16,
+      "open_count": 17,
       "booked_count": 16,
-      "new_count": 11,
-      "revisit_count": 5,
-      "first_open": "13:20",
+      "new_count": 12,
+      "revisit_count": 4,
+      "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "11:20",
       "last_booked": "23:30",
       "per_platform_open": {
+        "クロン": 1,
         "CLINICS": 11,
         "SOKUYAKU": 5
       },
@@ -32,14 +33,10 @@
         "CLINICS": 5,
         "gcal": 16,
         "SOKUYAKU": 3,
-        "クロン": 5,
+        "クロン": 4,
         "GMO": 3
       },
       "full_platforms": [
-        {
-          "name": "クロン",
-          "code": "K"
-        },
         {
           "name": "GMO",
           "code": "G"
@@ -84,7 +81,7 @@
             {
               "code": "C",
               "patient_name": "武藤貴宏",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "",
               "end_time": "11:30"
             }
@@ -254,7 +251,7 @@
           "time": "13:00",
           "platforms": {
             "クロン": {
-              "status": "booked",
+              "status": "open",
               "end_time": "13:10"
             }
           },
@@ -601,7 +598,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T10:47:46.157499+09:00",
+      "last_updated": "2026-05-04T10:50:14.646909+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -849,7 +846,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T10:38:52.487149+09:00",
+      "last_updated": "2026-05-04T10:48:32.837930+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1094,7 +1091,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T10:39:17.813746+09:00",
+      "last_updated": "2026-05-04T10:48:57.710588+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1377,7 +1374,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T10:39:44.541557+09:00",
+      "last_updated": "2026-05-04T10:49:23.774827+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1560,7 +1557,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T10:40:10.182043+09:00",
+      "last_updated": "2026-05-04T10:49:48.145411+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1914,7 +1911,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T10:40:36.293837+09:00",
+      "last_updated": "2026-05-04T10:50:13.802311+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4480,7 +4477,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:32:37.242929+09:00",
+      "last_updated": "2026-05-04T10:48:11.762090+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4524,7 +4521,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:33:10.822732+09:00",
+      "last_updated": "2026-05-04T10:48:45.148870+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4802,7 +4799,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:33:46.061658+09:00",
+      "last_updated": "2026-05-04T10:49:19.408014+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4970,7 +4967,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:34:20.096667+09:00",
+      "last_updated": "2026-05-04T10:49:53.031264+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
