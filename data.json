@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T09:20:06.457962+09:00",
+  "generated": "2026-05-04T09:22:35.453667+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -17,8 +17,8 @@
       "short": "5/4(月)",
       "dow": "月",
       "open_count": 21,
-      "booked_count": 12,
-      "new_count": 8,
+      "booked_count": 13,
+      "new_count": 9,
       "revisit_count": 4,
       "first_open": "10:30",
       "last_open": "23:20",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 12,
+        "gcal": 13,
         "クロン": 2,
         "CLINICS": 4,
         "GMO": 3
@@ -421,7 +421,15 @@
               "end_time": "19:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "尾関 利一",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "19:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -575,7 +583,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:20:05.243383+09:00",
+      "last_updated": "2026-05-04T09:22:33.607154+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -823,7 +831,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:11:58.062690+09:00",
+      "last_updated": "2026-05-04T09:21:51.178749+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1068,7 +1076,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:12:22.603206+09:00",
+      "last_updated": "2026-05-04T09:22:15.812040+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8113,6 +8121,13 @@
       "date": "2026-05-04",
       "time": "23:30",
       "ts": "2026-05-04T07:17:52+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "尾関 利一",
+      "date": "2026-05-04",
+      "time": "19:30",
+      "ts": "2026-05-04T09:22:34+09:00"
     }
   ],
   "sigma_qualified_count": 48
