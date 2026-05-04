@@ -1,25 +1,27 @@
 {
-  "generated": "2026-05-04T18:49:13.335980+09:00",
+  "generated": "2026-05-04T18:51:43.426589+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
     "short": "5/4(月)",
-    "time": "18:50",
-    "code": "C",
-    "patient_name": "東來咲実",
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "魚住 悌也",
     "visit_type": "初診",
-    "department": "皮膚",
-    "status": "booked"
+    "department": "頭痛",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.04 00:11:58"
   },
   "days": [
     {
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 11,
-      "booked_count": 21,
+      "open_count": 10,
+      "booked_count": 22,
       "new_count": 16,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "11:20",
@@ -27,12 +29,12 @@
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 9,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "CLINICS": 8,
         "gcal": 21,
-        "SOKUYAKU": 6,
+        "SOKUYAKU": 7,
         "クロン": 4,
         "GMO": 3
       },
@@ -440,12 +442,18 @@
           "time": "19:15",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:30"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "森 岳彦",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:20",
@@ -666,7 +674,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T18:49:11.971023+09:00",
+      "last_updated": "2026-05-04T18:51:41.117458+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
