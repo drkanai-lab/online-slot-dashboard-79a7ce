@@ -1,13 +1,13 @@
 {
-  "generated": "2026-05-04T10:45:18.438071+09:00",
+  "generated": "2026-05-04T10:47:47.833412+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
     "short": "5/4(月)",
     "time": "11:20",
     "code": "C",
-    "patient_name": "",
-    "visit_type": "",
+    "patient_name": "武藤貴宏",
+    "visit_type": "再診",
     "department": "",
     "status": "booked"
   },
@@ -30,8 +30,8 @@
       },
       "per_platform_booked": {
         "CLINICS": 5,
+        "gcal": 16,
         "SOKUYAKU": 3,
-        "gcal": 15,
         "クロン": 5,
         "GMO": 3
       },
@@ -80,7 +80,15 @@
               "end_time": "11:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "武藤貴宏",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "11:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -593,7 +601,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T10:45:16.188634+09:00",
+      "last_updated": "2026-05-04T10:47:46.157499+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3210,7 +3218,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:29:51.868974+09:00",
+      "last_updated": "2026-05-04T10:45:27.403986+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3378,7 +3386,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:30:23.015368+09:00",
+      "last_updated": "2026-05-04T10:45:58.561648+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3401,7 +3409,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 4,
+        "gcal": 3,
         "GMO": 1
       },
       "full_platforms": [],
@@ -3513,13 +3521,6 @@
             }
           },
           "gcals": [
-            {
-              "code": "G",
-              "patient_name": "患者名不明",
-              "visit_type": "再診",
-              "department": "総診",
-              "end_time": "13:10"
-            },
             {
               "code": "G",
               "patient_name": "岡留　康文",
@@ -3821,7 +3822,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:30:53.824655+09:00",
+      "last_updated": "2026-05-04T10:46:29.149757+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3921,7 +3922,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:31:28.089669+09:00",
+      "last_updated": "2026-05-04T10:47:02.651437+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4320,7 +4321,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:32:03.661757+09:00",
+      "last_updated": "2026-05-04T10:47:38.128113+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
