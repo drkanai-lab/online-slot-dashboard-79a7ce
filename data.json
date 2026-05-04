@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T10:41:08.456552+09:00",
+  "generated": "2026-05-04T10:42:49.616571+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -18,8 +18,8 @@
       "dow": "月",
       "open_count": 17,
       "booked_count": 15,
-      "new_count": 10,
-      "revisit_count": 5,
+      "new_count": 11,
+      "revisit_count": 4,
       "first_open": "11:20",
       "last_open": "23:20",
       "first_booked": "11:30",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 14,
+        "gcal": 15,
         "クロン": 5,
         "CLINICS": 4,
         "GMO": 3
@@ -250,7 +250,15 @@
               "end_time": "13:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "小倉 弘和",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "13:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -585,7 +593,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T10:40:19.946633+09:00",
+      "last_updated": "2026-05-04T10:42:48.214680+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
