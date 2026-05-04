@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-04T13:45:17.205444+09:00",
+  "generated": "2026-05-04T13:47:43.213910+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
     "short": "5/4(月)",
-    "time": "13:45",
-    "code": "S",
-    "patient_name": "東 寿広",
-    "visit_type": "再診",
-    "department": "耳鼻",
-    "status": "booked"
+    "time": "18:30",
+    "code": "G",
+    "patient_name": "仲宗根　綾",
+    "visit_type": "初診",
+    "department": "眼",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.04 00:07:12"
   },
   "days": [
     {
@@ -636,7 +638,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T13:45:12.975249+09:00",
+      "last_updated": "2026-05-04T13:47:41.944570+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
