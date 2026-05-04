@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-04T09:33:33.725164+09:00",
+  "generated": "2026-05-04T09:35:06.125963+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
     "short": "5/4(月)",
-    "time": "10:30",
+    "time": "11:00",
     "code": "",
     "patient_name": "",
     "visit_type": "",
@@ -16,17 +16,17 @@
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 19,
+      "open_count": 17,
       "booked_count": 14,
       "new_count": 10,
       "revisit_count": 4,
-      "first_open": "10:30",
+      "first_open": "11:00",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:30",
       "per_platform_open": {
-        "SOKUYAKU": 5,
-        "CLINICS": 14
+        "CLINICS": 14,
+        "SOKUYAKU": 3
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
@@ -47,7 +47,7 @@
       ],
       "ranges": [
         [
-          "10:30",
+          "11:00",
           "13:30"
         ],
         [
@@ -59,7 +59,7 @@
           "23:40"
         ]
       ],
-      "range_text": "10:30〜13:30, 18:30〜20:00, 22:00〜23:40",
+      "range_text": "11:00〜13:30, 18:30〜20:00, 22:00〜23:40",
       "slots": [
         {
           "time": "10:00",
@@ -67,28 +67,6 @@
             "クロン": {
               "status": "closed",
               "end_time": "10:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "10:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "10:45"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "10:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "11:00"
             }
           },
           "gcals": [],
@@ -588,13 +566,15 @@
               "patient_name": "小林 恵里沙",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:40"
+              "end_time": "23:40",
+              "qualified": true,
+              "qualified_at": "R08.05.04 09:30:05"
             }
           ],
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:32:37.540972+09:00",
+      "last_updated": "2026-05-04T09:35:04.828022+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4802,7 +4782,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:18:12.137282+09:00",
+      "last_updated": "2026-05-04T09:33:46.061658+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4970,7 +4950,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:18:46.224999+09:00",
+      "last_updated": "2026-05-04T09:34:20.096667+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5366,7 +5346,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:19:19.639083+09:00",
+      "last_updated": "2026-05-04T09:34:54.450566+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8148,5 +8128,5 @@
       "ts": "2026-05-04T09:32:38+09:00"
     }
   ],
-  "sigma_qualified_count": 48
+  "sigma_qualified_count": 49
 }
