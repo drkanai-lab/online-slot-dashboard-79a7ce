@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T09:30:10.103759+09:00",
+  "generated": "2026-05-04T09:32:39.531311+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -16,9 +16,9 @@
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 21,
-      "booked_count": 13,
-      "new_count": 9,
+      "open_count": 19,
+      "booked_count": 14,
+      "new_count": 10,
       "revisit_count": 4,
       "first_open": "10:30",
       "last_open": "23:20",
@@ -26,17 +26,20 @@
       "last_booked": "23:30",
       "per_platform_open": {
         "SOKUYAKU": 5,
-        "CLINICS": 14,
-        "クロン": 2
+        "CLINICS": 14
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 13,
-        "クロン": 2,
+        "gcal": 14,
+        "クロン": 4,
         "CLINICS": 4,
         "GMO": 3
       },
       "full_platforms": [
+        {
+          "name": "クロン",
+          "code": "K"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -417,7 +420,7 @@
           "time": "19:30",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:40"
             }
           },
@@ -458,11 +461,19 @@
           "time": "22:00",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "池田 つかさ",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -583,7 +594,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:30:08.911032+09:00",
+      "last_updated": "2026-05-04T09:32:37.540972+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -831,7 +842,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:21:51.178749+09:00",
+      "last_updated": "2026-05-04T09:31:24.909959+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1076,7 +1087,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:22:15.812040+09:00",
+      "last_updated": "2026-05-04T09:31:48.018348+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1359,7 +1370,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:22:40.917202+09:00",
+      "last_updated": "2026-05-04T09:32:13.046111+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1542,7 +1553,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:23:07.061363+09:00",
+      "last_updated": "2026-05-04T09:32:36.359287+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3368,7 +3379,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:14:52.320347+09:00",
+      "last_updated": "2026-05-04T09:30:23.015368+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3391,7 +3402,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 3,
+        "gcal": 4,
         "GMO": 1
       },
       "full_platforms": [],
@@ -3503,6 +3514,13 @@
             }
           },
           "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "総診",
+              "end_time": "13:10"
+            },
             {
               "code": "G",
               "patient_name": "岡留　康文",
@@ -3804,7 +3822,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:15:23.213283+09:00",
+      "last_updated": "2026-05-04T09:30:53.824655+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3904,7 +3922,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:15:55.835373+09:00",
+      "last_updated": "2026-05-04T09:31:28.089669+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4303,7 +4321,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:16:29.326374+09:00",
+      "last_updated": "2026-05-04T09:32:03.661757+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4462,7 +4480,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T08:17:03.540821+09:00",
+      "last_updated": "2026-05-04T09:32:37.242929+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8110,13 +8128,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "木村 勇太",
-      "date": "2026-05-04",
-      "time": "11:30",
-      "ts": "2026-05-03T22:23:24+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "小林 恵里沙",
       "date": "2026-05-04",
       "time": "23:30",
@@ -8128,6 +8139,13 @@
       "date": "2026-05-04",
       "time": "19:30",
       "ts": "2026-05-04T09:22:34+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "池田 つかさ",
+      "date": "2026-05-04",
+      "time": "22:00",
+      "ts": "2026-05-04T09:32:38+09:00"
     }
   ],
   "sigma_qualified_count": 48
