@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T11:00:23.909567+09:00",
+  "generated": "2026-05-04T11:02:44.875710+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -16,9 +16,9 @@
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 17,
-      "booked_count": 16,
-      "new_count": 12,
+      "open_count": 16,
+      "booked_count": 17,
+      "new_count": 13,
       "revisit_count": 4,
       "first_open": "13:00",
       "last_open": "23:20",
@@ -27,12 +27,12 @@
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 11,
-        "SOKUYAKU": 5
+        "SOKUYAKU": 4
       },
       "per_platform_booked": {
         "CLINICS": 5,
-        "gcal": 16,
-        "SOKUYAKU": 3,
+        "gcal": 17,
+        "SOKUYAKU": 4,
         "クロン": 4,
         "GMO": 3
       },
@@ -302,11 +302,19 @@
           "time": "13:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "佐野 祐輝",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "13:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "佐野 祐輝",
@@ -604,7 +612,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T11:00:12.474938+09:00",
+      "last_updated": "2026-05-04T11:02:42.988497+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8131,13 +8139,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "小林 恵里沙",
-      "date": "2026-05-04",
-      "time": "23:30",
-      "ts": "2026-05-04T07:17:52+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "尾関 利一",
       "date": "2026-05-04",
       "time": "19:30",
@@ -8149,6 +8150,13 @@
       "date": "2026-05-04",
       "time": "22:00",
       "ts": "2026-05-04T09:32:38+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "佐野 祐輝",
+      "date": "2026-05-04",
+      "time": "13:30",
+      "ts": "2026-05-04T11:02:44+09:00"
     }
   ],
   "sigma_qualified_count": 33
