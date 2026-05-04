@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T11:25:08.501188+09:00",
+  "generated": "2026-05-04T11:27:37.554092+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 5,
-        "gcal": 16,
+        "gcal": 17,
         "SOKUYAKU": 5,
         "クロン": 4,
         "GMO": 3
@@ -327,7 +327,15 @@
               "end_time": "14:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "東 寿広",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "13:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "東 寿広",
@@ -614,7 +622,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T11:25:06.021183+09:00",
+      "last_updated": "2026-05-04T11:27:36.065882+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -862,7 +870,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T11:17:28.453740+09:00",
+      "last_updated": "2026-05-04T11:27:35.376917+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
