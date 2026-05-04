@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T00:49:08.405111+09:00",
+  "generated": "2026-05-05T00:51:42.802386+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -287,7 +287,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T00:49:07.315897+09:00",
+      "last_updated": "2026-05-05T00:51:41.762539+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7376,7 +7376,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T23:34:26.153703+09:00",
+      "last_updated": "2026-05-05T00:49:34.241765+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7544,29 +7544,290 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T23:35:07.965309+09:00",
+      "last_updated": "2026-05-05T00:50:14.370471+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-04",
       "short": "6/4(木)",
       "dow": "木",
-      "open_count": 0,
-      "booked_count": 0,
+      "open_count": 18,
+      "booked_count": 2,
       "new_count": 0,
-      "revisit_count": 0,
-      "first_open": "",
-      "last_open": "",
-      "first_booked": "",
-      "last_booked": "",
-      "per_platform_open": {},
-      "per_platform_booked": {},
+      "revisit_count": 2,
+      "first_open": "11:45",
+      "last_open": "23:30",
+      "first_booked": "11:30",
+      "last_booked": "13:10",
+      "per_platform_open": {
+        "SOKUYAKU": 3,
+        "CLINICS": 10,
+        "GMO": 2,
+        "クロン": 3
+      },
+      "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 2,
+        "CLINICS": 1
+      },
       "full_platforms": [],
-      "ranges": [],
-      "range_text": "",
-      "slots": [],
-      "last_updated": null,
-      "sokuyaku_reserve_ok": false
+      "ranges": [
+        [
+          "11:30",
+          "13:30"
+        ],
+        [
+          "22:00",
+          "23:40"
+        ]
+      ],
+      "range_text": "11:30〜13:30, 22:00〜23:40",
+      "slots": [
+        {
+          "time": "11:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "11:45"
+            }
+          },
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "小宮山 剛",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "11:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "小宮山 剛",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
+        },
+        {
+          "time": "11:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "12:00"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "12:00",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "12:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "12:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "12:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "12:40"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "12:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "13:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "booked",
+              "end_time": "13:20"
+            }
+          },
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "安藤千華子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "13:20"
+            }
+          ],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "13:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "22:45"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        }
+      ],
+      "last_updated": "2026-05-05T00:51:01.513504+09:00",
+      "sokuyaku_reserve_ok": true
     }
   ],
   "recent_events": [
