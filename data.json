@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-04T12:39:58.147376+09:00",
+  "generated": "2026-05-04T12:42:32.953262+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
     "short": "5/4(月)",
-    "time": "12:40",
-    "code": "C",
-    "patient_name": "小山零偉",
-    "visit_type": "初診",
-    "department": "眼",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.04 07:45:39"
+    "time": "13:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -28,7 +26,7 @@
       "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 11,
+        "CLINICS": 12,
         "SOKUYAKU": 3
       },
       "per_platform_booked": {
@@ -255,6 +253,10 @@
             "クロン": {
               "status": "open",
               "end_time": "13:10"
+            },
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
             }
           },
           "gcals": [],
@@ -624,7 +626,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T12:39:56.719984+09:00",
+      "last_updated": "2026-05-04T12:42:31.600021+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
