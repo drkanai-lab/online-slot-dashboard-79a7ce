@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T23:22:14.376245+09:00",
+  "generated": "2026-05-04T23:24:45.478096+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -375,7 +375,9 @@
               "patient_name": "渡辺健太",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "18:50"
+              "end_time": "18:50",
+              "qualified": true,
+              "qualified_at": "R08.05.04 16:11:23"
             }
           ],
           "sokuyaku_truth": []
@@ -394,7 +396,9 @@
               "patient_name": "東來咲実",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "19:00"
+              "end_time": "19:00",
+              "qualified": true,
+              "qualified_at": "R08.05.04 18:26:17"
             }
           ],
           "sokuyaku_truth": []
@@ -442,14 +446,18 @@
               "patient_name": "森 岳彦",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "19:25"
+              "end_time": "19:25",
+              "qualified": true,
+              "qualified_at": "R08.05.04 19:16:15"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "森 岳彦",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.04 19:16:15"
             }
           ]
         },
@@ -552,7 +560,9 @@
               "patient_name": "阿部健吾",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.04 21:52:15"
             }
           ],
           "sokuyaku_truth": []
@@ -582,14 +592,18 @@
               "patient_name": "安藤 リリアン",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:45"
+              "end_time": "22:45",
+              "qualified": true,
+              "qualified_at": "R08.05.04 20:25:22"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "安藤 リリアン",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.04 20:25:22"
             }
           ]
         },
@@ -607,14 +621,18 @@
               "patient_name": "小池 修",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.05.04 20:30:53"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "小池 修",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.04 20:30:53"
             }
           ]
         },
@@ -694,7 +712,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T23:22:13.087101+09:00",
+      "last_updated": "2026-05-04T23:24:42.868265+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3377,7 +3395,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T22:06:18.594495+09:00",
+      "last_updated": "2026-05-04T23:22:15.905511+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3545,7 +3563,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T22:06:49.281893+09:00",
+      "last_updated": "2026-05-04T23:22:50.439352+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3981,7 +3999,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T22:07:20.095918+09:00",
+      "last_updated": "2026-05-04T23:23:20.929406+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4081,7 +4099,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T22:07:54.065242+09:00",
+      "last_updated": "2026-05-04T23:23:54.312347+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4480,7 +4498,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T22:08:27.714096+09:00",
+      "last_updated": "2026-05-04T23:24:28.773439+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8307,5 +8325,5 @@
       "ts": "2026-05-04T23:07:42+09:00"
     }
   ],
-  "sigma_qualified_count": 37
+  "sigma_qualified_count": 45
 }
