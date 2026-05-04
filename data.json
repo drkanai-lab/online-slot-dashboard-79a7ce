@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T14:52:37.928424+09:00",
+  "generated": "2026-05-04T14:53:28.686666+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -18,22 +18,22 @@
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 14,
-      "booked_count": 18,
-      "new_count": 13,
+      "open_count": 13,
+      "booked_count": 19,
+      "new_count": 14,
       "revisit_count": 5,
       "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "11:20",
       "last_booked": "23:30",
       "per_platform_open": {
-        "CLINICS": 11,
         "クロン": 1,
+        "CLINICS": 10,
         "SOKUYAKU": 3
       },
       "per_platform_booked": {
-        "CLINICS": 6,
-        "gcal": 18,
+        "CLINICS": 7,
+        "gcal": 19,
         "SOKUYAKU": 5,
         "クロン": 4,
         "GMO": 3
@@ -252,13 +252,13 @@
         {
           "time": "13:00",
           "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            },
             "クロン": {
               "status": "open",
               "end_time": "13:10"
+            },
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
             }
           },
           "gcals": [],
@@ -375,11 +375,19 @@
           "time": "18:40",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "18:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "渡辺健太",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "18:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -638,7 +646,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T14:50:03.533876+09:00",
+      "last_updated": "2026-05-04T14:53:26.561273+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8165,13 +8173,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "尾関 利一",
-      "date": "2026-05-04",
-      "time": "19:30",
-      "ts": "2026-05-04T09:22:34+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "池田 つかさ",
       "date": "2026-05-04",
       "time": "22:00",
@@ -8183,6 +8184,13 @@
       "date": "2026-05-04",
       "time": "13:30",
       "ts": "2026-05-04T11:02:44+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "渡辺健太",
+      "date": "2026-05-04",
+      "time": "18:40",
+      "ts": "2026-05-04T14:53:27+09:00"
     }
   ],
   "sigma_qualified_count": 37
