@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T09:48:18.293866+09:00",
+  "generated": "2026-05-04T09:50:45.000435+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -426,7 +426,9 @@
               "patient_name": "尾関 利一",
               "visit_type": "初診",
               "department": "",
-              "end_time": "19:40"
+              "end_time": "19:40",
+              "qualified": true,
+              "qualified_at": "R08.05.04 09:41:20"
             }
           ],
           "sokuyaku_truth": []
@@ -594,7 +596,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:48:16.947138+09:00",
+      "last_updated": "2026-05-04T09:50:43.692039+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -842,7 +844,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T09:40:55.778712+09:00",
+      "last_updated": "2026-05-04T09:50:31.972933+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8148,5 +8150,5 @@
       "ts": "2026-05-04T09:32:38+09:00"
     }
   ],
-  "sigma_qualified_count": 32
+  "sigma_qualified_count": 33
 }
