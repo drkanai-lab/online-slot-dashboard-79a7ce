@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T20:25:19.442351+09:00",
+  "generated": "2026-05-04T20:27:50.573221+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -18,9 +18,9 @@
       "date": "2026-05-04",
       "short": "5/4(月)",
       "dow": "月",
-      "open_count": 9,
-      "booked_count": 23,
-      "new_count": 17,
+      "open_count": 10,
+      "booked_count": 22,
+      "new_count": 16,
       "revisit_count": 6,
       "first_open": "13:00",
       "last_open": "23:20",
@@ -28,20 +28,17 @@
       "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 9
+        "CLINICS": 9,
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 22,
-        "SOKUYAKU": 8,
+        "gcal": 21,
+        "SOKUYAKU": 7,
         "クロン": 4,
         "GMO": 3
       },
       "full_platforms": [
-        {
-          "name": "SOKUYAKU",
-          "code": "S"
-        },
         {
           "name": "GMO",
           "code": "G"
@@ -594,20 +591,18 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "23:00"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
-              "patient_name": "安藤 リリアン",
-              "visit_type": "初診",
-              "department": "耳鼻",
-              "end_time": "22:55"
+              "patient_name": "小池 修",
+              "visit_type": "再診",
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:50",
@@ -685,7 +680,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T20:25:17.103378+09:00",
+      "last_updated": "2026-05-04T20:27:48.346155+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
