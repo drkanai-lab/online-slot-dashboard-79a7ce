@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T17:31:13.331211+09:00",
+  "generated": "2026-05-04T17:33:43.328886+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -20,8 +20,8 @@
       "dow": "月",
       "open_count": 12,
       "booked_count": 20,
-      "new_count": 14,
-      "revisit_count": 6,
+      "new_count": 15,
+      "revisit_count": 5,
       "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "11:20",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 19,
+        "gcal": 20,
         "SOKUYAKU": 5,
         "クロン": 4,
         "GMO": 3
@@ -398,7 +398,15 @@
               "end_time": "19:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "東來咲実",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "19:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -646,7 +654,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T17:31:11.338100+09:00",
+      "last_updated": "2026-05-04T17:33:42.072137+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
