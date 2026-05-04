@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T20:31:51.227357+09:00",
+  "generated": "2026-05-04T20:32:54.382592+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -19,9 +19,9 @@
       "short": "5/4(月)",
       "dow": "月",
       "open_count": 10,
-      "booked_count": 23,
+      "booked_count": 22,
       "new_count": 16,
-      "revisit_count": 7,
+      "revisit_count": 6,
       "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "11:20",
@@ -358,17 +358,7 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "仲宗根　綾",
-              "visit_type": "初診",
-              "department": "眼",
-              "end_time": "18:40",
-              "qualified": true,
-              "qualified_at": "R08.05.04 00:07:12"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -595,7 +585,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "小池 修",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "小池 修",
@@ -680,7 +678,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T20:30:17.655549+09:00",
+      "last_updated": "2026-05-04T20:32:52.224866+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
