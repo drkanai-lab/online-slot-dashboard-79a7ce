@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T01:49:51.250903+09:00",
+  "generated": "2026-05-05T01:52:20.964411+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -18,21 +18,22 @@
       "date": "2026-05-05",
       "short": "5/5(火)",
       "dow": "火",
-      "open_count": 6,
-      "booked_count": 6,
-      "new_count": 1,
+      "open_count": 5,
+      "booked_count": 7,
+      "new_count": 2,
       "revisit_count": 5,
-      "first_open": "22:10",
+      "first_open": "22:20",
       "last_open": "23:30",
       "first_booked": "22:00",
       "last_booked": "23:45",
       "per_platform_open": {
-        "CLINICS": 5,
+        "CLINICS": 4,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 6,
+        "gcal": 7,
+        "CLINICS": 1,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -112,11 +113,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "松下誠司",
+              "visit_type": "初診",
+              "department": "内科",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -287,7 +296,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T01:49:50.260016+09:00",
+      "last_updated": "2026-05-05T01:52:18.905608+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -546,7 +555,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T01:42:35.457864+09:00",
+      "last_updated": "2026-05-05T01:52:19.567435+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7845,13 +7854,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "佐藤 翼",
-      "date": "2026-05-05",
-      "time": "23:45",
-      "ts": "2026-05-04T21:39:43+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "前澤 利恵子",
       "date": "2026-05-06",
       "time": "23:30",
@@ -7863,6 +7865,13 @@
       "date": "2026-05-05",
       "time": "22:00",
       "ts": "2026-05-04T23:07:42+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "松下誠司",
+      "date": "2026-05-05",
+      "time": "22:10",
+      "ts": "2026-05-05T01:52:20+09:00"
     }
   ],
   "sigma_qualified_count": 45
