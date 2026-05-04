@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-04T20:37:59.042321+09:00",
+  "generated": "2026-05-04T20:40:31.079827+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-04",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 21,
+        "gcal": 22,
         "SOKUYAKU": 8,
         "クロン": 4,
         "GMO": 2
@@ -568,7 +568,15 @@
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "安藤 リリアン",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:45"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "安藤 リリアン",
@@ -678,7 +686,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T20:37:57.126589+09:00",
+      "last_updated": "2026-05-04T20:40:29.625778+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -926,7 +934,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T20:29:19.687665+09:00",
+      "last_updated": "2026-05-04T20:39:19.763947+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1171,7 +1179,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T20:29:47.869609+09:00",
+      "last_updated": "2026-05-04T20:39:43.846412+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1466,7 +1474,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-04T20:30:13.307849+09:00",
+      "last_updated": "2026-05-04T20:40:08.068096+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
