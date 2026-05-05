@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T06:41:28.990303+09:00",
+  "generated": "2026-05-06T06:42:27.072771+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -211,7 +211,9 @@
               "patient_name": "荒木　昭子",
               "visit_type": "再診",
               "department": "アレ",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.05.06 00:19:32"
             }
           ],
           "sokuyaku_truth": []
@@ -281,14 +283,18 @@
               "patient_name": "黒井 きぼう",
               "visit_type": "再診",
               "department": "皮膚",
-              "end_time": "23:55"
+              "end_time": "23:55",
+              "qualified": true,
+              "qualified_at": "R08.05.06 00:18:33"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 きぼう",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.06 00:18:33"
             }
           ]
         },
@@ -304,7 +310,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T06:39:54.282327+09:00",
+      "last_updated": "2026-05-06T06:42:26.068931+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7692,6 +7698,6 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 123,
-  "sigma_last_run": "2026-05-05T20:14:02.605276"
+  "sigma_qualified_count": 115,
+  "sigma_last_run": "2026-05-06T06:42:47.133220"
 }
