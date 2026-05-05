@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T09:02:57.444780+09:00",
+  "generated": "2026-05-05T09:03:00.067823+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -18,22 +18,22 @@
       "date": "2026-05-05",
       "short": "5/5(火)",
       "dow": "火",
-      "open_count": 5,
-      "booked_count": 7,
+      "open_count": 4,
+      "booked_count": 8,
       "new_count": 2,
-      "revisit_count": 5,
-      "first_open": "22:20",
+      "revisit_count": 6,
+      "first_open": "22:50",
       "last_open": "23:30",
       "first_booked": "22:00",
       "last_booked": "23:45",
       "per_platform_open": {
-        "CLINICS": 4,
+        "CLINICS": 3,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
-        "CLINICS": 1,
+        "gcal": 8,
+        "CLINICS": 2,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -132,11 +132,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "KarimMohammadMesbahul",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -296,7 +304,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T09:00:32.892831+09:00",
+      "last_updated": "2026-05-05T09:02:58.172524+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7880,13 +7888,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "松下誠司",
-      "date": "2026-05-05",
-      "time": "22:10",
-      "ts": "2026-05-05T01:52:20+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "黒井 きぼう",
       "date": "2026-05-06",
       "time": "23:45",
@@ -7898,6 +7899,13 @@
       "date": "2026-05-06",
       "time": "22:10",
       "ts": "2026-05-05T09:02:56+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "KarimMohammadMesbahul",
+      "date": "2026-05-05",
+      "time": "22:20",
+      "ts": "2026-05-05T09:02:59+09:00"
     }
   ],
   "sigma_qualified_count": 58
