@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-05T22:19:34.905574+09:00",
+  "generated": "2026-05-05T22:22:02.468687+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
     "short": "5/5(火)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "KarimMohammadMesbahul",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "黒井 奈央子",
     "visit_type": "再診",
-    "department": "",
-    "status": "booked"
+    "department": "漢方",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.05 18:37:48"
   },
   "days": [
     {
@@ -431,7 +433,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T22:19:33.446769+09:00",
+      "last_updated": "2026-05-05T22:22:01.061965+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8043,7 +8045,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T21:03:49.076758+09:00",
+      "last_updated": "2026-05-05T22:19:36.059568+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
