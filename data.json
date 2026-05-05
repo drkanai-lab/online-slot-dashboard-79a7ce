@@ -1,14 +1,14 @@
 {
-  "generated": "2026-05-05T19:01:38.147233+09:00",
+  "generated": "2026-05-05T19:04:04.392643+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
     "short": "5/5(火)",
     "time": "19:15",
     "code": "S",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
+    "patient_name": "巴 眞人",
+    "visit_type": "初診",
+    "department": "整形",
     "status": "booked"
   },
   "days": [
@@ -18,8 +18,8 @@
       "dow": "火",
       "open_count": 6,
       "booked_count": 11,
-      "new_count": 2,
-      "revisit_count": 9,
+      "new_count": 3,
+      "revisit_count": 8,
       "first_open": "19:30",
       "last_open": "23:30",
       "first_booked": "19:00",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
-        "gcal": 10,
+        "gcal": 11,
         "クロン": 1,
         "CLINICS": 3,
         "GMO": 1
@@ -112,7 +112,15 @@
               "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "巴 眞人",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "19:25"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "巴 眞人",
@@ -398,7 +406,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T19:01:35.512559+09:00",
+      "last_updated": "2026-05-05T19:04:03.073872+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
