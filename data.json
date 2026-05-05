@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T16:47:29.956875+09:00",
+  "generated": "2026-05-05T16:50:04.937513+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -123,7 +123,9 @@
               "patient_name": "辻󠄀博子",
               "visit_type": "再診",
               "department": "耳鼻",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.05 16:46:17"
             }
           ],
           "sokuyaku_truth": []
@@ -312,7 +314,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T16:47:28.680885+09:00",
+      "last_updated": "2026-05-05T16:50:03.541159+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -597,7 +599,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T16:39:39.071532+09:00",
+      "last_updated": "2026-05-05T16:49:22.349950+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -906,7 +908,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T16:40:04.339073+09:00",
+      "last_updated": "2026-05-05T16:49:47.603575+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7939,5 +7941,5 @@
       "ts": "2026-05-05T09:02:59+09:00"
     }
   ],
-  "sigma_qualified_count": 58
+  "sigma_qualified_count": 60
 }
