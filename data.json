@@ -1,42 +1,45 @@
 {
-  "generated": "2026-05-05T19:01:06.270071+09:00",
+  "generated": "2026-05-05T19:01:38.147233+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
     "short": "5/5(火)",
     "time": "19:15",
-    "code": "",
+    "code": "S",
     "patient_name": "",
     "visit_type": "",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
       "date": "2026-05-05",
       "short": "5/5(火)",
       "dow": "火",
-      "open_count": 7,
-      "booked_count": 10,
+      "open_count": 6,
+      "booked_count": 11,
       "new_count": 2,
-      "revisit_count": 8,
-      "first_open": "19:15",
+      "revisit_count": 9,
+      "first_open": "19:30",
       "last_open": "23:30",
       "first_booked": "19:00",
       "last_booked": "23:45",
       "per_platform_open": {
-        "SOKUYAKU": 1,
         "クロン": 2,
         "CLINICS": 4
       },
       "per_platform_booked": {
-        "SOKUYAKU": 5,
+        "SOKUYAKU": 6,
         "gcal": 10,
         "クロン": 1,
         "CLINICS": 3,
         "GMO": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -105,12 +108,18 @@
           "time": "19:15",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:30"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "巴 眞人",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:30",
@@ -389,7 +398,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T18:59:09.167375+09:00",
+      "last_updated": "2026-05-05T19:01:35.512559+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
