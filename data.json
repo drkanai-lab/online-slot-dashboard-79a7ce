@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T08:58:08.847438+09:00",
+  "generated": "2026-05-05T09:00:34.167556+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -296,28 +296,29 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T08:58:07.514463+09:00",
+      "last_updated": "2026-05-05T09:00:32.892831+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-06",
       "short": "5/6(水)",
       "dow": "水",
-      "open_count": 8,
-      "booked_count": 5,
+      "open_count": 7,
+      "booked_count": 6,
       "new_count": 1,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "22:00",
       "last_open": "23:50",
-      "first_booked": "22:30",
+      "first_booked": "22:10",
       "last_booked": "23:45",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 6
+        "CLINICS": 5
       },
       "per_platform_booked": {
+        "CLINICS": 1,
+        "gcal": 6,
         "SOKUYAKU": 4,
-        "gcal": 5,
         "GMO": 1
       },
       "full_platforms": [
@@ -386,11 +387,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "増田智子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -572,7 +581,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T08:50:49.589488+09:00",
+      "last_updated": "2026-05-05T09:00:33.875443+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
