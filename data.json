@@ -1,39 +1,39 @@
 {
-  "generated": "2026-05-05T17:50:41.064163+09:00",
+  "generated": "2026-05-05T17:54:02.130871+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
     "short": "5/5(火)",
     "time": "19:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "code": "S",
+    "patient_name": "佐々木 智賀",
+    "visit_type": "初診",
+    "department": "婦人",
+    "status": "booked"
   },
   "days": [
     {
       "date": "2026-05-05",
       "short": "5/5(火)",
       "dow": "火",
-      "open_count": 8,
-      "booked_count": 9,
-      "new_count": 1,
+      "open_count": 7,
+      "booked_count": 10,
+      "new_count": 2,
       "revisit_count": 8,
-      "first_open": "19:00",
+      "first_open": "19:15",
       "last_open": "23:30",
-      "first_booked": "22:00",
+      "first_booked": "19:00",
       "last_booked": "23:45",
       "per_platform_open": {
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 1,
         "クロン": 2,
         "CLINICS": 4
       },
       "per_platform_booked": {
+        "SOKUYAKU": 5,
+        "gcal": 10,
         "クロン": 1,
-        "gcal": 9,
         "CLINICS": 3,
-        "SOKUYAKU": 4,
         "GMO": 1
       },
       "full_platforms": [
@@ -80,11 +80,19 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "佐々木 智賀",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "19:10"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "佐々木 智賀",
@@ -363,7 +371,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T17:50:39.712346+09:00",
+      "last_updated": "2026-05-05T17:53:59.726499+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7970,13 +7978,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "黒井 きぼう",
-      "date": "2026-05-06",
-      "time": "23:45",
-      "ts": "2026-05-05T08:33:42+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "増田智子",
       "date": "2026-05-06",
       "time": "22:10",
@@ -7988,6 +7989,13 @@
       "date": "2026-05-05",
       "time": "22:20",
       "ts": "2026-05-05T09:02:59+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "佐々木 智賀",
+      "date": "2026-05-05",
+      "time": "19:00",
+      "ts": "2026-05-05T17:54:01+09:00"
     }
   ],
   "sigma_qualified_count": 60
