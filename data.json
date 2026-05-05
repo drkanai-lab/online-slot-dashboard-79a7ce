@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T10:21:31.170088+09:00",
+  "generated": "2026-05-05T10:22:13.589035+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -18,22 +18,22 @@
       "date": "2026-05-05",
       "short": "5/5(火)",
       "dow": "火",
-      "open_count": 3,
-      "booked_count": 9,
-      "new_count": 2,
+      "open_count": 4,
+      "booked_count": 8,
+      "new_count": 1,
       "revisit_count": 7,
-      "first_open": "23:10",
+      "first_open": "22:10",
       "last_open": "23:30",
       "first_booked": "22:00",
       "last_booked": "23:45",
       "per_platform_open": {
-        "CLINICS": 2,
+        "CLINICS": 3,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 9,
-        "CLINICS": 3,
+        "gcal": 8,
+        "CLINICS": 2,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -113,19 +113,11 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "booked",
-              "end_time": "22:20"
+              "status": "open",
+              "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "松下誠司",
-              "visit_type": "初診",
-              "department": "内科",
-              "end_time": "22:20"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -312,7 +304,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T10:19:46.498458+09:00",
+      "last_updated": "2026-05-05T10:22:11.653757+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
