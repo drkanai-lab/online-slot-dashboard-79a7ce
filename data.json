@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T19:26:38.760442+09:00",
+  "generated": "2026-05-05T19:29:06.224930+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -18,8 +18,8 @@
       "dow": "火",
       "open_count": 5,
       "booked_count": 12,
-      "new_count": 3,
-      "revisit_count": 9,
+      "new_count": 4,
+      "revisit_count": 8,
       "first_open": "19:30",
       "last_open": "23:30",
       "first_booked": "19:00",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
-        "gcal": 11,
+        "gcal": 12,
         "CLINICS": 4,
         "クロン": 1,
         "GMO": 1
@@ -148,7 +148,15 @@
               "end_time": "19:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "大塚直志",
+              "visit_type": "初診",
+              "department": "小児",
+              "end_time": "19:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -406,7 +414,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T19:26:35.968342+09:00",
+      "last_updated": "2026-05-05T19:29:04.991110+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -691,7 +699,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T19:18:17.897979+09:00",
+      "last_updated": "2026-05-05T19:28:03.040109+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1000,7 +1008,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T19:18:42.921396+09:00",
+      "last_updated": "2026-05-05T19:28:28.046284+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1183,7 +1191,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T19:19:07.076253+09:00",
+      "last_updated": "2026-05-05T19:28:52.721636+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
