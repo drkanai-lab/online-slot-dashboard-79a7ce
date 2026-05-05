@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T18:42:07.466951+09:00",
+  "generated": "2026-05-05T18:44:35.563571+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -220,14 +220,18 @@
               "patient_name": "黒井 奈央子",
               "visit_type": "再診",
               "department": "漢方",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.05.05 18:37:48"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 奈央子",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.05 18:37:48"
             }
           ]
         },
@@ -245,14 +249,18 @@
               "patient_name": "黒井 宣郎",
               "visit_type": "再診",
               "department": "漢方",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.05.05 18:37:16"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 宣郎",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.05 18:37:16"
             }
           ]
         },
@@ -289,7 +297,9 @@
               "patient_name": "古山　賢太郎",
               "visit_type": "再診",
               "department": "整形",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.05.05 18:36:40"
             }
           ],
           "sokuyaku_truth": []
@@ -379,7 +389,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T18:42:06.001326+09:00",
+      "last_updated": "2026-05-05T18:44:34.218088+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8006,6 +8016,6 @@
       "ts": "2026-05-05T17:54:01+09:00"
     }
   ],
-  "sigma_qualified_count": 116,
-  "sigma_last_run": "2026-05-05T18:39:00.366184"
+  "sigma_qualified_count": 119,
+  "sigma_last_run": "2026-05-05T18:44:00.475706"
 }
