@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-05T23:15:51.871362+09:00",
+  "generated": "2026-05-05T23:16:02.970110+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
@@ -1912,7 +1912,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 4,
+        "gcal": 5,
         "GMO": 2,
         "CLINICS": 1
       },
@@ -2210,7 +2210,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "中川　安沙美",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2247,7 +2255,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-05T23:06:13.031729+09:00",
+      "last_updated": "2026-05-05T23:16:01.095326+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
