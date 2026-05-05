@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-05T22:48:57.597864+09:00",
+  "generated": "2026-05-05T22:51:24.023044+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-05",
     "short": "5/5(火)",
-    "time": "22:50",
-    "code": "C",
-    "patient_name": "KARIMMANAMI",
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "古山　賢太郎",
     "visit_type": "再診",
-    "department": "",
-    "status": "booked"
+    "department": "整形",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.05 18:36:40"
   },
   "days": [
     {
@@ -431,7 +433,7 @@
           ]
         }
       ],
-      "last_updated": "2026-05-05T22:48:55.990552+09:00",
+      "last_updated": "2026-05-05T22:51:22.550905+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
