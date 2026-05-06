@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T07:54:30.363911+09:00",
+  "generated": "2026-05-07T07:56:52.942817+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
@@ -337,7 +337,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T07:54:29.420281+09:00",
+      "last_updated": "2026-05-07T07:56:51.951508+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -520,7 +520,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T07:46:36.708314+09:00",
+      "last_updated": "2026-05-07T07:56:23.571379+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -529,8 +529,8 @@
       "dow": "土",
       "open_count": 18,
       "booked_count": 5,
-      "new_count": 0,
-      "revisit_count": 5,
+      "new_count": 1,
+      "revisit_count": 4,
       "first_open": "18:50",
       "last_open": "23:50",
       "first_booked": "12:30",
@@ -542,7 +542,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 4,
+        "gcal": 5,
         "GMO": 2,
         "CLINICS": 1
       },
@@ -587,7 +587,15 @@
               "end_time": "12:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "金井 伸行",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "12:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "金井 伸行",
@@ -892,7 +900,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T07:47:01.106676+09:00",
+      "last_updated": "2026-05-07T07:56:48.170780+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
