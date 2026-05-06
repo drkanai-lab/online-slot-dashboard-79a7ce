@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T17:01:03.276809+09:00",
+  "generated": "2026-05-06T17:03:28.842382+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -32,8 +32,8 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 5,
+        "gcal": 9,
         "クロン": 2,
-        "gcal": 8,
         "CLINICS": 1,
         "GMO": 1
       },
@@ -124,7 +124,15 @@
               "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "芝田 清",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "19:25"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "芝田 清",
@@ -426,7 +434,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T17:01:02.033238+09:00",
+      "last_updated": "2026-05-06T17:03:27.441840+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
