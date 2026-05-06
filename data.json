@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-06T22:50:16.572556+09:00",
+  "generated": "2026-05-06T22:52:42.140683+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
     "short": "5/6(水)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "荒木　昭子",
+    "visit_type": "再診",
+    "department": "アレ",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.06 00:19:32"
   },
   "days": [
     {
@@ -497,7 +499,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T22:50:14.250033+09:00",
+      "last_updated": "2026-05-06T22:52:40.682695+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
