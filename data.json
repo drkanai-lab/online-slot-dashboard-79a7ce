@@ -1,43 +1,47 @@
 {
-  "generated": "2026-05-06T15:50:25.564967+09:00",
+  "generated": "2026-05-06T15:50:43.789502+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
     "short": "5/6(水)",
     "time": "18:30",
-    "code": "",
+    "code": "G",
     "patient_name": "",
     "visit_type": "",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
       "date": "2026-05-06",
       "short": "5/6(水)",
       "dow": "水",
-      "open_count": 14,
-      "booked_count": 8,
-      "new_count": 2,
-      "revisit_count": 6,
-      "first_open": "18:30",
+      "open_count": 13,
+      "booked_count": 9,
+      "new_count": 1,
+      "revisit_count": 8,
+      "first_open": "18:40",
       "last_open": "23:50",
-      "first_booked": "19:30",
+      "first_booked": "18:30",
       "last_booked": "23:45",
       "per_platform_open": {
-        "GMO": 1,
         "CLINICS": 10,
         "SOKUYAKU": 2,
         "クロン": 1
       },
       "per_platform_booked": {
+        "GMO": 2,
         "クロン": 2,
-        "gcal": 8,
+        "gcal": 4,
         "CLINICS": 1,
-        "SOKUYAKU": 4,
-        "GMO": 1
+        "SOKUYAKU": 4
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "GMO",
+          "code": "G"
+        }
+      ],
       "ranges": [
         [
           "18:30",
@@ -76,7 +80,7 @@
           "time": "18:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "18:40"
             }
           },
@@ -242,18 +246,16 @@
               "end_time": "22:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "黒井 奈央子",
               "visit_type": "再診",
-              "department": "皮膚",
-              "end_time": "22:40",
+              "department": "",
               "qualified": true,
               "qualified_at": "R08.05.05 18:37:48"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:45",
@@ -263,18 +265,16 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "審良 聡太郎",
               "visit_type": "再診",
-              "department": "呼吸器科",
-              "end_time": "22:55",
+              "department": "",
               "qualified": true,
               "qualified_at": "R08.04.30 00:35:53"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:50",
@@ -342,16 +342,14 @@
               "end_time": "23:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "前澤 利恵子",
-              "visit_type": "初診",
-              "department": "頭痛",
-              "end_time": "23:40"
+              "visit_type": "再診",
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "23:45",
@@ -361,18 +359,16 @@
               "end_time": "23:59"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "黒井 きぼう",
               "visit_type": "再診",
-              "department": "皮膚",
-              "end_time": "23:55",
+              "department": "",
               "qualified": true,
               "qualified_at": "R08.05.06 00:18:33"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "23:50",
@@ -386,7 +382,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T15:48:15.935147+09:00",
+      "last_updated": "2026-05-06T15:50:41.340172+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
