@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T08:48:16.401689+09:00",
+  "generated": "2026-05-07T08:49:22.681210+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
@@ -20,8 +20,8 @@
       "dow": "木",
       "open_count": 6,
       "booked_count": 8,
-      "new_count": 2,
-      "revisit_count": 6,
+      "new_count": 3,
+      "revisit_count": 5,
       "first_open": "12:20",
       "last_open": "23:10",
       "first_booked": "11:30",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 2,
         "GMO": 2
       },
@@ -145,7 +145,15 @@
               "end_time": "12:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "西尾隆信",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "12:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -337,7 +345,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T08:46:57.280973+09:00",
+      "last_updated": "2026-05-07T08:49:21.728339+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7865,5 +7873,5 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 120,
-  "sigma_last_run": "2026-05-07T08:18:45.255757"
+  "sigma_last_run": "2026-05-07T08:48:51.809657"
 }
