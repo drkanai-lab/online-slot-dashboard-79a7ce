@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T18:57:26.336224+09:00",
+  "generated": "2026-05-06T18:59:54.719763+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -9,7 +9,9 @@
     "patient_name": "金井 広大",
     "visit_type": "初診",
     "department": "内科",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.06 18:56:00"
   },
   "days": [
     {
@@ -133,14 +135,18 @@
               "patient_name": "金井 広大",
               "visit_type": "初診",
               "department": "内科",
-              "end_time": "19:10"
+              "end_time": "19:10",
+              "qualified": true,
+              "qualified_at": "R08.05.06 18:56:00"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "金井 広大",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.06 18:56:00"
             }
           ]
         },
@@ -474,7 +480,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T18:57:25.010871+09:00",
+      "last_updated": "2026-05-06T18:59:53.488822+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7893,6 +7899,6 @@
       "ts": "2026-05-06T18:22:11+09:00"
     }
   ],
-  "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-06T18:54:10.412971"
+  "sigma_qualified_count": 122,
+  "sigma_last_run": "2026-05-06T18:59:00.107910"
 }
