@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-06T16:31:57.196440+09:00",
+  "generated": "2026-05-06T16:34:23.772372+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
     "short": "5/6(水)",
     "time": "18:30",
-    "code": "G",
-    "patient_name": "矢板 明莉",
-    "visit_type": "初診",
-    "department": "呼内",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.06 15:56:02"
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -19,12 +17,12 @@
       "short": "5/6(水)",
       "dow": "水",
       "open_count": 14,
-      "booked_count": 9,
-      "new_count": 2,
+      "booked_count": 8,
+      "new_count": 1,
       "revisit_count": 7,
       "first_open": "18:30",
       "last_open": "23:50",
-      "first_booked": "18:30",
+      "first_booked": "19:30",
       "last_booked": "23:45",
       "per_platform_open": {
         "GMO": 1,
@@ -33,8 +31,8 @@
         "クロン": 1
       },
       "per_platform_booked": {
-        "gcal": 9,
         "クロン": 2,
+        "gcal": 8,
         "CLINICS": 1,
         "SOKUYAKU": 4,
         "GMO": 1
@@ -82,17 +80,7 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "矢板 明莉",
-              "visit_type": "初診",
-              "department": "呼内",
-              "end_time": "18:40",
-              "qualified": true,
-              "qualified_at": "R08.05.06 15:56:02"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -432,7 +420,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T16:31:55.293402+09:00",
+      "last_updated": "2026-05-06T16:34:21.499590+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7836,5 +7824,5 @@
     }
   ],
   "sigma_qualified_count": 119,
-  "sigma_last_run": "2026-05-06T16:28:58.978946"
+  "sigma_last_run": "2026-05-06T16:34:00.259916"
 }
