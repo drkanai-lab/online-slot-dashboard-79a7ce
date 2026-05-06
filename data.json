@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T21:11:46.210914+09:00",
+  "generated": "2026-05-06T21:14:14.308104+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -20,8 +20,8 @@
       "dow": "水",
       "open_count": 9,
       "booked_count": 13,
-      "new_count": 4,
-      "revisit_count": 9,
+      "new_count": 5,
+      "revisit_count": 8,
       "first_open": "18:30",
       "last_open": "23:50",
       "first_booked": "18:40",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 12,
+        "gcal": 13,
         "SOKUYAKU": 6,
         "クロン": 2,
         "GMO": 1
@@ -293,7 +293,15 @@
               "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "中尾太珂",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -482,7 +490,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T21:11:43.925216+09:00",
+      "last_updated": "2026-05-06T21:14:12.957136+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -808,7 +816,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T21:03:30.314528+09:00",
+      "last_updated": "2026-05-06T21:13:18.499729+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -991,7 +999,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T21:03:54.643653+09:00",
+      "last_updated": "2026-05-06T21:13:42.531370+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1357,7 +1365,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T21:04:20.117892+09:00",
+      "last_updated": "2026-05-06T21:14:08.496495+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7910,5 +7918,5 @@
     }
   ],
   "sigma_qualified_count": 123,
-  "sigma_last_run": "2026-05-06T21:08:46.162279"
+  "sigma_last_run": "2026-05-06T21:13:46.270705"
 }
