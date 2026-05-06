@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-06T18:40:09.270964+09:00",
+  "generated": "2026-05-06T18:42:35.112389+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
     "short": "5/6(水)",
-    "time": "18:40",
-    "code": "C",
-    "patient_name": "一二三佳成",
-    "visit_type": "初診",
-    "department": "発熱",
-    "status": "booked"
+    "time": "18:50",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -122,7 +122,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "金井 広大",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:15",
@@ -454,7 +460,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T18:40:07.974348+09:00",
+      "last_updated": "2026-05-06T18:42:33.077818+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
