@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-06T16:00:09.820079+09:00",
+  "generated": "2026-05-06T16:00:16.645045+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
     "short": "5/6(水)",
     "time": "18:30",
     "code": "G",
-    "patient_name": "患者名不明",
+    "patient_name": "矢板 明莉",
     "visit_type": "初診",
     "department": "呼内",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.06 15:56:02"
   },
   "days": [
     {
@@ -87,10 +89,12 @@
           "gcals": [
             {
               "code": "G",
-              "patient_name": "患者名不明",
+              "patient_name": "矢板 明莉",
               "visit_type": "初診",
               "department": "呼内",
-              "end_time": "18:40"
+              "end_time": "18:40",
+              "qualified": true,
+              "qualified_at": "R08.05.06 15:56:02"
             }
           ],
           "sokuyaku_truth": []
@@ -390,7 +394,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T15:57:51.389596+09:00",
+      "last_updated": "2026-05-06T16:00:15.374437+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
