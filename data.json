@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T18:19:43.979972+09:00",
+  "generated": "2026-05-06T18:22:11.943707+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -16,9 +16,9 @@
       "date": "2026-05-06",
       "short": "5/6(水)",
       "dow": "水",
-      "open_count": 12,
-      "booked_count": 10,
-      "new_count": 2,
+      "open_count": 11,
+      "booked_count": 11,
+      "new_count": 3,
       "revisit_count": 8,
       "first_open": "18:30",
       "last_open": "23:50",
@@ -26,13 +26,13 @@
       "last_booked": "23:45",
       "per_platform_open": {
         "GMO": 1,
-        "CLINICS": 9,
+        "CLINICS": 8,
         "SOKUYAKU": 1,
         "クロン": 1
       },
       "per_platform_booked": {
-        "CLINICS": 2,
-        "gcal": 10,
+        "CLINICS": 3,
+        "gcal": 11,
         "SOKUYAKU": 5,
         "クロン": 2,
         "GMO": 1
@@ -200,11 +200,19 @@
           "time": "19:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "20:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "脇田航平",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "20:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -446,7 +454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T18:19:42.703564+09:00",
+      "last_updated": "2026-05-06T18:22:09.981116+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2295,7 +2303,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T17:05:03.697871+09:00",
+      "last_updated": "2026-05-06T18:20:55.264372+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2591,7 +2599,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T17:05:35.042786+09:00",
+      "last_updated": "2026-05-06T18:21:26.660221+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2759,7 +2767,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T17:06:05.719813+09:00",
+      "last_updated": "2026-05-06T18:21:57.342768+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7836,13 +7844,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "村井 遥香",
-      "date": "2026-05-06",
-      "time": "22:00",
-      "ts": "2026-05-06T09:53:19+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "柴田 明音",
       "date": "2026-05-06",
       "time": "19:30",
@@ -7854,6 +7855,13 @@
       "date": "2026-05-06",
       "time": "18:40",
       "ts": "2026-05-06T18:07:33+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "脇田航平",
+      "date": "2026-05-06",
+      "time": "19:50",
+      "ts": "2026-05-06T18:22:11+09:00"
     }
   ],
   "sigma_qualified_count": 120,
