@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T19:58:25.262702+09:00",
+  "generated": "2026-05-06T20:00:52.501833+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -236,7 +236,9 @@
               "patient_name": "脇田航平",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "20:00"
+              "end_time": "20:00",
+              "qualified": true,
+              "qualified_at": "R08.05.06 19:51:43"
             }
           ],
           "sokuyaku_truth": []
@@ -480,7 +482,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T19:58:23.974675+09:00",
+      "last_updated": "2026-05-06T20:00:51.183758+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7907,6 +7909,6 @@
       "ts": "2026-05-06T18:22:11+09:00"
     }
   ],
-  "sigma_qualified_count": 122,
-  "sigma_last_run": "2026-05-06T19:54:08.633016"
+  "sigma_qualified_count": 123,
+  "sigma_last_run": "2026-05-06T19:59:01.010823"
 }
