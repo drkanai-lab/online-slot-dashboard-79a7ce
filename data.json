@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T18:42:35.112389+09:00",
+  "generated": "2026-05-06T18:45:00.636247+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -16,10 +16,10 @@
       "date": "2026-05-06",
       "short": "5/6(水)",
       "dow": "水",
-      "open_count": 11,
-      "booked_count": 11,
+      "open_count": 10,
+      "booked_count": 12,
       "new_count": 3,
-      "revisit_count": 8,
+      "revisit_count": 9,
       "first_open": "18:30",
       "last_open": "23:50",
       "first_booked": "18:40",
@@ -27,17 +27,21 @@
       "per_platform_open": {
         "GMO": 1,
         "CLINICS": 8,
-        "SOKUYAKU": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "CLINICS": 3,
         "gcal": 11,
-        "SOKUYAKU": 5,
+        "SOKUYAKU": 6,
         "クロン": 2,
         "GMO": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        }
+      ],
       "ranges": [
         [
           "18:30",
@@ -97,7 +101,9 @@
               "patient_name": "一二三佳成",
               "visit_type": "初診",
               "department": "発熱",
-              "end_time": "18:50"
+              "end_time": "18:50",
+              "qualified": true,
+              "qualified_at": "R08.05.06 18:36:55"
             }
           ],
           "sokuyaku_truth": []
@@ -117,7 +123,7 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
@@ -460,7 +466,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T18:42:33.077818+09:00",
+      "last_updated": "2026-05-06T18:44:58.502538+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7870,6 +7876,6 @@
       "ts": "2026-05-06T18:22:11+09:00"
     }
   ],
-  "sigma_qualified_count": 120,
-  "sigma_last_run": "2026-05-06T18:39:00.955320"
+  "sigma_qualified_count": 121,
+  "sigma_last_run": "2026-05-06T18:44:00.397482"
 }
