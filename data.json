@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T18:52:31.785962+09:00",
+  "generated": "2026-05-06T18:54:56.942102+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -474,7 +474,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T18:52:30.491207+09:00",
+      "last_updated": "2026-05-06T18:54:55.497988+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -717,7 +717,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "清水 美穂子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -7885,5 +7891,5 @@
     }
   ],
   "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-06T18:49:05.992372"
+  "sigma_last_run": "2026-05-06T18:54:10.412971"
 }
