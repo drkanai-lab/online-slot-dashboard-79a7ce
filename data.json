@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T18:47:29.913155+09:00",
+  "generated": "2026-05-06T18:47:33.759165+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -18,8 +18,8 @@
       "dow": "水",
       "open_count": 10,
       "booked_count": 12,
-      "new_count": 3,
-      "revisit_count": 9,
+      "new_count": 4,
+      "revisit_count": 8,
       "first_open": "18:30",
       "last_open": "23:50",
       "first_booked": "18:40",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 3,
-        "gcal": 11,
+        "gcal": 12,
         "SOKUYAKU": 6,
         "クロン": 2,
         "GMO": 1
@@ -127,7 +127,15 @@
               "end_time": "19:15"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "金井 広大",
+              "visit_type": "初診",
+              "department": "内科",
+              "end_time": "19:10"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "金井 広大",
@@ -466,7 +474,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T18:44:58.502538+09:00",
+      "last_updated": "2026-05-06T18:47:32.419654+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
