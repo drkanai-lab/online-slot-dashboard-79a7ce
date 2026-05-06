@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T22:28:05.991240+09:00",
+  "generated": "2026-05-06T22:30:34.227879+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -299,7 +299,9 @@
               "patient_name": "中尾太珂",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "22:30"
+              "end_time": "22:30",
+              "qualified": true,
+              "qualified_at": "R08.05.06 22:24:43"
             }
           ],
           "sokuyaku_truth": []
@@ -497,7 +499,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T22:28:04.669185+09:00",
+      "last_updated": "2026-05-06T22:30:32.756354+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7954,6 +7956,6 @@
       "ts": "2026-05-06T18:22:11+09:00"
     }
   ],
-  "sigma_qualified_count": 123,
-  "sigma_last_run": "2026-05-06T22:23:51.088004"
+  "sigma_qualified_count": 124,
+  "sigma_last_run": "2026-05-06T22:28:59.809074"
 }
