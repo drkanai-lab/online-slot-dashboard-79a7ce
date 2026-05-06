@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T17:08:18.982634+09:00",
+  "generated": "2026-05-06T17:08:58.364720+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -130,14 +130,18 @@
               "patient_name": "芝田 清",
               "visit_type": "再診",
               "department": "整形",
-              "end_time": "19:25"
+              "end_time": "19:25",
+              "qualified": true,
+              "qualified_at": "R08.05.06 17:03:08"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "芝田 清",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.06 17:03:08"
             }
           ]
         },
@@ -1973,7 +1977,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T16:58:30.926513+09:00",
+      "last_updated": "2026-05-06T17:08:26.106622+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2115,7 +2119,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T16:59:01.333450+09:00",
+      "last_updated": "2026-05-06T17:08:56.906243+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3850,7 +3854,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T15:52:29.295345+09:00",
+      "last_updated": "2026-05-06T17:08:19.436449+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3894,7 +3898,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T15:53:03.726332+09:00",
+      "last_updated": "2026-05-06T17:08:52.600721+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7837,6 +7841,6 @@
       "ts": "2026-05-06T13:37:18+09:00"
     }
   ],
-  "sigma_qualified_count": 119,
-  "sigma_last_run": "2026-05-06T17:04:03.306368"
+  "sigma_qualified_count": 120,
+  "sigma_last_run": "2026-05-06T17:08:59.887147"
 }
