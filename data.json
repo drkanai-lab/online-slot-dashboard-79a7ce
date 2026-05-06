@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-06T13:34:51.407911+09:00",
+  "generated": "2026-05-06T13:37:19.628272+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-06",
@@ -17,12 +17,12 @@
       "short": "5/6(水)",
       "dow": "水",
       "open_count": 15,
-      "booked_count": 7,
-      "new_count": 1,
+      "booked_count": 8,
+      "new_count": 2,
       "revisit_count": 6,
       "first_open": "18:30",
       "last_open": "23:50",
-      "first_booked": "22:00",
+      "first_booked": "19:30",
       "last_booked": "23:45",
       "per_platform_open": {
         "GMO": 1,
@@ -31,8 +31,8 @@
         "クロン": 2
       },
       "per_platform_booked": {
+        "gcal": 8,
         "クロン": 1,
-        "gcal": 7,
         "CLINICS": 1,
         "SOKUYAKU": 4,
         "GMO": 1
@@ -146,7 +146,15 @@
               "end_time": "19:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "柴田 明音",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "19:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -404,7 +412,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-06T13:34:50.029287+09:00",
+      "last_updated": "2026-05-06T13:37:17.181592+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7798,6 +7806,13 @@
       "date": "2026-05-06",
       "time": "22:00",
       "ts": "2026-05-06T09:53:19+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "柴田 明音",
+      "date": "2026-05-06",
+      "time": "19:30",
+      "ts": "2026-05-06T13:37:18+09:00"
     }
   ],
   "sigma_qualified_count": 115,
