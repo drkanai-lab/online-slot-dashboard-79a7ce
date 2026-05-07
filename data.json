@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-07T11:43:38.532402+09:00",
+  "generated": "2026-05-07T11:46:03.382625+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
     "short": "5/7(木)",
-    "time": "11:45",
-    "code": "S",
-    "patient_name": "髙橋 奈々",
-    "visit_type": "初診",
-    "department": "内科",
+    "time": "12:00",
+    "code": "C",
+    "patient_name": "清須昌",
+    "visit_type": "再診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.06 23:52:22"
+    "qualified_at": "R08.05.06 23:54:34"
   },
   "days": [
     {
@@ -361,7 +361,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T11:43:37.251671+09:00",
+      "last_updated": "2026-05-07T11:46:02.085546+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7678,5 +7678,5 @@
     }
   ],
   "sigma_qualified_count": 123,
-  "sigma_last_run": "2026-05-07T11:38:47.759941"
+  "sigma_last_run": "2026-05-07T11:43:48.102248"
 }
