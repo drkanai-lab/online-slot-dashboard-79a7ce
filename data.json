@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T12:07:46.768317+09:00",
+  "generated": "2026-05-07T12:09:39.777870+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
@@ -1240,7 +1240,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T11:58:01.307919+09:00",
+      "last_updated": "2026-05-07T12:08:03.806496+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1635,7 +1635,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T11:58:35.102814+09:00",
+      "last_updated": "2026-05-07T12:08:36.582856+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1792,7 +1792,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T11:59:05.380063+09:00",
+      "last_updated": "2026-05-07T12:09:06.998040+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1975,7 +1975,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T11:59:35.661708+09:00",
+      "last_updated": "2026-05-07T12:09:38.507602+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2993,23 +2993,23 @@
       "date": "2026-05-18",
       "short": "5/18(月)",
       "dow": "月",
-      "open_count": 25,
-      "booked_count": 4,
+      "open_count": 24,
+      "booked_count": 5,
       "new_count": 0,
-      "revisit_count": 4,
-      "first_open": "11:45",
+      "revisit_count": 5,
+      "first_open": "12:00",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "19:00",
       "per_platform_open": {
-        "SOKUYAKU": 4,
         "CLINICS": 15,
         "クロン": 4,
-        "GMO": 2
+        "GMO": 2,
+        "SOKUYAKU": 3
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 4,
+        "SOKUYAKU": 3,
+        "gcal": 5,
         "CLINICS": 1,
         "GMO": 1
       },
@@ -3059,11 +3059,19 @@
           "time": "11:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "塚本 力",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "11:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "塚本 力",
@@ -3400,7 +3408,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T10:51:43.749790+09:00",
+      "last_updated": "2026-05-07T12:07:55.651819+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3559,7 +3567,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T10:52:17.872363+09:00",
+      "last_updated": "2026-05-07T12:08:30.373593+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3603,7 +3611,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T10:52:51.358544+09:00",
+      "last_updated": "2026-05-07T12:09:04.341255+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3881,7 +3889,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T10:53:25.660802+09:00",
+      "last_updated": "2026-05-07T12:09:38.621694+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7709,5 +7717,5 @@
     }
   ],
   "sigma_qualified_count": 123,
-  "sigma_last_run": "2026-05-07T12:03:47.403401"
+  "sigma_last_run": "2026-05-07T12:08:55.727606"
 }
