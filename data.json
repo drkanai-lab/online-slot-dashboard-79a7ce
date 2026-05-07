@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-07T12:19:51.008844+09:00",
+  "generated": "2026-05-07T12:22:23.843018+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
     "short": "5/7(木)",
-    "time": "12:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "12:30",
+    "code": "G",
+    "patient_name": "吉村　貴子",
+    "visit_type": "再診",
+    "department": "皮膚",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.06 23:54:07"
   },
   "days": [
     {
@@ -359,7 +361,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T12:19:49.475910+09:00",
+      "last_updated": "2026-05-07T12:22:22.535294+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7701,7 +7703,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T11:03:41.987025+09:00",
+      "last_updated": "2026-05-07T12:19:51.908203+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
