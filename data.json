@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T17:17:25.087637+09:00",
+  "generated": "2026-05-07T17:18:44.974846+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
@@ -348,7 +348,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T17:16:18.845911+09:00",
+      "last_updated": "2026-05-07T17:18:43.620249+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5389,7 +5389,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T16:01:58.286536+09:00",
+      "last_updated": "2026-05-07T17:17:58.076276+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5557,7 +5557,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T16:02:35.376614+09:00",
+      "last_updated": "2026-05-07T17:18:35.630249+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5649,7 +5649,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "松本 幸子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -7647,5 +7653,5 @@
     }
   ],
   "sigma_qualified_count": 123,
-  "sigma_last_run": "2026-05-07T17:13:47.042554"
+  "sigma_last_run": "2026-05-07T17:18:47.012870"
 }
