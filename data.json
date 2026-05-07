@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T07:57:34.327971+09:00",
+  "generated": "2026-05-08T07:59:56.666191+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
@@ -18,8 +18,8 @@
       "dow": "金",
       "open_count": 7,
       "booked_count": 5,
-      "new_count": 3,
-      "revisit_count": 2,
+      "new_count": 4,
+      "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
@@ -93,7 +93,7 @@
             {
               "code": "C",
               "patient_name": "上田奈央",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "",
               "end_time": "22:30"
             }
@@ -246,7 +246,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T07:57:32.545851+09:00",
+      "last_updated": "2026-05-08T07:59:55.704370+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -609,7 +609,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T07:49:21.923742+09:00",
+      "last_updated": "2026-05-08T07:59:17.094346+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -925,7 +925,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T07:49:52.039533+09:00",
+      "last_updated": "2026-05-08T07:59:47.544839+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
