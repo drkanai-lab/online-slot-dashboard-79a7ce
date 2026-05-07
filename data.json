@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T08:02:21.920596+09:00",
+  "generated": "2026-05-08T08:04:45.798891+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
@@ -95,7 +95,9 @@
               "patient_name": "上田奈央",
               "visit_type": "初診",
               "department": "",
-              "end_time": "22:30"
+              "end_time": "22:30",
+              "qualified": true,
+              "qualified_at": "R08.05.08 08:01:07"
             }
           ],
           "sokuyaku_truth": []
@@ -246,7 +248,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T08:02:20.958160+09:00",
+      "last_updated": "2026-05-08T08:04:44.551036+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7718,6 +7720,6 @@
       "ts": "2026-05-08T07:57:33+09:00"
     }
   ],
-  "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-08T07:48:42.998638"
+  "sigma_qualified_count": 122,
+  "sigma_last_run": "2026-05-08T08:03:42.155382"
 }
