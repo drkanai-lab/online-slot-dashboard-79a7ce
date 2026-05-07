@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T20:11:41.485460+09:00",
+  "generated": "2026-05-07T20:14:06.045779+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 3,
         "GMO": 1,
         "クロン": 1
@@ -231,7 +231,17 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "野沢来王",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.07 20:10:29"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -348,7 +358,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T20:11:39.786036+09:00",
+      "last_updated": "2026-05-07T20:14:04.589169+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -555,7 +565,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T20:03:39.952433+09:00",
+      "last_updated": "2026-05-07T20:13:36.411931+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -895,7 +905,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T20:04:04.569197+09:00",
+      "last_updated": "2026-05-07T20:14:02.057304+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7710,6 +7720,6 @@
       "ts": "2026-05-07T19:36:36+09:00"
     }
   ],
-  "sigma_qualified_count": 123,
-  "sigma_last_run": "2026-05-07T20:08:47.466903"
+  "sigma_qualified_count": 124,
+  "sigma_last_run": "2026-05-07T20:13:47.804250"
 }
