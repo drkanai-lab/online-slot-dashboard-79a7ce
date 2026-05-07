@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T09:12:39.064027+09:00",
+  "generated": "2026-05-07T09:15:03.080984+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
@@ -151,7 +151,9 @@
               "patient_name": "西尾隆信",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "12:20"
+              "end_time": "12:20",
+              "qualified": true,
+              "qualified_at": "R08.05.07 09:07:56"
             }
           ],
           "sokuyaku_truth": []
@@ -353,7 +355,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T09:12:37.789547+09:00",
+      "last_updated": "2026-05-07T09:15:01.617496+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7888,6 +7890,6 @@
       "ts": "2026-05-07T09:02:58+09:00"
     }
   ],
-  "sigma_qualified_count": 120,
-  "sigma_last_run": "2026-05-07T09:08:48.976538"
+  "sigma_qualified_count": 121,
+  "sigma_last_run": "2026-05-07T09:13:46.276927"
 }
