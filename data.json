@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T09:18:13.419392+09:00",
+  "generated": "2026-05-07T09:19:53.012231+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
@@ -219,7 +219,9 @@
               "patient_name": "中嶋 飛鷹",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.05.07 09:12:06"
             }
           ],
           "sokuyaku_truth": []
@@ -359,7 +361,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T09:17:27.523297+09:00",
+      "last_updated": "2026-05-07T09:19:51.739929+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7894,6 +7896,6 @@
       "ts": "2026-05-07T09:02:58+09:00"
     }
   ],
-  "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-07T09:13:46.276927"
+  "sigma_qualified_count": 122,
+  "sigma_last_run": "2026-05-07T09:19:52.824395"
 }
