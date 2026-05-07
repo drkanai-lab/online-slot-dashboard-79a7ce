@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-07T12:00:31.426544+09:00",
+  "generated": "2026-05-07T12:02:58.368633+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
     "short": "5/7(木)",
-    "time": "12:00",
+    "time": "12:10",
     "code": "C",
-    "patient_name": "清須昌",
-    "visit_type": "再診",
-    "department": "",
+    "patient_name": "西尾隆信",
+    "visit_type": "初診",
+    "department": "耳鼻",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.06 23:54:34"
+    "qualified_at": "R08.05.07 09:07:56"
   },
   "days": [
     {
@@ -361,7 +361,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T12:00:29.942537+09:00",
+      "last_updated": "2026-05-07T12:02:57.043402+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7692,5 +7692,5 @@
     }
   ],
   "sigma_qualified_count": 123,
-  "sigma_last_run": "2026-05-07T11:58:55.311623"
+  "sigma_last_run": "2026-05-07T12:03:47.403401"
 }
