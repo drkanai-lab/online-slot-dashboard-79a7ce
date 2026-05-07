@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-07T09:00:33.730982+09:00",
+  "generated": "2026-05-07T09:02:58.951486+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
@@ -19,9 +19,9 @@
       "short": "5/7(木)",
       "dow": "木",
       "open_count": 6,
-      "booked_count": 8,
+      "booked_count": 9,
       "new_count": 3,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "12:20",
       "last_open": "23:10",
       "first_booked": "11:30",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 2,
         "GMO": 2
       },
@@ -207,7 +207,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "中嶋 飛鷹",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -345,7 +353,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T09:00:32.675139+09:00",
+      "last_updated": "2026-05-07T09:02:57.418410+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7871,7 +7879,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "中嶋 飛鷹",
+      "date": "2026-05-07",
+      "time": "22:00",
+      "ts": "2026-05-07T09:02:58+09:00"
+    }
+  ],
   "sigma_qualified_count": 120,
   "sigma_last_run": "2026-05-07T08:58:54.556236"
 }
