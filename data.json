@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-07T21:58:42.001068+09:00",
+  "generated": "2026-05-07T22:01:04.294406+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-07",
     "short": "5/7(木)",
-    "time": "22:00",
-    "code": "K",
-    "patient_name": "中嶋 飛鷹",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "野沢来王",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.07 09:12:06"
+    "qualified_at": "R08.05.07 20:10:29"
   },
   "days": [
     {
@@ -358,7 +358,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-07T21:58:40.327740+09:00",
+      "last_updated": "2026-05-07T22:01:02.952292+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7722,5 +7722,5 @@
     }
   ],
   "sigma_qualified_count": 124,
-  "sigma_last_run": "2026-05-07T21:53:48.021521"
+  "sigma_last_run": "2026-05-07T21:58:52.565427"
 }
