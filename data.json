@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T07:55:09.276250+09:00",
+  "generated": "2026-05-08T07:57:34.327971+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
@@ -16,22 +16,22 @@
       "date": "2026-05-08",
       "short": "5/8(金)",
       "dow": "金",
-      "open_count": 8,
-      "booked_count": 4,
+      "open_count": 7,
+      "booked_count": 5,
       "new_count": 3,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 5,
+        "CLINICS": 4,
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "CLINICS": 1,
-        "gcal": 4,
+        "CLINICS": 2,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -85,11 +85,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "上田奈央",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -238,7 +246,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T07:55:08.294622+09:00",
+      "last_updated": "2026-05-08T07:57:32.545851+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7690,13 +7698,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "乙武 彩",
-      "date": "2026-05-08",
-      "time": "22:45",
-      "ts": "2026-05-07T23:05:28+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "五十川 珠美",
       "date": "2026-05-09",
       "time": "19:30",
@@ -7708,6 +7709,13 @@
       "date": "2026-05-09",
       "time": "19:15",
       "ts": "2026-05-08T07:12:00+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "上田奈央",
+      "date": "2026-05-08",
+      "time": "22:20",
+      "ts": "2026-05-08T07:57:33+09:00"
     }
   ],
   "sigma_qualified_count": 121,
