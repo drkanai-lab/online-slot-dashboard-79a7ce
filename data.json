@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-08T23:20:04.020690+09:00",
+  "generated": "2026-05-08T23:22:34.793828+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
     "short": "5/8(金)",
-    "time": "23:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:30",
+    "code": "S",
+    "patient_name": "湊谷 愛華",
+    "visit_type": "初診",
+    "department": "呼吸器科",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.08 21:55:48"
   },
   "days": [
     {
@@ -301,7 +303,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T23:20:03.005520+09:00",
+      "last_updated": "2026-05-08T23:22:33.773328+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
