@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-08T23:00:41.699969+09:00",
+  "generated": "2026-05-08T23:03:07.465643+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
     "short": "5/8(金)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "船井　真弓",
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "一二三佳成",
     "visit_type": "再診",
-    "department": "不眠",
+    "department": "発熱",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.07 23:16:08"
+    "qualified_at": "R08.05.06 18:36:55"
   },
   "days": [
     {
@@ -268,7 +268,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "木村 和美",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "23:50",
@@ -282,7 +288,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T23:00:40.578506+09:00",
+      "last_updated": "2026-05-08T23:03:06.362781+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
