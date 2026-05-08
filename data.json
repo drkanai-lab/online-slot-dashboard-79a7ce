@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T00:26:54.484825+09:00",
+  "generated": "2026-05-09T00:27:38.748425+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
@@ -20,8 +20,8 @@
       "dow": "土",
       "open_count": 14,
       "booked_count": 7,
-      "new_count": 0,
-      "revisit_count": 7,
+      "new_count": 1,
+      "revisit_count": 6,
       "first_open": "18:50",
       "last_open": "23:50",
       "first_booked": "18:30",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 2,
         "SOKUYAKU": 2,
         "クロン": 1
@@ -221,7 +221,15 @@
               "end_time": "19:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "野村日向",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "19:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -382,7 +390,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T00:25:08.032828+09:00",
+      "last_updated": "2026-05-09T00:27:37.509546+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
