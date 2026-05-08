@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T23:06:49.775223+09:00",
+  "generated": "2026-05-08T23:07:57.997036+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
@@ -20,8 +20,8 @@
       "dow": "金",
       "open_count": 5,
       "booked_count": 8,
-      "new_count": 5,
-      "revisit_count": 3,
+      "new_count": 6,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 3,
-        "gcal": 7,
+        "gcal": 8,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -270,7 +270,15 @@
               "end_time": "23:59"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "木村 和美",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "23:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "木村 和美",
@@ -291,7 +299,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T23:05:30.700092+09:00",
+      "last_updated": "2026-05-08T23:07:56.911122+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7624,5 +7632,5 @@
     }
   ],
   "sigma_qualified_count": 133,
-  "sigma_last_run": "2026-05-08T23:03:45.942633"
+  "sigma_last_run": "2026-05-08T23:08:47.031870"
 }
