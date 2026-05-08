@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T21:57:56.601732+09:00",
+  "generated": "2026-05-08T22:00:20.339430+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
@@ -242,14 +242,18 @@
               "patient_name": "湊谷 愛華",
               "visit_type": "初診",
               "department": "呼吸器科",
-              "end_time": "23:40"
+              "end_time": "23:40",
+              "qualified": true,
+              "qualified_at": "R08.05.08 21:55:48"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "湊谷 愛華",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.08 21:55:48"
             }
           ]
         },
@@ -276,7 +280,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T21:57:55.534136+09:00",
+      "last_updated": "2026-05-08T22:00:19.267082+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7675,6 +7679,6 @@
       "ts": "2026-05-08T21:53:08+09:00"
     }
   ],
-  "sigma_qualified_count": 132,
-  "sigma_last_run": "2026-05-08T21:53:45.650397"
+  "sigma_qualified_count": 133,
+  "sigma_last_run": "2026-05-08T21:58:47.006502"
 }
