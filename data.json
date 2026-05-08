@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-08T22:48:37.678689+09:00",
+  "generated": "2026-05-08T22:51:02.851628+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
     "short": "5/8(金)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "船井　真弓",
+    "visit_type": "再診",
+    "department": "不眠",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.07 23:16:08"
   },
   "days": [
     {
@@ -280,7 +282,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T22:48:36.569758+09:00",
+      "last_updated": "2026-05-08T22:51:01.736461+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7613,5 +7615,5 @@
     }
   ],
   "sigma_qualified_count": 133,
-  "sigma_last_run": "2026-05-08T22:43:54.363944"
+  "sigma_last_run": "2026-05-08T22:48:53.800752"
 }
