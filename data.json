@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-08T22:00:20.339430+09:00",
+  "generated": "2026-05-08T22:02:46.476382+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
     "short": "5/8(金)",
-    "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "佐藤佳美",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.04 09:16:21"
   },
   "days": [
     {
@@ -280,7 +282,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T22:00:19.267082+09:00",
+      "last_updated": "2026-05-08T22:02:45.138602+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
