@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T21:43:33.828807+09:00",
+  "generated": "2026-05-08T21:45:56.931833+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
@@ -145,14 +145,18 @@
               "patient_name": "木之下 匡子",
               "visit_type": "初診",
               "department": "整形",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.05.08 21:39:48"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "木之下 匡子",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.08 21:39:48"
             }
           ]
         },
@@ -258,7 +262,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T21:43:32.874443+09:00",
+      "last_updated": "2026-05-08T21:45:55.900020+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -621,7 +625,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T21:34:03.065401+09:00",
+      "last_updated": "2026-05-08T21:43:57.305870+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -937,7 +941,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T21:34:33.420284+09:00",
+      "last_updated": "2026-05-08T21:44:28.061258+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1332,7 +1336,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T21:35:06.734436+09:00",
+      "last_updated": "2026-05-08T21:45:00.455016+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1489,7 +1493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T21:35:36.764876+09:00",
+      "last_updated": "2026-05-08T21:45:39.634741+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7726,6 +7730,6 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 131,
-  "sigma_last_run": "2026-05-08T21:38:47.348318"
+  "sigma_qualified_count": 132,
+  "sigma_last_run": "2026-05-08T21:43:50.633092"
 }
