@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-08T20:55:08.626485+09:00",
+  "generated": "2026-05-08T20:56:46.755646+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-08",
@@ -1332,7 +1332,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T20:44:51.263729+09:00",
+      "last_updated": "2026-05-08T20:55:13.784134+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1489,7 +1489,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T20:45:43.090445+09:00",
+      "last_updated": "2026-05-08T20:55:44.569773+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1672,30 +1672,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T20:46:14.005666+09:00",
+      "last_updated": "2026-05-08T20:56:15.156210+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-14",
       "short": "5/14(木)",
       "dow": "木",
-      "open_count": 17,
-      "booked_count": 3,
+      "open_count": 18,
+      "booked_count": 2,
       "new_count": 0,
-      "revisit_count": 3,
-      "first_open": "12:00",
+      "revisit_count": 2,
+      "first_open": "11:45",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "12:30",
       "per_platform_open": {
+        "SOKUYAKU": 3,
         "CLINICS": 11,
         "クロン": 3,
-        "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 3,
+        "SOKUYAKU": 1,
+        "gcal": 2,
         "GMO": 1
       },
       "full_platforms": [],
@@ -1740,26 +1740,12 @@
           "time": "11:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "12:00"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "石原 明日香",
-              "visit_type": "再診",
-              "department": "内科",
-              "end_time": "11:55"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "石原 明日香",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "gcals": [],
+          "sokuyaku_truth": []
         },
         {
           "time": "12:00",
@@ -1968,7 +1954,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-08T20:46:44.731835+09:00",
+      "last_updated": "2026-05-08T20:56:45.326135+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
