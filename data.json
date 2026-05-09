@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T00:50:55.363903+09:00",
+  "generated": "2026-05-10T00:53:19.020783+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 3,
+        "gcal": 4,
         "CLINICS": 1,
         "クロン": 1
       },
@@ -106,7 +106,15 @@
               "end_time": "18:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "今井凜",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "18:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -286,7 +294,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T00:50:54.129221+09:00",
+      "last_updated": "2026-05-10T00:53:18.107753+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -675,7 +683,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T00:43:30.246983+09:00",
+      "last_updated": "2026-05-10T00:52:53.305512+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -832,7 +840,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T00:43:53.610652+09:00",
+      "last_updated": "2026-05-10T00:53:17.891043+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
