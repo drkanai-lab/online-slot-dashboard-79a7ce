@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-09T22:19:39.039078+09:00",
+  "generated": "2026-05-09T22:22:04.421330+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
     "short": "5/9(土)",
-    "time": "22:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "渡邉 綱紀",
+    "visit_type": "再診",
+    "department": "整形",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.09 16:31:11"
   },
   "days": [
     {
@@ -435,7 +437,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T22:19:37.583267+09:00",
+      "last_updated": "2026-05-09T22:22:02.740957+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
