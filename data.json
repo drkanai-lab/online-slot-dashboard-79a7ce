@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T08:19:55.706441+09:00",
+  "generated": "2026-05-10T08:20:43.119562+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -1550,7 +1550,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T08:10:47.855334+09:00",
+      "last_updated": "2026-05-10T08:20:16.555235+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1840,7 +1840,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T08:11:11.629380+09:00",
+      "last_updated": "2026-05-10T08:20:41.225616+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7619,7 +7619,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "近森勇太",
+      "date": "2026-05-11",
+      "time": "19:20",
+      "ts": "2026-05-10T08:20:42+09:00"
+    }
+  ],
   "sigma_qualified_count": 114,
   "sigma_last_run": "2026-05-10T08:18:49.831025"
 }
