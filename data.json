@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T09:52:42.240528+09:00",
+  "generated": "2026-05-09T09:53:45.183282+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
@@ -1652,7 +1652,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T09:43:07.267150+09:00",
+      "last_updated": "2026-05-09T09:53:12.272435+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1831,7 +1831,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T09:43:39.037916+09:00",
+      "last_updated": "2026-05-09T09:53:43.799205+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2854,31 +2854,32 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T08:36:10.511819+09:00",
+      "last_updated": "2026-05-09T09:52:44.813087+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-21",
       "short": "5/21(木)",
       "dow": "木",
-      "open_count": 19,
-      "booked_count": 2,
+      "open_count": 18,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "11:45",
       "last_open": "23:30",
       "first_booked": "11:20",
-      "last_booked": "11:30",
+      "last_booked": "12:30",
       "per_platform_open": {
         "SOKUYAKU": 3,
         "CLINICS": 11,
-        "GMO": 2,
-        "クロン": 3
+        "クロン": 3,
+        "GMO": 1
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 2,
-        "SOKUYAKU": 1
+        "gcal": 3,
+        "SOKUYAKU": 1,
+        "GMO": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -2985,11 +2986,19 @@
           "time": "12:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "総診",
+              "end_time": "12:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -3147,7 +3156,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T08:36:46.351809+09:00",
+      "last_updated": "2026-05-09T09:53:18.407935+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7718,5 +7727,5 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-09T09:48:38.095854"
+  "sigma_last_run": "2026-05-09T09:53:37.635160"
 }
