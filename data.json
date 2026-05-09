@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T00:17:52.050757+09:00",
+  "generated": "2026-05-10T00:20:13.387556+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -9,7 +9,9 @@
     "patient_name": "西村　美和子",
     "visit_type": "再診",
     "department": "不眠",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.10 00:07:26"
   },
   "days": [
     {
@@ -88,7 +90,9 @@
               "patient_name": "西村　美和子",
               "visit_type": "再診",
               "department": "不眠",
-              "end_time": "18:40"
+              "end_time": "18:40",
+              "qualified": true,
+              "qualified_at": "R08.05.10 00:07:26"
             }
           ],
           "sokuyaku_truth": []
@@ -140,7 +144,9 @@
               "patient_name": "髙橋 快弥",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.05.10 00:07:42"
             }
           ],
           "sokuyaku_truth": []
@@ -279,7 +285,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T00:17:51.345197+09:00",
+      "last_updated": "2026-05-10T00:20:12.743679+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7433,6 +7439,6 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 126,
-  "sigma_last_run": "2026-05-09T23:58:46.163704"
+  "sigma_qualified_count": 112,
+  "sigma_last_run": "2026-05-10T00:19:00.261483"
 }
