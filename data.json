@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T13:44:49.955938+09:00",
+  "generated": "2026-05-09T13:47:15.217270+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
@@ -18,23 +18,23 @@
       "date": "2026-05-09",
       "short": "5/9(土)",
       "dow": "土",
-      "open_count": 13,
-      "booked_count": 9,
+      "open_count": 12,
+      "booked_count": 10,
       "new_count": 1,
-      "revisit_count": 8,
+      "revisit_count": 9,
       "first_open": "18:50",
       "last_open": "23:50",
       "first_booked": "18:30",
       "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 9,
-        "SOKUYAKU": 4
+        "SOKUYAKU": 3
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 9,
+        "gcal": 10,
         "CLINICS": 2,
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 3,
         "クロン": 3
       },
       "full_platforms": [
@@ -297,12 +297,26 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "渡邉 綱紀",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "渡邉 綱紀",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -415,7 +429,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:44:48.555676+09:00",
+      "last_updated": "2026-05-09T13:47:13.621026+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -654,7 +668,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:35:39.316161+09:00",
+      "last_updated": "2026-05-09T13:45:46.730558+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1049,7 +1063,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:36:14.524826+09:00",
+      "last_updated": "2026-05-09T13:46:20.637334+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1206,7 +1220,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:36:45.514102+09:00",
+      "last_updated": "2026-05-09T13:46:50.547934+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4117,7 +4131,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T12:28:50.710929+09:00",
+      "last_updated": "2026-05-09T13:45:18.417872+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4384,7 +4398,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T12:29:28.323981+09:00",
+      "last_updated": "2026-05-09T13:45:56.482223+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4526,7 +4540,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T12:30:05.308371+09:00",
+      "last_updated": "2026-05-09T13:46:32.946703+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4570,7 +4584,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T12:30:42.719345+09:00",
+      "last_updated": "2026-05-09T13:47:09.454897+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7780,6 +7794,13 @@
       "date": "2026-05-09",
       "time": "23:30",
       "ts": "2026-05-09T13:27:51+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "渡邉 綱紀",
+      "date": "2026-05-09",
+      "time": "22:30",
+      "ts": "2026-05-09T13:47:14+09:00"
     }
   ],
   "sigma_qualified_count": 121,
