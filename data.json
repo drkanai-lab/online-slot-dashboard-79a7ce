@@ -1,34 +1,32 @@
 {
-  "generated": "2026-05-10T08:11:12.867979+09:00",
+  "generated": "2026-05-10T08:12:43.185859+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
     "short": "5/10(日)",
-    "time": "18:30",
-    "code": "G",
-    "patient_name": "西村　美和子",
-    "visit_type": "再診",
-    "department": "不眠",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.10 00:07:26"
+    "time": "18:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
       "date": "2026-05-10",
       "short": "5/10(日)",
       "dow": "日",
-      "open_count": 10,
+      "open_count": 12,
       "booked_count": 5,
       "new_count": 2,
       "revisit_count": 3,
-      "first_open": "22:10",
+      "first_open": "18:00",
       "last_open": "23:50",
       "first_booked": "18:30",
       "last_booked": "23:00",
       "per_platform_open": {
+        "SOKUYAKU": 6,
         "CLINICS": 6,
-        "SOKUYAKU": 4,
         "クロン": 1
       },
       "per_platform_booked": {
@@ -45,7 +43,7 @@
       ],
       "ranges": [
         [
-          "18:30",
+          "18:00",
           "19:00"
         ],
         [
@@ -53,7 +51,7 @@
           "24:00"
         ]
       ],
-      "range_text": "18:30〜19:00, 22:00〜24:00",
+      "range_text": "18:00〜19:00, 22:00〜24:00",
       "slots": [
         {
           "time": "10:00",
@@ -72,6 +70,28 @@
             "クロン": {
               "status": "closed",
               "end_time": "12:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "18:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "18:15"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "18:15",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "18:30"
             }
           },
           "gcals": [],
@@ -306,7 +326,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T08:10:17.416969+09:00",
+      "last_updated": "2026-05-10T08:12:42.250946+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
