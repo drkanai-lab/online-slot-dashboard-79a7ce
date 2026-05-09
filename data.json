@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T13:01:21.344442+09:00",
+  "generated": "2026-05-09T13:03:45.779409+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
@@ -19,9 +19,9 @@
       "short": "5/9(土)",
       "dow": "土",
       "open_count": 14,
-      "booked_count": 7,
+      "booked_count": 8,
       "new_count": 1,
-      "revisit_count": 6,
+      "revisit_count": 7,
       "first_open": "18:50",
       "last_open": "23:50",
       "first_booked": "18:30",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 2,
         "SOKUYAKU": 2,
         "クロン": 1
@@ -257,7 +257,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "吉崎 葵",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -396,7 +404,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:01:19.945664+09:00",
+      "last_updated": "2026-05-09T13:03:44.079114+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7747,7 +7755,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "吉崎 葵",
+      "date": "2026-05-09",
+      "time": "22:00",
+      "ts": "2026-05-09T13:03:45+09:00"
+    }
+  ],
   "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-09T12:58:37.363435"
+  "sigma_last_run": "2026-05-09T13:03:37.371331"
 }
