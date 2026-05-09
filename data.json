@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T11:05:08.869040+09:00",
+  "generated": "2026-05-09T11:07:33.552736+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
@@ -396,7 +396,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T11:05:07.629840+09:00",
+      "last_updated": "2026-05-09T11:07:32.260798+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1840,8 +1840,8 @@
       "dow": "土",
       "open_count": 11,
       "booked_count": 4,
-      "new_count": 0,
-      "revisit_count": 4,
+      "new_count": 1,
+      "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "12:30",
@@ -1853,7 +1853,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 3,
+        "gcal": 4,
         "GMO": 2
       },
       "full_platforms": [
@@ -2050,7 +2050,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "佐々木 伸",
+              "visit_type": "初診",
+              "department": "頭痛",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2113,7 +2121,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T09:50:20.402245+09:00",
+      "last_updated": "2026-05-09T11:07:33.195804+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
