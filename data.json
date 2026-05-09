@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T13:25:26.799181+09:00",
+  "generated": "2026-05-09T13:27:51.921208+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
@@ -19,13 +19,13 @@
       "short": "5/9(土)",
       "dow": "土",
       "open_count": 13,
-      "booked_count": 8,
+      "booked_count": 9,
       "new_count": 1,
-      "revisit_count": 7,
+      "revisit_count": 8,
       "first_open": "18:50",
       "last_open": "23:50",
       "first_booked": "18:30",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 9,
         "SOKUYAKU": 4,
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 2,
         "SOKUYAKU": 2,
         "クロン": 2
@@ -378,7 +378,15 @@
               "end_time": "23:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "清水 優志",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -404,7 +412,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:25:25.455642+09:00",
+      "last_updated": "2026-05-09T13:27:50.416869+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -643,7 +651,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:15:32.058416+09:00",
+      "last_updated": "2026-05-09T13:25:30.270851+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1038,7 +1046,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:16:06.476098+09:00",
+      "last_updated": "2026-05-09T13:26:05.211108+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1195,7 +1203,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:16:37.982260+09:00",
+      "last_updated": "2026-05-09T13:26:36.292340+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1378,7 +1386,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:17:08.008537+09:00",
+      "last_updated": "2026-05-09T13:27:07.790828+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1660,7 +1668,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T13:17:38.770192+09:00",
+      "last_updated": "2026-05-09T13:27:38.887110+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7762,8 +7770,15 @@
       "date": "2026-05-09",
       "time": "22:00",
       "ts": "2026-05-09T13:03:45+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "清水 優志",
+      "date": "2026-05-09",
+      "time": "23:30",
+      "ts": "2026-05-09T13:27:51+09:00"
     }
   ],
   "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-09T13:23:37.539242"
+  "sigma_last_run": "2026-05-09T13:28:37.562054"
 }
