@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T07:52:23.903800+09:00",
+  "generated": "2026-05-10T07:53:29.374906+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 4,
+        "gcal": 5,
         "CLINICS": 2,
         "クロン": 1
       },
@@ -127,7 +127,15 @@
               "end_time": "19:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "奥山勝美",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -296,7 +304,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T07:51:03.209056+09:00",
+      "last_updated": "2026-05-10T07:53:27.613913+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
