@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T08:24:48.924981+09:00",
+  "generated": "2026-05-10T08:27:12.250828+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -18,8 +18,8 @@
       "dow": "日",
       "open_count": 13,
       "booked_count": 5,
-      "new_count": 2,
-      "revisit_count": 3,
+      "new_count": 1,
+      "revisit_count": 4,
       "first_open": "18:00",
       "last_open": "23:50",
       "first_booked": "18:30",
@@ -162,7 +162,7 @@
             {
               "code": "C",
               "patient_name": "奥山勝美",
-              "visit_type": "初診",
+              "visit_type": "再診",
               "department": "",
               "end_time": "19:00",
               "qualified": true,
@@ -337,7 +337,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T08:24:47.328515+09:00",
+      "last_updated": "2026-05-10T08:27:11.306538+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
