@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T14:35:36.410549+09:00",
+  "generated": "2026-05-09T14:38:00.428398+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
@@ -429,7 +429,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T14:35:34.965818+09:00",
+      "last_updated": "2026-05-09T14:37:59.063936+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -451,7 +451,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 2,
+        "gcal": 3,
         "クロン": 1
       },
       "full_platforms": [
@@ -532,7 +532,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "髙橋 快弥",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -669,7 +677,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T14:26:34.722116+09:00",
+      "last_updated": "2026-05-09T14:36:41.769668+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1064,7 +1072,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T14:27:09.441357+09:00",
+      "last_updated": "2026-05-09T14:37:15.701830+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1221,7 +1229,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T14:27:41.460223+09:00",
+      "last_updated": "2026-05-09T14:37:46.717314+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7805,5 +7813,5 @@
     }
   ],
   "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-09T14:33:37.510995"
+  "sigma_last_run": "2026-05-09T14:38:37.867155"
 }
