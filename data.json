@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-09T16:35:59.592013+09:00",
+  "generated": "2026-05-09T16:38:23.679298+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-09",
@@ -236,7 +236,9 @@
               "patient_name": "野村日向",
               "visit_type": "初診",
               "department": "婦人",
-              "end_time": "19:50"
+              "end_time": "19:50",
+              "qualified": true,
+              "qualified_at": "R08.05.09 16:30:48"
             }
           ],
           "sokuyaku_truth": []
@@ -307,14 +309,18 @@
               "patient_name": "渡邉 綱紀",
               "visit_type": "再診",
               "department": "整形",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.05.09 16:31:11"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "渡邉 綱紀",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.09 16:31:11"
             }
           ]
         },
@@ -401,7 +407,9 @@
               "patient_name": "清水 優志",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:40"
+              "end_time": "23:40",
+              "qualified": true,
+              "qualified_at": "R08.05.09 16:32:12"
             }
           ],
           "sokuyaku_truth": []
@@ -429,7 +437,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T16:35:58.268543+09:00",
+      "last_updated": "2026-05-09T16:38:22.467391+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -677,7 +685,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-09T16:28:11.070904+09:00",
+      "last_updated": "2026-05-09T16:38:17.843776+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7812,6 +7820,6 @@
       "ts": "2026-05-09T13:47:14+09:00"
     }
   ],
-  "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-09T16:33:51.868032"
+  "sigma_qualified_count": 125,
+  "sigma_last_run": "2026-05-09T16:38:24.801651"
 }
