@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T17:17:20.654138+09:00",
+  "generated": "2026-05-10T17:19:46.302663+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -9,7 +9,9 @@
     "patient_name": "秋本 翔生",
     "visit_type": "再診",
     "department": "不眠",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.10 17:15:45"
   },
   "days": [
     {
@@ -90,14 +92,18 @@
               "patient_name": "秋本 翔生",
               "visit_type": "再診",
               "department": "不眠",
-              "end_time": "18:10"
+              "end_time": "18:10",
+              "qualified": true,
+              "qualified_at": "R08.05.10 17:15:45"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "秋本 翔生",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.10 17:15:45"
             }
           ]
         },
@@ -376,7 +382,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T17:17:19.245166+09:00",
+      "last_updated": "2026-05-10T17:19:44.864129+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7702,6 +7708,6 @@
       "ts": "2026-05-10T14:32:24+09:00"
     }
   ],
-  "sigma_qualified_count": 115,
-  "sigma_last_run": "2026-05-10T17:13:57.076779"
+  "sigma_qualified_count": 116,
+  "sigma_last_run": "2026-05-10T17:18:54.101918"
 }
