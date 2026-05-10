@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T17:29:32.899438+09:00",
+  "generated": "2026-05-10T17:31:58.404513+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -20,8 +20,8 @@
       "dow": "日",
       "open_count": 9,
       "booked_count": 9,
-      "new_count": 2,
-      "revisit_count": 7,
+      "new_count": 3,
+      "revisit_count": 6,
       "first_open": "18:15",
       "last_open": "23:50",
       "first_booked": "18:00",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 4,
         "GMO": 2,
         "クロン": 1
@@ -242,7 +242,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "三戸豪士",
+              "visit_type": "初診",
+              "department": "花粉",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -386,7 +394,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T17:29:31.134720+09:00",
+      "last_updated": "2026-05-10T17:31:56.776023+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2018,7 +2026,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T16:15:17.694982+09:00",
+      "last_updated": "2026-05-10T17:30:41.054771+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2462,7 +2470,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T16:15:49.563605+09:00",
+      "last_updated": "2026-05-10T17:31:13.602278+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2621,7 +2629,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T16:16:19.990182+09:00",
+      "last_updated": "2026-05-10T17:31:44.178671+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
