@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T00:10:44.961643+09:00",
+  "generated": "2026-05-11T00:13:12.838375+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 9,
+        "gcal": 10,
         "CLINICS": 5,
         "GMO": 2
       },
@@ -339,7 +339,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "安藤 リリアン",
+              "visit_type": "再診",
+              "department": "眼",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "安藤 リリアン",
@@ -414,7 +422,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T00:10:43.716408+09:00",
+      "last_updated": "2026-05-11T00:13:11.938412+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
