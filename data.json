@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T23:34:23.862869+09:00",
+  "generated": "2026-05-10T23:36:47.935103+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -385,14 +385,14 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T23:34:22.547994+09:00",
+      "last_updated": "2026-05-10T23:36:46.588677+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-11",
       "short": "5/11(月)",
       "dow": "月",
-      "open_count": 13,
+      "open_count": 11,
       "booked_count": 10,
       "new_count": 2,
       "revisit_count": 8,
@@ -402,8 +402,8 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 7,
-        "SOKUYAKU": 3,
-        "クロン": 3
+        "クロン": 3,
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
@@ -423,7 +423,7 @@
           "12:50"
         ],
         [
-          "19:00",
+          "19:20",
           "20:00"
         ],
         [
@@ -431,7 +431,7 @@
           "23:40"
         ]
       ],
-      "range_text": "11:30〜12:50, 19:00〜20:00, 22:00〜23:40",
+      "range_text": "11:30〜12:50, 19:20〜20:00, 22:00〜23:40",
       "slots": [
         {
           "time": "11:30",
@@ -574,28 +574,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "19:00",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "19:15"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:15",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "19:30"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "19:20",
           "platforms": {
             "CLINICS": {
@@ -713,13 +691,7 @@
               "end_time": "22:40"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "𠮷田 理恵",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "22:45",
@@ -796,7 +768,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T23:25:58.051922+09:00",
+      "last_updated": "2026-05-10T23:35:26.189929+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -953,7 +925,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T23:26:21.331534+09:00",
+      "last_updated": "2026-05-10T23:35:50.522934+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1136,7 +1108,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T23:26:45.774993+09:00",
+      "last_updated": "2026-05-10T23:36:14.362941+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1418,7 +1390,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T23:27:09.929623+09:00",
+      "last_updated": "2026-05-10T23:36:38.153532+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
