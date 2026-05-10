@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T23:22:11.863429+09:00",
+  "generated": "2026-05-10T23:24:36.489988+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -272,15 +272,7 @@
               "qualified_at": "R08.05.10 17:16:48"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "藤井 操",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.05.10 17:16:48"
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "22:45",
@@ -403,7 +395,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T23:22:10.563761+09:00",
+      "last_updated": "2026-05-10T23:24:34.745489+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7758,5 +7750,5 @@
     }
   ],
   "sigma_qualified_count": 122,
-  "sigma_last_run": "2026-05-10T23:18:57.069459"
+  "sigma_last_run": "2026-05-10T23:24:08.322319"
 }
