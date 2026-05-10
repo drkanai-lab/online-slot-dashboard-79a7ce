@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T22:33:25.409673+09:00",
+  "generated": "2026-05-10T22:35:51.045630+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -405,7 +405,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T22:33:24.174813+09:00",
+      "last_updated": "2026-05-10T22:35:49.727996+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2712,7 +2712,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T21:18:38.649495+09:00",
+      "last_updated": "2026-05-10T22:33:55.177638+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2735,7 +2735,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 3,
+        "gcal": 4,
         "SOKUYAKU": 1,
         "GMO": 1
       },
@@ -2849,6 +2849,13 @@
             }
           },
           "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "総診",
+              "end_time": "12:40"
+            },
             {
               "code": "G",
               "patient_name": "高松　義規",
@@ -3014,7 +3021,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T21:19:09.803266+09:00",
+      "last_updated": "2026-05-10T22:34:26.831130+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3182,7 +3189,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T21:19:39.622126+09:00",
+      "last_updated": "2026-05-10T22:34:57.388563+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3589,7 +3596,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T21:20:11.528356+09:00",
+      "last_updated": "2026-05-10T22:35:30.412826+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
