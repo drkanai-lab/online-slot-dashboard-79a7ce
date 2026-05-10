@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T22:31:00.587977+09:00",
+  "generated": "2026-05-10T22:33:25.409673+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -9,7 +9,9 @@
     "patient_name": "菊地 美森",
     "visit_type": "初診",
     "department": "皮膚",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.10 22:28:43"
   },
   "days": [
     {
@@ -296,14 +298,18 @@
               "patient_name": "菊地 美森",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.05.10 22:28:43"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "菊地 美森",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.10 22:28:43"
             }
           ]
         },
@@ -399,7 +405,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T22:30:59.230285+09:00",
+      "last_updated": "2026-05-10T22:33:24.174813+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2059,7 +2065,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T21:17:04.402171+09:00",
+      "last_updated": "2026-05-10T22:32:23.997266+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2503,7 +2509,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T21:17:37.284263+09:00",
+      "last_updated": "2026-05-10T22:32:55.598622+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2662,7 +2668,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T21:18:08.032182+09:00",
+      "last_updated": "2026-05-10T22:33:25.385176+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7753,6 +7759,6 @@
       "ts": "2026-05-10T18:03:06+09:00"
     }
   ],
-  "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-10T22:28:58.813385"
+  "sigma_qualified_count": 122,
+  "sigma_last_run": "2026-05-10T22:33:56.407498"
 }
