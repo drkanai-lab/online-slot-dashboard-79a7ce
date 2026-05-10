@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T00:18:05.869982+09:00",
+  "generated": "2026-05-11T00:20:43.037562+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -312,7 +312,9 @@
               "patient_name": "造田知余",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.11 00:15:28"
             }
           ],
           "sokuyaku_truth": []
@@ -430,7 +432,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T00:18:04.925355+09:00",
+      "last_updated": "2026-05-11T00:20:42.077644+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7380,6 +7382,6 @@
       "ts": "2026-05-10T18:03:06+09:00"
     }
   ],
-  "sigma_qualified_count": 103,
-  "sigma_last_run": "2026-05-11T00:03:56.458310"
+  "sigma_qualified_count": 104,
+  "sigma_last_run": "2026-05-11T00:18:49.670908"
 }
