@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T01:29:12.368541+09:00",
+  "generated": "2026-05-11T01:31:39.455929+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -432,29 +432,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T01:29:11.392291+09:00",
+      "last_updated": "2026-05-11T01:31:38.505244+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-12",
       "short": "5/12(火)",
       "dow": "火",
-      "open_count": 9,
-      "booked_count": 1,
-      "new_count": 0,
+      "open_count": 8,
+      "booked_count": 2,
+      "new_count": 1,
       "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "23:30",
-      "first_booked": "23:00",
+      "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 5,
+        "CLINICS": 4,
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "GMO": 1,
-        "gcal": 1
+        "CLINICS": 1,
+        "gcal": 2,
+        "GMO": 1
       },
       "full_platforms": [
         {
@@ -485,11 +486,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "谷野銀次郎",
+              "visit_type": "初診",
+              "department": "アレ",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -589,7 +598,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T01:20:19.060523+09:00",
+      "last_updated": "2026-05-11T01:29:52.744206+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -772,7 +781,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T01:20:43.401661+09:00",
+      "last_updated": "2026-05-11T01:30:17.228903+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -781,8 +790,8 @@
       "dow": "木",
       "open_count": 17,
       "booked_count": 3,
-      "new_count": 0,
-      "revisit_count": 3,
+      "new_count": 1,
+      "revisit_count": 2,
       "first_open": "11:45",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -794,7 +803,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
-        "gcal": 2,
+        "gcal": 3,
         "GMO": 2
       },
       "full_platforms": [
@@ -1021,7 +1030,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "石井 芽",
+              "visit_type": "初診",
+              "department": "心療",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1058,7 +1075,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T01:21:07.856365+09:00",
+      "last_updated": "2026-05-11T01:30:41.211088+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1252,7 +1269,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T01:21:33.908556+09:00",
+      "last_updated": "2026-05-11T01:31:05.646721+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1556,7 +1573,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T01:21:57.734548+09:00",
+      "last_updated": "2026-05-11T01:31:29.344501+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
