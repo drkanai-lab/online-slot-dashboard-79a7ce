@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T21:00:43.811627+09:00",
+  "generated": "2026-05-10T21:03:10.172205+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -20,8 +20,8 @@
       "dow": "日",
       "open_count": 8,
       "booked_count": 10,
-      "new_count": 3,
-      "revisit_count": 7,
+      "new_count": 4,
+      "revisit_count": 6,
       "first_open": "18:15",
       "last_open": "23:50",
       "first_booked": "18:00",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 9,
+        "gcal": 10,
         "CLINICS": 4,
         "GMO": 2,
         "クロン": 1
@@ -303,7 +303,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "菊地 美森",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "菊地 美森",
@@ -404,7 +412,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T21:00:42.234878+09:00",
+      "last_updated": "2026-05-10T21:03:08.734535+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -815,7 +823,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T20:53:16.170797+09:00",
+      "last_updated": "2026-05-10T21:02:52.707833+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
