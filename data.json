@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T10:06:14.383439+09:00",
+  "generated": "2026-05-10T10:08:41.762254+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -111,7 +111,9 @@
               "patient_name": "奥村遥",
               "visit_type": "初診",
               "department": "眼",
-              "end_time": "18:30"
+              "end_time": "18:30",
+              "qualified": true,
+              "qualified_at": "R08.05.10 10:05:29"
             }
           ],
           "sokuyaku_truth": []
@@ -345,7 +347,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T10:06:13.265904+09:00",
+      "last_updated": "2026-05-10T10:08:40.797107+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6110,7 +6112,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T08:51:07.241686+09:00",
+      "last_updated": "2026-05-10T10:06:37.621368+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6400,7 +6402,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T08:51:47.533580+09:00",
+      "last_updated": "2026-05-10T10:07:17.219196+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6444,7 +6446,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T08:52:26.061700+09:00",
+      "last_updated": "2026-05-10T10:08:03.408928+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6840,7 +6842,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T08:53:02.947986+09:00",
+      "last_updated": "2026-05-10T10:08:41.694874+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7636,6 +7638,6 @@
       "ts": "2026-05-10T08:20:42+09:00"
     }
   ],
-  "sigma_qualified_count": 114,
-  "sigma_last_run": "2026-05-10T10:03:50.071074"
+  "sigma_qualified_count": 115,
+  "sigma_last_run": "2026-05-10T10:08:51.133655"
 }
