@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T08:01:37.268305+09:00",
+  "generated": "2026-05-11T08:04:03.914294+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 12,
+        "gcal": 13,
         "CLINICS": 7,
         "GMO": 2
       },
@@ -169,6 +169,15 @@
             }
           },
           "gcals": [
+            {
+              "code": "G",
+              "patient_name": "松井　伸雄",
+              "visit_type": "再診",
+              "department": "消内",
+              "end_time": "12:40",
+              "qualified": true,
+              "qualified_at": "R08.05.03 00:00:28"
+            },
             {
               "code": "G",
               "patient_name": "松井　伸雄",
@@ -442,7 +451,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T08:01:35.909336+09:00",
+      "last_updated": "2026-05-11T08:04:02.243901+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -608,7 +617,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T07:53:11.726956+09:00",
+      "last_updated": "2026-05-11T08:02:40.679963+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -791,7 +800,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T07:53:36.095884+09:00",
+      "last_updated": "2026-05-11T08:03:04.182392+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1073,7 +1082,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T07:54:00.312257+09:00",
+      "last_updated": "2026-05-11T08:03:28.335375+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1267,7 +1276,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T07:54:24.657213+09:00",
+      "last_updated": "2026-05-11T08:03:53.514996+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7673,5 +7682,5 @@
     }
   ],
   "sigma_qualified_count": 105,
-  "sigma_last_run": "2026-05-11T07:48:50.465859"
+  "sigma_last_run": "2026-05-11T08:03:50.755263"
 }
