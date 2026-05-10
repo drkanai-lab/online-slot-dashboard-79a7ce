@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T17:22:12.837601+09:00",
+  "generated": "2026-05-10T17:24:37.839412+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -270,14 +270,18 @@
               "patient_name": "藤井 操",
               "visit_type": "再診",
               "department": "耳鼻",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.05.10 17:16:48"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "藤井 操",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.10 17:16:48"
             }
           ]
         },
@@ -382,7 +386,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T17:22:11.479726+09:00",
+      "last_updated": "2026-05-10T17:24:36.563158+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -779,7 +783,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T17:12:59.319405+09:00",
+      "last_updated": "2026-05-10T17:22:48.513612+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -936,7 +940,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T17:13:23.201292+09:00",
+      "last_updated": "2026-05-10T17:23:12.576353+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1119,7 +1123,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T17:13:55.805340+09:00",
+      "last_updated": "2026-05-10T17:23:36.729189+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1401,7 +1405,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T17:14:19.447872+09:00",
+      "last_updated": "2026-05-10T17:24:01.440094+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1595,7 +1599,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T17:14:44.622923+09:00",
+      "last_updated": "2026-05-10T17:24:26.505819+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7708,6 +7712,6 @@
       "ts": "2026-05-10T14:32:24+09:00"
     }
   ],
-  "sigma_qualified_count": 116,
-  "sigma_last_run": "2026-05-10T17:18:54.101918"
+  "sigma_qualified_count": 117,
+  "sigma_last_run": "2026-05-10T17:23:53.723086"
 }
