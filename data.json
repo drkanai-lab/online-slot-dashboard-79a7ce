@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T08:16:16.478313+09:00",
+  "generated": "2026-05-11T08:18:43.551844+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 12,
+        "gcal": 13,
         "CLINICS": 7,
         "GMO": 2
       },
@@ -351,12 +351,24 @@
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "高橋 和美",
+              "visit_type": "再診",
+              "department": "心療",
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.05.11 08:15:43"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "高橋 和美",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.11 08:15:43"
             }
           ]
         },
@@ -451,7 +463,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T08:16:15.551869+09:00",
+      "last_updated": "2026-05-11T08:18:42.545190+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7681,6 +7693,6 @@
       "ts": "2026-05-11T01:32:01+09:00"
     }
   ],
-  "sigma_qualified_count": 105,
-  "sigma_last_run": "2026-05-11T08:13:50.536379"
+  "sigma_qualified_count": 106,
+  "sigma_last_run": "2026-05-11T08:18:50.977211"
 }
