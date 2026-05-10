@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-10T18:15:45.142405+09:00",
+  "generated": "2026-05-10T18:18:10.050329+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
     "short": "5/10(日)",
-    "time": "18:15",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "18:20",
+    "code": "C",
+    "patient_name": "奥村遥",
+    "visit_type": "初診",
+    "department": "眼",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.10 10:05:29"
   },
   "days": [
     {
@@ -396,7 +398,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T18:15:43.944514+09:00",
+      "last_updated": "2026-05-10T18:18:08.422474+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
