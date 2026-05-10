@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-10T20:55:52.285739+09:00",
+  "generated": "2026-05-10T20:58:17.762703+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-10",
@@ -304,7 +304,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "菊地 美森",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -398,7 +404,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-10T20:55:51.023133+09:00",
+      "last_updated": "2026-05-10T20:58:16.422893+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7753,5 +7759,5 @@
     }
   ],
   "sigma_qualified_count": 121,
-  "sigma_last_run": "2026-05-10T20:53:54.375444"
+  "sigma_last_run": "2026-05-10T20:58:56.378954"
 }
