@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T00:15:39.571150+09:00",
+  "generated": "2026-05-11T00:18:05.869982+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 10,
+        "gcal": 11,
         "CLINICS": 6,
         "GMO": 2
       },
@@ -306,7 +306,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "造田知余",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -422,7 +430,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T00:15:38.349170+09:00",
+      "last_updated": "2026-05-11T00:18:04.925355+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
