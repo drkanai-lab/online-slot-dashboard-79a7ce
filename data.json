@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T00:17:10.254464+09:00",
+  "generated": "2026-05-12T00:20:27.506196+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-12",
@@ -18,8 +18,8 @@
       "dow": "火",
       "open_count": 5,
       "booked_count": 5,
-      "new_count": 0,
-      "revisit_count": 5,
+      "new_count": 1,
+      "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:30",
       "first_booked": "22:10",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 4,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -71,7 +71,17 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "谷野銀次郎",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:25",
+              "qualified": true,
+              "qualified_at": "R08.05.11 06:00:29"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -219,7 +229,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T00:17:08.909947+09:00",
+      "last_updated": "2026-05-12T00:20:26.580369+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7421,5 +7431,5 @@
     }
   ],
   "sigma_qualified_count": 100,
-  "sigma_last_run": "2026-05-12T00:04:04.785626"
+  "sigma_last_run": "2026-05-12T00:19:00.594485"
 }
