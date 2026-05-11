@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-11T21:59:04.537444+09:00",
+  "generated": "2026-05-11T22:01:32.031399+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
     "short": "5/11(月)",
-    "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "造田知余",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.11 00:15:28"
   },
   "days": [
     {
@@ -483,7 +485,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:59:03.312977+09:00",
+      "last_updated": "2026-05-11T22:01:30.747248+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
