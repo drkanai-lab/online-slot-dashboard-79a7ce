@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T12:02:35.523074+09:00",
+  "generated": "2026-05-11T12:05:06.034702+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -474,7 +474,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T12:02:34.579922+09:00",
+      "last_updated": "2026-05-11T12:05:05.069899+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -655,7 +655,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T11:53:59.178156+09:00",
+      "last_updated": "2026-05-11T12:03:38.588989+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -838,7 +838,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T11:54:26.615322+09:00",
+      "last_updated": "2026-05-11T12:04:03.321224+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -861,7 +861,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
-        "gcal": 2,
+        "gcal": 3,
         "GMO": 1,
         "CLINICS": 1
       },
@@ -996,7 +996,15 @@
               "end_time": "13:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "佐々木恵",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "13:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1121,7 +1129,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T11:54:51.737509+09:00",
+      "last_updated": "2026-05-11T12:04:29.454783+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1328,7 +1336,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T11:55:17.358331+09:00",
+      "last_updated": "2026-05-11T12:04:54.973916+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7741,5 +7749,5 @@
     }
   ],
   "sigma_qualified_count": 108,
-  "sigma_last_run": "2026-05-11T11:58:53.337024"
+  "sigma_last_run": "2026-05-11T12:04:07.890755"
 }
