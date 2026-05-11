@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T13:10:12.272676+09:00",
+  "generated": "2026-05-11T13:12:39.216426+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -18,10 +18,10 @@
       "date": "2026-05-11",
       "short": "5/11(月)",
       "dow": "月",
-      "open_count": 8,
-      "booked_count": 14,
+      "open_count": 7,
+      "booked_count": 15,
       "new_count": 2,
-      "revisit_count": 12,
+      "revisit_count": 13,
       "first_open": "12:00",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -29,13 +29,14 @@
       "per_platform_open": {
         "SOKUYAKU": 2,
         "CLINICS": 3,
-        "クロン": 3
+        "クロン": 2
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 14,
+        "gcal": 15,
         "CLINICS": 8,
-        "GMO": 2
+        "GMO": 2,
+        "クロン": 1
       },
       "full_platforms": [
         {
@@ -263,11 +264,19 @@
           "time": "19:30",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "吉村 菜緒",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -474,7 +483,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T13:10:10.501302+09:00",
+      "last_updated": "2026-05-11T13:12:37.562653+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -655,7 +664,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T13:01:47.164334+09:00",
+      "last_updated": "2026-05-11T13:11:25.423552+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -838,7 +847,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T13:02:11.528904+09:00",
+      "last_updated": "2026-05-11T13:11:52.901433+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1129,7 +1138,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T13:02:36.659914+09:00",
+      "last_updated": "2026-05-11T13:12:18.565048+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7746,6 +7755,13 @@
       "date": "2026-05-12",
       "time": "22:30",
       "ts": "2026-05-11T09:30:58+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "吉村 菜緒",
+      "date": "2026-05-11",
+      "time": "19:30",
+      "ts": "2026-05-11T13:12:38+09:00"
     }
   ],
   "sigma_qualified_count": 109,
