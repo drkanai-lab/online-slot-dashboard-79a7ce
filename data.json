@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T19:26:08.138551+09:00",
+  "generated": "2026-05-11T19:28:55.197208+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 14,
+        "gcal": 15,
         "CLINICS": 8,
         "GMO": 2,
         "クロン": 1
@@ -310,7 +310,15 @@
               "end_time": "20:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "金谷紗羽",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "20:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -475,7 +483,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T19:26:06.584038+09:00",
+      "last_updated": "2026-05-11T19:28:53.837507+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
