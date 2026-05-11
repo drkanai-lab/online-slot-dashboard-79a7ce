@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T21:46:38.068804+09:00",
+  "generated": "2026-05-11T21:48:48.873570+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -681,7 +681,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:36:55.894513+09:00",
+      "last_updated": "2026-05-11T21:46:39.392655+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -864,7 +864,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:37:19.692546+09:00",
+      "last_updated": "2026-05-11T21:47:03.999484+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -886,7 +886,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
-        "gcal": 3,
+        "gcal": 4,
         "GMO": 2,
         "CLINICS": 1
       },
@@ -1122,7 +1122,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "藤田 梨乃",
+              "visit_type": "再診",
+              "department": "不眠",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1159,7 +1167,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:37:45.086451+09:00",
+      "last_updated": "2026-05-11T21:47:28.851948+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1374,7 +1382,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:38:09.709099+09:00",
+      "last_updated": "2026-05-11T21:47:53.518995+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1678,7 +1686,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:38:33.821670+09:00",
+      "last_updated": "2026-05-11T21:48:17.407510+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1807,7 +1815,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:39:13.038415+09:00",
+      "last_updated": "2026-05-11T21:48:47.479196+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
