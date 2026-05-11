@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-11T12:20:03.003759+09:00",
+  "generated": "2026-05-11T12:22:32.608367+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
     "short": "5/11(月)",
-    "time": "12:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "12:30",
+    "code": "G",
+    "patient_name": "松井　伸雄",
+    "visit_type": "再診",
+    "department": "消内",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.03 00:00:28"
   },
   "days": [
     {
@@ -472,7 +474,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T12:20:02.081103+09:00",
+      "last_updated": "2026-05-11T12:22:31.694213+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
