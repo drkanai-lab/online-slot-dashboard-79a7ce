@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T15:10:30.671021+09:00",
+  "generated": "2026-05-11T15:11:55.058579+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -18,7 +18,7 @@
       "date": "2026-05-11",
       "short": "5/11(月)",
       "dow": "月",
-      "open_count": 6,
+      "open_count": 7,
       "booked_count": 16,
       "new_count": 2,
       "revisit_count": 14,
@@ -28,13 +28,13 @@
       "last_booked": "23:10",
       "per_platform_open": {
         "SOKUYAKU": 2,
-        "CLINICS": 2,
+        "CLINICS": 3,
         "クロン": 2
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 15,
-        "CLINICS": 9,
+        "gcal": 16,
+        "CLINICS": 8,
         "GMO": 2,
         "クロン": 1
       },
@@ -453,11 +453,19 @@
           "time": "23:10",
           "platforms": {
             "CLINICS": {
-              "status": "booked",
-              "end_time": "23:20"
+              "status": "open",
+              "end_time": ""
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "一柳明日香",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -483,7 +491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T15:09:24.428956+09:00",
+      "last_updated": "2026-05-11T15:11:53.003359+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
