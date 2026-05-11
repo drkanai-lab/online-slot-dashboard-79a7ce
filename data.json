@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-11T22:28:38.821035+09:00",
+  "generated": "2026-05-11T22:31:09.036626+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
     "short": "5/11(月)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "高橋 和美",
+    "patient_name": "安藤 リリアン",
     "visit_type": "再診",
-    "department": "心療",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.11 08:15:43"
+    "department": "眼",
+    "status": "booked"
   },
   "days": [
     {
@@ -485,7 +483,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T22:28:37.543102+09:00",
+      "last_updated": "2026-05-11T22:31:06.362099+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2428,7 +2426,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:13:00.729283+09:00",
+      "last_updated": "2026-05-11T22:28:48.292426+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2472,7 +2470,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:13:31.543529+09:00",
+      "last_updated": "2026-05-11T22:29:18.880157+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2796,7 +2794,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:14:03.312450+09:00",
+      "last_updated": "2026-05-11T22:29:51.193019+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2964,7 +2962,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:14:34.275528+09:00",
+      "last_updated": "2026-05-11T22:30:21.611479+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3386,7 +3384,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T21:15:05.918619+09:00",
+      "last_updated": "2026-05-11T22:30:53.335656+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7871,5 +7869,5 @@
     }
   ],
   "sigma_qualified_count": 111,
-  "sigma_last_run": "2026-05-11T22:24:02.501046"
+  "sigma_last_run": "2026-05-11T22:29:25.966252"
 }
