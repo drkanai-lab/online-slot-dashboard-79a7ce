@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T11:47:33.656883+09:00",
+  "generated": "2026-05-11T11:50:04.774085+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -156,7 +156,9 @@
               "patient_name": "喜納彬光",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "12:20"
+              "end_time": "12:20",
+              "qualified": true,
+              "qualified_at": "R08.05.11 11:46:21"
             }
           ],
           "sokuyaku_truth": []
@@ -472,7 +474,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T11:47:32.746129+09:00",
+      "last_updated": "2026-05-11T11:50:03.166981+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7737,6 +7739,6 @@
       "ts": "2026-05-11T09:30:58+09:00"
     }
   ],
-  "sigma_qualified_count": 107,
-  "sigma_last_run": "2026-05-11T11:44:14.707199"
+  "sigma_qualified_count": 108,
+  "sigma_last_run": "2026-05-11T11:49:14.900100"
 }
