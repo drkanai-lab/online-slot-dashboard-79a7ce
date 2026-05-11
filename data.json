@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-11T22:45:59.991390+09:00",
+  "generated": "2026-05-11T22:46:42.452472+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
     "short": "5/11(月)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "安藤 リリアン",
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "中川　安沙美",
     "visit_type": "再診",
-    "department": "眼",
-    "status": "booked"
+    "department": "整形",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.10 23:43:30"
   },
   "days": [
     {
@@ -1686,7 +1688,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T22:36:33.688220+09:00",
+      "last_updated": "2026-05-11T22:46:10.367103+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1815,7 +1817,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T22:37:03.493743+09:00",
+      "last_updated": "2026-05-11T22:46:41.168335+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
