@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T18:02:42.850634+09:00",
+  "generated": "2026-05-11T18:04:58.622262+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -492,26 +492,29 @@
       "date": "2026-05-12",
       "short": "5/12(火)",
       "dow": "火",
-      "open_count": 6,
-      "booked_count": 4,
+      "open_count": 5,
+      "booked_count": 5,
       "new_count": 0,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "22:00",
       "last_open": "23:30",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
-        "SOKUYAKU": 1,
         "CLINICS": 3
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 3,
-        "SOKUYAKU": 1,
+        "gcal": 4,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -595,11 +598,19 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "石川 葉月",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "石川 葉月",
@@ -672,7 +683,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T17:53:03.441604+09:00",
+      "last_updated": "2026-05-11T18:02:48.926729+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -820,13 +831,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [],
@@ -855,7 +866,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T17:53:32.066987+09:00",
+      "last_updated": "2026-05-11T18:03:12.648987+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1146,7 +1157,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T17:53:58.272059+09:00",
+      "last_updated": "2026-05-11T18:03:37.708873+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1353,7 +1364,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T17:54:26.314350+09:00",
+      "last_updated": "2026-05-11T18:04:02.291820+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1657,7 +1668,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T17:54:50.715083+09:00",
+      "last_updated": "2026-05-11T18:04:26.415092+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1786,7 +1797,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T17:55:20.979457+09:00",
+      "last_updated": "2026-05-11T18:04:56.976784+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7811,13 +7822,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "藤井 操",
-      "date": "2026-05-12",
-      "time": "22:30",
-      "ts": "2026-05-11T09:30:58+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "吉村 菜緒",
       "date": "2026-05-11",
       "time": "19:30",
@@ -7829,8 +7833,15 @@
       "date": "2026-05-12",
       "time": "22:20",
       "ts": "2026-05-11T16:56:55+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "石川 葉月",
+      "date": "2026-05-12",
+      "time": "22:45",
+      "ts": "2026-05-11T18:04:58+09:00"
     }
   ],
   "sigma_qualified_count": 110,
-  "sigma_last_run": "2026-05-11T17:59:10.415489"
+  "sigma_last_run": "2026-05-11T18:03:58.016424"
 }
