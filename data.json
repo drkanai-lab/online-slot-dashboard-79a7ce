@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-11T11:46:18.688051+09:00",
+  "generated": "2026-05-11T11:47:33.656883+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
@@ -20,8 +20,8 @@
       "dow": "月",
       "open_count": 8,
       "booked_count": 14,
-      "new_count": 1,
-      "revisit_count": 13,
+      "new_count": 2,
+      "revisit_count": 12,
       "first_open": "12:00",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 13,
+        "gcal": 14,
         "CLINICS": 8,
         "GMO": 2
       },
@@ -150,7 +150,15 @@
               "end_time": "12:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "喜納彬光",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "12:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -464,7 +472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T11:45:02.826871+09:00",
+      "last_updated": "2026-05-11T11:47:32.746129+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
