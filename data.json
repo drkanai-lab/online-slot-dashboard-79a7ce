@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-11T22:18:47.028726+09:00",
+  "generated": "2026-05-11T22:21:16.503593+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-11",
     "short": "5/11(月)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "脇田航平",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "高橋 和美",
     "visit_type": "再診",
-    "department": "",
+    "department": "心療",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.06 19:51:43"
+    "qualified_at": "R08.05.11 08:15:43"
   },
   "days": [
     {
@@ -485,7 +485,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-11T22:18:45.682561+09:00",
+      "last_updated": "2026-05-11T22:21:15.195961+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7871,5 +7871,5 @@
     }
   ],
   "sigma_qualified_count": 111,
-  "sigma_last_run": "2026-05-11T22:14:01.748283"
+  "sigma_last_run": "2026-05-11T22:19:02.411820"
 }
