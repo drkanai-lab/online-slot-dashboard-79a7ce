@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T23:57:20.563368+09:00",
+  "generated": "2026-05-12T23:59:45.700132+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-13",
@@ -188,7 +188,9 @@
               "patient_name": "西本賢翔",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:00"
+              "end_time": "23:00",
+              "qualified": true,
+              "qualified_at": "R08.05.12 23:52:13"
             }
           ],
           "sokuyaku_truth": []
@@ -258,7 +260,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T23:57:19.234735+09:00",
+      "last_updated": "2026-05-12T23:59:44.467990+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -450,7 +452,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T23:48:57.271136+09:00",
+      "last_updated": "2026-05-12T23:58:48.196397+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -775,7 +777,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T23:49:22.865833+09:00",
+      "last_updated": "2026-05-12T23:59:12.957617+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -990,7 +992,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T23:49:48.113947+09:00",
+      "last_updated": "2026-05-12T23:59:38.190065+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7726,6 +7728,6 @@
       "ts": "2026-05-12T22:12:31+09:00"
     }
   ],
-  "sigma_qualified_count": 84,
-  "sigma_last_run": "2026-05-12T23:54:00.344485"
+  "sigma_qualified_count": 87,
+  "sigma_last_run": "2026-05-12T23:58:59.446247"
 }
