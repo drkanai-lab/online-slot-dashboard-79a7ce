@@ -1,13 +1,13 @@
 {
-  "generated": "2026-05-12T20:25:49.857145+09:00",
+  "generated": "2026-05-12T20:27:25.794442+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-12",
     "short": "5/12(火)",
     "time": "22:00",
     "code": "K",
-    "patient_name": "",
-    "visit_type": "",
+    "patient_name": "佐藤 沙弥佳",
+    "visit_type": "初診",
     "department": "",
     "status": "booked"
   },
@@ -18,8 +18,8 @@
       "dow": "火",
       "open_count": 3,
       "booked_count": 7,
-      "new_count": 1,
-      "revisit_count": 6,
+      "new_count": 2,
+      "revisit_count": 5,
       "first_open": "23:10",
       "last_open": "23:30",
       "first_booked": "22:00",
@@ -30,8 +30,8 @@
       },
       "per_platform_booked": {
         "クロン": 1,
+        "gcal": 7,
         "CLINICS": 3,
-        "gcal": 6,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -61,7 +61,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "佐藤 沙弥佳",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -238,7 +246,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T20:24:55.253409+09:00",
+      "last_updated": "2026-05-12T20:27:24.534119+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
