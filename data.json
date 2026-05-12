@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-12T23:11:53.491221+09:00",
+  "generated": "2026-05-12T23:13:37.342648+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-12",
@@ -228,7 +228,9 @@
               "patient_name": "小西紀子",
               "visit_type": "初診",
               "department": "泌尿",
-              "end_time": "23:20"
+              "end_time": "23:20",
+              "qualified": true,
+              "qualified_at": "R08.05.12 23:10:18"
             }
           ],
           "sokuyaku_truth": []
@@ -256,7 +258,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T23:11:04.064945+09:00",
+      "last_updated": "2026-05-12T23:13:36.058361+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7716,6 +7718,6 @@
       "ts": "2026-05-12T22:12:31+09:00"
     }
   ],
-  "sigma_qualified_count": 82,
-  "sigma_last_run": "2026-05-12T23:08:59.033693"
+  "sigma_qualified_count": 83,
+  "sigma_last_run": "2026-05-12T23:14:00.354503"
 }
