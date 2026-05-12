@@ -1,39 +1,39 @@
 {
-  "generated": "2026-05-12T22:09:58.137972+09:00",
+  "generated": "2026-05-12T22:12:31.896265+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-12",
     "short": "5/12(火)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "谷野銀次郎",
-    "visit_type": "初診",
+    "patient_name": "内田康太郎",
+    "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.11 06:00:29"
+    "qualified_at": "R08.05.11 23:30:23"
   },
   "days": [
     {
       "date": "2026-05-12",
       "short": "5/12(火)",
       "dow": "火",
-      "open_count": 3,
-      "booked_count": 7,
-      "new_count": 2,
+      "open_count": 2,
+      "booked_count": 8,
+      "new_count": 3,
       "revisit_count": 5,
-      "first_open": "23:10",
+      "first_open": "23:20",
       "last_open": "23:30",
       "first_booked": "22:00",
-      "last_booked": "23:00",
+      "last_booked": "23:10",
       "per_platform_open": {
-        "CLINICS": 2,
+        "CLINICS": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
-        "CLINICS": 3,
+        "gcal": 8,
+        "CLINICS": 4,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -220,11 +220,19 @@
           "time": "23:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "小西紀子",
+              "visit_type": "初診",
+              "department": "泌尿",
+              "end_time": "23:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -250,7 +258,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T22:09:56.853937+09:00",
+      "last_updated": "2026-05-12T22:12:30.292224+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -442,7 +450,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T22:00:50.231222+09:00",
+      "last_updated": "2026-05-12T22:10:34.109458+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -759,7 +767,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T22:01:14.905940+09:00",
+      "last_updated": "2026-05-12T22:10:58.588810+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -974,7 +982,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T22:01:39.966856+09:00",
+      "last_updated": "2026-05-12T22:11:24.227744+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1278,7 +1286,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T22:02:03.847148+09:00",
+      "last_updated": "2026-05-12T22:11:49.163813+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1407,7 +1415,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-12T22:02:34.861396+09:00",
+      "last_updated": "2026-05-12T22:12:19.488745+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7701,7 +7709,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "小西紀子",
+      "date": "2026-05-12",
+      "time": "23:10",
+      "ts": "2026-05-12T22:12:31+09:00"
+    }
+  ],
   "sigma_qualified_count": 82,
   "sigma_last_run": "2026-05-12T22:09:01.704854"
 }
