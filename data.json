@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T18:51:42.689873+09:00",
+  "generated": "2026-05-13T18:54:06.167547+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-13",
@@ -16,9 +16,9 @@
       "date": "2026-05-13",
       "short": "5/13(水)",
       "dow": "水",
-      "open_count": 9,
-      "booked_count": 3,
-      "new_count": 1,
+      "open_count": 8,
+      "booked_count": 4,
+      "new_count": 2,
       "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:50",
@@ -26,12 +26,13 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 3,
         "CLINICS": 4
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 3,
+        "gcal": 4,
+        "SOKUYAKU": 1,
         "GMO": 1
       },
       "full_platforms": [
@@ -105,11 +106,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "山口 博之",
+              "visit_type": "初診",
+              "department": "頭痛",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "山口 博之",
@@ -221,7 +230,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T18:51:41.748517+09:00",
+      "last_updated": "2026-05-13T18:54:04.826529+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -546,7 +555,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T18:42:48.424949+09:00",
+      "last_updated": "2026-05-13T18:52:36.665040+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -761,7 +770,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T18:43:13.793916+09:00",
+      "last_updated": "2026-05-13T18:53:03.120157+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1065,7 +1074,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T18:43:37.426806+09:00",
+      "last_updated": "2026-05-13T18:53:26.893278+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1181,7 +1190,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T18:44:07.710625+09:00",
+      "last_updated": "2026-05-13T18:53:57.335524+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6529,7 +6538,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T17:36:15.494914+09:00",
+      "last_updated": "2026-05-13T18:52:14.485039+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6899,7 +6908,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T17:36:57.713958+09:00",
+      "last_updated": "2026-05-13T18:52:56.283142+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7041,7 +7050,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T17:37:37.966414+09:00",
+      "last_updated": "2026-05-13T18:53:36.364327+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7637,7 +7646,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "山口 博之",
+      "date": "2026-05-13",
+      "time": "22:30",
+      "ts": "2026-05-13T18:54:05+09:00"
+    }
+  ],
   "sigma_qualified_count": 75,
-  "sigma_last_run": "2026-05-13T18:49:00.355424"
+  "sigma_last_run": "2026-05-13T18:53:58.316613"
 }
