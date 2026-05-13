@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T10:47:59.767027+09:00",
+  "generated": "2026-05-13T10:50:24.629547+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-13",
@@ -18,8 +18,8 @@
       "dow": "水",
       "open_count": 9,
       "booked_count": 3,
-      "new_count": 0,
-      "revisit_count": 3,
+      "new_count": 1,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
@@ -92,7 +92,7 @@
             {
               "code": "C",
               "patient_name": "野村日向",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "婦人",
               "end_time": "22:30",
               "qualified": true,
@@ -215,7 +215,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T10:47:58.331262+09:00",
+      "last_updated": "2026-05-13T10:50:23.910275+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -540,7 +540,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T10:39:31.675885+09:00",
+      "last_updated": "2026-05-13T10:49:20.780191+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -755,7 +755,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T10:39:57.888143+09:00",
+      "last_updated": "2026-05-13T10:49:46.697435+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1059,7 +1059,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T10:40:21.762916+09:00",
+      "last_updated": "2026-05-13T10:50:10.456289+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
