@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T07:20:10.872926+09:00",
+  "generated": "2026-05-14T07:22:34.905679+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
@@ -18,10 +18,10 @@
       "date": "2026-05-14",
       "short": "5/14(木)",
       "dow": "木",
-      "open_count": 12,
-      "booked_count": 6,
+      "open_count": 11,
+      "booked_count": 7,
       "new_count": 0,
-      "revisit_count": 6,
+      "revisit_count": 7,
       "first_open": "12:10",
       "last_open": "23:20",
       "first_booked": "11:30",
@@ -29,11 +29,11 @@
       "per_platform_open": {
         "CLINICS": 8,
         "クロン": 2,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 6,
+        "SOKUYAKU": 3,
+        "gcal": 7,
         "CLINICS": 2,
         "GMO": 2
       },
@@ -268,11 +268,19 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "志波 栄也",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "志波 栄也",
@@ -347,7 +355,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T07:20:09.979683+09:00",
+      "last_updated": "2026-05-14T07:22:33.739157+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1969,7 +1977,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T06:05:42.314324+09:00",
+      "last_updated": "2026-05-14T07:21:38.175155+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2137,7 +2145,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T06:06:13.504055+09:00",
+      "last_updated": "2026-05-14T07:22:17.523354+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7842,7 +7850,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "志波 栄也",
+      "date": "2026-05-14",
+      "time": "22:45",
+      "ts": "2026-05-14T07:22:34+09:00"
+    }
+  ],
   "sigma_qualified_count": 75,
   "sigma_last_run": "2026-05-14T00:48:58.327953"
 }
