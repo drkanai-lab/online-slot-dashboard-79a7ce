@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T21:57:37.158440+09:00",
+  "generated": "2026-05-13T22:00:01.951771+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-13",
@@ -262,14 +262,14 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T21:57:35.827744+09:00",
+      "last_updated": "2026-05-13T22:00:00.976336+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-14",
       "short": "5/14(木)",
       "dow": "木",
-      "open_count": 13,
+      "open_count": 12,
       "booked_count": 6,
       "new_count": 0,
       "revisit_count": 6,
@@ -278,7 +278,7 @@
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 9,
+        "CLINICS": 8,
         "クロン": 2,
         "SOKUYAKU": 2
       },
@@ -297,14 +297,14 @@
       "ranges": [
         [
           "11:30",
-          "13:30"
+          "13:20"
         ],
         [
           "22:00",
           "23:30"
         ]
       ],
-      "range_text": "11:30〜13:30, 22:00〜23:30",
+      "range_text": "11:30〜13:20, 22:00〜23:30",
       "slots": [
         {
           "time": "11:30",
@@ -458,17 +458,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "13:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "22:00",
           "platforms": {
             "クロン": {
@@ -587,7 +576,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T21:49:57.041317+09:00",
+      "last_updated": "2026-05-13T21:59:39.199801+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7695,6 +7684,6 @@
       "ts": "2026-05-13T18:54:05+09:00"
     }
   ],
-  "sigma_qualified_count": 78,
-  "sigma_last_run": "2026-05-13T21:54:00.872967"
+  "sigma_qualified_count": 81,
+  "sigma_last_run": "2026-05-13T21:58:58.825212"
 }
