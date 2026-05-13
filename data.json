@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T19:25:24.379591+09:00",
+  "generated": "2026-05-13T19:27:47.817904+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-13",
@@ -18,8 +18,8 @@
       "dow": "水",
       "open_count": 7,
       "booked_count": 5,
-      "new_count": 2,
-      "revisit_count": 3,
+      "new_count": 3,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 4,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -135,7 +135,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "望月 つかさ",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "望月 つかさ",
@@ -236,7 +244,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T19:25:23.093640+09:00",
+      "last_updated": "2026-05-13T19:27:46.733430+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
