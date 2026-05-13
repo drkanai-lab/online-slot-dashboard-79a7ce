@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T18:46:56.920489+09:00",
+  "generated": "2026-05-13T18:49:20.094044+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-13",
@@ -110,7 +110,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "山口 博之",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -215,7 +221,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T18:46:56.283520+09:00",
+      "last_updated": "2026-05-13T18:49:19.127587+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4553,7 +4559,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T17:30:55.632521+09:00",
+      "last_updated": "2026-05-13T18:47:05.788466+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4842,7 +4848,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T17:31:33.537563+09:00",
+      "last_updated": "2026-05-13T18:47:44.118522+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5212,7 +5218,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T17:32:10.675675+09:00",
+      "last_updated": "2026-05-13T18:48:25.522763+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5354,7 +5360,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T17:32:47.722677+09:00",
+      "last_updated": "2026-05-13T18:49:02.416215+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7633,5 +7639,5 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 75,
-  "sigma_last_run": "2026-05-13T18:34:01.621528"
+  "sigma_last_run": "2026-05-13T18:49:00.355424"
 }
