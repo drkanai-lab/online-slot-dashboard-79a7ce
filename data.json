@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T08:57:50.161410+09:00",
+  "generated": "2026-05-14T08:59:01.853133+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 2,
         "GMO": 2
       },
@@ -264,7 +264,15 @@
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "臼井 あゆみ",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "臼井 あゆみ",
@@ -364,7 +372,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T08:56:37.071416+09:00",
+      "last_updated": "2026-05-14T08:59:00.813367+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7869,5 +7877,5 @@
     }
   ],
   "sigma_qualified_count": 75,
-  "sigma_last_run": "2026-05-14T08:53:56.279447"
+  "sigma_last_run": "2026-05-14T08:58:54.617392"
 }
