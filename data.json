@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-13T11:29:57.935406+09:00",
+  "generated": "2026-05-13T11:31:17.280508+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-13",
@@ -1067,19 +1067,19 @@
       "short": "5/17(日)",
       "dow": "日",
       "open_count": 3,
-      "booked_count": 2,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "23:30",
       "first_booked": "08:00",
-      "last_booked": "23:00",
+      "last_booked": "08:00",
       "per_platform_open": {
         "クロン": 2,
         "GMO": 1
       },
       "per_platform_booked": {
-        "gcal": 2
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -1160,15 +1160,7 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "佐藤 鈴佳",
-              "visit_type": "再診",
-              "department": "肛門",
-              "end_time": "23:10"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -1183,7 +1175,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T11:20:21.963944+09:00",
+      "last_updated": "2026-05-13T11:30:11.241495+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1643,7 +1635,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T11:20:56.632352+09:00",
+      "last_updated": "2026-05-13T11:30:45.257527+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1802,7 +1794,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-13T11:21:26.889676+09:00",
+      "last_updated": "2026-05-13T11:31:16.200489+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
