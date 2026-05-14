@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T23:40:03.760180+09:00",
+  "generated": "2026-05-14T23:42:33.350414+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-15",
@@ -376,30 +376,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:40:02.506864+09:00",
+      "last_updated": "2026-05-14T23:42:32.084005+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-15",
       "short": "5/15(金)",
       "dow": "金",
-      "open_count": 8,
-      "booked_count": 4,
+      "open_count": 7,
+      "booked_count": 5,
       "new_count": 1,
-      "revisit_count": 3,
+      "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
-        "SOKUYAKU": 3,
-        "CLINICS": 4
+        "CLINICS": 4,
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "CLINICS": 2,
         "gcal": 4,
-        "SOKUYAKU": 1,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "full_platforms": [
@@ -494,12 +494,18 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "城戸 奈緒",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -591,7 +597,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:32:32.569839+09:00",
+      "last_updated": "2026-05-14T23:42:30.460008+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
