@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-14T22:29:48.488564+09:00",
+  "generated": "2026-05-14T22:32:20.557100+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
     "short": "5/14(木)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "臼井 あゆみ",
+    "patient_name": "志波 栄也",
     "visit_type": "再診",
     "department": "耳鼻",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.14 13:05:28"
   },
   "days": [
     {
@@ -390,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T22:29:47.142946+09:00",
+      "last_updated": "2026-05-14T22:32:19.140782+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
