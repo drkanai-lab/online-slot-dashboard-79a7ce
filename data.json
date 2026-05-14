@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-14T11:43:37.126635+09:00",
+  "generated": "2026-05-14T11:46:00.876647+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
     "short": "5/14(木)",
-    "time": "11:45",
-    "code": "S",
-    "patient_name": "廣瀬 峰実",
+    "time": "12:00",
+    "code": "C",
+    "patient_name": "山本いづみ",
     "visit_type": "再診",
-    "department": "心療",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.13 21:55:13"
+    "qualified_at": "R08.05.12 23:21:23"
   },
   "days": [
     {
@@ -372,7 +372,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T11:43:36.168118+09:00",
+      "last_updated": "2026-05-14T11:45:59.915220+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -587,7 +587,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T11:36:08.023601+09:00",
+      "last_updated": "2026-05-14T11:46:00.123668+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7877,5 +7877,5 @@
     }
   ],
   "sigma_qualified_count": 75,
-  "sigma_last_run": "2026-05-14T11:38:58.094883"
+  "sigma_last_run": "2026-05-14T11:44:04.118504"
 }
