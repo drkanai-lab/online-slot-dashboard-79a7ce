@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-14T15:44:24.877572+09:00",
+  "generated": "2026-05-14T15:46:52.587838+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
     "short": "5/14(木)",
     "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "古賀 泰成",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -17,8 +17,8 @@
       "short": "5/14(木)",
       "dow": "木",
       "open_count": 13,
-      "booked_count": 8,
-      "new_count": 0,
+      "booked_count": 9,
+      "new_count": 1,
       "revisit_count": 8,
       "first_open": "12:00",
       "last_open": "23:20",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 2,
         "GMO": 2
       },
@@ -245,7 +245,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "古賀 泰成",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -390,7 +398,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T15:44:23.893584+09:00",
+      "last_updated": "2026-05-14T15:46:50.811875+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -570,13 +578,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [],
@@ -605,7 +613,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T15:34:49.171464+09:00",
+      "last_updated": "2026-05-14T15:44:54.991310+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -909,7 +917,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T15:35:13.718324+09:00",
+      "last_updated": "2026-05-14T15:45:19.220467+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1025,7 +1033,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T15:35:41.775908+09:00",
+      "last_updated": "2026-05-14T15:45:49.196458+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1493,7 +1501,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T15:36:15.584408+09:00",
+      "last_updated": "2026-05-14T15:46:24.025335+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7900,6 +7908,13 @@
       "date": "2026-05-14",
       "time": "22:45",
       "ts": "2026-05-14T07:22:34+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "古賀 泰成",
+      "date": "2026-05-14",
+      "time": "22:00",
+      "ts": "2026-05-14T15:46:51+09:00"
     }
   ],
   "sigma_qualified_count": 77,
