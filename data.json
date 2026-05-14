@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T19:21:04.246100+09:00",
+  "generated": "2026-05-14T19:23:27.725855+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
@@ -392,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T19:21:02.891782+09:00",
+      "last_updated": "2026-05-14T19:23:26.470450+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -400,13 +400,13 @@
       "short": "5/15(金)",
       "dow": "金",
       "open_count": 9,
-      "booked_count": 4,
-      "new_count": 1,
+      "booked_count": 3,
+      "new_count": 0,
       "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
-      "last_booked": "23:00",
+      "last_booked": "22:30",
       "per_platform_open": {
         "クロン": 2,
         "SOKUYAKU": 3,
@@ -415,7 +415,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 4,
+        "gcal": 3,
         "SOKUYAKU": 1
       },
       "full_platforms": [],
@@ -531,15 +531,7 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "王 剣鋒",
-              "visit_type": "初診",
-              "department": "総診",
-              "end_time": "23:10"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -602,7 +594,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T19:12:49.138490+09:00",
+      "last_updated": "2026-05-14T19:22:43.289973+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -906,7 +898,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T19:13:13.404900+09:00",
+      "last_updated": "2026-05-14T19:23:08.619723+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7877,13 +7869,6 @@
     }
   ],
   "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "志波 栄也",
-      "date": "2026-05-14",
-      "time": "22:45",
-      "ts": "2026-05-14T07:22:34+09:00"
-    },
     {
       "type": "new",
       "patient_name": "古賀 泰成",
