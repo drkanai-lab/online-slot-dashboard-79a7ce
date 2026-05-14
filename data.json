@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T16:13:15.057745+09:00",
+  "generated": "2026-05-14T16:15:39.749633+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
@@ -403,7 +403,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T16:13:13.759626+09:00",
+      "last_updated": "2026-05-14T16:15:38.336497+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -618,7 +618,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T16:04:54.639359+09:00",
+      "last_updated": "2026-05-14T16:14:47.319965+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -922,7 +922,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T16:05:19.398005+09:00",
+      "last_updated": "2026-05-14T16:15:11.440101+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1716,24 +1716,24 @@
       "date": "2026-05-21",
       "short": "5/21(木)",
       "dow": "木",
-      "open_count": 16,
-      "booked_count": 5,
+      "open_count": 17,
+      "booked_count": 4,
       "new_count": 0,
-      "revisit_count": 5,
-      "first_open": "12:10",
+      "revisit_count": 4,
+      "first_open": "11:30",
       "last_open": "23:30",
       "first_booked": "11:20",
       "last_booked": "12:30",
       "per_platform_open": {
+        "SOKUYAKU": 3,
         "CLINICS": 10,
         "クロン": 3,
-        "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 5,
-        "SOKUYAKU": 2,
+        "gcal": 4,
+        "SOKUYAKU": 1,
         "GMO": 1
       },
       "full_platforms": [],
@@ -1772,26 +1772,12 @@
           "time": "11:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "11:45"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "根本 珠子",
-              "visit_type": "再診",
-              "department": "婦人",
-              "end_time": "11:40"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "根本 珠子",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "gcals": [],
+          "sokuyaku_truth": []
         },
         {
           "time": "11:45",
@@ -2033,7 +2019,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T14:58:15.732077+09:00",
+      "last_updated": "2026-05-14T16:14:09.026165+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2201,7 +2187,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T14:58:45.827221+09:00",
+      "last_updated": "2026-05-14T16:14:40.590423+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2625,7 +2611,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T14:59:17.434336+09:00",
+      "last_updated": "2026-05-14T16:15:12.232844+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7923,5 +7909,5 @@
     }
   ],
   "sigma_qualified_count": 78,
-  "sigma_last_run": "2026-05-14T16:08:45.525834"
+  "sigma_last_run": "2026-05-14T16:14:17.356218"
 }
