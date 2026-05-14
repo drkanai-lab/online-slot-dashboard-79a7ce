@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-14T13:08:46.445696+09:00",
+  "generated": "2026-05-14T13:11:10.087287+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
     "short": "5/14(木)",
-    "time": "13:10",
-    "code": "C",
-    "patient_name": "佐々木恵",
-    "visit_type": "再診",
+    "time": "22:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.11 12:50:36"
+    "status": "open"
   },
   "days": [
     {
@@ -311,14 +309,18 @@
               "patient_name": "志波 栄也",
               "visit_type": "再診",
               "department": "耳鼻",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.05.14 13:05:28"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "志波 栄也",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.14 13:05:28"
             }
           ]
         },
@@ -388,7 +390,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T13:08:45.486041+09:00",
+      "last_updated": "2026-05-14T13:11:09.111196+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7900,6 +7902,6 @@
       "ts": "2026-05-14T07:22:34+09:00"
     }
   ],
-  "sigma_qualified_count": 76,
-  "sigma_last_run": "2026-05-14T13:04:07.757256"
+  "sigma_qualified_count": 77,
+  "sigma_last_run": "2026-05-14T13:09:09.124195"
 }
