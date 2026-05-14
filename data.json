@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T13:06:20.439933+09:00",
+  "generated": "2026-05-14T13:08:29.813219+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
@@ -907,7 +907,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T12:56:13.275196+09:00",
+      "last_updated": "2026-05-14T13:06:23.128640+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1023,7 +1023,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T12:56:43.407792+09:00",
+      "last_updated": "2026-05-14T13:06:53.486579+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1046,7 +1046,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 9,
+        "gcal": 10,
         "CLINICS": 4,
         "GMO": 2
       },
@@ -1144,7 +1144,15 @@
               "end_time": "12:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "影野信也",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1483,7 +1491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T12:57:19.777337+09:00",
+      "last_updated": "2026-05-14T13:07:28.131089+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1642,7 +1650,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T12:57:50.175919+09:00",
+      "last_updated": "2026-05-14T13:07:57.907533+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1686,7 +1694,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T12:58:21.116170+09:00",
+      "last_updated": "2026-05-14T13:08:28.506075+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
