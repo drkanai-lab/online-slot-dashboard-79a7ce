@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T23:27:52.014481+09:00",
+  "generated": "2026-05-14T23:30:16.951466+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-15",
@@ -17,13 +17,13 @@
       "short": "5/14(木)",
       "dow": "木",
       "open_count": 12,
-      "booked_count": 9,
+      "booked_count": 8,
       "new_count": 1,
-      "revisit_count": 8,
+      "revisit_count": 7,
       "first_open": "12:00",
       "last_open": "23:10",
       "first_booked": "11:30",
-      "last_booked": "23:00",
+      "last_booked": "22:45",
       "per_platform_open": {
         "SOKUYAKU": 3,
         "CLINICS": 7,
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 9,
+        "gcal": 8,
         "CLINICS": 2,
         "GMO": 1,
         "クロン": 1
@@ -350,17 +350,7 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "藤田 梨乃",
-              "visit_type": "再診",
-              "department": "不眠",
-              "end_time": "23:10",
-              "qualified": true,
-              "qualified_at": "R08.05.13 21:59:23"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -386,7 +376,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:27:49.732594+09:00",
+      "last_updated": "2026-05-14T23:30:15.348934+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7853,6 +7843,6 @@
       "ts": "2026-05-14T15:46:51+09:00"
     }
   ],
-  "sigma_qualified_count": 78,
-  "sigma_last_run": "2026-05-14T23:24:25.290289"
+  "sigma_qualified_count": 80,
+  "sigma_last_run": "2026-05-14T23:29:17.098359"
 }
