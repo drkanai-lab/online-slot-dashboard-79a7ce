@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-14T12:59:05.766837+09:00",
+  "generated": "2026-05-14T13:01:30.003081+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
     "short": "5/14(木)",
-    "time": "13:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "13:10",
+    "code": "C",
+    "patient_name": "佐々木恵",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.11 12:50:36"
   },
   "days": [
     {
@@ -386,7 +388,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T12:59:04.831707+09:00",
+      "last_updated": "2026-05-14T13:01:29.018562+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
