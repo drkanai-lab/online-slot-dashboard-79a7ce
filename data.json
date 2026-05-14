@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-14T12:19:41.550894+09:00",
+  "generated": "2026-05-14T12:22:05.686213+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
     "short": "5/14(木)",
-    "time": "12:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "12:30",
+    "code": "G",
+    "patient_name": "斉藤　宏美",
+    "visit_type": "再診",
+    "department": "整形",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.13 21:54:18"
   },
   "days": [
     {
@@ -386,7 +388,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T12:19:40.612027+09:00",
+      "last_updated": "2026-05-14T12:22:04.786467+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
