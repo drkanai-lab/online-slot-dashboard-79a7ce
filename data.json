@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T22:35:09.975164+09:00",
+  "generated": "2026-05-14T22:37:08.086561+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
@@ -392,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T22:34:43.260762+09:00",
+      "last_updated": "2026-05-14T22:37:06.696473+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2129,7 +2129,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T21:19:18.463853+09:00",
+      "last_updated": "2026-05-14T22:35:28.215176+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2553,30 +2553,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T21:19:50.203104+09:00",
+      "last_updated": "2026-05-14T22:35:59.743848+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-24",
       "short": "5/24(日)",
       "dow": "日",
-      "open_count": 28,
-      "booked_count": 1,
+      "open_count": 27,
+      "booked_count": 2,
       "new_count": 0,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "12:10",
       "last_open": "23:50",
       "first_booked": "13:00",
-      "last_booked": "13:00",
+      "last_booked": "18:30",
       "per_platform_open": {
         "CLINICS": 15,
         "SOKUYAKU": 8,
         "クロン": 4,
-        "GMO": 2
+        "GMO": 1
       },
       "per_platform_booked": {
-        "GMO": 1,
-        "gcal": 1
+        "GMO": 2,
+        "gcal": 2
       },
       "full_platforms": [],
       "ranges": [
@@ -2688,11 +2688,19 @@
           "time": "18:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "18:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "18:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2920,7 +2928,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T21:20:24.483810+09:00",
+      "last_updated": "2026-05-14T22:36:34.023044+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
