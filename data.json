@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T11:28:45.811931+09:00",
+  "generated": "2026-05-14T11:29:10.397014+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-14",
@@ -19,8 +19,8 @@
       "short": "5/14(木)",
       "dow": "木",
       "open_count": 10,
-      "booked_count": 9,
-      "new_count": 1,
+      "booked_count": 8,
+      "new_count": 0,
       "revisit_count": 8,
       "first_open": "12:10",
       "last_open": "23:20",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 9,
+        "gcal": 8,
         "CLINICS": 2,
         "GMO": 2
       },
@@ -145,15 +145,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "市原春香",
-              "visit_type": "初診",
-              "department": "不眠",
-              "end_time": "12:20"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -380,7 +372,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T11:26:43.767541+09:00",
+      "last_updated": "2026-05-14T11:29:09.185360+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7885,5 +7877,5 @@
     }
   ],
   "sigma_qualified_count": 75,
-  "sigma_last_run": "2026-05-14T11:23:57.337369"
+  "sigma_last_run": "2026-05-14T11:28:55.826480"
 }
