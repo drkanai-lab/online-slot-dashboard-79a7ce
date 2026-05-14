@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-14T23:52:22.215148+09:00",
+  "generated": "2026-05-14T23:54:47.017188+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-15",
@@ -376,7 +376,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:52:20.767953+09:00",
+      "last_updated": "2026-05-14T23:54:45.619735+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -398,7 +398,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 4,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -498,7 +498,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "城戸 奈緒",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "城戸 奈緒",
@@ -597,7 +605,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:42:30.460008+09:00",
+      "last_updated": "2026-05-14T23:52:23.723986+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -901,7 +909,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:42:54.543624+09:00",
+      "last_updated": "2026-05-14T23:52:47.542108+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -978,7 +986,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:43:25.521762+09:00",
+      "last_updated": "2026-05-14T23:53:17.497984+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1446,7 +1454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:43:59.415935+09:00",
+      "last_updated": "2026-05-14T23:53:52.338810+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1605,7 +1613,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T23:44:30.588986+09:00",
+      "last_updated": "2026-05-14T23:54:23.523626+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2693,7 +2701,7 @@
           "gcals": [
             {
               "code": "G",
-              "patient_name": "患者名不明",
+              "patient_name": "渡邉　裕正",
               "visit_type": "再診",
               "department": "耳鼻",
               "end_time": "18:40"
@@ -2926,7 +2934,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T22:36:34.023044+09:00",
+      "last_updated": "2026-05-14T23:52:39.072345+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3193,7 +3201,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T22:37:08.493768+09:00",
+      "last_updated": "2026-05-14T23:53:13.808609+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3335,7 +3343,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T22:37:41.921855+09:00",
+      "last_updated": "2026-05-14T23:53:48.012309+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3503,7 +3511,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-14T22:38:16.156565+09:00",
+      "last_updated": "2026-05-14T23:54:21.083119+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7850,5 +7858,5 @@
     }
   ],
   "sigma_qualified_count": 80,
-  "sigma_last_run": "2026-05-14T23:48:59.636462"
+  "sigma_last_run": "2026-05-14T23:53:58.842556"
 }
