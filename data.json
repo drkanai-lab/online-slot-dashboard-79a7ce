@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-15T20:11:58.969683+09:00",
+  "generated": "2026-05-15T20:14:23.211924+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-15",
@@ -248,7 +248,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T20:11:57.887228+09:00",
+      "last_updated": "2026-05-15T20:14:22.244819+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -684,7 +684,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T20:02:50.058600+09:00",
+      "last_updated": "2026-05-15T20:12:47.742896+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -761,7 +761,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T20:03:21.222651+09:00",
+      "last_updated": "2026-05-15T20:13:17.503557+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1241,7 +1241,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T20:03:55.513691+09:00",
+      "last_updated": "2026-05-15T20:13:51.204950+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1400,7 +1400,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T20:04:25.938042+09:00",
+      "last_updated": "2026-05-15T20:14:21.466309+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2721,7 +2721,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T18:56:01.137055+09:00",
+      "last_updated": "2026-05-15T20:12:08.973271+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2988,7 +2988,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T18:56:35.558491+09:00",
+      "last_updated": "2026-05-15T20:12:43.654970+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3130,7 +3130,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T18:57:09.276721+09:00",
+      "last_updated": "2026-05-15T20:13:16.399798+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3298,7 +3298,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T18:57:43.015215+09:00",
+      "last_updated": "2026-05-15T20:13:50.129679+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3371,7 +3371,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "長谷川 春美",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -7908,5 +7914,5 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-05-15T20:08:54.775834"
+  "sigma_last_run": "2026-05-15T20:13:55.037562"
 }
