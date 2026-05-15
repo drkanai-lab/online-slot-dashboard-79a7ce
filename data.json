@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-15T22:29:30.158905+09:00",
+  "generated": "2026-05-15T22:31:52.949208+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-15",
     "short": "5/15(金)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "鈴木 愛由",
+    "patient_name": "城戸 奈緒",
     "visit_type": "再診",
-    "department": "心療",
-    "status": "booked"
+    "department": "整形",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.15 19:05:59"
   },
   "days": [
     {
@@ -248,7 +250,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T22:29:29.078298+09:00",
+      "last_updated": "2026-05-15T22:31:51.884972+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
