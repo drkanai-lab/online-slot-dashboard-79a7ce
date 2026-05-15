@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-15T18:46:44.463771+09:00",
+  "generated": "2026-05-15T18:49:06.330956+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-15",
@@ -17,9 +17,9 @@
       "short": "5/15(金)",
       "dow": "金",
       "open_count": 7,
-      "booked_count": 6,
+      "booked_count": 5,
       "new_count": 1,
-      "revisit_count": 5,
+      "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 6,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -89,17 +89,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "蛭田仁",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:30",
-              "qualified": true,
-              "qualified_at": "R08.05.09 21:55:30"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -252,7 +242,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T18:46:42.517109+09:00",
+      "last_updated": "2026-05-15T18:49:05.093831+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7912,5 +7902,5 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-05-15T18:43:54.503876"
+  "sigma_last_run": "2026-05-15T18:48:54.340768"
 }
