@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T08:07:24.829777+09:00",
+  "generated": "2026-05-16T08:08:57.150713+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -16,10 +16,10 @@
       "date": "2026-05-16",
       "short": "5/16(土)",
       "dow": "土",
-      "open_count": 23,
-      "booked_count": 6,
+      "open_count": 22,
+      "booked_count": 7,
       "new_count": 2,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "12:30",
@@ -27,11 +27,11 @@
       "per_platform_open": {
         "クロン": 4,
         "CLINICS": 15,
-        "SOKUYAKU": 5
+        "SOKUYAKU": 4
       },
       "per_platform_booked": {
-        "SOKUYAKU": 3,
-        "gcal": 6,
+        "SOKUYAKU": 4,
+        "gcal": 7,
         "GMO": 3
       },
       "full_platforms": [
@@ -244,11 +244,19 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "デイビス 美咲",
+              "visit_type": "再診",
+              "department": "内科",
+              "end_time": "19:10"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "デイビス 美咲",
@@ -477,7 +485,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T08:06:34.791096+09:00",
+      "last_updated": "2026-05-16T08:08:56.218850+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8064,7 +8072,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "デイビス 美咲",
+      "date": "2026-05-16",
+      "time": "19:00",
+      "ts": "2026-05-16T08:08:56+09:00"
+    }
+  ],
   "sigma_qualified_count": 63,
-  "sigma_last_run": "2026-05-16T08:03:53.916529"
+  "sigma_last_run": "2026-05-16T08:08:53.618447"
 }
