@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-15T20:14:23.211924+09:00",
+  "generated": "2026-05-15T20:15:37.054933+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-15",
@@ -1444,7 +1444,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T20:04:56.426754+09:00",
+      "last_updated": "2026-05-15T20:15:04.377687+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1754,7 +1754,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T20:05:28.764003+09:00",
+      "last_updated": "2026-05-15T20:15:36.005926+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3305,23 +3305,23 @@
       "date": "2026-05-28",
       "short": "5/28(木)",
       "dow": "木",
-      "open_count": 18,
-      "booked_count": 2,
-      "new_count": 0,
+      "open_count": 17,
+      "booked_count": 3,
+      "new_count": 1,
       "revisit_count": 2,
-      "first_open": "11:45",
+      "first_open": "12:10",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "12:00",
       "per_platform_open": {
-        "SOKUYAKU": 3,
         "CLINICS": 10,
         "GMO": 2,
-        "クロン": 3
+        "クロン": 3,
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
-        "gcal": 2,
+        "SOKUYAKU": 2,
+        "gcal": 3,
         "CLINICS": 1
       },
       "full_platforms": [],
@@ -3366,11 +3366,19 @@
           "time": "11:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "長谷川 春美",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "11:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "長谷川 春美",
@@ -3586,7 +3594,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T18:58:17.451555+09:00",
+      "last_updated": "2026-05-15T20:14:24.631792+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3754,7 +3762,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-15T18:58:51.006554+09:00",
+      "last_updated": "2026-05-15T20:15:10.309496+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
