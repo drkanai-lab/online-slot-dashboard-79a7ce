@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T05:59:48.826856+09:00",
+  "generated": "2026-05-16T06:02:28.060655+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -18,8 +18,8 @@
       "dow": "土",
       "open_count": 23,
       "booked_count": 6,
-      "new_count": 1,
-      "revisit_count": 5,
+      "new_count": 2,
+      "revisit_count": 4,
       "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "12:30",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 5,
+        "gcal": 6,
         "GMO": 3
       },
       "full_platforms": [
@@ -207,7 +207,15 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "心療",
+              "end_time": "18:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -463,7 +471,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T05:59:48.219722+09:00",
+      "last_updated": "2026-05-16T06:02:26.760497+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
