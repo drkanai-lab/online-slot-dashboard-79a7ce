@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-16T18:49:55.875402+09:00",
+  "generated": "2026-05-16T18:52:14.350130+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
     "short": "5/16(土)",
-    "time": "18:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "デイビス 美咲",
+    "visit_type": "再診",
+    "department": "内科",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.16 14:04:11"
   },
   "days": [
     {
@@ -521,7 +523,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T18:49:46.783185+09:00",
+      "last_updated": "2026-05-16T18:52:13.118015+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
