@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-17T00:30:06.717560+09:00",
+  "generated": "2026-05-17T00:32:28.315037+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -86,7 +86,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T00:30:06.712437+09:00",
+      "last_updated": "2026-05-17T00:32:28.310485+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -108,7 +108,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 11,
+        "gcal": 12,
         "CLINICS": 5,
         "GMO": 3
       },
@@ -290,7 +290,15 @@
               "end_time": "13:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "工藤勇人",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "13:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -566,7 +574,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T00:21:43.860402+09:00",
+      "last_updated": "2026-05-17T00:31:07.083649+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -725,7 +733,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T00:22:08.539162+09:00",
+      "last_updated": "2026-05-17T00:31:32.240977+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -769,7 +777,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T00:22:31.903799+09:00",
+      "last_updated": "2026-05-17T00:31:56.426927+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1079,7 +1087,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T00:22:57.058022+09:00",
+      "last_updated": "2026-05-17T00:32:22.346756+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
