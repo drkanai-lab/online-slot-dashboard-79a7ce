@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T21:23:14.097754+09:00",
+  "generated": "2026-05-16T21:23:51.481706+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -16,7 +16,7 @@
       "date": "2026-05-16",
       "short": "5/16(土)",
       "dow": "土",
-      "open_count": 15,
+      "open_count": 14,
       "booked_count": 13,
       "new_count": 6,
       "revisit_count": 7,
@@ -28,13 +28,13 @@
         "CLINICS": 9,
         "GMO": 1,
         "クロン": 2,
-        "SOKUYAKU": 3
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "クロン": 2,
-        "gcal": 13,
+        "gcal": 14,
         "CLINICS": 4,
-        "SOKUYAKU": 5,
+        "SOKUYAKU": 6,
         "GMO": 2
       },
       "full_platforms": [],
@@ -495,11 +495,18 @@
               "end_time": "23:40"
             },
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             }
           },
           "gcals": [
+            {
+              "code": "S",
+              "patient_name": "小川 かおり",
+              "visit_type": "再診",
+              "department": "婦人",
+              "end_time": "23:40"
+            },
             {
               "code": "K",
               "patient_name": "熊谷 健",
@@ -541,7 +548,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T21:21:24.045017+09:00",
+      "last_updated": "2026-05-16T21:23:49.841776+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
