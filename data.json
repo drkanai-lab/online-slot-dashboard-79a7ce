@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T11:12:42.690425+09:00",
+  "generated": "2026-05-16T11:15:06.874790+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -18,7 +18,7 @@
       "date": "2026-05-16",
       "short": "5/16(土)",
       "dow": "土",
-      "open_count": 20,
+      "open_count": 18,
       "booked_count": 9,
       "new_count": 4,
       "revisit_count": 5,
@@ -27,7 +27,7 @@
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 14,
+        "CLINICS": 12,
         "SOKUYAKU": 4,
         "クロン": 3
       },
@@ -51,14 +51,14 @@
         ],
         [
           "18:30",
-          "20:00"
+          "19:40"
         ],
         [
           "22:00",
           "24:00"
         ]
       ],
-      "range_text": "12:00〜13:30, 18:30〜20:00, 22:00〜24:00",
+      "range_text": "12:00〜13:30, 18:30〜19:40, 22:00〜24:00",
       "slots": [
         {
           "time": "12:00",
@@ -323,28 +323,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "19:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "22:00",
           "platforms": {
             "クロン": {
@@ -509,7 +487,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T11:12:41.466041+09:00",
+      "last_updated": "2026-05-16T11:15:05.666855+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8147,5 +8125,5 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-16T11:08:54.750599"
+  "sigma_last_run": "2026-05-16T11:14:08.202244"
 }
