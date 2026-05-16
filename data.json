@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-16T13:27:30.436342+09:00",
+  "generated": "2026-05-16T13:29:53.568364+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
     "short": "5/16(土)",
     "time": "18:30",
-    "code": "G",
-    "patient_name": "斉藤　裕美",
-    "visit_type": "初診",
-    "department": "心療",
-    "status": "booked"
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -17,8 +17,8 @@
       "short": "5/16(土)",
       "dow": "土",
       "open_count": 19,
-      "booked_count": 10,
-      "new_count": 5,
+      "booked_count": 9,
+      "new_count": 4,
       "revisit_count": 5,
       "first_open": "12:20",
       "last_open": "23:50",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 2,
-        "gcal": 10,
+        "gcal": 9,
         "CLINICS": 1,
         "SOKUYAKU": 4,
         "GMO": 2
@@ -225,15 +225,7 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "斉藤　裕美",
-              "visit_type": "初診",
-              "department": "心療",
-              "end_time": "18:40"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -491,7 +483,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T13:27:28.222826+09:00",
+      "last_updated": "2026-05-16T13:29:52.004137+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8129,5 +8121,5 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-05-16T13:23:54.306684"
+  "sigma_last_run": "2026-05-16T13:28:53.513248"
 }
