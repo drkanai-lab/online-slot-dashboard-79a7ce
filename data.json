@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-16T23:49:48.706867+09:00",
+  "generated": "2026-05-16T23:52:14.079585+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-05-16",
-    "short": "5/16(土)",
-    "time": "23:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "date": "2026-05-18",
+    "short": "5/18(月)",
+    "time": "11:30",
+    "code": "S",
+    "patient_name": "林 洋行",
+    "visit_type": "再診",
+    "department": "漢方",
+    "status": "booked"
   },
   "days": [
     {
@@ -490,13 +490,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "booked",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "booked",
+              "end_time": "23:40"
             }
           },
           "gcals": [
@@ -552,7 +552,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T23:49:47.471517+09:00",
+      "last_updated": "2026-05-16T23:52:13.731055+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
