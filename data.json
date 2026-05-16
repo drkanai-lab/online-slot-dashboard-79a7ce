@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T13:59:39.760865+09:00",
+  "generated": "2026-05-16T14:02:04.117575+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -16,24 +16,24 @@
       "date": "2026-05-16",
       "short": "5/16(土)",
       "dow": "土",
-      "open_count": 19,
-      "booked_count": 9,
+      "open_count": 18,
+      "booked_count": 10,
       "new_count": 4,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:30",
       "per_platform_open": {
-        "CLINICS": 12,
+        "CLINICS": 11,
         "GMO": 1,
         "SOKUYAKU": 4,
         "クロン": 2
       },
       "per_platform_booked": {
         "クロン": 2,
-        "gcal": 9,
-        "CLINICS": 1,
+        "gcal": 10,
+        "CLINICS": 2,
         "SOKUYAKU": 4,
         "GMO": 2
       },
@@ -290,11 +290,19 @@
           "time": "19:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "山本広人",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -483,7 +491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T13:59:38.468105+09:00",
+      "last_updated": "2026-05-16T14:02:02.441227+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8118,6 +8126,13 @@
       "date": "2026-05-16",
       "time": "12:00",
       "ts": "2026-05-16T09:07:35+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "山本広人",
+      "date": "2026-05-16",
+      "time": "19:20",
+      "ts": "2026-05-16T14:02:03+09:00"
     }
   ],
   "sigma_qualified_count": 66,
