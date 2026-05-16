@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-16T09:05:12.097542+09:00",
+  "generated": "2026-05-16T09:07:35.799054+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
     "short": "5/16(土)",
     "time": "12:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "渡邊 陽香",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -17,12 +17,12 @@
       "short": "5/16(土)",
       "dow": "土",
       "open_count": 22,
-      "booked_count": 7,
-      "new_count": 2,
+      "booked_count": 8,
+      "new_count": 3,
       "revisit_count": 5,
       "first_open": "12:00",
       "last_open": "23:50",
-      "first_booked": "12:30",
+      "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 4,
@@ -30,8 +30,8 @@
         "SOKUYAKU": 4
       },
       "per_platform_booked": {
+        "gcal": 8,
         "SOKUYAKU": 4,
-        "gcal": 7,
         "GMO": 3
       },
       "full_platforms": [
@@ -64,7 +64,15 @@
               "end_time": "12:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "渡邊 陽香",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "12:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -485,7 +493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T09:05:11.203835+09:00",
+      "last_updated": "2026-05-16T09:07:34.299195+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -562,7 +570,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T08:55:07.406043+09:00",
+      "last_updated": "2026-05-16T09:05:15.843815+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1042,7 +1050,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T08:55:44.416109+09:00",
+      "last_updated": "2026-05-16T09:05:51.309527+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1201,7 +1209,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T08:56:15.543079+09:00",
+      "last_updated": "2026-05-16T09:06:21.880040+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1245,7 +1253,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T08:56:45.732967+09:00",
+      "last_updated": "2026-05-16T09:06:51.859386+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1555,7 +1563,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T08:57:19.545146+09:00",
+      "last_updated": "2026-05-16T09:07:25.174367+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6635,7 +6643,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T07:48:58.811696+09:00",
+      "last_updated": "2026-05-16T09:05:29.172166+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6891,7 +6899,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T07:49:38.952223+09:00",
+      "last_updated": "2026-05-16T09:06:09.092440+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7059,7 +7067,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T07:50:18.585515+09:00",
+      "last_updated": "2026-05-16T09:06:57.115326+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8113,6 +8121,13 @@
       "date": "2026-05-16",
       "time": "19:00",
       "ts": "2026-05-16T08:08:56+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "渡邊 陽香",
+      "date": "2026-05-16",
+      "time": "12:00",
+      "ts": "2026-05-16T09:07:35+09:00"
     }
   ],
   "sigma_qualified_count": 63,
