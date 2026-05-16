@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T21:04:10.051560+09:00",
+  "generated": "2026-05-16T21:06:46.535016+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -17,8 +17,8 @@
       "short": "5/16(土)",
       "dow": "土",
       "open_count": 15,
-      "booked_count": 14,
-      "new_count": 7,
+      "booked_count": 13,
+      "new_count": 6,
       "revisit_count": 7,
       "first_open": "12:20",
       "last_open": "23:50",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 2,
-        "gcal": 14,
+        "gcal": 13,
         "CLINICS": 4,
         "SOKUYAKU": 5,
         "GMO": 2
@@ -473,15 +473,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "坂部良太",
-              "visit_type": "初診",
-              "department": "耳鼻",
-              "end_time": "23:20"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -543,7 +535,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T21:04:07.446967+09:00",
+      "last_updated": "2026-05-16T21:06:44.916466+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
