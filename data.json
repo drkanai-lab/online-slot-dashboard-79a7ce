@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T21:16:35.599973+09:00",
+  "generated": "2026-05-16T21:19:00.453500+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -510,7 +510,13 @@
               "qualified_at": "R08.05.16 12:40:39"
             }
           ],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "小川 かおり",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "23:45",
@@ -535,7 +541,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T21:16:34.224824+09:00",
+      "last_updated": "2026-05-16T21:18:59.122577+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8186,5 +8192,5 @@
     }
   ],
   "sigma_qualified_count": 81,
-  "sigma_last_run": "2026-05-16T21:14:00.107933"
+  "sigma_last_run": "2026-05-16T21:19:00.750422"
 }
