@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-16T22:58:40.238201+09:00",
+  "generated": "2026-05-16T23:01:04.746485+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
     "short": "5/16(土)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "佐々木 伸",
-    "visit_type": "初診",
-    "department": "頭痛",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.15 23:55:20"
+    "time": "23:10",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -554,7 +552,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T22:58:38.422644+09:00",
+      "last_updated": "2026-05-16T23:01:03.366838+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2591,7 +2589,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T21:42:03.376106+09:00",
+      "last_updated": "2026-05-16T22:58:46.480491+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2867,7 +2865,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T21:42:38.374852+09:00",
+      "last_updated": "2026-05-16T22:59:22.554270+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3009,7 +3007,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T21:43:11.344547+09:00",
+      "last_updated": "2026-05-16T22:59:56.190116+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3177,7 +3175,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T21:43:45.768102+09:00",
+      "last_updated": "2026-05-16T23:00:30.685505+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8205,5 +8203,5 @@
     }
   ],
   "sigma_qualified_count": 82,
-  "sigma_last_run": "2026-05-16T22:54:24.757173"
+  "sigma_last_run": "2026-05-16T22:59:07.563232"
 }
