@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-17T02:32:23.067662+09:00",
+  "generated": "2026-05-17T02:34:44.644650+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -86,7 +86,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T02:32:23.062588+09:00",
+      "last_updated": "2026-05-17T02:34:44.640044+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -108,7 +108,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 12,
+        "gcal": 13,
         "CLINICS": 6,
         "GMO": 3
       },
@@ -309,7 +309,15 @@
               "end_time": "13:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "金子澪",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "13:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -574,7 +582,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T02:25:13.436375+09:00",
+      "last_updated": "2026-05-17T02:34:40.817586+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
