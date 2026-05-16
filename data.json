@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T19:01:49.583498+09:00",
+  "generated": "2026-05-16T19:04:25.134995+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -9,7 +9,9 @@
     "patient_name": "佐多 真門",
     "visit_type": "初診",
     "department": "不眠",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.16 19:00:33"
   },
   "days": [
     {
@@ -293,14 +295,18 @@
               "patient_name": "佐多 真門",
               "visit_type": "初診",
               "department": "不眠",
-              "end_time": "19:25"
+              "end_time": "19:25",
+              "qualified": true,
+              "qualified_at": "R08.05.16 19:00:33"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "佐多 真門",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.16 19:00:33"
             }
           ]
         },
@@ -521,7 +527,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T19:01:48.287814+09:00",
+      "last_updated": "2026-05-16T19:04:23.747086+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8174,6 +8180,6 @@
       "ts": "2026-05-16T14:02:03+09:00"
     }
   ],
-  "sigma_qualified_count": 79,
-  "sigma_last_run": "2026-05-16T18:58:57.008635"
+  "sigma_qualified_count": 80,
+  "sigma_last_run": "2026-05-16T19:03:58.287042"
 }
