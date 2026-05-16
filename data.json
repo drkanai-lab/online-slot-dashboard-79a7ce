@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-17T07:50:29.662008+09:00",
+  "generated": "2026-05-17T07:50:32.427728+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -1701,7 +1701,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T07:41:07.197415+09:00",
+      "last_updated": "2026-05-17T07:50:30.970717+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7822,7 +7822,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "戸松 絵理",
+      "date": "2026-05-18",
+      "time": "22:30",
+      "ts": "2026-05-17T07:50:31+09:00"
+    }
+  ],
   "sigma_qualified_count": 71,
   "sigma_last_run": "2026-05-17T07:48:56.174851"
 }
