@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T12:42:51.465000+09:00",
+  "generated": "2026-05-16T12:44:14.476023+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -20,8 +20,8 @@
       "dow": "土",
       "open_count": 18,
       "booked_count": 10,
-      "new_count": 4,
-      "revisit_count": 6,
+      "new_count": 5,
+      "revisit_count": 5,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "12:00",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "クロン": 2,
-        "gcal": 9,
+        "gcal": 10,
         "CLINICS": 1,
         "SOKUYAKU": 4,
         "GMO": 3
@@ -461,7 +461,17 @@
               "end_time": "23:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "熊谷 健",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "23:40",
+              "qualified": true,
+              "qualified_at": "R08.05.16 12:40:39"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -487,7 +497,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T12:41:48.989635+09:00",
+      "last_updated": "2026-05-16T12:44:13.301335+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8101,6 +8111,6 @@
       "ts": "2026-05-16T09:07:35+09:00"
     }
   ],
-  "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-16T12:39:08.560957"
+  "sigma_qualified_count": 66,
+  "sigma_last_run": "2026-05-16T12:43:54.364776"
 }
