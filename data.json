@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T10:02:12.095808+09:00",
+  "generated": "2026-05-16T10:05:28.260970+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -95,7 +95,9 @@
               "patient_name": "小山繁継",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "12:20"
+              "end_time": "12:20",
+              "qualified": true,
+              "qualified_at": "R08.05.16 10:01:04"
             }
           ],
           "sokuyaku_truth": []
@@ -507,7 +509,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T10:02:10.782762+09:00",
+      "last_updated": "2026-05-16T10:05:26.972133+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8144,6 +8146,6 @@
       "ts": "2026-05-16T09:07:35+09:00"
     }
   ],
-  "sigma_qualified_count": 64,
-  "sigma_last_run": "2026-05-16T09:59:00.681037"
+  "sigma_qualified_count": 65,
+  "sigma_last_run": "2026-05-16T10:03:54.249058"
 }
