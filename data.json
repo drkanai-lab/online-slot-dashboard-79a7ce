@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T09:07:56.903874+09:00",
+  "generated": "2026-05-16T09:09:58.643353+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -9,7 +9,9 @@
     "patient_name": "渡邊 陽香",
     "visit_type": "初診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.16 09:05:31"
   },
   "days": [
     {
@@ -70,7 +72,9 @@
               "patient_name": "渡邊 陽香",
               "visit_type": "初診",
               "department": "",
-              "end_time": "12:10"
+              "end_time": "12:10",
+              "qualified": true,
+              "qualified_at": "R08.05.16 09:05:31"
             }
           ],
           "sokuyaku_truth": []
@@ -493,7 +497,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T09:07:34.299195+09:00",
+      "last_updated": "2026-05-16T09:09:57.656722+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7734,7 +7738,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T07:51:41.343821+09:00",
+      "last_updated": "2026-05-16T09:08:20.141142+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8110,7 +8114,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T07:52:25.208173+09:00",
+      "last_updated": "2026-05-16T09:09:05.030771+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -8130,6 +8134,6 @@
       "ts": "2026-05-16T09:07:35+09:00"
     }
   ],
-  "sigma_qualified_count": 63,
-  "sigma_last_run": "2026-05-16T09:03:54.455480"
+  "sigma_qualified_count": 64,
+  "sigma_last_run": "2026-05-16T09:08:53.968964"
 }
