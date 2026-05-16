@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-16T09:59:51.613383+09:00",
+  "generated": "2026-05-16T10:02:12.095808+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-16",
@@ -20,8 +20,8 @@
       "dow": "土",
       "open_count": 20,
       "booked_count": 9,
-      "new_count": 3,
-      "revisit_count": 6,
+      "new_count": 4,
+      "revisit_count": 5,
       "first_open": "12:20",
       "last_open": "23:50",
       "first_booked": "12:00",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 1,
         "SOKUYAKU": 4,
         "GMO": 3
@@ -89,7 +89,15 @@
               "end_time": "12:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "小山繁継",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "12:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -499,7 +507,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-16T09:59:50.255472+09:00",
+      "last_updated": "2026-05-16T10:02:10.782762+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
