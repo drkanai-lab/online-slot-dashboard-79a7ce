@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-17T23:20:32.669141+09:00",
+  "generated": "2026-05-17T23:22:54.023526+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-17",
     "short": "5/17(日)",
-    "time": "23:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:30",
+    "code": "S",
+    "patient_name": "岩間 詩音",
+    "visit_type": "初診",
+    "department": "泌尿",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.17 22:51:47"
   },
   "days": [
     {
@@ -238,7 +240,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T23:20:32.318056+09:00",
+      "last_updated": "2026-05-17T23:22:53.639296+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
