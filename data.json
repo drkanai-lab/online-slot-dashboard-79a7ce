@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T00:32:42.945199+09:00",
+  "generated": "2026-05-18T00:32:59.998361+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -482,14 +482,18 @@
               "patient_name": "小島 賢司",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.05.18 00:27:09"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "小島 賢司",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.18 00:27:09"
             }
           ]
         },
@@ -559,7 +563,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T00:30:33.147494+09:00",
+      "last_updated": "2026-05-18T00:32:59.008158+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8003,6 +8007,6 @@
       "ts": "2026-05-17T23:54:14+09:00"
     }
   ],
-  "sigma_qualified_count": 68,
+  "sigma_qualified_count": 69,
   "sigma_last_run": "2026-05-18T00:18:55.175075"
 }
