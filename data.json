@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-17T17:19:30.886610+09:00",
+  "generated": "2026-05-17T17:21:52.393483+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -86,30 +86,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T17:19:30.882269+09:00",
+      "last_updated": "2026-05-17T17:21:52.390544+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-18",
       "short": "5/18(月)",
       "dow": "月",
-      "open_count": 15,
-      "booked_count": 14,
+      "open_count": 14,
+      "booked_count": 15,
       "new_count": 2,
-      "revisit_count": 12,
-      "first_open": "12:40",
+      "revisit_count": 13,
+      "first_open": "13:00",
       "last_open": "23:30",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 10,
         "クロン": 4,
+        "CLINICS": 9,
         "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 5,
-        "gcal": 14,
-        "CLINICS": 6,
+        "gcal": 15,
+        "CLINICS": 7,
         "GMO": 3
       },
       "full_platforms": [
@@ -264,11 +264,19 @@
           "time": "12:40",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "12:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "村田ナオミ",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -596,7 +604,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T17:12:03.535689+09:00",
+      "last_updated": "2026-05-17T17:21:51.152530+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
