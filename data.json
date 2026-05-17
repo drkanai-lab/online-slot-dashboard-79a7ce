@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-17T23:51:25.367738+09:00",
+  "generated": "2026-05-17T23:53:46.737118+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -238,7 +238,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T23:51:25.021492+09:00",
+      "last_updated": "2026-05-17T23:53:46.380954+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -754,33 +754,37 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T23:42:43.685992+09:00",
+      "last_updated": "2026-05-17T23:52:09.339870+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-19",
       "short": "5/19(火)",
       "dow": "火",
-      "open_count": 8,
-      "booked_count": 2,
+      "open_count": 7,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "22:10",
       "last_open": "23:30",
       "first_booked": "22:00",
-      "last_booked": "22:30",
+      "last_booked": "22:45",
       "per_platform_open": {
         "CLINICS": 5,
-        "SOKUYAKU": 1,
         "GMO": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 2,
-        "SOKUYAKU": 1
+        "gcal": 3,
+        "SOKUYAKU": 2
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        }
+      ],
       "ranges": [
         [
           "22:00",
@@ -859,11 +863,19 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "高橋三奈子",
+              "visit_type": "再診",
+              "department": "心療",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "高橋三奈子",
@@ -928,7 +940,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T23:43:07.474110+09:00",
+      "last_updated": "2026-05-17T23:52:33.140743+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -972,7 +984,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T23:43:30.669054+09:00",
+      "last_updated": "2026-05-17T23:52:57.783747+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1282,7 +1294,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-17T23:43:57.377873+09:00",
+      "last_updated": "2026-05-17T23:53:23.656211+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
