@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T06:02:22.586291+09:00",
+  "generated": "2026-05-18T06:03:43.721572+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -272,7 +272,9 @@
               "patient_name": "金子澪",
               "visit_type": "再診",
               "department": "",
-              "end_time": "13:30"
+              "end_time": "13:30",
+              "qualified": true,
+              "qualified_at": "R08.05.18 01:04:12"
             }
           ],
           "sokuyaku_truth": []
@@ -563,7 +565,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T06:01:13.979537+09:00",
+      "last_updated": "2026-05-18T06:03:42.772553+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8000,6 +8002,6 @@
       "ts": "2026-05-17T23:54:14+09:00"
     }
   ],
-  "sigma_qualified_count": 69,
+  "sigma_qualified_count": 70,
   "sigma_last_run": "2026-05-18T00:48:47.317992"
 }
