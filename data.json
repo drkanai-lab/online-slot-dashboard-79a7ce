@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T16:37:28.243391+09:00",
+  "generated": "2026-05-18T16:39:57.146216+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -420,7 +420,9 @@
               "patient_name": "篠原 佑輔",
               "visit_type": "初診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.05.18 16:35:27"
             }
           ],
           "sokuyaku_truth": []
@@ -571,7 +573,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T16:37:26.813665+09:00",
+      "last_updated": "2026-05-18T16:39:56.158035+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4648,7 +4650,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T15:21:59.038493+09:00",
+      "last_updated": "2026-05-18T16:37:55.886944+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5044,7 +5046,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T15:22:33.870126+09:00",
+      "last_updated": "2026-05-18T16:38:31.412040+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5315,7 +5317,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T15:23:10.718896+09:00",
+      "last_updated": "2026-05-18T16:39:08.096789+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5685,7 +5687,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T15:23:48.755004+09:00",
+      "last_updated": "2026-05-18T16:39:46.416344+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7810,6 +7812,6 @@
       "ts": "2026-05-18T16:27:38+09:00"
     }
   ],
-  "sigma_qualified_count": 72,
-  "sigma_last_run": "2026-05-18T16:28:46.685483"
+  "sigma_qualified_count": 73,
+  "sigma_last_run": "2026-05-18T16:38:20.440411"
 }
