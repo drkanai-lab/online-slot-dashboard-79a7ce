@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T21:03:17.288460+09:00",
+  "generated": "2026-05-18T21:05:46.388649+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -428,7 +428,9 @@
               "patient_name": "小林永利子",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.18 20:56:55"
             }
           ],
           "sokuyaku_truth": []
@@ -568,7 +570,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T21:03:16.319081+09:00",
+      "last_updated": "2026-05-18T21:05:45.433816+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7808,6 +7810,6 @@
       "ts": "2026-05-18T16:27:38+09:00"
     }
   ],
-  "sigma_qualified_count": 75,
-  "sigma_last_run": "2026-05-18T20:58:48.716941"
+  "sigma_qualified_count": 76,
+  "sigma_last_run": "2026-05-18T21:03:48.306643"
 }
