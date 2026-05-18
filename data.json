@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T17:07:05.411636+09:00",
+  "generated": "2026-05-18T17:09:32.037960+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -18,22 +18,22 @@
       "date": "2026-05-18",
       "short": "5/18(月)",
       "dow": "月",
-      "open_count": 12,
-      "booked_count": 15,
+      "open_count": 13,
+      "booked_count": 16,
       "new_count": 4,
-      "revisit_count": 11,
+      "revisit_count": 12,
       "first_open": "12:00",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 9,
+        "CLINICS": 10,
         "クロン": 3
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
         "gcal": 15,
-        "CLINICS": 6,
+        "CLINICS": 7,
         "GMO": 3
       },
       "full_platforms": [
@@ -53,14 +53,14 @@
         ],
         [
           "18:30",
-          "19:40"
+          "20:00"
         ],
         [
           "22:00",
           "23:30"
         ]
       ],
-      "range_text": "11:30〜13:30, 18:30〜19:40, 22:00〜23:30",
+      "range_text": "11:30〜13:30, 18:30〜20:00, 22:00〜23:30",
       "slots": [
         {
           "time": "11:30",
@@ -390,8 +390,8 @@
           "time": "19:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:30"
             }
           },
           "gcals": [],
@@ -403,6 +403,28 @@
             "クロン": {
               "status": "open",
               "end_time": "19:40"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
             }
           },
           "gcals": [],
@@ -565,7 +587,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T17:07:04.148071+09:00",
+      "last_updated": "2026-05-18T17:09:30.728613+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7813,5 +7835,5 @@
     }
   ],
   "sigma_qualified_count": 74,
-  "sigma_last_run": "2026-05-18T17:03:48.356008"
+  "sigma_last_run": "2026-05-18T17:08:48.390462"
 }
