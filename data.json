@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T16:57:16.446825+09:00",
+  "generated": "2026-05-18T16:59:43.724565+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -304,7 +304,9 @@
               "patient_name": "仲里真貴子",
               "visit_type": "初診",
               "department": "不眠",
-              "end_time": "18:50"
+              "end_time": "18:50",
+              "qualified": true,
+              "qualified_at": "R08.05.18 16:53:00"
             }
           ],
           "sokuyaku_truth": []
@@ -563,7 +565,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T16:57:15.534408+09:00",
+      "last_updated": "2026-05-18T16:59:42.777208+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7810,6 +7812,6 @@
       "ts": "2026-05-18T16:27:38+09:00"
     }
   ],
-  "sigma_qualified_count": 73,
-  "sigma_last_run": "2026-05-18T16:53:47.932609"
+  "sigma_qualified_count": 74,
+  "sigma_last_run": "2026-05-18T16:58:47.547272"
 }
