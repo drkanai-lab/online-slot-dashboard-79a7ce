@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T20:05:36.277461+09:00",
+  "generated": "2026-05-18T20:08:05.079150+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
-        "gcal": 15,
+        "gcal": 16,
         "CLINICS": 8,
         "GMO": 2
       },
@@ -422,7 +422,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "小林永利子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -560,7 +568,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T20:05:35.251262+09:00",
+      "last_updated": "2026-05-18T20:08:04.043528+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
