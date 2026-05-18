@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T10:10:05.157116+09:00",
+  "generated": "2026-05-18T10:12:34.176498+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -565,35 +565,39 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T10:10:04.232394+09:00",
+      "last_updated": "2026-05-18T10:12:33.052038+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-19",
       "short": "5/19(火)",
       "dow": "火",
-      "open_count": 7,
-      "booked_count": 3,
-      "new_count": 0,
+      "open_count": 6,
+      "booked_count": 4,
+      "new_count": 1,
       "revisit_count": 3,
       "first_open": "22:10",
       "last_open": "23:30",
       "first_booked": "22:00",
-      "last_booked": "22:45",
+      "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 5,
-        "GMO": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 3,
-        "SOKUYAKU": 2
+        "gcal": 4,
+        "SOKUYAKU": 2,
+        "GMO": 1
       },
       "full_platforms": [
         {
           "name": "SOKUYAKU",
           "code": "S"
+        },
+        {
+          "name": "GMO",
+          "code": "G"
         }
       ],
       "ranges": [
@@ -710,11 +714,19 @@
           "time": "23:00",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -751,7 +763,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T10:02:18.352952+09:00",
+      "last_updated": "2026-05-18T10:12:16.946053+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
