@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-18T18:58:37.116958+09:00",
+  "generated": "2026-05-18T19:01:03.105385+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
     "short": "5/18(月)",
-    "time": "19:00",
+    "time": "19:15",
     "code": "S",
-    "patient_name": "飯塚 靖子",
+    "patient_name": "PARK ILGYU",
     "visit_type": "再診",
-    "department": "心療",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.16 17:34:46"
+    "department": "内科",
+    "status": "booked"
   },
   "days": [
     {
@@ -562,7 +560,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T18:58:36.188021+09:00",
+      "last_updated": "2026-05-18T19:01:02.151172+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -760,7 +758,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T18:50:20.397505+09:00",
+      "last_updated": "2026-05-18T19:00:02.708113+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -804,7 +802,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T18:50:44.695704+09:00",
+      "last_updated": "2026-05-18T19:00:27.143202+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1140,7 +1138,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T18:51:11.017554+09:00",
+      "last_updated": "2026-05-18T19:00:52.864238+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7802,5 +7800,5 @@
     }
   ],
   "sigma_qualified_count": 75,
-  "sigma_last_run": "2026-05-18T18:53:48.088282"
+  "sigma_last_run": "2026-05-18T18:58:48.684924"
 }
