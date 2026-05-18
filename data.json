@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T17:31:48.815633+09:00",
+  "generated": "2026-05-18T17:34:02.623944+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -400,7 +400,9 @@
               "patient_name": "中野緑",
               "visit_type": "初診",
               "department": "花粉",
-              "end_time": "19:30"
+              "end_time": "19:30",
+              "qualified": true,
+              "qualified_at": "R08.05.18 17:28:55"
             }
           ],
           "sokuyaku_truth": []
@@ -837,7 +839,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T17:22:12.295023+09:00",
+      "last_updated": "2026-05-18T17:32:09.555813+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1173,7 +1175,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T17:22:37.883172+09:00",
+      "last_updated": "2026-05-18T17:32:35.580551+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1341,7 +1343,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T17:23:02.714050+09:00",
+      "last_updated": "2026-05-18T17:33:04.574613+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1765,7 +1767,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T17:23:31.366969+09:00",
+      "last_updated": "2026-05-18T17:33:30.081486+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2140,7 +2142,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T17:24:01.831117+09:00",
+      "last_updated": "2026-05-18T17:34:01.330649+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7834,6 +7836,6 @@
       "ts": "2026-05-18T16:27:38+09:00"
     }
   ],
-  "sigma_qualified_count": 74,
-  "sigma_last_run": "2026-05-18T17:28:49.161553"
+  "sigma_qualified_count": 75,
+  "sigma_last_run": "2026-05-18T17:33:48.427711"
 }
