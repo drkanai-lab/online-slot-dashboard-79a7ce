@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-18T22:20:16.873461+09:00",
+  "generated": "2026-05-18T22:22:48.509257+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
     "short": "5/18(月)",
-    "time": "22:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "戸松 絵理",
+    "visit_type": "初診",
+    "department": "頭痛",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.17 08:00:38"
   },
   "days": [
     {
@@ -559,7 +561,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T22:20:15.826640+09:00",
+      "last_updated": "2026-05-18T22:22:46.786019+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
