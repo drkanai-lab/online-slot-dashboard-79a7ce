@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T12:12:08.736679+09:00",
+  "generated": "2026-05-18T12:12:44.008946+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -20,8 +20,8 @@
       "dow": "月",
       "open_count": 11,
       "booked_count": 16,
-      "new_count": 3,
-      "revisit_count": 13,
+      "new_count": 4,
+      "revisit_count": 12,
       "first_open": "12:50",
       "last_open": "23:20",
       "first_booked": "11:30",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
-        "gcal": 15,
+        "gcal": 16,
         "CLINICS": 7,
         "GMO": 3
       },
@@ -212,7 +212,15 @@
               "end_time": "12:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "青木丈一郎",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "12:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -565,7 +573,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T12:10:13.124661+09:00",
+      "last_updated": "2026-05-18T12:12:42.998859+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
