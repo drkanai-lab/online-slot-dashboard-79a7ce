@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-18T22:00:18.888718+09:00",
+  "generated": "2026-05-18T22:02:48.714972+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
     "short": "5/18(月)",
-    "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "小林永利子",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.18 20:56:55"
   },
   "days": [
     {
@@ -559,7 +561,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T22:00:17.773331+09:00",
+      "last_updated": "2026-05-18T22:02:47.562120+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
