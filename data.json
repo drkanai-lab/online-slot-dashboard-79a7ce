@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-18T23:06:24.588148+09:00",
+  "generated": "2026-05-18T23:07:36.555346+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-18",
@@ -16,23 +16,23 @@
       "date": "2026-05-18",
       "short": "5/18(月)",
       "dow": "月",
-      "open_count": 11,
-      "booked_count": 16,
+      "open_count": 10,
+      "booked_count": 17,
       "new_count": 4,
-      "revisit_count": 12,
+      "revisit_count": 13,
       "first_open": "12:00",
-      "last_open": "23:20",
+      "last_open": "23:10",
       "first_booked": "11:30",
-      "last_booked": "23:00",
+      "last_booked": "23:20",
       "per_platform_open": {
-        "CLINICS": 7,
+        "CLINICS": 6,
         "クロン": 3,
         "GMO": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 6,
-        "gcal": 16,
-        "CLINICS": 8,
+        "gcal": 17,
+        "CLINICS": 9,
         "GMO": 2
       },
       "full_platforms": [
@@ -551,11 +551,21 @@
           "time": "23:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "小西紀子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:30",
+              "qualified": true,
+              "qualified_at": "R08.05.12 23:10:18"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -570,7 +580,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-18T23:05:04.811340+09:00",
+      "last_updated": "2026-05-18T23:07:35.320511+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7817,6 +7827,13 @@
       "date": "2026-05-19",
       "time": "22:10",
       "ts": "2026-05-18T21:57:59+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "小西紀子",
+      "date": "2026-05-18",
+      "time": "23:20",
+      "ts": "2026-05-18T23:07:36+09:00"
     }
   ],
   "sigma_qualified_count": 77,
