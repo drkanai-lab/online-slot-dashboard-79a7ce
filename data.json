@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-19T23:20:51.599388+09:00",
+  "generated": "2026-05-19T23:22:12.605726+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-19",
     "short": "5/19(火)",
-    "time": "23:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "23:30",
+    "code": "K",
+    "patient_name": "篠原 佑輔",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.18 16:35:27"
   },
   "days": [
     {
@@ -1265,7 +1267,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:11:27.458403+09:00",
+      "last_updated": "2026-05-19T23:21:08.287332+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1640,7 +1642,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:11:58.553450+09:00",
+      "last_updated": "2026-05-19T23:21:39.891653+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1916,7 +1918,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:12:30.039991+09:00",
+      "last_updated": "2026-05-19T23:22:11.129100+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
