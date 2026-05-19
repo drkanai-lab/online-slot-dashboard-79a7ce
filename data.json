@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-20T00:09:12.648880+09:00",
+  "generated": "2026-05-20T00:11:21.025092+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -596,7 +596,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:59:57.452362+09:00",
+      "last_updated": "2026-05-20T00:09:23.118255+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1028,7 +1028,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T00:00:22.379862+09:00",
+      "last_updated": "2026-05-20T00:09:47.911724+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1403,7 +1403,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T00:00:57.876533+09:00",
+      "last_updated": "2026-05-20T00:10:18.361508+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1679,7 +1679,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T00:01:29.301709+09:00",
+      "last_updated": "2026-05-20T00:10:48.459191+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1821,7 +1821,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T00:00:41.028567+09:00",
+      "last_updated": "2026-05-20T00:11:19.212016+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5558,7 +5558,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T22:54:13.791324+09:00",
+      "last_updated": "2026-05-20T00:09:48.227555+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5726,7 +5726,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T22:54:51.088025+09:00",
+      "last_updated": "2026-05-20T00:10:24.555825+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6122,7 +6122,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T22:55:29.253048+09:00",
+      "last_updated": "2026-05-20T00:11:00.850120+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7377,7 +7377,22 @@
       "sokuyaku_reserve_ok": false
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "齋藤篤史",
+      "date": "2026-05-21",
+      "time": "12:20",
+      "ts": "2026-05-20T00:11:20+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "古賀 泰成",
+      "date": "2026-05-21",
+      "time": "13:00",
+      "ts": "2026-05-20T00:11:20+09:00"
+    }
+  ],
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-05-20T00:03:49.989521"
 }
