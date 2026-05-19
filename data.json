@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-19T23:08:38.092484+09:00",
+  "generated": "2026-05-19T23:11:04.358949+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-19",
     "short": "5/19(火)",
-    "time": "23:10",
-    "code": "C",
-    "patient_name": "小林奈保子",
-    "visit_type": "初診",
-    "department": "不眠",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.19 11:05:31"
+    "time": "23:20",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -265,7 +263,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:08:36.817256+09:00",
+      "last_updated": "2026-05-19T23:11:03.062825+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -309,7 +307,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:00:21.312401+09:00",
+      "last_updated": "2026-05-19T23:10:11.339613+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -667,7 +665,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:00:50.196379+09:00",
+      "last_updated": "2026-05-19T23:10:38.614299+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -835,7 +833,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:01:17.191872+09:00",
+      "last_updated": "2026-05-19T23:11:02.082267+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7605,5 +7603,5 @@
     }
   ],
   "sigma_qualified_count": 71,
-  "sigma_last_run": "2026-05-19T23:03:50.120745"
+  "sigma_last_run": "2026-05-19T23:08:50.691363"
 }
