@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-19T16:35:21.668972+09:00",
+  "generated": "2026-05-19T16:38:45.166228+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-19",
@@ -17,20 +17,20 @@
       "short": "5/19(火)",
       "dow": "火",
       "open_count": 3,
-      "booked_count": 7,
-      "new_count": 2,
+      "booked_count": 8,
+      "new_count": 3,
       "revisit_count": 5,
       "first_open": "22:50",
       "last_open": "23:30",
       "first_booked": "22:00",
-      "last_booked": "23:10",
+      "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 2,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 3,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -236,11 +236,21 @@
               "end_time": "23:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "篠原 佑輔",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "23:40",
+              "qualified": true,
+              "qualified_at": "R08.05.18 16:35:27"
+            }
+          ],
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T16:35:20.444618+09:00",
+      "last_updated": "2026-05-19T16:38:43.618992+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3638,7 +3648,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T15:19:42.116828+09:00",
+      "last_updated": "2026-05-19T16:35:37.954150+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3780,7 +3790,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T15:20:15.276602+09:00",
+      "last_updated": "2026-05-19T16:36:15.977804+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3824,7 +3834,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T15:20:48.809391+09:00",
+      "last_updated": "2026-05-19T16:36:49.385140+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4114,7 +4124,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T15:21:24.205216+09:00",
+      "last_updated": "2026-05-19T16:37:24.057848+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4158,7 +4168,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T15:21:58.462323+09:00",
+      "last_updated": "2026-05-19T16:37:57.183608+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4554,7 +4564,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T15:22:32.498322+09:00",
+      "last_updated": "2026-05-19T16:38:31.143896+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7570,7 +7580,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "篠原 佑輔",
+      "date": "2026-05-19",
+      "time": "23:30",
+      "ts": "2026-05-19T16:38:44+09:00"
+    }
+  ],
   "sigma_qualified_count": 67,
-  "sigma_last_run": "2026-05-19T16:33:46.870874"
+  "sigma_last_run": "2026-05-19T16:38:48.743223"
 }
