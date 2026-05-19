@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-20T00:06:51.114859+09:00",
+  "generated": "2026-05-20T00:09:12.648880+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -53,31 +53,32 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T00:06:51.111988+09:00",
+      "last_updated": "2026-05-20T00:09:12.645716+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-21",
       "short": "5/21(木)",
       "dow": "木",
-      "open_count": 13,
-      "booked_count": 8,
+      "open_count": 11,
+      "booked_count": 10,
       "new_count": 1,
-      "revisit_count": 7,
-      "first_open": "12:20",
+      "revisit_count": 9,
+      "first_open": "12:40",
       "last_open": "23:30",
       "first_booked": "11:20",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 9,
-        "クロン": 3,
+        "CLINICS": 8,
+        "クロン": 2,
         "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "CLINICS": 3,
-        "gcal": 8,
+        "CLINICS": 4,
+        "gcal": 10,
         "SOKUYAKU": 3,
-        "GMO": 2
+        "GMO": 2,
+        "クロン": 1
       },
       "full_platforms": [
         {
@@ -208,11 +209,19 @@
           "time": "12:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "12:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "齋藤篤史",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -249,11 +258,19 @@
           "time": "13:00",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "古賀 泰成",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "13:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -411,7 +428,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T23:59:33.153848+09:00",
+      "last_updated": "2026-05-20T00:08:59.204591+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4594,7 +4611,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T22:51:42.818315+09:00",
+      "last_updated": "2026-05-20T00:07:21.359845+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4964,7 +4981,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T22:52:22.226010+09:00",
+      "last_updated": "2026-05-20T00:07:59.050439+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5106,7 +5123,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T22:52:59.255872+09:00",
+      "last_updated": "2026-05-20T00:08:34.686004+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5274,7 +5291,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T22:53:35.602744+09:00",
+      "last_updated": "2026-05-20T00:09:10.643668+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
