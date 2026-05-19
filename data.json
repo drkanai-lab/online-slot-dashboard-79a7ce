@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-19T18:35:48.163788+09:00",
+  "generated": "2026-05-19T18:38:12.831417+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-19",
@@ -9,7 +9,9 @@
     "patient_name": "喜多 美月",
     "visit_type": "再診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.19 18:34:06"
   },
   "days": [
     {
@@ -70,7 +72,9 @@
               "patient_name": "喜多 美月",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.05.19 18:34:06"
             }
           ],
           "sokuyaku_truth": []
@@ -110,7 +114,9 @@
               "patient_name": "待場菜月",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:30"
+              "end_time": "22:30",
+              "qualified": true,
+              "qualified_at": "R08.05.19 18:35:16"
             }
           ],
           "sokuyaku_truth": []
@@ -129,14 +135,18 @@
               "patient_name": "齊藤 利江",
               "visit_type": "再診",
               "department": "整形",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.05.19 18:36:11"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "齊藤 利江",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.19 18:36:11"
             }
           ]
         },
@@ -255,7 +265,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-19T18:35:46.714502+09:00",
+      "last_updated": "2026-05-19T18:38:11.178920+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7594,6 +7604,6 @@
       "ts": "2026-05-19T16:38:44+09:00"
     }
   ],
-  "sigma_qualified_count": 68,
+  "sigma_qualified_count": 71,
   "sigma_last_run": "2026-05-19T18:23:48.307295"
 }
