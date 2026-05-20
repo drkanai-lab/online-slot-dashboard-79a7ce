@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-20T11:24:09.266432+09:00",
+  "generated": "2026-05-20T11:26:28.242793+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -53,7 +53,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T11:24:09.262112+09:00",
+      "last_updated": "2026-05-20T11:26:28.239756+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -606,7 +606,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T11:14:36.879759+09:00",
+      "last_updated": "2026-05-20T11:24:26.594985+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1003,13 +1003,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -1038,7 +1038,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T11:15:04.183684+09:00",
+      "last_updated": "2026-05-20T11:25:05.095324+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1413,7 +1413,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T11:15:35.044095+09:00",
+      "last_updated": "2026-05-20T11:25:35.867506+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1689,7 +1689,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T11:16:06.181002+09:00",
+      "last_updated": "2026-05-20T11:26:07.000506+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5743,15 +5743,16 @@
       "date": "2026-06-13",
       "short": "6/13(土)",
       "dow": "土",
-      "open_count": 28,
+      "open_count": 32,
       "booked_count": 0,
       "new_count": 0,
       "revisit_count": 0,
-      "first_open": "12:10",
+      "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "",
       "last_booked": "",
       "per_platform_open": {
+        "クロン": 5,
         "CLINICS": 17,
         "SOKUYAKU": 8,
         "GMO": 3
@@ -5760,7 +5761,7 @@
       "full_platforms": [],
       "ranges": [
         [
-          "12:10",
+          "12:00",
           "14:00"
         ],
         [
@@ -5768,12 +5769,23 @@
           "20:00"
         ],
         [
-          "22:10",
+          "22:00",
           "24:00"
         ]
       ],
-      "range_text": "12:10〜14:00, 18:30〜20:00, 22:10〜24:00",
+      "range_text": "12:00〜14:00, 18:30〜20:00, 22:00〜24:00",
       "slots": [
+        {
+          "time": "12:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "12:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
         {
           "time": "12:10",
           "platforms": {
@@ -5852,6 +5864,17 @@
           "sokuyaku_truth": []
         },
         {
+          "time": "13:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "13:40"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
           "time": "13:40",
           "platforms": {
             "CLINICS": {
@@ -5873,251 +5896,6 @@
           "gcals": [],
           "sokuyaku_truth": []
         },
-        {
-          "time": "18:30",
-          "platforms": {
-            "GMO": {
-              "status": "open",
-              "end_time": "18:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:00",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "19:15"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:15",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "19:30"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "22:45"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:00"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:00",
-          "platforms": {
-            "GMO": {
-              "status": "open",
-              "end_time": "23:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:59"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        }
-      ],
-      "last_updated": "2026-05-20T10:08:53.294296+09:00",
-      "sokuyaku_reserve_ok": true
-    },
-    {
-      "date": "2026-06-14",
-      "short": "6/14(日)",
-      "dow": "日",
-      "open_count": 21,
-      "booked_count": 0,
-      "new_count": 0,
-      "revisit_count": 0,
-      "first_open": "18:30",
-      "last_open": "23:50",
-      "first_booked": "",
-      "last_booked": "",
-      "per_platform_open": {
-        "GMO": 2,
-        "CLINICS": 11,
-        "SOKUYAKU": 6,
-        "クロン": 3
-      },
-      "per_platform_booked": {},
-      "full_platforms": [],
-      "ranges": [
-        [
-          "18:30",
-          "20:00"
-        ],
-        [
-          "22:00",
-          "24:00"
-        ]
-      ],
-      "range_text": "18:30〜20:00, 22:00〜24:00",
-      "slots": [
         {
           "time": "18:30",
           "platforms": {
@@ -6354,7 +6132,278 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T10:09:33.006139+09:00",
+      "last_updated": "2026-05-20T11:24:41.105976+09:00",
+      "sokuyaku_reserve_ok": true
+    },
+    {
+      "date": "2026-06-14",
+      "short": "6/14(日)",
+      "dow": "日",
+      "open_count": 21,
+      "booked_count": 0,
+      "new_count": 0,
+      "revisit_count": 0,
+      "first_open": "18:30",
+      "last_open": "23:50",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {
+        "GMO": 2,
+        "CLINICS": 11,
+        "SOKUYAKU": 6,
+        "クロン": 3
+      },
+      "per_platform_booked": {},
+      "full_platforms": [],
+      "ranges": [
+        [
+          "18:30",
+          "20:00"
+        ],
+        [
+          "22:00",
+          "24:00"
+        ]
+      ],
+      "range_text": "18:30〜20:00, 22:00〜24:00",
+      "slots": [
+        {
+          "time": "18:30",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "18:40"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "18:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "18:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "19:00",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:15"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "19:15",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "19:30"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "19:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "19:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "19:40"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "19:40",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "19:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:30",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "22:45"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "23:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:59"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        }
+      ],
+      "last_updated": "2026-05-20T11:25:09.185370+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6730,7 +6779,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-20T10:10:13.953144+09:00",
+      "last_updated": "2026-05-20T11:25:49.039737+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
