@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T02:21:38.730477+09:00",
+  "generated": "2026-05-21T02:24:07.664069+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 9,
-        "gcal": 14,
+        "gcal": 15,
         "SOKUYAKU": 4,
         "GMO": 1,
         "クロン": 1
@@ -381,7 +381,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "木平 里美",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "木平 里美",
@@ -446,7 +454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T02:21:36.416402+09:00",
+      "last_updated": "2026-05-21T02:24:06.334929+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2326,7 +2334,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T01:07:55.008769+09:00",
+      "last_updated": "2026-05-21T02:23:41.365118+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
