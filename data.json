@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T11:38:36.379741+09:00",
+  "generated": "2026-05-21T11:41:26.376312+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -91,14 +91,18 @@
               "patient_name": "高柳美月",
               "visit_type": "再診",
               "department": "心療",
-              "end_time": "11:40"
+              "end_time": "11:40",
+              "qualified": true,
+              "qualified_at": "R08.05.21 11:36:06"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "高柳美月",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.21 11:36:06"
             }
           ]
         },
@@ -447,7 +451,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T11:38:35.116372+09:00",
+      "last_updated": "2026-05-21T11:41:25.152106+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -659,7 +663,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T11:30:36.322719+09:00",
+      "last_updated": "2026-05-21T11:40:38.386699+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1099,7 +1103,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T11:31:04.399574+09:00",
+      "last_updated": "2026-05-21T11:41:17.726826+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7969,6 +7973,6 @@
       "ts": "2026-05-21T10:02:11+09:00"
     }
   ],
-  "sigma_qualified_count": 67,
-  "sigma_last_run": "2026-05-21T11:33:48.416209"
+  "sigma_qualified_count": 68,
+  "sigma_last_run": "2026-05-21T11:38:50.861651"
 }
