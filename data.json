@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T18:28:39.627784+09:00",
+  "generated": "2026-05-21T18:31:06.962615+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -18,32 +18,28 @@
       "date": "2026-05-21",
       "short": "5/21(木)",
       "dow": "木",
-      "open_count": 5,
-      "booked_count": 15,
+      "open_count": 7,
+      "booked_count": 14,
       "new_count": 2,
-      "revisit_count": 13,
+      "revisit_count": 12,
       "first_open": "12:10",
       "last_open": "23:30",
       "first_booked": "11:20",
-      "last_booked": "22:45",
+      "last_booked": "22:30",
       "per_platform_open": {
-        "CLINICS": 3,
+        "CLINICS": 4,
+        "SOKUYAKU": 1,
         "GMO": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 15,
-        "SOKUYAKU": 4,
+        "gcal": 14,
+        "SOKUYAKU": 3,
         "GMO": 1,
         "クロン": 2
       },
-      "full_platforms": [
-        {
-          "name": "SOKUYAKU",
-          "code": "S"
-        }
-      ],
+      "full_platforms": [],
       "ranges": [
         [
           "11:20",
@@ -377,21 +373,22 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "23:00"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "木平 里美",
-              "visit_type": "再診",
-              "department": "皮膚",
-              "end_time": "22:55",
-              "qualified": true,
-              "qualified_at": "R08.05.21 08:41:41"
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:50",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
             }
-          ],
+          },
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -439,7 +436,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:28:37.900729+09:00",
+      "last_updated": "2026-05-21T18:31:05.385503+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7949,5 +7946,5 @@
     }
   ],
   "sigma_qualified_count": 72,
-  "sigma_last_run": "2026-05-21T18:23:52.586359"
+  "sigma_last_run": "2026-05-21T18:28:51.477586"
 }
