@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-21T23:30:35.120408+09:00",
+  "generated": "2026-05-21T23:33:29.593355+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-05-21",
-    "short": "5/21(木)",
-    "time": "23:30",
-    "code": "K",
-    "patient_name": "円城寺 晃大",
-    "visit_type": "初診",
+    "date": "2026-05-22",
+    "short": "5/22(金)",
+    "time": "22:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.21 20:30:47"
+    "status": "open"
   },
   "days": [
     {
@@ -477,28 +475,28 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T23:30:34.226212+09:00",
+      "last_updated": "2026-05-21T23:33:28.443360+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-22",
       "short": "5/22(金)",
       "dow": "金",
-      "open_count": 10,
-      "booked_count": 2,
+      "open_count": 9,
+      "booked_count": 3,
       "new_count": 1,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:50",
-      "first_booked": "22:45",
+      "first_booked": "22:30",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 6,
-        "SOKUYAKU": 3
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
+        "SOKUYAKU": 2,
         "gcal": 2,
         "GMO": 1
       },
@@ -553,12 +551,18 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "小柳津 正子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -675,7 +679,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T23:19:29.823650+09:00",
+      "last_updated": "2026-05-21T23:32:51.074989+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
