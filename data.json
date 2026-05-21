@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T18:40:58.073133+09:00",
+  "generated": "2026-05-21T18:43:24.162012+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 14,
+        "gcal": 15,
         "SOKUYAKU": 4,
         "GMO": 1,
         "クロン": 2
@@ -381,7 +381,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "芝田 清",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "芝田 清",
@@ -446,29 +454,29 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:40:56.762058+09:00",
+      "last_updated": "2026-05-21T18:43:22.878734+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-22",
       "short": "5/22(金)",
       "dow": "金",
-      "open_count": 9,
-      "booked_count": 3,
+      "open_count": 10,
+      "booked_count": 2,
       "new_count": 1,
-      "revisit_count": 2,
+      "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "23:50",
-      "first_booked": "22:30",
+      "first_booked": "22:45",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 6,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 3
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 3,
+        "SOKUYAKU": 1,
+        "gcal": 2,
         "GMO": 1
       },
       "full_platforms": [
@@ -522,26 +530,12 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "22:45"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "清水 美穂子",
-              "visit_type": "再診",
-              "department": "不眠",
-              "end_time": "22:40"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "清水 美穂子",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "gcals": [],
+          "sokuyaku_truth": []
         },
         {
           "time": "22:45",
@@ -658,7 +652,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:32:08.643014+09:00",
+      "last_updated": "2026-05-21T18:42:07.676133+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1106,7 +1100,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:32:34.408492+09:00",
+      "last_updated": "2026-05-21T18:42:35.113888+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1490,7 +1484,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:33:06.662352+09:00",
+      "last_updated": "2026-05-21T18:43:06.357690+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
