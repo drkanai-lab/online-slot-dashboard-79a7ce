@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-21T11:58:48.711300+09:00",
+  "generated": "2026-05-21T12:01:17.964016+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
     "short": "5/21(木)",
-    "time": "12:00",
+    "time": "12:10",
     "code": "C",
-    "patient_name": "北山さおり",
+    "patient_name": "一柳明日香",
     "visit_type": "再診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.16 17:28:55"
   },
   "days": [
     {
@@ -445,7 +447,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T11:58:47.397938+09:00",
+      "last_updated": "2026-05-21T12:01:16.650148+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -657,7 +659,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T11:50:52.873544+09:00",
+      "last_updated": "2026-05-21T12:00:53.437141+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7968,5 +7970,5 @@
     }
   ],
   "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-05-21T11:53:56.508657"
+  "sigma_last_run": "2026-05-21T11:58:54.615770"
 }
