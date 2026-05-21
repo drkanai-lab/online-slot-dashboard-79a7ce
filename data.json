@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T17:03:09.058300+09:00",
+  "generated": "2026-05-21T17:04:25.853750+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -9,7 +9,9 @@
     "patient_name": "松澤 佑紀",
     "visit_type": "初診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.21 17:00:28"
   },
   "days": [
     {
@@ -297,7 +299,9 @@
               "patient_name": "松澤 佑紀",
               "visit_type": "初診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.05.21 17:00:28"
             }
           ],
           "sokuyaku_truth": []
@@ -1771,7 +1775,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T16:53:17.378764+09:00",
+      "last_updated": "2026-05-21T17:03:24.477787+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1913,7 +1917,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T16:53:47.584513+09:00",
+      "last_updated": "2026-05-21T17:03:54.359778+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2081,7 +2085,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T16:54:17.667076+09:00",
+      "last_updated": "2026-05-21T17:04:24.615980+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7951,6 +7955,6 @@
       "ts": "2026-05-21T17:03:08+09:00"
     }
   ],
-  "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-05-21T16:58:50.486797"
+  "sigma_qualified_count": 70,
+  "sigma_last_run": "2026-05-21T17:03:51.685167"
 }
