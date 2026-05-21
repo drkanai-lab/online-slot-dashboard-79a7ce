@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T12:43:48.775479+09:00",
+  "generated": "2026-05-21T12:45:44.862849+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -447,7 +447,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T12:43:16.241367+09:00",
+      "last_updated": "2026-05-21T12:45:43.620979+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7167,7 +7167,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T11:28:07.163840+09:00",
+      "last_updated": "2026-05-21T12:44:26.066196+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7175,12 +7175,12 @@
       "short": "6/18(木)",
       "dow": "木",
       "open_count": 19,
-      "booked_count": 1,
+      "booked_count": 2,
       "new_count": 0,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "11:45",
       "last_open": "23:30",
-      "first_booked": "11:30",
+      "first_booked": "11:20",
       "last_booked": "11:30",
       "per_platform_open": {
         "SOKUYAKU": 3,
@@ -7189,13 +7189,14 @@
         "クロン": 3
       },
       "per_platform_booked": {
+        "CLINICS": 1,
         "SOKUYAKU": 1,
         "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
         [
-          "11:30",
+          "11:20",
           "13:30"
         ],
         [
@@ -7203,8 +7204,20 @@
           "23:40"
         ]
       ],
-      "range_text": "11:30〜13:30, 22:00〜23:40",
+      "range_text": "11:20〜13:30, 22:00〜23:40",
       "slots": [
+        {
+          "time": "11:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "booked",
+              "end_time": "11:30",
+              "slot_closed": true
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
         {
           "time": "11:30",
           "platforms": {
@@ -7440,7 +7453,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T11:28:46.701812+09:00",
+      "last_updated": "2026-05-21T12:45:06.919905+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7970,5 +7983,5 @@
     }
   ],
   "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-05-21T12:38:56.037149"
+  "sigma_last_run": "2026-05-21T12:43:58.472591"
 }
