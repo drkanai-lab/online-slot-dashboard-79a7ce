@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T20:02:38.028623+09:00",
+  "generated": "2026-05-21T20:05:05.336120+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -454,7 +454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T20:02:36.748775+09:00",
+      "last_updated": "2026-05-21T20:05:04.024258+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -652,7 +652,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T19:53:13.045480+09:00",
+      "last_updated": "2026-05-21T20:03:11.605944+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -661,8 +661,8 @@
       "dow": "土",
       "open_count": 25,
       "booked_count": 7,
-      "new_count": 2,
-      "revisit_count": 5,
+      "new_count": 3,
+      "revisit_count": 4,
       "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "12:10",
@@ -675,7 +675,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 6,
+        "gcal": 7,
         "GMO": 2,
         "クロン": 1
       },
@@ -816,7 +816,15 @@
               "end_time": "13:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "寺沢 優舞",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "13:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1101,7 +1109,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T19:53:40.367043+09:00",
+      "last_updated": "2026-05-21T20:03:38.608690+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1485,7 +1493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T19:54:11.991184+09:00",
+      "last_updated": "2026-05-21T20:04:10.252058+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1769,7 +1777,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T19:54:43.896848+09:00",
+      "last_updated": "2026-05-21T20:04:42.924683+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8000,5 +8008,5 @@
     }
   ],
   "sigma_qualified_count": 74,
-  "sigma_last_run": "2026-05-21T19:58:51.129705"
+  "sigma_last_run": "2026-05-21T20:03:51.844488"
 }
