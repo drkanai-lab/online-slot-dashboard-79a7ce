@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-22T08:14:51.300807+09:00",
+  "generated": "2026-05-22T08:17:13.331641+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-22",
@@ -227,7 +227,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T08:14:50.694339+09:00",
+      "last_updated": "2026-05-22T08:17:12.720038+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4819,7 +4819,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T06:59:00.700870+09:00",
+      "last_updated": "2026-05-22T08:15:21.481323+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4987,7 +4987,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T06:59:37.651856+09:00",
+      "last_updated": "2026-05-22T08:15:57.605923+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5254,7 +5254,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T07:00:15.283122+09:00",
+      "last_updated": "2026-05-22T08:16:35.240118+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5387,13 +5387,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -5422,7 +5422,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T07:00:51.282023+09:00",
+      "last_updated": "2026-05-22T08:17:04.007339+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7845,15 +7845,7 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "戸松 絵理",
-      "date": "2026-05-23",
-      "time": "19:00",
-      "ts": "2026-05-21T20:15:41+09:00"
-    }
-  ],
+  "recent_events": [],
   "sigma_qualified_count": 71,
   "sigma_last_run": "2026-05-22T08:14:01.057061"
 }
