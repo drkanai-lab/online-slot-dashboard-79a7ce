@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T20:12:32.438777+09:00",
+  "generated": "2026-05-21T20:15:05.845273+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -454,7 +454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T20:12:30.622227+09:00",
+      "last_updated": "2026-05-21T20:15:04.512854+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -652,32 +652,33 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T20:03:11.605944+09:00",
+      "last_updated": "2026-05-21T20:13:08.570342+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-23",
       "short": "5/23(土)",
       "dow": "土",
-      "open_count": 25,
-      "booked_count": 7,
+      "open_count": 24,
+      "booked_count": 8,
       "new_count": 3,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "12:10",
-      "last_booked": "18:40",
+      "last_booked": "19:00",
       "per_platform_open": {
         "クロン": 4,
-        "SOKUYAKU": 8,
+        "SOKUYAKU": 7,
         "CLINICS": 13,
         "GMO": 1
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 7,
+        "gcal": 8,
         "GMO": 2,
-        "クロン": 1
+        "クロン": 1,
+        "SOKUYAKU": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -910,12 +911,26 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "戸松 絵理",
+              "visit_type": "再診",
+              "department": "頭痛",
+              "end_time": "19:10"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "戸松 絵理",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:15",
@@ -1109,7 +1124,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T20:03:38.608690+09:00",
+      "last_updated": "2026-05-21T20:13:34.881303+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1493,7 +1508,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T20:04:10.252058+09:00",
+      "last_updated": "2026-05-21T20:14:07.530574+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1777,7 +1792,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T20:04:42.924683+09:00",
+      "last_updated": "2026-05-21T20:14:40.445345+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4717,7 +4732,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:57:01.306045+09:00",
+      "last_updated": "2026-05-21T20:12:59.093611+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5087,7 +5102,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:57:39.562016+09:00",
+      "last_updated": "2026-05-21T20:13:39.346721+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5229,7 +5244,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:58:15.836196+09:00",
+      "last_updated": "2026-05-21T20:14:15.199384+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5397,7 +5412,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T18:58:52.927097+09:00",
+      "last_updated": "2026-05-21T20:14:51.397132+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8008,5 +8023,5 @@
     }
   ],
   "sigma_qualified_count": 74,
-  "sigma_last_run": "2026-05-21T20:08:57.711033"
+  "sigma_last_run": "2026-05-21T20:13:59.324848"
 }
