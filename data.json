@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T09:30:26.162541+09:00",
+  "generated": "2026-05-21T09:31:40.209573+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -1745,7 +1745,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T09:20:36.647537+09:00",
+      "last_updated": "2026-05-21T09:30:36.755931+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1887,7 +1887,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T09:21:07.013799+09:00",
+      "last_updated": "2026-05-21T09:31:08.110715+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2055,7 +2055,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T09:21:37.061803+09:00",
+      "last_updated": "2026-05-21T09:31:38.488628+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7939,7 +7939,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "清水 美穂子",
+      "date": "2026-05-22",
+      "time": "22:30",
+      "ts": "2026-05-21T09:31:39+09:00"
+    }
+  ],
   "sigma_qualified_count": 66,
   "sigma_last_run": "2026-05-21T09:28:49.610507"
 }
