@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T23:45:09.941340+09:00",
+  "generated": "2026-05-21T23:48:08.372554+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-22",
@@ -475,7 +475,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T23:45:08.966857+09:00",
+      "last_updated": "2026-05-21T23:48:07.351723+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -497,7 +497,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 2,
+        "gcal": 3,
         "GMO": 1
       },
       "full_platforms": [
@@ -555,7 +555,15 @@
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "小柳津 正子",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "小柳津 正子",
@@ -679,7 +687,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T23:32:51.074989+09:00",
+      "last_updated": "2026-05-21T23:46:27.654851+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1151,7 +1159,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T23:33:47.517627+09:00",
+      "last_updated": "2026-05-21T23:47:23.712456+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
