@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-21T09:18:07.358107+09:00",
+  "generated": "2026-05-21T09:20:35.091170+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
@@ -447,7 +447,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T09:18:06.046429+09:00",
+      "last_updated": "2026-05-21T09:20:33.754295+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -527,7 +527,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "清水 美穂子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -630,30 +636,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T09:09:09.049370+09:00",
+      "last_updated": "2026-05-21T09:19:06.605321+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-23",
       "short": "5/23(土)",
       "dow": "土",
-      "open_count": 28,
-      "booked_count": 4,
+      "open_count": 27,
+      "booked_count": 5,
       "new_count": 2,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "12:10",
       "last_booked": "18:40",
       "per_platform_open": {
         "クロン": 5,
-        "CLINICS": 15,
+        "CLINICS": 14,
         "SOKUYAKU": 8,
         "GMO": 1
       },
       "per_platform_booked": {
-        "CLINICS": 2,
-        "gcal": 4,
+        "CLINICS": 3,
+        "gcal": 5,
         "GMO": 2
       },
       "full_platforms": [],
@@ -792,11 +798,19 @@
           "time": "13:40",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "13:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "牛田新彩",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "13:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1062,7 +1076,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T09:09:34.576401+09:00",
+      "last_updated": "2026-05-21T09:19:34.481851+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1071,8 +1085,8 @@
       "dow": "日",
       "open_count": 26,
       "booked_count": 3,
-      "new_count": 0,
-      "revisit_count": 3,
+      "new_count": 1,
+      "revisit_count": 2,
       "first_open": "12:10",
       "last_open": "23:50",
       "first_booked": "12:20",
@@ -1085,8 +1099,8 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "GMO": 2,
-        "gcal": 2
+        "gcal": 3,
+        "GMO": 2
       },
       "full_platforms": [],
       "ranges": [
@@ -1124,7 +1138,15 @@
               "end_time": "12:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "HamadaHiroyuki",
+              "visit_type": "初診",
+              "department": "多汗",
+              "end_time": "12:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1438,7 +1460,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T09:10:05.780706+09:00",
+      "last_updated": "2026-05-21T09:20:05.625681+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7910,5 +7932,5 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-21T09:13:49.329375"
+  "sigma_last_run": "2026-05-21T09:18:47.626812"
 }
