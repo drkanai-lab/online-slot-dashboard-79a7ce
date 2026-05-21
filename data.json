@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-21T12:18:37.505015+09:00",
+  "generated": "2026-05-21T12:21:05.690598+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-21",
     "short": "5/21(木)",
-    "time": "12:20",
-    "code": "C",
-    "patient_name": "齋藤篤史",
+    "time": "12:30",
+    "code": "G",
+    "patient_name": "高松　義規",
     "visit_type": "再診",
-    "department": "",
+    "department": "総診",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.20 00:15:30"
+    "qualified_at": "R08.05.20 22:36:40"
   },
   "days": [
     {
@@ -447,7 +447,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T12:18:36.303242+09:00",
+      "last_updated": "2026-05-21T12:21:04.440837+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -659,7 +659,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-21T12:10:56.437462+09:00",
+      "last_updated": "2026-05-21T12:20:56.785272+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7970,5 +7970,5 @@
     }
   ],
   "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-05-21T12:13:57.317856"
+  "sigma_last_run": "2026-05-21T12:18:57.189230"
 }
