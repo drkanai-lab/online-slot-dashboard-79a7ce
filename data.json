@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-22T22:28:37.682123+09:00",
+  "generated": "2026-05-22T22:31:01.332966+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-22",
     "short": "5/22(金)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "小柳津 正子",
+    "patient_name": "久村 直生",
     "visit_type": "再診",
-    "department": "整形",
+    "department": "総診",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.22 22:21:13"
+    "qualified_at": "R08.05.21 18:13:11"
   },
   "days": [
     {
@@ -233,7 +233,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T22:28:36.784321+09:00",
+      "last_updated": "2026-05-22T22:31:00.640680+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7855,5 +7855,5 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 73,
-  "sigma_last_run": "2026-05-22T22:23:56.863555"
+  "sigma_last_run": "2026-05-22T22:29:24.928362"
 }
