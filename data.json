@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T08:30:50.219823+09:00",
+  "generated": "2026-05-23T08:32:28.352097+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 10,
+        "gcal": 11,
         "CLINICS": 6,
         "GMO": 3,
         "SOKUYAKU": 1
@@ -349,7 +349,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "井上太智",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -464,7 +472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T08:29:59.845181+09:00",
+      "last_updated": "2026-05-23T08:32:27.116328+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
