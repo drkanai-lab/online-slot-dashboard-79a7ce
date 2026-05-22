@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T06:31:23.615467+09:00",
+  "generated": "2026-05-23T06:33:49.999633+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -232,7 +232,9 @@
               "patient_name": "松下真也",
               "visit_type": "再診",
               "department": "",
-              "end_time": "14:00"
+              "end_time": "14:00",
+              "qualified": true,
+              "qualified_at": "R08.05.23 06:30:30"
             }
           ],
           "sokuyaku_truth": []
@@ -462,7 +464,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T06:31:22.288917+09:00",
+      "last_updated": "2026-05-23T06:33:48.731324+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8008,6 +8010,6 @@
       "ts": "2026-05-22T21:42:58+09:00"
     }
   ],
-  "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-05-23T06:18:48.676565"
+  "sigma_qualified_count": 60,
+  "sigma_last_run": "2026-05-23T06:33:48.376246"
 }
