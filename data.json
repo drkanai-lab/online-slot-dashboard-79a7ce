@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-22T20:50:54.356519+09:00",
+  "generated": "2026-05-22T20:52:08.414471+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-22",
@@ -1530,7 +1530,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T20:41:04.142912+09:00",
+      "last_updated": "2026-05-22T20:51:06.694166+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1698,7 +1698,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T20:41:34.365091+09:00",
+      "last_updated": "2026-05-22T20:51:36.338298+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2002,7 +2002,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T20:42:05.855219+09:00",
+      "last_updated": "2026-05-22T20:52:07.082155+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3668,21 +3668,24 @@
       "date": "2026-06-06",
       "short": "6/6(土)",
       "dow": "土",
-      "open_count": 32,
-      "booked_count": 0,
-      "new_count": 0,
+      "open_count": 31,
+      "booked_count": 1,
+      "new_count": 1,
       "revisit_count": 0,
       "first_open": "12:00",
       "last_open": "23:50",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "13:30",
+      "last_booked": "13:30",
       "per_platform_open": {
-        "クロン": 5,
+        "クロン": 4,
         "CLINICS": 17,
         "SOKUYAKU": 8,
         "GMO": 3
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "クロン": 1,
+        "gcal": 1
+      },
       "full_platforms": [],
       "ranges": [
         [
@@ -3792,11 +3795,19 @@
           "time": "13:30",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "寺沢 優舞",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "13:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -4057,7 +4068,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T19:35:07.518601+09:00",
+      "last_updated": "2026-05-22T20:51:13.868819+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4328,7 +4339,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T19:35:43.643023+09:00",
+      "last_updated": "2026-05-22T20:51:50.659655+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
