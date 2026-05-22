@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-22T19:57:54.049802+09:00",
+  "generated": "2026-05-22T20:00:15.565195+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-22",
@@ -227,14 +227,14 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T19:57:53.404746+09:00",
+      "last_updated": "2026-05-22T20:00:14.856622+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-23",
       "short": "5/23(土)",
       "dow": "土",
-      "open_count": 22,
+      "open_count": 23,
       "booked_count": 10,
       "new_count": 4,
       "revisit_count": 6,
@@ -245,10 +245,10 @@
       "per_platform_open": {
         "SOKUYAKU": 7,
         "CLINICS": 13,
-        "クロン": 3
+        "クロン": 4
       },
       "per_platform_booked": {
-        "クロン": 2,
+        "クロン": 1,
         "gcal": 10,
         "CLINICS": 4,
         "GMO": 3,
@@ -400,7 +400,7 @@
           "time": "13:30",
           "platforms": {
             "クロン": {
-              "status": "booked",
+              "status": "open",
               "end_time": "13:40"
             }
           },
@@ -719,7 +719,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T19:48:56.545730+09:00",
+      "last_updated": "2026-05-22T19:58:57.035912+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1103,7 +1103,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T19:49:27.626589+09:00",
+      "last_updated": "2026-05-22T19:59:29.036933+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1396,7 +1396,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-22T19:49:59.016533+09:00",
+      "last_updated": "2026-05-22T20:00:01.163702+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7884,5 +7884,5 @@
     }
   ],
   "sigma_qualified_count": 72,
-  "sigma_last_run": "2026-05-22T19:53:53.242062"
+  "sigma_last_run": "2026-05-22T19:58:53.051127"
 }
