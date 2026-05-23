@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-23T22:50:14.775125+09:00",
+  "generated": "2026-05-23T22:52:39.266155+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
     "short": "5/23(土)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "久保田　里菜",
+    "visit_type": "初診",
+    "department": "肛門",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.23 10:46:34"
   },
   "days": [
     {
@@ -490,7 +492,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T22:50:13.768516+09:00",
+      "last_updated": "2026-05-23T22:52:38.241890+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
