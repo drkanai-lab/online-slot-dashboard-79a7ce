@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T16:46:02.635212+09:00",
+  "generated": "2026-05-23T16:48:26.746514+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -483,7 +483,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T16:46:01.606623+09:00",
+      "last_updated": "2026-05-23T16:48:25.808528+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -505,7 +505,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 4,
+        "gcal": 5,
         "GMO": 3,
         "クロン": 1
       },
@@ -743,7 +743,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "三木 豪人",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -880,7 +888,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T16:37:59.402958+09:00",
+      "last_updated": "2026-05-23T16:48:21.633888+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
