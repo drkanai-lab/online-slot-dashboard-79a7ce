@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T15:28:04.021954+09:00",
+  "generated": "2026-05-23T15:29:30.193856+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -1482,7 +1482,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T15:18:14.333348+09:00",
+      "last_updated": "2026-05-23T15:28:26.521582+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1538,13 +1538,7 @@
               "end_time": "11:40"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "馬場 友萌",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "11:45",
@@ -1563,13 +1557,7 @@
               "end_time": "11:55"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "長谷川 春美",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "12:00",
@@ -1786,7 +1774,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T15:18:46.135006+09:00",
+      "last_updated": "2026-05-23T15:28:58.073515+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1954,7 +1942,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T15:19:16.797784+09:00",
+      "last_updated": "2026-05-23T15:29:28.013700+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7794,5 +7782,5 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-23T15:23:53.553672"
+  "sigma_last_run": "2026-05-23T15:28:52.974701"
 }
