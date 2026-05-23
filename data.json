@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T18:47:36.897073+09:00",
+  "generated": "2026-05-23T18:50:02.095527+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -18,24 +18,24 @@
       "date": "2026-05-23",
       "short": "5/23(土)",
       "dow": "土",
-      "open_count": 15,
-      "booked_count": 11,
+      "open_count": 14,
+      "booked_count": 12,
       "new_count": 4,
-      "revisit_count": 7,
+      "revisit_count": 8,
       "first_open": "12:00",
       "last_open": "23:45",
       "first_booked": "12:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 4,
-        "SOKUYAKU": 7,
+        "SOKUYAKU": 6,
         "CLINICS": 5
       },
       "per_platform_booked": {
         "CLINICS": 7,
         "gcal": 11,
         "GMO": 3,
-        "SOKUYAKU": 1
+        "SOKUYAKU": 2
       },
       "full_platforms": [
         {
@@ -311,12 +311,18 @@
           "time": "19:15",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:30"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "酒井 善弘",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:30",
@@ -475,7 +481,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T18:47:35.887233+09:00",
+      "last_updated": "2026-05-23T18:50:00.802275+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7779,5 +7785,5 @@
     }
   ],
   "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-05-23T18:43:53.960851"
+  "sigma_last_run": "2026-05-23T18:48:54.929374"
 }
