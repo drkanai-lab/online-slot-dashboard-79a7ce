@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T17:41:53.830145+09:00",
+  "generated": "2026-05-23T17:44:17.288341+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 11,
+        "gcal": 12,
         "GMO": 3,
         "SOKUYAKU": 1
       },
@@ -367,7 +367,15 @@
               "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "小澤親平",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -473,7 +481,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T17:41:52.867781+09:00",
+      "last_updated": "2026-05-23T17:44:16.341608+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7777,5 +7785,5 @@
     }
   ],
   "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-05-23T17:38:36.462702"
+  "sigma_last_run": "2026-05-23T17:43:54.682312"
 }
