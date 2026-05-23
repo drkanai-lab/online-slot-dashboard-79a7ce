@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T10:46:54.204689+09:00",
+  "generated": "2026-05-23T10:49:19.026517+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -430,7 +430,9 @@
               "patient_name": "久保田　里菜",
               "visit_type": "初診",
               "department": "肛門",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.05.23 10:46:34"
             }
           ],
           "sokuyaku_truth": []
@@ -484,7 +486,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T10:46:52.812514+09:00",
+      "last_updated": "2026-05-23T10:49:17.817412+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2920,7 +2922,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T09:30:37.793643+09:00",
+      "last_updated": "2026-05-23T10:47:15.108474+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3062,7 +3064,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T09:31:10.872277+09:00",
+      "last_updated": "2026-05-23T10:47:49.345045+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3106,7 +3108,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T09:31:44.088128+09:00",
+      "last_updated": "2026-05-23T10:48:21.867278+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3396,7 +3398,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T09:32:20.123642+09:00",
+      "last_updated": "2026-05-23T10:48:57.863344+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8024,6 +8026,6 @@
       "ts": "2026-05-23T08:42:13+09:00"
     }
   ],
-  "sigma_qualified_count": 62,
-  "sigma_last_run": "2026-05-23T10:43:53.664449"
+  "sigma_qualified_count": 63,
+  "sigma_last_run": "2026-05-23T10:48:58.932054"
 }
