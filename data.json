@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T14:12:56.200258+09:00",
+  "generated": "2026-05-23T14:15:27.074125+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -31,8 +31,8 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 13,
         "CLINICS": 8,
+        "gcal": 12,
         "GMO": 3,
         "SOKUYAKU": 1
       },
@@ -66,17 +66,7 @@
               "end_time": "12:10"
             }
           },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "渡邊 陽香",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "12:10",
-              "qualified": true,
-              "qualified_at": "R08.05.17 00:00:27"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -494,7 +484,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T14:12:54.844284+09:00",
+      "last_updated": "2026-05-23T14:15:25.583865+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7805,5 +7795,5 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-23T14:08:52.210486"
+  "sigma_last_run": "2026-05-23T14:13:51.557930"
 }
