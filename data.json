@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T10:44:29.169932+09:00",
+  "generated": "2026-05-23T10:46:54.204689+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -484,7 +484,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T10:44:27.973689+09:00",
+      "last_updated": "2026-05-23T10:46:52.812514+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1962,7 +1962,7 @@
       "date": "2026-05-30",
       "short": "5/30(土)",
       "dow": "土",
-      "open_count": 14,
+      "open_count": 13,
       "booked_count": 2,
       "new_count": 0,
       "revisit_count": 2,
@@ -1972,9 +1972,9 @@
       "last_booked": "13:00",
       "per_platform_open": {
         "SOKUYAKU": 5,
-        "GMO": 2,
         "クロン": 2,
-        "CLINICS": 6
+        "CLINICS": 6,
+        "GMO": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
@@ -1988,15 +1988,11 @@
           "13:10"
         ],
         [
-          "18:30",
-          "18:40"
-        ],
-        [
           "22:00",
           "24:00"
         ]
       ],
-      "range_text": "12:30〜13:10, 18:30〜18:40, 22:00〜24:00",
+      "range_text": "12:30〜13:10, 22:00〜24:00",
       "slots": [
         {
           "time": "12:00",
@@ -2071,17 +2067,6 @@
             "クロン": {
               "status": "closed",
               "end_time": "13:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:30",
-          "platforms": {
-            "GMO": {
-              "status": "open",
-              "end_time": "18:40"
             }
           },
           "gcals": [],
@@ -2200,13 +2185,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [],
@@ -2235,7 +2220,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T09:29:31.976621+09:00",
+      "last_updated": "2026-05-23T10:46:05.300319+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2257,7 +2242,8 @@
         "クロン": 3
       },
       "per_platform_booked": {
-        "CLINICS": 1
+        "CLINICS": 1,
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -2285,7 +2271,15 @@
               "slot_closed": true
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "宮地一成",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2524,7 +2518,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T09:30:08.525802+09:00",
+      "last_updated": "2026-05-23T10:46:40.215226+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
