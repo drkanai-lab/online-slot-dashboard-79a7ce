@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T18:37:52.104428+09:00",
+  "generated": "2026-05-23T18:40:17.277904+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -16,10 +16,10 @@
       "date": "2026-05-23",
       "short": "5/23(土)",
       "dow": "土",
-      "open_count": 14,
-      "booked_count": 12,
+      "open_count": 15,
+      "booked_count": 11,
       "new_count": 4,
-      "revisit_count": 8,
+      "revisit_count": 7,
       "first_open": "12:00",
       "last_open": "23:45",
       "first_booked": "12:10",
@@ -27,11 +27,11 @@
       "per_platform_open": {
         "クロン": 4,
         "SOKUYAKU": 7,
-        "CLINICS": 4
+        "CLINICS": 5
       },
       "per_platform_booked": {
-        "CLINICS": 8,
-        "gcal": 12,
+        "CLINICS": 7,
+        "gcal": 11,
         "GMO": 3,
         "SOKUYAKU": 1
       },
@@ -363,19 +363,11 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "booked",
-              "end_time": "22:30"
+              "status": "open",
+              "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "小澤親平",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:30"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -481,7 +473,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T18:37:50.777412+09:00",
+      "last_updated": "2026-05-23T18:40:16.074474+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -886,7 +878,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T18:29:47.109510+09:00",
+      "last_updated": "2026-05-23T18:39:55.920932+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7785,5 +7777,5 @@
     }
   ],
   "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-05-23T18:33:54.233169"
+  "sigma_last_run": "2026-05-23T18:38:55.483842"
 }
