@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-23T21:59:22.621107+09:00",
+  "generated": "2026-05-23T22:01:49.056270+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
     "short": "5/23(土)",
-    "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "井上太智",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.23 09:20:42"
   },
   "days": [
     {
@@ -491,7 +493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T21:59:21.529626+09:00",
+      "last_updated": "2026-05-23T22:01:48.032487+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
