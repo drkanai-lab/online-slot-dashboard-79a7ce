@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T15:37:41.569427+09:00",
+  "generated": "2026-05-23T15:39:33.501165+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -1304,7 +1304,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T15:27:53.666140+09:00",
+      "last_updated": "2026-05-23T15:38:02.588443+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1472,7 +1472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T15:28:26.521582+09:00",
+      "last_updated": "2026-05-23T15:38:33.103086+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1481,8 +1481,8 @@
       "dow": "木",
       "open_count": 16,
       "booked_count": 4,
-      "new_count": 1,
-      "revisit_count": 3,
+      "new_count": 0,
+      "revisit_count": 4,
       "first_open": "12:10",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -1495,8 +1495,8 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 4,
-        "CLINICS": 2
+        "CLINICS": 2,
+        "gcal": 2
       },
       "full_platforms": [],
       "ranges": [
@@ -1519,16 +1519,14 @@
               "end_time": "11:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "馬場 友萌",
               "visit_type": "再診",
-              "department": "整形",
-              "end_time": "11:40"
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "11:45",
@@ -1538,16 +1536,14 @@
               "end_time": "12:00"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "長谷川 春美",
-              "visit_type": "初診",
-              "department": "整形",
-              "end_time": "11:55"
+              "visit_type": "再診",
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "12:00",
@@ -1764,7 +1760,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T15:28:58.073515+09:00",
+      "last_updated": "2026-05-23T15:39:03.942817+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1897,13 +1893,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -1932,7 +1928,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T15:29:28.013700+09:00",
+      "last_updated": "2026-05-23T15:39:31.948779+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7772,5 +7768,5 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-23T15:33:53.567369"
+  "sigma_last_run": "2026-05-23T15:38:53.483236"
 }
