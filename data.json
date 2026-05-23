@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T18:57:17.268490+09:00",
+  "generated": "2026-05-23T18:59:42.929542+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -321,14 +321,18 @@
               "patient_name": "酒井 善弘",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "19:25"
+              "end_time": "19:25",
+              "qualified": true,
+              "qualified_at": "R08.05.23 18:52:18"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "酒井 善弘",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.23 18:52:18"
             }
           ]
         },
@@ -489,7 +493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T18:57:16.114013+09:00",
+      "last_updated": "2026-05-23T18:59:41.952165+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7792,6 +7796,6 @@
       "ts": "2026-05-23T08:42:13+09:00"
     }
   ],
-  "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-05-23T18:53:53.888331"
+  "sigma_qualified_count": 71,
+  "sigma_last_run": "2026-05-23T18:59:00.474884"
 }
