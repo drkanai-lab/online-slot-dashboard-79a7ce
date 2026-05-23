@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-23T09:21:54.583781+09:00",
+  "generated": "2026-05-23T09:23:54.237058+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-23",
@@ -363,7 +363,9 @@
               "patient_name": "井上太智",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.23 09:20:42"
             }
           ],
           "sokuyaku_truth": []
@@ -480,7 +482,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-23T09:21:28.189538+09:00",
+      "last_updated": "2026-05-23T09:23:53.281150+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -8033,6 +8035,6 @@
       "ts": "2026-05-23T08:42:13+09:00"
     }
   ],
-  "sigma_qualified_count": 60,
-  "sigma_last_run": "2026-05-23T09:18:51.359106"
+  "sigma_qualified_count": 61,
+  "sigma_last_run": "2026-05-23T09:23:49.075416"
 }
