@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-24T22:20:27.053620+09:00",
+  "generated": "2026-05-24T22:22:20.927835+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
     "short": "5/24(日)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "山岡恭子",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "木村 和美",
     "visit_type": "再診",
-    "department": "",
+    "department": "皮膚",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.24 20:03:19"
+    "qualified_at": "R08.05.24 19:30:44"
   },
   "days": [
     {
@@ -869,7 +869,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:11:19.794162+09:00",
+      "last_updated": "2026-05-24T22:20:42.964844+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1037,7 +1037,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:11:43.288012+09:00",
+      "last_updated": "2026-05-24T22:21:06.789281+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1325,7 +1325,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:12:08.983656+09:00",
+      "last_updated": "2026-05-24T22:21:31.565154+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1493,7 +1493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:12:32.275411+09:00",
+      "last_updated": "2026-05-24T22:21:54.954404+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1758,7 +1758,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:12:55.440878+09:00",
+      "last_updated": "2026-05-24T22:22:18.773251+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7489,12 +7489,19 @@
       "date": "2026-05-24",
       "time": "22:30",
       "ts": "2026-05-24T19:28:43+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "高木 大輔",
+      "date": "2026-05-25",
+      "time": "19:00",
+      "ts": "2026-05-24T22:22:20+09:00"
     }
   ],
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-05-24T22:18:50.769382",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T22:19:04.263510+09:00",
+    "fetched_at": "2026-05-24T22:21:34.912128+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
