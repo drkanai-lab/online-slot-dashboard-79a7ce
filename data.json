@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-24T18:28:28.444855+09:00",
+  "generated": "2026-05-24T18:31:00.326518+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
     "short": "5/24(日)",
-    "time": "18:30",
-    "code": "G",
-    "patient_name": "渡邉　裕正",
+    "time": "22:00",
+    "code": "K",
+    "patient_name": "三木 豪人",
     "visit_type": "再診",
-    "department": "耳鼻",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.23 16:59:57"
+    "qualified_at": "R08.05.23 17:00:19"
   },
   "days": [
     {
@@ -365,7 +365,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T18:28:26.512052+09:00",
+      "last_updated": "2026-05-24T18:30:59.102702+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6911,7 +6911,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T17:13:18.594432+09:00",
+      "last_updated": "2026-05-24T18:28:35.502741+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7270,7 +7270,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T17:13:58.869797+09:00",
+      "last_updated": "2026-05-24T18:29:16.079168+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7412,7 +7412,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T17:14:38.310003+09:00",
+      "last_updated": "2026-05-24T18:29:55.736894+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -7428,7 +7428,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-24T18:28:54.316153",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T18:27:03.162675+09:00",
+    "fetched_at": "2026-05-24T18:29:36.965240+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
