@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T13:12:43.860063+09:00",
+  "generated": "2026-05-24T13:14:00.435040+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -174,7 +174,9 @@
               "patient_name": "下津紀行",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "13:20"
+              "end_time": "13:20",
+              "qualified": true,
+              "qualified_at": "R08.05.24 13:08:03"
             }
           ],
           "sokuyaku_truth": []
@@ -466,7 +468,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T13:11:29.182595+09:00",
+      "last_updated": "2026-05-24T13:13:59.141332+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7526,10 +7528,10 @@
       "ts": "2026-05-24T07:07:40+09:00"
     }
   ],
-  "sigma_qualified_count": 63,
-  "sigma_last_run": "2026-05-24T13:08:52.839445",
+  "sigma_qualified_count": 64,
+  "sigma_last_run": "2026-05-24T13:13:52.741616",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T13:10:07.581364+09:00",
+    "fetched_at": "2026-05-24T13:12:38.251932+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
