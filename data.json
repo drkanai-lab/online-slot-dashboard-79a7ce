@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T23:34:05.340204+09:00",
+  "generated": "2026-05-24T23:38:17.300065+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -16,7 +16,7 @@
       "date": "2026-05-24",
       "short": "5/24(日)",
       "dow": "日",
-      "open_count": 6,
+      "open_count": 4,
       "booked_count": 11,
       "new_count": 5,
       "revisit_count": 6,
@@ -26,13 +26,11 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 3,
-        "SOKUYAKU": 2
+        "CLINICS": 3
       },
       "per_platform_booked": {
         "CLINICS": 5,
         "gcal": 11,
-        "SOKUYAKU": 2,
         "GMO": 3,
         "クロン": 1
       },
@@ -45,6 +43,10 @@
       "ranges": [
         [
           "12:00",
+          "12:30"
+        ],
+        [
+          "13:00",
           "13:30"
         ],
         [
@@ -56,7 +58,7 @@
           "23:20"
         ]
       ],
-      "range_text": "12:00〜13:30, 18:30〜18:40, 22:00〜23:20",
+      "range_text": "12:00〜12:30, 13:00〜13:30, 18:30〜18:40, 22:00〜23:20",
       "slots": [
         {
           "time": "12:00",
@@ -101,12 +103,7 @@
         },
         {
           "time": "12:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "12:45"
-            }
-          },
+          "platforms": {},
           "gcals": [
             {
               "code": "S",
@@ -118,25 +115,6 @@
               "qualified_at": "R08.05.24 11:09:56"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "太田 康喜",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.05.24 11:09:56"
-            }
-          ]
-        },
-        {
-          "time": "12:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "13:00"
-            }
-          },
-          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -297,12 +275,7 @@
         },
         {
           "time": "22:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "22:45"
-            }
-          },
+          "platforms": {},
           "gcals": [
             {
               "code": "S",
@@ -314,25 +287,6 @@
               "qualified_at": "R08.05.24 19:30:44"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "木村 和美",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.05.24 19:30:44"
-            }
-          ]
-        },
-        {
-          "time": "22:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:00"
-            }
-          },
-          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -390,7 +344,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:34:03.868650+09:00",
+      "last_updated": "2026-05-24T23:38:15.499105+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -710,7 +664,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:27:27.538549+09:00",
+      "last_updated": "2026-05-24T23:38:16.000199+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
