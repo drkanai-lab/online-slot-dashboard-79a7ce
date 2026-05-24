@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T11:28:11.171794+09:00",
+  "generated": "2026-05-24T11:30:05.864129+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -456,7 +456,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:27:27.059548+09:00",
+      "last_updated": "2026-05-24T11:30:04.198386+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7509,14 +7509,18 @@
     }
   ],
   "sigma_qualified_count": 63,
-  "sigma_last_run": "2026-05-24T11:23:54.140053",
+  "sigma_last_run": "2026-05-24T11:28:53.094293",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T11:27:09.655303+09:00",
-    "scrape_ok": false,
-    "errors": [
-      "client cert not found"
+    "fetched_at": "2026-05-24T11:28:39.264181+09:00",
+    "scrape_ok": true,
+    "errors": [],
+    "menus": [
+      {
+        "menu_name": "default",
+        "patient_count": 0,
+        "patients": []
+      }
     ],
-    "menus": [],
     "patients_flat": []
   }
 }
