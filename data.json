@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T11:13:16.575090+09:00",
+  "generated": "2026-05-24T11:15:40.314872+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -102,14 +102,18 @@
               "patient_name": "太田 康喜",
               "visit_type": "再診",
               "department": "小児",
-              "end_time": "12:40"
+              "end_time": "12:40",
+              "qualified": true,
+              "qualified_at": "R08.05.24 11:09:56"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "太田 康喜",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.24 11:09:56"
             }
           ]
         },
@@ -443,7 +447,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:13:15.318879+09:00",
+      "last_updated": "2026-05-24T11:15:39.059992+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7487,6 +7491,6 @@
       "ts": "2026-05-24T07:07:40+09:00"
     }
   ],
-  "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-05-24T11:08:55.777007"
+  "sigma_qualified_count": 62,
+  "sigma_last_run": "2026-05-24T11:14:05.065916"
 }
