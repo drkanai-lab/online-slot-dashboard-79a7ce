@@ -1,14 +1,14 @@
 {
-  "generated": "2026-05-24T12:58:51.824282+09:00",
+  "generated": "2026-05-24T13:01:22.309771+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
     "short": "5/24(日)",
-    "time": "13:00",
-    "code": "G",
-    "patient_name": "松井　伸雄",
-    "visit_type": "再診",
-    "department": "消内",
+    "time": "13:10",
+    "code": "C",
+    "patient_name": "下津紀行",
+    "visit_type": "初診",
+    "department": "皮膚",
     "status": "booked"
   },
   "days": [
@@ -464,7 +464,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T12:58:50.223817+09:00",
+      "last_updated": "2026-05-24T13:01:20.977512+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -769,7 +769,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T12:51:46.370877+09:00",
+      "last_updated": "2026-05-24T13:01:12.068321+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7527,7 +7527,7 @@
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-05-24T12:58:53.210689",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T12:57:27.811895+09:00",
+    "fetched_at": "2026-05-24T12:59:58.997702+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
