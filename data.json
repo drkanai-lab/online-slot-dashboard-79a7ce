@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T21:27:39.864042+09:00",
+  "generated": "2026-05-24T21:30:09.137402+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -18,17 +18,17 @@
       "date": "2026-05-24",
       "short": "5/24(日)",
       "dow": "日",
-      "open_count": 5,
+      "open_count": 6,
       "booked_count": 11,
       "new_count": 5,
       "revisit_count": 6,
       "first_open": "12:00",
-      "last_open": "22:50",
+      "last_open": "23:10",
       "first_booked": "12:20",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 2,
+        "CLINICS": 3,
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
@@ -55,10 +55,10 @@
         ],
         [
           "22:00",
-          "23:10"
+          "23:20"
         ]
       ],
-      "range_text": "12:00〜13:30, 18:30〜18:40, 22:00〜23:10",
+      "range_text": "12:00〜13:30, 18:30〜18:40, 22:00〜23:20",
       "slots": [
         {
           "time": "12:00",
@@ -370,6 +370,17 @@
           "sokuyaku_truth": []
         },
         {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
           "time": "23:30",
           "platforms": {
             "クロン": {
@@ -381,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T21:27:38.504424+09:00",
+      "last_updated": "2026-05-24T21:30:07.331195+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7451,9 +7462,9 @@
     }
   ],
   "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-05-24T21:23:57.879094",
+  "sigma_last_run": "2026-05-24T21:29:19.015802",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T21:26:17.803190+09:00",
+    "fetched_at": "2026-05-24T21:28:47.205037+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
