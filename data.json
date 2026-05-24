@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T19:18:38.740581+09:00",
+  "generated": "2026-05-24T19:21:10.351325+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -20,8 +20,8 @@
       "dow": "日",
       "open_count": 9,
       "booked_count": 9,
-      "new_count": 4,
-      "revisit_count": 5,
+      "new_count": 5,
+      "revisit_count": 4,
       "first_open": "12:00",
       "last_open": "23:20",
       "first_booked": "12:20",
@@ -267,9 +267,11 @@
             {
               "code": "C",
               "patient_name": "三戸豪士",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "花粉",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.24 19:15:44"
             }
           ],
           "sokuyaku_truth": []
@@ -373,7 +375,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:18:36.510628+09:00",
+      "last_updated": "2026-05-24T19:21:09.097580+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -678,7 +680,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:10:54.400853+09:00",
+      "last_updated": "2026-05-24T19:20:35.690649+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -820,7 +822,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:11:18.735927+09:00",
+      "last_updated": "2026-05-24T19:21:00.158590+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7425,10 +7427,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-24T19:13:54.219149",
+  "sigma_qualified_count": 66,
+  "sigma_last_run": "2026-05-24T19:18:55.061600",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T19:17:15.478847+09:00",
+    "fetched_at": "2026-05-24T19:19:46.159487+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
