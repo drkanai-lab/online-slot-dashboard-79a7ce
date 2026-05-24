@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-24T22:30:32.397334+09:00",
+  "generated": "2026-05-24T22:31:49.073780+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
     "short": "5/24(日)",
-    "time": "22:30",
-    "code": "S",
-    "patient_name": "木村 和美",
-    "visit_type": "再診",
-    "department": "皮膚",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.24 19:30:44"
+    "time": "22:45",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -1037,7 +1035,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:21:06.789281+09:00",
+      "last_updated": "2026-05-24T22:30:34.436466+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1325,7 +1323,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:21:31.565154+09:00",
+      "last_updated": "2026-05-24T22:31:00.240122+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1493,7 +1491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:21:54.954404+09:00",
+      "last_updated": "2026-05-24T22:31:24.160890+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1758,7 +1756,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:22:18.773251+09:00",
+      "last_updated": "2026-05-24T22:31:47.816438+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7501,7 +7499,7 @@
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-05-24T22:29:02.632047",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T22:29:05.463858+09:00",
+    "fetched_at": "2026-05-24T22:31:40.732712+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
