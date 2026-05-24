@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T19:26:12.837201+09:00",
+  "generated": "2026-05-24T19:28:43.524074+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -18,10 +18,10 @@
       "date": "2026-05-24",
       "short": "5/24(日)",
       "dow": "日",
-      "open_count": 9,
-      "booked_count": 9,
+      "open_count": 8,
+      "booked_count": 10,
       "new_count": 5,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "12:00",
       "last_open": "23:20",
       "first_booked": "12:20",
@@ -29,12 +29,12 @@
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 5,
-        "SOKUYAKU": 3
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 9,
-        "SOKUYAKU": 1,
+        "gcal": 10,
+        "SOKUYAKU": 2,
         "GMO": 3,
         "クロン": 1
       },
@@ -291,11 +291,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "木村 和美",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "木村 和美",
@@ -381,7 +389,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:26:11.464784+09:00",
+      "last_updated": "2026-05-24T19:28:41.925886+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7432,11 +7440,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "木村 和美",
+      "date": "2026-05-24",
+      "time": "22:30",
+      "ts": "2026-05-24T19:28:43+09:00"
+    }
+  ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-05-24T19:23:53.294472",
+  "sigma_last_run": "2026-05-24T19:28:53.787922",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T19:24:49.032875+09:00",
+    "fetched_at": "2026-05-24T19:27:20.283283+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
