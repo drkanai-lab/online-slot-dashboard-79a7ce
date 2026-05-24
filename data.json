@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T00:43:40.130604+09:00",
+  "generated": "2026-05-25T00:46:08.741411+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -272,7 +272,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "古谷 沙織",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -349,7 +355,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T00:43:38.849274+09:00",
+      "last_updated": "2026-05-25T00:46:07.481445+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6446,7 +6452,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:29:00.243166+09:00",
+      "last_updated": "2026-05-25T00:43:59.655997+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6625,7 +6631,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:29:40.506000+09:00",
+      "last_updated": "2026-05-25T00:44:39.340852+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6984,7 +6990,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:30:20.463321+09:00",
+      "last_updated": "2026-05-25T00:45:18.776569+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7126,7 +7132,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:30:59.729193+09:00",
+      "last_updated": "2026-05-25T00:45:59.158736+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7148,7 +7154,7 @@
       "range_text": "",
       "slots": [],
       "last_updated": null,
-      "sokuyaku_reserve_ok": false
+      "sokuyaku_reserve_ok": true
     }
   ],
   "recent_events": [
@@ -7163,7 +7169,7 @@
   "sigma_qualified_count": 62,
   "sigma_last_run": "2026-05-25T00:33:51.159204",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T00:42:18.526109+09:00",
+    "fetched_at": "2026-05-25T00:44:48.225571+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
