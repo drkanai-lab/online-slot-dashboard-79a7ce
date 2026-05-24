@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T00:18:37.360532+09:00",
+  "generated": "2026-05-25T00:19:58.097787+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -182,7 +182,9 @@
               "patient_name": "村上桃花",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "19:30"
+              "end_time": "19:30",
+              "qualified": true,
+              "qualified_at": "R08.05.25 00:15:44"
             }
           ],
           "sokuyaku_truth": []
@@ -1139,7 +1141,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T00:09:30.213356+09:00",
+      "last_updated": "2026-05-25T00:19:02.299517+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1404,7 +1406,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T00:09:53.797406+09:00",
+      "last_updated": "2026-05-25T00:19:26.278686+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1702,7 +1704,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T00:10:24.852443+09:00",
+      "last_updated": "2026-05-25T00:19:56.874881+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7158,10 +7160,10 @@
       "ts": "2026-05-24T22:22:20+09:00"
     }
   ],
-  "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-05-25T00:03:53.784677",
+  "sigma_qualified_count": 62,
+  "sigma_last_run": "2026-05-25T00:18:50.959462",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T00:17:14.517931+09:00",
+    "fetched_at": "2026-05-25T00:19:45.385110+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
