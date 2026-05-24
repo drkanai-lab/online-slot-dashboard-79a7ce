@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T09:52:52.962836+09:00",
+  "generated": "2026-05-24T09:53:58.426640+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -18,8 +18,8 @@
       "dow": "日",
       "open_count": 22,
       "booked_count": 7,
-      "new_count": 2,
-      "revisit_count": 5,
+      "new_count": 3,
+      "revisit_count": 4,
       "first_open": "12:10",
       "last_open": "23:50",
       "first_booked": "12:20",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 6,
+        "gcal": 7,
         "SOKUYAKU": 1,
         "GMO": 3,
         "クロン": 1
@@ -166,7 +166,15 @@
               "end_time": "13:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "秋山宏通",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "13:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -435,7 +443,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T09:51:35.219164+09:00",
+      "last_updated": "2026-05-24T09:53:57.136791+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7476,5 +7484,5 @@
     }
   ],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-05-24T09:48:52.085335"
+  "sigma_last_run": "2026-05-24T09:53:52.123330"
 }
