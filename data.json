@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T19:56:32.383397+09:00",
+  "generated": "2026-05-24T19:59:06.134463+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 5,
-        "gcal": 10,
+        "gcal": 11,
         "SOKUYAKU": 2,
         "GMO": 3,
         "クロン": 1
@@ -284,7 +284,15 @@
               "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "山岡恭子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -371,7 +379,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:56:30.885104+09:00",
+      "last_updated": "2026-05-24T19:59:04.880784+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -676,7 +684,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:48:59.541512+09:00",
+      "last_updated": "2026-05-24T19:58:27.050587+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -818,7 +826,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:49:22.976357+09:00",
+      "last_updated": "2026-05-24T19:58:50.489181+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7441,9 +7449,9 @@
     }
   ],
   "sigma_qualified_count": 67,
-  "sigma_last_run": "2026-05-24T19:53:53.558327",
+  "sigma_last_run": "2026-05-24T19:58:54.534705",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T19:55:07.234125+09:00",
+    "fetched_at": "2026-05-24T19:57:41.711279+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
