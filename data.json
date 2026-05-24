@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T11:35:13.919870+09:00",
+  "generated": "2026-05-24T11:37:37.453035+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -761,7 +761,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:26:07.714722+09:00",
+      "last_updated": "2026-05-24T11:35:32.115172+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -903,7 +903,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:26:31.810952+09:00",
+      "last_updated": "2026-05-24T11:35:56.741844+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1071,7 +1071,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:26:55.348048+09:00",
+      "last_updated": "2026-05-24T11:36:21.592238+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1359,7 +1359,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:27:22.035713+09:00",
+      "last_updated": "2026-05-24T11:36:47.463269+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1527,7 +1527,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:27:46.026797+09:00",
+      "last_updated": "2026-05-24T11:37:11.819446+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1792,7 +1792,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:28:09.782491+09:00",
+      "last_updated": "2026-05-24T11:37:36.169985+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7511,16 +7511,138 @@
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-05-24T11:33:53.186322",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T11:33:49.854761+09:00",
+    "fetched_at": "2026-05-24T11:36:21.366291+09:00",
     "scrape_ok": true,
     "errors": [],
     "menus": [
       {
         "menu_name": "default",
-        "patient_count": 0,
-        "patients": []
+        "patient_count": 3,
+        "patients": [
+          {
+            "patient_name": "西川　裕美",
+            "patient_name_kana": "ニシカワ　ユミ",
+            "patient_id": 12000,
+            "status": "waiting",
+            "applied_at": "",
+            "raw": {
+              "patientName": "西川　裕美",
+              "patientNameKana": "ニシカワ　ユミ",
+              "patientID": 12000,
+              "patientNumber": 0,
+              "phoneNumber1": "08069625944",
+              "phoneNumber2": "",
+              "birthdate": "1992-11-24T00:00:00Z",
+              "portalCustomerId": 13538,
+              "isTester": 0,
+              "__typename": "Patient"
+            },
+            "menu": "default"
+          },
+          {
+            "patient_name": "渡邉　裕正",
+            "patient_name_kana": "ワタナベ　ヒロマサ",
+            "patient_id": 6348,
+            "status": "waiting",
+            "applied_at": "",
+            "raw": {
+              "patientName": "渡邉　裕正",
+              "patientNameKana": "ワタナベ　ヒロマサ",
+              "patientID": 6348,
+              "patientNumber": 0,
+              "phoneNumber1": "09013719305",
+              "phoneNumber2": "",
+              "birthdate": "1979-01-16T00:00:00Z",
+              "portalCustomerId": 11145,
+              "isTester": 0,
+              "__typename": "Patient"
+            },
+            "menu": "default"
+          },
+          {
+            "patient_name": "松井　伸雄",
+            "patient_name_kana": "マツイ　ノブオ",
+            "patient_id": 13272,
+            "status": "waiting",
+            "applied_at": "",
+            "raw": {
+              "patientName": "松井　伸雄",
+              "patientNameKana": "マツイ　ノブオ",
+              "patientID": 13272,
+              "patientNumber": 0,
+              "phoneNumber1": "08011780055",
+              "phoneNumber2": "",
+              "birthdate": "1964-05-31T00:00:00Z",
+              "portalCustomerId": 16910,
+              "isTester": 0,
+              "__typename": "Patient"
+            },
+            "menu": "default"
+          }
+        ]
       }
     ],
-    "patients_flat": []
+    "patients_flat": [
+      {
+        "patient_name": "西川　裕美",
+        "patient_name_kana": "ニシカワ　ユミ",
+        "patient_id": 12000,
+        "status": "waiting",
+        "applied_at": "",
+        "raw": {
+          "patientName": "西川　裕美",
+          "patientNameKana": "ニシカワ　ユミ",
+          "patientID": 12000,
+          "patientNumber": 0,
+          "phoneNumber1": "08069625944",
+          "phoneNumber2": "",
+          "birthdate": "1992-11-24T00:00:00Z",
+          "portalCustomerId": 13538,
+          "isTester": 0,
+          "__typename": "Patient"
+        },
+        "menu": "default"
+      },
+      {
+        "patient_name": "渡邉　裕正",
+        "patient_name_kana": "ワタナベ　ヒロマサ",
+        "patient_id": 6348,
+        "status": "waiting",
+        "applied_at": "",
+        "raw": {
+          "patientName": "渡邉　裕正",
+          "patientNameKana": "ワタナベ　ヒロマサ",
+          "patientID": 6348,
+          "patientNumber": 0,
+          "phoneNumber1": "09013719305",
+          "phoneNumber2": "",
+          "birthdate": "1979-01-16T00:00:00Z",
+          "portalCustomerId": 11145,
+          "isTester": 0,
+          "__typename": "Patient"
+        },
+        "menu": "default"
+      },
+      {
+        "patient_name": "松井　伸雄",
+        "patient_name_kana": "マツイ　ノブオ",
+        "patient_id": 13272,
+        "status": "waiting",
+        "applied_at": "",
+        "raw": {
+          "patientName": "松井　伸雄",
+          "patientNameKana": "マツイ　ノブオ",
+          "patientID": 13272,
+          "patientNumber": 0,
+          "phoneNumber1": "08011780055",
+          "phoneNumber2": "",
+          "birthdate": "1964-05-31T00:00:00Z",
+          "portalCustomerId": 16910,
+          "isTester": 0,
+          "__typename": "Patient"
+        },
+        "menu": "default"
+      }
+    ]
   }
 }
