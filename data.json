@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T21:50:16.686692+09:00",
+  "generated": "2026-05-24T21:52:45.899553+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -392,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T21:50:15.281097+09:00",
+      "last_updated": "2026-05-24T21:52:44.601293+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -697,7 +697,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T21:42:42.407276+09:00",
+      "last_updated": "2026-05-24T21:52:09.772955+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -718,7 +718,8 @@
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "GMO": 1
+        "GMO": 1,
+        "gcal": 1
       },
       "full_platforms": [
         {
@@ -808,7 +809,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "総診",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -845,7 +854,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T21:43:06.307090+09:00",
+      "last_updated": "2026-05-24T21:52:34.701963+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7470,7 +7479,7 @@
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-05-24T21:48:54.138046",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T21:48:55.029294+09:00",
+    "fetched_at": "2026-05-24T21:51:24.446880+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
