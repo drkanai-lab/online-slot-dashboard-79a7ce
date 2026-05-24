@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T23:38:17.300065+09:00",
+  "generated": "2026-05-24T23:40:48.357148+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -16,21 +16,22 @@
       "date": "2026-05-24",
       "short": "5/24(日)",
       "dow": "日",
-      "open_count": 4,
-      "booked_count": 11,
+      "open_count": 8,
+      "booked_count": 9,
       "new_count": 5,
-      "revisit_count": 6,
+      "revisit_count": 4,
       "first_open": "12:00",
       "last_open": "23:10",
       "first_booked": "12:20",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 3
+        "CLINICS": 3,
+        "SOKUYAKU": 4
       },
       "per_platform_booked": {
         "CLINICS": 5,
-        "gcal": 11,
+        "gcal": 9,
         "GMO": 3,
         "クロン": 1
       },
@@ -43,10 +44,6 @@
       "ranges": [
         [
           "12:00",
-          "12:30"
-        ],
-        [
-          "13:00",
           "13:30"
         ],
         [
@@ -58,7 +55,7 @@
           "23:20"
         ]
       ],
-      "range_text": "12:00〜12:30, 13:00〜13:30, 18:30〜18:40, 22:00〜23:20",
+      "range_text": "12:00〜13:30, 18:30〜18:40, 22:00〜23:20",
       "slots": [
         {
           "time": "12:00",
@@ -103,18 +100,32 @@
         },
         {
           "time": "12:30",
-          "platforms": {},
-          "gcals": [
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "12:45"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "太田 康喜",
               "visit_type": "再診",
-              "department": "小児",
-              "end_time": "12:40",
+              "department": "",
               "qualified": true,
               "qualified_at": "R08.05.24 11:09:56"
             }
-          ],
+          ]
+        },
+        {
+          "time": "12:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "13:00"
+            }
+          },
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -275,18 +286,32 @@
         },
         {
           "time": "22:30",
-          "platforms": {},
-          "gcals": [
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "22:45"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "木村 和美",
               "visit_type": "再診",
-              "department": "皮膚",
-              "end_time": "22:40",
+              "department": "",
               "qualified": true,
               "qualified_at": "R08.05.24 19:30:44"
             }
-          ],
+          ]
+        },
+        {
+          "time": "22:45",
+          "platforms": {
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:00"
+            }
+          },
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -344,7 +369,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:38:15.499105+09:00",
+      "last_updated": "2026-05-24T23:40:47.202798+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -821,7 +846,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:27:52.827077+09:00",
+      "last_updated": "2026-05-24T23:40:15.861075+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -989,7 +1014,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:28:15.926849+09:00",
+      "last_updated": "2026-05-24T23:40:42.154508+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7462,9 +7487,9 @@
     }
   ],
   "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-05-24T23:33:55.790513",
+  "sigma_last_run": "2026-05-24T23:38:54.707619",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T23:32:40.869019+09:00",
+    "fetched_at": "2026-05-24T23:39:25.488216+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
