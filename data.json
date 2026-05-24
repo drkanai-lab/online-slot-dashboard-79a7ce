@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T11:18:47.073782+09:00",
+  "generated": "2026-05-24T11:20:24.023757+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -176,7 +176,9 @@
               "patient_name": "秋山宏通",
               "visit_type": "初診",
               "department": "整形",
-              "end_time": "13:30"
+              "end_time": "13:30",
+              "qualified": true,
+              "qualified_at": "R08.05.24 11:12:23"
             }
           ],
           "sokuyaku_truth": []
@@ -447,7 +449,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T11:18:01.375751+09:00",
+      "last_updated": "2026-05-24T11:20:22.760944+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7499,6 +7501,6 @@
       "ts": "2026-05-24T07:07:40+09:00"
     }
   ],
-  "sigma_qualified_count": 62,
+  "sigma_qualified_count": 63,
   "sigma_last_run": "2026-05-24T11:18:52.793529"
 }
