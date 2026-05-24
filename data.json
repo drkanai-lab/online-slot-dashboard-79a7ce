@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T19:16:07.973693+09:00",
+  "generated": "2026-05-24T19:18:38.740581+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 8,
+        "gcal": 9,
         "SOKUYAKU": 1,
         "GMO": 3,
         "クロン": 1
@@ -263,7 +263,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "三戸豪士",
+              "visit_type": "再診",
+              "department": "花粉",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -365,7 +373,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:16:06.557476+09:00",
+      "last_updated": "2026-05-24T19:18:36.510628+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7420,7 +7428,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-24T19:13:54.219149",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T19:14:45.499378+09:00",
+    "fetched_at": "2026-05-24T19:17:15.478847+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
