@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-24T22:50:53.458358+09:00",
+  "generated": "2026-05-24T22:51:22.181142+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
     "short": "5/24(日)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "西川　裕美",
+    "visit_type": "初診",
+    "department": "眼",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.23 17:00:40"
   },
   "days": [
     {
@@ -1491,7 +1493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:41:17.810153+09:00",
+      "last_updated": "2026-05-24T22:50:56.695415+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1756,7 +1758,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:41:42.724844+09:00",
+      "last_updated": "2026-05-24T22:51:20.770275+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
