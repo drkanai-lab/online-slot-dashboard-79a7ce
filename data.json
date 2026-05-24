@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T19:23:41.391430+09:00",
+  "generated": "2026-05-24T19:26:12.837201+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -296,7 +296,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "木村 和美",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -375,7 +381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T19:23:39.791298+09:00",
+      "last_updated": "2026-05-24T19:26:11.464784+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7428,9 +7434,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-05-24T19:18:55.061600",
+  "sigma_last_run": "2026-05-24T19:23:53.294472",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T19:22:18.014657+09:00",
+    "fetched_at": "2026-05-24T19:24:49.032875+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
