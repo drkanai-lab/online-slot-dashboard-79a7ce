@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-24T12:10:54.078885+09:00",
+  "generated": "2026-05-24T12:13:24.931264+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
     "short": "5/24(日)",
-    "time": "12:10",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "12:20",
+    "code": "C",
+    "patient_name": "HamadaHiroyuki",
+    "visit_type": "初診",
+    "department": "多汗",
+    "status": "booked"
   },
   "days": [
     {
@@ -456,7 +456,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T12:10:52.782221+09:00",
+      "last_updated": "2026-05-24T12:13:23.667946+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6823,7 +6823,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T10:55:37.382847+09:00",
+      "last_updated": "2026-05-24T12:11:02.854664+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7002,7 +7002,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T10:56:16.946320+09:00",
+      "last_updated": "2026-05-24T12:11:43.755154+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7361,7 +7361,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T10:56:57.554146+09:00",
+      "last_updated": "2026-05-24T12:12:23.249645+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7503,7 +7503,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T10:57:37.789060+09:00",
+      "last_updated": "2026-05-24T12:13:04.124562+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -7519,7 +7519,7 @@
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-05-24T12:08:52.401400",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T12:09:31.613602+09:00",
+    "fetched_at": "2026-05-24T12:12:02.065071+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
