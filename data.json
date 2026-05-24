@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-24T23:08:38.946468+09:00",
+  "generated": "2026-05-24T23:10:32.058422+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
@@ -867,7 +867,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:59:10.818563+09:00",
+      "last_updated": "2026-05-24T23:08:51.427365+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1035,7 +1035,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:59:33.666157+09:00",
+      "last_updated": "2026-05-24T23:09:16.798364+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1323,7 +1323,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T22:59:58.447957+09:00",
+      "last_updated": "2026-05-24T23:09:43.056646+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1345,7 +1345,8 @@
         "GMO": 1
       },
       "per_platform_booked": {
-        "CLINICS": 1
+        "CLINICS": 1,
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -1375,7 +1376,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "細野優真",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1493,7 +1502,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:00:24.620359+09:00",
+      "last_updated": "2026-05-24T23:10:07.653121+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1758,7 +1767,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T23:00:48.855230+09:00",
+      "last_updated": "2026-05-24T23:10:31.054672+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7499,9 +7508,9 @@
     }
   ],
   "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-05-24T23:03:55.603092",
+  "sigma_last_run": "2026-05-24T23:08:55.841339",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T23:07:16.560274+09:00",
+    "fetched_at": "2026-05-24T23:09:48.322142+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
