@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-24T13:08:57.682981+09:00",
+  "generated": "2026-05-24T13:11:30.418969+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-24",
     "short": "5/24(日)",
-    "time": "13:10",
+    "time": "13:20",
     "code": "C",
-    "patient_name": "下津紀行",
+    "patient_name": "秋山宏通",
     "visit_type": "初診",
-    "department": "皮膚",
-    "status": "booked"
+    "department": "整形",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.24 11:12:23"
   },
   "days": [
     {
@@ -464,7 +466,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T13:08:56.423689+09:00",
+      "last_updated": "2026-05-24T13:11:29.182595+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -769,7 +771,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T13:01:12.068321+09:00",
+      "last_updated": "2026-05-24T13:10:40.429123+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -911,7 +913,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T13:01:35.741741+09:00",
+      "last_updated": "2026-05-24T13:11:04.109564+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1079,7 +1081,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-24T13:02:00.334240+09:00",
+      "last_updated": "2026-05-24T13:11:28.153158+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7527,7 +7529,7 @@
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-05-24T13:08:52.839445",
   "gmo_realtime": {
-    "fetched_at": "2026-05-24T13:07:35.415840+09:00",
+    "fetched_at": "2026-05-24T13:10:07.581364+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
