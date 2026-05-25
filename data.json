@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T20:30:25.052993+09:00",
+  "generated": "2026-05-25T20:30:48.844312+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -18,8 +18,8 @@
       "dow": "月",
       "open_count": 4,
       "booked_count": 12,
-      "new_count": 7,
-      "revisit_count": 5,
+      "new_count": 6,
+      "revisit_count": 6,
       "first_open": "22:00",
       "last_open": "22:50",
       "first_booked": "18:30",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 12,
+        "gcal": 10,
         "CLINICS": 6,
         "SOKUYAKU": 3,
         "クロン": 1
@@ -134,17 +134,7 @@
               "end_time": "19:15"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "高木 大輔",
-              "visit_type": "再診",
-              "department": "眼",
-              "end_time": "19:10",
-              "qualified": true,
-              "qualified_at": "R08.05.24 23:30:14"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -155,17 +145,7 @@
               "end_time": "19:30"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "林 智子",
-              "visit_type": "初診",
-              "department": "皮膚",
-              "end_time": "19:25",
-              "qualified": true,
-              "qualified_at": "R08.05.25 17:22:46"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -375,7 +355,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T20:28:13.274587+09:00",
+      "last_updated": "2026-05-25T20:30:47.068486+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
