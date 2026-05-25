@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T20:49:39.078511+09:00",
+  "generated": "2026-05-25T20:51:08.422196+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -371,7 +371,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T20:48:33.369646+09:00",
+      "last_updated": "2026-05-25T20:51:06.338622+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6713,7 +6713,8 @@
         "クロン": 4
       },
       "per_platform_booked": {
-        "CLINICS": 1
+        "CLINICS": 1,
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -6861,7 +6862,15 @@
               "end_time": "18:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "藤田佳男",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "18:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -7052,7 +7061,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T19:34:35.212796+09:00",
+      "last_updated": "2026-05-25T20:50:04.479640+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7194,7 +7203,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T19:35:15.230619+09:00",
+      "last_updated": "2026-05-25T20:50:43.682300+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7378,7 +7387,7 @@
   "sigma_qualified_count": 67,
   "sigma_last_run": "2026-05-25T20:48:55.280791",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T20:47:09.972200+09:00",
+    "fetched_at": "2026-05-25T20:49:42.997954+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
