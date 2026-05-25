@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T20:51:08.422196+09:00",
+  "generated": "2026-05-25T20:53:44.714782+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 10,
+        "gcal": 12,
         "CLINICS": 6,
         "SOKUYAKU": 3,
         "クロン": 1
@@ -134,7 +134,17 @@
               "end_time": "19:15"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "高木 大輔",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:15",
+              "qualified": true,
+              "qualified_at": "R08.05.24 23:30:14"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "高木 大輔",
@@ -153,7 +163,17 @@
               "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "林 智子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:30",
+              "qualified": true,
+              "qualified_at": "R08.05.25 17:22:46"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "林 智子",
@@ -371,7 +391,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T20:51:06.338622+09:00",
+      "last_updated": "2026-05-25T20:53:42.535585+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7371,7 +7391,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T19:35:55.200052+09:00",
+      "last_updated": "2026-05-25T20:51:22.955978+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -7385,9 +7405,9 @@
     }
   ],
   "sigma_qualified_count": 67,
-  "sigma_last_run": "2026-05-25T20:48:55.280791",
+  "sigma_last_run": "2026-05-25T20:53:54.881171",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T20:49:42.997954+09:00",
+    "fetched_at": "2026-05-25T20:52:18.575507+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
