@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T11:09:17.644341+09:00",
+  "generated": "2026-05-25T11:11:48.203026+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -363,7 +363,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T11:09:16.536742+09:00",
+      "last_updated": "2026-05-25T11:11:46.825876+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -520,7 +520,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T11:00:55.652898+09:00",
+      "last_updated": "2026-05-25T11:10:40.839666+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -541,7 +541,8 @@
         "SOKUYAKU": 4
       },
       "per_platform_booked": {
-        "GMO": 1
+        "GMO": 1,
+        "gcal": 1
       },
       "full_platforms": [
         {
@@ -631,7 +632,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "船井　真弓",
+              "visit_type": "再診",
+              "department": "不眠",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -659,13 +668,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [],
@@ -694,7 +703,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T11:01:23.147867+09:00",
+      "last_updated": "2026-05-25T11:11:04.675056+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -982,7 +991,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T11:01:52.961148+09:00",
+      "last_updated": "2026-05-25T11:11:30.362725+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7339,7 +7348,7 @@
   "sigma_qualified_count": 62,
   "sigma_last_run": "2026-05-25T11:08:59.102435",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T11:07:55.674792+09:00",
+    "fetched_at": "2026-05-25T11:10:25.470375+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
