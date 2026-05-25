@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-25T18:48:41.632659+09:00",
+  "generated": "2026-05-25T18:51:14.242187+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
     "short": "5/25(月)",
-    "time": "18:50",
-    "code": "C",
-    "patient_name": "稲葉健",
-    "visit_type": "初診",
-    "department": "不眠",
-    "status": "booked"
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "高木 大輔",
+    "visit_type": "再診",
+    "department": "眼",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.24 23:30:14"
   },
   "days": [
     {
@@ -379,7 +381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T18:48:40.277800+09:00",
+      "last_updated": "2026-05-25T18:51:13.003405+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7384,7 +7386,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-25T18:48:53.823240",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T18:47:17.354784+09:00",
+    "fetched_at": "2026-05-25T18:49:49.807397+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
