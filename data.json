@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T20:33:20.022955+09:00",
+  "generated": "2026-05-25T20:35:52.209074+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -135,7 +135,15 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "高木 大輔",
+              "visit_type": "再診",
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.24 23:30:14"
+            }
+          ]
         },
         {
           "time": "19:15",
@@ -146,7 +154,15 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "林 智子",
+              "visit_type": "再診",
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.25 17:22:46"
+            }
+          ]
         },
         {
           "time": "19:20",
@@ -355,7 +371,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T20:33:18.773602+09:00",
+      "last_updated": "2026-05-25T20:35:50.426749+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7362,7 +7378,7 @@
   "sigma_qualified_count": 67,
   "sigma_last_run": "2026-05-25T20:33:55.386650",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T20:31:56.980107+09:00",
+    "fetched_at": "2026-05-25T20:34:28.218714+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
