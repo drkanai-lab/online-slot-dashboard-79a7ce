@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T16:19:43.823391+09:00",
+  "generated": "2026-05-25T16:20:39.470266+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -1467,30 +1467,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T16:10:33.730255+09:00",
+      "last_updated": "2026-05-25T16:20:05.189782+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-31",
       "short": "5/31(日)",
       "dow": "日",
-      "open_count": 21,
-      "booked_count": 1,
-      "new_count": 0,
+      "open_count": 20,
+      "booked_count": 2,
+      "new_count": 1,
       "revisit_count": 1,
-      "first_open": "18:30",
+      "first_open": "18:40",
       "last_open": "23:50",
       "first_booked": "12:10",
-      "last_booked": "12:10",
+      "last_booked": "18:30",
       "per_platform_open": {
-        "GMO": 2,
         "CLINICS": 11,
         "SOKUYAKU": 6,
-        "クロン": 3
+        "クロン": 3,
+        "GMO": 1
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 1
+        "gcal": 2,
+        "GMO": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -1533,11 +1534,19 @@
           "time": "18:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "18:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "18:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1765,7 +1774,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T16:11:04.552901+09:00",
+      "last_updated": "2026-05-25T16:20:36.915838+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
