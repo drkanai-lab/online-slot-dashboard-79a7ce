@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-25T18:28:30.541304+09:00",
+  "generated": "2026-05-25T18:31:01.575558+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
     "short": "5/25(月)",
-    "time": "18:30",
-    "code": "G",
-    "patient_name": "河野　紗谷佳",
-    "visit_type": "初診",
-    "department": "眼",
+    "time": "18:40",
+    "code": "C",
+    "patient_name": "藤田佳男",
+    "visit_type": "再診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.24 18:19:40"
+    "qualified_at": "R08.05.23 17:07:36"
   },
   "days": [
     {
@@ -381,7 +381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T18:28:28.967774+09:00",
+      "last_updated": "2026-05-25T18:31:00.222854+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7386,7 +7386,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-25T18:28:53.621235",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T18:27:07.012431+09:00",
+    "fetched_at": "2026-05-25T18:29:38.166758+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
