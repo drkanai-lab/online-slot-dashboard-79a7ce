@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T12:47:35.957278+09:00",
+  "generated": "2026-05-25T12:49:47.222577+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -703,7 +703,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:38:22.059250+09:00",
+      "last_updated": "2026-05-25T12:47:56.973668+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -991,7 +991,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:38:48.229362+09:00",
+      "last_updated": "2026-05-25T12:48:21.980717+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1135,13 +1135,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -1170,7 +1170,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:39:12.822782+09:00",
+      "last_updated": "2026-05-25T12:48:50.171873+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1435,7 +1435,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:39:36.353203+09:00",
+      "last_updated": "2026-05-25T12:49:13.646101+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1733,7 +1733,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:40:07.143619+09:00",
+      "last_updated": "2026-05-25T12:49:45.744833+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7315,19 +7315,11 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "古谷 沙織",
-      "date": "2026-05-25",
-      "time": "22:30",
-      "ts": "2026-05-25T00:48:50+09:00"
-    }
-  ],
+  "recent_events": [],
   "sigma_qualified_count": 62,
-  "sigma_last_run": "2026-05-25T12:43:52.173552",
+  "sigma_last_run": "2026-05-25T12:48:51.161703",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T12:46:13.409902+09:00",
+    "fetched_at": "2026-05-25T12:48:43.736251+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
