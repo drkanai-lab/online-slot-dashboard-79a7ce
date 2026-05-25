@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T17:38:10.496510+09:00",
+  "generated": "2026-05-25T17:40:40.515840+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -313,14 +313,18 @@
               "patient_name": "古谷 沙織",
               "visit_type": "初診",
               "department": "多汗",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.05.25 17:33:17"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "古谷 沙織",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.25 17:33:17"
             }
           ]
         },
@@ -377,7 +381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T17:38:09.227662+09:00",
+      "last_updated": "2026-05-25T17:40:39.253280+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7379,10 +7383,10 @@
       "ts": "2026-05-25T14:03:22+09:00"
     }
   ],
-  "sigma_qualified_count": 64,
-  "sigma_last_run": "2026-05-25T17:33:47.188667",
+  "sigma_qualified_count": 65,
+  "sigma_last_run": "2026-05-25T17:38:56.295167",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T17:36:47.145432+09:00",
+    "fetched_at": "2026-05-25T17:39:18.498737+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
