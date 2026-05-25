@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-25T18:59:01.238568+09:00",
+  "generated": "2026-05-25T19:01:35.093232+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
     "short": "5/25(月)",
-    "time": "19:00",
+    "time": "19:15",
     "code": "S",
-    "patient_name": "高木 大輔",
-    "visit_type": "再診",
-    "department": "眼",
+    "patient_name": "林 智子",
+    "visit_type": "初診",
+    "department": "皮膚",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.24 23:30:14"
+    "qualified_at": "R08.05.25 17:22:46"
   },
   "days": [
     {
@@ -381,7 +381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T18:58:59.969698+09:00",
+      "last_updated": "2026-05-25T19:01:33.795820+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7386,7 +7386,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-25T18:58:53.680793",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T18:57:29.185149+09:00",
+    "fetched_at": "2026-05-25T19:00:11.613262+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
