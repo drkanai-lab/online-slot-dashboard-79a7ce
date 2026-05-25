@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T12:50:07.250075+09:00",
+  "generated": "2026-05-25T12:52:39.088776+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -166,7 +166,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "林 智子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:20",
@@ -363,7 +369,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:50:05.968637+09:00",
+      "last_updated": "2026-05-25T12:52:37.789853+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7319,7 +7325,7 @@
   "sigma_qualified_count": 62,
   "sigma_last_run": "2026-05-25T12:48:51.161703",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T12:48:43.736251+09:00",
+    "fetched_at": "2026-05-25T12:51:15.158817+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
