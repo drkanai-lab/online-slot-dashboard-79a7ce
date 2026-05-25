@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T21:26:45.480930+09:00",
+  "generated": "2026-05-25T21:28:10.023872+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -1019,7 +1019,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T21:17:19.261823+09:00",
+      "last_updated": "2026-05-25T21:26:49.483335+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1028,8 +1028,8 @@
       "dow": "金",
       "open_count": 10,
       "booked_count": 2,
-      "new_count": 0,
-      "revisit_count": 2,
+      "new_count": 1,
+      "revisit_count": 1,
       "first_open": "22:20",
       "last_open": "23:50",
       "first_booked": "22:00",
@@ -1042,8 +1042,8 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "CLINICS": 1,
-        "gcal": 1
+        "gcal": 2,
+        "CLINICS": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -1062,7 +1062,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "柳田 梓",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1199,7 +1207,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T21:17:43.094415+09:00",
+      "last_updated": "2026-05-25T21:27:13.543523+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1464,7 +1472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T21:18:06.731078+09:00",
+      "last_updated": "2026-05-25T21:27:37.521939+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1771,7 +1779,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T21:18:37.562864+09:00",
+      "last_updated": "2026-05-25T21:28:08.717013+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7408,7 +7416,7 @@
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-05-25T21:23:56.452529",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T21:25:22.517343+09:00",
+    "fetched_at": "2026-05-25T21:27:53.525831+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
