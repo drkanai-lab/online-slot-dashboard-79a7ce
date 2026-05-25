@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T12:55:21.897489+09:00",
+  "generated": "2026-05-25T12:57:53.309034+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -20,8 +20,8 @@
       "dow": "月",
       "open_count": 10,
       "booked_count": 9,
-      "new_count": 5,
-      "revisit_count": 4,
+      "new_count": 6,
+      "revisit_count": 3,
       "first_open": "19:40",
       "last_open": "23:30",
       "first_booked": "18:30",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 3,
         "SOKUYAKU": 3,
         "クロン": 1
@@ -165,7 +165,15 @@
               "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "林 智子",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "19:25"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "林 智子",
@@ -369,7 +377,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:55:20.353615+09:00",
+      "last_updated": "2026-05-25T12:57:52.032818+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -526,7 +534,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:47:31.583891+09:00",
+      "last_updated": "2026-05-25T12:57:13.349918+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -709,7 +717,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T12:47:56.973668+09:00",
+      "last_updated": "2026-05-25T12:57:42.608247+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7325,7 +7333,7 @@
   "sigma_qualified_count": 62,
   "sigma_last_run": "2026-05-25T12:53:52.398198",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T12:53:49.694365+09:00",
+    "fetched_at": "2026-05-25T12:56:30.332455+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
