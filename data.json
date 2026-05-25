@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T19:52:23.116716+09:00",
+  "generated": "2026-05-25T19:54:58.739101+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -291,7 +291,9 @@
               "patient_name": "畠下和幸",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.25 19:50:44"
             }
           ],
           "sokuyaku_truth": []
@@ -389,7 +391,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T19:52:21.837792+09:00",
+      "last_updated": "2026-05-25T19:54:57.310762+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7393,10 +7395,10 @@
       "ts": "2026-05-25T14:03:22+09:00"
     }
   ],
-  "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-05-25T19:48:54.309454",
+  "sigma_qualified_count": 67,
+  "sigma_last_run": "2026-05-25T19:53:54.777887",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T19:50:58.682055+09:00",
+    "fetched_at": "2026-05-25T19:53:34.528460+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
