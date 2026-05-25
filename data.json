@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T14:08:24.705418+09:00",
+  "generated": "2026-05-25T14:10:55.611049+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -236,7 +236,9 @@
               "patient_name": "堤大洋",
               "visit_type": "再診",
               "department": "",
-              "end_time": "19:50"
+              "end_time": "19:50",
+              "qualified": true,
+              "qualified_at": "R08.05.25 14:05:44"
             }
           ],
           "sokuyaku_truth": []
@@ -385,7 +387,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T14:08:23.449803+09:00",
+      "last_updated": "2026-05-25T14:10:54.379637+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7378,10 +7380,10 @@
       "ts": "2026-05-25T14:03:22+09:00"
     }
   ],
-  "sigma_qualified_count": 62,
-  "sigma_last_run": "2026-05-25T14:04:05.225436",
+  "sigma_qualified_count": 63,
+  "sigma_last_run": "2026-05-25T14:08:55.973284",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T14:07:01.600648+09:00",
+    "fetched_at": "2026-05-25T14:09:32.386802+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
