@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-25T17:30:36.391150+09:00",
+  "generated": "2026-05-25T17:33:07.968278+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-25",
@@ -171,14 +171,18 @@
               "patient_name": "林 智子",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "19:25"
+              "end_time": "19:25",
+              "qualified": true,
+              "qualified_at": "R08.05.25 17:22:46"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "林 智子",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.25 17:22:46"
             }
           ]
         },
@@ -373,7 +377,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-25T17:30:34.980297+09:00",
+      "last_updated": "2026-05-25T17:33:06.716546+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7375,10 +7379,10 @@
       "ts": "2026-05-25T14:03:22+09:00"
     }
   ],
-  "sigma_qualified_count": 63,
-  "sigma_last_run": "2026-05-25T17:29:06.543572",
+  "sigma_qualified_count": 64,
+  "sigma_last_run": "2026-05-25T17:33:47.188667",
   "gmo_realtime": {
-    "fetched_at": "2026-05-25T17:29:13.167977+09:00",
+    "fetched_at": "2026-05-25T17:31:44.416479+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
