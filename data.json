@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T02:15:01.478884+09:00",
+  "generated": "2026-05-27T02:17:31.438445+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
@@ -17,21 +17,22 @@
       "short": "5/27(水)",
       "dow": "水",
       "open_count": 11,
-      "booked_count": 1,
+      "booked_count": 2,
       "new_count": 0,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "23:00",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 6,
-        "SOKUYAKU": 4
+        "SOKUYAKU": 3
       },
       "per_platform_booked": {
         "GMO": 1,
-        "gcal": 1
+        "gcal": 2,
+        "SOKUYAKU": 1
       },
       "full_platforms": [
         {
@@ -162,11 +163,19 @@
               "end_time": "23:40"
             },
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "石原 未典",
+              "visit_type": "再診",
+              "department": "不眠",
+              "end_time": "23:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "石原 未典",
@@ -198,7 +207,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T02:15:00.836494+09:00",
+      "last_updated": "2026-05-27T02:17:30.765655+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7356,11 +7365,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "石原 未典",
+      "date": "2026-05-27",
+      "time": "23:30",
+      "ts": "2026-05-27T02:17:31+09:00"
+    }
+  ],
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-05-27T00:48:53.566080",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T02:13:41.991713+09:00",
+    "fetched_at": "2026-05-27T02:16:12.609716+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
