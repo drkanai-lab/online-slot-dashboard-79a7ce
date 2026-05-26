@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-26T22:50:15.909221+09:00",
+  "generated": "2026-05-26T22:52:47.434814+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
     "short": "5/26(火)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "千葉　尚志",
+    "visit_type": "再診",
+    "department": "総診",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.25 23:36:03"
   },
   "days": [
     {
@@ -225,7 +227,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:50:14.978868+09:00",
+      "last_updated": "2026-05-26T22:52:46.476213+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -408,7 +410,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:42:20.876902+09:00",
+      "last_updated": "2026-05-26T22:52:16.553708+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -719,7 +721,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:42:46.302058+09:00",
+      "last_updated": "2026-05-26T22:52:43.580035+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7424,7 +7426,7 @@
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-05-26T22:48:55.318765",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T22:48:53.521912+09:00",
+    "fetched_at": "2026-05-26T22:51:25.349219+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
