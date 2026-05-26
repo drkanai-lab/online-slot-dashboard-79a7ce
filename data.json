@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T22:07:56.702335+09:00",
+  "generated": "2026-05-26T22:10:25.905176+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
@@ -9,7 +9,9 @@
     "patient_name": "関未来音",
     "visit_type": "初診",
     "department": "泌尿",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.26 22:05:08"
   },
   "days": [
     {
@@ -77,7 +79,9 @@
               "patient_name": "関未来音",
               "visit_type": "初診",
               "department": "泌尿",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.26 22:05:08"
             }
           ],
           "sokuyaku_truth": []
@@ -219,7 +223,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:07:55.524128+09:00",
+      "last_updated": "2026-05-26T22:10:24.905579+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7415,10 +7419,10 @@
       "ts": "2026-05-26T18:36:53+09:00"
     }
   ],
-  "sigma_qualified_count": 67,
-  "sigma_last_run": "2026-05-26T22:03:55.918506",
+  "sigma_qualified_count": 68,
+  "sigma_last_run": "2026-05-26T22:08:55.496873",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T22:06:35.953739+09:00",
+    "fetched_at": "2026-05-26T22:09:05.586485+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
