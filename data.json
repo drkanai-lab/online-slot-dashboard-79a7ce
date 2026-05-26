@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-26T23:00:21.602201+09:00",
+  "generated": "2026-05-26T23:02:53.927304+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
     "short": "5/26(火)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "千葉　尚志",
-    "visit_type": "再診",
-    "department": "総診",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.25 23:36:03"
+    "time": "23:10",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -227,7 +225,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T23:00:20.578092+09:00",
+      "last_updated": "2026-05-26T23:02:52.849782+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -410,7 +408,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:52:16.553708+09:00",
+      "last_updated": "2026-05-26T23:02:20.338515+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -721,7 +719,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:52:43.580035+09:00",
+      "last_updated": "2026-05-26T23:02:47.851761+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7403,13 +7401,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "中野鈴音夏",
-      "date": "2026-05-26",
-      "time": "23:10",
-      "ts": "2026-05-26T11:02:27+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "藤沢 朋広",
       "date": "2026-05-26",
       "time": "22:30",
@@ -7426,7 +7417,7 @@
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-05-26T22:58:56.202382",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T22:58:58.912339+09:00",
+    "fetched_at": "2026-05-26T23:01:31.783733+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
