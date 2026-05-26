@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T11:51:04.571070+09:00",
+  "generated": "2026-05-26T11:53:37.397923+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
@@ -16,22 +16,23 @@
       "date": "2026-05-26",
       "short": "5/26(火)",
       "dow": "火",
-      "open_count": 8,
-      "booked_count": 2,
+      "open_count": 7,
+      "booked_count": 3,
       "new_count": 1,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:30",
-      "first_booked": "23:00",
+      "first_booked": "22:30",
       "last_booked": "23:10",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 4,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 3,
         "GMO": 1,
-        "gcal": 2,
         "CLINICS": 1
       },
       "full_platforms": [
@@ -85,11 +86,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "藤沢 朋広",
+              "visit_type": "再診",
+              "department": "内科",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "藤沢 朋広",
@@ -183,7 +192,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T11:50:58.453337+09:00",
+      "last_updated": "2026-05-26T11:53:35.786065+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4537,7 +4546,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:35:42.863833+09:00",
+      "last_updated": "2026-05-26T11:51:18.887619+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4808,7 +4817,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:36:19.473224+09:00",
+      "last_updated": "2026-05-26T11:51:56.058607+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5193,7 +5202,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:36:56.927228+09:00",
+      "last_updated": "2026-05-26T11:52:34.227292+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5335,7 +5344,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:37:32.810241+09:00",
+      "last_updated": "2026-05-26T11:53:11.191472+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7340,12 +7349,19 @@
       "date": "2026-05-26",
       "time": "23:10",
       "ts": "2026-05-26T11:02:27+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "藤沢 朋広",
+      "date": "2026-05-26",
+      "time": "22:30",
+      "ts": "2026-05-26T11:53:36+09:00"
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-26T11:48:56.323839",
+  "sigma_last_run": "2026-05-26T11:53:54.637193",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T11:49:39.425524+09:00",
+    "fetched_at": "2026-05-26T11:52:16.991861+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
