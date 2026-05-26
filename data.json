@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T11:43:31.642944+09:00",
+  "generated": "2026-05-26T11:46:00.493970+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
@@ -90,7 +90,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "藤沢 朋広",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -177,7 +183,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T11:43:31.021866+09:00",
+      "last_updated": "2026-05-26T11:45:59.574330+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1982,7 +1988,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:29:33.154657+09:00",
+      "last_updated": "2026-05-26T11:45:16.621637+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2026,7 +2032,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:30:03.584012+09:00",
+      "last_updated": "2026-05-26T11:45:46.989145+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7337,9 +7343,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-26T11:38:55.449220",
+  "sigma_last_run": "2026-05-26T11:43:54.877010",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T11:42:12.622621+09:00",
+    "fetched_at": "2026-05-26T11:44:40.325570+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
