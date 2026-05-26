@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T02:11:03.484367+09:00",
+  "generated": "2026-05-27T02:12:32.509292+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
@@ -167,7 +167,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "石原 未典",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "23:45",
@@ -192,7 +198,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T02:10:00.704888+09:00",
+      "last_updated": "2026-05-27T02:12:31.891603+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7354,7 +7360,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-05-27T00:48:53.566080",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T02:08:41.375355+09:00",
+    "fetched_at": "2026-05-27T02:11:12.990214+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
