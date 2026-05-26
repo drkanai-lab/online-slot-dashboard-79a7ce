@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-26T18:34:22.739319+09:00",
+  "generated": "2026-05-26T18:36:53.951379+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
     "short": "5/26(火)",
     "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "山崎 紘彰",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -17,20 +17,20 @@
       "short": "5/26(火)",
       "dow": "火",
       "open_count": 6,
-      "booked_count": 4,
-      "new_count": 2,
+      "booked_count": 5,
+      "new_count": 3,
       "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:30",
-      "first_booked": "22:30",
+      "first_booked": "22:00",
       "last_booked": "23:10",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 4
       },
       "per_platform_booked": {
+        "gcal": 5,
         "SOKUYAKU": 2,
-        "gcal": 4,
         "GMO": 1,
         "CLINICS": 1
       },
@@ -60,7 +60,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "山崎 紘彰",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -209,7 +217,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T18:34:21.768359+09:00",
+      "last_updated": "2026-05-26T18:36:52.516940+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7396,12 +7404,19 @@
       "date": "2026-05-26",
       "time": "22:30",
       "ts": "2026-05-26T11:53:36+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "山崎 紘彰",
+      "date": "2026-05-26",
+      "time": "22:00",
+      "ts": "2026-05-26T18:36:53+09:00"
     }
   ],
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-26T18:33:54.613129",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T18:33:02.682181+09:00",
+    "fetched_at": "2026-05-26T18:35:33.805655+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
