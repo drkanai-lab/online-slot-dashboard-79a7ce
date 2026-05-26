@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-26T22:30:21.130222+09:00",
+  "generated": "2026-05-26T22:32:50.322250+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
     "short": "5/26(火)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "藤沢 朋広",
+    "patient_name": "出田 咲",
     "visit_type": "再診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.26 22:07:58"
   },
   "days": [
     {
@@ -225,7 +227,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:30:20.157532+09:00",
+      "last_updated": "2026-05-26T22:32:49.291145+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -408,7 +410,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:22:54.534582+09:00",
+      "last_updated": "2026-05-26T22:32:35.110813+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7424,7 +7426,7 @@
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-05-26T22:29:07.884985",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T22:29:01.321896+09:00",
+    "fetched_at": "2026-05-26T22:31:29.397370+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
