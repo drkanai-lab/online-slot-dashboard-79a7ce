@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T21:48:41.999916+09:00",
+  "generated": "2026-05-26T21:52:06.509488+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
@@ -96,7 +96,9 @@
               "patient_name": "綿引勝信",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "22:30"
+              "end_time": "22:30",
+              "qualified": true,
+              "qualified_at": "R08.05.26 21:45:46"
             }
           ],
           "sokuyaku_truth": []
@@ -217,7 +219,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T21:48:41.011541+09:00",
+      "last_updated": "2026-05-26T21:52:05.583929+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2045,7 +2047,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T20:34:50.468911+09:00",
+      "last_updated": "2026-05-26T21:50:57.288849+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2089,7 +2091,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T20:35:20.851591+09:00",
+      "last_updated": "2026-05-26T21:51:27.350359+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2387,7 +2389,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T20:35:52.654337+09:00",
+      "last_updated": "2026-05-26T21:52:00.833723+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7413,10 +7415,10 @@
       "ts": "2026-05-26T18:36:53+09:00"
     }
   ],
-  "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-05-26T21:43:54.666259",
+  "sigma_qualified_count": 67,
+  "sigma_last_run": "2026-05-26T21:48:55.344491",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T21:47:21.678594+09:00",
+    "fetched_at": "2026-05-26T21:50:45.226048+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
