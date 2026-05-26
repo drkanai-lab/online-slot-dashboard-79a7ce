@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T15:31:59.199440+09:00",
+  "generated": "2026-05-26T15:34:56.575111+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
@@ -209,7 +209,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T15:31:58.198180+09:00",
+      "last_updated": "2026-05-26T15:34:55.608899+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -392,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T15:22:52.964669+09:00",
+      "last_updated": "2026-05-26T15:32:31.256703+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -703,29 +703,28 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T15:23:18.643029+09:00",
+      "last_updated": "2026-05-26T15:32:57.784333+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-29",
       "short": "5/29(金)",
       "dow": "金",
-      "open_count": 9,
+      "open_count": 10,
       "booked_count": 3,
       "new_count": 1,
       "revisit_count": 2,
-      "first_open": "22:30",
+      "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "22:20",
       "per_platform_open": {
+        "クロン": 2,
         "SOKUYAKU": 4,
         "CLINICS": 4,
-        "GMO": 1,
-        "クロン": 1
+        "GMO": 1
       },
       "per_platform_booked": {
-        "クロン": 1,
         "gcal": 3,
         "CLINICS": 2
       },
@@ -742,7 +741,7 @@
           "time": "22:00",
           "platforms": {
             "クロン": {
-              "status": "booked",
+              "status": "open",
               "end_time": "22:10"
             }
           },
@@ -899,7 +898,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T15:23:43.118720+09:00",
+      "last_updated": "2026-05-26T15:33:37.906773+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1178,7 +1177,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T15:24:07.046262+09:00",
+      "last_updated": "2026-05-26T15:34:02.463862+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1485,7 +1484,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T15:24:38.621978+09:00",
+      "last_updated": "2026-05-26T15:34:32.850217+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2037,7 +2036,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T14:16:38.358370+09:00",
+      "last_updated": "2026-05-26T15:32:18.375476+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2081,7 +2080,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T14:17:07.748463+09:00",
+      "last_updated": "2026-05-26T15:32:48.203787+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2379,7 +2378,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T14:17:39.665988+09:00",
+      "last_updated": "2026-05-26T15:33:19.798199+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2423,7 +2422,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T14:18:09.527843+09:00",
+      "last_updated": "2026-05-26T15:33:47.005569+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2848,7 +2847,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T14:18:49.249018+09:00",
+      "last_updated": "2026-05-26T15:34:17.581725+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3119,7 +3118,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T14:19:22.609185+09:00",
+      "last_updated": "2026-05-26T15:34:51.164261+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7399,9 +7398,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-26T15:28:55.597004",
+  "sigma_last_run": "2026-05-26T15:33:54.201789",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T15:30:38.635000+09:00",
+    "fetched_at": "2026-05-26T15:33:35.936732+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
