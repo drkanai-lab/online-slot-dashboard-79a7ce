@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T10:28:43.341469+09:00",
+  "generated": "2026-05-26T10:31:35.454063+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
@@ -168,7 +168,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:28:43.028667+09:00",
+      "last_updated": "2026-05-26T10:31:35.153498+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -351,7 +351,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:19:51.784891+09:00",
+      "last_updated": "2026-05-26T10:29:45.108493+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -639,7 +639,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:20:17.871475+09:00",
+      "last_updated": "2026-05-26T10:30:11.504434+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -835,7 +835,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:20:43.476614+09:00",
+      "last_updated": "2026-05-26T10:30:37.033693+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1114,7 +1114,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:21:08.037497+09:00",
+      "last_updated": "2026-05-26T10:31:01.090628+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1421,7 +1421,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T10:21:39.252971+09:00",
+      "last_updated": "2026-05-26T10:31:33.046148+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1965,7 +1965,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T09:13:35.957052+09:00",
+      "last_updated": "2026-05-26T10:29:33.154657+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2009,7 +2009,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T09:14:06.368609+09:00",
+      "last_updated": "2026-05-26T10:30:03.584012+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2018,8 +2018,8 @@
       "dow": "木",
       "open_count": 16,
       "booked_count": 4,
-      "new_count": 0,
-      "revisit_count": 4,
+      "new_count": 1,
+      "revisit_count": 3,
       "first_open": "11:45",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -2115,7 +2115,7 @@
             {
               "code": "C",
               "patient_name": "今井迅馬",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "アレ",
               "end_time": "12:20"
             }
@@ -2307,7 +2307,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T09:14:40.374432+09:00",
+      "last_updated": "2026-05-26T10:30:36.659902+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2351,7 +2351,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T09:15:10.105010+09:00",
+      "last_updated": "2026-05-26T10:31:06.187191+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7314,7 +7314,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-26T10:28:54.038059",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T10:27:24.962591+09:00",
+    "fetched_at": "2026-05-26T10:30:17.295075+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
