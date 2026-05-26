@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-26T21:26:50.636789+09:00",
+  "generated": "2026-05-26T21:28:19.038675+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
@@ -18,8 +18,8 @@
       "dow": "火",
       "open_count": 6,
       "booked_count": 4,
-      "new_count": 0,
-      "revisit_count": 4,
+      "new_count": 1,
+      "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "23:30",
       "first_booked": "22:10",
@@ -30,8 +30,8 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
+        "gcal": 4,
         "SOKUYAKU": 2,
-        "gcal": 3,
         "GMO": 1
       },
       "full_platforms": [
@@ -71,7 +71,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "関未来音",
+              "visit_type": "初診",
+              "department": "泌尿",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -201,7 +209,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T21:25:49.569793+09:00",
+      "last_updated": "2026-05-26T21:28:18.087091+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7398,9 +7406,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-05-26T21:23:54.931928",
+  "sigma_last_run": "2026-05-26T21:28:54.918841",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T21:24:30.455917+09:00",
+    "fetched_at": "2026-05-26T21:26:59.278959+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
