@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T05:35:04.195213+09:00",
+  "generated": "2026-05-27T05:37:34.065354+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
@@ -158,13 +158,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "booked",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [
@@ -207,7 +207,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T05:35:03.527248+09:00",
+      "last_updated": "2026-05-27T05:37:33.880430+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5725,7 +5725,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T04:19:22.222665+09:00",
+      "last_updated": "2026-05-27T05:35:32.833669+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6029,7 +6029,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T04:19:59.314683+09:00",
+      "last_updated": "2026-05-27T05:36:09.809185+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6208,7 +6208,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T04:20:44.426169+09:00",
+      "last_updated": "2026-05-27T05:36:49.283598+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6578,7 +6578,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T04:21:24.867917+09:00",
+      "last_updated": "2026-05-27T05:37:30.617628+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7328,7 +7328,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-05-27T00:48:53.566080",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T05:33:44.596686+09:00",
+    "fetched_at": "2026-05-27T05:36:14.958363+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
