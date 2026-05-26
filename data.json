@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-26T22:20:19.172501+09:00",
+  "generated": "2026-05-26T22:22:50.454259+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-26",
     "short": "5/26(火)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "綿引勝信",
-    "visit_type": "初診",
-    "department": "耳鼻",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.26 21:45:46"
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "藤沢 朋広",
+    "visit_type": "再診",
+    "department": "",
+    "status": "booked"
   },
   "days": [
     {
@@ -227,7 +225,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-26T22:20:18.016814+09:00",
+      "last_updated": "2026-05-26T22:22:49.444678+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7426,7 +7424,7 @@
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-05-26T22:18:56.930424",
   "gmo_realtime": {
-    "fetched_at": "2026-05-26T22:18:58.481979+09:00",
+    "fetched_at": "2026-05-26T22:21:28.629038+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
