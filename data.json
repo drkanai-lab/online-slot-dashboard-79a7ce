@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T22:40:16.603568+09:00",
+  "generated": "2026-05-27T22:42:53.001652+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
@@ -18,8 +18,8 @@
       "dow": "水",
       "open_count": 5,
       "booked_count": 8,
-      "new_count": 3,
-      "revisit_count": 5,
+      "new_count": 4,
+      "revisit_count": 4,
       "first_open": "23:00",
       "last_open": "23:50",
       "first_booked": "22:00",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 4,
         "SOKUYAKU": 3
       },
@@ -211,7 +211,15 @@
               "end_time": "23:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "斎藤拓巳",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "23:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -270,7 +278,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T22:40:15.580808+09:00",
+      "last_updated": "2026-05-27T22:42:51.911722+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7485,7 +7493,7 @@
   "sigma_qualified_count": 70,
   "sigma_last_run": "2026-05-27T22:38:57.516022",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T22:38:54.315001+09:00",
+    "fetched_at": "2026-05-27T22:41:29.911842+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
