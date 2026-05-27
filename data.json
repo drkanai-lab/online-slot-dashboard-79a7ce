@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-27T23:10:41.283638+09:00",
+  "generated": "2026-05-27T23:13:12.763355+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
     "short": "5/27(水)",
-    "time": "23:10",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:20",
+    "code": "C",
+    "patient_name": "斎藤拓巳",
+    "visit_type": "初診",
+    "department": "皮膚",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.27 22:41:08"
   },
   "days": [
     {
@@ -286,7 +288,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:10:40.290267+09:00",
+      "last_updated": "2026-05-27T23:13:11.278489+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3556,7 +3558,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:55:09.773365+09:00",
+      "last_updated": "2026-05-27T23:10:52.682407+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3724,7 +3726,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:55:42.818920+09:00",
+      "last_updated": "2026-05-27T23:11:26.729606+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3991,7 +3993,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:56:16.149196+09:00",
+      "last_updated": "2026-05-27T23:12:00.803123+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4170,7 +4172,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:56:50.013387+09:00",
+      "last_updated": "2026-05-27T23:12:36.837262+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4511,7 +4513,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:57:23.971456+09:00",
+      "last_updated": "2026-05-27T23:13:10.256252+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7499,9 +7501,9 @@
     }
   ],
   "sigma_qualified_count": 74,
-  "sigma_last_run": "2026-05-27T23:08:55.152486",
+  "sigma_last_run": "2026-05-27T23:13:58.917555",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T23:09:19.709328+09:00",
+    "fetched_at": "2026-05-27T23:11:50.814026+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
