@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T20:00:02.500956+09:00",
+  "generated": "2026-05-27T20:02:35.207050+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
@@ -16,23 +16,23 @@
       "date": "2026-05-27",
       "short": "5/27(水)",
       "dow": "水",
-      "open_count": 8,
-      "booked_count": 5,
+      "open_count": 7,
+      "booked_count": 6,
       "new_count": 1,
-      "revisit_count": 4,
-      "first_open": "22:20",
+      "revisit_count": 5,
+      "first_open": "22:45",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:30",
       "per_platform_open": {
-        "CLINICS": 5,
         "SOKUYAKU": 2,
+        "CLINICS": 4,
         "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 5,
-        "CLINICS": 1,
+        "gcal": 6,
+        "CLINICS": 2,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -94,11 +94,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "市川真衣",
+              "visit_type": "再診",
+              "department": "婦人",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -249,7 +257,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T20:00:01.228905+09:00",
+      "last_updated": "2026-05-27T20:02:32.776592+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -578,7 +586,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T19:51:10.608246+09:00",
+      "last_updated": "2026-05-27T20:01:03.509601+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -787,7 +795,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T19:51:36.479411+09:00",
+      "last_updated": "2026-05-27T20:01:29.277418+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1066,7 +1074,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T19:52:00.857710+09:00",
+      "last_updated": "2026-05-27T20:01:52.816368+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1373,7 +1381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T19:52:33.670192+09:00",
+      "last_updated": "2026-05-27T20:02:24.894119+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7452,12 +7460,19 @@
       "date": "2026-05-27",
       "time": "22:00",
       "ts": "2026-05-27T19:42:36+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "市川真衣",
+      "date": "2026-05-27",
+      "time": "22:20",
+      "ts": "2026-05-27T20:02:34+09:00"
     }
   ],
   "sigma_qualified_count": 66,
   "sigma_last_run": "2026-05-27T19:58:52.776938",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T19:58:41.336212+09:00",
+    "fetched_at": "2026-05-27T20:01:13.257467+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
