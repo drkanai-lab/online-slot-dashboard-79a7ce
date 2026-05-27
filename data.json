@@ -1,42 +1,42 @@
 {
-  "generated": "2026-05-27T22:20:07.474326+09:00",
+  "generated": "2026-05-27T22:22:38.691892+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
     "short": "5/27(水)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "市川真衣",
-    "visit_type": "初診",
-    "department": "婦人",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "菊池 隆太郎",
+    "visit_type": "再診",
+    "department": "呼吸器科",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.27 21:55:14"
+    "qualified_at": "R08.05.27 18:47:08"
   },
   "days": [
     {
       "date": "2026-05-27",
       "short": "5/27(水)",
       "dow": "水",
-      "open_count": 7,
-      "booked_count": 6,
-      "new_count": 2,
+      "open_count": 6,
+      "booked_count": 7,
+      "new_count": 3,
       "revisit_count": 4,
-      "first_open": "22:45",
+      "first_open": "23:00",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:30",
       "per_platform_open": {
-        "SOKUYAKU": 2,
         "GMO": 1,
         "CLINICS": 3,
-        "クロン": 1
+        "クロン": 1,
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 3,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 3
       },
       "full_platforms": [],
       "ranges": [
@@ -143,11 +143,19 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "平岡暖乃香",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "平岡暖乃香",
@@ -264,7 +272,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T22:20:06.541115+09:00",
+      "last_updated": "2026-05-27T22:22:37.437817+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7456,13 +7464,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "菊池 隆太郎",
-      "date": "2026-05-27",
-      "time": "22:30",
-      "ts": "2026-05-27T16:13:13+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "高山 雪美恵",
       "date": "2026-05-27",
       "time": "22:00",
@@ -7474,12 +7475,19 @@
       "date": "2026-05-27",
       "time": "22:20",
       "ts": "2026-05-27T20:02:34+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "平岡暖乃香",
+      "date": "2026-05-27",
+      "time": "22:45",
+      "ts": "2026-05-27T22:22:38+09:00"
     }
   ],
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-05-27T22:19:02.783888",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T22:18:46.054371+09:00",
+    "fetched_at": "2026-05-27T22:21:16.070292+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
