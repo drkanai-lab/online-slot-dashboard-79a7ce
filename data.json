@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-27T23:20:49.204948+09:00",
+  "generated": "2026-05-27T23:23:19.905980+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
     "short": "5/27(水)",
-    "time": "23:20",
-    "code": "C",
-    "patient_name": "斎藤拓巳",
-    "visit_type": "初診",
-    "department": "皮膚",
+    "time": "23:30",
+    "code": "S",
+    "patient_name": "石原 未典",
+    "visit_type": "再診",
+    "department": "不眠",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.27 22:41:08"
+    "qualified_at": "R08.05.27 18:48:17"
   },
   "days": [
     {
@@ -288,7 +288,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:20:48.210104+09:00",
+      "last_updated": "2026-05-27T23:23:18.935192+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -625,7 +625,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:13:22.453898+09:00",
+      "last_updated": "2026-05-27T23:23:11.139518+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7487,7 +7487,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T22:05:40.930606+09:00",
+      "last_updated": "2026-05-27T23:21:27.642938+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -7515,9 +7515,9 @@
     }
   ],
   "sigma_qualified_count": 74,
-  "sigma_last_run": "2026-05-27T23:18:56.285768",
+  "sigma_last_run": "2026-05-27T23:23:56.183508",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T23:19:28.035580+09:00",
+    "fetched_at": "2026-05-27T23:21:58.222156+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
