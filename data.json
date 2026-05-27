@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T23:13:12.763355+09:00",
+  "generated": "2026-05-27T23:15:42.182883+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
@@ -288,7 +288,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:13:11.278489+09:00",
+      "last_updated": "2026-05-27T23:15:41.197500+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -297,8 +297,8 @@
       "dow": "木",
       "open_count": 12,
       "booked_count": 8,
-      "new_count": 1,
-      "revisit_count": 7,
+      "new_count": 2,
+      "revisit_count": 6,
       "first_open": "12:10",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -311,7 +311,7 @@
       "per_platform_booked": {
         "SOKUYAKU": 4,
         "CLINICS": 3,
-        "gcal": 5,
+        "gcal": 6,
         "GMO": 1
       },
       "full_platforms": [
@@ -497,7 +497,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "野村日向",
+              "visit_type": "初診",
+              "department": "STD",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -617,7 +625,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:03:33.014252+09:00",
+      "last_updated": "2026-05-27T23:13:22.453898+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -723,7 +731,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "鈴木 愛由",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -826,7 +840,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:03:58.405098+09:00",
+      "last_updated": "2026-05-27T23:13:48.057259+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1105,7 +1119,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:04:22.130180+09:00",
+      "last_updated": "2026-05-27T23:14:12.339480+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1412,7 +1426,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:04:52.944643+09:00",
+      "last_updated": "2026-05-27T23:14:42.872742+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1822,7 +1836,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:05:23.966379+09:00",
+      "last_updated": "2026-05-27T23:15:14.700311+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4784,7 +4798,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:58:00.752578+09:00",
+      "last_updated": "2026-05-27T23:13:46.926363+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5169,7 +5183,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:58:38.839534+09:00",
+      "last_updated": "2026-05-27T23:14:25.046962+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5311,7 +5325,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:59:15.047588+09:00",
+      "last_updated": "2026-05-27T23:15:01.795878+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5479,7 +5493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T21:59:51.531638+09:00",
+      "last_updated": "2026-05-27T23:15:37.935738+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7503,7 +7517,7 @@
   "sigma_qualified_count": 74,
   "sigma_last_run": "2026-05-27T23:13:58.917555",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T23:11:50.814026+09:00",
+    "fetched_at": "2026-05-27T23:14:20.829231+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
