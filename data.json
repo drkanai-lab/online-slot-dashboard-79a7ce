@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T12:01:38.129756+09:00",
+  "generated": "2026-05-27T12:04:08.151606+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
@@ -74,7 +74,9 @@
               "patient_name": "近藤香菜子",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.27 12:00:44"
             }
           ],
           "sokuyaku_truth": []
@@ -216,7 +218,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T12:01:37.058593+09:00",
+      "last_updated": "2026-05-27T12:04:06.797727+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7396,10 +7398,10 @@
       "ts": "2026-05-27T02:17:31+09:00"
     }
   ],
-  "sigma_qualified_count": 53,
-  "sigma_last_run": "2026-05-27T08:59:00.475699",
+  "sigma_qualified_count": 58,
+  "sigma_last_run": "2026-05-27T12:03:52.997233",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T12:00:17.556102+09:00",
+    "fetched_at": "2026-05-27T12:02:46.560457+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
