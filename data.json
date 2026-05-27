@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-27T22:50:32.445519+09:00",
+  "generated": "2026-05-27T22:53:02.273031+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
     "short": "5/27(水)",
-    "time": "22:50",
-    "code": "C",
-    "patient_name": "飯田彰美",
-    "visit_type": "再診",
+    "time": "23:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.27 22:41:07"
+    "status": "open"
   },
   "days": [
     {
@@ -288,7 +286,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T22:50:31.439126+09:00",
+      "last_updated": "2026-05-27T22:53:01.173217+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7503,7 +7501,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-05-27T22:48:56.036929",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T22:49:10.306397+09:00",
+    "fetched_at": "2026-05-27T22:51:40.717557+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
