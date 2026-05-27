@@ -1,10 +1,10 @@
 {
-  "generated": "2026-05-27T23:00:35.870206+09:00",
+  "generated": "2026-05-27T23:03:07.038686+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
     "short": "5/27(水)",
-    "time": "23:00",
+    "time": "23:10",
     "code": "",
     "patient_name": "",
     "visit_type": "",
@@ -233,13 +233,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "booked",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [
@@ -286,7 +286,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:00:34.874314+09:00",
+      "last_updated": "2026-05-27T23:03:06.925972+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7501,7 +7501,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-05-27T22:58:57.585042",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T22:59:14.067177+09:00",
+    "fetched_at": "2026-05-27T23:01:43.849453+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
