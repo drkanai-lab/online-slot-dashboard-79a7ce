@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-27T22:30:10.630568+09:00",
+  "generated": "2026-05-27T22:32:40.380197+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
     "short": "5/27(水)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "菊池 隆太郎",
-    "visit_type": "再診",
-    "department": "呼吸器科",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.27 18:47:08"
+    "patient_name": "平岡暖乃香",
+    "visit_type": "初診",
+    "department": "耳鼻",
+    "status": "booked"
   },
   "days": [
     {
@@ -34,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 4,
         "SOKUYAKU": 3
       },
@@ -202,7 +200,15 @@
               "end_time": "23:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "佐藤魁星",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -272,7 +278,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T22:30:09.272415+09:00",
+      "last_updated": "2026-05-27T22:32:39.279582+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7487,7 +7493,7 @@
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-05-27T22:28:56.785820",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T22:28:47.569437+09:00",
+    "fetched_at": "2026-05-27T22:31:18.962081+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
