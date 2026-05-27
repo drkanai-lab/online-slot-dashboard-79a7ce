@@ -1,37 +1,38 @@
 {
-  "generated": "2026-05-27T19:40:00.281942+09:00",
+  "generated": "2026-05-27T19:42:36.910879+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
     "short": "5/27(水)",
     "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "高山 雪美恵",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
       "date": "2026-05-27",
       "short": "5/27(水)",
       "dow": "水",
-      "open_count": 9,
-      "booked_count": 4,
-      "new_count": 0,
+      "open_count": 8,
+      "booked_count": 5,
+      "new_count": 1,
       "revisit_count": 4,
-      "first_open": "22:00",
+      "first_open": "22:20",
       "last_open": "23:50",
-      "first_booked": "22:10",
+      "first_booked": "22:00",
       "last_booked": "23:30",
       "per_platform_open": {
-        "クロン": 2,
         "CLINICS": 5,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 2,
+        "クロン": 1
       },
       "per_platform_booked": {
+        "クロン": 1,
+        "gcal": 5,
         "CLINICS": 1,
-        "gcal": 4,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -53,11 +54,19 @@
           "time": "22:00",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "高山 雪美恵",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -240,34 +249,38 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T19:39:59.304500+09:00",
+      "last_updated": "2026-05-27T19:42:34.931407+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-28",
       "short": "5/28(木)",
       "dow": "木",
-      "open_count": 14,
-      "booked_count": 6,
+      "open_count": 13,
+      "booked_count": 7,
       "new_count": 1,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "12:10",
       "last_open": "23:30",
       "first_booked": "11:30",
-      "last_booked": "22:30",
+      "last_booked": "22:45",
       "per_platform_open": {
         "CLINICS": 9,
         "クロン": 3,
-        "SOKUYAKU": 1,
         "GMO": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 3,
+        "SOKUYAKU": 4,
         "CLINICS": 2,
         "gcal": 4,
         "GMO": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        }
+      ],
       "ranges": [
         [
           "11:30",
@@ -488,12 +501,18 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "廣瀬 峰実",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -551,7 +570,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T19:31:10.663531+09:00",
+      "last_updated": "2026-05-27T19:41:12.161221+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -760,7 +779,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T19:31:37.198397+09:00",
+      "last_updated": "2026-05-27T19:41:37.785332+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1039,7 +1058,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T19:32:14.029121+09:00",
+      "last_updated": "2026-05-27T19:42:10.410015+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7418,12 +7437,19 @@
       "date": "2026-05-27",
       "time": "22:30",
       "ts": "2026-05-27T16:13:13+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "高山 雪美恵",
+      "date": "2026-05-27",
+      "time": "22:00",
+      "ts": "2026-05-27T19:42:36+09:00"
     }
   ],
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-27T19:38:53.156565",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T19:38:39.005611+09:00",
+    "fetched_at": "2026-05-27T19:41:15.079095+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
