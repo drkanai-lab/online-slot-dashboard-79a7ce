@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-27T23:48:40.602052+09:00",
+  "generated": "2026-05-27T23:51:11.862005+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-05-27",
-    "short": "5/27(水)",
-    "time": "23:50",
-    "code": "",
+    "date": "2026-05-28",
+    "short": "5/28(木)",
+    "time": "11:30",
+    "code": "S",
     "patient_name": "",
     "visit_type": "",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -286,7 +286,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T23:48:39.561490+09:00",
+      "last_updated": "2026-05-27T23:51:10.889002+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7522,9 +7522,9 @@
     }
   ],
   "sigma_qualified_count": 74,
-  "sigma_last_run": "2026-05-27T23:43:55.256374",
+  "sigma_last_run": "2026-05-27T23:48:55.933337",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T23:47:18.129353+09:00",
+    "fetched_at": "2026-05-27T23:49:50.404251+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
