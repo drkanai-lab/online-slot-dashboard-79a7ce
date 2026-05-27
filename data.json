@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T08:29:06.760070+09:00",
+  "generated": "2026-05-28T08:31:54.864514+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
@@ -18,22 +18,22 @@
       "date": "2026-05-28",
       "short": "5/28(木)",
       "dow": "木",
-      "open_count": 6,
-      "booked_count": 11,
+      "open_count": 5,
+      "booked_count": 12,
       "new_count": 5,
-      "revisit_count": 6,
+      "revisit_count": 7,
       "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 4
+        "CLINICS": 3
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 11,
-        "CLINICS": 5,
+        "gcal": 12,
+        "CLINICS": 6,
         "GMO": 2
       },
       "full_platforms": [
@@ -268,11 +268,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "春口淳一",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -397,7 +405,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T08:29:05.679721+09:00",
+      "last_updated": "2026-05-28T08:31:53.599584+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -621,7 +629,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T08:19:57.553496+09:00",
+      "last_updated": "2026-05-28T08:29:54.129831+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -900,7 +908,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T08:20:22.325815+09:00",
+      "last_updated": "2026-05-28T08:30:18.160849+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1207,7 +1215,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T08:20:53.970621+09:00",
+      "last_updated": "2026-05-28T08:30:49.871878+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1617,7 +1625,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T08:21:25.532147+09:00",
+      "last_updated": "2026-05-28T08:31:21.797879+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1759,7 +1767,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T08:21:55.457224+09:00",
+      "last_updated": "2026-05-28T08:31:52.251816+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7682,12 +7690,19 @@
       "date": "2026-05-28",
       "time": "12:10",
       "ts": "2026-05-28T07:12:24+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "春口淳一",
+      "date": "2026-05-28",
+      "time": "22:20",
+      "ts": "2026-05-28T08:31:54+09:00"
     }
   ],
   "sigma_qualified_count": 70,
   "sigma_last_run": "2026-05-28T08:28:48.646999",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T08:27:42.558235+09:00",
+    "fetched_at": "2026-05-28T08:30:30.610751+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
