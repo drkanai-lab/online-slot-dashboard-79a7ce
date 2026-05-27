@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T07:17:27.959102+09:00",
+  "generated": "2026-05-28T07:20:53.635965+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
@@ -148,7 +148,9 @@
               "patient_name": "古江早貴",
               "visit_type": "初診",
               "department": "整形",
-              "end_time": "12:20"
+              "end_time": "12:20",
+              "qualified": true,
+              "qualified_at": "R08.05.28 07:15:46"
             }
           ],
           "sokuyaku_truth": []
@@ -374,7 +376,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T07:17:27.012557+09:00",
+      "last_updated": "2026-05-28T07:20:52.675062+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -598,7 +600,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T07:09:42.329440+09:00",
+      "last_updated": "2026-05-28T07:20:33.276809+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7661,10 +7663,10 @@
       "ts": "2026-05-28T07:12:24+09:00"
     }
   ],
-  "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-05-28T07:03:49.544661",
+  "sigma_qualified_count": 69,
+  "sigma_last_run": "2026-05-28T07:18:48.804917",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T07:16:06.757053+09:00",
+    "fetched_at": "2026-05-28T07:19:32.005307+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
