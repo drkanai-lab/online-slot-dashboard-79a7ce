@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-27T20:03:29.801596+09:00",
+  "generated": "2026-05-27T20:05:06.219413+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-27",
@@ -18,8 +18,8 @@
       "dow": "水",
       "open_count": 7,
       "booked_count": 6,
-      "new_count": 1,
-      "revisit_count": 5,
+      "new_count": 2,
+      "revisit_count": 4,
       "first_open": "22:45",
       "last_open": "23:50",
       "first_booked": "22:00",
@@ -102,7 +102,7 @@
             {
               "code": "C",
               "patient_name": "市川真衣",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "婦人",
               "end_time": "22:30"
             }
@@ -257,7 +257,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-27T20:02:32.776592+09:00",
+      "last_updated": "2026-05-27T20:05:04.859662+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7470,9 +7470,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-05-27T19:58:52.776938",
+  "sigma_last_run": "2026-05-27T20:03:52.832464",
   "gmo_realtime": {
-    "fetched_at": "2026-05-27T20:01:13.257467+09:00",
+    "fetched_at": "2026-05-27T20:03:45.267061+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
