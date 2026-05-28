@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-28T22:19:12.969434+09:00",
+  "generated": "2026-05-28T22:21:46.718295+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
     "short": "5/28(木)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "春口淳一",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "古谷 沙織",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.28 10:26:39"
+    "qualified_at": "R08.05.25 17:33:17"
   },
   "days": [
     {
@@ -404,7 +404,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T22:19:11.969450+09:00",
+      "last_updated": "2026-05-28T22:21:45.618756+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -636,7 +636,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T22:11:13.930342+09:00",
+      "last_updated": "2026-05-28T22:21:12.393994+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -915,7 +915,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T22:11:39.778012+09:00",
+      "last_updated": "2026-05-28T22:21:35.846312+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7703,7 +7703,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-05-28T22:19:20.973168",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T22:17:47.179218+09:00",
+    "fetched_at": "2026-05-28T22:20:21.953509+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
