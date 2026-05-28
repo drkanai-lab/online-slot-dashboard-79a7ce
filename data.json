@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T20:56:17.326472+09:00",
+  "generated": "2026-05-28T20:58:55.701256+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
@@ -18,8 +18,8 @@
       "dow": "木",
       "open_count": 3,
       "booked_count": 13,
-      "new_count": 4,
-      "revisit_count": 9,
+      "new_count": 5,
+      "revisit_count": 8,
       "first_open": "11:45",
       "last_open": "23:20",
       "first_booked": "11:30",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 12,
+        "gcal": 13,
         "CLINICS": 8,
         "GMO": 2
       },
@@ -185,7 +185,17 @@
               "end_time": "12:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "関谷定一郎",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "12:55",
+              "qualified": true,
+              "qualified_at": "R08.05.28 07:45:33"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -392,7 +402,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T20:56:15.998527+09:00",
+      "last_updated": "2026-05-28T20:58:54.623435+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7681,9 +7691,9 @@
     }
   ],
   "sigma_qualified_count": 73,
-  "sigma_last_run": "2026-05-28T20:53:52.404707",
+  "sigma_last_run": "2026-05-28T20:58:52.544998",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T20:54:49.058297+09:00",
+    "fetched_at": "2026-05-28T20:57:28.961945+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
