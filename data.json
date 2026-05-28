@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-28T22:44:59.112384+09:00",
+  "generated": "2026-05-28T22:47:35.957363+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
     "short": "5/28(木)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "廣瀬 峰実",
+    "time": "22:50",
+    "code": "C",
+    "patient_name": "小西紀子",
     "visit_type": "再診",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.27 19:40:43"
+    "status": "booked"
   },
   "days": [
     {
@@ -394,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T22:44:57.995195+09:00",
+      "last_updated": "2026-05-28T22:47:34.768617+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7702,7 +7700,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-05-28T22:43:54.408038",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T22:43:34.113042+09:00",
+    "fetched_at": "2026-05-28T22:46:11.402222+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
