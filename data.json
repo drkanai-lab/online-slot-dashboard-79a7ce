@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-28T22:08:53.736349+09:00",
+  "generated": "2026-05-28T22:11:29.551775+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
     "short": "5/28(木)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "野村日向",
-    "visit_type": "初診",
-    "department": "STD",
+    "patient_name": "春口淳一",
+    "visit_type": "再診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.27 23:05:23"
+    "qualified_at": "R08.05.28 10:26:39"
   },
   "days": [
     {
@@ -404,7 +404,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T22:08:52.292730+09:00",
+      "last_updated": "2026-05-28T22:11:28.466945+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -636,7 +636,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T22:01:06.434915+09:00",
+      "last_updated": "2026-05-28T22:11:13.930342+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7703,7 +7703,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-05-28T22:08:53.563879",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T22:07:28.895719+09:00",
+    "fetched_at": "2026-05-28T22:10:02.543025+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
