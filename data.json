@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T13:26:26.942471+09:00",
+  "generated": "2026-05-28T13:29:02.135290+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
@@ -255,7 +255,9 @@
               "patient_name": "春口淳一",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:30"
+              "end_time": "22:30",
+              "qualified": true,
+              "qualified_at": "R08.05.28 10:26:39"
             }
           ],
           "sokuyaku_truth": []
@@ -370,7 +372,9 @@
               "patient_name": "工藤真衣",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "23:20"
+              "end_time": "23:20",
+              "qualified": true,
+              "qualified_at": "R08.05.28 10:27:10"
             }
           ],
           "sokuyaku_truth": []
@@ -398,7 +402,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T13:26:25.924295+09:00",
+      "last_updated": "2026-05-28T13:29:01.056807+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7693,10 +7697,10 @@
       "ts": "2026-05-28T08:31:54+09:00"
     }
   ],
-  "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-05-28T10:08:52.787889",
+  "sigma_qualified_count": 72,
+  "sigma_last_run": "2026-05-28T13:29:06.198071",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T13:24:59.900171+09:00",
+    "fetched_at": "2026-05-28T13:27:34.819923+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
