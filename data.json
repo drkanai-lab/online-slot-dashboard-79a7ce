@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T23:33:47.418792+09:00",
+  "generated": "2026-05-28T23:34:11.939874+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
@@ -17,13 +17,13 @@
       "short": "5/28(木)",
       "dow": "木",
       "open_count": 5,
-      "booked_count": 12,
+      "booked_count": 11,
       "new_count": 4,
-      "revisit_count": 8,
+      "revisit_count": 7,
       "first_open": "11:45",
       "last_open": "23:20",
       "first_booked": "11:30",
-      "last_booked": "23:00",
+      "last_booked": "22:50",
       "per_platform_open": {
         "SOKUYAKU": 1,
         "クロン": 1,
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 12,
+        "gcal": 11,
         "CLINICS": 7,
         "GMO": 1
       },
@@ -343,15 +343,7 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "中口　美樹",
-              "visit_type": "再診",
-              "department": "不眠",
-              "end_time": "23:10"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -388,7 +380,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T23:31:34.726372+09:00",
+      "last_updated": "2026-05-28T23:34:10.852487+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
