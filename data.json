@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T20:36:13.240968+09:00",
+  "generated": "2026-05-28T20:38:12.597235+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
@@ -71,15 +71,6 @@
               "qualified": true,
               "qualified_at": "R08.05.27 18:49:05"
             }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "馬場 友萌",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.05.27 18:49:05"
-            }
           ]
         },
         {
@@ -90,8 +81,7 @@
               "end_time": "12:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": []
         },
         {
           "time": "12:00",
@@ -111,8 +101,7 @@
               "qualified": true,
               "qualified_at": "R08.05.27 18:49:40"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "12:10",
@@ -132,8 +121,7 @@
               "qualified": true,
               "qualified_at": "R08.05.28 07:15:46"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "12:20",
@@ -153,8 +141,7 @@
               "qualified": true,
               "qualified_at": "R08.05.27 18:50:01"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "12:30",
@@ -174,8 +161,7 @@
               "qualified": true,
               "qualified_at": "R08.05.27 18:43:45"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "12:40",
@@ -185,8 +171,7 @@
               "end_time": "12:50"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": []
         },
         {
           "time": "13:00",
@@ -196,8 +181,7 @@
               "end_time": "13:10"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": []
         },
         {
           "time": "22:00",
@@ -207,8 +191,7 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": []
         },
         {
           "time": "22:10",
@@ -228,8 +211,7 @@
               "qualified": true,
               "qualified_at": "R08.05.27 23:05:23"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:20",
@@ -249,8 +231,7 @@
               "qualified": true,
               "qualified_at": "R08.05.28 10:26:39"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:30",
@@ -267,15 +248,6 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "22:45",
-              "qualified": true,
-              "qualified_at": "R08.05.25 17:33:17"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "古谷 沙織",
-              "visit_type": "再診",
-              "department": "",
               "qualified": true,
               "qualified_at": "R08.05.25 17:33:17"
             }
@@ -299,15 +271,6 @@
               "qualified": true,
               "qualified_at": "R08.05.27 19:40:43"
             }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "廣瀬 峰実",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.05.27 19:40:43"
-            }
           ]
         },
         {
@@ -326,8 +289,7 @@
               "department": "",
               "end_time": "23:00"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "23:00",
@@ -345,8 +307,7 @@
               "department": "不眠",
               "end_time": "23:10"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "23:10",
@@ -366,8 +327,7 @@
               "qualified": true,
               "qualified_at": "R08.05.28 10:27:10"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "23:20",
@@ -377,8 +337,7 @@
               "end_time": ""
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": []
         },
         {
           "time": "23:30",
@@ -388,12 +347,11 @@
               "end_time": "23:40"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": []
         }
       ],
-      "last_updated": "2026-05-28T20:36:11.751404+09:00",
-      "sokuyaku_reserve_ok": true
+      "last_updated": "2026-05-28T20:38:11.905418+09:00",
+      "sokuyaku_reserve_ok": false
     },
     {
       "date": "2026-05-29",
@@ -6847,7 +6805,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T19:20:11.709812+09:00",
+      "last_updated": "2026-05-28T20:36:34.455666+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7103,7 +7061,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T19:20:51.780524+09:00",
+      "last_updated": "2026-05-28T20:37:13.679014+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7271,7 +7229,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T19:21:32.367058+09:00",
+      "last_updated": "2026-05-28T20:37:52.853163+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7683,7 +7641,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-05-28T20:33:52.665436",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T20:34:45.717438+09:00",
+    "fetched_at": "2026-05-28T20:37:22.041716+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
