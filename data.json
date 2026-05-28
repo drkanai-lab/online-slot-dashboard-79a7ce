@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-28T12:00:09.405502+09:00",
+  "generated": "2026-05-28T12:02:44.187193+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
     "short": "5/28(木)",
-    "time": "12:00",
+    "time": "12:10",
     "code": "C",
-    "patient_name": "村田ナオミ",
-    "visit_type": "再診",
-    "department": "",
+    "patient_name": "古江早貴",
+    "visit_type": "初診",
+    "department": "整形",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.27 18:49:40"
+    "qualified_at": "R08.05.28 07:15:46"
   },
   "days": [
     {
@@ -421,7 +421,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T12:00:08.336504+09:00",
+      "last_updated": "2026-05-28T12:02:43.265996+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -645,7 +645,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T11:51:44.713452+09:00",
+      "last_updated": "2026-05-28T12:01:42.178423+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -924,7 +924,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T11:52:09.001315+09:00",
+      "last_updated": "2026-05-28T12:02:06.310773+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1231,7 +1231,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T11:52:39.358299+09:00",
+      "last_updated": "2026-05-28T12:02:38.539423+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7711,7 +7711,7 @@
   "sigma_qualified_count": 70,
   "sigma_last_run": "2026-05-28T10:08:52.787889",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T11:58:42.595865+09:00",
+    "fetched_at": "2026-05-28T12:01:17.745850+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
