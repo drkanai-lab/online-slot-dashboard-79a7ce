@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T13:21:14.488319+09:00",
+  "generated": "2026-05-28T13:23:51.174762+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
@@ -16,29 +16,26 @@
       "date": "2026-05-28",
       "short": "5/28(木)",
       "dow": "木",
-      "open_count": 2,
-      "booked_count": 14,
-      "new_count": 6,
+      "open_count": 3,
+      "booked_count": 13,
+      "new_count": 5,
       "revisit_count": 8,
-      "first_open": "22:00",
+      "first_open": "11:45",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:10",
       "per_platform_open": {
+        "SOKUYAKU": 1,
         "クロン": 1,
         "CLINICS": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 4,
-        "gcal": 14,
+        "SOKUYAKU": 3,
+        "gcal": 13,
         "CLINICS": 8,
         "GMO": 2
       },
       "full_platforms": [
-        {
-          "name": "SOKUYAKU",
-          "code": "S"
-        },
         {
           "name": "GMO",
           "code": "G"
@@ -89,21 +86,11 @@
           "time": "11:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "12:00"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "長谷川 春美",
-              "visit_type": "初診",
-              "department": "",
-              "end_time": "12:00",
-              "qualified": true,
-              "qualified_at": "R08.05.27 18:46:24"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -411,7 +398,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T13:21:12.914850+09:00",
+      "last_updated": "2026-05-28T13:23:50.251984+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -635,7 +622,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T13:11:36.198469+09:00",
+      "last_updated": "2026-05-28T13:21:35.139767+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -658,7 +645,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 3,
+        "gcal": 4,
         "GMO": 1
       },
       "full_platforms": [],
@@ -693,14 +680,16 @@
               "end_time": "12:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": [
+          "gcals": [
             {
+              "code": "S",
               "patient_name": "馬場 友萌",
               "visit_type": "再診",
-              "department": ""
+              "department": "整形",
+              "end_time": "12:40"
             }
-          ]
+          ],
+          "sokuyaku_truth": []
         },
         {
           "time": "12:45",
@@ -920,7 +909,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T13:11:59.811026+09:00",
+      "last_updated": "2026-05-28T13:21:59.672211+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1227,7 +1216,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T13:12:31.516109+09:00",
+      "last_updated": "2026-05-28T13:22:39.707893+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1637,7 +1626,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T13:13:04.856940+09:00",
+      "last_updated": "2026-05-28T13:23:12.147631+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1779,7 +1768,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T13:13:34.767953+09:00",
+      "last_updated": "2026-05-28T13:23:42.338066+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7707,7 +7696,7 @@
   "sigma_qualified_count": 70,
   "sigma_last_run": "2026-05-28T10:08:52.787889",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T13:19:46.355815+09:00",
+    "fetched_at": "2026-05-28T13:22:22.322584+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
