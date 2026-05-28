@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-28T23:18:46.698429+09:00",
+  "generated": "2026-05-28T23:21:22.238460+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-05-28",
-    "short": "5/28(木)",
-    "time": "23:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "date": "2026-05-29",
+    "short": "5/29(金)",
+    "time": "22:00",
+    "code": "K",
+    "patient_name": "柳田 梓",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -392,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T23:18:45.714144+09:00",
+      "last_updated": "2026-05-28T23:21:21.214888+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -624,7 +624,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T23:11:15.560220+09:00",
+      "last_updated": "2026-05-28T23:21:13.718679+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7700,7 +7700,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-05-28T23:18:53.885606",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T23:17:21.702635+09:00",
+    "fetched_at": "2026-05-28T23:19:56.099625+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
