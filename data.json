@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-28T11:44:34.187922+09:00",
+  "generated": "2026-05-28T11:47:10.201822+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
     "short": "5/28(木)",
-    "time": "11:45",
-    "code": "S",
-    "patient_name": "長谷川 春美",
-    "visit_type": "初診",
+    "time": "12:00",
+    "code": "C",
+    "patient_name": "村田ナオミ",
+    "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.27 18:46:24"
+    "qualified_at": "R08.05.27 18:49:40"
   },
   "days": [
     {
@@ -421,7 +421,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T11:44:33.203883+09:00",
+      "last_updated": "2026-05-28T11:47:09.198151+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7124,7 +7124,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T10:28:42.326091+09:00",
+      "last_updated": "2026-05-28T11:45:03.236995+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7292,7 +7292,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T10:29:21.544347+09:00",
+      "last_updated": "2026-05-28T11:45:42.739807+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7688,7 +7688,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T10:30:01.358965+09:00",
+      "last_updated": "2026-05-28T11:46:22.813850+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -7711,7 +7711,7 @@
   "sigma_qualified_count": 70,
   "sigma_last_run": "2026-05-28T10:08:52.787889",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T11:43:08.817143+09:00",
+    "fetched_at": "2026-05-28T11:45:44.192115+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
