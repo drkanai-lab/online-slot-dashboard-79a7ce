@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T22:34:44.606128+09:00",
+  "generated": "2026-05-28T22:37:17.579336+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
@@ -19,13 +19,13 @@
       "short": "5/28(木)",
       "dow": "木",
       "open_count": 4,
-      "booked_count": 13,
-      "new_count": 5,
+      "booked_count": 12,
+      "new_count": 4,
       "revisit_count": 8,
       "first_open": "11:45",
       "last_open": "23:20",
       "first_booked": "11:30",
-      "last_booked": "23:10",
+      "last_booked": "23:00",
       "per_platform_open": {
         "SOKUYAKU": 1,
         "クロン": 1,
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 13,
+        "gcal": 12,
         "CLINICS": 7,
         "GMO": 2
       },
@@ -368,17 +368,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "工藤真衣",
-              "visit_type": "初診",
-              "department": "皮膚",
-              "end_time": "23:20",
-              "qualified": true,
-              "qualified_at": "R08.05.28 10:27:10"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -404,7 +394,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T22:34:42.623694+09:00",
+      "last_updated": "2026-05-28T22:37:16.365416+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7703,7 +7693,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-05-28T22:34:05.911549",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T22:33:19.324940+09:00",
+    "fetched_at": "2026-05-28T22:35:52.358944+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
