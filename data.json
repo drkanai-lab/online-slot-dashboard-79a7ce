@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T13:18:38.836705+09:00",
+  "generated": "2026-05-28T13:21:14.488319+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-28",
@@ -104,15 +104,7 @@
               "qualified_at": "R08.05.27 18:46:24"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "長谷川 春美",
-              "visit_type": "初診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.05.27 18:46:24"
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "12:00",
@@ -419,7 +411,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-28T13:18:37.856037+09:00",
+      "last_updated": "2026-05-28T13:21:12.914850+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7715,7 +7707,7 @@
   "sigma_qualified_count": 70,
   "sigma_last_run": "2026-05-28T10:08:52.787889",
   "gmo_realtime": {
-    "fetched_at": "2026-05-28T13:17:11.701826+09:00",
+    "fetched_at": "2026-05-28T13:19:46.355815+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
