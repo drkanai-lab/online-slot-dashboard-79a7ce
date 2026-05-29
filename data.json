@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T10:46:29.407947+09:00",
+  "generated": "2026-05-29T10:48:59.072156+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
@@ -294,30 +294,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T10:46:28.031100+09:00",
+      "last_updated": "2026-05-29T10:48:57.780633+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-30",
       "short": "5/30(土)",
       "dow": "土",
-      "open_count": 10,
-      "booked_count": 5,
+      "open_count": 9,
+      "booked_count": 6,
       "new_count": 1,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "12:30",
-      "last_booked": "22:30",
+      "last_booked": "22:45",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
-        "SOKUYAKU": 3,
-        "GMO": 1
+        "GMO": 1,
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "SOKUYAKU": 3,
-        "gcal": 5,
+        "SOKUYAKU": 4,
+        "gcal": 6,
         "GMO": 1,
         "CLINICS": 1
       },
@@ -507,12 +507,26 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 奈央子",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "22:55"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "黒井 奈央子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -596,31 +610,32 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T10:38:11.189012+09:00",
+      "last_updated": "2026-05-29T10:48:14.459032+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-05-31",
       "short": "5/31(日)",
       "dow": "日",
-      "open_count": 20,
-      "booked_count": 2,
+      "open_count": 19,
+      "booked_count": 3,
       "new_count": 1,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "18:40",
       "last_open": "23:50",
       "first_booked": "12:10",
-      "last_booked": "18:30",
+      "last_booked": "19:00",
       "per_platform_open": {
         "CLINICS": 11,
-        "SOKUYAKU": 6,
+        "SOKUYAKU": 5,
         "クロン": 3,
         "GMO": 1
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 2,
-        "GMO": 1
+        "gcal": 3,
+        "GMO": 1,
+        "SOKUYAKU": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -704,12 +719,26 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 宣郎",
+              "visit_type": "再診",
+              "department": "漢方",
+              "end_time": "19:10"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "黒井 宣郎",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:15",
@@ -903,7 +932,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T10:38:42.916427+09:00",
+      "last_updated": "2026-05-29T10:48:47.563719+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7681,9 +7710,9 @@
     }
   ],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-05-29T10:43:51.082890",
+  "sigma_last_run": "2026-05-29T10:48:51.137355",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T10:45:07.492051+09:00",
+    "fetched_at": "2026-05-29T10:47:37.473224+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
