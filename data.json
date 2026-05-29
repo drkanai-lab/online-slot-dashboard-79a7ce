@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T18:57:10.855519+09:00",
+  "generated": "2026-05-29T18:58:44.498128+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 11,
+        "gcal": 12,
         "CLINICS": 6,
         "SOKUYAKU": 4,
         "GMO": 1
@@ -313,11 +313,19 @@
               "end_time": "00:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "杉本哲平",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "00:00"
+            }
+          ],
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T18:56:08.430207+09:00",
+      "last_updated": "2026-05-29T18:58:43.136261+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7522,9 +7530,9 @@
     }
   ],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-05-29T18:53:50.795999",
+  "sigma_last_run": "2026-05-29T18:58:51.034276",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T18:54:45.307735+09:00",
+    "fetched_at": "2026-05-29T18:57:18.938198+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
