@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-29T22:45:48.070261+09:00",
+  "generated": "2026-05-29T22:48:33.378018+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
     "short": "5/29(金)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "黒井 奈央子",
+    "time": "22:50",
+    "code": "C",
+    "patient_name": "森邦彦",
     "visit_type": "再診",
-    "department": "漢方",
-    "status": "booked"
+    "department": "",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.28 19:55:45"
   },
   "days": [
     {
@@ -329,7 +331,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T22:45:46.777708+09:00",
+      "last_updated": "2026-05-29T22:48:30.204703+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -636,7 +638,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T22:37:30.555896+09:00",
+      "last_updated": "2026-05-29T22:47:42.999871+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -972,7 +974,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T22:38:01.886654+09:00",
+      "last_updated": "2026-05-29T22:48:13.602878+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7529,7 +7531,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-29T22:44:05.130743",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T22:44:24.737427+09:00",
+    "fetched_at": "2026-05-29T22:46:58.926613+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
