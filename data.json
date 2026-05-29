@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-29T23:48:33.520113+09:00",
+  "generated": "2026-05-29T23:51:04.571012+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-05-29",
-    "short": "5/29(金)",
-    "time": "23:50",
-    "code": "C",
-    "patient_name": "杉本哲平",
+    "date": "2026-05-30",
+    "short": "5/30(土)",
+    "time": "12:30",
+    "code": "S",
+    "patient_name": "黒井 きぼう",
     "visit_type": "再診",
-    "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.29 21:54:10"
+    "department": "皮膚",
+    "status": "booked"
   },
   "days": [
     {
@@ -331,7 +329,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T23:48:32.156431+09:00",
+      "last_updated": "2026-05-29T23:51:03.218741+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -638,7 +636,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T23:39:55.963425+09:00",
+      "last_updated": "2026-05-29T23:50:09.697874+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -974,7 +972,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T23:40:26.682085+09:00",
+      "last_updated": "2026-05-29T23:50:41.051779+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7524,7 +7522,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-29T23:48:53.739204",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T23:47:09.930506+09:00",
+    "fetched_at": "2026-05-29T23:49:41.801394+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
