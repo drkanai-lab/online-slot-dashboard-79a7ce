@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T15:09:48.660519+09:00",
+  "generated": "2026-05-29T15:12:19.576724+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
@@ -18,22 +18,22 @@
       "date": "2026-05-29",
       "short": "5/29(金)",
       "dow": "金",
-      "open_count": 3,
-      "booked_count": 10,
+      "open_count": 2,
+      "booked_count": 11,
       "new_count": 3,
-      "revisit_count": 7,
-      "first_open": "23:20",
+      "revisit_count": 8,
+      "first_open": "23:30",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:45",
       "per_platform_open": {
-        "CLINICS": 2,
-        "クロン": 1
+        "クロン": 1,
+        "CLINICS": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 10,
-        "CLINICS": 4,
+        "gcal": 11,
+        "CLINICS": 5,
         "SOKUYAKU": 4,
         "GMO": 1
       },
@@ -231,11 +231,21 @@
           "time": "23:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "佐藤魁星",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:30",
+              "qualified": true,
+              "qualified_at": "R08.05.27 22:30:49"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -304,7 +314,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T15:09:47.241494+09:00",
+      "last_updated": "2026-05-29T15:12:18.004553+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -611,7 +621,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T15:01:16.097730+09:00",
+      "last_updated": "2026-05-29T15:11:30.446471+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -947,7 +957,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T15:01:48.956564+09:00",
+      "last_updated": "2026-05-29T15:12:00.890656+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7488,13 +7498,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "黒井 愛",
-      "date": "2026-05-29",
-      "time": "23:30",
-      "ts": "2026-05-29T10:03:24+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "黒井 きぼう",
       "date": "2026-05-30",
       "time": "12:30",
@@ -7506,12 +7509,19 @@
       "date": "2026-05-30",
       "time": "22:45",
       "ts": "2026-05-29T10:50:56+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "佐藤魁星",
+      "date": "2026-05-29",
+      "time": "23:20",
+      "ts": "2026-05-29T15:12:19+09:00"
     }
   ],
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-05-29T15:08:52.987279",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T15:08:26.521194+09:00",
+    "fetched_at": "2026-05-29T15:10:57.852435+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
