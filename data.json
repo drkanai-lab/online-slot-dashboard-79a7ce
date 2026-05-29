@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-29T22:50:21.249379+09:00",
+  "generated": "2026-05-29T22:51:06.312171+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
     "short": "5/29(金)",
-    "time": "22:50",
-    "code": "C",
-    "patient_name": "森邦彦",
-    "visit_type": "再診",
-    "department": "",
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "原　菜々子",
+    "visit_type": "初診",
+    "department": "心療",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.28 19:55:45"
+    "qualified_at": "R08.05.29 21:52:31"
   },
   "days": [
     {
@@ -331,7 +331,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T22:48:30.204703+09:00",
+      "last_updated": "2026-05-29T22:51:04.912763+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7513,13 +7513,6 @@
     }
   ],
   "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "黒井 奈央子",
-      "date": "2026-05-30",
-      "time": "22:45",
-      "ts": "2026-05-29T10:50:56+09:00"
-    },
     {
       "type": "new",
       "patient_name": "佐藤魁星",
