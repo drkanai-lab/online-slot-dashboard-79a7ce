@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T09:45:36.943244+09:00",
+  "generated": "2026-05-29T09:48:10.925718+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
@@ -18,24 +18,24 @@
       "date": "2026-05-29",
       "short": "5/29(金)",
       "dow": "金",
-      "open_count": 6,
-      "booked_count": 6,
+      "open_count": 5,
+      "booked_count": 7,
       "new_count": 2,
-      "revisit_count": 4,
-      "first_open": "22:45",
+      "revisit_count": 5,
+      "first_open": "23:10",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "SOKUYAKU": 3,
         "CLINICS": 3,
-        "クロン": 1
+        "クロン": 1,
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 3,
-        "SOKUYAKU": 1,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "full_platforms": [
@@ -142,11 +142,19 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 奈央子",
+              "visit_type": "再診",
+              "department": "漢方",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 奈央子",
@@ -255,7 +263,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T09:45:35.649199+09:00",
+      "last_updated": "2026-05-29T09:48:09.337058+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -543,7 +551,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T09:37:12.872982+09:00",
+      "last_updated": "2026-05-29T09:47:17.294586+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -850,7 +858,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T09:37:44.728799+09:00",
+      "last_updated": "2026-05-29T09:47:48.626538+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7611,12 +7619,19 @@
       "date": "2026-05-30",
       "time": "22:10",
       "ts": "2026-05-28T22:43:39+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "黒井 奈央子",
+      "date": "2026-05-29",
+      "time": "22:45",
+      "ts": "2026-05-29T09:48:10+09:00"
     }
   ],
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-05-29T09:43:52.331051",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T09:44:14.437112+09:00",
+    "fetched_at": "2026-05-29T09:46:47.879152+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
