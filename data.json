@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-29T22:09:58.753132+09:00",
+  "generated": "2026-05-29T22:12:38.867330+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
     "short": "5/29(金)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "細野優真",
+    "patient_name": "小山繁継",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.29 21:53:05"
+    "qualified_at": "R08.05.25 23:30:44"
   },
   "days": [
     {
@@ -331,7 +331,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T22:09:57.414344+09:00",
+      "last_updated": "2026-05-29T22:12:37.342103+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7538,7 +7538,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-29T22:09:18.480974",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T22:08:35.130520+09:00",
+    "fetched_at": "2026-05-29T22:11:15.098862+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
