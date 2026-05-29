@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-29T22:20:19.149185+09:00",
+  "generated": "2026-05-29T22:22:52.074670+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
     "short": "5/29(金)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "小山繁継",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "鈴木 愛由",
     "visit_type": "再診",
-    "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.25 23:30:44"
+    "department": "心療",
+    "status": "booked"
   },
   "days": [
     {
@@ -331,7 +329,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T22:20:17.913512+09:00",
+      "last_updated": "2026-05-29T22:22:50.761360+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7538,7 +7536,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-05-29T22:18:59.585465",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T22:18:54.322393+09:00",
+    "fetched_at": "2026-05-29T22:21:27.648514+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
