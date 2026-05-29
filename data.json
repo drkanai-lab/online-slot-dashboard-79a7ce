@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T10:00:51.007835+09:00",
+  "generated": "2026-05-29T10:03:24.492440+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
@@ -19,23 +19,23 @@
       "short": "5/29(金)",
       "dow": "金",
       "open_count": 5,
-      "booked_count": 7,
+      "booked_count": 8,
       "new_count": 2,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "23:10",
       "last_open": "23:50",
       "first_booked": "22:00",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 3,
         "クロン": 1,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 3,
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 3,
         "GMO": 1
       },
       "full_platforms": [
@@ -233,11 +233,19 @@
               "end_time": "23:40"
             },
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 愛",
+              "visit_type": "再診",
+              "department": "泌尿",
+              "end_time": "23:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 愛",
@@ -269,7 +277,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T10:00:49.483308+09:00",
+      "last_updated": "2026-05-29T10:03:22.817111+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7632,12 +7640,19 @@
       "date": "2026-05-29",
       "time": "22:45",
       "ts": "2026-05-29T09:48:10+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "黒井 愛",
+      "date": "2026-05-29",
+      "time": "23:30",
+      "ts": "2026-05-29T10:03:24+09:00"
     }
   ],
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-05-29T09:58:50.586443",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T09:59:27.942992+09:00",
+    "fetched_at": "2026-05-29T10:02:00.295233+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
