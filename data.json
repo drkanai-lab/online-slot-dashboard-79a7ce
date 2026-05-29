@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T10:16:05.416450+09:00",
+  "generated": "2026-05-29T10:18:36.248594+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 3,
         "SOKUYAKU": 4,
         "GMO": 1
@@ -265,7 +265,15 @@
               "end_time": "23:59"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 きぼう",
+              "visit_type": "再診",
+              "department": "多汗",
+              "end_time": "23:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 きぼう",
@@ -286,7 +294,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T10:16:04.168168+09:00",
+      "last_updated": "2026-05-29T10:18:34.829771+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -574,7 +582,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T10:07:36.622890+09:00",
+      "last_updated": "2026-05-29T10:17:59.161017+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -881,7 +889,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T10:08:08.452942+09:00",
+      "last_updated": "2026-05-29T10:18:30.914474+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7661,7 +7669,7 @@
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-05-29T10:13:51.758211",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T10:14:42.105368+09:00",
+    "fetched_at": "2026-05-29T10:17:13.136498+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
