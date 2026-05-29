@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-29T23:45:59.126405+09:00",
+  "generated": "2026-05-29T23:48:33.520113+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-29",
     "short": "5/29(金)",
-    "time": "23:45",
-    "code": "S",
-    "patient_name": "黒井 きぼう",
+    "time": "23:50",
+    "code": "C",
+    "patient_name": "杉本哲平",
     "visit_type": "再診",
-    "department": "多汗",
-    "status": "booked"
+    "department": "",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.29 21:54:10"
   },
   "days": [
     {
@@ -329,7 +331,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-29T23:45:57.777756+09:00",
+      "last_updated": "2026-05-29T23:48:32.156431+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7520,9 +7522,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-05-29T23:43:53.567030",
+  "sigma_last_run": "2026-05-29T23:48:53.739204",
   "gmo_realtime": {
-    "fetched_at": "2026-05-29T23:44:34.912689+09:00",
+    "fetched_at": "2026-05-29T23:47:09.930506+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
