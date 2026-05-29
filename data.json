@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T00:02:49.374707+09:00",
+  "generated": "2026-05-30T00:03:48.382286+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
@@ -281,13 +281,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -316,7 +316,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T00:00:10.719688+09:00",
+      "last_updated": "2026-05-30T00:03:47.733862+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7213,7 +7213,7 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-05-29T23:58:56.557330",
+  "sigma_last_run": "2026-05-30T00:03:51.913908",
   "gmo_realtime": {
     "fetched_at": "2026-05-30T00:02:29.061102+09:00",
     "scrape_ok": true,
