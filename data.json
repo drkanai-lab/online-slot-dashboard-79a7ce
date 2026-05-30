@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T08:46:05.393187+09:00",
+  "generated": "2026-05-31T08:47:44.874339+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
@@ -1004,7 +1004,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T08:36:36.739621+09:00",
+      "last_updated": "2026-05-31T08:46:23.913245+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1311,7 +1311,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T08:37:04.110713+09:00",
+      "last_updated": "2026-05-31T08:46:52.560342+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1355,17 +1355,17 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T08:37:28.800971+09:00",
+      "last_updated": "2026-05-31T08:47:17.082431+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-06",
       "short": "6/6(土)",
       "dow": "土",
-      "open_count": 29,
-      "booked_count": 3,
+      "open_count": 28,
+      "booked_count": 4,
       "new_count": 1,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "12:10",
@@ -1373,12 +1373,13 @@
       "per_platform_open": {
         "クロン": 4,
         "CLINICS": 16,
-        "SOKUYAKU": 8,
+        "SOKUYAKU": 7,
         "GMO": 2
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 3,
+        "gcal": 4,
+        "SOKUYAKU": 1,
         "クロン": 1,
         "GMO": 1
       },
@@ -1444,12 +1445,26 @@
           "time": "12:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "福山 薫",
+              "visit_type": "再診",
+              "department": "肛門",
+              "end_time": "12:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "福山 薫",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "12:45",
@@ -1780,7 +1795,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T08:37:54.130205+09:00",
+      "last_updated": "2026-05-31T08:47:42.919463+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7491,7 +7506,7 @@
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-05-31T08:43:48.253218",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T08:44:42.259181+09:00",
+    "fetched_at": "2026-05-31T08:47:13.444067+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
