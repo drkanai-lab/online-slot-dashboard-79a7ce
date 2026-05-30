@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-30T18:30:09.857951+09:00",
+  "generated": "2026-05-30T18:32:39.425768+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
     "short": "5/30(土)",
     "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "小林 美咲",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -17,8 +17,8 @@
       "short": "5/30(土)",
       "dow": "土",
       "open_count": 9,
-      "booked_count": 6,
-      "new_count": 0,
+      "booked_count": 7,
+      "new_count": 1,
       "revisit_count": 6,
       "first_open": "22:00",
       "last_open": "23:50",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 6,
+        "gcal": 7,
         "GMO": 1,
         "CLINICS": 1
       },
@@ -163,7 +163,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "小林 美咲",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -330,7 +338,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T18:30:08.766091+09:00",
+      "last_updated": "2026-05-30T18:32:37.983873+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7629,12 +7637,19 @@
       "date": "2026-05-31",
       "time": "22:30",
       "ts": "2026-05-30T08:22:48+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "小林 美咲",
+      "date": "2026-05-30",
+      "time": "22:00",
+      "ts": "2026-05-30T18:32:38+09:00"
     }
   ],
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-30T18:28:47.405836",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T18:28:48.023400+09:00",
+    "fetched_at": "2026-05-30T18:31:17.575071+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
