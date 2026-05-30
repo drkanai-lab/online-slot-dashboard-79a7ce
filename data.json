@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T19:45:10.939789+09:00",
+  "generated": "2026-05-30T19:47:39.214114+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
@@ -343,7 +343,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T19:45:09.686025+09:00",
+      "last_updated": "2026-05-30T19:47:37.991206+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -366,7 +366,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 5,
+        "gcal": 6,
         "GMO": 1,
         "SOKUYAKU": 3
       },
@@ -434,7 +434,15 @@
               "end_time": "18:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "今野晃志",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "18:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -693,7 +701,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T19:36:41.958960+09:00",
+      "last_updated": "2026-05-30T19:46:51.343867+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1125,7 +1133,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T19:37:14.312697+09:00",
+      "last_updated": "2026-05-30T19:47:23.176431+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7654,7 +7662,7 @@
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-05-30T19:43:48.365261",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T19:43:50.254857+09:00",
+    "fetched_at": "2026-05-30T19:46:18.333012+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
