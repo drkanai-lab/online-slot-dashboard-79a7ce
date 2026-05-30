@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-30T22:20:08.077544+09:00",
+  "generated": "2026-05-30T22:22:07.028181+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
     "short": "5/30(土)",
-    "time": "22:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "小川 かおり",
+    "visit_type": "再診",
+    "department": "婦人",
+    "status": "booked"
   },
   "days": [
     {
@@ -1306,7 +1306,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T22:10:27.374807+09:00",
+      "last_updated": "2026-05-30T22:20:33.960230+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1350,7 +1350,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T22:10:57.188690+09:00",
+      "last_updated": "2026-05-30T22:21:03.924713+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1648,7 +1648,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T22:11:30.326721+09:00",
+      "last_updated": "2026-05-30T22:21:35.742908+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1692,7 +1692,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T22:12:00.270087+09:00",
+      "last_updated": "2026-05-30T22:22:05.695473+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7700,7 +7700,7 @@
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-05-30T22:18:49.117069",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T22:18:45.958449+09:00",
+    "fetched_at": "2026-05-30T22:21:15.681849+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
