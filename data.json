@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T16:10:10.809897+09:00",
+  "generated": "2026-05-30T16:12:41.151780+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
@@ -18,8 +18,8 @@
       "dow": "土",
       "open_count": 8,
       "booked_count": 7,
-      "new_count": 0,
-      "revisit_count": 7,
+      "new_count": 1,
+      "revisit_count": 6,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "12:30",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 6,
+        "gcal": 7,
         "GMO": 2,
         "CLINICS": 1
       },
@@ -271,7 +271,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "内科",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -334,7 +342,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T16:10:09.603774+09:00",
+      "last_updated": "2026-05-30T16:12:39.598083+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7638,7 +7646,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-30T16:08:47.849800",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T16:08:50.146479+09:00",
+    "fetched_at": "2026-05-30T16:11:20.022775+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
