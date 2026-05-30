@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-30T12:45:33.037906+09:00",
+  "generated": "2026-05-30T12:48:02.195891+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
     "short": "5/30(土)",
-    "time": "12:45",
-    "code": "S",
-    "patient_name": "松本 幸子",
+    "time": "13:00",
+    "code": "G",
+    "patient_name": "岡留　康文",
     "visit_type": "再診",
-    "department": "耳鼻",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.30 00:19:09"
+    "department": "総診",
+    "status": "booked"
   },
   "days": [
     {
@@ -321,7 +319,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T12:45:32.406732+09:00",
+      "last_updated": "2026-05-30T12:48:01.554533+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7597,7 +7595,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-05-30T12:43:48.636123",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T12:44:12.403075+09:00",
+    "fetched_at": "2026-05-30T12:46:41.454014+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
