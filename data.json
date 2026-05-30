@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-30T22:45:05.042281+09:00",
+  "generated": "2026-05-30T22:47:35.282080+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
     "short": "5/30(土)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "黒井 奈央子",
-    "visit_type": "再診",
-    "department": "皮膚",
-    "status": "booked"
+    "time": "22:50",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -368,7 +368,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T22:45:03.719446+09:00",
+      "last_updated": "2026-05-30T22:47:33.970856+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7702,7 +7702,7 @@
   "sigma_qualified_count": 64,
   "sigma_last_run": "2026-05-30T22:43:50.091060",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T22:43:43.145656+09:00",
+    "fetched_at": "2026-05-30T22:46:15.350365+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
