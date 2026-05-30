@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-30T12:30:46.692318+09:00",
+  "generated": "2026-05-30T12:32:34.302880+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
     "short": "5/30(土)",
-    "time": "12:30",
+    "time": "12:45",
     "code": "S",
-    "patient_name": "黒井 きぼう",
+    "patient_name": "松本 幸子",
     "visit_type": "再診",
-    "department": "皮膚",
-    "status": "booked"
+    "department": "耳鼻",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.30 00:19:09"
   },
   "days": [
     {
@@ -1243,7 +1245,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T12:20:52.354512+09:00",
+      "last_updated": "2026-05-30T12:30:59.589264+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1287,7 +1289,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T12:21:22.975782+09:00",
+      "last_updated": "2026-05-30T12:31:29.419693+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1585,7 +1587,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T12:21:55.722296+09:00",
+      "last_updated": "2026-05-30T12:32:03.084969+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1629,7 +1631,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T12:22:25.376973+09:00",
+      "last_updated": "2026-05-30T12:32:33.269849+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7595,7 +7597,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-05-30T12:28:48.288816",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T12:29:27.842964+09:00",
+    "fetched_at": "2026-05-30T12:31:54.756952+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
