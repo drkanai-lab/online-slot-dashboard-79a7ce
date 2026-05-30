@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T09:21:34.905418+09:00",
+  "generated": "2026-05-30T09:24:02.541256+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
@@ -320,7 +320,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T09:21:34.274415+09:00",
+      "last_updated": "2026-05-30T09:24:01.852928+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4591,7 +4591,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T08:05:27.437645+09:00",
+      "last_updated": "2026-05-30T09:21:54.329542+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4759,7 +4759,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T08:06:04.099232+09:00",
+      "last_updated": "2026-05-30T09:22:31.688997+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5053,7 +5053,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T08:06:42.172874+09:00",
+      "last_updated": "2026-05-30T09:23:09.356013+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5166,7 +5166,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T08:07:18.013778+09:00",
+      "last_updated": "2026-05-30T09:23:46.511998+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5243,7 +5243,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "馬場 友萌",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "12:45",
@@ -7577,9 +7583,9 @@
     }
   ],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-05-30T09:18:47.247081",
+  "sigma_last_run": "2026-05-30T09:23:47.212764",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T09:20:15.585643+09:00",
+    "fetched_at": "2026-05-30T09:22:43.030668+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
