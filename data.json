@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T16:15:55.314892+09:00",
+  "generated": "2026-05-30T16:17:40.531764+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
@@ -17,13 +17,13 @@
       "short": "5/30(土)",
       "dow": "土",
       "open_count": 9,
-      "booked_count": 7,
-      "new_count": 1,
+      "booked_count": 6,
+      "new_count": 0,
       "revisit_count": 6,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "12:30",
-      "last_booked": "23:00",
+      "last_booked": "22:45",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 7,
+        "gcal": 6,
         "GMO": 1,
         "CLINICS": 1
       },
@@ -267,15 +267,7 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "藤村　太士",
-              "visit_type": "初診",
-              "department": "内科",
-              "end_time": "23:10"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -338,7 +330,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T16:15:09.356028+09:00",
+      "last_updated": "2026-05-30T16:17:39.264604+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7642,7 +7634,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-30T16:13:47.817983",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T16:13:50.239595+09:00",
+    "fetched_at": "2026-05-30T16:16:19.189813+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
