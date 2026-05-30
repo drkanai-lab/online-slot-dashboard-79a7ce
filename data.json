@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T14:25:00.917304+09:00",
+  "generated": "2026-05-30T14:27:28.463308+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
@@ -319,7 +319,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T14:25:00.287354+09:00",
+      "last_updated": "2026-05-30T14:27:27.848924+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3451,7 +3451,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T13:08:57.649651+09:00",
+      "last_updated": "2026-05-30T14:25:27.847240+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3473,7 +3473,8 @@
         "GMO": 1
       },
       "per_platform_booked": {
-        "GMO": 1
+        "GMO": 1,
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -3555,7 +3556,15 @@
               "end_time": "13:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "岡留　康文",
+              "visit_type": "再診",
+              "department": "総診",
+              "end_time": "13:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -3794,7 +3803,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T13:09:31.778300+09:00",
+      "last_updated": "2026-05-30T14:26:02.950204+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4065,7 +4074,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T13:10:08.478446+09:00",
+      "last_updated": "2026-05-30T14:26:39.731479+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4450,7 +4459,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T13:10:46.793578+09:00",
+      "last_updated": "2026-05-30T14:27:17.128411+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7614,7 +7623,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-05-30T14:23:48.469563",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T14:23:41.370604+09:00",
+    "fetched_at": "2026-05-30T14:26:09.695289+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
