@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T20:55:07.315656+09:00",
+  "generated": "2026-05-30T20:57:36.728126+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-30",
@@ -19,13 +19,13 @@
       "short": "5/30(土)",
       "dow": "土",
       "open_count": 7,
-      "booked_count": 8,
-      "new_count": 2,
+      "booked_count": 9,
+      "new_count": 3,
       "revisit_count": 6,
       "first_open": "22:20",
       "last_open": "23:50",
       "first_booked": "12:30",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 5,
         "クロン": 1,
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 8,
+        "gcal": 9,
         "GMO": 2,
         "クロン": 1,
         "CLINICS": 1
@@ -329,7 +329,15 @@
               "end_time": "23:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "大藤 克彦",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "23:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -355,7 +363,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T20:55:05.928013+09:00",
+      "last_updated": "2026-05-30T20:57:35.108934+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6276,7 +6284,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T19:39:11.776332+09:00",
+      "last_updated": "2026-05-30T20:55:38.927610+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6440,7 +6448,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T19:39:51.355455+09:00",
+      "last_updated": "2026-05-30T20:56:18.480853+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6608,7 +6616,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-30T19:40:31.912985+09:00",
+      "last_updated": "2026-05-30T20:57:10.467452+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7662,12 +7670,19 @@
       "date": "2026-05-30",
       "time": "22:00",
       "ts": "2026-05-30T18:32:38+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "大藤 克彦",
+      "date": "2026-05-30",
+      "time": "23:30",
+      "ts": "2026-05-30T20:57:36+09:00"
     }
   ],
   "sigma_qualified_count": 62,
   "sigma_last_run": "2026-05-30T20:53:48.040860",
   "gmo_realtime": {
-    "fetched_at": "2026-05-30T20:53:46.305294+09:00",
+    "fetched_at": "2026-05-30T20:56:15.928306+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
