@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-31T22:28:59.255415+09:00",
+  "generated": "2026-05-31T22:31:30.729779+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "竹内 大稀",
-    "visit_type": "再診",
-    "department": "皮膚",
+    "patient_name": "吉川 沙希",
+    "visit_type": "初診",
+    "department": "耳鼻",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.31 00:01:14"
+    "qualified_at": "R08.05.31 17:04:58"
   },
   "days": [
     {
@@ -440,7 +440,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:28:57.831174+09:00",
+      "last_updated": "2026-05-31T22:31:29.397089+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -880,7 +880,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:20:33.748725+09:00",
+      "last_updated": "2026-05-31T22:30:23.780213+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1022,7 +1022,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:20:57.636129+09:00",
+      "last_updated": "2026-05-31T22:30:48.096252+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1066,7 +1066,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:21:21.307229+09:00",
+      "last_updated": "2026-05-31T22:31:11.831350+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7396,7 +7396,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-31T22:28:54.830041",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T22:27:35.193456+09:00",
+    "fetched_at": "2026-05-31T22:30:07.279058+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
