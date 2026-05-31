@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-31T23:30:30.590105+09:00",
+  "generated": "2026-05-31T23:33:01.940703+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "23:30",
-    "code": "S",
-    "patient_name": "矢野 順平",
-    "visit_type": "再診",
-    "department": "皮膚",
-    "status": "booked"
+    "time": "23:45",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -438,7 +438,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T23:30:29.251355+09:00",
+      "last_updated": "2026-05-31T23:33:00.630197+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7394,7 +7394,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-31T23:28:51.832554",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T23:29:06.244790+09:00",
+    "fetched_at": "2026-05-31T23:31:38.383963+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
