@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T08:46:12.480097+09:00",
+  "generated": "2026-06-01T08:50:36.516274+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 9,
+        "gcal": 10,
         "CLINICS": 5,
         "GMO": 2
       },
@@ -197,7 +197,15 @@
               "end_time": "13:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "下林良博",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "13:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -469,7 +477,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T08:46:11.217707+09:00",
+      "last_updated": "2026-06-01T08:50:35.579453+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7155,7 +7163,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-01T00:48:50.989126",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T08:44:46.701521+09:00",
+    "fetched_at": "2026-06-01T08:49:14.200775+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
