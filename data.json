@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-31T22:44:23.091852+09:00",
+  "generated": "2026-05-31T22:46:55.287823+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "吉川 沙希",
-    "visit_type": "初診",
-    "department": "耳鼻",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.31 17:04:58"
+    "time": "22:50",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -440,7 +438,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:44:21.832110+09:00",
+      "last_updated": "2026-05-31T22:46:53.940821+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7396,7 +7394,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-31T22:43:54.232077",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T22:42:56.650947+09:00",
+    "fetched_at": "2026-05-31T22:45:31.811903+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
