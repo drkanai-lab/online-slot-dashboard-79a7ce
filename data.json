@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T16:04:24.717127+09:00",
+  "generated": "2026-05-31T16:06:58.079142+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
@@ -17,24 +17,24 @@
       "short": "5/31(日)",
       "dow": "日",
       "open_count": 10,
-      "booked_count": 10,
+      "booked_count": 11,
       "new_count": 5,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "19:20",
       "last_open": "23:50",
       "first_booked": "12:00",
-      "last_booked": "23:00",
+      "last_booked": "23:30",
       "per_platform_open": {
         "CLINICS": 7,
         "クロン": 2,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 10,
+        "gcal": 11,
         "CLINICS": 3,
         "GMO": 2,
-        "SOKUYAKU": 4
+        "SOKUYAKU": 5
       },
       "full_platforms": [
         {
@@ -381,11 +381,19 @@
               "end_time": "23:40"
             },
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "矢野 順平",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "23:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "矢野 順平",
@@ -417,7 +425,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T16:04:23.287165+09:00",
+      "last_updated": "2026-05-31T16:06:56.556218+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7328,12 +7336,19 @@
       "date": "2026-05-31",
       "time": "12:00",
       "ts": "2026-05-31T11:03:20+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "矢野 順平",
+      "date": "2026-05-31",
+      "time": "23:30",
+      "ts": "2026-05-31T16:06:57+09:00"
     }
   ],
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-05-31T16:03:48.387777",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T16:03:00.974878+09:00",
+    "fetched_at": "2026-05-31T16:05:36.131259+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
