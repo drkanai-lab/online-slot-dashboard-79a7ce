@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-31T22:59:40.724734+09:00",
+  "generated": "2026-05-31T23:01:19.319916+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "中村　礼香",
-    "visit_type": "初診",
-    "department": "整形",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.30 23:58:51"
+    "time": "23:10",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -1066,7 +1064,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:50:28.137559+09:00",
+      "last_updated": "2026-05-31T23:00:01.091612+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1382,7 +1380,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:50:55.881059+09:00",
+      "last_updated": "2026-05-31T23:00:28.697060+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1426,7 +1424,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:51:19.984183+09:00",
+      "last_updated": "2026-05-31T23:00:52.179584+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1866,7 +1864,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:51:44.438925+09:00",
+      "last_updated": "2026-05-31T23:01:18.013815+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7396,7 +7394,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-31T22:58:54.080937",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T22:58:15.102227+09:00",
+    "fetched_at": "2026-05-31T23:00:49.268422+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
