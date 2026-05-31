@@ -1,17 +1,15 @@
 {
-  "generated": "2026-05-31T12:09:23.289652+09:00",
+  "generated": "2026-05-31T12:11:44.513206+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "12:10",
-    "code": "C",
-    "patient_name": "宮地一成",
-    "visit_type": "再診",
-    "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.05.29 20:15:45"
+    "time": "18:30",
+    "code": "G",
+    "patient_name": "西川　裕美",
+    "visit_type": "初診",
+    "department": "整形",
+    "status": "booked"
   },
   "days": [
     {
@@ -399,7 +397,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T12:09:13.681456+09:00",
+      "last_updated": "2026-05-31T12:11:43.191146+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7313,7 +7311,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-05-31T12:08:49.585739",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T12:07:50.781815+09:00",
+    "fetched_at": "2026-05-31T12:10:22.810205+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
