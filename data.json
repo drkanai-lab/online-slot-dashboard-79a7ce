@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-31T22:18:47.276305+09:00",
+  "generated": "2026-05-31T22:21:19.644629+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "奥田恵樹",
-    "visit_type": "初診",
-    "department": "消化器科",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "竹内 大稀",
+    "visit_type": "再診",
+    "department": "皮膚",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.31 19:30:52"
+    "qualified_at": "R08.05.31 00:01:14"
   },
   "days": [
     {
@@ -440,7 +440,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:18:45.983015+09:00",
+      "last_updated": "2026-05-31T22:21:18.223340+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -880,7 +880,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:10:59.460461+09:00",
+      "last_updated": "2026-05-31T22:20:33.748725+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1022,7 +1022,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:11:23.675510+09:00",
+      "last_updated": "2026-05-31T22:20:57.636129+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7396,7 +7396,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-31T22:18:50.564380",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T22:17:24.120186+09:00",
+    "fetched_at": "2026-05-31T22:19:55.427559+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
