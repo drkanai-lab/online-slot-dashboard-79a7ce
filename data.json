@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-31T11:59:48.965774+09:00",
+  "generated": "2026-05-31T12:01:41.356435+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "12:00",
-    "code": "K",
-    "patient_name": "服部 央範",
-    "visit_type": "初診",
+    "time": "12:10",
+    "code": "C",
+    "patient_name": "宮地一成",
+    "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.31 11:30:50"
+    "qualified_at": "R08.05.29 20:15:45"
   },
   "days": [
     {
@@ -399,7 +399,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T11:59:08.045607+09:00",
+      "last_updated": "2026-05-31T12:01:40.063781+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5224,7 +5224,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T10:44:39.013643+09:00",
+      "last_updated": "2026-05-31T12:00:15.090085+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5594,7 +5594,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T10:45:17.254315+09:00",
+      "last_updated": "2026-05-31T12:00:53.111189+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5736,7 +5736,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T10:46:07.387717+09:00",
+      "last_updated": "2026-05-31T12:01:30.185235+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7313,7 +7313,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-05-31T11:58:48.339924",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T11:57:46.832206+09:00",
+    "fetched_at": "2026-05-31T12:00:17.356978+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
