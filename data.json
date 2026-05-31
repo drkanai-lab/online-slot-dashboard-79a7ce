@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T17:07:48.609951+09:00",
+  "generated": "2026-05-31T17:10:21.150492+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
@@ -246,7 +246,9 @@
               "patient_name": "松田ゆかり",
               "visit_type": "初診",
               "department": "内科",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.05.31 17:05:58"
             }
           ],
           "sokuyaku_truth": []
@@ -305,14 +307,18 @@
               "patient_name": "吉川 沙希",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.05.31 17:04:58"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "吉川 沙希",
               "visit_type": "初診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.05.31 17:04:58"
             }
           ]
         },
@@ -422,7 +428,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T17:07:47.240391+09:00",
+      "last_updated": "2026-05-31T17:10:19.860829+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7322,7 +7328,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T15:52:16.063756+09:00",
+      "last_updated": "2026-05-31T17:07:53.781550+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -7349,10 +7355,10 @@
       "ts": "2026-05-31T16:57:39+09:00"
     }
   ],
-  "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-05-31T17:03:49.844417",
+  "sigma_qualified_count": 58,
+  "sigma_last_run": "2026-05-31T17:08:48.764436",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T17:06:24.240331+09:00",
+    "fetched_at": "2026-05-31T17:08:57.071997+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
