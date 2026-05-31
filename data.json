@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T16:57:09.977190+09:00",
+  "generated": "2026-05-31T16:57:39.869824+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
@@ -16,9 +16,9 @@
       "date": "2026-05-31",
       "short": "5/31(日)",
       "dow": "日",
-      "open_count": 9,
-      "booked_count": 11,
-      "new_count": 5,
+      "open_count": 8,
+      "booked_count": 12,
+      "new_count": 6,
       "revisit_count": 6,
       "first_open": "22:00",
       "last_open": "23:50",
@@ -26,13 +26,13 @@
       "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 6,
+        "CLINICS": 5,
         "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 11,
-        "CLINICS": 3,
+        "gcal": 12,
+        "CLINICS": 4,
         "GMO": 2,
         "SOKUYAKU": 5
       },
@@ -236,11 +236,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "松田ゆかり",
+              "visit_type": "初診",
+              "department": "内科",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -414,7 +422,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T16:55:04.253167+09:00",
+      "last_updated": "2026-05-31T16:57:38.276208+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3572,7 +3580,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T15:41:58.973100+09:00",
+      "last_updated": "2026-05-31T16:57:18.102746+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7332,6 +7340,13 @@
       "date": "2026-05-31",
       "time": "23:30",
       "ts": "2026-05-31T16:06:57+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "松田ゆかり",
+      "date": "2026-05-31",
+      "time": "22:10",
+      "ts": "2026-05-31T16:57:39+09:00"
     }
   ],
   "sigma_qualified_count": 56,
