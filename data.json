@@ -1,15 +1,17 @@
 {
-  "generated": "2026-05-31T18:29:21.865045+09:00",
+  "generated": "2026-05-31T18:31:55.552956+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "18:30",
-    "code": "G",
-    "patient_name": "西川　裕美",
-    "visit_type": "初診",
-    "department": "整形",
-    "status": "booked"
+    "time": "18:40",
+    "code": "C",
+    "patient_name": "今野晃志",
+    "visit_type": "再診",
+    "department": "",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.30 19:45:45"
   },
   "days": [
     {
@@ -428,7 +430,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T18:29:20.365860+09:00",
+      "last_updated": "2026-05-31T18:31:54.192714+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -860,7 +862,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T18:21:24.285932+09:00",
+      "last_updated": "2026-05-31T18:30:59.509202+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1002,7 +1004,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T18:21:48.657609+09:00",
+      "last_updated": "2026-05-31T18:31:24.138130+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1046,7 +1048,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T18:22:13.323701+09:00",
+      "last_updated": "2026-05-31T18:31:47.594697+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7358,7 +7360,7 @@
   "sigma_qualified_count": 58,
   "sigma_last_run": "2026-05-31T18:28:49.676576",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T18:27:48.771463+09:00",
+    "fetched_at": "2026-05-31T18:30:29.930606+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
