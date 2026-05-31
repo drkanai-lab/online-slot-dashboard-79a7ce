@@ -1,15 +1,15 @@
 {
-  "generated": "2026-05-31T11:02:13.367908+09:00",
+  "generated": "2026-05-31T11:03:21.206639+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
     "time": "12:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "服部 央範",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -17,12 +17,12 @@
       "short": "5/31(日)",
       "dow": "日",
       "open_count": 12,
-      "booked_count": 8,
-      "new_count": 3,
+      "booked_count": 9,
+      "new_count": 4,
       "revisit_count": 5,
       "first_open": "12:00",
       "last_open": "23:50",
-      "first_booked": "12:10",
+      "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 3,
@@ -30,8 +30,8 @@
         "SOKUYAKU": 3
       },
       "per_platform_booked": {
+        "gcal": 9,
         "CLINICS": 3,
-        "gcal": 8,
         "GMO": 2,
         "SOKUYAKU": 3
       },
@@ -65,7 +65,15 @@
               "end_time": "12:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "服部 央範",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "12:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -386,7 +394,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T11:00:45.800981+09:00",
+      "last_updated": "2026-05-31T11:03:19.437951+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7494,7 +7502,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "服部 央範",
+      "date": "2026-05-31",
+      "time": "12:00",
+      "ts": "2026-05-31T11:03:20+09:00"
+    }
+  ],
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-05-31T10:58:49.595467",
   "gmo_realtime": {
