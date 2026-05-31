@@ -1,17 +1,17 @@
 {
-  "generated": "2026-05-31T22:08:42.213205+09:00",
+  "generated": "2026-05-31T22:11:12.859020+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-05-31",
     "short": "5/31(日)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "松田ゆかり",
+    "patient_name": "奥田恵樹",
     "visit_type": "初診",
-    "department": "内科",
+    "department": "消化器科",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.05.31 17:05:58"
+    "qualified_at": "R08.05.31 19:30:52"
   },
   "days": [
     {
@@ -440,7 +440,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:08:40.688194+09:00",
+      "last_updated": "2026-05-31T22:11:11.493961+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -880,7 +880,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T22:01:29.590033+09:00",
+      "last_updated": "2026-05-31T22:10:59.460461+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7224,7 +7224,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T20:53:31.685333+09:00",
+      "last_updated": "2026-05-31T22:08:45.422695+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7366,7 +7366,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-05-31T20:54:11.268960+09:00",
+      "last_updated": "2026-05-31T22:09:24.626363+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -7396,7 +7396,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-05-31T22:08:51.539880",
   "gmo_realtime": {
-    "fetched_at": "2026-05-31T22:07:16.307060+09:00",
+    "fetched_at": "2026-05-31T22:09:50.611002+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
