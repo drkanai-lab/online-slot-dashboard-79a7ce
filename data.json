@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T21:36:41.532143+09:00",
+  "generated": "2026-06-01T21:39:13.596364+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
@@ -409,14 +409,18 @@
               "patient_name": "久保 百那実",
               "visit_type": "初診",
               "department": "眼",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.06.01 21:35:50"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "久保 百那実",
               "visit_type": "初診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.01 21:35:50"
             }
           ]
         },
@@ -505,7 +509,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T21:36:40.141076+09:00",
+      "last_updated": "2026-06-01T21:39:12.279400+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7253,10 +7257,10 @@
       "ts": "2026-06-01T21:34:06+09:00"
     }
   ],
-  "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-06-01T21:33:51.514100",
+  "sigma_qualified_count": 69,
+  "sigma_last_run": "2026-06-01T21:38:51.687468",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T21:35:15.279618+09:00",
+    "fetched_at": "2026-06-01T21:37:50.531982+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
