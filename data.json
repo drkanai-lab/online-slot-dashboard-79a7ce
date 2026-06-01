@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T20:31:57.381825+09:00",
+  "generated": "2026-06-01T20:34:32.266104+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
@@ -9,7 +9,9 @@
     "patient_name": "広末 清良",
     "visit_type": "初診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.01 20:28:08"
   },
   "days": [
     {
@@ -339,7 +341,9 @@
               "patient_name": "広末 清良",
               "visit_type": "初診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.06.01 20:28:08"
             }
           ],
           "sokuyaku_truth": []
@@ -474,7 +478,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T20:31:56.058384+09:00",
+      "last_updated": "2026-06-01T20:34:30.873486+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7213,10 +7217,10 @@
       "ts": "2026-06-01T20:19:08+09:00"
     }
   ],
-  "sigma_qualified_count": 67,
-  "sigma_last_run": "2026-06-01T20:28:51.512712",
+  "sigma_qualified_count": 68,
+  "sigma_last_run": "2026-06-01T20:33:52.173581",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T20:30:32.361289+09:00",
+    "fetched_at": "2026-06-01T20:33:05.981321+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
