@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T08:35:10.217235+09:00",
+  "generated": "2026-06-02T08:36:02.959655+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-02",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 5,
+        "gcal": 6,
         "CLINICS": 3,
         "SOKUYAKU": 1,
         "GMO": 1
@@ -192,7 +192,17 @@
               "end_time": "23:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "岡﨑守",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "23:20",
+              "qualified": true,
+              "qualified_at": "R08.06.02 08:30:52"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -218,7 +228,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-02T08:32:20.924272+09:00",
+      "last_updated": "2026-06-02T08:36:01.051007+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
