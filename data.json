@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T23:28:42.090908+09:00",
+  "generated": "2026-06-01T23:31:17.835760+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-02",
@@ -507,7 +507,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T23:28:40.754673+09:00",
+      "last_updated": "2026-06-01T23:31:16.431521+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -516,8 +516,8 @@
       "dow": "火",
       "open_count": 5,
       "booked_count": 4,
-      "new_count": 0,
-      "revisit_count": 4,
+      "new_count": 1,
+      "revisit_count": 3,
       "first_open": "22:20",
       "last_open": "23:20",
       "first_booked": "22:00",
@@ -528,7 +528,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 3,
+        "gcal": 4,
         "CLINICS": 1,
         "SOKUYAKU": 1,
         "GMO": 1
@@ -578,7 +578,15 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "廣瀬有佳里",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -692,7 +700,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T23:20:39.188393+09:00",
+      "last_updated": "2026-06-01T23:30:14.689532+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -736,7 +744,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T23:21:03.256715+09:00",
+      "last_updated": "2026-06-01T23:30:38.257323+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1060,7 +1068,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T23:21:29.886953+09:00",
+      "last_updated": "2026-06-01T23:31:05.023684+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7274,7 +7282,7 @@
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-06-01T23:28:51.734394",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T23:27:16.079835+09:00",
+    "fetched_at": "2026-06-01T23:29:52.693764+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
