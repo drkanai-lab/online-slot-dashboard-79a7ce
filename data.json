@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-01T22:58:42.227470+09:00",
+  "generated": "2026-06-01T23:01:15.931416+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
     "short": "6/1(月)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "石橋 愛梨",
-    "visit_type": "初診",
-    "department": "婦人",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.01 13:18:00"
+    "time": "23:10",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -509,7 +507,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T22:58:40.774405+09:00",
+      "last_updated": "2026-06-01T23:01:14.347400+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7275,7 +7273,7 @@
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-06-01T22:58:53.142974",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T22:57:16.652511+09:00",
+    "fetched_at": "2026-06-01T22:59:50.980078+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
