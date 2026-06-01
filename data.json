@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-01T12:19:12.492770+09:00",
+  "generated": "2026-06-01T12:21:46.166104+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
     "short": "6/1(月)",
-    "time": "12:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "12:30",
+    "code": "G",
+    "patient_name": "秋岡　亜美",
+    "visit_type": "再診",
+    "department": "総診",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.01 09:45:42"
   },
   "days": [
     {
@@ -494,7 +496,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T12:19:11.509694+09:00",
+      "last_updated": "2026-06-01T12:21:45.157685+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7184,7 +7186,7 @@
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-06-01T12:18:47.906250",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T12:17:47.520541+09:00",
+    "fetched_at": "2026-06-01T12:20:21.098374+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
