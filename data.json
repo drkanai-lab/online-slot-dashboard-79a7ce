@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T08:36:02.959655+09:00",
+  "generated": "2026-06-02T08:40:28.036227+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-02",
@@ -20,8 +20,8 @@
       "dow": "火",
       "open_count": 3,
       "booked_count": 6,
-      "new_count": 1,
-      "revisit_count": 5,
+      "new_count": 2,
+      "revisit_count": 4,
       "first_open": "22:45",
       "last_open": "23:20",
       "first_booked": "22:00",
@@ -196,7 +196,7 @@
             {
               "code": "C",
               "patient_name": "岡﨑守",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "耳鼻",
               "end_time": "23:20",
               "qualified": true,
@@ -228,7 +228,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-02T08:36:01.051007+09:00",
+      "last_updated": "2026-06-02T08:40:26.721221+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7090,9 +7090,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-06-02T08:33:50.252090",
+  "sigma_last_run": "2026-06-02T08:38:50.782917",
   "gmo_realtime": {
-    "fetched_at": "2026-06-02T08:34:39.864840+09:00",
+    "fetched_at": "2026-06-02T08:39:04.808515+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
