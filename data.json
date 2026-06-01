@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-01T11:28:27.605799+09:00",
+  "generated": "2026-06-01T11:31:00.226450+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
     "short": "6/1(月)",
-    "time": "11:30",
+    "time": "11:45",
     "code": "S",
-    "patient_name": "塚本 力",
-    "visit_type": "再診",
+    "patient_name": "長谷川 春美",
+    "visit_type": "初診",
     "department": "整形",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.01 09:44:39"
+    "qualified_at": "R08.05.27 18:46:24"
   },
   "days": [
     {
@@ -496,7 +496,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T11:28:26.326361+09:00",
+      "last_updated": "2026-06-01T11:30:59.240336+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7175,7 +7175,7 @@
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-06-01T11:28:53.266821",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T11:27:03.699756+09:00",
+    "fetched_at": "2026-06-01T11:29:36.422287+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
