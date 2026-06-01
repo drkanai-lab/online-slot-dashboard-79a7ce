@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T21:31:30.968164+09:00",
+  "generated": "2026-06-01T21:34:07.038330+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
@@ -18,22 +18,22 @@
       "date": "2026-06-01",
       "short": "6/1(月)",
       "dow": "月",
-      "open_count": 10,
-      "booked_count": 13,
-      "new_count": 4,
+      "open_count": 9,
+      "booked_count": 14,
+      "new_count": 5,
       "revisit_count": 9,
       "first_open": "11:45",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 3,
         "CLINICS": 5,
         "GMO": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 13,
+        "SOKUYAKU": 3,
+        "gcal": 14,
         "CLINICS": 8,
         "GMO": 2,
         "クロン": 1
@@ -399,11 +399,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "久保 百那実",
+              "visit_type": "初診",
+              "department": "眼",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "久保 百那実",
@@ -497,7 +505,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T21:31:29.631766+09:00",
+      "last_updated": "2026-06-01T21:34:05.016395+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7225,13 +7233,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "寺井誠太",
-      "date": "2026-06-01",
-      "time": "22:20",
-      "ts": "2026-06-01T14:12:13+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "患者名不明",
       "date": "2026-06-02",
       "time": "23:00",
@@ -7243,12 +7244,19 @@
       "date": "2026-06-01",
       "time": "22:00",
       "ts": "2026-06-01T20:19:08+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "久保 百那実",
+      "date": "2026-06-01",
+      "time": "22:30",
+      "ts": "2026-06-01T21:34:06+09:00"
     }
   ],
   "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-06-01T21:28:51.909853",
+  "sigma_last_run": "2026-06-01T21:33:51.514100",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T21:30:05.846684+09:00",
+    "fetched_at": "2026-06-01T21:32:42.494977+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
