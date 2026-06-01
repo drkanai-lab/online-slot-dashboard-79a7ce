@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-01T19:14:51.437474+09:00",
+  "generated": "2026-06-01T19:17:24.796298+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
     "short": "6/1(月)",
-    "time": "19:15",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "19:20",
+    "code": "C",
+    "patient_name": "神尾朋彦",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.05.31 21:15:43"
   },
   "days": [
     {
@@ -466,7 +468,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T19:14:50.263505+09:00",
+      "last_updated": "2026-06-01T19:17:23.559060+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7198,7 +7200,7 @@
   "sigma_qualified_count": 67,
   "sigma_last_run": "2026-06-01T19:13:54.056764",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T19:13:24.646171+09:00",
+    "fetched_at": "2026-06-01T19:15:59.509134+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
