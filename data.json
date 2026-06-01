@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T14:12:13.394699+09:00",
+  "generated": "2026-06-01T14:14:44.526352+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
@@ -387,7 +387,9 @@
               "patient_name": "寺井誠太",
               "visit_type": "初診",
               "department": "総診",
-              "end_time": "22:30"
+              "end_time": "22:30",
+              "qualified": true,
+              "qualified_at": "R08.06.01 14:10:43"
             }
           ],
           "sokuyaku_truth": []
@@ -480,7 +482,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T14:12:12.212571+09:00",
+      "last_updated": "2026-06-01T14:14:43.466084+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7175,10 +7177,10 @@
       "ts": "2026-06-01T14:12:13+09:00"
     }
   ],
-  "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-06-01T14:08:48.180237",
+  "sigma_qualified_count": 66,
+  "sigma_last_run": "2026-06-01T14:13:48.571338",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T14:10:50.609256+09:00",
+    "fetched_at": "2026-06-01T14:13:21.550761+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
