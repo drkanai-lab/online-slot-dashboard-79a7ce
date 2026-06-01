@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T09:46:41.873207+09:00",
+  "generated": "2026-06-01T09:49:15.469043+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
@@ -18,8 +18,8 @@
       "dow": "月",
       "open_count": 18,
       "booked_count": 11,
-      "new_count": 2,
-      "revisit_count": 9,
+      "new_count": 3,
+      "revisit_count": 8,
       "first_open": "12:10",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 10,
+        "gcal": 11,
         "CLINICS": 5,
         "GMO": 3
       },
@@ -444,7 +444,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "石橋 愛梨",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -481,7 +489,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T09:46:40.851279+09:00",
+      "last_updated": "2026-06-01T09:49:14.469845+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7160,7 +7168,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-01T00:48:50.989126",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T09:45:17.633583+09:00",
+    "fetched_at": "2026-06-01T09:47:49.793196+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
