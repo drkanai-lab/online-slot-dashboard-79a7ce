@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T14:09:42.684096+09:00",
+  "generated": "2026-06-01T14:12:13.394699+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
@@ -18,9 +18,9 @@
       "date": "2026-06-01",
       "short": "6/1(月)",
       "dow": "月",
-      "open_count": 13,
-      "booked_count": 11,
-      "new_count": 2,
+      "open_count": 12,
+      "booked_count": 12,
+      "new_count": 3,
       "revisit_count": 9,
       "first_open": "11:45",
       "last_open": "23:30",
@@ -28,13 +28,13 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "SOKUYAKU": 4,
-        "CLINICS": 7,
+        "CLINICS": 6,
         "クロン": 2
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 11,
-        "CLINICS": 6,
+        "gcal": 12,
+        "CLINICS": 7,
         "GMO": 3
       },
       "full_platforms": [
@@ -377,11 +377,19 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "寺井誠太",
+              "visit_type": "初診",
+              "department": "総診",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -472,7 +480,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T14:09:41.585641+09:00",
+      "last_updated": "2026-06-01T14:12:12.212571+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7158,11 +7166,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "寺井誠太",
+      "date": "2026-06-01",
+      "time": "22:20",
+      "ts": "2026-06-01T14:12:13+09:00"
+    }
+  ],
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-06-01T14:08:48.180237",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T14:08:20.967924+09:00",
+    "fetched_at": "2026-06-01T14:10:50.609256+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
