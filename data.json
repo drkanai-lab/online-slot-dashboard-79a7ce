@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-01T16:24:52.104303+09:00",
+  "generated": "2026-06-01T16:27:25.615496+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
     "short": "6/1(月)",
     "time": "18:30",
-    "code": "G",
-    "patient_name": "荒木　昭子",
-    "visit_type": "再診",
-    "department": "アレ",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.01 09:46:03"
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -19,9 +17,9 @@
       "short": "6/1(月)",
       "dow": "月",
       "open_count": 13,
-      "booked_count": 12,
+      "booked_count": 11,
       "new_count": 3,
-      "revisit_count": 9,
+      "revisit_count": 8,
       "first_open": "11:45",
       "last_open": "23:30",
       "first_booked": "11:30",
@@ -34,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 12,
+        "gcal": 11,
         "CLINICS": 7,
         "GMO": 2
       },
@@ -210,17 +208,7 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "荒木　昭子",
-              "visit_type": "再診",
-              "department": "アレ",
-              "end_time": "18:40",
-              "qualified": true,
-              "qualified_at": "R08.06.01 09:46:03"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -478,7 +466,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T16:24:49.960669+09:00",
+      "last_updated": "2026-06-01T16:27:24.278301+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7190,7 +7178,7 @@
   "sigma_qualified_count": 66,
   "sigma_last_run": "2026-06-01T16:23:49.838519",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T16:23:27.244248+09:00",
+    "fetched_at": "2026-06-01T16:26:00.038162+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
