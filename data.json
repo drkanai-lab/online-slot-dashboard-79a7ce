@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-01T12:38:56.877910+09:00",
+  "generated": "2026-06-01T12:41:32.102414+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-01",
     "short": "6/1(月)",
-    "time": "12:40",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "13:10",
+    "code": "C",
+    "patient_name": "下林良博",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.01 09:51:36"
   },
   "days": [
     {
@@ -494,7 +496,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-01T12:38:55.799690+09:00",
+      "last_updated": "2026-06-01T12:41:31.079962+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7184,7 +7186,7 @@
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-06-01T12:38:48.313227",
   "gmo_realtime": {
-    "fetched_at": "2026-06-01T12:37:33.048025+09:00",
+    "fetched_at": "2026-06-01T12:40:07.599161+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
