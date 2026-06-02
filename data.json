@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-02T23:00:34.520499+09:00",
+  "generated": "2026-06-02T23:03:05.338606+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-02",
     "short": "6/2(火)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "荒木　昭子",
-    "visit_type": "再診",
-    "department": "アレ",
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "岡﨑守",
+    "visit_type": "初診",
+    "department": "耳鼻",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.01 09:46:03"
+    "qualified_at": "R08.06.02 08:30:52"
   },
   "days": [
     {
@@ -261,7 +261,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-02T23:00:33.059615+09:00",
+      "last_updated": "2026-06-02T23:03:04.015394+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7149,7 +7149,7 @@
   "sigma_qualified_count": 71,
   "sigma_last_run": "2026-06-02T22:58:49.010144",
   "gmo_realtime": {
-    "fetched_at": "2026-06-02T22:59:13.499564+09:00",
+    "fetched_at": "2026-06-02T23:01:44.247797+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
