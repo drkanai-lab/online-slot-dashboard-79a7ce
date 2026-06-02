@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-02T22:44:13.534892+09:00",
+  "generated": "2026-06-02T22:46:43.220090+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-02",
     "short": "6/2(火)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "西﨑 湧也",
+    "time": "22:50",
+    "code": "C",
+    "patient_name": "神澤俊",
     "visit_type": "再診",
-    "department": "皮膚",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.02 21:51:38"
+    "qualified_at": "R08.06.02 12:10:32"
   },
   "days": [
     {
@@ -261,7 +261,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-02T22:44:12.180903+09:00",
+      "last_updated": "2026-06-02T22:46:41.930675+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7149,7 +7149,7 @@
   "sigma_qualified_count": 71,
   "sigma_last_run": "2026-06-02T22:44:11.838079",
   "gmo_realtime": {
-    "fetched_at": "2026-06-02T22:42:51.881871+09:00",
+    "fetched_at": "2026-06-02T22:45:22.389224+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
