@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T21:35:54.708602+09:00",
+  "generated": "2026-06-02T21:38:25.478035+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-02",
@@ -93,7 +93,9 @@
               "patient_name": "廣瀬有佳里",
               "visit_type": "初診",
               "department": "婦人",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.06.02 21:35:45"
             }
           ],
           "sokuyaku_truth": []
@@ -255,7 +257,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-02T21:35:53.199899+09:00",
+      "last_updated": "2026-06-02T21:38:23.960470+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7128,10 +7130,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 67,
+  "sigma_qualified_count": 68,
   "sigma_last_run": "2026-06-02T21:33:55.765413",
   "gmo_realtime": {
-    "fetched_at": "2026-06-02T21:34:32.764758+09:00",
+    "fetched_at": "2026-06-02T21:37:02.976031+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
