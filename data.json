@@ -1,40 +1,42 @@
 {
-  "generated": "2026-06-04T00:19:13.073230+09:00",
+  "generated": "2026-06-04T00:21:50.526671+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
     "time": "11:30",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "S",
+    "patient_name": "小宮山 剛",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.03 13:55:37"
   },
   "days": [
     {
       "date": "2026-06-04",
       "short": "6/4(木)",
       "dow": "木",
-      "open_count": 6,
-      "booked_count": 14,
+      "open_count": 5,
+      "booked_count": 15,
       "new_count": 3,
-      "revisit_count": 11,
-      "first_open": "11:30",
+      "revisit_count": 12,
+      "first_open": "11:45",
       "last_open": "23:20",
-      "first_booked": "12:00",
+      "first_booked": "11:30",
       "last_booked": "23:30",
       "per_platform_open": {
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 1,
         "クロン": 1,
         "CLINICS": 3
       },
       "per_platform_booked": {
+        "SOKUYAKU": 3,
+        "gcal": 15,
         "CLINICS": 8,
-        "gcal": 12,
         "GMO": 2,
-        "クロン": 2,
-        "SOKUYAKU": 2
+        "クロン": 2
       },
       "full_platforms": [
         {
@@ -58,11 +60,21 @@
           "time": "11:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "11:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "小宮山 剛",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "11:45",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:55:37"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "小宮山 剛",
@@ -299,7 +311,17 @@
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "菅原 冴香",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:45",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:51:43"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "菅原 冴香",
@@ -318,7 +340,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "東 寿広",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "東 寿広",
@@ -413,7 +443,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T00:19:10.176294+09:00",
+      "last_updated": "2026-06-04T00:21:49.080684+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7133,12 +7163,19 @@
       "date": "2026-06-04",
       "time": "22:10",
       "ts": "2026-06-03T22:19:55+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "小宮山 剛",
+      "date": "2026-06-04",
+      "time": "11:30",
+      "ts": "2026-06-04T00:21:50+09:00"
     }
   ],
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-06-04T00:18:50.144652",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T00:17:44.786792+09:00",
+    "fetched_at": "2026-06-04T00:20:23.519868+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
