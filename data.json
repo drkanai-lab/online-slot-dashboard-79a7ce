@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T09:12:31.815787+09:00",
+  "generated": "2026-06-03T09:13:07.122595+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
@@ -1573,7 +1573,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T09:01:03.466428+09:00",
+      "last_updated": "2026-06-03T09:12:38.692541+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1715,7 +1715,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T09:01:29.782796+09:00",
+      "last_updated": "2026-06-03T09:13:05.290379+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7081,7 +7081,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "北澤千緒",
+      "date": "2026-06-04",
+      "time": "12:20",
+      "ts": "2026-06-03T09:13:06+09:00"
+    }
+  ],
   "sigma_qualified_count": 58,
   "sigma_last_run": "2026-06-03T08:58:54.088409",
   "gmo_realtime": {
