@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T22:57:04.308776+09:00",
+  "generated": "2026-06-03T22:59:01.022106+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
@@ -477,7 +477,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:47:23.235411+09:00",
+      "last_updated": "2026-06-03T22:57:04.595590+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -936,7 +936,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:47:49.533100+09:00",
+      "last_updated": "2026-06-03T22:57:30.940538+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1218,17 +1218,17 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:48:16.939745+09:00",
+      "last_updated": "2026-06-03T22:57:58.739416+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-08",
       "short": "6/8(月)",
       "dow": "月",
-      "open_count": 25,
-      "booked_count": 4,
+      "open_count": 24,
+      "booked_count": 5,
       "new_count": 1,
-      "revisit_count": 3,
+      "revisit_count": 4,
       "first_open": "11:30",
       "last_open": "23:30",
       "first_booked": "12:00",
@@ -1236,15 +1236,19 @@
       "per_platform_open": {
         "SOKUYAKU": 6,
         "CLINICS": 14,
-        "GMO": 1,
         "クロン": 4
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 3,
-        "GMO": 2
+        "gcal": 4,
+        "GMO": 3
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "GMO",
+          "code": "G"
+        }
+      ],
       "ranges": [
         [
           "11:30",
@@ -1328,11 +1332,19 @@
           "time": "12:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "12:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1605,7 +1617,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:48:46.256683+09:00",
+      "last_updated": "2026-06-03T22:58:30.373823+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1747,7 +1759,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:49:13.883339+09:00",
+      "last_updated": "2026-06-03T22:58:58.448769+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7123,9 +7135,9 @@
     }
   ],
   "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-06-03T22:53:57.679784",
+  "sigma_last_run": "2026-06-03T22:58:56.967412",
   "gmo_realtime": {
-    "fetched_at": "2026-06-03T22:55:45.112556+09:00",
+    "fetched_at": "2026-06-03T22:58:13.651604+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
