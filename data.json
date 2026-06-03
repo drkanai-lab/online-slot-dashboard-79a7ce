@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T23:58:43.708603+09:00",
+  "generated": "2026-06-04T00:01:10.737866+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
@@ -12,50 +12,6 @@
     "status": "open"
   },
   "days": [
-    {
-      "date": "2026-06-03",
-      "short": "6/3(水)",
-      "dow": "水",
-      "open_count": 0,
-      "booked_count": 0,
-      "new_count": 0,
-      "revisit_count": 0,
-      "first_open": "",
-      "last_open": "",
-      "first_booked": "",
-      "last_booked": "",
-      "per_platform_open": {},
-      "per_platform_booked": {},
-      "full_platforms": [],
-      "ranges": [],
-      "range_text": "",
-      "slots": [
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        }
-      ],
-      "last_updated": "2026-06-03T23:58:43.705264+09:00",
-      "sokuyaku_reserve_ok": true
-    },
     {
       "date": "2026-06-04",
       "short": "6/4(木)",
@@ -111,7 +67,9 @@
             {
               "patient_name": "小宮山 剛",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:55:37"
             }
           ]
         },
@@ -140,7 +98,9 @@
               "patient_name": "清須昌",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:10"
+              "end_time": "12:10",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:54:52"
             }
           ],
           "sokuyaku_truth": []
@@ -159,7 +119,9 @@
               "patient_name": "今井迅馬",
               "visit_type": "初診",
               "department": "アレ",
-              "end_time": "12:20"
+              "end_time": "12:20",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:53:13"
             }
           ],
           "sokuyaku_truth": []
@@ -178,7 +140,9 @@
               "patient_name": "北澤千緒",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:30"
+              "end_time": "12:30",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:54:20"
             }
           ],
           "sokuyaku_truth": []
@@ -197,7 +161,9 @@
               "patient_name": "吉田 美紀",
               "visit_type": "初診",
               "department": "総診",
-              "end_time": "12:40"
+              "end_time": "12:40",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:49:45"
             }
           ],
           "sokuyaku_truth": []
@@ -246,7 +212,9 @@
               "patient_name": "安藤千華子",
               "visit_type": "再診",
               "department": "",
-              "end_time": "13:20"
+              "end_time": "13:20",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:53:54"
             }
           ],
           "sokuyaku_truth": []
@@ -265,7 +233,9 @@
               "patient_name": "佐々木恵",
               "visit_type": "再診",
               "department": "",
-              "end_time": "13:30"
+              "end_time": "13:30",
+              "qualified": true,
+              "qualified_at": "R08.06.01 13:55:46"
             }
           ],
           "sokuyaku_truth": []
@@ -284,7 +254,9 @@
               "patient_name": "柳田 梓",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.05.31 19:25:47"
             }
           ],
           "sokuyaku_truth": []
@@ -332,7 +304,9 @@
             {
               "patient_name": "菅原 冴香",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:51:43"
             }
           ]
         },
@@ -378,7 +352,9 @@
               "patient_name": "小野　華世",
               "visit_type": "初診",
               "department": "婦人",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.06.03 13:47:40"
             }
           ],
           "sokuyaku_truth": []
@@ -397,7 +373,9 @@
               "patient_name": "今井凜",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:20"
+              "end_time": "23:20",
+              "qualified": true,
+              "qualified_at": "R08.06.02 00:30:47"
             }
           ],
           "sokuyaku_truth": []
@@ -427,7 +405,9 @@
               "patient_name": "篠原 佑輔",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:40"
+              "end_time": "23:40",
+              "qualified": true,
+              "qualified_at": "R08.06.02 16:00:49"
             }
           ],
           "sokuyaku_truth": []
@@ -7123,6 +7103,27 @@
       ],
       "last_updated": "2026-06-03T23:52:30.397023+09:00",
       "sokuyaku_reserve_ok": true
+    },
+    {
+      "date": "2026-07-04",
+      "short": "7/4(土)",
+      "dow": "土",
+      "open_count": 0,
+      "booked_count": 0,
+      "new_count": 0,
+      "revisit_count": 0,
+      "first_open": "",
+      "last_open": "",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {},
+      "per_platform_booked": {},
+      "full_platforms": [],
+      "ranges": [],
+      "range_text": "",
+      "slots": [],
+      "last_updated": null,
+      "sokuyaku_reserve_ok": false
     }
   ],
   "recent_events": [
@@ -7137,7 +7138,7 @@
   "sigma_qualified_count": 70,
   "sigma_last_run": "2026-06-03T23:58:54.307513",
   "gmo_realtime": {
-    "fetched_at": "2026-06-03T23:57:24.063949+09:00",
+    "fetched_at": "2026-06-03T23:59:51.942734+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
