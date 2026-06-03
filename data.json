@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T22:17:59.352627+09:00",
+  "generated": "2026-06-03T22:19:55.638029+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
@@ -477,7 +477,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:08:26.292778+09:00",
+      "last_updated": "2026-06-03T22:18:05.430086+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -936,7 +936,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:08:51.148038+09:00",
+      "last_updated": "2026-06-03T22:18:30.595823+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1218,7 +1218,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:09:18.476242+09:00",
+      "last_updated": "2026-06-03T22:18:58.129814+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1605,7 +1605,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:09:46.891625+09:00",
+      "last_updated": "2026-06-03T22:19:26.533956+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1747,7 +1747,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-03T22:10:14.380168+09:00",
+      "last_updated": "2026-06-03T22:19:53.650750+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7113,11 +7113,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "馬淵美寿樹",
+      "date": "2026-06-04",
+      "time": "22:10",
+      "ts": "2026-06-03T22:19:55+09:00"
+    }
+  ],
   "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-06-03T22:13:55.460359",
+  "sigma_last_run": "2026-06-03T22:18:55.504049",
   "gmo_realtime": {
-    "fetched_at": "2026-06-03T22:16:40.336213+09:00",
+    "fetched_at": "2026-06-03T22:19:08.035548+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
