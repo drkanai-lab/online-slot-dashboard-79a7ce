@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-04T13:20:50.655592+09:00",
+  "generated": "2026-06-04T13:23:24.689039+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
-    "time": "13:20",
-    "code": "C",
-    "patient_name": "佐々木恵",
+    "time": "22:00",
+    "code": "K",
+    "patient_name": "柳田 梓",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.01 13:55:46"
+    "qualified_at": "R08.05.31 19:25:47"
   },
   "days": [
     {
@@ -464,7 +464,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T13:20:49.324222+09:00",
+      "last_updated": "2026-06-04T13:23:23.349424+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2264,7 +2264,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T12:06:55.993858+09:00",
+      "last_updated": "2026-06-04T13:21:34.888346+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2443,7 +2443,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T12:07:23.953041+09:00",
+      "last_updated": "2026-06-04T13:22:03.367779+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2819,7 +2819,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T12:07:52.635739+09:00",
+      "last_updated": "2026-06-04T13:22:32.233953+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3042,7 +3042,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T12:08:22.349843+09:00",
+      "last_updated": "2026-06-04T13:23:03.485857+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7383,9 +7383,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 64,
-  "sigma_last_run": "2026-06-04T13:13:52.090704",
+  "sigma_last_run": "2026-06-04T13:24:00.506876",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T13:19:22.771509+09:00",
+    "fetched_at": "2026-06-04T13:21:58.393697+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
