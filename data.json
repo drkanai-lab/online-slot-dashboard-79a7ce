@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T22:07:54.725034+09:00",
+  "generated": "2026-06-04T22:08:30.127064+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
@@ -396,7 +396,9 @@
               "patient_name": "地徳和明",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:00"
+              "end_time": "23:00",
+              "qualified": true,
+              "qualified_at": "R08.06.04 22:05:43"
             }
           ],
           "sokuyaku_truth": []
@@ -476,7 +478,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:05:53.716055+09:00",
+      "last_updated": "2026-06-04T22:08:28.679714+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4041,7 +4043,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T20:53:15.534719+09:00",
+      "last_updated": "2026-06-04T22:07:55.958673+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4154,7 +4156,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T20:53:45.122642+09:00",
+      "last_updated": "2026-06-04T22:08:26.194156+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7553,8 +7555,8 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-04T22:04:04.058669",
+  "sigma_qualified_count": 67,
+  "sigma_last_run": "2026-06-04T22:09:02.039010",
   "gmo_realtime": {
     "fetched_at": "2026-06-04T22:07:03.131062+09:00",
     "scrape_ok": true,
