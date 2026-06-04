@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-04T13:10:18.202014+09:00",
+  "generated": "2026-06-04T13:13:00.418285+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
-    "time": "13:10",
+    "time": "13:20",
     "code": "C",
-    "patient_name": "安藤千華子",
+    "patient_name": "佐々木恵",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.03 13:53:54"
+    "qualified_at": "R08.06.01 13:55:46"
   },
   "days": [
     {
@@ -464,7 +464,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T13:10:16.786528+09:00",
+      "last_updated": "2026-06-04T13:12:58.972765+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7385,7 +7385,7 @@
   "sigma_qualified_count": 64,
   "sigma_last_run": "2026-06-04T13:08:51.402266",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T13:08:48.562601+09:00",
+    "fetched_at": "2026-06-04T13:11:30.588650+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
