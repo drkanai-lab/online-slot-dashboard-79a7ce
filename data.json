@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-04T23:20:15.619615+09:00",
+  "generated": "2026-06-04T23:22:51.705428+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
-    "time": "23:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "23:30",
+    "code": "K",
+    "patient_name": "篠原 佑輔",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.02 16:00:49"
   },
   "days": [
     {
@@ -476,7 +478,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T23:20:14.010153+09:00",
+      "last_updated": "2026-06-04T23:22:50.264934+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3201,7 +3203,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:05:53.137732+09:00",
+      "last_updated": "2026-06-04T23:20:27.663183+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3442,7 +3444,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:06:24.237262+09:00",
+      "last_updated": "2026-06-04T23:20:58.747242+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3584,7 +3586,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:06:54.277884+09:00",
+      "last_updated": "2026-06-04T23:21:28.593576+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3752,7 +3754,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:07:24.349401+09:00",
+      "last_updated": "2026-06-04T23:21:58.631839+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4055,7 +4057,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:07:55.958673+09:00",
+      "last_updated": "2026-06-04T23:22:30.334845+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7570,7 +7572,7 @@
   "sigma_qualified_count": 67,
   "sigma_last_run": "2026-06-04T23:18:53.277201",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T23:18:49.419436+09:00",
+    "fetched_at": "2026-06-04T23:21:24.477242+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
