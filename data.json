@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-04T12:20:15.019426+09:00",
+  "generated": "2026-06-04T12:22:17.093635+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
-    "time": "12:20",
-    "code": "C",
-    "patient_name": "北澤千緒",
-    "visit_type": "再診",
-    "department": "",
+    "time": "12:30",
+    "code": "G",
+    "patient_name": "吉田 美紀",
+    "visit_type": "初診",
+    "department": "総診",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.03 13:54:20"
+    "qualified_at": "R08.06.03 13:49:45"
   },
   "days": [
     {
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 15,
+        "gcal": 16,
         "CLINICS": 9,
         "GMO": 2,
         "クロン": 2
@@ -311,7 +311,15 @@
               "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "齋藤篤史",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -454,7 +462,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T12:19:40.000540+09:00",
+      "last_updated": "2026-06-04T12:22:15.577034+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7371,19 +7379,11 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "小宮山 剛",
-      "date": "2026-06-04",
-      "time": "11:30",
-      "ts": "2026-06-04T00:21:50+09:00"
-    }
-  ],
+  "recent_events": [],
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-06-04T12:18:50.682831",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T12:18:14.453440+09:00",
+    "fetched_at": "2026-06-04T12:20:50.212856+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
