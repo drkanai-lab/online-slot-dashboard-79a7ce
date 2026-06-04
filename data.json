@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T06:31:53.578118+09:00",
+  "generated": "2026-06-05T06:33:36.065827+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -1369,7 +1369,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T06:20:36.604424+09:00",
+      "last_updated": "2026-06-05T06:32:08.293483+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1511,7 +1511,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T06:21:03.908769+09:00",
+      "last_updated": "2026-06-05T06:32:36.685511+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1694,7 +1694,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T06:21:31.343661+09:00",
+      "last_updated": "2026-06-05T06:33:05.514175+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1970,7 +1970,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T06:21:58.661255+09:00",
+      "last_updated": "2026-06-05T06:33:34.339269+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7299,12 +7299,19 @@
       "date": "2026-06-06",
       "time": "12:45",
       "ts": "2026-06-04T23:07:11+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "黒井 きぼう",
+      "date": "2026-06-06",
+      "time": "22:30",
+      "ts": "2026-06-05T06:33:35+09:00"
     }
   ],
   "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-06-05T06:18:53.668834",
+  "sigma_last_run": "2026-06-05T06:33:52.198556",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T06:30:35.229827+09:00",
+    "fetched_at": "2026-06-05T06:33:02.871941+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
