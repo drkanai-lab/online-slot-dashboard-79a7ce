@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-04T22:45:30.747174+09:00",
+  "generated": "2026-06-04T22:47:11.873821+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "東 寿広",
+    "time": "22:50",
+    "code": "C",
+    "patient_name": "地徳和明",
     "visit_type": "再診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.04 22:05:43"
   },
   "days": [
     {
@@ -1409,7 +1411,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:36:00.842233+09:00",
+      "last_updated": "2026-06-04T22:45:46.334064+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1808,7 +1810,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:36:30.680436+09:00",
+      "last_updated": "2026-06-04T22:46:15.100578+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1950,7 +1952,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:36:57.218880+09:00",
+      "last_updated": "2026-06-04T22:46:43.107203+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2133,7 +2135,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:37:23.837119+09:00",
+      "last_updated": "2026-06-04T22:47:10.357108+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7556,7 +7558,7 @@
   "sigma_qualified_count": 67,
   "sigma_last_run": "2026-06-04T22:43:54.912467",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T22:44:01.513111+09:00",
+    "fetched_at": "2026-06-04T22:46:43.303057+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
