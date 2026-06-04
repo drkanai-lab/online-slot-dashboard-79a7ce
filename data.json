@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T23:03:58.553742+09:00",
+  "generated": "2026-06-04T23:06:42.877646+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
@@ -478,7 +478,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T23:03:57.048176+09:00",
+      "last_updated": "2026-06-04T23:06:41.362312+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -522,17 +522,17 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:54:44.682376+09:00",
+      "last_updated": "2026-06-04T23:04:42.055198+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-06",
       "short": "6/6(土)",
       "dow": "土",
-      "open_count": 25,
-      "booked_count": 7,
+      "open_count": 23,
+      "booked_count": 9,
       "new_count": 2,
-      "revisit_count": 5,
+      "revisit_count": 7,
       "first_open": "12:00",
       "last_open": "23:50",
       "first_booked": "12:10",
@@ -540,14 +540,14 @@
       "per_platform_open": {
         "クロン": 3,
         "CLINICS": 16,
-        "SOKUYAKU": 7
+        "SOKUYAKU": 5
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 7,
+        "gcal": 8,
+        "SOKUYAKU": 3,
         "GMO": 3,
-        "クロン": 2,
-        "SOKUYAKU": 1
+        "クロン": 2
       },
       "full_platforms": [
         {
@@ -616,7 +616,7 @@
           "time": "12:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:45"
             }
           },
@@ -633,12 +633,26 @@
           "time": "12:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "清水 美穂子",
+              "visit_type": "再診",
+              "department": "不眠",
+              "end_time": "12:55"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "清水 美穂子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "13:00",
@@ -996,7 +1010,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:55:10.094487+09:00",
+      "last_updated": "2026-06-04T23:05:07.678359+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1411,7 +1425,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:55:37.788771+09:00",
+      "last_updated": "2026-06-04T23:05:36.550861+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1810,7 +1824,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:56:15.332950+09:00",
+      "last_updated": "2026-06-04T23:06:04.718785+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1952,7 +1966,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:56:42.452270+09:00",
+      "last_updated": "2026-06-04T23:06:32.718392+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7558,7 +7572,7 @@
   "sigma_qualified_count": 67,
   "sigma_last_run": "2026-06-04T23:03:55.495299",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T23:02:32.094281+09:00",
+    "fetched_at": "2026-06-04T23:05:11.769029+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
