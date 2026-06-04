@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T15:18:38.987819+09:00",
+  "generated": "2026-06-04T15:21:18.370671+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 15,
+        "gcal": 16,
         "CLINICS": 9,
         "GMO": 2,
         "クロン": 2
@@ -294,7 +294,17 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "馬淵美寿樹",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:25",
+              "qualified": true,
+              "qualified_at": "R08.06.04 13:34:41"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -458,7 +468,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T15:18:37.168664+09:00",
+      "last_updated": "2026-06-04T15:21:16.933636+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7530,7 +7540,7 @@
   "sigma_qualified_count": 66,
   "sigma_last_run": "2026-06-04T15:18:51.968515",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T15:17:12.133903+09:00",
+    "fetched_at": "2026-06-04T15:19:50.970733+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
