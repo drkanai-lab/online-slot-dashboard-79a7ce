@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-04T23:30:47.638765+09:00",
+  "generated": "2026-06-04T23:33:26.147416+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-06-04",
-    "short": "6/4(木)",
-    "time": "23:30",
-    "code": "K",
-    "patient_name": "篠原 佑輔",
-    "visit_type": "再診",
+    "date": "2026-06-06",
+    "short": "6/6(土)",
+    "time": "12:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.02 16:00:49"
+    "status": "open"
   },
   "days": [
     {
@@ -478,7 +476,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T23:30:46.199597+09:00",
+      "last_updated": "2026-06-04T23:33:24.683503+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7195,7 +7193,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:15:57.108244+09:00",
+      "last_updated": "2026-06-04T23:30:51.567918+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7363,7 +7361,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:16:33.664103+09:00",
+      "last_updated": "2026-06-04T23:31:28.428600+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7564,15 +7562,15 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T22:17:10.520968+09:00",
+      "last_updated": "2026-06-04T23:32:04.942459+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
   "recent_events": [],
   "sigma_qualified_count": 67,
-  "sigma_last_run": "2026-06-04T23:28:53.383475",
+  "sigma_last_run": "2026-06-04T23:33:51.402626",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T23:29:20.754679+09:00",
+    "fetched_at": "2026-06-04T23:31:57.434136+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
