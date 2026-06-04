@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-04T11:45:35.988297+09:00",
+  "generated": "2026-06-04T11:48:17.596709+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
-    "time": "11:45",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "12:00",
+    "code": "C",
+    "patient_name": "清須昌",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.03 13:54:52"
   },
   "days": [
     {
@@ -452,7 +454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T11:45:34.667540+09:00",
+      "last_updated": "2026-06-04T11:48:16.318932+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -496,7 +498,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T11:38:26.681267+09:00",
+      "last_updated": "2026-06-04T11:48:10.752325+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7379,9 +7381,9 @@
     }
   ],
   "sigma_qualified_count": 63,
-  "sigma_last_run": "2026-06-04T11:43:51.324125",
+  "sigma_last_run": "2026-06-04T11:48:51.078358",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T11:44:08.042208+09:00",
+    "fetched_at": "2026-06-04T11:46:49.281155+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
