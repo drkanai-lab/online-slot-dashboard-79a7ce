@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-04T12:40:45.530843+09:00",
+  "generated": "2026-06-04T12:43:20.871440+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
-    "time": "12:40",
-    "code": "C",
-    "patient_name": "小嶋由佳",
-    "visit_type": "再診",
+    "time": "12:50",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked"
+    "status": "open"
   },
   "days": [
     {
@@ -462,7 +462,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T12:40:44.205676+09:00",
+      "last_updated": "2026-06-04T12:43:19.552465+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7381,9 +7381,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 64,
-  "sigma_last_run": "2026-06-04T12:38:50.489867",
+  "sigma_last_run": "2026-06-04T12:43:52.152917",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T12:39:17.114524+09:00",
+    "fetched_at": "2026-06-04T12:41:53.240746+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
