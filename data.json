@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-04T12:10:26.320353+09:00",
+  "generated": "2026-06-04T12:11:48.614726+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
     "short": "6/4(木)",
-    "time": "12:10",
+    "time": "12:20",
     "code": "C",
-    "patient_name": "今井迅馬",
-    "visit_type": "初診",
-    "department": "アレ",
+    "patient_name": "北澤千緒",
+    "visit_type": "再診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.03 13:53:13"
+    "qualified_at": "R08.06.03 13:54:20"
   },
   "days": [
     {
@@ -454,7 +454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T12:09:07.714849+09:00",
+      "last_updated": "2026-06-04T12:11:47.264612+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3886,7 +3886,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T10:55:40.722694+09:00",
+      "last_updated": "2026-06-04T12:10:26.574707+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3999,7 +3999,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T10:56:11.671942+09:00",
+      "last_updated": "2026-06-04T12:10:57.001238+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4320,7 +4320,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T10:56:42.928358+09:00",
+      "last_updated": "2026-06-04T12:11:28.748109+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7383,7 +7383,7 @@
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-06-04T12:08:51.540534",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T12:07:41.404226+09:00",
+    "fetched_at": "2026-06-04T12:10:21.595474+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
