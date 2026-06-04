@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T08:18:54.293591+09:00",
+  "generated": "2026-06-05T08:20:40.347386+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -1369,7 +1369,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T08:09:33.186163+09:00",
+      "last_updated": "2026-06-05T08:19:15.679038+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1390,7 +1390,8 @@
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "GMO": 1
+        "GMO": 1,
+        "gcal": 1
       },
       "full_platforms": [
         {
@@ -1480,7 +1481,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "中村　紘之",
+              "visit_type": "再診",
+              "department": "心療",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1517,7 +1526,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T08:10:00.923814+09:00",
+      "last_updated": "2026-06-05T08:19:44.148502+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1700,7 +1709,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T08:10:27.931854+09:00",
+      "last_updated": "2026-06-05T08:20:11.033794+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1976,7 +1985,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T08:10:57.148304+09:00",
+      "last_updated": "2026-06-05T08:20:39.078497+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7317,7 +7326,7 @@
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-06-05T08:18:52.602004",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T08:17:35.411464+09:00",
+    "fetched_at": "2026-06-05T08:20:06.299968+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
