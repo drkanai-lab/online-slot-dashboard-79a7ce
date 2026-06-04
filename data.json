@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T20:47:33.327152+09:00",
+  "generated": "2026-06-04T20:49:16.385642+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-04",
@@ -1009,7 +1009,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 1
+        "gcal": 2
       },
       "full_platforms": [],
       "ranges": [
@@ -1069,7 +1069,15 @@
               "end_time": "11:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "肛門",
+              "end_time": "11:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1393,7 +1401,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T20:38:02.982960+09:00",
+      "last_updated": "2026-06-04T20:47:51.098042+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1792,7 +1800,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T20:38:32.608168+09:00",
+      "last_updated": "2026-06-04T20:48:19.747557+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1934,7 +1942,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T20:38:59.795172+09:00",
+      "last_updated": "2026-06-04T20:48:47.582587+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2117,7 +2125,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-04T20:39:26.475596+09:00",
+      "last_updated": "2026-06-04T20:49:14.224041+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7538,9 +7546,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-04T20:43:51.585037",
+  "sigma_last_run": "2026-06-04T20:48:52.341804",
   "gmo_realtime": {
-    "fetched_at": "2026-06-04T20:46:04.617096+09:00",
+    "fetched_at": "2026-06-04T20:48:40.901472+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
