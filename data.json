@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T13:40:58.571181+09:00",
+  "generated": "2026-06-05T13:43:26.226161+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -53,7 +53,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T13:40:58.567740+09:00",
+      "last_updated": "2026-06-05T13:43:26.222810+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -61,8 +61,8 @@
       "short": "6/6(土)",
       "dow": "土",
       "open_count": 20,
-      "booked_count": 13,
-      "new_count": 3,
+      "booked_count": 12,
+      "new_count": 2,
       "revisit_count": 10,
       "first_open": "12:00",
       "last_open": "23:50",
@@ -75,7 +75,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 12,
+        "gcal": 11,
         "SOKUYAKU": 4,
         "GMO": 3,
         "クロン": 1
@@ -250,15 +250,7 @@
               "end_time": "13:40"
             }
           },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "寺沢 優舞",
-              "visit_type": "初診",
-              "department": "",
-              "end_time": "13:40"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -579,7 +571,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T13:32:59.562536+09:00",
+      "last_updated": "2026-06-05T13:42:44.272744+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -994,7 +986,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T13:33:27.324207+09:00",
+      "last_updated": "2026-06-05T13:43:12.677847+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7363,9 +7355,9 @@
     }
   ],
   "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-06-05T13:38:53.565506",
+  "sigma_last_run": "2026-06-05T13:43:50.524128",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T13:39:39.688446+09:00",
+    "fetched_at": "2026-06-05T13:42:07.184508+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
