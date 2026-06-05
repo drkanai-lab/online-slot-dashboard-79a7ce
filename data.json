@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T12:32:07.492677+09:00",
+  "generated": "2026-06-05T12:34:35.187872+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -53,16 +53,16 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T12:32:07.489339+09:00",
+      "last_updated": "2026-06-05T12:34:35.184554+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-06",
       "short": "6/6(土)",
       "dow": "土",
-      "open_count": 20,
-      "booked_count": 12,
-      "new_count": 2,
+      "open_count": 19,
+      "booked_count": 13,
+      "new_count": 3,
       "revisit_count": 10,
       "first_open": "12:00",
       "last_open": "23:50",
@@ -70,12 +70,12 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 3,
-        "CLINICS": 14,
+        "CLINICS": 13,
         "SOKUYAKU": 4
       },
       "per_platform_booked": {
-        "CLINICS": 3,
-        "gcal": 11,
+        "CLINICS": 4,
+        "gcal": 12,
         "SOKUYAKU": 4,
         "GMO": 3,
         "クロン": 2
@@ -227,11 +227,19 @@
           "time": "13:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "13:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "西村健治",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "13:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -571,7 +579,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T12:24:43.457447+09:00",
+      "last_updated": "2026-06-05T12:34:28.950060+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7347,10 +7355,10 @@
       "ts": "2026-06-05T06:33:35+09:00"
     }
   ],
-  "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-06-05T12:28:51.685965",
+  "sigma_qualified_count": 69,
+  "sigma_last_run": "2026-06-05T12:33:53.280996",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T12:30:47.970972+09:00",
+    "fetched_at": "2026-06-05T12:33:16.989043+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
