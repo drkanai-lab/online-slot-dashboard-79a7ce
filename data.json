@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T10:55:04.668391+09:00",
+  "generated": "2026-06-05T10:57:34.913115+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -53,7 +53,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T10:55:04.665023+09:00",
+      "last_updated": "2026-06-05T10:57:34.909733+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -75,7 +75,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 3,
-        "gcal": 10,
+        "gcal": 11,
         "SOKUYAKU": 4,
         "GMO": 3,
         "クロン": 2
@@ -272,7 +272,15 @@
               "end_time": "14:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "川西史人",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "14:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -563,7 +571,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T10:46:47.375586+09:00",
+      "last_updated": "2026-06-05T10:56:31.508997+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -978,7 +986,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T10:47:15.206227+09:00",
+      "last_updated": "2026-06-05T10:56:58.872487+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1377,7 +1385,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T10:47:43.133139+09:00",
+      "last_updated": "2026-06-05T10:57:27.341712+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7349,7 +7357,7 @@
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-06-05T10:53:52.604568",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T10:53:45.649421+09:00",
+    "fetched_at": "2026-06-05T10:56:16.089879+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
