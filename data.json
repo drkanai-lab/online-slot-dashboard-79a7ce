@@ -1,13 +1,13 @@
 {
-  "generated": "2026-06-05T16:47:04.235088+09:00",
+  "generated": "2026-06-05T16:49:32.087509+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
     "short": "6/6(土)",
     "time": "12:00",
     "code": "K",
-    "patient_name": "",
-    "visit_type": "",
+    "patient_name": "KARIM MOHAMMAD",
+    "visit_type": "再診",
     "department": "",
     "status": "booked"
   },
@@ -53,30 +53,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T16:47:04.229109+09:00",
+      "last_updated": "2026-06-05T16:49:32.084140+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-06",
       "short": "6/6(土)",
       "dow": "土",
-      "open_count": 19,
-      "booked_count": 13,
+      "open_count": 18,
+      "booked_count": 14,
       "new_count": 2,
-      "revisit_count": 11,
-      "first_open": "12:20",
+      "revisit_count": 12,
+      "first_open": "13:30",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 13,
         "クロン": 3,
+        "CLINICS": 12,
         "SOKUYAKU": 4
       },
       "per_platform_booked": {
         "クロン": 2,
-        "CLINICS": 4,
-        "gcal": 11,
+        "gcal": 13,
+        "CLINICS": 5,
         "SOKUYAKU": 4,
         "GMO": 3
       },
@@ -110,7 +110,15 @@
               "end_time": "12:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "KARIM MOHAMMAD",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -136,11 +144,19 @@
           "time": "12:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "12:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "KARIMMANAMI",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -571,7 +587,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T16:38:43.131475+09:00",
+      "last_updated": "2026-06-05T16:48:26.088538+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -986,7 +1002,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T16:39:10.182039+09:00",
+      "last_updated": "2026-06-05T16:48:53.167011+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1385,7 +1401,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T16:39:38.146822+09:00",
+      "last_updated": "2026-06-05T16:49:21.047905+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2208,7 +2224,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T15:33:05.569052+09:00",
+      "last_updated": "2026-06-05T16:47:51.045849+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2584,7 +2600,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T15:33:33.854190+09:00",
+      "last_updated": "2026-06-05T16:48:18.746151+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2807,7 +2823,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T15:34:04.149804+09:00",
+      "last_updated": "2026-06-05T16:48:48.993740+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3048,7 +3064,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T15:34:35.163921+09:00",
+      "last_updated": "2026-06-05T16:49:19.582064+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7376,9 +7392,9 @@
     }
   ],
   "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-06-05T16:43:51.673003",
+  "sigma_last_run": "2026-06-05T16:48:51.487598",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T16:45:46.206197+09:00",
+    "fetched_at": "2026-06-05T16:48:13.293846+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
