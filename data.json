@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T13:31:08.059129+09:00",
+  "generated": "2026-06-05T13:33:35.732671+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -53,14 +53,14 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T13:31:08.055770+09:00",
+      "last_updated": "2026-06-05T13:33:35.729314+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-06",
       "short": "6/6(土)",
       "dow": "土",
-      "open_count": 19,
+      "open_count": 20,
       "booked_count": 13,
       "new_count": 3,
       "revisit_count": 10,
@@ -69,7 +69,7 @@
       "first_booked": "12:10",
       "last_booked": "23:00",
       "per_platform_open": {
-        "クロン": 3,
+        "クロン": 4,
         "CLINICS": 13,
         "SOKUYAKU": 4
       },
@@ -78,7 +78,7 @@
         "gcal": 12,
         "SOKUYAKU": 4,
         "GMO": 3,
-        "クロン": 2
+        "クロン": 1
       },
       "full_platforms": [
         {
@@ -246,7 +246,7 @@
           "time": "13:30",
           "platforms": {
             "クロン": {
-              "status": "booked",
+              "status": "open",
               "end_time": "13:40"
             }
           },
@@ -579,7 +579,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T13:23:15.922405+09:00",
+      "last_updated": "2026-06-05T13:32:59.562536+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -994,7 +994,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T13:23:43.574857+09:00",
+      "last_updated": "2026-06-05T13:33:27.324207+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7363,9 +7363,9 @@
     }
   ],
   "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-06-05T13:28:52.224343",
+  "sigma_last_run": "2026-06-05T13:33:52.456510",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T13:29:49.337816+09:00",
+    "fetched_at": "2026-06-05T13:32:17.264975+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
