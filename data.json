@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T12:34:35.187872+09:00",
+  "generated": "2026-06-05T12:36:50.531165+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -994,7 +994,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T12:25:11.008262+09:00",
+      "last_updated": "2026-06-05T12:34:56.608709+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1393,7 +1393,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T12:25:39.918440+09:00",
+      "last_updated": "2026-06-05T12:35:26.579815+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1565,7 +1565,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T12:26:06.972036+09:00",
+      "last_updated": "2026-06-05T12:35:52.864956+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1748,7 +1748,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T12:26:33.447441+09:00",
+      "last_updated": "2026-06-05T12:36:20.135677+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2024,7 +2024,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T12:27:02.484999+09:00",
+      "last_updated": "2026-06-05T12:36:48.776215+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7353,12 +7353,19 @@
       "date": "2026-06-06",
       "time": "22:30",
       "ts": "2026-06-05T06:33:35+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "西村健治",
+      "date": "2026-06-06",
+      "time": "13:20",
+      "ts": "2026-06-05T12:36:50+09:00"
     }
   ],
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-06-05T12:33:53.280996",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T12:33:16.989043+09:00",
+    "fetched_at": "2026-06-05T12:35:43.849601+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
