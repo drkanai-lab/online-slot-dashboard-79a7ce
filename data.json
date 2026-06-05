@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T16:50:45.248472+09:00",
+  "generated": "2026-06-05T16:51:57.889449+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -53,7 +53,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T16:49:32.084140+09:00",
+      "last_updated": "2026-06-05T16:51:57.885981+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3677,7 +3677,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T15:36:07.330811+09:00",
+      "last_updated": "2026-06-05T16:50:52.619938+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3695,8 +3695,7 @@
       "per_platform_open": {
         "GMO": 1,
         "CLINICS": 3,
-        "SOKUYAKU": 2,
-        "クロン": 1
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {},
       "full_platforms": [],
@@ -3708,17 +3707,6 @@
       ],
       "range_text": "23:00〜24:00",
       "slots": [
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
         {
           "time": "23:00",
           "platforms": {
@@ -3758,10 +3746,6 @@
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:45"
-            },
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
             }
           },
           "gcals": [],
@@ -3790,7 +3774,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T15:36:37.261379+09:00",
+      "last_updated": "2026-06-05T16:51:22.577653+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4119,7 +4103,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-05T15:37:06.880811+09:00",
+      "last_updated": "2026-06-05T16:51:53.058553+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7401,7 +7385,7 @@
   "sigma_qualified_count": 69,
   "sigma_last_run": "2026-06-05T16:48:51.487598",
   "gmo_realtime": {
-    "fetched_at": "2026-06-05T16:48:13.293846+09:00",
+    "fetched_at": "2026-06-05T16:50:39.720765+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
