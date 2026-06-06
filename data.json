@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T18:44:47.260376+09:00",
+  "generated": "2026-06-06T18:46:47.607895+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -18,24 +18,24 @@
       "date": "2026-06-06",
       "short": "6/6(土)",
       "dow": "土",
-      "open_count": 12,
-      "booked_count": 16,
+      "open_count": 11,
+      "booked_count": 17,
       "new_count": 1,
-      "revisit_count": 15,
-      "first_open": "19:00",
+      "revisit_count": 16,
+      "first_open": "19:15",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 3,
         "CLINICS": 7,
         "クロン": 2
       },
       "per_platform_booked": {
         "クロン": 3,
-        "gcal": 16,
+        "gcal": 17,
         "CLINICS": 6,
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 5,
         "GMO": 3
       },
       "full_platforms": [
@@ -327,11 +327,19 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "芝田 清",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "19:10"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "芝田 清",
@@ -566,7 +574,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T18:44:15.058302+09:00",
+      "last_updated": "2026-06-06T18:46:46.006490+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6136,7 +6144,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T17:30:16.668703+09:00",
+      "last_updated": "2026-06-06T18:45:12.123164+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6278,7 +6286,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T17:30:52.010019+09:00",
+      "last_updated": "2026-06-06T18:45:48.394822+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6446,7 +6454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T17:31:27.682405+09:00",
+      "last_updated": "2026-06-06T18:46:24.551324+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7543,12 +7551,19 @@
       "date": "2026-06-06",
       "time": "18:50",
       "ts": "2026-06-06T17:20:43+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "芝田 清",
+      "date": "2026-06-06",
+      "time": "19:00",
+      "ts": "2026-06-06T18:46:47+09:00"
     }
   ],
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-06-06T18:43:53.027070",
   "gmo_realtime": {
-    "fetched_at": "2026-06-06T18:42:49.933818+09:00",
+    "fetched_at": "2026-06-06T18:45:23.772131+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
