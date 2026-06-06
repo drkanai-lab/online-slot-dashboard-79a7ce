@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-06T19:29:56.977257+09:00",
+  "generated": "2026-06-06T19:32:41.138677+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
     "short": "6/6(土)",
-    "time": "19:30",
-    "code": "K",
-    "patient_name": "荒川 敬介",
-    "visit_type": "初診",
+    "time": "22:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.05 06:06:20"
+    "status": "open"
   },
   "days": [
     {
@@ -588,7 +586,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T19:29:55.670414+09:00",
+      "last_updated": "2026-06-06T19:32:39.678704+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1003,29 +1001,29 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T19:21:39.909049+09:00",
+      "last_updated": "2026-06-06T19:31:39.956285+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-08",
       "short": "6/8(月)",
       "dow": "月",
-      "open_count": 17,
-      "booked_count": 5,
+      "open_count": 16,
+      "booked_count": 6,
       "new_count": 1,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "11:30",
       "last_open": "23:30",
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
         "SOKUYAKU": 4,
-        "CLINICS": 10,
+        "CLINICS": 9,
         "クロン": 3
       },
       "per_platform_booked": {
-        "CLINICS": 2,
-        "gcal": 4,
+        "CLINICS": 3,
+        "gcal": 5,
         "GMO": 3
       },
       "full_platforms": [
@@ -1099,11 +1097,19 @@
           "time": "12:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "12:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "古江早貴",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1341,7 +1347,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T19:22:08.767156+09:00",
+      "last_updated": "2026-06-06T19:32:08.081279+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1513,7 +1519,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T19:22:49.317250+09:00",
+      "last_updated": "2026-06-06T19:32:35.066504+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7577,7 +7583,7 @@
   "sigma_qualified_count": 70,
   "sigma_last_run": "2026-06-06T19:28:54.373277",
   "gmo_realtime": {
-    "fetched_at": "2026-06-06T19:28:31.866189+09:00",
+    "fetched_at": "2026-06-06T19:31:15.315942+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
