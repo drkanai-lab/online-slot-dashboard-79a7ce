@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T11:47:57.349891+09:00",
+  "generated": "2026-06-06T11:49:52.969715+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -208,7 +208,9 @@
               "patient_name": "持田勇貴",
               "visit_type": "再診",
               "department": "",
-              "end_time": "13:20"
+              "end_time": "13:20",
+              "qualified": true,
+              "qualified_at": "R08.06.06 11:42:28"
             }
           ],
           "sokuyaku_truth": []
@@ -249,7 +251,9 @@
               "patient_name": "川西史人",
               "visit_type": "再診",
               "department": "",
-              "end_time": "14:00"
+              "end_time": "14:00",
+              "qualified": true,
+              "qualified_at": "R08.06.06 11:43:29"
             }
           ],
           "sokuyaku_truth": []
@@ -556,7 +560,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T11:47:17.269456+09:00",
+      "last_updated": "2026-06-06T11:49:51.634822+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7601,10 +7605,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 62,
-  "sigma_last_run": "2026-06-06T11:43:54.290581",
+  "sigma_qualified_count": 65,
+  "sigma_last_run": "2026-06-06T11:48:54.483733",
   "gmo_realtime": {
-    "fetched_at": "2026-06-06T11:45:55.416660+09:00",
+    "fetched_at": "2026-06-06T11:48:28.994762+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
