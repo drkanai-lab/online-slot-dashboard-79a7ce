@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T08:52:24.524161+09:00",
+  "generated": "2026-06-07T08:52:46.464529+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
@@ -34,7 +34,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 5,
+        "gcal": 6,
         "GMO": 3
       },
       "full_platforms": [],
@@ -140,6 +140,13 @@
               "code": "K",
               "patient_name": "田中 里旺",
               "visit_type": "初診",
+              "department": "",
+              "end_time": "12:10"
+            },
+            {
+              "code": "K",
+              "patient_name": "小澤 友美",
+              "visit_type": "再診",
               "department": "",
               "end_time": "12:10"
             }
@@ -457,7 +464,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T08:50:14.223841+09:00",
+      "last_updated": "2026-06-07T08:52:45.000521+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
