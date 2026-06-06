@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T08:15:05.244294+09:00",
+  "generated": "2026-06-07T08:17:33.393374+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
@@ -19,8 +19,8 @@
       "short": "6/7(日)",
       "dow": "日",
       "open_count": 28,
-      "booked_count": 4,
-      "new_count": 1,
+      "booked_count": 5,
+      "new_count": 2,
       "revisit_count": 3,
       "first_open": "11:10",
       "last_open": "23:50",
@@ -34,7 +34,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 4,
+        "gcal": 5,
         "GMO": 3
       },
       "full_platforms": [],
@@ -135,7 +135,15 @@
               "end_time": "12:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "田中 里旺",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "12:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -449,7 +457,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T08:15:04.255563+09:00",
+      "last_updated": "2026-06-07T08:17:32.223000+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2467,7 +2475,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T07:01:32.259661+09:00",
+      "last_updated": "2026-06-07T08:15:23.144732+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2609,7 +2617,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T07:01:58.711225+09:00",
+      "last_updated": "2026-06-07T08:15:51.606481+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2777,7 +2785,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T07:02:26.237497+09:00",
+      "last_updated": "2026-06-07T08:16:18.075454+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3080,7 +3088,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T07:02:54.218857+09:00",
+      "last_updated": "2026-06-07T08:16:45.769064+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3193,7 +3201,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T07:03:20.785818+09:00",
+      "last_updated": "2026-06-07T08:17:12.327621+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7170,12 +7178,19 @@
       "date": "2026-06-07",
       "time": "12:30",
       "ts": "2026-06-07T00:11:55+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "田中 里旺",
+      "date": "2026-06-07",
+      "time": "12:00",
+      "ts": "2026-06-07T08:17:33+09:00"
     }
   ],
   "sigma_qualified_count": 77,
   "sigma_last_run": "2026-06-07T08:13:50.875751",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T08:13:44.379355+09:00",
+    "fetched_at": "2026-06-07T08:16:13.799676+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
