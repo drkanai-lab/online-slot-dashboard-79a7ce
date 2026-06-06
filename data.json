@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-06T18:49:20.735373+09:00",
+  "generated": "2026-06-06T18:51:54.199257+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
     "short": "6/6(土)",
-    "time": "18:50",
-    "code": "C",
-    "patient_name": "伴敏郎",
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "芝田 清",
     "visit_type": "再診",
-    "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.06 14:40:19"
+    "department": "整形",
+    "status": "booked"
   },
   "days": [
     {
@@ -574,7 +572,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T18:49:19.395835+09:00",
+      "last_updated": "2026-06-06T18:51:52.777407+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7540,7 +7538,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T17:34:35.991101+09:00",
+      "last_updated": "2026-06-06T18:49:34.950454+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -7563,7 +7561,7 @@
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-06-06T18:48:58.312329",
   "gmo_realtime": {
-    "fetched_at": "2026-06-06T18:47:55.289527+09:00",
+    "fetched_at": "2026-06-06T18:50:28.773154+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
