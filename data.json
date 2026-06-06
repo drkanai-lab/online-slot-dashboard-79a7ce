@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T19:14:12.679495+09:00",
+  "generated": "2026-06-06T19:14:19.696894+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
@@ -18,8 +18,8 @@
       "dow": "土",
       "open_count": 10,
       "booked_count": 18,
-      "new_count": 1,
-      "revisit_count": 17,
+      "new_count": 2,
+      "revisit_count": 16,
       "first_open": "19:15",
       "last_open": "23:50",
       "first_booked": "12:00",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "クロン": 3,
-        "gcal": 17,
+        "gcal": 18,
         "CLINICS": 7,
         "SOKUYAKU": 5,
         "GMO": 3
@@ -408,7 +408,17 @@
               "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "星田利和",
+              "visit_type": "初診",
+              "department": "眼",
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.06.06 19:10:44"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -572,7 +582,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T19:11:44.224829+09:00",
+      "last_updated": "2026-06-06T19:14:18.378573+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
