@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T00:06:57.798172+09:00",
+  "generated": "2026-06-07T00:09:26.442271+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
@@ -161,7 +161,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "三浦 一恵",
+              "visit_type": "初診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "12:45",
@@ -441,7 +447,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T00:06:57.063901+09:00",
+      "last_updated": "2026-06-07T00:09:25.395432+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -795,7 +801,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T00:00:12.957992+09:00",
+      "last_updated": "2026-06-07T00:09:19.034110+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7054,7 +7060,7 @@
   "sigma_qualified_count": 77,
   "sigma_last_run": "2026-06-07T00:03:58.624208",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T00:05:36.454422+09:00",
+    "fetched_at": "2026-06-07T00:08:06.555859+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
