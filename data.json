@@ -1,38 +1,40 @@
 {
-  "generated": "2026-06-06T11:49:52.969715+09:00",
+  "generated": "2026-06-06T17:20:43.923911+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-06",
     "short": "6/6(土)",
-    "time": "12:00",
-    "code": "K",
-    "patient_name": "KARIM MOHAMMAD",
+    "time": "18:30",
+    "code": "G",
+    "patient_name": "西村　美和子",
     "visit_type": "再診",
-    "department": "",
-    "status": "booked"
+    "department": "不眠",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.05 06:09:27"
   },
   "days": [
     {
       "date": "2026-06-06",
       "short": "6/6(土)",
       "dow": "土",
-      "open_count": 16,
-      "booked_count": 14,
+      "open_count": 13,
+      "booked_count": 15,
       "new_count": 1,
-      "revisit_count": 13,
+      "revisit_count": 14,
       "first_open": "18:40",
       "last_open": "23:50",
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 11,
+        "CLINICS": 8,
         "SOKUYAKU": 4,
         "クロン": 2
       },
       "per_platform_booked": {
         "クロン": 3,
-        "gcal": 14,
-        "CLINICS": 4,
+        "gcal": 15,
+        "CLINICS": 5,
         "SOKUYAKU": 4,
         "GMO": 3
       },
@@ -49,14 +51,14 @@
         ],
         [
           "18:30",
-          "20:00"
+          "19:40"
         ],
         [
           "22:00",
           "24:00"
         ]
       ],
-      "range_text": "12:00〜14:00, 18:30〜20:00, 22:00〜24:00",
+      "range_text": "12:00〜14:00, 18:30〜19:40, 22:00〜24:00",
       "slots": [
         {
           "time": "12:00",
@@ -294,11 +296,21 @@
           "time": "18:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "伴敏郎",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:00",
+              "qualified": true,
+              "qualified_at": "R08.06.06 14:40:19"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -353,28 +365,6 @@
               "qualified_at": "R08.06.05 06:06:20"
             }
           ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -560,7 +550,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-06T11:49:51.634822+09:00",
+      "last_updated": "2026-06-06T17:20:42.312011+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7604,11 +7594,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
-  "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-06-06T11:48:54.483733",
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "伴敏郎",
+      "date": "2026-06-06",
+      "time": "18:50",
+      "ts": "2026-06-06T17:20:43+09:00"
+    }
+  ],
+  "sigma_qualified_count": 66,
+  "sigma_last_run": "2026-06-06T17:18:55.344559",
   "gmo_realtime": {
-    "fetched_at": "2026-06-06T11:48:28.994762+09:00",
+    "fetched_at": "2026-06-06T17:19:13.716866+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
