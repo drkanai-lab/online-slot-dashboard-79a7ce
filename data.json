@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T10:40:47.446902+09:00",
+  "generated": "2026-06-07T10:43:17.542412+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
@@ -18,22 +18,22 @@
       "date": "2026-06-07",
       "short": "6/7(日)",
       "dow": "日",
-      "open_count": 27,
-      "booked_count": 5,
+      "open_count": 26,
+      "booked_count": 6,
       "new_count": 1,
-      "revisit_count": 4,
-      "first_open": "11:10",
+      "revisit_count": 5,
+      "first_open": "11:20",
       "last_open": "23:50",
       "first_booked": "11:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 16,
+        "CLINICS": 15,
         "SOKUYAKU": 8,
         "GMO": 1,
         "クロン": 3
       },
       "per_platform_booked": {
-        "CLINICS": 1,
+        "CLINICS": 2,
         "gcal": 5,
         "GMO": 3,
         "クロン": 1
@@ -80,8 +80,8 @@
           "time": "11:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "11:20"
             }
           },
           "gcals": [],
@@ -462,7 +462,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T10:40:46.401113+09:00",
+      "last_updated": "2026-06-07T10:43:16.085159+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2239,7 +2239,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T09:28:51.838106+09:00",
+      "last_updated": "2026-06-07T10:42:55.041462+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7201,9 +7201,9 @@
     }
   ],
   "sigma_qualified_count": 80,
-  "sigma_last_run": "2026-06-07T10:38:51.829238",
+  "sigma_last_run": "2026-06-07T10:43:53.425188",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T10:39:25.378880+09:00",
+    "fetched_at": "2026-06-07T10:41:55.747675+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
