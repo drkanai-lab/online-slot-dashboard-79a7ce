@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T13:57:52.253149+09:00",
+  "generated": "2026-06-07T13:59:34.419441+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
@@ -287,7 +287,9 @@
               "patient_name": "遠藤 淳哉",
               "visit_type": "初診",
               "department": "",
-              "end_time": "19:40"
+              "end_time": "19:40",
+              "qualified": true,
+              "qualified_at": "R08.06.07 13:55:36"
             }
           ],
           "sokuyaku_truth": []
@@ -471,7 +473,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T13:57:00.122848+09:00",
+      "last_updated": "2026-06-07T13:59:33.374130+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7194,10 +7196,10 @@
       "ts": "2026-06-07T13:51:59+09:00"
     }
   ],
-  "sigma_qualified_count": 83,
-  "sigma_last_run": "2026-06-07T13:53:53.891200",
+  "sigma_qualified_count": 84,
+  "sigma_last_run": "2026-06-07T13:58:52.671712",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T13:55:38.249748+09:00",
+    "fetched_at": "2026-06-07T13:58:11.939487+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
