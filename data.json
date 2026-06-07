@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T10:46:58.642684+09:00",
+  "generated": "2026-06-07T10:48:18.896143+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
@@ -34,7 +34,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 5,
+        "gcal": 6,
         "GMO": 3,
         "クロン": 1
       },
@@ -84,7 +84,17 @@
               "end_time": "11:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "鵜飼久美子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "11:20",
+              "qualified": true,
+              "qualified_at": "R08.06.07 10:45:23"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -462,7 +472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T10:45:48.967575+09:00",
+      "last_updated": "2026-06-07T10:48:17.920473+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4243,7 +4253,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T09:33:17.021834+09:00",
+      "last_updated": "2026-06-07T10:47:14.406458+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4287,7 +4297,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T09:33:47.323791+09:00",
+      "last_updated": "2026-06-07T10:47:45.071787+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4451,7 +4461,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T09:34:17.285570+09:00",
+      "last_updated": "2026-06-07T10:48:14.960854+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7200,10 +7210,10 @@
       "ts": "2026-06-07T08:17:33+09:00"
     }
   ],
-  "sigma_qualified_count": 80,
-  "sigma_last_run": "2026-06-07T10:43:53.425188",
+  "sigma_qualified_count": 81,
+  "sigma_last_run": "2026-06-07T10:48:53.747280",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T10:44:27.192529+09:00",
+    "fetched_at": "2026-06-07T10:46:57.974483+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
