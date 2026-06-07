@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-07T11:20:19.467946+09:00",
+  "generated": "2026-06-07T11:22:48.292945+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
     "short": "6/7(日)",
-    "time": "11:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "11:30",
+    "code": "G",
+    "patient_name": "伊藤 武志",
+    "visit_type": "再診",
+    "department": "総診",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.07 08:57:18"
   },
   "days": [
     {
@@ -470,7 +472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T11:20:18.353157+09:00",
+      "last_updated": "2026-06-07T11:22:47.322057+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7211,7 +7213,7 @@
   "sigma_qualified_count": 81,
   "sigma_last_run": "2026-06-07T11:18:52.365550",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T11:18:56.679447+09:00",
+    "fetched_at": "2026-06-07T11:21:27.716742+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
