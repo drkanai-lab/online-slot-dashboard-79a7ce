@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-07T18:29:13.925289+09:00",
+  "generated": "2026-06-07T18:31:43.593224+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
     "short": "6/7(日)",
-    "time": "18:30",
-    "code": "G",
-    "patient_name": "野口　修",
+    "time": "19:20",
+    "code": "C",
+    "patient_name": "金森一真",
     "visit_type": "再診",
-    "department": "総診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.06 19:59:27"
+    "qualified_at": "R08.06.07 12:14:53"
   },
   "days": [
     {
@@ -389,7 +389,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T18:29:12.696773+09:00",
+      "last_updated": "2026-06-07T18:31:42.598966+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -691,7 +691,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T18:21:45.083553+09:00",
+      "last_updated": "2026-06-07T18:31:12.488653+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -863,7 +863,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T18:22:09.519965+09:00",
+      "last_updated": "2026-06-07T18:31:36.921760+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5986,7 +5986,7 @@
   "sigma_qualified_count": 84,
   "sigma_last_run": "2026-06-07T18:29:03.500933",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T18:27:51.710195+09:00",
+    "fetched_at": "2026-06-07T18:30:22.572191+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
