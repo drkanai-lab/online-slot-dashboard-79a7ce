@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T19:19:20.803260+09:00",
+  "generated": "2026-06-07T19:20:51.843943+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
@@ -1046,7 +1046,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T19:10:08.334125+09:00",
+      "last_updated": "2026-06-07T19:19:35.670748+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1068,7 +1068,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 2,
+        "gcal": 3,
         "CLINICS": 1
       },
       "full_platforms": [
@@ -1278,7 +1278,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "古山　賢太郎",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1304,7 +1312,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T19:10:33.038242+09:00",
+      "last_updated": "2026-06-07T19:20:00.541843+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1470,7 +1478,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T19:10:57.591601+09:00",
+      "last_updated": "2026-06-07T19:20:25.511340+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1796,7 +1804,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T19:11:23.500350+09:00",
+      "last_updated": "2026-06-07T19:20:50.418211+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5990,7 +5998,7 @@
   "sigma_qualified_count": 84,
   "sigma_last_run": "2026-06-07T19:18:57.117178",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T19:17:59.328424+09:00",
+    "fetched_at": "2026-06-07T19:20:28.401702+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
