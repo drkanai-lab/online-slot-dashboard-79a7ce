@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T13:49:28.778462+09:00",
+  "generated": "2026-06-07T13:51:59.841601+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
@@ -19,8 +19,8 @@
       "short": "6/7(日)",
       "dow": "日",
       "open_count": 22,
-      "booked_count": 8,
-      "new_count": 1,
+      "booked_count": 9,
+      "new_count": 2,
       "revisit_count": 7,
       "first_open": "11:20",
       "last_open": "23:50",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 3,
-        "gcal": 8,
+        "gcal": 9,
         "GMO": 3,
         "クロン": 1
       },
@@ -281,7 +281,15 @@
               "end_time": "19:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "遠藤 淳哉",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "19:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -463,7 +471,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T13:49:27.666523+09:00",
+      "last_updated": "2026-06-07T13:51:58.465973+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -7177,12 +7185,19 @@
       "date": "2026-06-07",
       "time": "22:00",
       "ts": "2026-06-07T13:34:12+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "遠藤 淳哉",
+      "date": "2026-06-07",
+      "time": "19:30",
+      "ts": "2026-06-07T13:51:59+09:00"
     }
   ],
   "sigma_qualified_count": 83,
   "sigma_last_run": "2026-06-07T13:48:54.789969",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T13:48:06.158317+09:00",
+    "fetched_at": "2026-06-07T13:50:36.792333+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
