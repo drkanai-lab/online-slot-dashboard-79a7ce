@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-07T22:50:51.036491+09:00",
+  "generated": "2026-06-07T22:53:21.046858+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
     "short": "6/7(日)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "清水　則貴",
+    "visit_type": "再診",
+    "department": "肛門",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.06 19:59:52"
   },
   "days": [
     {
@@ -397,7 +399,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T22:50:49.902770+09:00",
+      "last_updated": "2026-06-07T22:53:20.004590+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5975,9 +5977,9 @@
     }
   ],
   "sigma_qualified_count": 86,
-  "sigma_last_run": "2026-06-07T22:49:15.137168",
+  "sigma_last_run": "2026-06-07T22:54:13.308476",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T22:49:28.996562+09:00",
+    "fetched_at": "2026-06-07T22:51:59.744081+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
