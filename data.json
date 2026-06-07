@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-07T19:30:19.303452+09:00",
+  "generated": "2026-06-07T19:31:56.230828+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-07",
     "short": "6/7(日)",
-    "time": "19:30",
+    "time": "22:00",
     "code": "K",
-    "patient_name": "遠藤 淳哉",
-    "visit_type": "初診",
+    "patient_name": "髙橋 快弥",
+    "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.07 13:55:36"
+    "qualified_at": "R08.06.07 13:30:30"
   },
   "days": [
     {
@@ -389,7 +389,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T19:29:24.408492+09:00",
+      "last_updated": "2026-06-07T19:31:55.080203+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5274,7 +5274,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T18:16:30.495690+09:00",
+      "last_updated": "2026-06-07T19:30:26.237020+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5416,7 +5416,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T18:17:04.337635+09:00",
+      "last_updated": "2026-06-07T19:30:59.635628+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5493,7 +5493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-07T18:17:38.188414+09:00",
+      "last_updated": "2026-06-07T19:31:32.989487+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5976,7 +5976,7 @@
   "sigma_qualified_count": 84,
   "sigma_last_run": "2026-06-07T19:28:59.034925",
   "gmo_realtime": {
-    "fetched_at": "2026-06-07T19:28:03.509619+09:00",
+    "fetched_at": "2026-06-07T19:30:33.078760+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
