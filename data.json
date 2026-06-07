@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T08:52:08.591008+09:00",
+  "generated": "2026-06-08T08:54:41.890363+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -9,7 +9,9 @@
     "patient_name": "田本匠",
     "visit_type": "再診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.06 23:29:28"
   },
   "days": [
     {
@@ -74,7 +76,9 @@
               "patient_name": "田本匠",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:15"
+              "end_time": "12:15",
+              "qualified": true,
+              "qualified_at": "R08.06.06 23:29:28"
             }
           ],
           "sokuyaku_truth": []
@@ -93,7 +97,9 @@
               "patient_name": "古江早貴",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:20"
+              "end_time": "12:20",
+              "qualified": true,
+              "qualified_at": "R08.06.06 23:29:52"
             }
           ],
           "sokuyaku_truth": []
@@ -133,7 +139,9 @@
               "patient_name": "斉藤　宏美",
               "visit_type": "再診",
               "department": "整形",
-              "end_time": "12:40"
+              "end_time": "12:40",
+              "qualified": true,
+              "qualified_at": "R08.06.06 23:30:33"
             }
           ],
           "sokuyaku_truth": []
@@ -182,7 +190,9 @@
               "patient_name": "柳　海翔",
               "visit_type": "初診",
               "department": "眼",
-              "end_time": "18:40"
+              "end_time": "18:40",
+              "qualified": true,
+              "qualified_at": "R08.06.06 23:28:27"
             }
           ],
           "sokuyaku_truth": []
@@ -213,7 +223,9 @@
               "patient_name": "森田敦",
               "visit_type": "再診",
               "department": "",
-              "end_time": "19:55"
+              "end_time": "19:55",
+              "qualified": true,
+              "qualified_at": "R08.06.06 23:30:08"
             }
           ],
           "sokuyaku_truth": []
@@ -298,7 +310,9 @@
               "patient_name": "坂原 千空",
               "visit_type": "再診",
               "department": "不眠",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.06.06 23:30:55"
             }
           ],
           "sokuyaku_truth": []
@@ -337,7 +351,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T08:52:07.921253+09:00",
+      "last_updated": "2026-06-08T08:54:41.248375+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -509,7 +523,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T08:44:43.066443+09:00",
+      "last_updated": "2026-06-08T08:54:23.464503+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5765,10 +5779,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 7,
-  "sigma_last_run": "2026-06-08T08:48:39.345866",
+  "sigma_qualified_count": 72,
+  "sigma_last_run": "2026-06-08T08:53:59.200194",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T08:50:46.450173+09:00",
+    "fetched_at": "2026-06-08T08:53:16.622709+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
