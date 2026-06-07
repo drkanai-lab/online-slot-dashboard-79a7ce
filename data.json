@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T00:43:04.500619+09:00",
+  "generated": "2026-06-08T00:44:07.192040+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -19,9 +19,9 @@
       "short": "6/8(月)",
       "dow": "月",
       "open_count": 10,
-      "booked_count": 8,
+      "booked_count": 7,
       "new_count": 1,
-      "revisit_count": 7,
+      "revisit_count": 6,
       "first_open": "12:20",
       "last_open": "23:20",
       "first_booked": "12:00",
@@ -112,15 +112,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "内田康太郎",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "12:30"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -152,7 +144,15 @@
               "end_time": "12:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "内田康太郎",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -341,7 +341,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T00:41:30.943512+09:00",
+      "last_updated": "2026-06-08T00:44:06.539838+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
