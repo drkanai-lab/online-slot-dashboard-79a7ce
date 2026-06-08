@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T11:27:45.833081+09:00",
+  "generated": "2026-06-08T11:30:17.626952+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -368,7 +368,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T11:27:44.866826+09:00",
+      "last_updated": "2026-06-08T11:30:16.586529+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -540,7 +540,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T11:19:06.072651+09:00",
+      "last_updated": "2026-06-08T11:28:44.920652+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -688,13 +688,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -723,7 +723,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T11:19:29.950581+09:00",
+      "last_updated": "2026-06-08T11:29:13.358131+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1004,7 +1004,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T11:19:54.863088+09:00",
+      "last_updated": "2026-06-08T11:29:38.038578+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1170,7 +1170,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T11:20:20.331519+09:00",
+      "last_updated": "2026-06-08T11:30:03.603491+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3417,7 +3417,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:13:42.788250+09:00",
+      "last_updated": "2026-06-08T11:27:50.280145+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3461,7 +3461,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:14:10.517394+09:00",
+      "last_updated": "2026-06-08T11:28:21.039315+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3578,7 +3578,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:14:41.615758+09:00",
+      "last_updated": "2026-06-08T11:28:52.140477+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3698,7 +3698,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:15:12.381360+09:00",
+      "last_updated": "2026-06-08T11:29:19.483959+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4008,7 +4008,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:15:42.712234+09:00",
+      "last_updated": "2026-06-08T11:29:49.726878+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5819,9 +5819,9 @@
     }
   ],
   "sigma_qualified_count": 73,
-  "sigma_last_run": "2026-06-08T11:23:56.946707",
+  "sigma_last_run": "2026-06-08T11:29:00.929832",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T11:26:21.182706+09:00",
+    "fetched_at": "2026-06-08T11:28:53.595020+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
