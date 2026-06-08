@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-08T12:19:05.681409+09:00",
+  "generated": "2026-06-08T12:21:11.877632+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
     "short": "6/8(月)",
-    "time": "12:20",
-    "code": "C",
-    "patient_name": "松下真也",
+    "time": "12:30",
+    "code": "G",
+    "patient_name": "斉藤　宏美",
     "visit_type": "再診",
-    "department": "",
+    "department": "整形",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.08 07:15:26"
+    "qualified_at": "R08.06.06 23:30:33"
   },
   "days": [
     {
@@ -379,7 +379,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T12:18:37.501938+09:00",
+      "last_updated": "2026-06-08T12:21:10.861901+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5832,7 +5832,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-06-08T12:18:58.371322",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T12:17:15.936473+09:00",
+    "fetched_at": "2026-06-08T12:19:47.640487+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
