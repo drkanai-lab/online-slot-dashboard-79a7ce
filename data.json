@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-08T12:00:55.928099+09:00",
+  "generated": "2026-06-08T12:03:27.555449+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
     "short": "6/8(月)",
-    "time": "12:00",
+    "time": "12:10",
     "code": "C",
-    "patient_name": "田本匠",
+    "patient_name": "古江早貴",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.06 23:29:28"
+    "qualified_at": "R08.06.06 23:29:52"
   },
   "days": [
     {
@@ -368,7 +368,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T12:00:54.877690+09:00",
+      "last_updated": "2026-06-08T12:03:26.082451+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5821,7 +5821,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-06-08T11:58:55.549656",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T11:59:31.016652+09:00",
+    "fetched_at": "2026-06-08T12:02:03.904033+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
