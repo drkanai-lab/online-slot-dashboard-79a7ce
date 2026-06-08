@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-08T22:19:40.150573+09:00",
+  "generated": "2026-06-08T22:21:13.099656+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
     "short": "6/8(月)",
-    "time": "22:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "野村 芽生",
+    "visit_type": "再診",
+    "department": "整形",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.08 20:49:40"
   },
   "days": [
     {
@@ -1009,7 +1011,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T22:10:28.229422+09:00",
+      "last_updated": "2026-06-08T22:19:54.852024+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1175,7 +1177,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T22:10:52.207868+09:00",
+      "last_updated": "2026-06-08T22:20:19.661329+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1501,7 +1503,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T22:11:16.612074+09:00",
+      "last_updated": "2026-06-08T22:20:45.260597+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1724,7 +1726,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T22:11:45.266182+09:00",
+      "last_updated": "2026-06-08T22:21:11.719122+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5843,7 +5845,7 @@
   "sigma_qualified_count": 75,
   "sigma_last_run": "2026-06-08T22:18:58.401850",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T22:18:17.743900+09:00",
+    "fetched_at": "2026-06-08T22:20:48.339944+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
