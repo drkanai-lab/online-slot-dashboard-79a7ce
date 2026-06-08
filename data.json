@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T18:12:38.215677+09:00",
+  "generated": "2026-06-08T18:13:13.656069+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -275,14 +275,18 @@
               "patient_name": "黒田 証",
               "visit_type": "初診",
               "department": "整形",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.06.08 18:10:44"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒田 証",
               "visit_type": "初診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.08 18:10:44"
             }
           ]
         },
@@ -1484,7 +1488,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T18:03:03.140330+09:00",
+      "last_updated": "2026-06-08T18:12:45.094672+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1707,7 +1711,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T18:03:30.331790+09:00",
+      "last_updated": "2026-06-08T18:13:12.190640+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5829,8 +5833,8 @@
       "ts": "2026-06-08T09:27:48+09:00"
     }
   ],
-  "sigma_qualified_count": 73,
-  "sigma_last_run": "2026-06-08T13:54:03.264142",
+  "sigma_qualified_count": 74,
+  "sigma_last_run": "2026-06-08T18:14:07.843893",
   "gmo_realtime": {
     "fetched_at": "2026-06-08T18:11:16.288690+09:00",
     "scrape_ok": true,
