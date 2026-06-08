@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T09:20:12.889558+09:00",
+  "generated": "2026-06-08T09:22:43.794218+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -296,7 +296,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "野村 芽生",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -375,7 +381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T09:20:12.249315+09:00",
+      "last_updated": "2026-06-08T09:22:42.850026+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5806,7 +5812,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-06-08T09:18:58.045461",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T09:18:50.095578+09:00",
+    "fetched_at": "2026-06-08T09:21:21.265862+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
