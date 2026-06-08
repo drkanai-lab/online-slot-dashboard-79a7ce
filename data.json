@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-08T22:49:51.335971+09:00",
+  "generated": "2026-06-08T22:52:24.259215+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
     "short": "6/8(月)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "坂原 千空",
+    "visit_type": "再診",
+    "department": "不眠",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.06 23:30:55"
   },
   "days": [
     {
@@ -381,7 +383,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T22:49:50.265900+09:00",
+      "last_updated": "2026-06-08T22:52:23.199094+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5843,7 +5845,7 @@
   "sigma_qualified_count": 77,
   "sigma_last_run": "2026-06-08T22:49:00.539583",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T22:48:28.969134+09:00",
+    "fetched_at": "2026-06-08T22:50:59.138563+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
