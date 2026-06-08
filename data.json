@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T11:22:35.942134+09:00",
+  "generated": "2026-06-08T11:25:10.194334+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -368,7 +368,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T11:22:34.843377+09:00",
+      "last_updated": "2026-06-08T11:25:09.174370+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1960,23 +1960,22 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:09:54.686364+09:00",
+      "last_updated": "2026-06-08T11:23:55.635154+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-16",
       "short": "6/16(火)",
       "dow": "火",
-      "open_count": 9,
+      "open_count": 8,
       "booked_count": 0,
       "new_count": 0,
       "revisit_count": 0,
-      "first_open": "22:00",
+      "first_open": "22:10",
       "last_open": "23:20",
       "first_booked": "",
       "last_booked": "",
       "per_platform_open": {
-        "クロン": 1,
         "CLINICS": 5,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -1985,23 +1984,12 @@
       "full_platforms": [],
       "ranges": [
         [
-          "22:00",
+          "22:10",
           "23:30"
         ]
       ],
-      "range_text": "22:00〜23:30",
+      "range_text": "22:10〜23:30",
       "slots": [
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
         {
           "time": "22:10",
           "platforms": {
@@ -2089,20 +2077,9 @@
           },
           "gcals": [],
           "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:10:21.545085+09:00",
+      "last_updated": "2026-06-08T11:24:25.897607+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2244,7 +2221,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:10:48.135561+09:00",
+      "last_updated": "2026-06-08T11:24:52.445888+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2338,7 +2315,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "林 洋行",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -5820,9 +5803,9 @@
     }
   ],
   "sigma_qualified_count": 73,
-  "sigma_last_run": "2026-06-08T11:18:56.059550",
+  "sigma_last_run": "2026-06-08T11:23:56.946707",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T11:21:12.870823+09:00",
+    "fetched_at": "2026-06-08T11:23:46.365971+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
