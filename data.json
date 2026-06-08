@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T22:07:05.675464+09:00",
+  "generated": "2026-06-08T22:09:35.804563+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -16,16 +16,16 @@
       "date": "2026-06-08",
       "short": "6/8(月)",
       "dow": "月",
-      "open_count": 9,
+      "open_count": 8,
       "booked_count": 9,
       "new_count": 2,
       "revisit_count": 7,
       "first_open": "12:40",
-      "last_open": "23:20",
+      "last_open": "23:10",
       "first_booked": "12:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 7,
+        "CLINICS": 6,
         "クロン": 2
       },
       "per_platform_booked": {
@@ -59,10 +59,10 @@
         ],
         [
           "22:00",
-          "23:30"
+          "23:20"
         ]
       ],
-      "range_text": "12:00〜13:10, 18:30〜18:40, 19:40〜19:50, 22:00〜23:30",
+      "range_text": "12:00〜13:10, 18:30〜18:40, 19:40〜19:50, 22:00〜23:20",
       "slots": [
         {
           "time": "12:00",
@@ -370,17 +370,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "23:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "23:30",
           "platforms": {
             "クロン": {
@@ -392,7 +381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T22:07:04.660608+09:00",
+      "last_updated": "2026-06-08T22:09:34.705992+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5875,9 +5864,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 75,
-  "sigma_last_run": "2026-06-08T22:03:56.713894",
+  "sigma_last_run": "2026-06-08T22:08:57.288425",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T22:05:42.323542+09:00",
+    "fetched_at": "2026-06-08T22:08:13.502253+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
