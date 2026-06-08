@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-08T12:28:50.117489+09:00",
+  "generated": "2026-06-08T12:31:18.700198+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
     "short": "6/8(月)",
-    "time": "12:30",
-    "code": "G",
-    "patient_name": "斉藤　宏美",
+    "time": "12:40",
+    "code": "C",
+    "patient_name": "内田康太郎",
     "visit_type": "再診",
-    "department": "整形",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.06 23:30:33"
+    "qualified_at": "R08.06.08 08:54:20"
   },
   "days": [
     {
@@ -379,7 +379,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T12:28:45.366074+09:00",
+      "last_updated": "2026-06-08T12:31:17.639195+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5809,7 +5809,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-06-08T12:28:57.900157",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T12:27:22.459377+09:00",
+    "fetched_at": "2026-06-08T12:29:54.551546+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
