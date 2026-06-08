@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-08T22:30:40.040441+09:00",
+  "generated": "2026-06-08T22:32:12.673396+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
     "short": "6/8(月)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "野村 芽生",
-    "visit_type": "再診",
+    "patient_name": "黒田 証",
+    "visit_type": "初診",
     "department": "整形",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.08 20:49:40"
+    "qualified_at": "R08.06.08 18:10:44"
   },
   "days": [
     {
@@ -383,7 +383,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T22:29:39.333582+09:00",
+      "last_updated": "2026-06-08T22:32:11.606382+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5845,7 +5845,7 @@
   "sigma_qualified_count": 75,
   "sigma_last_run": "2026-06-08T22:29:00.910373",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T22:28:18.758411+09:00",
+    "fetched_at": "2026-06-08T22:30:49.227372+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
