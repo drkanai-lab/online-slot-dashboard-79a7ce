@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T11:25:10.194334+09:00",
+  "generated": "2026-06-08T11:27:45.833081+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -368,7 +368,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T11:25:09.174370+09:00",
+      "last_updated": "2026-06-08T11:27:44.866826+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2228,24 +2228,24 @@
       "date": "2026-06-18",
       "short": "6/18(木)",
       "dow": "木",
-      "open_count": 16,
-      "booked_count": 4,
+      "open_count": 14,
+      "booked_count": 6,
       "new_count": 0,
-      "revisit_count": 4,
-      "first_open": "11:45",
+      "revisit_count": 6,
+      "first_open": "12:10",
       "last_open": "23:20",
       "first_booked": "11:20",
-      "last_booked": "12:30",
+      "last_booked": "22:10",
       "per_platform_open": {
-        "SOKUYAKU": 3,
-        "CLINICS": 10,
+        "CLINICS": 9,
         "クロン": 2,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
-        "CLINICS": 2,
-        "gcal": 4,
-        "SOKUYAKU": 1,
+        "CLINICS": 3,
+        "gcal": 6,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "full_platforms": [],
@@ -2310,11 +2310,19 @@
           "time": "11:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "林 洋行",
+              "visit_type": "再診",
+              "department": "漢方",
+              "end_time": "11:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "林 洋行",
@@ -2442,11 +2450,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "中野緑",
+              "visit_type": "再診",
+              "department": "花粉",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2538,7 +2554,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:11:16.616179+09:00",
+      "last_updated": "2026-06-08T11:25:22.634112+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2582,7 +2598,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:11:43.972627+09:00",
+      "last_updated": "2026-06-08T11:25:49.912436+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2839,7 +2855,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:12:11.845403+09:00",
+      "last_updated": "2026-06-08T11:26:18.084968+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2992,7 +3008,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:12:41.587656+09:00",
+      "last_updated": "2026-06-08T11:26:48.351752+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3259,7 +3275,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T10:13:12.991197+09:00",
+      "last_updated": "2026-06-08T11:27:20.509673+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5805,7 +5821,7 @@
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-06-08T11:23:56.946707",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T11:23:46.365971+09:00",
+    "fetched_at": "2026-06-08T11:26:21.182706+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
