@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T09:25:17.589090+09:00",
+  "generated": "2026-06-08T09:27:48.660182+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-08",
@@ -18,10 +18,10 @@
       "date": "2026-06-08",
       "short": "6/8(月)",
       "dow": "月",
-      "open_count": 11,
-      "booked_count": 8,
+      "open_count": 10,
+      "booked_count": 9,
       "new_count": 1,
-      "revisit_count": 7,
+      "revisit_count": 8,
       "first_open": "13:00",
       "last_open": "23:20",
       "first_booked": "12:00",
@@ -29,12 +29,13 @@
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 7,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "CLINICS": 5,
-        "gcal": 8,
-        "GMO": 3
+        "gcal": 9,
+        "GMO": 3,
+        "SOKUYAKU": 1
       },
       "full_platforms": [
         {
@@ -291,11 +292,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "野村 芽生",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "野村 芽生",
@@ -381,7 +390,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-08T09:25:15.339737+09:00",
+      "last_updated": "2026-06-08T09:27:47.430241+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5808,11 +5817,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "野村 芽生",
+      "date": "2026-06-08",
+      "time": "22:30",
+      "ts": "2026-06-08T09:27:48+09:00"
+    }
+  ],
   "sigma_qualified_count": 73,
   "sigma_last_run": "2026-06-08T09:23:56.863190",
   "gmo_realtime": {
-    "fetched_at": "2026-06-08T09:23:52.936464+09:00",
+    "fetched_at": "2026-06-08T09:26:24.765058+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
