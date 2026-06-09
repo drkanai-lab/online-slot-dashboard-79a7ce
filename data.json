@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T22:15:25.291052+09:00",
+  "generated": "2026-06-09T22:17:57.124686+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-09",
@@ -20,8 +20,8 @@
       "dow": "火",
       "open_count": 1,
       "booked_count": 5,
-      "new_count": 1,
-      "revisit_count": 4,
+      "new_count": 2,
+      "revisit_count": 3,
       "first_open": "23:20",
       "last_open": "23:20",
       "first_booked": "22:30",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 4,
+        "gcal": 5,
         "CLINICS": 2,
         "GMO": 1
       },
@@ -168,7 +168,15 @@
               "end_time": "23:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "新井紗希",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "23:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -194,7 +202,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T22:15:24.002818+09:00",
+      "last_updated": "2026-06-09T22:17:56.060685+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -401,7 +409,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T22:08:09.059236+09:00",
+      "last_updated": "2026-06-09T22:17:41.962010+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5047,7 +5055,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T21:01:12.078828+09:00",
+      "last_updated": "2026-06-09T22:15:34.660436+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5305,7 +5313,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T21:01:48.869241+09:00",
+      "last_updated": "2026-06-09T22:16:12.702429+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5349,7 +5357,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T21:02:25.745510+09:00",
+      "last_updated": "2026-06-09T22:16:49.208902+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5517,7 +5525,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T21:03:02.298151+09:00",
+      "last_updated": "2026-06-09T22:17:27.086966+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5676,9 +5684,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 71,
-  "sigma_last_run": "2026-06-09T22:13:51.559174",
+  "sigma_last_run": "2026-06-09T22:18:51.664668",
   "gmo_realtime": {
-    "fetched_at": "2026-06-09T22:14:05.001223+09:00",
+    "fetched_at": "2026-06-09T22:16:36.960755+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
