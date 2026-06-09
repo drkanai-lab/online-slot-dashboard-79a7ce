@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T19:08:19.448305+09:00",
+  "generated": "2026-06-09T19:09:18.002792+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-09",
@@ -112,10 +112,12 @@
           "gcals": [
             {
               "code": "C",
-              "patient_name": "友田歩美",
+              "patient_name": "岩元歩美",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:00"
+              "end_time": "23:00",
+              "qualified": true,
+              "qualified_at": "R08.06.09 19:00:25"
             }
           ],
           "sokuyaku_truth": []
@@ -175,7 +177,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T19:06:47.412512+09:00",
+      "last_updated": "2026-06-09T19:09:16.544830+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
