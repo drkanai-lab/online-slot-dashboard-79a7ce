@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T19:01:41.975997+09:00",
+  "generated": "2026-06-09T19:04:10.459636+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-09",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
-        "gcal": 2,
+        "gcal": 3,
         "CLINICS": 1,
         "GMO": 1
       },
@@ -109,7 +109,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "友田歩美",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -167,7 +175,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T19:01:39.841067+09:00",
+      "last_updated": "2026-06-09T19:04:09.499444+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5639,10 +5647,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-06-09T18:58:51.789129",
+  "sigma_qualified_count": 70,
+  "sigma_last_run": "2026-06-09T19:03:51.910736",
   "gmo_realtime": {
-    "fetched_at": "2026-06-09T19:00:20.394836+09:00",
+    "fetched_at": "2026-06-09T19:02:50.889067+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
