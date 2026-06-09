@@ -1,41 +1,43 @@
 {
-  "generated": "2026-06-09T22:30:36.709654+09:00",
+  "generated": "2026-06-09T22:33:12.086701+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-09",
     "short": "6/9(火)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "デイビス 美咲",
-    "visit_type": "再診",
-    "department": "内科",
+    "patient_name": "新村 更紗",
+    "visit_type": "初診",
+    "department": "耳鼻",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.08 22:27:13"
+    "qualified_at": "R08.06.09 22:26:30"
   },
   "days": [
     {
       "date": "2026-06-09",
       "short": "6/9(火)",
       "dow": "火",
-      "open_count": 1,
-      "booked_count": 5,
+      "open_count": 0,
+      "booked_count": 6,
       "new_count": 2,
-      "revisit_count": 3,
-      "first_open": "23:20",
-      "last_open": "23:20",
+      "revisit_count": 4,
+      "first_open": "",
+      "last_open": "",
       "first_booked": "22:30",
-      "last_booked": "23:10",
-      "per_platform_open": {
-        "CLINICS": 1
-      },
+      "last_booked": "23:20",
+      "per_platform_open": {},
       "per_platform_booked": {
         "SOKUYAKU": 2,
-        "gcal": 5,
-        "CLINICS": 2,
+        "gcal": 6,
+        "CLINICS": 3,
         "GMO": 1
       },
       "full_platforms": [
+        {
+          "name": "CLINICS",
+          "code": "C"
+        },
         {
           "name": "SOKUYAKU",
           "code": "S"
@@ -107,14 +109,18 @@
               "patient_name": "新村 更紗",
               "visit_type": "初診",
               "department": "耳鼻",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.06.09 22:26:30"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "新村 更紗",
               "visit_type": "初診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.09 22:26:30"
             }
           ]
         },
@@ -185,11 +191,21 @@
           "time": "23:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "内田康太郎",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:30",
+              "qualified": true,
+              "qualified_at": "R08.06.08 08:54:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -204,7 +220,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T22:30:35.584459+09:00",
+      "last_updated": "2026-06-09T22:33:10.651307+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5684,11 +5700,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
-  "sigma_qualified_count": 72,
-  "sigma_last_run": "2026-06-09T22:28:53.358397",
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "内田康太郎",
+      "date": "2026-06-09",
+      "time": "23:20",
+      "ts": "2026-06-09T22:33:11+09:00"
+    }
+  ],
+  "sigma_qualified_count": 73,
+  "sigma_last_run": "2026-06-09T22:33:50.884620",
   "gmo_realtime": {
-    "fetched_at": "2026-06-09T22:29:14.564951+09:00",
+    "fetched_at": "2026-06-09T22:31:48.945207+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
