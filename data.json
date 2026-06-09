@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T22:20:27.356789+09:00",
+  "generated": "2026-06-09T22:22:58.840434+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-09",
@@ -174,7 +174,9 @@
               "patient_name": "新井紗希",
               "visit_type": "初診",
               "department": "婦人",
-              "end_time": "23:20"
+              "end_time": "23:20",
+              "qualified": true,
+              "qualified_at": "R08.06.09 22:20:14"
             }
           ],
           "sokuyaku_truth": []
@@ -202,7 +204,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T22:20:26.151172+09:00",
+      "last_updated": "2026-06-09T22:22:57.769589+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5683,10 +5685,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 71,
-  "sigma_last_run": "2026-06-09T22:18:51.664668",
+  "sigma_qualified_count": 72,
+  "sigma_last_run": "2026-06-09T22:23:52.540288",
   "gmo_realtime": {
-    "fetched_at": "2026-06-09T22:19:06.579238+09:00",
+    "fetched_at": "2026-06-09T22:21:37.063395+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
