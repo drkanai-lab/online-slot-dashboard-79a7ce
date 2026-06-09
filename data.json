@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-09T23:00:50.882907+09:00",
+  "generated": "2026-06-09T23:05:14.463854+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-09",
     "short": "6/9(火)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "中村　紘之",
-    "visit_type": "再診",
-    "department": "心療",
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "新井紗希",
+    "visit_type": "初診",
+    "department": "婦人",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.08 22:28:24"
+    "qualified_at": "R08.06.09 22:20:14"
   },
   "days": [
     {
@@ -220,7 +220,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T23:00:49.771861+09:00",
+      "last_updated": "2026-06-09T23:05:13.312885+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5710,9 +5710,9 @@
     }
   ],
   "sigma_qualified_count": 73,
-  "sigma_last_run": "2026-06-09T22:58:56.529475",
+  "sigma_last_run": "2026-06-09T23:03:52.993124",
   "gmo_realtime": {
-    "fetched_at": "2026-06-09T22:59:29.666417+09:00",
+    "fetched_at": "2026-06-09T23:03:52.770891+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
