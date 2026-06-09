@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-09T23:10:16.833381+09:00",
+  "generated": "2026-06-09T23:12:57.765566+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-09",
     "short": "6/9(火)",
-    "time": "23:10",
+    "time": "23:20",
     "code": "C",
-    "patient_name": "新井紗希",
-    "visit_type": "初診",
-    "department": "婦人",
+    "patient_name": "内田康太郎",
+    "visit_type": "再診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.09 22:20:14"
+    "qualified_at": "R08.06.08 08:54:20"
   },
   "days": [
     {
@@ -220,7 +220,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T23:10:15.799603+09:00",
+      "last_updated": "2026-06-09T23:12:56.764321+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5710,9 +5710,9 @@
     }
   ],
   "sigma_qualified_count": 73,
-  "sigma_last_run": "2026-06-09T23:08:51.323451",
+  "sigma_last_run": "2026-06-09T23:13:59.573985",
   "gmo_realtime": {
-    "fetched_at": "2026-06-09T23:08:54.320705+09:00",
+    "fetched_at": "2026-06-09T23:11:26.421119+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
