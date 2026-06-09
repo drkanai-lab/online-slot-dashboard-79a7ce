@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T01:41:24.833701+09:00",
+  "generated": "2026-06-10T01:43:53.232544+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
@@ -224,7 +224,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T01:41:23.786928+09:00",
+      "last_updated": "2026-06-10T01:43:52.229445+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -505,7 +505,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T01:32:02.426831+09:00",
+      "last_updated": "2026-06-10T01:41:50.564439+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -671,7 +671,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T01:32:26.647607+09:00",
+      "last_updated": "2026-06-10T01:42:14.830854+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -997,7 +997,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T01:32:51.346968+09:00",
+      "last_updated": "2026-06-10T01:42:39.149141+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1019,7 +1019,8 @@
         "GMO": 1
       },
       "per_platform_booked": {
-        "GMO": 1
+        "GMO": 1,
+        "gcal": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -1042,7 +1043,15 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "中村　紘之",
+              "visit_type": "再診",
+              "department": "心療",
+              "end_time": "18:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1222,7 +1231,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T01:33:18.884074+09:00",
+      "last_updated": "2026-06-10T01:43:06.280237+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1463,7 +1472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T01:33:46.833089+09:00",
+      "last_updated": "2026-06-10T01:43:34.740570+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5660,7 +5669,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-06-10T00:48:50.841712",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T01:40:03.492249+09:00",
+    "fetched_at": "2026-06-10T01:42:33.750681+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
