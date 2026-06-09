@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-09T15:55:11.926713+09:00",
+  "generated": "2026-06-09T15:57:38.872389+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-09",
@@ -166,7 +166,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T15:55:11.259084+09:00",
+      "last_updated": "2026-06-09T15:57:38.230297+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2656,7 +2656,7 @@
       "date": "2026-06-22",
       "short": "6/22(月)",
       "dow": "月",
-      "open_count": 16,
+      "open_count": 14,
       "booked_count": 2,
       "new_count": 0,
       "revisit_count": 2,
@@ -2667,7 +2667,6 @@
       "per_platform_open": {
         "CLINICS": 9,
         "SOKUYAKU": 4,
-        "クロン": 2,
         "GMO": 1
       },
       "per_platform_booked": {
@@ -2682,23 +2681,12 @@
           "20:00"
         ],
         [
-          "22:00",
+          "22:10",
           "23:30"
         ]
       ],
-      "range_text": "18:30〜20:00, 22:00〜23:30",
+      "range_text": "18:30〜20:00, 22:10〜23:30",
       "slots": [
-        {
-          "time": "13:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "13:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
         {
           "time": "18:30",
           "platforms": {
@@ -2782,17 +2770,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "19:30",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "19:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "19:40",
           "platforms": {
             "CLINICS": {
@@ -2809,17 +2786,6 @@
             "CLINICS": {
               "status": "open",
               "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "22:10"
             }
           },
           "gcals": [],
@@ -2912,20 +2878,9 @@
           },
           "gcals": [],
           "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T14:40:37.000281+09:00",
+      "last_updated": "2026-06-09T15:55:33.006034+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3067,7 +3022,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T14:41:07.958401+09:00",
+      "last_updated": "2026-06-09T15:56:03.171784+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3111,7 +3066,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T14:41:37.428486+09:00",
+      "last_updated": "2026-06-09T15:56:33.126662+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3228,7 +3183,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T14:42:08.228466+09:00",
+      "last_updated": "2026-06-09T15:57:03.631944+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3348,7 +3303,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-09T14:42:37.565951+09:00",
+      "last_updated": "2026-06-09T15:57:33.899029+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5616,9 +5571,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-06-09T15:53:49.780702",
+  "sigma_last_run": "2026-06-09T15:58:52.322299",
   "gmo_realtime": {
-    "fetched_at": "2026-06-09T15:53:52.588076+09:00",
+    "fetched_at": "2026-06-09T15:56:19.366570+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
