@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T00:48:30.062804+09:00",
+  "generated": "2026-06-11T00:51:01.920284+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -152,7 +152,9 @@
               "patient_name": "吉村　貴子",
               "visit_type": "再診",
               "department": "皮膚",
-              "end_time": "12:40"
+              "end_time": "12:40",
+              "qualified": true,
+              "qualified_at": "R08.06.11 00:38:31"
             }
           ],
           "sokuyaku_truth": []
@@ -203,7 +205,9 @@
               "patient_name": "辻雄彦",
               "visit_type": "再診",
               "department": "",
-              "end_time": "13:20"
+              "end_time": "13:20",
+              "qualified": true,
+              "qualified_at": "R08.06.11 00:38:55"
             }
           ],
           "sokuyaku_truth": []
@@ -288,7 +292,9 @@
               "patient_name": "古山　賢太郎",
               "visit_type": "再診",
               "department": "整形",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.06.11 00:39:37"
             }
           ],
           "sokuyaku_truth": []
@@ -316,7 +322,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T00:48:29.039372+09:00",
+      "last_updated": "2026-06-11T00:51:00.898347+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -482,7 +488,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T00:41:20.906840+09:00",
+      "last_updated": "2026-06-11T00:50:59.379567+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5730,10 +5736,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 63,
-  "sigma_last_run": "2026-06-11T00:34:02.992936",
+  "sigma_qualified_count": 66,
+  "sigma_last_run": "2026-06-11T00:49:04.246327",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T00:47:07.000460+09:00",
+    "fetched_at": "2026-06-11T00:49:40.902489+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
