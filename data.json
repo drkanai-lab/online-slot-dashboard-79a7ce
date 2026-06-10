@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-10T23:10:46.339331+09:00",
+  "generated": "2026-06-10T23:13:19.409844+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
     "short": "6/10(水)",
-    "time": "23:10",
+    "time": "23:20",
     "code": "C",
-    "patient_name": "是枝達也",
-    "visit_type": "再診",
-    "department": "",
+    "patient_name": "栗山彩乃",
+    "visit_type": "初診",
+    "department": "泌尿",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.10 21:20:08"
+    "qualified_at": "R08.06.10 22:25:26"
   },
   "days": [
     {
@@ -300,7 +300,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T23:10:45.183075+09:00",
+      "last_updated": "2026-06-10T23:13:18.241096+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5785,9 +5785,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-10T23:08:54.918738",
+  "sigma_last_run": "2026-06-10T23:13:57.193180",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T23:09:23.719520+09:00",
+    "fetched_at": "2026-06-10T23:11:58.987570+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
