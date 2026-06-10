@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T17:55:54.392626+09:00",
+  "generated": "2026-06-10T17:57:34.748986+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
@@ -17,23 +17,23 @@
       "short": "6/10(水)",
       "dow": "水",
       "open_count": 9,
-      "booked_count": 3,
-      "new_count": 1,
+      "booked_count": 4,
+      "new_count": 2,
       "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:50",
       "first_booked": "22:10",
-      "last_booked": "22:45",
+      "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 5,
         "GMO": 1,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 3,
-        "SOKUYAKU": 2
+        "gcal": 4,
+        "SOKUYAKU": 3
       },
       "full_platforms": [],
       "ranges": [
@@ -197,12 +197,26 @@
               "end_time": "23:40"
             },
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "米山 望",
+              "visit_type": "初診",
+              "department": "心療",
+              "end_time": "23:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "米山 望",
+              "visit_type": "初診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "23:45",
@@ -227,7 +241,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T17:55:04.597476+09:00",
+      "last_updated": "2026-06-10T17:57:33.780386+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1779,7 +1793,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T16:42:39.459945+09:00",
+      "last_updated": "2026-06-10T17:57:06.930212+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5691,13 +5705,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "市原 莉桜",
-      "date": "2026-06-11",
-      "time": "11:45",
-      "ts": "2026-06-10T09:15:07+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "曽我啓佑",
       "date": "2026-06-11",
       "time": "12:00",
@@ -5709,12 +5716,19 @@
       "date": "2026-06-11",
       "time": "12:40",
       "ts": "2026-06-10T11:49:32+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "米山 望",
+      "date": "2026-06-10",
+      "time": "23:30",
+      "ts": "2026-06-10T17:57:34+09:00"
     }
   ],
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-06-10T17:53:54.471195",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T17:53:45.578842+09:00",
+    "fetched_at": "2026-06-10T17:56:14.166674+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
