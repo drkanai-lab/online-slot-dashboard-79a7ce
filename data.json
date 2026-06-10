@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T22:16:16.604536+09:00",
+  "generated": "2026-06-10T22:17:51.120262+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
@@ -252,7 +252,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "曽根 文子",
+              "visit_type": "初診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "23:50",
@@ -266,7 +272,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T22:15:08.088127+09:00",
+      "last_updated": "2026-06-10T22:17:50.012213+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5753,7 +5759,7 @@
   "sigma_qualified_count": 64,
   "sigma_last_run": "2026-06-10T22:13:57.677453",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T22:13:47.784018+09:00",
+    "fetched_at": "2026-06-10T22:16:30.711839+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
