@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-10T22:20:20.456774+09:00",
+  "generated": "2026-06-10T22:22:51.804657+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
     "short": "6/10(水)",
-    "time": "22:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "矢吹 一惠",
+    "visit_type": "再診",
+    "department": "耳鼻",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.09 23:44:49"
   },
   "days": [
     {
@@ -18,8 +20,8 @@
       "dow": "水",
       "open_count": 6,
       "booked_count": 7,
-      "new_count": 2,
-      "revisit_count": 5,
+      "new_count": 3,
+      "revisit_count": 4,
       "first_open": "22:20",
       "last_open": "23:50",
       "first_booked": "22:00",
@@ -31,7 +33,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 2,
         "SOKUYAKU": 4
       },
@@ -255,7 +257,15 @@
               "end_time": "23:59"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "曽根 文子",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "23:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "曽根 文子",
@@ -276,7 +286,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T22:20:19.166784+09:00",
+      "last_updated": "2026-06-10T22:22:50.859558+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5761,9 +5771,9 @@
     }
   ],
   "sigma_qualified_count": 64,
-  "sigma_last_run": "2026-06-10T22:18:54.993289",
+  "sigma_last_run": "2026-06-10T22:23:58.425266",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T22:18:59.845579+09:00",
+    "fetched_at": "2026-06-10T22:21:30.575290+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
