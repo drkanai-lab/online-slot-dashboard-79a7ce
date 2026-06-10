@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T00:33:10.186313+09:00",
+  "generated": "2026-06-11T00:33:58.555919+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -9,7 +9,9 @@
     "patient_name": "長尾 修",
     "visit_type": "初診",
     "department": "整形",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.11 00:27:00"
   },
   "days": [
     {
@@ -67,14 +69,18 @@
               "patient_name": "長尾 修",
               "visit_type": "初診",
               "department": "整形",
-              "end_time": "11:40"
+              "end_time": "11:40",
+              "qualified": true,
+              "qualified_at": "R08.06.11 00:27:00"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "長尾 修",
               "visit_type": "初診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.11 00:27:00"
             }
           ]
         },
@@ -1565,7 +1571,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T00:23:55.698902+09:00",
+      "last_updated": "2026-06-11T00:33:57.034459+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5724,8 +5730,8 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 62,
-  "sigma_last_run": "2026-06-11T00:18:55.198287",
+  "sigma_qualified_count": 63,
+  "sigma_last_run": "2026-06-11T00:34:02.992936",
   "gmo_realtime": {
     "fetched_at": "2026-06-11T00:31:48.381733+09:00",
     "scrape_ok": true,
