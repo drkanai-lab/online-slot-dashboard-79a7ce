@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T23:16:18.691487+09:00",
+  "generated": "2026-06-10T23:18:24.568828+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
@@ -19,8 +19,8 @@
       "short": "6/10(水)",
       "dow": "水",
       "open_count": 6,
-      "booked_count": 8,
-      "new_count": 4,
+      "booked_count": 7,
+      "new_count": 3,
       "revisit_count": 4,
       "first_open": "22:10",
       "last_open": "23:50",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 8,
+        "gcal": 7,
         "SOKUYAKU": 4,
         "CLINICS": 2
       },
@@ -80,17 +80,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "藤田梨乃",
-              "visit_type": "初診",
-              "department": "心療",
-              "end_time": "22:20",
-              "qualified": true,
-              "qualified_at": "R08.06.09 20:40:20"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -300,7 +290,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T23:15:49.457606+09:00",
+      "last_updated": "2026-06-10T23:18:23.301476+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5785,9 +5775,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-10T23:13:57.193180",
+  "sigma_last_run": "2026-06-10T23:18:59.611221",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T23:14:28.894897+09:00",
+    "fetched_at": "2026-06-10T23:17:02.793488+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
