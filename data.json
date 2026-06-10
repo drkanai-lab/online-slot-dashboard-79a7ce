@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T08:26:13.405922+09:00",
+  "generated": "2026-06-11T08:28:49.501694+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 5,
         "GMO": 2
       },
@@ -285,7 +285,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "近森勇太",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -332,7 +340,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T08:26:12.200845+09:00",
+      "last_updated": "2026-06-11T08:28:48.335263+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5758,9 +5766,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-11T08:23:54.521630",
+  "sigma_last_run": "2026-06-11T08:29:05.415919",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T08:24:49.971969+09:00",
+    "fetched_at": "2026-06-11T08:27:25.834735+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
