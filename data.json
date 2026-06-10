@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-10T21:10:12.532757+09:00",
+  "generated": "2026-06-10T21:12:47.932695+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
     "short": "6/10(水)",
     "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "沼田 明葉",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -17,12 +17,12 @@
       "short": "6/10(水)",
       "dow": "水",
       "open_count": 9,
-      "booked_count": 4,
+      "booked_count": 5,
       "new_count": 2,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "23:50",
-      "first_booked": "22:10",
+      "first_booked": "22:00",
       "last_booked": "23:30",
       "per_platform_open": {
         "クロン": 2,
@@ -31,8 +31,8 @@
         "SOKUYAKU": 1
       },
       "per_platform_booked": {
+        "gcal": 5,
         "CLINICS": 1,
-        "gcal": 4,
         "SOKUYAKU": 3
       },
       "full_platforms": [],
@@ -52,7 +52,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "沼田 明葉",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -241,7 +249,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T21:10:11.837915+09:00",
+      "last_updated": "2026-06-10T21:12:46.409787+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5705,13 +5713,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "曽我啓佑",
-      "date": "2026-06-11",
-      "time": "12:00",
-      "ts": "2026-06-10T11:20:42+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "服部みゆき",
       "date": "2026-06-11",
       "time": "12:40",
@@ -5723,12 +5724,19 @@
       "date": "2026-06-10",
       "time": "23:30",
       "ts": "2026-06-10T17:57:34+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "沼田 明葉",
+      "date": "2026-06-10",
+      "time": "22:00",
+      "ts": "2026-06-10T21:12:47+09:00"
     }
   ],
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-06-10T21:08:54.183303",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T21:08:52.685368+09:00",
+    "fetched_at": "2026-06-10T21:11:22.582831+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
