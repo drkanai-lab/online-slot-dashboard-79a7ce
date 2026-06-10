@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-10T22:45:31.305339+09:00",
+  "generated": "2026-06-10T22:48:00.422345+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
     "short": "6/10(水)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "高橋 和美",
-    "visit_type": "再診",
-    "department": "心療",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.10 08:45:45"
+    "time": "22:50",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -300,7 +298,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T22:45:30.270611+09:00",
+      "last_updated": "2026-06-10T22:47:59.414636+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5785,9 +5783,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-10T22:43:56.640822",
+  "sigma_last_run": "2026-06-10T22:48:55.942577",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T22:44:09.462311+09:00",
+    "fetched_at": "2026-06-10T22:46:39.394383+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
