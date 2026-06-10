@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-10T22:00:44.218735+09:00",
+  "generated": "2026-06-10T22:03:15.785593+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-10",
     "short": "6/10(水)",
-    "time": "22:00",
-    "code": "K",
-    "patient_name": "沼田 明葉",
-    "visit_type": "再診",
-    "department": "",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "藤田梨乃",
+    "visit_type": "初診",
+    "department": "心療",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.10 21:10:12"
+    "qualified_at": "R08.06.09 20:40:20"
   },
   "days": [
     {
@@ -230,14 +230,18 @@
               "patient_name": "米山 望",
               "visit_type": "初診",
               "department": "心療",
-              "end_time": "23:40"
+              "end_time": "23:40",
+              "qualified": true,
+              "qualified_at": "R08.06.10 21:56:59"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "米山 望",
               "visit_type": "初診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.10 21:56:59"
             }
           ]
         },
@@ -264,7 +268,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-10T22:00:43.092502+09:00",
+      "last_updated": "2026-06-10T22:03:14.694765+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5748,10 +5752,10 @@
       "ts": "2026-06-10T21:12:47+09:00"
     }
   ],
-  "sigma_qualified_count": 63,
+  "sigma_qualified_count": 64,
   "sigma_last_run": "2026-06-10T21:58:58.030446",
   "gmo_realtime": {
-    "fetched_at": "2026-06-10T21:59:23.822608+09:00",
+    "fetched_at": "2026-06-10T22:01:54.976645+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
