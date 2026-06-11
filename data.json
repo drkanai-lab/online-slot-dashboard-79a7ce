@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T22:12:05.452403+09:00",
+  "generated": "2026-06-11T22:13:19.558627+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -287,14 +287,18 @@
               "patient_name": "善家 春",
               "visit_type": "初診",
               "department": "皮膚",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.06.11 22:08:09"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "善家 春",
               "visit_type": "初診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.11 22:08:09"
             }
           ]
         },
@@ -363,7 +367,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:10:44.676462+09:00",
+      "last_updated": "2026-06-11T22:13:18.482985+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5805,8 +5809,8 @@
       "ts": "2026-06-11T12:17:07+09:00"
     }
   ],
-  "sigma_qualified_count": 70,
-  "sigma_last_run": "2026-06-11T22:08:55.852224",
+  "sigma_qualified_count": 71,
+  "sigma_last_run": "2026-06-11T22:13:54.850896",
   "gmo_realtime": {
     "fetched_at": "2026-06-11T22:11:55.506536+09:00",
     "scrape_ok": true,
