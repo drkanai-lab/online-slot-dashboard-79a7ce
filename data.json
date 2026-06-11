@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T22:05:38.256495+09:00",
+  "generated": "2026-06-11T22:08:11.536530+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -20,8 +20,8 @@
       "dow": "木",
       "open_count": 3,
       "booked_count": 11,
-      "new_count": 3,
-      "revisit_count": 8,
+      "new_count": 4,
+      "revisit_count": 7,
       "first_open": "11:45",
       "last_open": "23:10",
       "first_booked": "11:30",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 10,
+        "gcal": 11,
         "CLINICS": 6,
         "GMO": 2
       },
@@ -237,7 +237,9 @@
               "patient_name": "鈴木健大",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:30"
+              "end_time": "22:30",
+              "qualified": true,
+              "qualified_at": "R08.06.11 22:00:25"
             }
           ],
           "sokuyaku_truth": []
@@ -279,7 +281,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "善家 春",
+              "visit_type": "初診",
+              "department": "皮膚",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "善家 春",
@@ -353,7 +363,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:05:37.149539+09:00",
+      "last_updated": "2026-06-11T22:08:10.121605+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5795,10 +5805,10 @@
       "ts": "2026-06-11T12:17:07+09:00"
     }
   ],
-  "sigma_qualified_count": 69,
-  "sigma_last_run": "2026-06-11T22:04:08.131075",
+  "sigma_qualified_count": 70,
+  "sigma_last_run": "2026-06-11T22:08:55.852224",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T22:04:11.126810+09:00",
+    "fetched_at": "2026-06-11T22:06:48.088976+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
