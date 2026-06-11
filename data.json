@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T12:27:18.926173+09:00",
+  "generated": "2026-06-11T12:29:55.199594+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -241,14 +241,18 @@
               "patient_name": "黒田 みつ美",
               "visit_type": "再診",
               "department": "内科",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.06.11 12:25:45"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒田 みつ美",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.11 12:25:45"
             }
           ]
         },
@@ -316,7 +320,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T12:27:17.793086+09:00",
+      "last_updated": "2026-06-11T12:29:54.239326+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5749,10 +5753,10 @@
       "ts": "2026-06-11T12:17:07+09:00"
     }
   ],
-  "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-11T09:43:52.946472",
+  "sigma_qualified_count": 68,
+  "sigma_last_run": "2026-06-11T12:29:01.227398",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T12:25:55.212572+09:00",
+    "fetched_at": "2026-06-11T12:28:29.635300+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
