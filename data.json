@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-11T12:40:18.314386+09:00",
+  "generated": "2026-06-11T12:42:49.928522+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
     "short": "6/11(木)",
-    "time": "12:40",
+    "time": "13:10",
     "code": "C",
-    "patient_name": "服部みゆき",
-    "visit_type": "初診",
-    "department": "心療",
+    "patient_name": "辻雄彦",
+    "visit_type": "再診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.10 14:10:30"
+    "qualified_at": "R08.06.11 00:38:55"
   },
   "days": [
     {
@@ -320,7 +320,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T12:40:17.195185+09:00",
+      "last_updated": "2026-06-11T12:42:48.782144+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3397,7 +3397,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:26:10.380150+09:00",
+      "last_updated": "2026-06-11T12:40:48.120082+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3644,7 +3644,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:26:44.277251+09:00",
+      "last_updated": "2026-06-11T12:41:23.397150+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3886,7 +3886,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:27:18.447248+09:00",
+      "last_updated": "2026-06-11T12:41:56.942624+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4028,7 +4028,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:27:51.269932+09:00",
+      "last_updated": "2026-06-11T12:42:29.831757+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5754,9 +5754,9 @@
     }
   ],
   "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-06-11T12:38:52.625413",
+  "sigma_last_run": "2026-06-11T12:43:53.005267",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T12:38:54.268168+09:00",
+    "fetched_at": "2026-06-11T12:41:27.374117+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
