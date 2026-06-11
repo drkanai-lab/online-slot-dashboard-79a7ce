@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-11T11:43:55.977351+09:00",
+  "generated": "2026-06-11T11:46:27.703343+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
     "short": "6/11(木)",
-    "time": "11:45",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "12:00",
+    "code": "C",
+    "patient_name": "曽我啓佑",
+    "visit_type": "初診",
+    "department": "整形",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.10 13:00:34"
   },
   "days": [
     {
@@ -300,7 +302,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:43:54.929826+09:00",
+      "last_updated": "2026-06-11T11:46:26.721640+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -466,7 +468,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:35:37.461596+09:00",
+      "last_updated": "2026-06-11T11:45:19.773405+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -792,7 +794,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:36:03.325230+09:00",
+      "last_updated": "2026-06-11T11:45:44.357640+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1026,7 +1028,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:36:32.267320+09:00",
+      "last_updated": "2026-06-11T11:46:13.161676+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5728,7 +5730,7 @@
   "sigma_qualified_count": 66,
   "sigma_last_run": "2026-06-11T09:43:52.946472",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T11:42:24.296482+09:00",
+    "fetched_at": "2026-06-11T11:45:04.846616+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
