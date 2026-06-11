@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T12:16:56.560920+09:00",
+  "generated": "2026-06-11T12:17:07.957328+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -18,21 +18,21 @@
       "date": "2026-06-11",
       "short": "6/11(木)",
       "dow": "木",
-      "open_count": 4,
-      "booked_count": 8,
+      "open_count": 3,
+      "booked_count": 9,
       "new_count": 3,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "11:45",
       "last_open": "22:45",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "SOKUYAKU": 3,
+        "SOKUYAKU": 2,
         "クロン": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
-        "gcal": 8,
+        "SOKUYAKU": 2,
+        "gcal": 9,
         "CLINICS": 5,
         "GMO": 2
       },
@@ -231,11 +231,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒田 みつ美",
+              "visit_type": "再診",
+              "department": "内科",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒田 みつ美",
@@ -308,7 +316,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T12:14:34.444038+09:00",
+      "last_updated": "2026-06-11T12:17:06.822781+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5732,7 +5740,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "黒田 みつ美",
+      "date": "2026-06-11",
+      "time": "22:30",
+      "ts": "2026-06-11T12:17:07+09:00"
+    }
+  ],
   "sigma_qualified_count": 66,
   "sigma_last_run": "2026-06-11T09:43:52.946472",
   "gmo_realtime": {
