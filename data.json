@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T22:02:12.666037+09:00",
+  "generated": "2026-06-11T22:02:58.078140+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -18,21 +18,21 @@
       "date": "2026-06-11",
       "short": "6/11(木)",
       "dow": "木",
-      "open_count": 4,
-      "booked_count": 10,
+      "open_count": 3,
+      "booked_count": 11,
       "new_count": 3,
-      "revisit_count": 7,
+      "revisit_count": 8,
       "first_open": "11:45",
       "last_open": "23:10",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 1,
         "クロン": 1,
         "CLINICS": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 3,
         "gcal": 10,
         "CLINICS": 6,
         "GMO": 2
@@ -275,12 +275,18 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "善家 春",
+              "visit_type": "初診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -347,7 +353,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:00:17.555953+09:00",
+      "last_updated": "2026-06-11T22:02:56.701772+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
