@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T12:11:59.566853+09:00",
+  "generated": "2026-06-11T12:14:35.428768+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
@@ -236,7 +236,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "黒田 みつ美",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -302,7 +308,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T12:11:58.568395+09:00",
+      "last_updated": "2026-06-11T12:14:34.444038+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5730,7 +5736,7 @@
   "sigma_qualified_count": 66,
   "sigma_last_run": "2026-06-11T09:43:52.946472",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T12:10:36.169279+09:00",
+    "fetched_at": "2026-06-11T12:13:10.297002+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
