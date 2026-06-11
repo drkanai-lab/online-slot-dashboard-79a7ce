@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-11T13:08:28.096352+09:00",
+  "generated": "2026-06-11T13:11:03.761044+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
     "short": "6/11(木)",
-    "time": "13:10",
-    "code": "C",
-    "patient_name": "辻雄彦",
-    "visit_type": "再診",
+    "time": "22:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.11 00:38:55"
+    "status": "open"
   },
   "days": [
     {
@@ -320,7 +318,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T13:08:26.769999+09:00",
+      "last_updated": "2026-06-11T13:11:02.545454+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5754,9 +5752,9 @@
     }
   ],
   "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-06-11T13:03:55.505221",
+  "sigma_last_run": "2026-06-11T13:09:00.077335",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T13:07:02.342546+09:00",
+    "fetched_at": "2026-06-11T13:09:38.815198+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
