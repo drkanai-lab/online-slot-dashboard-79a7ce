@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-11T11:59:12.397855+09:00",
+  "generated": "2026-06-11T12:01:44.042015+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
     "short": "6/11(木)",
-    "time": "12:00",
-    "code": "C",
-    "patient_name": "曽我啓佑",
-    "visit_type": "初診",
-    "department": "整形",
+    "time": "12:30",
+    "code": "G",
+    "patient_name": "吉村　貴子",
+    "visit_type": "再診",
+    "department": "皮膚",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.10 13:00:34"
+    "qualified_at": "R08.06.11 00:38:31"
   },
   "days": [
     {
@@ -302,7 +302,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T11:59:11.370442+09:00",
+      "last_updated": "2026-06-11T12:01:42.857896+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5730,7 +5730,7 @@
   "sigma_qualified_count": 66,
   "sigma_last_run": "2026-06-11T09:43:52.946472",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T11:57:48.764894+09:00",
+    "fetched_at": "2026-06-11T12:00:21.026950+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
