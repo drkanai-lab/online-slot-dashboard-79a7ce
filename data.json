@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-11T22:58:46.520295+09:00",
+  "generated": "2026-06-11T23:01:11.521627+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-11",
     "short": "6/11(木)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "古山　賢太郎",
-    "visit_type": "再診",
-    "department": "整形",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.11 00:39:37"
+    "time": "23:10",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -548,7 +546,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:49:02.820555+09:00",
+      "last_updated": "2026-06-11T22:58:54.977303+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -874,7 +872,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:49:27.408760+09:00",
+      "last_updated": "2026-06-11T22:59:20.456667+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1108,7 +1106,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:49:55.234592+09:00",
+      "last_updated": "2026-06-11T22:59:48.293995+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1349,7 +1347,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:50:23.251355+09:00",
+      "last_updated": "2026-06-11T23:00:16.652191+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1506,7 +1504,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:50:49.948131+09:00",
+      "last_updated": "2026-06-11T23:00:43.379317+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1648,7 +1646,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-11T22:51:17.194679+09:00",
+      "last_updated": "2026-06-11T23:01:09.927908+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5834,7 +5832,7 @@
   "sigma_qualified_count": 71,
   "sigma_last_run": "2026-06-11T22:58:54.645711",
   "gmo_realtime": {
-    "fetched_at": "2026-06-11T22:57:23.192969+09:00",
+    "fetched_at": "2026-06-11T22:59:59.524146+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
