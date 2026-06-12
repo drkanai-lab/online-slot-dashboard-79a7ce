@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T06:00:42.990006+09:00",
+  "generated": "2026-06-13T06:03:13.255023+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -102,7 +102,9 @@
               "patient_name": "竹本望実",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:30"
+              "end_time": "12:30",
+              "qualified": true,
+              "qualified_at": "R08.06.13 06:00:18"
             }
           ],
           "sokuyaku_truth": []
@@ -326,7 +328,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T06:00:41.668357+09:00",
+      "last_updated": "2026-06-13T06:03:11.978679+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5742,10 +5744,10 @@
       "ts": "2026-06-12T23:41:29+09:00"
     }
   ],
-  "sigma_qualified_count": 57,
-  "sigma_last_run": "2026-06-13T00:48:51.368100",
+  "sigma_qualified_count": 58,
+  "sigma_last_run": "2026-06-13T06:03:49.509161",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T05:59:22.002630+09:00",
+    "fetched_at": "2026-06-13T06:01:51.982061+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
