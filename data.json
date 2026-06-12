@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T21:48:28.100656+09:00",
+  "generated": "2026-06-12T21:50:59.794680+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-12",
@@ -235,7 +235,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T21:48:27.028674+09:00",
+      "last_updated": "2026-06-12T21:50:58.791055+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -506,7 +506,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T21:40:01.016363+09:00",
+      "last_updated": "2026-06-12T21:49:45.301062+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -529,8 +529,8 @@
       },
       "per_platform_booked": {
         "GMO": 1,
+        "gcal": 3,
         "CLINICS": 1,
-        "gcal": 2,
         "SOKUYAKU": 1
       },
       "full_platforms": [],
@@ -554,7 +554,15 @@
               "end_time": "18:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "佐藤　香蓮",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "18:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -756,7 +764,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T21:40:29.365871+09:00",
+      "last_updated": "2026-06-12T21:50:12.134331+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -997,7 +1005,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T21:40:56.663627+09:00",
+      "last_updated": "2026-06-12T21:50:40.341570+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5646,7 +5654,7 @@
   "sigma_qualified_count": 67,
   "sigma_last_run": "2026-06-12T21:48:54.836670",
   "gmo_realtime": {
-    "fetched_at": "2026-06-12T21:47:06.148399+09:00",
+    "fetched_at": "2026-06-12T21:49:38.285415+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
