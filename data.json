@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T23:38:58.060331+09:00",
+  "generated": "2026-06-12T23:41:29.984651+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -244,28 +244,32 @@
       "date": "2026-06-13",
       "short": "6/13(土)",
       "dow": "土",
-      "open_count": 9,
-      "booked_count": 5,
+      "open_count": 8,
+      "booked_count": 6,
       "new_count": 0,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "12:20",
       "last_open": "23:10",
       "first_booked": "12:10",
-      "last_booked": "19:30",
+      "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 5,
         "クロン": 1,
-        "SOKUYAKU": 2,
-        "GMO": 1
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 5,
+        "gcal": 6,
         "SOKUYAKU": 2,
-        "GMO": 1,
+        "GMO": 2,
         "クロン": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "GMO",
+          "code": "G"
+        }
+      ],
       "ranges": [
         [
           "12:10",
@@ -492,11 +496,19 @@
           "time": "23:00",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "再診",
+              "department": "総診",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -522,7 +534,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:29:03.633728+09:00",
+      "last_updated": "2026-06-12T23:39:04.682071+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -780,7 +792,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:29:32.112575+09:00",
+      "last_updated": "2026-06-12T23:39:33.000167+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1021,7 +1033,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:29:59.689663+09:00",
+      "last_updated": "2026-06-12T23:40:00.942123+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1178,7 +1190,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:30:26.744206+09:00",
+      "last_updated": "2026-06-12T23:40:28.174369+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1320,7 +1332,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:30:53.974875+09:00",
+      "last_updated": "2026-06-12T23:40:57.204389+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1653,7 +1665,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:31:23.596252+09:00",
+      "last_updated": "2026-06-12T23:41:27.493941+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4771,7 +4783,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:24:32.060432+09:00",
+      "last_updated": "2026-06-12T23:39:16.805578+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4939,7 +4951,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:25:09.983496+09:00",
+      "last_updated": "2026-06-12T23:39:52.787670+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5092,7 +5104,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:25:46.789718+09:00",
+      "last_updated": "2026-06-12T23:40:29.063469+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5234,7 +5246,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:26:22.591038+09:00",
+      "last_updated": "2026-06-12T23:41:07.087085+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5673,6 +5685,13 @@
       "date": "2026-06-13",
       "time": "12:45",
       "ts": "2026-06-12T23:31:25+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "患者名不明",
+      "date": "2026-06-13",
+      "time": "23:00",
+      "ts": "2026-06-12T23:41:29+09:00"
     }
   ],
   "sigma_qualified_count": 68,
