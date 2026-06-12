@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T23:47:35.464356+09:00",
+  "generated": "2026-06-12T23:50:44.120320+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -151,14 +151,18 @@
               "patient_name": "桂 良太郎",
               "visit_type": "再診",
               "department": "不眠",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.06.12 23:42:21"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "桂 良太郎",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.12 23:42:21"
             }
           ]
         },
@@ -237,7 +241,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:47:34.098856+09:00",
+      "last_updated": "2026-06-12T23:50:43.062314+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -503,7 +507,7 @@
           "gcals": [
             {
               "code": "G",
-              "patient_name": "患者名不明",
+              "patient_name": "田代 沙映",
               "visit_type": "再診",
               "department": "総診",
               "end_time": "23:10"
@@ -534,7 +538,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:39:04.682071+09:00",
+      "last_updated": "2026-06-12T23:50:00.836234+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -792,7 +796,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T23:39:33.000167+09:00",
+      "last_updated": "2026-06-12T23:50:28.283622+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5694,10 +5698,10 @@
       "ts": "2026-06-12T23:41:29+09:00"
     }
   ],
-  "sigma_qualified_count": 68,
-  "sigma_last_run": "2026-06-12T23:43:55.728703",
+  "sigma_qualified_count": 69,
+  "sigma_last_run": "2026-06-12T23:48:55.863355",
   "gmo_realtime": {
-    "fetched_at": "2026-06-12T23:46:11.071406+09:00",
+    "fetched_at": "2026-06-12T23:49:21.389373+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
