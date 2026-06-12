@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T21:52:05.536639+09:00",
+  "generated": "2026-06-12T21:53:34.359504+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-12",
@@ -80,7 +80,9 @@
               "patient_name": "館農駿祐",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.06.12 21:50:16"
             }
           ],
           "sokuyaku_truth": []
@@ -235,7 +237,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T21:50:58.791055+09:00",
+      "last_updated": "2026-06-12T21:53:33.398606+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5651,10 +5653,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 67,
-  "sigma_last_run": "2026-06-12T21:48:54.836670",
+  "sigma_qualified_count": 68,
+  "sigma_last_run": "2026-06-12T21:53:55.129686",
   "gmo_realtime": {
-    "fetched_at": "2026-06-12T21:49:38.285415+09:00",
+    "fetched_at": "2026-06-12T21:52:12.010002+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
