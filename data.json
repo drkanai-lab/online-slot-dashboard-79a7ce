@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-12T22:29:03.516829+09:00",
+  "generated": "2026-06-12T22:31:05.020438+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-12",
     "short": "6/12(金)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "黒田 証",
+    "patient_name": "桂 良太郎",
     "visit_type": "再診",
-    "department": "小児",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.08 18:10:44"
+    "department": "不眠",
+    "status": "booked"
   },
   "days": [
     {
@@ -768,7 +766,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:19:19.129929+09:00",
+      "last_updated": "2026-06-12T22:29:13.254087+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1009,7 +1007,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:19:47.103552+09:00",
+      "last_updated": "2026-06-12T22:29:40.985902+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1166,7 +1164,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:20:26.633276+09:00",
+      "last_updated": "2026-06-12T22:30:07.927479+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1308,7 +1306,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:20:52.590576+09:00",
+      "last_updated": "2026-06-12T22:30:34.917235+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1641,7 +1639,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T22:21:21.957669+09:00",
+      "last_updated": "2026-06-12T22:31:03.567605+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5658,7 +5656,7 @@
   "sigma_qualified_count": 68,
   "sigma_last_run": "2026-06-12T22:29:05.163630",
   "gmo_realtime": {
-    "fetched_at": "2026-06-12T22:27:42.092036+09:00",
+    "fetched_at": "2026-06-12T22:30:14.154828+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
