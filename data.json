@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T21:42:21.731002+09:00",
+  "generated": "2026-06-12T21:43:25.967842+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-12",
@@ -18,8 +18,8 @@
       "dow": "金",
       "open_count": 2,
       "booked_count": 7,
-      "new_count": 1,
-      "revisit_count": 6,
+      "new_count": 2,
+      "revisit_count": 5,
       "first_open": "22:00",
       "last_open": "22:50",
       "first_booked": "22:10",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 4,
-        "gcal": 6,
+        "gcal": 7,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -218,7 +218,17 @@
               "end_time": "23:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "平岡紗里奈",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "23:30",
+              "qualified": true,
+              "qualified_at": "R08.06.12 21:40:34"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -233,7 +243,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-12T21:40:54.391272+09:00",
+      "last_updated": "2026-06-12T21:43:25.032283+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5641,8 +5651,8 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-12T21:38:54.527501",
+  "sigma_qualified_count": 67,
+  "sigma_last_run": "2026-06-12T21:43:54.646777",
   "gmo_realtime": {
     "fetched_at": "2026-06-12T21:42:04.559414+09:00",
     "scrape_ok": true,
