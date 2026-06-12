@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T02:21:43.499627+09:00",
+  "generated": "2026-06-13T02:26:06.121307+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -31,7 +31,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 6,
+        "gcal": 7,
         "SOKUYAKU": 2,
         "GMO": 2,
         "クロン": 1
@@ -96,7 +96,15 @@
               "end_time": "12:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "竹本望実",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -318,7 +326,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T02:21:41.530597+09:00",
+      "last_updated": "2026-06-13T02:26:04.824592+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5737,7 +5745,7 @@
   "sigma_qualified_count": 57,
   "sigma_last_run": "2026-06-13T00:48:51.368100",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T02:20:21.763085+09:00",
+    "fetched_at": "2026-06-13T02:24:45.290093+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
