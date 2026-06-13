@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T17:47:17.001741+09:00",
+  "generated": "2026-06-13T17:48:53.306578+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -83,7 +83,9 @@
               "patient_name": "野田功",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:20"
+              "end_time": "12:20",
+              "qualified": true,
+              "qualified_at": "R08.06.13 17:45:17"
             }
           ],
           "sokuyaku_truth": []
@@ -969,7 +971,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T17:37:40.231993+09:00",
+      "last_updated": "2026-06-13T17:47:25.043514+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1111,7 +1113,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T17:38:07.217540+09:00",
+      "last_updated": "2026-06-13T17:47:53.334265+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1444,7 +1446,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T17:38:37.092992+09:00",
+      "last_updated": "2026-06-13T17:48:24.825783+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1488,7 +1490,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T17:39:04.855963+09:00",
+      "last_updated": "2026-06-13T17:48:51.979898+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5725,10 +5727,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-06-13T17:43:52.699569",
+  "sigma_qualified_count": 59,
+  "sigma_last_run": "2026-06-13T17:48:53.120234",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T17:45:55.101383+09:00",
+    "fetched_at": "2026-06-13T17:48:25.378980+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
