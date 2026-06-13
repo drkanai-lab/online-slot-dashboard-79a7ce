@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-13T23:09:08.537448+09:00",
+  "generated": "2026-06-13T23:11:40.129222+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-06-13",
-    "short": "6/13(土)",
-    "time": "23:10",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "date": "2026-06-14",
+    "short": "6/14(日)",
+    "time": "18:30",
+    "code": "G",
+    "patient_name": "佐藤　香蓮",
+    "visit_type": "再診",
+    "department": "皮膚",
+    "status": "booked"
   },
   "days": [
     {
@@ -340,7 +340,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T23:09:07.121343+09:00",
+      "last_updated": "2026-06-13T23:11:38.722583+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -532,7 +532,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T23:00:58.934384+09:00",
+      "last_updated": "2026-06-13T23:11:04.227389+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -773,7 +773,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T23:01:28.721708+09:00",
+      "last_updated": "2026-06-13T23:11:32.671081+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5706,7 +5706,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-06-13T23:08:54.635304",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T23:07:46.058489+09:00",
+    "fetched_at": "2026-06-13T23:10:17.717696+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
