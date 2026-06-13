@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T18:45:19.438019+09:00",
+  "generated": "2026-06-13T18:47:50.543416+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -16,9 +16,9 @@
       "date": "2026-06-13",
       "short": "6/13(土)",
       "dow": "土",
-      "open_count": 7,
-      "booked_count": 7,
-      "new_count": 0,
+      "open_count": 6,
+      "booked_count": 8,
+      "new_count": 1,
       "revisit_count": 7,
       "first_open": "22:00",
       "last_open": "23:10",
@@ -26,12 +26,12 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 4,
+        "CLINICS": 3,
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "CLINICS": 2,
-        "gcal": 7,
+        "CLINICS": 3,
+        "gcal": 8,
         "SOKUYAKU": 2,
         "GMO": 2,
         "クロン": 1
@@ -235,11 +235,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "味園咲希",
+              "visit_type": "初診",
+              "department": "泌尿",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -330,7 +338,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:45:18.199377+09:00",
+      "last_updated": "2026-06-13T18:47:48.921633+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -573,7 +581,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:35:41.459900+09:00",
+      "last_updated": "2026-06-13T18:45:30.251275+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -814,7 +822,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:36:09.272408+09:00",
+      "last_updated": "2026-06-13T18:45:57.831900+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -971,7 +979,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:36:36.400261+09:00",
+      "last_updated": "2026-06-13T18:46:26.627541+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1113,7 +1121,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:37:04.121645+09:00",
+      "last_updated": "2026-06-13T18:46:53.656033+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1446,7 +1454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:37:33.316480+09:00",
+      "last_updated": "2026-06-13T18:47:23.233629+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1490,7 +1498,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:38:01.003904+09:00",
+      "last_updated": "2026-06-13T18:47:49.703643+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5735,11 +5743,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "味園咲希",
+      "date": "2026-06-13",
+      "time": "22:10",
+      "ts": "2026-06-13T18:47:50+09:00"
+    }
+  ],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-13T18:43:52.718119",
+  "sigma_last_run": "2026-06-13T18:48:53.777992",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T18:43:57.115032+09:00",
+    "fetched_at": "2026-06-13T18:46:27.799691+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
