@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-13T12:30:28.762730+09:00",
+  "generated": "2026-06-13T12:32:57.193276+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
     "short": "6/13(土)",
-    "time": "12:30",
+    "time": "12:45",
     "code": "S",
-    "patient_name": "中島 早希",
+    "patient_name": "小川 かおり",
     "visit_type": "再診",
-    "department": "頭痛",
+    "department": "婦人",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.12 23:51:48"
+    "qualified_at": "R08.06.12 23:52:12"
   },
   "days": [
     {
@@ -330,7 +330,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T12:30:27.437121+09:00",
+      "last_updated": "2026-06-13T12:32:55.861009+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5728,9 +5728,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-06-13T12:28:52.263976",
+  "sigma_last_run": "2026-06-13T12:33:51.879174",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T12:29:04.784007+09:00",
+    "fetched_at": "2026-06-13T12:31:37.121982+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
