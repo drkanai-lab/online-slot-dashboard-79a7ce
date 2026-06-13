@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T18:52:55.225403+09:00",
+  "generated": "2026-06-13T18:55:25.691387+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -245,7 +245,9 @@
               "patient_name": "味園咲希",
               "visit_type": "初診",
               "department": "泌尿",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.06.13 18:50:24"
             }
           ],
           "sokuyaku_truth": []
@@ -338,7 +340,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:52:53.997845+09:00",
+      "last_updated": "2026-06-13T18:55:24.455621+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -581,7 +583,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T18:45:30.251275+09:00",
+      "last_updated": "2026-06-13T18:55:10.238594+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5752,10 +5754,10 @@
       "ts": "2026-06-13T18:47:50+09:00"
     }
   ],
-  "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-13T18:48:53.777992",
+  "sigma_qualified_count": 60,
+  "sigma_last_run": "2026-06-13T18:53:52.805090",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T18:51:32.194600+09:00",
+    "fetched_at": "2026-06-13T18:54:03.095072+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
