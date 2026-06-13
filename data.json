@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T06:02:41.471413+09:00",
+  "generated": "2026-06-14T06:04:09.976327+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-14",
@@ -106,7 +106,9 @@
               "patient_name": "大塚愛",
               "visit_type": "初診",
               "department": "婦人",
-              "end_time": "19:00"
+              "end_time": "19:00",
+              "qualified": true,
+              "qualified_at": "R08.06.14 06:00:08"
             }
           ],
           "sokuyaku_truth": []
@@ -773,7 +775,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T05:53:29.361456+09:00",
+      "last_updated": "2026-06-14T06:02:53.351448+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1106,7 +1108,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T05:53:55.306078+09:00",
+      "last_updated": "2026-06-14T06:03:20.921029+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1150,7 +1152,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T05:54:19.930612+09:00",
+      "last_updated": "2026-06-14T06:03:44.466013+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1407,7 +1409,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T05:54:44.019340+09:00",
+      "last_updated": "2026-06-14T06:04:08.908339+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5553,10 +5555,10 @@
       "ts": "2026-06-14T00:50:20+09:00"
     }
   ],
-  "sigma_qualified_count": 53,
-  "sigma_last_run": "2026-06-14T00:48:49.335471",
+  "sigma_qualified_count": 54,
+  "sigma_last_run": "2026-06-14T06:03:47.677217",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T06:01:20.115006+09:00",
+    "fetched_at": "2026-06-14T06:03:49.470335+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
