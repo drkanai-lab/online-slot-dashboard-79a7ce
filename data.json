@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-13T13:00:34.455093+09:00",
+  "generated": "2026-06-13T13:03:07.312693+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
     "short": "6/13(土)",
-    "time": "13:00",
-    "code": "G",
-    "patient_name": "岡留　康文",
+    "time": "19:30",
+    "code": "K",
+    "patient_name": "荒川 敬介",
     "visit_type": "再診",
-    "department": "総診",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.12 23:51:24"
+    "department": "",
+    "status": "booked"
   },
   "days": [
     {
@@ -330,7 +328,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T13:00:33.090236+09:00",
+      "last_updated": "2026-06-13T13:03:05.979478+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -573,7 +571,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T12:52:41.490636+09:00",
+      "last_updated": "2026-06-13T13:02:28.598638+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -814,7 +812,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T12:53:10.570397+09:00",
+      "last_updated": "2026-06-13T13:02:57.243152+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5728,9 +5726,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-06-13T12:58:52.820591",
+  "sigma_last_run": "2026-06-13T13:03:51.375320",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T12:59:13.228244+09:00",
+    "fetched_at": "2026-06-13T13:01:45.945289+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
