@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T10:13:01.610395+09:00",
+  "generated": "2026-06-13T10:15:30.793008+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -328,32 +328,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T10:13:00.280350+09:00",
+      "last_updated": "2026-06-13T10:15:29.484807+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-14",
       "short": "6/14(日)",
       "dow": "日",
-      "open_count": 13,
-      "booked_count": 3,
-      "new_count": 1,
+      "open_count": 14,
+      "booked_count": 2,
+      "new_count": 0,
       "revisit_count": 2,
       "first_open": "18:50",
       "last_open": "23:00",
       "first_booked": "18:30",
-      "last_booked": "19:00",
+      "last_booked": "18:40",
       "per_platform_open": {
         "CLINICS": 7,
-        "SOKUYAKU": 3,
+        "SOKUYAKU": 4,
         "クロン": 2,
         "GMO": 1
       },
       "per_platform_booked": {
         "GMO": 1,
-        "gcal": 3,
-        "CLINICS": 1,
-        "SOKUYAKU": 1
+        "gcal": 2,
+        "CLINICS": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -421,19 +420,11 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "19:15"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "毛利 知都枝",
-              "visit_type": "初診",
-              "department": "漢方",
-              "end_time": "19:10"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -580,7 +571,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T10:05:18.772556+09:00",
+      "last_updated": "2026-06-13T10:15:06.087773+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5741,7 +5732,7 @@
   "sigma_qualified_count": 58,
   "sigma_last_run": "2026-06-13T10:13:52.159001",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T10:11:40.153713+09:00",
+    "fetched_at": "2026-06-13T10:14:09.503619+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
