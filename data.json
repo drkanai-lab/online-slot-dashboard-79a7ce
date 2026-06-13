@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T00:48:04.947336+09:00",
+  "generated": "2026-06-14T00:50:20.877039+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-14",
@@ -210,24 +210,24 @@
       "date": "2026-06-15",
       "short": "6/15(月)",
       "dow": "月",
-      "open_count": 9,
-      "booked_count": 3,
+      "open_count": 7,
+      "booked_count": 5,
       "new_count": 0,
-      "revisit_count": 3,
+      "revisit_count": 5,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "11:30",
-      "last_booked": "12:00",
+      "last_booked": "22:30",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 5,
-        "SOKUYAKU": 2,
+        "CLINICS": 4,
+        "SOKUYAKU": 1,
         "GMO": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 3,
-        "CLINICS": 1
+        "SOKUYAKU": 3,
+        "gcal": 5,
+        "CLINICS": 2
       },
       "full_platforms": [],
       "ranges": [
@@ -359,22 +359,38 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "金子澪",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "飯塚 靖子",
+              "visit_type": "再診",
+              "department": "心療",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "飯塚 靖子",
@@ -450,7 +466,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:38:41.070721+09:00",
+      "last_updated": "2026-06-14T00:48:12.849102+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -607,7 +623,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:39:05.161881+09:00",
+      "last_updated": "2026-06-14T00:48:36.977724+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -749,7 +765,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:39:28.257600+09:00",
+      "last_updated": "2026-06-14T00:49:01.610607+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1082,7 +1098,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:39:55.976364+09:00",
+      "last_updated": "2026-06-14T00:49:28.444753+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1126,7 +1142,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:40:19.820199+09:00",
+      "last_updated": "2026-06-14T00:49:53.036353+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1383,7 +1399,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:40:44.427318+09:00",
+      "last_updated": "2026-06-14T00:50:19.147027+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5513,11 +5529,26 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "金子澪",
+      "date": "2026-06-15",
+      "time": "22:20",
+      "ts": "2026-06-14T00:50:20+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "飯塚 靖子",
+      "date": "2026-06-15",
+      "time": "22:30",
+      "ts": "2026-06-14T00:50:20+09:00"
+    }
+  ],
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-14T00:48:49.335471",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T00:46:43.682592+09:00",
+    "fetched_at": "2026-06-14T00:49:15.265767+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
