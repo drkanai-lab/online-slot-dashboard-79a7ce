@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T10:47:55.145931+09:00",
+  "generated": "2026-06-13T10:50:26.476552+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -328,7 +328,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T10:47:53.895905+09:00",
+      "last_updated": "2026-06-13T10:50:25.148819+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2922,7 +2922,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T09:32:47.804569+09:00",
+      "last_updated": "2026-06-13T10:48:00.000081+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3169,28 +3169,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T09:33:22.525437+09:00",
+      "last_updated": "2026-06-13T10:48:35.386095+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-29",
       "short": "6/29(月)",
       "dow": "月",
-      "open_count": 17,
-      "booked_count": 0,
+      "open_count": 16,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 0,
+      "revisit_count": 1,
       "first_open": "11:30",
       "last_open": "23:00",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "18:40",
+      "last_booked": "18:40",
       "per_platform_open": {
         "SOKUYAKU": 6,
         "GMO": 3,
         "クロン": 3,
-        "CLINICS": 5
+        "CLINICS": 4
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "CLINICS": 1,
+        "gcal": 1
+      },
       "full_platforms": [],
       "ranges": [
         [
@@ -3271,11 +3274,19 @@
           "time": "18:40",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "18:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "村田ナオミ",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "18:50"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -3411,7 +3422,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T09:33:55.197475+09:00",
+      "last_updated": "2026-06-13T10:49:09.994451+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3553,7 +3564,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T09:34:29.557157+09:00",
+      "last_updated": "2026-06-13T10:49:43.302908+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3597,7 +3608,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T09:35:02.927726+09:00",
+      "last_updated": "2026-06-13T10:50:16.703967+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5732,7 +5743,7 @@
   "sigma_qualified_count": 58,
   "sigma_last_run": "2026-06-13T10:48:52.093533",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T10:46:33.313419+09:00",
+    "fetched_at": "2026-06-13T10:49:03.367695+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
