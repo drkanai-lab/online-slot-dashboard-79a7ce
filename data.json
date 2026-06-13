@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T00:17:52.256227+09:00",
+  "generated": "2026-06-14T00:20:23.771853+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-14",
@@ -203,7 +203,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:17:51.421111+09:00",
+      "last_updated": "2026-06-14T00:20:23.102324+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -444,29 +444,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:09:50.352410+09:00",
+      "last_updated": "2026-06-14T00:19:31.207101+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-16",
       "short": "6/16(火)",
       "dow": "火",
-      "open_count": 8,
-      "booked_count": 1,
+      "open_count": 7,
+      "booked_count": 2,
       "new_count": 0,
-      "revisit_count": 1,
+      "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:20",
-      "first_booked": "23:00",
+      "first_booked": "22:30",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 5,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "GMO": 1,
-        "gcal": 1
+        "SOKUYAKU": 1,
+        "gcal": 2,
+        "GMO": 1
       },
       "full_platforms": [
         {
@@ -519,12 +520,26 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "飯塚 靖子",
+              "visit_type": "再診",
+              "department": "心療",
+              "end_time": "22:40"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "飯塚 靖子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -601,7 +616,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:10:14.553162+09:00",
+      "last_updated": "2026-06-14T00:19:55.802252+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -743,7 +758,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T00:10:52.024916+09:00",
+      "last_updated": "2026-06-14T00:20:20.190041+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5390,7 +5405,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-14T00:18:49.298299",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T00:16:32.724201+09:00",
+    "fetched_at": "2026-06-14T00:19:03.518031+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
