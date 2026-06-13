@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-13T12:10:15.582167+09:00",
+  "generated": "2026-06-13T12:12:45.281534+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
     "short": "6/13(土)",
-    "time": "12:10",
+    "time": "12:20",
     "code": "C",
-    "patient_name": "野田功",
+    "patient_name": "竹本望実",
     "visit_type": "再診",
     "department": "",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.13 06:00:18"
   },
   "days": [
     {
@@ -328,7 +330,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T12:10:14.296901+09:00",
+      "last_updated": "2026-06-13T12:12:44.009492+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5036,7 +5038,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T10:55:42.089454+09:00",
+      "last_updated": "2026-06-13T12:10:41.923146+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5285,7 +5287,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T10:56:18.147334+09:00",
+      "last_updated": "2026-06-13T12:11:19.129730+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5464,7 +5466,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T10:56:57.311084+09:00",
+      "last_updated": "2026-06-13T12:11:58.915914+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5720,7 +5722,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T10:57:37.912457+09:00",
+      "last_updated": "2026-06-13T12:12:38.735651+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -5728,7 +5730,7 @@
   "sigma_qualified_count": 58,
   "sigma_last_run": "2026-06-13T12:08:50.845354",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T12:08:53.286964+09:00",
+    "fetched_at": "2026-06-13T12:11:23.649663+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
