@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T11:40:13.447153+09:00",
+  "generated": "2026-06-13T11:42:42.805170+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-13",
@@ -328,7 +328,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-13T11:40:12.009083+09:00",
+      "last_updated": "2026-06-13T11:42:41.515263+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5724,19 +5724,11 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "患者名不明",
-      "date": "2026-06-13",
-      "time": "23:00",
-      "ts": "2026-06-12T23:41:29+09:00"
-    }
-  ],
+  "recent_events": [],
   "sigma_qualified_count": 58,
   "sigma_last_run": "2026-06-13T11:38:51.123702",
   "gmo_realtime": {
-    "fetched_at": "2026-06-13T11:38:52.160480+09:00",
+    "fetched_at": "2026-06-13T11:41:21.581697+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
