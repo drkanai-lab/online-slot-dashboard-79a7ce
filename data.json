@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T12:49:10.326771+09:00",
+  "generated": "2026-06-14T12:51:42.010634+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-14",
@@ -213,7 +213,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T12:49:09.659279+09:00",
+      "last_updated": "2026-06-14T12:51:41.361806+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1562,7 +1562,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T11:37:14.052836+09:00",
+      "last_updated": "2026-06-14T12:51:27.633177+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5539,26 +5539,11 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "金子澪",
-      "date": "2026-06-15",
-      "time": "22:20",
-      "ts": "2026-06-14T00:50:20+09:00"
-    },
-    {
-      "type": "new",
-      "patient_name": "飯塚 靖子",
-      "date": "2026-06-15",
-      "time": "22:30",
-      "ts": "2026-06-14T00:50:20+09:00"
-    }
-  ],
+  "recent_events": [],
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-14T12:48:55.699506",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T12:47:48.217524+09:00",
+    "fetched_at": "2026-06-14T12:50:20.919458+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
