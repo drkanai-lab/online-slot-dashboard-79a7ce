@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-14T22:20:43.599894+09:00",
+  "generated": "2026-06-14T22:23:12.564007+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-14",
     "short": "6/14(日)",
-    "time": "22:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "湊谷 優",
+    "visit_type": "初診",
+    "department": "皮膚",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.14 17:41:00"
   },
   "days": [
     {
@@ -230,7 +232,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T22:20:42.629541+09:00",
+      "last_updated": "2026-06-14T22:23:11.589080+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5603,9 +5605,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-14T22:18:49.510035",
+  "sigma_last_run": "2026-06-14T22:23:50.146349",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T22:19:22.658134+09:00",
+    "fetched_at": "2026-06-14T22:21:51.929673+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
