@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-14T18:40:19.031783+09:00",
+  "generated": "2026-06-14T18:42:48.552709+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-14",
     "short": "6/14(日)",
-    "time": "18:40",
+    "time": "18:50",
     "code": "C",
-    "patient_name": "関谷定一郎",
-    "visit_type": "再診",
-    "department": "",
+    "patient_name": "大塚愛",
+    "visit_type": "初診",
+    "department": "婦人",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.11 12:25:45"
+    "qualified_at": "R08.06.14 06:00:08"
   },
   "days": [
     {
@@ -232,7 +232,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T18:40:18.039181+09:00",
+      "last_updated": "2026-06-14T18:42:47.569598+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5593,9 +5593,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-14T18:38:48.999635",
+  "sigma_last_run": "2026-06-14T18:43:49.323149",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T18:38:58.984435+09:00",
+    "fetched_at": "2026-06-14T18:41:27.491532+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
