@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T00:00:36.371666+09:00",
+  "generated": "2026-06-15T00:02:03.571420+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
@@ -610,7 +610,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T23:51:20.574458+09:00",
+      "last_updated": "2026-06-15T00:00:48.224894+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -943,7 +943,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T23:51:45.874952+09:00",
+      "last_updated": "2026-06-15T00:01:13.722262+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -987,7 +987,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T23:52:08.936666+09:00",
+      "last_updated": "2026-06-15T00:01:37.421052+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1244,7 +1244,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T23:52:34.204859+09:00",
+      "last_updated": "2026-06-15T00:02:01.663756+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2442,7 +2442,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T22:46:50.454750+09:00",
+      "last_updated": "2026-06-15T00:00:59.438018+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2699,7 +2699,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T22:47:22.895351+09:00",
+      "last_updated": "2026-06-15T00:01:30.751015+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2952,7 +2952,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T22:47:53.788994+09:00",
+      "last_updated": "2026-06-15T00:02:00.712921+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5432,11 +5432,19 @@
       "sokuyaku_reserve_ok": false
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "患者名不明",
+      "date": "2026-06-15",
+      "time": "23:00",
+      "ts": "2026-06-15T00:02:03+09:00"
+    }
+  ],
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-06-14T23:58:49.447778",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T23:59:14.467724+09:00",
+    "fetched_at": "2026-06-15T00:01:46.920616+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
