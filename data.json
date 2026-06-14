@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-14T23:00:33.436072+09:00",
+  "generated": "2026-06-14T23:03:01.740643+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-06-14",
-    "short": "6/14(日)",
-    "time": "23:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "date": "2026-06-15",
+    "short": "6/15(月)",
+    "time": "11:30",
+    "code": "S",
+    "patient_name": "浅野 慎太郎",
+    "visit_type": "再診",
+    "department": "皮膚",
+    "status": "booked"
   },
   "days": [
     {
@@ -230,7 +230,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T23:00:32.347546+09:00",
+      "last_updated": "2026-06-14T23:03:00.620183+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5603,9 +5603,9 @@
     }
   ],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-14T22:58:50.047657",
+  "sigma_last_run": "2026-06-14T23:03:49.569362",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T22:59:12.203490+09:00",
+    "fetched_at": "2026-06-14T23:01:41.124966+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
