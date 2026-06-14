@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-14T14:32:22.322037+09:00",
+  "generated": "2026-06-14T14:34:25.837862+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-14",
@@ -166,7 +166,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "湊谷 優",
+              "visit_type": "初診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -213,7 +219,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-14T14:31:52.335060+09:00",
+      "last_updated": "2026-06-14T14:34:24.861469+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5566,9 +5572,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 54,
-  "sigma_last_run": "2026-06-14T14:28:47.377913",
+  "sigma_last_run": "2026-06-14T14:33:48.401366",
   "gmo_realtime": {
-    "fetched_at": "2026-06-14T14:30:32.897121+09:00",
+    "fetched_at": "2026-06-14T14:33:04.739432+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
