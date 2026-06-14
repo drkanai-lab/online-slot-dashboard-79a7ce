@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T07:54:34.816320+09:00",
+  "generated": "2026-06-15T07:57:06.545246+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
@@ -18,26 +18,29 @@
       "date": "2026-06-15",
       "short": "6/15(月)",
       "dow": "月",
-      "open_count": 4,
-      "booked_count": 8,
+      "open_count": 3,
+      "booked_count": 9,
       "new_count": 1,
-      "revisit_count": 7,
+      "revisit_count": 8,
       "first_open": "22:10",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:10",
       "per_platform_open": {
-        "CLINICS": 3,
-        "SOKUYAKU": 1
+        "CLINICS": 3
       },
       "per_platform_booked": {
-        "SOKUYAKU": 3,
-        "gcal": 8,
+        "SOKUYAKU": 4,
+        "gcal": 9,
         "CLINICS": 3,
         "クロン": 1,
         "GMO": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "クロン",
           "code": "K"
@@ -240,11 +243,19 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "赤峯 雄一朗",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "22:55"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "赤峯 雄一朗",
@@ -325,7 +336,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T07:54:33.541214+09:00",
+      "last_updated": "2026-06-15T07:57:05.050648+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -482,7 +493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T07:46:29.909972+09:00",
+      "last_updated": "2026-06-15T07:55:54.247606+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -639,7 +650,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T07:46:53.164111+09:00",
+      "last_updated": "2026-06-15T07:56:18.518746+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -972,7 +983,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T07:47:18.921459+09:00",
+      "last_updated": "2026-06-15T07:56:44.727920+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5589,12 +5600,19 @@
       "date": "2026-06-15",
       "time": "23:00",
       "ts": "2026-06-15T00:02:03+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "赤峯 雄一朗",
+      "date": "2026-06-15",
+      "time": "22:45",
+      "ts": "2026-06-15T07:57:06+09:00"
     }
   ],
   "sigma_qualified_count": 49,
   "sigma_last_run": "2026-06-15T07:48:48.161476",
   "gmo_realtime": {
-    "fetched_at": "2026-06-15T07:53:13.525888+09:00",
+    "fetched_at": "2026-06-15T07:55:42.459337+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
