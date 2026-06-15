@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T10:48:37.363155+09:00",
+  "generated": "2026-06-15T10:50:15.353985+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
@@ -1015,7 +1015,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T10:39:13.282055+09:00",
+      "last_updated": "2026-06-15T10:48:57.434327+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1059,7 +1059,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T10:39:36.753922+09:00",
+      "last_updated": "2026-06-15T10:49:22.716438+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1316,7 +1316,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T10:40:01.863915+09:00",
+      "last_updated": "2026-06-15T10:49:46.811143+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1469,7 +1469,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T10:40:28.915438+09:00",
+      "last_updated": "2026-06-15T10:50:13.622712+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5628,13 +5628,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "患者名不明",
-      "date": "2026-06-15",
-      "time": "23:00",
-      "ts": "2026-06-15T00:02:03+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "赤峯 雄一朗",
       "date": "2026-06-15",
       "time": "22:45",
@@ -5646,12 +5639,19 @@
       "date": "2026-06-16",
       "time": "22:30",
       "ts": "2026-06-15T08:45:43+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "高橋三奈子",
+      "date": "2026-06-16",
+      "time": "22:45",
+      "ts": "2026-06-15T10:50:14+09:00"
     }
   ],
   "sigma_qualified_count": 50,
   "sigma_last_run": "2026-06-15T10:48:49.215816",
   "gmo_realtime": {
-    "fetched_at": "2026-06-15T10:47:13.779854+09:00",
+    "fetched_at": "2026-06-15T10:49:46.056513+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
