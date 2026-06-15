@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-15T11:44:26.333912+09:00",
+  "generated": "2026-06-15T11:46:56.875542+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
     "short": "6/15(月)",
-    "time": "11:45",
-    "code": "S",
-    "patient_name": "塚本 力",
+    "time": "12:00",
+    "code": "C",
+    "patient_name": "北山さおり",
     "visit_type": "再診",
-    "department": "整形",
-    "status": "booked"
+    "department": "",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.14 22:49:51"
   },
   "days": [
     {
@@ -342,7 +344,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T11:44:24.990737+09:00",
+      "last_updated": "2026-06-15T11:46:55.555984+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -531,7 +533,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T11:35:45.548870+09:00",
+      "last_updated": "2026-06-15T11:45:16.559647+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -688,7 +690,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T11:36:10.098907+09:00",
+      "last_updated": "2026-06-15T11:45:46.990583+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1021,7 +1023,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T11:36:36.778275+09:00",
+      "last_updated": "2026-06-15T11:46:14.327558+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1065,7 +1067,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T11:37:00.692118+09:00",
+      "last_updated": "2026-06-15T11:46:37.723637+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5657,7 +5659,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-15T11:43:50.790629",
   "gmo_realtime": {
-    "fetched_at": "2026-06-15T11:43:04.966228+09:00",
+    "fetched_at": "2026-06-15T11:45:34.855821+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
