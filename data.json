@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T11:37:54.007924+09:00",
+  "generated": "2026-06-15T11:39:23.018064+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
@@ -171,7 +171,9 @@
               "patient_name": "五十川 珠美",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.06.15 11:28:55"
             }
           ],
           "sokuyaku_truth": []
@@ -251,14 +253,18 @@
               "patient_name": "赤峯 雄一朗",
               "visit_type": "再診",
               "department": "皮膚",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.06.15 11:29:56"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "赤峯 雄一朗",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.15 11:29:56"
             }
           ]
         },
@@ -306,7 +312,9 @@
               "patient_name": "山柿真芳慈",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:20"
+              "end_time": "23:20",
+              "qualified": true,
+              "qualified_at": "R08.06.15 11:35:22"
             }
           ],
           "sokuyaku_truth": []
@@ -334,7 +342,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T11:36:51.731899+09:00",
+      "last_updated": "2026-06-15T11:39:21.749858+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5646,10 +5654,10 @@
       "ts": "2026-06-15T10:50:14+09:00"
     }
   ],
-  "sigma_qualified_count": 50,
-  "sigma_last_run": "2026-06-15T11:33:58.070357",
+  "sigma_qualified_count": 53,
+  "sigma_last_run": "2026-06-15T11:38:52.412797",
   "gmo_realtime": {
-    "fetched_at": "2026-06-15T11:35:31.786993+09:00",
+    "fetched_at": "2026-06-15T11:38:01.131744+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
