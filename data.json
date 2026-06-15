@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-15T11:59:31.733059+09:00",
+  "generated": "2026-06-15T12:02:01.639440+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
     "short": "6/15(月)",
-    "time": "12:00",
-    "code": "C",
-    "patient_name": "北山さおり",
+    "time": "22:00",
+    "code": "K",
+    "patient_name": "五十川 珠美",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.14 22:49:51"
+    "qualified_at": "R08.06.15 11:28:55"
   },
   "days": [
     {
@@ -344,7 +344,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T11:59:30.502176+09:00",
+      "last_updated": "2026-06-15T12:02:00.241877+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5659,7 +5659,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-15T11:59:03.053687",
   "gmo_realtime": {
-    "fetched_at": "2026-06-15T11:58:08.278691+09:00",
+    "fetched_at": "2026-06-15T12:00:39.354050+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
