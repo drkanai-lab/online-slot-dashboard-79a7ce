@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-15T23:08:29.633689+09:00",
+  "generated": "2026-06-15T23:12:55.645023+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
     "short": "6/15(月)",
-    "time": "23:10",
-    "code": "C",
-    "patient_name": "山柿真芳慈",
-    "visit_type": "再診",
+    "time": "23:20",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.15 11:35:22"
+    "status": "open"
   },
   "days": [
     {
@@ -346,7 +344,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T23:08:28.329877+09:00",
+      "last_updated": "2026-06-15T23:12:54.133417+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -535,7 +533,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T23:02:34.413801+09:00",
+      "last_updated": "2026-06-15T23:12:11.084402+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -692,7 +690,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T23:02:57.886635+09:00",
+      "last_updated": "2026-06-15T23:12:34.950823+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5613,7 +5611,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-15T23:08:50.437003",
   "gmo_realtime": {
-    "fetched_at": "2026-06-15T23:07:07.407249+09:00",
+    "fetched_at": "2026-06-15T23:11:31.546314+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
