@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-15T11:29:20.708342+09:00",
+  "generated": "2026-06-15T11:31:51.235406+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
     "short": "6/15(月)",
-    "time": "11:30",
+    "time": "11:45",
     "code": "S",
-    "patient_name": "浅野 慎太郎",
+    "patient_name": "塚本 力",
     "visit_type": "再診",
-    "department": "皮膚",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.14 22:48:55"
+    "department": "整形",
+    "status": "booked"
   },
   "days": [
     {
@@ -336,7 +334,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T11:29:19.095158+09:00",
+      "last_updated": "2026-06-15T11:31:49.839225+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5651,7 +5649,7 @@
   "sigma_qualified_count": 50,
   "sigma_last_run": "2026-06-15T11:28:52.285362",
   "gmo_realtime": {
-    "fetched_at": "2026-06-15T11:27:58.974849+09:00",
+    "fetched_at": "2026-06-15T11:30:28.638726+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
