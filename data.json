@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T22:40:38.788657+09:00",
+  "generated": "2026-06-15T22:43:11.148601+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-15",
@@ -295,7 +295,9 @@
               "patient_name": "菅田　季沙",
               "visit_type": "初診",
               "department": "婦人",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.06.15 22:40:16"
             }
           ],
           "sokuyaku_truth": []
@@ -344,7 +346,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-15T22:40:37.517258+09:00",
+      "last_updated": "2026-06-15T22:43:09.846764+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5616,10 +5618,10 @@
       "ts": "2026-06-15T10:50:14+09:00"
     }
   ],
-  "sigma_qualified_count": 53,
-  "sigma_last_run": "2026-06-15T22:38:54.671435",
+  "sigma_qualified_count": 54,
+  "sigma_last_run": "2026-06-15T22:43:49.398908",
   "gmo_realtime": {
-    "fetched_at": "2026-06-15T22:39:15.548369+09:00",
+    "fetched_at": "2026-06-15T22:41:49.548321+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
