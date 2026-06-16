@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T20:43:45.157234+09:00",
+  "generated": "2026-06-16T20:43:59.162885+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-16",
@@ -18,8 +18,8 @@
       "dow": "火",
       "open_count": 4,
       "booked_count": 5,
-      "new_count": 0,
-      "revisit_count": 5,
+      "new_count": 1,
+      "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "22:10",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 2,
-        "gcal": 4,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -92,7 +92,15 @@
               "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "奥田恵樹",
+              "visit_type": "初診",
+              "department": "泌尿",
+              "end_time": "22:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -213,7 +221,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-16T20:41:26.159669+09:00",
+      "last_updated": "2026-06-16T20:43:58.243756+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5299,7 +5307,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-16T19:29:30.225068+09:00",
+      "last_updated": "2026-06-16T20:43:53.342034+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
