@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-16T22:29:34.407779+09:00",
+  "generated": "2026-06-16T22:31:29.246503+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-16",
     "short": "6/16(火)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "廣瀬 峰実",
+    "patient_name": "高橋三奈子",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.16 22:05:31"
+    "qualified_at": "R08.06.15 10:45:10"
   },
   "days": [
     {
@@ -231,7 +231,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-16T22:28:50.143498+09:00",
+      "last_updated": "2026-06-16T22:31:28.244265+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5487,7 +5487,7 @@
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-06-16T22:28:53.969192",
   "gmo_realtime": {
-    "fetched_at": "2026-06-16T22:27:30.624021+09:00",
+    "fetched_at": "2026-06-16T22:29:59.487818+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
