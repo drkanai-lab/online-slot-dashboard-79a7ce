@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T22:11:22.871009+09:00",
+  "generated": "2026-06-16T22:13:51.280241+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-16",
@@ -190,7 +190,9 @@
               "patient_name": "金子　厚志",
               "visit_type": "再診",
               "department": "皮膚",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.06.16 22:06:20"
             }
           ],
           "sokuyaku_truth": []
@@ -229,7 +231,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-16T22:11:21.915726+09:00",
+      "last_updated": "2026-06-16T22:13:50.266852+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5482,10 +5484,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 54,
-  "sigma_last_run": "2026-06-16T22:08:52.407060",
+  "sigma_qualified_count": 55,
+  "sigma_last_run": "2026-06-16T22:13:51.778190",
   "gmo_realtime": {
-    "fetched_at": "2026-06-16T22:10:00.568111+09:00",
+    "fetched_at": "2026-06-16T22:12:30.688672+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
