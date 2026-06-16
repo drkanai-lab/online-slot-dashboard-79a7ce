@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-17T07:25:42.336956+09:00",
+  "generated": "2026-06-17T07:28:10.900306+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-17",
     "short": "6/17(水)",
     "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "梶谷 真由",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -17,12 +17,12 @@
       "short": "6/17(水)",
       "dow": "水",
       "open_count": 7,
-      "booked_count": 2,
-      "new_count": 0,
+      "booked_count": 3,
+      "new_count": 1,
       "revisit_count": 2,
       "first_open": "22:00",
       "last_open": "23:20",
-      "first_booked": "22:10",
+      "first_booked": "22:00",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
@@ -30,8 +30,8 @@
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
+        "gcal": 3,
         "CLINICS": 1,
-        "gcal": 2,
         "GMO": 1
       },
       "full_platforms": [
@@ -56,7 +56,15 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "梶谷 真由",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -179,7 +187,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T07:25:41.718245+09:00",
+      "last_updated": "2026-06-17T07:28:09.949779+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5433,11 +5441,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "梶谷 真由",
+      "date": "2026-06-17",
+      "time": "22:00",
+      "ts": "2026-06-17T07:28:10+09:00"
+    }
+  ],
   "sigma_qualified_count": 50,
   "sigma_last_run": "2026-06-17T07:18:50.617421",
   "gmo_realtime": {
-    "fetched_at": "2026-06-17T07:24:23.091200+09:00",
+    "fetched_at": "2026-06-17T07:26:51.631329+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
