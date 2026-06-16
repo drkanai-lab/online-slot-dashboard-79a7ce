@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T18:57:43.220388+09:00",
+  "generated": "2026-06-16T18:58:57.990145+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-16",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "gcal": 2,
+        "gcal": 4,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -103,7 +103,15 @@
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "廣瀬 峰実",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:45"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "廣瀬 峰実",
@@ -120,7 +128,17 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "高橋三奈子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00",
+              "qualified": true,
+              "qualified_at": "R08.06.15 10:45:10"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "高橋三奈子",
@@ -195,7 +213,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-16T18:56:26.501146+09:00",
+      "last_updated": "2026-06-16T18:58:57.046831+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5440,9 +5458,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 51,
-  "sigma_last_run": "2026-06-16T18:53:49.355955",
+  "sigma_last_run": "2026-06-16T18:58:50.791467",
   "gmo_realtime": {
-    "fetched_at": "2026-06-16T18:55:06.950067+09:00",
+    "fetched_at": "2026-06-16T18:57:36.449099+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
