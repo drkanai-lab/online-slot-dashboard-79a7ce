@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T08:08:16.638961+09:00",
+  "generated": "2026-06-18T08:10:50.296802+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -18,24 +18,24 @@
       "date": "2026-06-18",
       "short": "6/18(木)",
       "dow": "木",
-      "open_count": 8,
-      "booked_count": 12,
+      "open_count": 9,
+      "booked_count": 11,
       "new_count": 3,
-      "revisit_count": 9,
+      "revisit_count": 8,
       "first_open": "12:20",
       "last_open": "23:20",
       "first_booked": "11:20",
-      "last_booked": "22:30",
+      "last_booked": "22:20",
       "per_platform_open": {
         "CLINICS": 5,
         "クロン": 1,
-        "SOKUYAKU": 1,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
         "CLINICS": 7,
-        "gcal": 12,
-        "SOKUYAKU": 3,
+        "gcal": 9,
+        "SOKUYAKU": 2,
         "GMO": 1,
         "クロン": 1
       },
@@ -82,18 +82,16 @@
               "end_time": "11:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "小林 彩子",
               "visit_type": "再診",
               "department": "",
-              "end_time": "11:45",
               "qualified": true,
               "qualified_at": "R08.06.18 00:15:59"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "11:45",
@@ -103,18 +101,16 @@
               "end_time": "12:00"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "林 洋行",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:00",
               "qualified": true,
               "qualified_at": "R08.06.18 00:16:25"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "12:00",
@@ -319,22 +315,20 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "22:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "戸松 絵理",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:45",
               "qualified": true,
               "qualified_at": "R08.06.17 18:50:13"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:45",
@@ -403,7 +397,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T08:08:14.447382+09:00",
+      "last_updated": "2026-06-18T08:10:48.331355+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5495,7 +5489,7 @@
   "sigma_qualified_count": 52,
   "sigma_last_run": "2026-06-18T08:08:47.120352",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T08:06:50.134963+09:00",
+    "fetched_at": "2026-06-18T08:09:24.767649+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
