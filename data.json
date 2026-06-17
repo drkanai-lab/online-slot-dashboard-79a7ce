@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T08:45:58.647312+09:00",
+  "generated": "2026-06-18T08:48:39.038250+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -34,7 +34,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 12,
+        "gcal": 13,
         "SOKUYAKU": 3,
         "GMO": 1,
         "クロン": 1
@@ -182,7 +182,17 @@
               "end_time": "12:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "齋藤篤史",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:30",
+              "qualified": true,
+              "qualified_at": "R08.06.18 08:45:42"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -427,7 +437,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T08:45:55.538474+09:00",
+      "last_updated": "2026-06-18T08:48:37.763396+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5526,7 +5536,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:31:33.003139+09:00",
+      "last_updated": "2026-06-18T08:46:12.337637+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -5539,10 +5549,10 @@
       "ts": "2026-06-18T08:29:11+09:00"
     }
   ],
-  "sigma_qualified_count": 52,
-  "sigma_last_run": "2026-06-18T08:43:47.256077",
+  "sigma_qualified_count": 53,
+  "sigma_last_run": "2026-06-18T08:48:47.865867",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T08:44:27.986449+09:00",
+    "fetched_at": "2026-06-18T08:47:07.534079+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
