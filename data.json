@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-17T21:59:02.434299+09:00",
+  "generated": "2026-06-17T22:01:31.285160+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-17",
     "short": "6/17(水)",
-    "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "友廣桃菜",
+    "visit_type": "再診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.16 21:30:09"
   },
   "days": [
     {
@@ -221,7 +223,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T21:59:01.281090+09:00",
+      "last_updated": "2026-06-17T22:01:30.256902+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5547,7 +5549,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-06-17T21:58:49.809963",
   "gmo_realtime": {
-    "fetched_at": "2026-06-17T21:57:41.711188+09:00",
+    "fetched_at": "2026-06-17T22:00:10.591101+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
