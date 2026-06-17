@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-17T22:09:05.706707+09:00",
+  "generated": "2026-06-17T22:11:35.324390+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-17",
     "short": "6/17(水)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "友廣桃菜",
+    "patient_name": "栗山彩乃",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.16 21:30:09"
+    "qualified_at": "R08.06.11 00:00:10"
   },
   "days": [
     {
@@ -223,7 +223,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T22:09:04.374377+09:00",
+      "last_updated": "2026-06-17T22:11:34.309457+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5549,7 +5549,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-06-17T22:08:57.760672",
   "gmo_realtime": {
-    "fetched_at": "2026-06-17T22:07:43.673191+09:00",
+    "fetched_at": "2026-06-17T22:10:14.435833+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
