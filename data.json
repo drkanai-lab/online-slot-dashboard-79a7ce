@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T16:31:22.312295+09:00",
+  "generated": "2026-06-17T16:33:06.279643+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-17",
@@ -909,7 +909,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T16:21:33.500356+09:00",
+      "last_updated": "2026-06-17T16:31:23.064907+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1062,14 +1062,14 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T16:22:00.582185+09:00",
+      "last_updated": "2026-06-17T16:31:50.666490+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-22",
       "short": "6/22(月)",
       "dow": "月",
-      "open_count": 15,
+      "open_count": 13,
       "booked_count": 3,
       "new_count": 0,
       "revisit_count": 3,
@@ -1079,8 +1079,7 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 9,
-        "SOKUYAKU": 4,
-        "クロン": 2
+        "SOKUYAKU": 4
       },
       "per_platform_booked": {
         "GMO": 2,
@@ -1099,23 +1098,12 @@
           "20:00"
         ],
         [
-          "22:00",
+          "22:10",
           "23:30"
         ]
       ],
-      "range_text": "18:30〜20:00, 22:00〜23:30",
+      "range_text": "18:30〜20:00, 22:10〜23:30",
       "slots": [
-        {
-          "time": "13:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "13:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
         {
           "time": "18:30",
           "platforms": {
@@ -1199,17 +1187,6 @@
           "sokuyaku_truth": []
         },
         {
-          "time": "19:30",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "19:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
           "time": "19:40",
           "platforms": {
             "CLINICS": {
@@ -1226,17 +1203,6 @@
             "CLINICS": {
               "status": "open",
               "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "22:10"
             }
           },
           "gcals": [],
@@ -1337,20 +1303,9 @@
           },
           "gcals": [],
           "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T16:22:28.922184+09:00",
+      "last_updated": "2026-06-17T16:32:37.185974+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1507,7 +1462,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T16:22:56.371029+09:00",
+      "last_updated": "2026-06-17T16:33:04.809143+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4044,7 +3999,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T15:16:47.957818+09:00",
+      "last_updated": "2026-06-17T16:31:51.638894+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4186,7 +4141,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T15:17:21.730010+09:00",
+      "last_updated": "2026-06-17T16:32:38.685565+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5496,9 +5451,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-17T16:28:49.073002",
+  "sigma_last_run": "2026-06-17T16:33:47.894249",
   "gmo_realtime": {
-    "fetched_at": "2026-06-17T16:30:01.718339+09:00",
+    "fetched_at": "2026-06-17T16:32:30.166568+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
