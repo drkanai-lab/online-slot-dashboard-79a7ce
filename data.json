@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T00:32:21.000466+09:00",
+  "generated": "2026-06-18T00:34:54.476718+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -117,14 +117,18 @@
               "patient_name": "林 洋行",
               "visit_type": "再診",
               "department": "漢方",
-              "end_time": "11:55"
+              "end_time": "11:55",
+              "qualified": true,
+              "qualified_at": "R08.06.18 00:16:25"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "林 洋行",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.18 00:16:25"
             }
           ]
         },
@@ -142,7 +146,9 @@
               "patient_name": "福田光宏",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:10"
+              "end_time": "12:10",
+              "qualified": true,
+              "qualified_at": "R08.06.18 00:16:46"
             }
           ],
           "sokuyaku_truth": []
@@ -193,7 +199,9 @@
               "patient_name": "栗林　健男",
               "visit_type": "再診",
               "department": "総診",
-              "end_time": "12:40"
+              "end_time": "12:40",
+              "qualified": true,
+              "qualified_at": "R08.06.18 00:17:55"
             }
           ],
           "sokuyaku_truth": []
@@ -295,7 +303,9 @@
               "patient_name": "中野緑",
               "visit_type": "初診",
               "department": "花粉",
-              "end_time": "22:20"
+              "end_time": "22:20",
+              "qualified": true,
+              "qualified_at": "R08.06.18 00:18:20"
             }
           ],
           "sokuyaku_truth": []
@@ -314,7 +324,9 @@
               "patient_name": "宝力祐司",
               "visit_type": "再診",
               "department": "",
-              "end_time": "22:30"
+              "end_time": "22:30",
+              "qualified": true,
+              "qualified_at": "R08.06.18 00:18:57"
             }
           ],
           "sokuyaku_truth": []
@@ -415,7 +427,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T00:32:19.661762+09:00",
+      "last_updated": "2026-06-18T00:34:52.950738+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5372,10 +5384,10 @@
       "ts": "2026-06-17T19:00:24+09:00"
     }
   ],
-  "sigma_qualified_count": 47,
-  "sigma_last_run": "2026-06-18T00:18:50.011113",
+  "sigma_qualified_count": 52,
+  "sigma_last_run": "2026-06-18T00:33:48.080793",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T00:31:46.414225+09:00",
+    "fetched_at": "2026-06-18T00:33:29.710123+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
