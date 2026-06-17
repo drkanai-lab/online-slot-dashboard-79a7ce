@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T15:41:57.604900+09:00",
+  "generated": "2026-06-17T15:44:27.285527+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-17",
@@ -237,7 +237,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T15:41:56.359576+09:00",
+      "last_updated": "2026-06-17T15:44:25.980157+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -586,7 +586,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T15:32:41.993416+09:00",
+      "last_updated": "2026-06-17T15:42:18.794474+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -630,30 +630,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T15:33:05.555108+09:00",
+      "last_updated": "2026-06-17T15:42:42.314163+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-20",
       "short": "6/20(土)",
       "dow": "土",
-      "open_count": 11,
-      "booked_count": 4,
-      "new_count": 2,
+      "open_count": 10,
+      "booked_count": 5,
+      "new_count": 3,
       "revisit_count": 2,
       "first_open": "12:00",
       "last_open": "23:20",
       "first_booked": "12:00",
-      "last_booked": "12:45",
+      "last_booked": "22:10",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 6,
+        "CLINICS": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
-        "gcal": 4,
-        "CLINICS": 1,
+        "gcal": 5,
+        "CLINICS": 2,
         "SOKUYAKU": 2
       },
       "full_platforms": [],
@@ -805,11 +805,19 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "甲斐正弘",
+              "visit_type": "初診",
+              "department": "頭痛",
+              "end_time": "22:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -901,7 +909,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T15:33:30.809159+09:00",
+      "last_updated": "2026-06-17T15:43:08.333535+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1054,7 +1062,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T15:33:58.309567+09:00",
+      "last_updated": "2026-06-17T15:43:35.531249+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1342,7 +1350,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T15:34:25.744668+09:00",
+      "last_updated": "2026-06-17T15:44:03.000504+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5522,9 +5530,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-17T15:38:48.530015",
+  "sigma_last_run": "2026-06-17T15:43:49.180636",
   "gmo_realtime": {
-    "fetched_at": "2026-06-17T15:40:36.583724+09:00",
+    "fetched_at": "2026-06-17T15:43:06.677576+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
