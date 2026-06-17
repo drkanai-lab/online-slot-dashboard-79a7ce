@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T04:56:00.519314+09:00",
+  "generated": "2026-06-18T04:58:17.860666+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -18,24 +18,24 @@
       "date": "2026-06-18",
       "short": "6/18(木)",
       "dow": "木",
-      "open_count": 8,
-      "booked_count": 12,
+      "open_count": 9,
+      "booked_count": 11,
       "new_count": 3,
-      "revisit_count": 9,
+      "revisit_count": 8,
       "first_open": "12:20",
       "last_open": "23:20",
       "first_booked": "11:20",
-      "last_booked": "22:30",
+      "last_booked": "22:20",
       "per_platform_open": {
         "CLINICS": 5,
         "クロン": 1,
-        "SOKUYAKU": 1,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
         "CLINICS": 7,
-        "gcal": 12,
-        "SOKUYAKU": 3,
+        "gcal": 9,
+        "SOKUYAKU": 2,
         "GMO": 1,
         "クロン": 1
       },
@@ -82,18 +82,16 @@
               "end_time": "11:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "小林 彩子",
               "visit_type": "再診",
-              "department": "循内",
-              "end_time": "11:40",
+              "department": "",
               "qualified": true,
               "qualified_at": "R08.06.18 00:15:59"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "11:45",
@@ -103,18 +101,16 @@
               "end_time": "12:00"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "林 洋行",
               "visit_type": "再診",
-              "department": "漢方",
-              "end_time": "11:55",
+              "department": "",
               "qualified": true,
               "qualified_at": "R08.06.18 00:16:25"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "12:00",
@@ -319,22 +315,20 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "22:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "戸松 絵理",
               "visit_type": "再診",
-              "department": "頭痛",
-              "end_time": "22:40",
+              "department": "",
               "qualified": true,
               "qualified_at": "R08.06.17 18:50:13"
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:45",
@@ -403,7 +397,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T04:55:42.450081+09:00",
+      "last_updated": "2026-06-18T04:58:15.759279+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3742,7 +3736,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T03:41:28.082902+09:00",
+      "last_updated": "2026-06-18T04:56:09.956566+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3895,7 +3889,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T03:42:01.616617+09:00",
+      "last_updated": "2026-06-18T04:56:43.044186+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4037,7 +4031,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T03:42:36.898145+09:00",
+      "last_updated": "2026-06-18T04:57:29.053068+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4286,7 +4280,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T03:43:10.646131+09:00",
+      "last_updated": "2026-06-18T04:58:03.988594+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5495,7 +5489,7 @@
   "sigma_qualified_count": 52,
   "sigma_last_run": "2026-06-18T00:48:49.839799",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T04:54:17.913921+09:00",
+    "fetched_at": "2026-06-18T04:56:52.635012+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
