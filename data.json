@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T14:24:50.130350+09:00",
+  "generated": "2026-06-17T14:27:16.019336+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-17",
@@ -586,7 +586,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T14:15:12.568432+09:00",
+      "last_updated": "2026-06-17T14:24:51.514433+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -630,31 +630,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T14:15:36.347409+09:00",
+      "last_updated": "2026-06-17T14:25:15.372396+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-20",
       "short": "6/20(土)",
       "dow": "土",
-      "open_count": 12,
-      "booked_count": 3,
-      "new_count": 1,
+      "open_count": 11,
+      "booked_count": 4,
+      "new_count": 2,
       "revisit_count": 2,
       "first_open": "12:00",
       "last_open": "23:20",
       "first_booked": "12:00",
-      "last_booked": "12:30",
+      "last_booked": "12:45",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 6,
-        "SOKUYAKU": 3,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
-        "gcal": 3,
+        "gcal": 4,
         "CLINICS": 1,
-        "SOKUYAKU": 1
+        "SOKUYAKU": 2
       },
       "full_platforms": [],
       "ranges": [
@@ -747,12 +747,26 @@
           "time": "12:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "久我 ちひろ",
+              "visit_type": "初診",
+              "department": "ピル",
+              "end_time": "12:55"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "久我 ちひろ",
+              "visit_type": "初診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "13:30",
@@ -887,7 +901,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T14:16:02.603747+09:00",
+      "last_updated": "2026-06-17T14:25:39.390903+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1040,7 +1054,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T14:16:30.410544+09:00",
+      "last_updated": "2026-06-17T14:26:07.070914+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1328,7 +1342,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T14:16:59.181946+09:00",
+      "last_updated": "2026-06-17T14:26:47.325199+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1485,7 +1499,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T14:17:26.003487+09:00",
+      "last_updated": "2026-06-17T14:27:13.982314+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5487,7 +5501,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-17T14:23:47.641245",
   "gmo_realtime": {
-    "fetched_at": "2026-06-17T14:23:28.357614+09:00",
+    "fetched_at": "2026-06-17T14:25:58.619434+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
