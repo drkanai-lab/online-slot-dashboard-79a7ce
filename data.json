@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-17T22:59:04.758802+09:00",
+  "generated": "2026-06-17T23:01:34.863378+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-17",
     "short": "6/17(水)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "六本木 美紀",
-    "visit_type": "再診",
-    "department": "婦人",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.16 23:27:55"
+    "time": "23:10",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -227,7 +225,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T22:59:03.671333+09:00",
+      "last_updated": "2026-06-17T23:01:33.540526+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -607,7 +605,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T22:50:38.159703+09:00",
+      "last_updated": "2026-06-17T23:00:41.350768+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -651,7 +649,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T22:51:10.699385+09:00",
+      "last_updated": "2026-06-17T23:01:08.232236+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5553,7 +5551,7 @@
   "sigma_qualified_count": 57,
   "sigma_last_run": "2026-06-17T22:58:52.213091",
   "gmo_realtime": {
-    "fetched_at": "2026-06-17T22:57:42.408178+09:00",
+    "fetched_at": "2026-06-17T23:00:14.355382+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
