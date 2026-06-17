@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-17T21:06:20.147037+09:00",
+  "generated": "2026-06-17T21:08:44.686098+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-17",
     "short": "6/17(水)",
     "time": "22:00",
     "code": "K",
-    "patient_name": "梶谷 真由",
-    "visit_type": "初診",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.17 07:30:12"
+    "status": "booked"
   },
   "days": [
     {
@@ -20,8 +18,8 @@
       "dow": "水",
       "open_count": 3,
       "booked_count": 6,
-      "new_count": 2,
-      "revisit_count": 4,
+      "new_count": 1,
+      "revisit_count": 5,
       "first_open": "22:50",
       "last_open": "23:20",
       "first_booked": "22:00",
@@ -31,8 +29,8 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 6,
         "CLINICS": 2,
+        "gcal": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -66,17 +64,7 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "梶谷 真由",
-              "visit_type": "初診",
-              "department": "",
-              "end_time": "22:10",
-              "qualified": true,
-              "qualified_at": "R08.06.17 07:30:12"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -237,7 +225,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-17T21:06:19.098140+09:00",
+      "last_updated": "2026-06-17T21:08:43.178337+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5545,9 +5533,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-17T21:03:51.198172",
+  "sigma_last_run": "2026-06-17T21:08:51.011301",
   "gmo_realtime": {
-    "fetched_at": "2026-06-17T21:04:57.502714+09:00",
+    "fetched_at": "2026-06-17T21:07:21.728320+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
