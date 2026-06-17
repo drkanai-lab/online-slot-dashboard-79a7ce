@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T08:36:14.953435+09:00",
+  "generated": "2026-06-18T08:40:43.502110+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -427,7 +427,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T08:36:13.477606+09:00",
+      "last_updated": "2026-06-18T08:40:42.157092+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2627,30 +2627,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:21:51.047988+09:00",
+      "last_updated": "2026-06-18T08:36:22.768322+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-02",
       "short": "7/2(木)",
       "dow": "木",
-      "open_count": 17,
-      "booked_count": 2,
+      "open_count": 16,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 2,
-      "first_open": "11:45",
+      "revisit_count": 3,
+      "first_open": "12:10",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "12:00",
       "per_platform_open": {
-        "SOKUYAKU": 3,
         "CLINICS": 10,
         "GMO": 2,
-        "クロン": 2
+        "クロン": 2,
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
-        "gcal": 2,
+        "SOKUYAKU": 2,
+        "gcal": 3,
         "CLINICS": 1
       },
       "full_platforms": [],
@@ -2695,12 +2695,26 @@
           "time": "11:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "石原 明日香",
+              "visit_type": "再診",
+              "department": "内科",
+              "end_time": "11:55"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "石原 明日香",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "12:00",
@@ -2909,7 +2923,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:22:21.887457+09:00",
+      "last_updated": "2026-06-18T08:36:53.225130+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3066,7 +3080,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:22:51.885053+09:00",
+      "last_updated": "2026-06-18T08:37:23.086026+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3143,7 +3157,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:23:21.630337+09:00",
+      "last_updated": "2026-06-18T08:37:54.017885+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3296,7 +3310,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:23:55.345491+09:00",
+      "last_updated": "2026-06-18T08:38:28.852900+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3563,7 +3577,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:24:29.540065+09:00",
+      "last_updated": "2026-06-18T08:39:04.959017+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3607,7 +3621,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:25:04.618531+09:00",
+      "last_updated": "2026-06-18T08:39:38.519057+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3775,7 +3789,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T07:25:38.004136+09:00",
+      "last_updated": "2026-06-18T08:40:11.655351+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5526,9 +5540,9 @@
     }
   ],
   "sigma_qualified_count": 52,
-  "sigma_last_run": "2026-06-18T08:33:48.472097",
+  "sigma_last_run": "2026-06-18T08:38:50.098208",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T08:34:47.766272+09:00",
+    "fetched_at": "2026-06-18T08:39:16.622606+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
