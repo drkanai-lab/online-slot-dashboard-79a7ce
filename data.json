@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T21:52:41.268570+09:00",
+  "generated": "2026-06-18T21:55:16.569251+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -359,14 +359,18 @@
               "patient_name": "鄭 博宇",
               "visit_type": "再診",
               "department": "整形",
-              "end_time": "22:55"
+              "end_time": "22:55",
+              "qualified": true,
+              "qualified_at": "R08.06.18 21:48:29"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "鄭 博宇",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.18 21:48:29"
             }
           ]
         },
@@ -442,7 +446,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T21:52:40.126191+09:00",
+      "last_updated": "2026-06-18T21:55:15.273387+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5597,10 +5601,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 57,
-  "sigma_last_run": "2026-06-18T21:48:55.280279",
+  "sigma_qualified_count": 58,
+  "sigma_last_run": "2026-06-18T21:53:54.801264",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T21:51:17.441425+09:00",
+    "fetched_at": "2026-06-18T21:53:49.623397+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
