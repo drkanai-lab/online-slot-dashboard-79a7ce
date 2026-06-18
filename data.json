@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T17:00:45.466764+09:00",
+  "generated": "2026-06-18T17:03:17.983112+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -20,8 +20,8 @@
       "dow": "木",
       "open_count": 5,
       "booked_count": 15,
-      "new_count": 3,
-      "revisit_count": 12,
+      "new_count": 4,
+      "revisit_count": 11,
       "first_open": "12:40",
       "last_open": "23:20",
       "first_booked": "11:20",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 14,
+        "gcal": 15,
         "SOKUYAKU": 4,
         "GMO": 2,
         "クロン": 1
@@ -423,7 +423,15 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "音野　麻理",
+              "visit_type": "初診",
+              "department": "耳鼻",
+              "end_time": "23:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -460,7 +468,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T17:00:43.248807+09:00",
+      "last_updated": "2026-06-18T17:03:16.597044+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5584,9 +5592,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-18T16:58:50.391327",
+  "sigma_last_run": "2026-06-18T17:03:52.999362",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T16:59:19.035595+09:00",
+    "fetched_at": "2026-06-18T17:01:53.733334+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
