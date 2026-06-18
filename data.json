@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-18T22:10:48.209440+09:00",
+  "generated": "2026-06-18T22:13:21.671285+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
     "short": "6/18(木)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "中野緑",
-    "visit_type": "初診",
-    "department": "花粉",
+    "patient_name": "宝力祐司",
+    "visit_type": "再診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.18 00:18:20"
+    "qualified_at": "R08.06.18 00:18:57"
   },
   "days": [
     {
@@ -450,7 +450,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T22:10:47.205053+09:00",
+      "last_updated": "2026-06-18T22:13:20.612212+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5606,9 +5606,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-18T22:08:51.906989",
+  "sigma_last_run": "2026-06-18T22:13:52.743554",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T22:09:14.929489+09:00",
+    "fetched_at": "2026-06-18T22:11:56.729330+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
