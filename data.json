@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-18T11:45:06.484058+09:00",
+  "generated": "2026-06-18T11:47:42.406139+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
     "short": "6/18(木)",
-    "time": "11:45",
-    "code": "S",
-    "patient_name": "林 洋行",
+    "time": "12:00",
+    "code": "C",
+    "patient_name": "福田光宏",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.18 00:16:25"
+    "qualified_at": "R08.06.18 00:16:46"
   },
   "days": [
     {
@@ -439,7 +439,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T11:45:05.167150+09:00",
+      "last_updated": "2026-06-18T11:47:41.147911+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5565,7 +5565,7 @@
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-06-18T11:43:50.025829",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T11:43:39.372484+09:00",
+    "fetched_at": "2026-06-18T11:46:14.522085+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
