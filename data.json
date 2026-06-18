@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T20:50:10.678474+09:00",
+  "generated": "2026-06-18T20:50:37.985669+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -16,29 +16,26 @@
       "date": "2026-06-18",
       "short": "6/18(木)",
       "dow": "木",
-      "open_count": 6,
-      "booked_count": 14,
+      "open_count": 7,
+      "booked_count": 13,
       "new_count": 3,
-      "revisit_count": 11,
+      "revisit_count": 10,
       "first_open": "12:40",
       "last_open": "23:20",
       "first_booked": "11:20",
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 4,
-        "クロン": 2
+        "クロン": 2,
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "CLINICS": 8,
-        "gcal": 14,
-        "SOKUYAKU": 4,
+        "gcal": 13,
+        "SOKUYAKU": 3,
         "GMO": 2
       },
       "full_platforms": [
-        {
-          "name": "SOKUYAKU",
-          "code": "S"
-        },
         {
           "name": "GMO",
           "code": "G"
@@ -341,21 +338,11 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "22:45"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "戸松 絵理",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:45",
-              "qualified": true,
-              "qualified_at": "R08.06.17 18:50:13"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -447,7 +434,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T20:47:59.713598+09:00",
+      "last_updated": "2026-06-18T20:50:36.743854+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
