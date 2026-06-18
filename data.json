@@ -1,13 +1,13 @@
 {
-  "generated": "2026-06-19T06:46:11.877964+09:00",
+  "generated": "2026-06-19T06:48:42.364339+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
     "short": "6/20(土)",
     "time": "12:00",
     "code": "K",
-    "patient_name": "",
-    "visit_type": "",
+    "patient_name": "古賀 泰成",
+    "visit_type": "再診",
     "department": "",
     "status": "booked"
   },
@@ -53,7 +53,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-19T06:46:11.874402+09:00",
+      "last_updated": "2026-06-19T06:48:42.360765+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -74,8 +74,8 @@
       },
       "per_platform_booked": {
         "クロン": 2,
+        "gcal": 9,
         "CLINICS": 3,
-        "gcal": 8,
         "SOKUYAKU": 4
       },
       "full_platforms": [
@@ -108,7 +108,15 @@
               "end_time": "12:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "古賀 泰成",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -376,7 +384,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-19T06:38:39.279781+09:00",
+      "last_updated": "2026-06-19T06:48:30.344343+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5298,10 +5306,10 @@
       "ts": "2026-06-18T20:50:09+09:00"
     }
   ],
-  "sigma_qualified_count": 48,
-  "sigma_last_run": "2026-06-19T06:33:50.828907",
+  "sigma_qualified_count": 49,
+  "sigma_last_run": "2026-06-19T06:48:51.291879",
   "gmo_realtime": {
-    "fetched_at": "2026-06-19T06:44:53.361314+09:00",
+    "fetched_at": "2026-06-19T06:47:24.262301+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
