@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-18T11:19:04.975818+09:00",
+  "generated": "2026-06-18T11:21:40.832904+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
     "short": "6/18(木)",
-    "time": "11:20",
-    "code": "C",
-    "patient_name": "熊谷聡子",
+    "time": "11:30",
+    "code": "S",
+    "patient_name": "小林 彩子",
     "visit_type": "再診",
     "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.18 00:08:34"
+    "qualified_at": "R08.06.18 00:15:59"
   },
   "days": [
     {
@@ -439,7 +439,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T11:19:03.421003+09:00",
+      "last_updated": "2026-06-18T11:21:39.389651+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -483,7 +483,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T11:10:29.224909+09:00",
+      "last_updated": "2026-06-18T11:20:20.616004+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -771,7 +771,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T11:11:04.743428+09:00",
+      "last_updated": "2026-06-18T11:20:47.500385+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -924,7 +924,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T11:11:32.133948+09:00",
+      "last_updated": "2026-06-18T11:21:14.647839+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5565,7 +5565,7 @@
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-06-18T11:18:49.203238",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T11:17:36.995067+09:00",
+    "fetched_at": "2026-06-18T11:20:14.103484+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
