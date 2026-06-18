@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-18T22:59:41.323953+09:00",
+  "generated": "2026-06-18T23:02:14.870213+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
     "short": "6/18(木)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "音野　麻理",
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "arakakimatias",
     "visit_type": "初診",
     "department": "耳鼻",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.18 21:52:50"
+    "status": "booked"
   },
   "days": [
     {
@@ -450,7 +448,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T22:59:40.207609+09:00",
+      "last_updated": "2026-06-18T23:02:13.849848+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5608,7 +5606,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-06-18T22:59:05.460301",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T22:58:15.869647+09:00",
+    "fetched_at": "2026-06-18T23:00:49.243429+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
