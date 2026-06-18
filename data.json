@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T20:45:25.243571+09:00",
+  "generated": "2026-06-18T20:48:01.184815+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -356,15 +356,7 @@
               "qualified_at": "R08.06.17 18:50:13"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "戸松 絵理",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.06.17 18:50:13"
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "22:45",
@@ -455,7 +447,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T20:45:24.199229+09:00",
+      "last_updated": "2026-06-18T20:47:59.713598+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -499,7 +491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T20:38:09.983261+09:00",
+      "last_updated": "2026-06-18T20:47:51.926778+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -718,7 +710,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "清水 美穂子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -5585,9 +5583,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-18T20:43:52.003330",
+  "sigma_last_run": "2026-06-18T20:48:52.453877",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T20:43:57.369230+09:00",
+    "fetched_at": "2026-06-18T20:46:33.977590+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
