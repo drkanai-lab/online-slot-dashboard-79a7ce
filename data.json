@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T15:01:09.620410+09:00",
+  "generated": "2026-06-18T15:03:44.519488+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-18",
@@ -18,28 +18,32 @@
       "date": "2026-06-18",
       "short": "6/18(木)",
       "dow": "木",
-      "open_count": 7,
-      "booked_count": 13,
+      "open_count": 6,
+      "booked_count": 14,
       "new_count": 3,
-      "revisit_count": 10,
+      "revisit_count": 11,
       "first_open": "12:40",
       "last_open": "23:20",
       "first_booked": "11:20",
-      "last_booked": "22:30",
+      "last_booked": "22:45",
       "per_platform_open": {
         "CLINICS": 4,
         "クロン": 1,
-        "SOKUYAKU": 1,
         "GMO": 1
       },
       "per_platform_booked": {
         "CLINICS": 8,
         "gcal": 13,
-        "SOKUYAKU": 3,
+        "SOKUYAKU": 4,
         "GMO": 1,
         "クロン": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        }
+      ],
       "ranges": [
         [
           "11:20",
@@ -376,12 +380,18 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "鄭 博宇",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -439,7 +449,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-18T15:01:08.164683+09:00",
+      "last_updated": "2026-06-18T15:03:42.985860+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5563,9 +5573,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-18T14:58:56.531174",
+  "sigma_last_run": "2026-06-18T15:03:50.680675",
   "gmo_realtime": {
-    "fetched_at": "2026-06-18T14:59:43.791516+09:00",
+    "fetched_at": "2026-06-18T15:02:17.963777+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
