@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T20:27:34.620097+09:00",
+  "generated": "2026-06-19T20:30:10.248798+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
@@ -53,7 +53,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-19T20:27:34.616545+09:00",
+      "last_updated": "2026-06-19T20:30:10.244040+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -74,7 +74,7 @@
       },
       "per_platform_booked": {
         "クロン": 2,
-        "gcal": 10,
+        "gcal": 11,
         "CLINICS": 5,
         "SOKUYAKU": 4
       },
@@ -344,7 +344,15 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "柏田滋美",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -392,7 +400,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-19T20:20:23.326406+09:00",
+      "last_updated": "2026-06-19T20:30:10.155116+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5308,9 +5316,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 49,
-  "sigma_last_run": "2026-06-19T20:23:50.658680",
+  "sigma_last_run": "2026-06-19T20:28:52.660805",
   "gmo_realtime": {
-    "fetched_at": "2026-06-19T20:26:15.133643+09:00",
+    "fetched_at": "2026-06-19T20:28:43.266439+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
