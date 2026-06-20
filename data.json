@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-20T13:50:14.906177+09:00",
+  "generated": "2026-06-20T13:52:47.704791+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
     "short": "6/20(土)",
-    "time": "13:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "22:00",
+    "code": "K",
+    "patient_name": "井上 岳",
+    "visit_type": "初診",
     "department": "",
-    "status": "open"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.18 09:10:14"
   },
   "days": [
     {
@@ -413,7 +415,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T13:50:13.663545+09:00",
+      "last_updated": "2026-06-20T13:52:46.466458+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5472,9 +5474,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 47,
-  "sigma_last_run": "2026-06-20T13:48:49.841159",
+  "sigma_last_run": "2026-06-20T13:53:50.526052",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T13:48:51.005603+09:00",
+    "fetched_at": "2026-06-20T13:51:23.075391+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
