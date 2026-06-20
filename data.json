@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T22:16:34.044949+09:00",
+  "generated": "2026-06-20T22:19:07.437626+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
@@ -376,7 +376,9 @@
               "patient_name": "山崎　暁幸",
               "visit_type": "初診",
               "department": "整形",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.06.20 22:15:23"
             }
           ],
           "sokuyaku_truth": []
@@ -423,7 +425,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T22:16:32.761536+09:00",
+      "last_updated": "2026-06-20T22:19:06.072305+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5511,10 +5513,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 47,
-  "sigma_last_run": "2026-06-20T22:13:57.729701",
+  "sigma_qualified_count": 48,
+  "sigma_last_run": "2026-06-20T22:19:00.581617",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T22:15:08.388850+09:00",
+    "fetched_at": "2026-06-20T22:17:41.508902+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
