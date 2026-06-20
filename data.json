@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T23:25:50.829785+09:00",
+  "generated": "2026-06-20T23:28:51.608490+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
@@ -397,7 +397,9 @@
               "patient_name": "成田久二",
               "visit_type": "初診",
               "department": "総診",
-              "end_time": "23:20"
+              "end_time": "23:20",
+              "qualified": true,
+              "qualified_at": "R08.06.20 23:25:37"
             }
           ],
           "sokuyaku_truth": []
@@ -425,7 +427,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T23:25:49.076213+09:00",
+      "last_updated": "2026-06-20T23:28:50.253527+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5513,10 +5515,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 49,
-  "sigma_last_run": "2026-06-20T23:23:49.501913",
+  "sigma_qualified_count": 50,
+  "sigma_last_run": "2026-06-20T23:28:54.826821",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T23:24:26.080490+09:00",
+    "fetched_at": "2026-06-20T23:27:02.078999+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
