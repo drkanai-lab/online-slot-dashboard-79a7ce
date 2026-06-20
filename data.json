@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T22:06:23.515754+09:00",
+  "generated": "2026-06-20T22:08:54.508396+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
@@ -20,8 +20,8 @@
       "dow": "土",
       "open_count": 8,
       "booked_count": 12,
-      "new_count": 3,
-      "revisit_count": 9,
+      "new_count": 4,
+      "revisit_count": 8,
       "first_open": "12:45",
       "last_open": "23:20",
       "first_booked": "12:00",
@@ -34,7 +34,7 @@
       },
       "per_platform_booked": {
         "クロン": 2,
-        "gcal": 11,
+        "gcal": 12,
         "CLINICS": 6,
         "SOKUYAKU": 3,
         "GMO": 1
@@ -389,7 +389,15 @@
               "end_time": "23:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "成田久二",
+              "visit_type": "初診",
+              "department": "総診",
+              "end_time": "23:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -415,7 +423,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T22:06:21.900449+09:00",
+      "last_updated": "2026-06-20T22:08:53.110845+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5504,9 +5512,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 47,
-  "sigma_last_run": "2026-06-20T22:03:50.685250",
+  "sigma_last_run": "2026-06-20T22:08:49.434971",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T22:04:58.584163+09:00",
+    "fetched_at": "2026-06-20T22:07:30.895961+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
