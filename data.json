@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-20T22:08:54.508396+09:00",
+  "generated": "2026-06-20T22:11:27.466352+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
     "short": "6/20(土)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "甲斐正弘",
-    "visit_type": "初診",
-    "department": "頭痛",
+    "patient_name": "蛭田仁",
+    "visit_type": "再診",
+    "department": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.17 15:35:11"
+    "qualified_at": "R08.06.18 21:00:08"
   },
   "days": [
     {
@@ -423,7 +423,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T22:08:53.110845+09:00",
+      "last_updated": "2026-06-20T22:11:26.179999+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5514,7 +5514,7 @@
   "sigma_qualified_count": 47,
   "sigma_last_run": "2026-06-20T22:08:49.434971",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T22:07:30.895961+09:00",
+    "fetched_at": "2026-06-20T22:10:03.445538+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
