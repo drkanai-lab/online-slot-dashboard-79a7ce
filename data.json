@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-20T23:09:55.066264+09:00",
+  "generated": "2026-06-20T23:12:31.386728+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
     "short": "6/20(土)",
-    "time": "23:10",
-    "code": "C",
-    "patient_name": "成田久二",
-    "visit_type": "初診",
-    "department": "総診",
-    "status": "booked"
+    "time": "23:20",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -425,7 +425,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T23:09:53.769265+09:00",
+      "last_updated": "2026-06-20T23:12:30.149021+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -593,7 +593,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T23:02:22.293033+09:00",
+      "last_updated": "2026-06-20T23:12:05.991012+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5187,7 +5187,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T21:55:01.110403+09:00",
+      "last_updated": "2026-06-20T23:10:28.887254+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5318,7 +5318,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T21:55:40.503633+09:00",
+      "last_updated": "2026-06-20T23:11:08.802465+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5508,7 +5508,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T21:56:20.367052+09:00",
+      "last_updated": "2026-06-20T23:11:47.754842+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -5516,7 +5516,7 @@
   "sigma_qualified_count": 49,
   "sigma_last_run": "2026-06-20T23:08:50.193801",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T23:08:03.460237+09:00",
+    "fetched_at": "2026-06-20T23:11:06.999027+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
