@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T11:39:18.934509+09:00",
+  "generated": "2026-06-20T11:41:49.091334+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
@@ -18,7 +18,7 @@
       "date": "2026-06-20",
       "short": "6/20(土)",
       "dow": "土",
-      "open_count": 3,
+      "open_count": 4,
       "booked_count": 11,
       "new_count": 3,
       "revisit_count": 8,
@@ -28,6 +28,7 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "SOKUYAKU": 1,
+        "GMO": 1,
         "CLINICS": 2
       },
       "per_platform_booked": {
@@ -41,23 +42,19 @@
         {
           "name": "クロン",
           "code": "K"
-        },
-        {
-          "name": "GMO",
-          "code": "G"
         }
       ],
       "ranges": [
         [
           "12:00",
-          "13:00"
+          "13:10"
         ],
         [
           "22:00",
           "23:30"
         ]
       ],
-      "range_text": "12:00〜13:00, 22:00〜23:30",
+      "range_text": "12:00〜13:10, 22:00〜23:30",
       "slots": [
         {
           "time": "12:00",
@@ -153,6 +150,17 @@
             "SOKUYAKU": {
               "status": "open",
               "end_time": "13:00"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "13:00",
+          "platforms": {
+            "GMO": {
+              "status": "open",
+              "end_time": "13:10"
             }
           },
           "gcals": [],
@@ -365,7 +373,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T11:39:17.580597+09:00",
+      "last_updated": "2026-06-20T11:41:47.765771+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1564,7 +1572,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T10:26:12.654350+09:00",
+      "last_updated": "2026-06-20T11:41:43.913215+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5473,7 +5481,7 @@
   "sigma_qualified_count": 46,
   "sigma_last_run": "2026-06-20T11:38:51.139108",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T11:37:55.993176+09:00",
+    "fetched_at": "2026-06-20T11:40:26.470593+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
