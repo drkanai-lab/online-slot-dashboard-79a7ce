@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-20T11:58:56.987335+09:00",
+  "generated": "2026-06-20T12:01:28.429742+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
     "short": "6/20(土)",
-    "time": "12:00",
-    "code": "K",
-    "patient_name": "古賀 泰成",
+    "time": "12:10",
+    "code": "C",
+    "patient_name": "かわぐちけんた",
     "visit_type": "再診",
     "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.19 06:45:15"
+    "status": "booked"
   },
   "days": [
     {
@@ -415,7 +413,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T11:58:55.753634+09:00",
+      "last_updated": "2026-06-20T12:01:27.125718+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5523,7 +5521,7 @@
   "sigma_qualified_count": 47,
   "sigma_last_run": "2026-06-20T11:58:51.613851",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T11:57:32.534456+09:00",
+    "fetched_at": "2026-06-20T12:00:04.832495+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
