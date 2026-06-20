@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-20T22:19:07.437626+09:00",
+  "generated": "2026-06-20T22:21:40.216693+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
     "short": "6/20(土)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "蛭田仁",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "清水 美穂子",
     "visit_type": "再診",
-    "department": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.18 21:00:08"
+    "department": "不眠",
+    "status": "booked"
   },
   "days": [
     {
@@ -425,7 +423,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T22:19:06.072305+09:00",
+      "last_updated": "2026-06-20T22:21:38.773986+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5516,7 +5514,7 @@
   "sigma_qualified_count": 48,
   "sigma_last_run": "2026-06-20T22:19:00.581617",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T22:17:41.508902+09:00",
+    "fetched_at": "2026-06-20T22:20:15.877961+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
