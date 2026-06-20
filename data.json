@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-20T12:28:50.097578+09:00",
+  "generated": "2026-06-20T12:33:16.365471+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
     "short": "6/20(土)",
-    "time": "12:30",
-    "code": "S",
-    "patient_name": "馬場 友萌",
-    "visit_type": "再診",
-    "department": "整形",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.19 00:17:53"
+    "time": "12:45",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "status": "open"
   },
   "days": [
     {
@@ -415,7 +413,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T12:28:48.865524+09:00",
+      "last_updated": "2026-06-20T12:33:15.013065+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5523,7 +5521,7 @@
   "sigma_qualified_count": 47,
   "sigma_last_run": "2026-06-20T12:28:51.641281",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T12:27:25.412737+09:00",
+    "fetched_at": "2026-06-20T12:31:51.715612+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
