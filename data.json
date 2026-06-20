@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T11:46:53.474212+09:00",
+  "generated": "2026-06-20T11:48:07.603171+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
@@ -106,7 +106,9 @@
               "patient_name": "山野瑛",
               "visit_type": "再診",
               "department": "",
-              "end_time": "12:30"
+              "end_time": "12:30",
+              "qualified": true,
+              "qualified_at": "R08.06.20 11:42:04"
             }
           ],
           "sokuyaku_truth": []
@@ -1055,7 +1057,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T11:37:21.035305+09:00",
+      "last_updated": "2026-06-20T11:47:12.128680+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1172,7 +1174,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T11:37:48.543510+09:00",
+      "last_updated": "2026-06-20T11:47:39.625606+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1292,7 +1294,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T11:38:23.744152+09:00",
+      "last_updated": "2026-06-20T11:48:06.291366+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3276,7 +3278,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T10:31:29.513080+09:00",
+      "last_updated": "2026-06-20T11:47:08.967432+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3444,7 +3446,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T10:32:03.953738+09:00",
+      "last_updated": "2026-06-20T11:47:42.651016+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5518,8 +5520,8 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 46,
-  "sigma_last_run": "2026-06-20T11:43:50.445213",
+  "sigma_qualified_count": 47,
+  "sigma_last_run": "2026-06-20T11:48:51.936429",
   "gmo_realtime": {
     "fetched_at": "2026-06-20T11:45:28.853325+09:00",
     "scrape_ok": true,
