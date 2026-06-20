@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T11:04:12.464289+09:00",
+  "generated": "2026-06-20T11:06:47.560283+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-20",
@@ -169,15 +169,7 @@
               "qualified_at": "R08.06.19 00:11:23"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "久我 ちひろ",
-              "visit_type": "初診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.06.19 00:11:23"
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "13:30",
@@ -386,7 +378,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T11:04:11.136473+09:00",
+      "last_updated": "2026-06-20T11:06:45.864099+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -539,7 +531,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T10:56:27.342008+09:00",
+      "last_updated": "2026-06-20T11:06:12.116202+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -827,7 +819,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-20T10:56:55.132918+09:00",
+      "last_updated": "2026-06-20T11:06:39.658749+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5494,7 +5486,7 @@
   "sigma_qualified_count": 46,
   "sigma_last_run": "2026-06-20T11:03:50.635803",
   "gmo_realtime": {
-    "fetched_at": "2026-06-20T11:02:48.605068+09:00",
+    "fetched_at": "2026-06-20T11:05:22.931156+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
