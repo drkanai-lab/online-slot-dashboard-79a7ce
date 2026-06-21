@@ -1,37 +1,38 @@
 {
-  "generated": "2026-06-21T17:32:36.425518+09:00",
+  "generated": "2026-06-21T17:34:03.520262+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
     "short": "6/21(日)",
     "time": "22:30",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "code": "S",
+    "patient_name": "菊池 咲翔",
+    "visit_type": "初診",
+    "department": "消化器科",
+    "status": "booked"
   },
   "days": [
     {
       "date": "2026-06-21",
       "short": "6/21(日)",
       "dow": "日",
-      "open_count": 5,
-      "booked_count": 2,
-      "new_count": 1,
+      "open_count": 4,
+      "booked_count": 3,
+      "new_count": 2,
       "revisit_count": 1,
-      "first_open": "22:30",
+      "first_open": "22:45",
       "last_open": "23:30",
-      "first_booked": "23:00",
+      "first_booked": "22:30",
       "last_booked": "23:10",
       "per_platform_open": {
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 1,
         "CLINICS": 2,
         "クロン": 1
       },
       "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 3,
         "GMO": 1,
-        "gcal": 2,
         "CLINICS": 1
       },
       "full_platforms": [
@@ -74,11 +75,19 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "菊池 咲翔",
+              "visit_type": "初診",
+              "department": "消化器科",
+              "end_time": "22:40"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "菊池 咲翔",
@@ -172,7 +181,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T17:31:33.160068+09:00",
+      "last_updated": "2026-06-21T17:34:01.905352+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2463,7 +2472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T16:18:38.013164+09:00",
+      "last_updated": "2026-06-21T17:32:41.568332+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2616,7 +2625,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T16:19:09.821682+09:00",
+      "last_updated": "2026-06-21T17:33:11.420946+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2883,7 +2892,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T16:19:42.352252+09:00",
+      "last_updated": "2026-06-21T17:33:44.401225+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5270,12 +5279,19 @@
       "date": "2026-06-22",
       "time": "19:15",
       "ts": "2026-06-21T13:45:31+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "菊池 咲翔",
+      "date": "2026-06-21",
+      "time": "22:30",
+      "ts": "2026-06-21T17:34:02+09:00"
     }
   ],
   "sigma_qualified_count": 44,
-  "sigma_last_run": "2026-06-21T17:28:49.391570",
+  "sigma_last_run": "2026-06-21T17:33:49.466133",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T17:30:13.123428+09:00",
+    "fetched_at": "2026-06-21T17:32:41.530825+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
