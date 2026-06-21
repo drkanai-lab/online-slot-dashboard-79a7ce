@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T13:45:22.968746+09:00",
+  "generated": "2026-06-21T13:45:31.644083+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
@@ -1257,7 +1257,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T13:36:02.203729+09:00",
+      "last_updated": "2026-06-21T13:45:29.758584+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5257,7 +5257,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "PARK ILGYU",
+      "date": "2026-06-22",
+      "time": "19:15",
+      "ts": "2026-06-21T13:45:31+09:00"
+    }
+  ],
   "sigma_qualified_count": 44,
   "sigma_last_run": "2026-06-21T13:43:49.438126",
   "gmo_realtime": {
