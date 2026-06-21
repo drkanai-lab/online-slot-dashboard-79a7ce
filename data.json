@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T20:38:09.798512+09:00",
+  "generated": "2026-06-21T20:40:41.725595+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
@@ -16,23 +16,23 @@
       "date": "2026-06-21",
       "short": "6/21(日)",
       "dow": "日",
-      "open_count": 3,
-      "booked_count": 4,
+      "open_count": 2,
+      "booked_count": 5,
       "new_count": 2,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "22:45",
-      "last_open": "23:20",
+      "last_open": "22:50",
       "first_booked": "22:30",
       "last_booked": "23:30",
       "per_platform_open": {
         "SOKUYAKU": 1,
-        "CLINICS": 2
+        "CLINICS": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
         "gcal": 4,
         "GMO": 1,
-        "CLINICS": 1,
+        "CLINICS": 2,
         "クロン": 1
       },
       "full_platforms": [
@@ -166,8 +166,8 @@
           "time": "23:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:30"
             }
           },
           "gcals": [],
@@ -193,7 +193,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T20:38:08.403057+09:00",
+      "last_updated": "2026-06-21T20:40:40.104136+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -518,7 +518,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T20:30:48.516272+09:00",
+      "last_updated": "2026-06-21T20:40:35.585076+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5291,7 +5291,7 @@
   "sigma_qualified_count": 45,
   "sigma_last_run": "2026-06-21T20:38:51.801907",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T20:36:47.802993+09:00",
+    "fetched_at": "2026-06-21T20:39:17.395961+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
