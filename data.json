@@ -1,17 +1,15 @@
 {
-  "generated": "2026-06-21T23:18:38.638237+09:00",
+  "generated": "2026-06-21T23:21:07.663583+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
     "short": "6/21(日)",
-    "time": "23:20",
-    "code": "C",
-    "patient_name": "小池和代",
-    "visit_type": "初診",
-    "department": "発熱",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.21 20:40:07"
+    "time": "23:30",
+    "code": "K",
+    "patient_name": "張 銘峰",
+    "visit_type": "再診",
+    "department": "",
+    "status": "booked"
   },
   "days": [
     {
@@ -209,7 +207,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T23:18:37.349486+09:00",
+      "last_updated": "2026-06-21T23:21:06.310540+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5332,7 +5330,7 @@
   "sigma_qualified_count": 48,
   "sigma_last_run": "2026-06-21T23:18:53.936186",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T23:17:17.030111+09:00",
+    "fetched_at": "2026-06-21T23:19:46.398260+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
