@@ -1,15 +1,17 @@
 {
-  "generated": "2026-06-21T23:00:45.209753+09:00",
+  "generated": "2026-06-21T23:03:17.168389+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
     "short": "6/21(日)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "高橋　美紀",
-    "visit_type": "初診",
-    "department": "眼",
-    "status": "booked"
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "山本広人",
+    "visit_type": "再診",
+    "department": "",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.21 11:00:08"
   },
   "days": [
     {
@@ -207,7 +209,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T23:00:43.938573+09:00",
+      "last_updated": "2026-06-21T23:03:15.744933+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -532,7 +534,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T22:53:33.498237+09:00",
+      "last_updated": "2026-06-21T23:03:03.308632+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5327,9 +5329,9 @@
     }
   ],
   "sigma_qualified_count": 48,
-  "sigma_last_run": "2026-06-21T22:58:50.842870",
+  "sigma_last_run": "2026-06-21T23:03:53.420076",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T22:59:22.948258+09:00",
+    "fetched_at": "2026-06-21T23:01:54.948938+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
