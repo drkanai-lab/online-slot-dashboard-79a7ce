@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-21T23:08:21.776253+09:00",
+  "generated": "2026-06-21T23:11:06.485774+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
     "short": "6/21(日)",
-    "time": "23:10",
+    "time": "23:20",
     "code": "C",
-    "patient_name": "山本広人",
-    "visit_type": "再診",
-    "department": "",
+    "patient_name": "小池和代",
+    "visit_type": "初診",
+    "department": "発熱",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.21 11:00:08"
+    "qualified_at": "R08.06.21 20:40:07"
   },
   "days": [
     {
@@ -209,7 +209,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T23:08:20.486464+09:00",
+      "last_updated": "2026-06-21T23:11:05.251057+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5331,7 +5331,7 @@
   "sigma_qualified_count": 48,
   "sigma_last_run": "2026-06-21T23:08:52.404946",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T23:06:59.691006+09:00",
+    "fetched_at": "2026-06-21T23:09:34.748863+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
