@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T08:41:57.473071+09:00",
+  "generated": "2026-06-22T08:44:27.043565+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
@@ -120,7 +120,9 @@
               "patient_name": "藤井遥香",
               "visit_type": "再診",
               "department": "",
-              "end_time": "19:00"
+              "end_time": "19:00",
+              "qualified": true,
+              "qualified_at": "R08.06.22 08:40:36"
             }
           ],
           "sokuyaku_truth": []
@@ -313,7 +315,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T08:41:56.191200+09:00",
+      "last_updated": "2026-06-22T08:44:25.784955+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5261,10 +5263,10 @@
       "ts": "2026-06-21T22:36:30+09:00"
     }
   ],
-  "sigma_qualified_count": 46,
-  "sigma_last_run": "2026-06-22T08:38:51.376508",
+  "sigma_qualified_count": 47,
+  "sigma_last_run": "2026-06-22T08:43:50.197782",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T08:40:34.607260+09:00",
+    "fetched_at": "2026-06-22T08:43:05.295413+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
