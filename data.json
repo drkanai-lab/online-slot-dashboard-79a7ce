@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T21:28:18.474531+09:00",
+  "generated": "2026-06-21T21:30:07.553182+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
@@ -685,7 +685,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T21:18:58.166027+09:00",
+      "last_updated": "2026-06-21T21:28:26.804864+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -729,7 +729,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T21:19:22.064064+09:00",
+      "last_updated": "2026-06-21T21:28:51.520607+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -846,7 +846,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T21:19:45.741427+09:00",
+      "last_updated": "2026-06-21T21:29:15.961490+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -966,32 +966,33 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T21:20:09.691335+09:00",
+      "last_updated": "2026-06-21T21:29:39.664336+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-27",
       "short": "6/27(土)",
       "dow": "土",
-      "open_count": 15,
-      "booked_count": 5,
-      "new_count": 1,
+      "open_count": 14,
+      "booked_count": 6,
+      "new_count": 2,
       "revisit_count": 4,
       "first_open": "12:30",
       "last_open": "23:20",
       "first_booked": "12:45",
-      "last_booked": "19:20",
+      "last_booked": "19:30",
       "per_platform_open": {
         "SOKUYAKU": 5,
-        "クロン": 2,
         "CLINICS": 7,
+        "クロン": 1,
         "GMO": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
-        "gcal": 4,
+        "gcal": 5,
         "GMO": 1,
-        "CLINICS": 3
+        "CLINICS": 3,
+        "クロン": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -1162,11 +1163,19 @@
           "time": "19:30",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "太神 尚士",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "19:40"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1302,7 +1311,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T21:20:36.184920+09:00",
+      "last_updated": "2026-06-21T21:30:05.436265+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5301,7 +5310,7 @@
   "sigma_qualified_count": 46,
   "sigma_last_run": "2026-06-21T21:28:52.006558",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T21:26:56.965114+09:00",
+    "fetched_at": "2026-06-21T21:29:26.492093+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
