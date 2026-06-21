@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T11:02:32.457751+09:00",
+  "generated": "2026-06-21T11:04:31.463269+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
@@ -136,7 +136,9 @@
               "patient_name": "山本広人",
               "visit_type": "再診",
               "department": "",
-              "end_time": "23:20"
+              "end_time": "23:20",
+              "qualified": true,
+              "qualified_at": "R08.06.21 11:00:08"
             }
           ],
           "sokuyaku_truth": []
@@ -164,7 +166,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T11:02:01.722606+09:00",
+      "last_updated": "2026-06-21T11:04:30.758494+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5234,10 +5236,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 42,
-  "sigma_last_run": "2026-06-21T10:58:48.143421",
+  "sigma_qualified_count": 43,
+  "sigma_last_run": "2026-06-21T11:03:49.072136",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T11:00:40.983711+09:00",
+    "fetched_at": "2026-06-21T11:03:10.725182+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
