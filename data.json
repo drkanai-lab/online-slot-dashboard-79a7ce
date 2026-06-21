@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T22:23:17.507386+09:00",
+  "generated": "2026-06-21T22:25:47.740757+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
@@ -9,7 +9,9 @@
     "patient_name": "菊池 咲翔",
     "visit_type": "初診",
     "department": "消化器科",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.21 22:19:24"
   },
   "days": [
     {
@@ -89,14 +91,18 @@
               "patient_name": "菊池 咲翔",
               "visit_type": "初診",
               "department": "消化器科",
-              "end_time": "22:40"
+              "end_time": "22:40",
+              "qualified": true,
+              "qualified_at": "R08.06.21 22:19:24"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "菊池 咲翔",
               "visit_type": "初診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.21 22:19:24"
             }
           ]
         },
@@ -203,7 +209,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T22:23:16.136666+09:00",
+      "last_updated": "2026-06-21T22:25:46.442305+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -528,7 +534,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T22:15:34.850188+09:00",
+      "last_updated": "2026-06-21T22:24:58.485191+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -685,7 +691,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T22:15:58.529299+09:00",
+      "last_updated": "2026-06-21T22:25:22.561956+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -729,7 +735,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T22:16:22.702896+09:00",
+      "last_updated": "2026-06-21T22:25:45.799920+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5307,10 +5313,10 @@
       "ts": "2026-06-21T19:43:09+09:00"
     }
   ],
-  "sigma_qualified_count": 47,
-  "sigma_last_run": "2026-06-21T22:18:51.804922",
+  "sigma_qualified_count": 48,
+  "sigma_last_run": "2026-06-21T22:23:54.726118",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T22:21:56.316401+09:00",
+    "fetched_at": "2026-06-21T22:24:25.134689+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
