@@ -1,15 +1,15 @@
 {
-  "generated": "2026-06-21T22:50:42.900343+09:00",
+  "generated": "2026-06-21T22:53:13.170526+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
     "short": "6/21(日)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "高橋　美紀",
+    "visit_type": "初診",
+    "department": "眼",
+    "status": "booked"
   },
   "days": [
     {
@@ -207,7 +207,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T22:50:41.621577+09:00",
+      "last_updated": "2026-06-21T22:53:11.866598+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5326,10 +5326,10 @@
       "ts": "2026-06-21T19:43:09+09:00"
     }
   ],
-  "sigma_qualified_count": 45,
-  "sigma_last_run": "2026-06-21T22:49:03.673389",
+  "sigma_qualified_count": 48,
+  "sigma_last_run": "2026-06-21T22:54:01.411937",
   "gmo_realtime": {
-    "fetched_at": "2026-06-21T22:49:21.433094+09:00",
+    "fetched_at": "2026-06-21T22:51:51.450789+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
