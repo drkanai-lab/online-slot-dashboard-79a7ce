@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T19:35:40.841450+09:00",
+  "generated": "2026-06-21T19:36:05.739133+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
@@ -967,7 +967,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
-        "gcal": 3,
+        "gcal": 4,
         "GMO": 1,
         "CLINICS": 3
       },
@@ -1125,7 +1125,15 @@
               "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "かわぐちけんた",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:30"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1272,7 +1280,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T19:26:26.261879+09:00",
+      "last_updated": "2026-06-21T19:36:04.371094+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
