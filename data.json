@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T20:42:43.204549+09:00",
+  "generated": "2026-06-21T20:43:11.100877+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-21",
@@ -18,8 +18,8 @@
       "dow": "日",
       "open_count": 2,
       "booked_count": 5,
-      "new_count": 2,
-      "revisit_count": 3,
+      "new_count": 3,
+      "revisit_count": 2,
       "first_open": "22:45",
       "last_open": "22:50",
       "first_booked": "22:30",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 1,
-        "gcal": 4,
+        "gcal": 5,
         "GMO": 1,
         "CLINICS": 2,
         "クロン": 1
@@ -170,7 +170,17 @@
               "end_time": "23:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "小池和代",
+              "visit_type": "初診",
+              "department": "発熱",
+              "end_time": "23:30",
+              "qualified": true,
+              "qualified_at": "R08.06.21 20:40:07"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -193,7 +203,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-21T20:40:40.104136+09:00",
+      "last_updated": "2026-06-21T20:43:09.823009+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
