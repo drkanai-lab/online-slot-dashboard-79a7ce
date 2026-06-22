@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T15:37:06.351443+09:00",
+  "generated": "2026-06-22T15:38:23.546968+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 9,
+        "gcal": 10,
         "CLINICS": 3,
         "SOKUYAKU": 4,
         "クロン": 1
@@ -281,7 +281,18 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "弓削 佳之",
+              "visit_type": "再診",
+              "department": "耳鼻",
+              "end_time": "22:55",
+              "karte_id": "",
+              "qualified": true,
+              "qualified_at": "R08.06.17 22:09:07"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "弓削 佳之",
@@ -370,7 +381,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T15:35:50.480472+09:00",
+      "last_updated": "2026-06-22T15:38:22.148157+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5361,9 +5372,9 @@
     }
   ],
   "sigma_qualified_count": 53,
-  "sigma_last_run": "2026-06-22T15:33:51.999698",
+  "sigma_last_run": "2026-06-22T15:38:53.175065",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T15:34:28.621945+09:00",
+    "fetched_at": "2026-06-22T15:37:00.664809+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
