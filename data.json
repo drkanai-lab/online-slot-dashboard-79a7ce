@@ -1,16 +1,16 @@
 {
-  "generated": "2026-06-22T22:19:24.198974+09:00",
+  "generated": "2026-06-22T22:21:56.053057+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
     "short": "6/22(月)",
-    "time": "22:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "藤沢 朋広",
+    "visit_type": "再診",
+    "department": "循内",
     "karte_id": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -392,7 +392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T22:19:22.518892+09:00",
+      "last_updated": "2026-06-22T22:21:54.632006+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5394,7 +5394,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-06-22T22:18:54.542600",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T22:17:58.570273+09:00",
+    "fetched_at": "2026-06-22T22:20:33.242177+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
