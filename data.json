@@ -1,16 +1,18 @@
 {
-  "generated": "2026-06-22T18:29:10.588703+09:00",
+  "generated": "2026-06-22T18:31:44.931978+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
     "short": "6/22(月)",
-    "time": "18:30",
-    "code": "G",
-    "patient_name": "西村　美和子",
+    "time": "18:40",
+    "code": "C",
+    "patient_name": "藤田佳男",
     "visit_type": "再診",
-    "department": "不眠",
-    "karte_id": "",
-    "status": "booked"
+    "department": "",
+    "karte_id": "148362",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.22 12:29:25"
   },
   "days": [
     {
@@ -381,7 +383,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T18:29:09.195451+09:00",
+      "last_updated": "2026-06-22T18:31:43.518798+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4727,7 +4729,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T17:14:06.143460+09:00",
+      "last_updated": "2026-06-22T18:29:40.861562+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4858,7 +4860,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T17:14:43.660648+09:00",
+      "last_updated": "2026-06-22T18:30:22.704150+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5048,7 +5050,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T17:15:21.538966+09:00",
+      "last_updated": "2026-06-22T18:30:59.629401+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5190,7 +5192,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T17:15:58.138883+09:00",
+      "last_updated": "2026-06-22T18:31:35.693478+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5374,7 +5376,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-22T18:28:51.798642",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T18:27:46.548539+09:00",
+    "fetched_at": "2026-06-22T18:30:21.226881+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
