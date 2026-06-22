@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T07:40:18.187833+09:00",
+  "generated": "2026-06-23T07:42:18.348868+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -130,7 +130,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "小島 賢司",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -188,7 +194,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T07:39:48.876491+09:00",
+      "last_updated": "2026-06-23T07:42:17.657303+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5209,7 +5215,7 @@
   "sigma_qualified_count": 52,
   "sigma_last_run": "2026-06-23T07:34:00.753718",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T07:38:30.368629+09:00",
+    "fetched_at": "2026-06-23T07:40:58.550099+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
