@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-22T23:00:43.778138+09:00",
+  "generated": "2026-06-22T23:03:16.108440+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
     "short": "6/22(月)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "坂原 千空",
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "吉田桜子",
     "visit_type": "再診",
-    "department": "不眠",
-    "karte_id": "",
+    "department": "",
+    "karte_id": "149925",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.22 12:34:17"
+    "qualified_at": "R08.06.22 12:29:47"
   },
   "days": [
     {
@@ -394,7 +394,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T23:00:42.399808+09:00",
+      "last_updated": "2026-06-22T23:03:14.815324+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5394,9 +5394,9 @@
     }
   ],
   "sigma_qualified_count": 57,
-  "sigma_last_run": "2026-06-22T22:58:58.297435",
+  "sigma_last_run": "2026-06-22T23:03:54.373503",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T22:59:20.954148+09:00",
+    "fetched_at": "2026-06-22T23:01:53.390986+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
