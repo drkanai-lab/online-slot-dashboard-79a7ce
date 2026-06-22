@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T10:14:58.782138+09:00",
+  "generated": "2026-06-22T10:17:32.274085+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
@@ -30,7 +30,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 3,
         "SOKUYAKU": 2,
         "クロン": 1
@@ -289,7 +289,15 @@
               "end_time": "23:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "吉田桜子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:20"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -315,7 +323,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T10:14:57.059545+09:00",
+      "last_updated": "2026-06-22T10:17:31.011812+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5221,7 +5229,7 @@
   "sigma_qualified_count": 47,
   "sigma_last_run": "2026-06-22T10:13:51.844945",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T10:13:33.756182+09:00",
+    "fetched_at": "2026-06-22T10:16:10.203668+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
