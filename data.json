@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-22T18:49:29.042183+09:00",
+  "generated": "2026-06-22T18:52:01.501828+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
     "short": "6/22(月)",
-    "time": "18:50",
-    "code": "C",
-    "patient_name": "藤井遥香",
-    "visit_type": "再診",
-    "department": "",
-    "karte_id": "152426",
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "廣瀬 駿",
+    "visit_type": "初診",
+    "department": "皮膚",
+    "karte_id": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.22 08:40:36"
+    "qualified_at": "R08.06.22 12:28:06"
   },
   "days": [
     {
@@ -383,7 +383,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T18:49:27.613106+09:00",
+      "last_updated": "2026-06-22T18:52:00.162318+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5376,7 +5376,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-22T18:49:05.205872",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T18:48:04.397360+09:00",
+    "fetched_at": "2026-06-22T18:50:37.313845+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
