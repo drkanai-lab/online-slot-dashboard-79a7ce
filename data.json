@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T14:56:49.690757+09:00",
+  "generated": "2026-06-22T14:57:24.935485+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
@@ -17,23 +17,23 @@
       "date": "2026-06-22",
       "short": "6/22(月)",
       "dow": "月",
-      "open_count": 6,
-      "booked_count": 8,
+      "open_count": 5,
+      "booked_count": 9,
       "new_count": 2,
-      "revisit_count": 6,
+      "revisit_count": 7,
       "first_open": "22:10",
       "last_open": "23:20",
       "first_booked": "18:30",
       "last_booked": "23:10",
       "per_platform_open": {
         "CLINICS": 4,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 3,
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 3,
         "クロン": 1
       },
       "full_platforms": [
@@ -248,11 +248,20 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "藤沢 朋広",
+              "visit_type": "再診",
+              "department": "循内",
+              "end_time": "22:40",
+              "karte_id": ""
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "藤沢 朋広",
@@ -350,7 +359,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T14:54:50.793695+09:00",
+      "last_updated": "2026-06-22T14:57:23.222107+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5331,7 +5340,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "藤沢 朋広",
+      "date": "2026-06-22",
+      "time": "22:30",
+      "ts": "2026-06-22T14:57:24+09:00"
+    }
+  ],
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-22T14:53:57.525503",
   "gmo_realtime": {
