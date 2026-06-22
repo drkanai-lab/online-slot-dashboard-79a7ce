@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-22T18:39:19.437794+09:00",
+  "generated": "2026-06-22T18:41:50.428200+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
     "short": "6/22(月)",
-    "time": "18:40",
+    "time": "18:50",
     "code": "C",
-    "patient_name": "藤田佳男",
+    "patient_name": "藤井遥香",
     "visit_type": "再診",
     "department": "",
-    "karte_id": "148362",
+    "karte_id": "152426",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.22 12:29:25"
+    "qualified_at": "R08.06.22 08:40:36"
   },
   "days": [
     {
@@ -383,7 +383,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T18:39:18.127093+09:00",
+      "last_updated": "2026-06-22T18:41:49.215731+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5376,7 +5376,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-22T18:38:53.072294",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T18:37:55.766707+09:00",
+    "fetched_at": "2026-06-22T18:40:27.366092+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
