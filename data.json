@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T12:42:32.627874+09:00",
+  "generated": "2026-06-22T12:45:04.742060+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
@@ -208,7 +208,9 @@
               "patient_name": "入谷 悠子",
               "visit_type": "初診",
               "department": "",
-              "end_time": "22:10"
+              "end_time": "22:10",
+              "qualified": true,
+              "qualified_at": "R08.06.22 12:32:59"
             }
           ],
           "sokuyaku_truth": []
@@ -282,7 +284,9 @@
               "patient_name": "坂原 千空",
               "visit_type": "再診",
               "department": "不眠",
-              "end_time": "23:10"
+              "end_time": "23:10",
+              "qualified": true,
+              "qualified_at": "R08.06.22 12:34:17"
             }
           ],
           "sokuyaku_truth": []
@@ -331,7 +335,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T12:42:31.313484+09:00",
+      "last_updated": "2026-06-22T12:45:03.484067+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5271,10 +5275,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 49,
-  "sigma_last_run": "2026-06-22T12:39:11.528613",
+  "sigma_qualified_count": 53,
+  "sigma_last_run": "2026-06-22T12:44:02.582324",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T12:41:09.769315+09:00",
+    "fetched_at": "2026-06-22T12:43:41.084579+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
