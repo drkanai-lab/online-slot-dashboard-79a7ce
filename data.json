@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-22T21:58:57.223954+09:00",
+  "generated": "2026-06-22T22:01:29.180770+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-22",
     "short": "6/22(月)",
-    "time": "22:00",
-    "code": "K",
-    "patient_name": "入谷 悠子",
-    "visit_type": "初診",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "小島克之",
+    "visit_type": "再診",
     "department": "",
-    "karte_id": "",
+    "karte_id": "152472",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.22 12:32:59"
+    "qualified_at": "R08.06.22 19:25:47"
   },
   "days": [
     {
@@ -394,7 +394,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-22T21:58:55.833498+09:00",
+      "last_updated": "2026-06-22T22:01:27.618776+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5387,7 +5387,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-06-22T21:58:55.127548",
   "gmo_realtime": {
-    "fetched_at": "2026-06-22T21:57:33.693914+09:00",
+    "fetched_at": "2026-06-22T22:00:05.776179+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
