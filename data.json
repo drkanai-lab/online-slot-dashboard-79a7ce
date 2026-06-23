@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T11:56:39.953999+09:00",
+  "generated": "2026-06-23T11:59:07.181502+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -9,7 +9,7 @@
     "patient_name": "吉村 菜緒",
     "visit_type": "再診",
     "department": "",
-    "karte_id": "",
+    "karte_id": "149956",
     "status": "booked",
     "qualified": true,
     "qualified_at": "R08.06.22 23:21:37"
@@ -59,7 +59,7 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "22:10",
-              "karte_id": "",
+              "karte_id": "149956",
               "qualified": true,
               "qualified_at": "R08.06.22 23:21:37"
             }
@@ -185,7 +185,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T11:56:39.620305+09:00",
+      "last_updated": "2026-06-23T11:59:06.433166+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4051,7 +4051,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T10:41:54.714760+09:00",
+      "last_updated": "2026-06-23T11:57:12.038395+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4231,7 +4231,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T10:42:29.890183+09:00",
+      "last_updated": "2026-06-23T11:57:59.395109+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4384,7 +4384,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T10:43:08.490882+09:00",
+      "last_updated": "2026-06-23T11:58:32.582379+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5222,9 +5222,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 52,
-  "sigma_last_run": "2026-06-23T11:53:51.154345",
+  "sigma_last_run": "2026-06-23T11:58:52.396946",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T11:55:21.380466+09:00",
+    "fetched_at": "2026-06-23T11:57:48.565987+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
