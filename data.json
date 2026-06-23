@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T21:45:56.656802+09:00",
+  "generated": "2026-06-23T21:48:30.132038+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -266,7 +266,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:45:55.288141+09:00",
+      "last_updated": "2026-06-23T21:48:28.701874+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -439,31 +439,35 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:36:01.498075+09:00",
+      "last_updated": "2026-06-23T21:46:23.465078+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-26",
       "short": "6/26(金)",
       "dow": "金",
-      "open_count": 6,
-      "booked_count": 1,
+      "open_count": 4,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 1,
+      "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "22:50",
-      "first_booked": "23:00",
+      "first_booked": "22:30",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 3,
-        "SOKUYAKU": 2
+        "CLINICS": 3
       },
       "per_platform_booked": {
-        "GMO": 1,
-        "gcal": 1
+        "SOKUYAKU": 2,
+        "gcal": 3,
+        "GMO": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -514,11 +518,20 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 奈央子",
+              "visit_type": "再診",
+              "department": "漢方",
+              "end_time": "22:40",
+              "karte_id": ""
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 奈央子",
@@ -531,12 +544,27 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 宣郎",
+              "visit_type": "再診",
+              "department": "漢方",
+              "end_time": "22:55",
+              "karte_id": ""
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "黒井 宣郎",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -581,7 +609,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:36:29.994889+09:00",
+      "last_updated": "2026-06-23T21:47:03.080775+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -931,7 +959,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:36:55.217539+09:00",
+      "last_updated": "2026-06-23T21:47:32.756841+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1560,7 +1588,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T20:32:57.603972+09:00",
+      "last_updated": "2026-06-23T21:48:20.124740+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5360,9 +5388,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-23T21:43:52.533134",
+  "sigma_last_run": "2026-06-23T21:49:01.500957",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T21:44:34.178937+09:00",
+    "fetched_at": "2026-06-23T21:47:07.794222+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
