@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T17:49:49.449635+09:00",
+  "generated": "2026-06-23T17:52:19.488383+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -21,8 +21,8 @@
       "dow": "火",
       "open_count": 2,
       "booked_count": 7,
-      "new_count": 2,
-      "revisit_count": 5,
+      "new_count": 3,
+      "revisit_count": 4,
       "first_open": "22:50",
       "last_open": "23:20",
       "first_booked": "22:00",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 3,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -220,7 +220,16 @@
               "end_time": "23:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "藤崎瑠維",
+              "visit_type": "初診",
+              "department": "整形",
+              "end_time": "23:20",
+              "karte_id": ""
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -246,7 +255,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T17:49:48.162949+09:00",
+      "last_updated": "2026-06-23T17:52:18.148239+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5293,7 +5302,7 @@
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-06-23T17:48:52.028315",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T17:48:26.984615+09:00",
+    "fetched_at": "2026-06-23T17:50:57.398870+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
