@@ -1,19 +1,17 @@
 {
-  "generated": "2026-06-23T23:20:53.558672+09:00",
+  "generated": "2026-06-23T23:22:32.808685+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-06-23",
-    "short": "6/23(火)",
-    "time": "23:20",
-    "code": "C",
-    "patient_name": "中村咲",
-    "visit_type": "初診",
-    "department": "婦人",
-    "karte_id": "50000405",
-    "karte_src": "platform",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.23 20:40:10"
+    "date": "2026-06-25",
+    "short": "6/25(木)",
+    "time": "22:10",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "karte_id": "",
+    "karte_src": "",
+    "status": "open"
   },
   "days": [
     {
@@ -1043,7 +1041,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T23:11:23.230352+09:00",
+      "last_updated": "2026-06-23T23:21:07.173270+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1335,7 +1333,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T23:11:51.893828+09:00",
+      "last_updated": "2026-06-23T23:22:00.887780+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1566,7 +1564,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T23:12:20.517256+09:00",
+      "last_updated": "2026-06-23T23:22:31.488055+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5519,7 +5517,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-06-23T23:18:51.993736",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T23:19:28.097928+09:00",
+    "fetched_at": "2026-06-23T23:22:03.097886+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
