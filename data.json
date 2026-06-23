@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T16:45:21.943189+09:00",
+  "generated": "2026-06-23T16:47:51.219114+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -21,8 +21,8 @@
       "dow": "火",
       "open_count": 3,
       "booked_count": 6,
-      "new_count": 1,
-      "revisit_count": 5,
+      "new_count": 2,
+      "revisit_count": 4,
       "first_open": "22:50",
       "last_open": "23:20",
       "first_booked": "22:00",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 5,
+        "gcal": 6,
         "CLINICS": 2,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -200,7 +200,16 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "不眠",
+              "end_time": "23:10",
+              "karte_id": ""
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -237,7 +246,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T16:45:20.684617+09:00",
+      "last_updated": "2026-06-23T16:47:49.266850+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -281,7 +290,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T16:37:13.023997+09:00",
+      "last_updated": "2026-06-23T16:47:27.080315+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5284,7 +5293,7 @@
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-06-23T16:43:52.622924",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T16:43:59.866897+09:00",
+    "fetched_at": "2026-06-23T16:46:29.689912+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
