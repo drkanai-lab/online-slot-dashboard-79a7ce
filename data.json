@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T22:24:01.867416+09:00",
+  "generated": "2026-06-23T22:26:35.113019+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -9,8 +9,8 @@
     "patient_name": "小柳津 正子",
     "visit_type": "再診",
     "department": "整形",
-    "karte_id": "",
-    "karte_src": "",
+    "karte_id": "148396",
+    "karte_src": "manual",
     "status": "booked"
   },
   "days": [
@@ -144,8 +144,8 @@
               "visit_type": "再診",
               "department": "整形",
               "end_time": "22:40",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "148396",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": [
@@ -291,7 +291,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T22:24:00.408274+09:00",
+      "last_updated": "2026-06-23T22:26:33.855378+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5484,7 +5484,7 @@
   "sigma_qualified_count": 27,
   "sigma_last_run": "2026-06-23T22:24:06.977645",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T22:22:38.129702+09:00",
+    "fetched_at": "2026-06-23T22:25:10.158121+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
