@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T22:21:35.921803+09:00",
+  "generated": "2026-06-23T22:24:01.867416+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -226,7 +226,9 @@
               "department": "循内",
               "end_time": "23:10",
               "karte_id": "",
-              "karte_src": ""
+              "karte_src": "",
+              "qualified": true,
+              "qualified_at": "R08.06.23 22:17:25"
             }
           ],
           "sokuyaku_truth": []
@@ -289,7 +291,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T22:21:28.146729+09:00",
+      "last_updated": "2026-06-23T22:24:00.408274+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5479,10 +5481,10 @@
       "ts": "2026-06-23T13:13:19+09:00"
     }
   ],
-  "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-06-23T22:18:53.421956",
+  "sigma_qualified_count": 27,
+  "sigma_last_run": "2026-06-23T22:24:06.977645",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T22:20:04.035439+09:00",
+    "fetched_at": "2026-06-23T22:22:38.129702+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
