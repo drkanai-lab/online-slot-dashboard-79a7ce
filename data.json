@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T06:57:50.853655+09:00",
+  "generated": "2026-06-24T06:58:01.797613+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -1446,7 +1446,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-24T06:47:51.767540+09:00",
+      "last_updated": "2026-06-24T06:57:59.757509+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5413,7 +5413,15 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "松下真也",
+      "date": "2026-06-25",
+      "time": "22:20",
+      "ts": "2026-06-24T06:58:01+09:00"
+    }
+  ],
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-24T06:48:51.179037",
   "gmo_realtime": {
