@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T18:42:46.395093+09:00",
+  "generated": "2026-06-23T18:45:25.854696+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -20,8 +20,8 @@
       "short": "6/23(火)",
       "dow": "火",
       "open_count": 3,
-      "booked_count": 7,
-      "new_count": 3,
+      "booked_count": 6,
+      "new_count": 2,
       "revisit_count": 4,
       "first_open": "22:50",
       "last_open": "23:20",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
+        "gcal": 6,
         "CLINICS": 3,
         "SOKUYAKU": 2
       },
@@ -196,16 +196,7 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "女屋 優花",
-              "visit_type": "初診",
-              "department": "不眠",
-              "end_time": "23:10",
-              "karte_id": ""
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -251,7 +242,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T18:42:44.529860+09:00",
+      "last_updated": "2026-06-23T18:45:24.703399+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5296,9 +5287,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-23T18:38:50.591444",
+  "sigma_last_run": "2026-06-23T18:43:50.982146",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T18:41:24.652363+09:00",
+    "fetched_at": "2026-06-23T18:43:55.457676+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
