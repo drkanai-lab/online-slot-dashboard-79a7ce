@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T21:56:03.289385+09:00",
+  "generated": "2026-06-23T21:58:35.345519+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -247,7 +247,7 @@
               "visit_type": "初診",
               "department": "婦人",
               "end_time": "23:30",
-              "karte_id": "",
+              "karte_id": "50000405",
               "qualified": true,
               "qualified_at": "R08.06.23 20:40:10"
             }
@@ -266,7 +266,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:56:01.925990+09:00",
+      "last_updated": "2026-06-23T21:58:33.713192+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -310,7 +310,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:45:54.201495+09:00",
+      "last_updated": "2026-06-23T21:56:51.470874+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -439,7 +439,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:46:23.465078+09:00",
+      "last_updated": "2026-06-23T21:57:23.827186+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -609,30 +609,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:47:03.080775+09:00",
+      "last_updated": "2026-06-23T21:57:53.645888+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-27",
       "short": "6/27(土)",
       "dow": "土",
-      "open_count": 14,
-      "booked_count": 6,
+      "open_count": 13,
+      "booked_count": 7,
       "new_count": 2,
-      "revisit_count": 4,
-      "first_open": "12:30",
+      "revisit_count": 5,
+      "first_open": "19:00",
       "last_open": "23:20",
-      "first_booked": "12:45",
+      "first_booked": "12:30",
       "last_booked": "19:30",
       "per_platform_open": {
-        "SOKUYAKU": 5,
+        "SOKUYAKU": 4,
         "CLINICS": 7,
         "クロン": 1,
         "GMO": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
-        "gcal": 5,
+        "SOKUYAKU": 2,
+        "gcal": 6,
         "GMO": 1,
         "CLINICS": 3,
         "クロン": 1
@@ -669,12 +669,27 @@
           "time": "12:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "12:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 愛",
+              "visit_type": "再診",
+              "department": "泌尿",
+              "end_time": "12:40",
+              "karte_id": ""
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "黒井 愛",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "12:45",
@@ -959,7 +974,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:47:32.756841+09:00",
+      "last_updated": "2026-06-23T21:58:31.421198+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3772,7 +3787,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T20:39:53.037202+09:00",
+      "last_updated": "2026-06-23T21:56:34.392769+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3914,7 +3929,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T20:40:26.603824+09:00",
+      "last_updated": "2026-06-23T21:57:15.718315+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4056,7 +4071,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T20:41:00.392622+09:00",
+      "last_updated": "2026-06-23T21:57:59.250795+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5388,9 +5403,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-23T21:53:52.025992",
+  "sigma_last_run": "2026-06-23T21:58:57.235646",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T21:54:41.467198+09:00",
+    "fetched_at": "2026-06-23T21:57:12.090156+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
