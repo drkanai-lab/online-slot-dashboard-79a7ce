@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T16:22:46.299046+09:00",
+  "generated": "2026-06-23T16:25:19.150405+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -21,8 +21,8 @@
       "dow": "火",
       "open_count": 4,
       "booked_count": 5,
-      "new_count": 0,
-      "revisit_count": 5,
+      "new_count": 1,
+      "revisit_count": 4,
       "first_open": "22:50",
       "last_open": "23:20",
       "first_booked": "22:00",
@@ -111,10 +111,12 @@
             {
               "code": "C",
               "patient_name": "三戸豪士",
-              "visit_type": "再診",
+              "visit_type": "初診",
               "department": "花粉",
               "end_time": "22:30",
-              "karte_id": "153888"
+              "karte_id": "153888",
+              "qualified": true,
+              "qualified_at": "R08.06.23 16:20:09"
             }
           ],
           "sokuyaku_truth": []
@@ -231,7 +233,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T16:22:44.578209+09:00",
+      "last_updated": "2026-06-23T16:25:18.216158+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5275,10 +5277,10 @@
       "ts": "2026-06-23T13:13:19+09:00"
     }
   ],
-  "sigma_qualified_count": 54,
-  "sigma_last_run": "2026-06-23T16:19:01.248574",
+  "sigma_qualified_count": 55,
+  "sigma_last_run": "2026-06-23T16:23:52.299125",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T16:21:24.855712+09:00",
+    "fetched_at": "2026-06-23T16:23:56.951516+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
