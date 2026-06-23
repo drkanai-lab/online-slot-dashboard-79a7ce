@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T09:23:35.493312+09:00",
+  "generated": "2026-06-23T09:25:51.929000+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -206,7 +206,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T09:23:22.440093+09:00",
+      "last_updated": "2026-06-23T09:25:51.126154+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3156,7 +3156,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T08:08:52.968976+09:00",
+      "last_updated": "2026-06-23T09:23:41.068985+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3335,28 +3335,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T08:09:26.290277+09:00",
+      "last_updated": "2026-06-23T09:24:39.331695+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-13",
       "short": "7/13(月)",
       "dow": "月",
-      "open_count": 20,
-      "booked_count": 0,
+      "open_count": 19,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 0,
+      "revisit_count": 1,
       "first_open": "12:00",
       "last_open": "23:20",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "19:00",
+      "last_booked": "19:00",
       "per_platform_open": {
         "CLINICS": 12,
         "GMO": 2,
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 3,
         "クロン": 2
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 1
+      },
       "full_platforms": [],
       "ranges": [
         [
@@ -3477,12 +3480,27 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "馬場 友萌",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "19:10",
+              "karte_id": ""
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "馬場 友萌",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "19:15",
@@ -3617,7 +3635,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T08:10:25.312633+09:00",
+      "last_updated": "2026-06-23T09:25:12.696188+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3759,7 +3777,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T08:10:58.156022+09:00",
+      "last_updated": "2026-06-23T09:25:46.416788+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5227,7 +5245,7 @@
   "sigma_qualified_count": 52,
   "sigma_last_run": "2026-06-23T09:23:52.158911",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T09:22:05.390601+09:00",
+    "fetched_at": "2026-06-23T09:24:33.115870+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
