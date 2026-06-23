@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T22:06:10.355468+09:00",
+  "generated": "2026-06-23T22:08:42.673301+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -30,7 +30,7 @@
       "per_platform_open": {},
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 5,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -191,7 +191,16 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "区祥東",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00",
+              "karte_id": "151924"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -268,7 +277,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T22:06:09.014215+09:00",
+      "last_updated": "2026-06-23T22:08:41.316128+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -312,7 +321,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:56:51.470874+09:00",
+      "last_updated": "2026-06-23T22:07:53.931345+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -441,7 +450,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T21:57:23.827186+09:00",
+      "last_updated": "2026-06-23T22:08:29.670993+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5405,9 +5414,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-23T22:04:01.068065",
+  "sigma_last_run": "2026-06-23T22:08:55.223988",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T22:04:47.256014+09:00",
+    "fetched_at": "2026-06-23T22:07:18.946876+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
