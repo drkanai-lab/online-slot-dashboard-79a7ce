@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T20:31:58.226371+09:00",
+  "generated": "2026-06-23T20:34:31.039512+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-23",
@@ -242,7 +242,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T20:31:57.272885+09:00",
+      "last_updated": "2026-06-23T20:34:29.943349+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1502,7 +1502,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T19:17:43.742268+09:00",
+      "last_updated": "2026-06-23T20:32:57.603972+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1546,30 +1546,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T19:18:10.297065+09:00",
+      "last_updated": "2026-06-23T20:33:24.646425+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-02",
       "short": "7/2(木)",
       "dow": "木",
-      "open_count": 15,
-      "booked_count": 4,
+      "open_count": 14,
+      "booked_count": 5,
       "new_count": 1,
-      "revisit_count": 3,
+      "revisit_count": 4,
       "first_open": "12:20",
       "last_open": "23:20",
       "first_booked": "11:30",
-      "last_booked": "12:10",
+      "last_booked": "22:30",
       "per_platform_open": {
         "CLINICS": 9,
         "GMO": 2,
         "クロン": 2,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
-        "gcal": 4,
+        "SOKUYAKU": 3,
+        "gcal": 5,
         "CLINICS": 2
       },
       "full_platforms": [],
@@ -1780,12 +1780,27 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "古谷 沙織",
+              "visit_type": "再診",
+              "department": "多汗",
+              "end_time": "22:40",
+              "karte_id": ""
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "古谷 沙織",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -1854,7 +1869,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T19:18:39.560727+09:00",
+      "last_updated": "2026-06-23T20:33:53.081783+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2012,7 +2027,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-23T19:19:07.720222+09:00",
+      "last_updated": "2026-06-23T20:34:19.994536+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5287,9 +5302,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-23T20:28:52.972539",
+  "sigma_last_run": "2026-06-23T20:33:50.885023",
   "gmo_realtime": {
-    "fetched_at": "2026-06-23T20:30:34.299394+09:00",
+    "fetched_at": "2026-06-23T20:33:07.072319+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
