@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T09:55:45.212417+09:00",
+  "generated": "2026-06-24T09:58:13.725458+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -55,7 +55,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-24T09:55:45.208611+09:00",
+      "last_updated": "2026-06-24T09:58:13.721586+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -205,7 +205,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-24T09:46:23.798902+09:00",
+      "last_updated": "2026-06-24T09:56:10.027374+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -378,7 +378,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-24T09:46:48.263125+09:00",
+      "last_updated": "2026-06-24T09:56:58.948973+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -400,7 +400,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 4,
-        "gcal": 7,
+        "gcal": 8,
         "GMO": 2,
         "CLINICS": 2,
         "クロン": 1
@@ -738,7 +738,17 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "千葉　尚志",
+              "visit_type": "再診",
+              "department": "総診",
+              "end_time": "23:10",
+              "karte_id": "",
+              "karte_src": ""
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -775,7 +785,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-24T09:47:14.243258+09:00",
+      "last_updated": "2026-06-24T09:57:24.965260+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1067,7 +1077,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-24T09:47:42.494268+09:00",
+      "last_updated": "2026-06-24T09:57:54.460665+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5419,7 +5429,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-24T08:58:56.603262",
   "gmo_realtime": {
-    "fetched_at": "2026-06-24T09:54:26.486920+09:00",
+    "fetched_at": "2026-06-24T09:56:53.265506+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
