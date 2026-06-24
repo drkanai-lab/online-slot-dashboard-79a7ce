@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T23:59:01.334578+09:00",
+  "generated": "2026-06-25T00:00:41.154932+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -11,53 +11,11 @@
     "department": "",
     "karte_id": "149956",
     "karte_src": "platform",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.22 23:21:37"
   },
   "days": [
-    {
-      "date": "2026-06-24",
-      "short": "6/24(水)",
-      "dow": "水",
-      "open_count": 0,
-      "booked_count": 0,
-      "new_count": 0,
-      "revisit_count": 0,
-      "first_open": "",
-      "last_open": "",
-      "first_booked": "",
-      "last_booked": "",
-      "per_platform_open": {},
-      "per_platform_booked": {},
-      "full_platforms": [],
-      "ranges": [],
-      "range_text": "",
-      "slots": [
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        }
-      ],
-      "last_updated": "2026-06-24T23:58:12.752289+09:00",
-      "sokuyaku_reserve_ok": true
-    },
     {
       "date": "2026-06-25",
       "short": "6/25(木)",
@@ -126,7 +84,9 @@
               "department": "",
               "end_time": "22:10",
               "karte_id": "149956",
-              "karte_src": "platform"
+              "karte_src": "platform",
+              "qualified": true,
+              "qualified_at": "R08.06.22 23:21:37"
             }
           ],
           "sokuyaku_truth": []
@@ -269,7 +229,9 @@
               "department": "",
               "end_time": "23:20",
               "karte_id": "154422",
-              "karte_src": "platform"
+              "karte_src": "platform",
+              "qualified": true,
+              "qualified_at": "R08.06.23 15:04:29"
             }
           ],
           "sokuyaku_truth": []
@@ -5518,16 +5480,30 @@
       ],
       "last_updated": "2026-06-24T23:05:30.831454+09:00",
       "sokuyaku_reserve_ok": true
+    },
+    {
+      "date": "2026-07-25",
+      "short": "7/25(土)",
+      "dow": "土",
+      "open_count": 0,
+      "booked_count": 0,
+      "new_count": 0,
+      "revisit_count": 0,
+      "first_open": "",
+      "last_open": "",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {},
+      "per_platform_booked": {},
+      "full_platforms": [],
+      "ranges": [],
+      "range_text": "",
+      "slots": [],
+      "last_updated": null,
+      "sokuyaku_reserve_ok": false
     }
   ],
   "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "川西史人",
-      "date": "2026-06-25",
-      "time": "23:10",
-      "ts": "2026-06-24T12:00:07+09:00"
-    },
     {
       "type": "new",
       "patient_name": "患者名不明",
@@ -5546,7 +5522,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-06-24T23:58:59.050512",
   "gmo_realtime": {
-    "fetched_at": "2026-06-24T23:56:53.684257+09:00",
+    "fetched_at": "2026-06-24T23:59:22.248405+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
