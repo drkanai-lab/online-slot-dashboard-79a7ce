@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T15:16:38.415288+09:00",
+  "generated": "2026-06-24T15:19:07.667047+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -55,16 +55,16 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-24T15:16:38.411376+09:00",
+      "last_updated": "2026-06-24T15:19:07.663231+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-25",
       "short": "6/25(木)",
       "dow": "木",
-      "open_count": 4,
-      "booked_count": 5,
-      "new_count": 0,
+      "open_count": 3,
+      "booked_count": 6,
+      "new_count": 1,
       "revisit_count": 5,
       "first_open": "22:30",
       "last_open": "23:20",
@@ -72,18 +72,22 @@
       "last_booked": "23:10",
       "per_platform_open": {
         "SOKUYAKU": 2,
-        "GMO": 1,
         "CLINICS": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 5,
-        "CLINICS": 4
+        "gcal": 6,
+        "CLINICS": 4,
+        "GMO": 1
       },
       "full_platforms": [
         {
           "name": "クロン",
           "code": "K"
+        },
+        {
+          "name": "GMO",
+          "code": "G"
         }
       ],
       "ranges": [
@@ -215,11 +219,21 @@
           "time": "23:00",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "患者名不明",
+              "visit_type": "初診",
+              "department": "眼",
+              "end_time": "23:10",
+              "karte_id": "",
+              "karte_src": ""
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -266,7 +280,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-24T15:08:55.633918+09:00",
+      "last_updated": "2026-06-24T15:18:57.770152+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5495,9 +5509,9 @@
     }
   ],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-24T15:13:51.769246",
+  "sigma_last_run": "2026-06-24T15:18:53.134164",
   "gmo_realtime": {
-    "fetched_at": "2026-06-24T15:15:19.181734+09:00",
+    "fetched_at": "2026-06-24T15:17:48.053890+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
