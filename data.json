@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T13:25:49.404772+09:00",
+  "generated": "2026-06-25T13:28:24.973736+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -269,7 +269,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T13:25:48.041449+09:00",
+      "last_updated": "2026-06-25T13:28:23.545289+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -629,7 +629,18 @@
               "end_time": "18:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "野田功",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "18:50",
+              "karte_id": "153419",
+              "karte_src": "platform",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -972,7 +983,18 @@
               "end_time": "19:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "宮地一成",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:00",
+              "karte_id": "149512",
+              "karte_src": "platform",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2088,7 +2110,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:40:06.972024+09:00",
+      "last_updated": "2026-06-25T13:26:12.566248+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2165,7 +2187,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:40:34.924350+09:00",
+      "last_updated": "2026-06-25T13:26:38.620370+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2318,7 +2340,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:41:05.929193+09:00",
+      "last_updated": "2026-06-25T13:27:20.494511+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2483,7 +2505,18 @@
               "end_time": "19:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "森田敦",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:50",
+              "karte_id": "40298",
+              "karte_src": "platform",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2608,7 +2641,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:41:40.357775+09:00",
+      "last_updated": "2026-06-25T13:27:53.551081+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2652,7 +2685,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:42:10.537996+09:00",
+      "last_updated": "2026-06-25T13:28:23.341655+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5773,10 +5806,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 57,
-  "sigma_last_run": "2026-06-25T13:23:47.156661",
+  "sigma_qualified_count": 58,
+  "sigma_last_run": "2026-06-25T13:28:47.696464",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T13:24:24.332019+09:00",
+    "fetched_at": "2026-06-25T13:26:59.095635+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
