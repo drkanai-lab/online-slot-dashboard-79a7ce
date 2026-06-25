@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T00:00:29.600509+09:00",
+  "generated": "2026-06-26T00:03:52.603554+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -232,7 +232,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T23:51:13.405983+09:00",
+      "last_updated": "2026-06-26T00:03:51.498385+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -309,7 +309,7 @@
               "end_time": "12:40",
               "karte_id": "149163",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "ニック調剤薬局高砂店"
             }
           ],
           "sokuyaku_truth": [
@@ -337,7 +337,7 @@
               "end_time": "12:55",
               "karte_id": "149431",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "スギ薬局　上野広小路店(東京都)"
             }
           ],
           "sokuyaku_truth": [
@@ -376,7 +376,7 @@
               "end_time": "18:40",
               "karte_id": "153962",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "ツルハドラッグ 仙台泉中央3丁目店"
             }
           ],
           "sokuyaku_truth": []
@@ -398,7 +398,7 @@
               "end_time": "18:50",
               "karte_id": "153419",
               "karte_src": "platform",
-              "pharmacy": "",
+              "pharmacy": "薬局ダックス南丹園部店",
               "name_src": "truth"
             }
           ],
@@ -421,7 +421,7 @@
               "end_time": "19:00",
               "karte_id": "152193",
               "karte_src": "platform",
-              "pharmacy": ""
+              "pharmacy": "アイ薬局（山科）"
             }
           ],
           "sokuyaku_truth": []
@@ -443,7 +443,7 @@
               "end_time": "19:10",
               "karte_id": "150260",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "ニック調剤薬局高砂店"
             }
           ],
           "sokuyaku_truth": [
@@ -471,7 +471,7 @@
               "end_time": "19:25",
               "karte_id": "149185",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "ニック調剤薬局高砂店"
             }
           ],
           "sokuyaku_truth": [
@@ -499,7 +499,7 @@
               "end_time": "19:30",
               "karte_id": "152808",
               "karte_src": "platform",
-              "pharmacy": ""
+              "pharmacy": "チェルシー薬局"
             }
           ],
           "sokuyaku_truth": []
@@ -521,7 +521,7 @@
               "end_time": "19:40",
               "karte_id": "50000409",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "はな薬局天六店"
             }
           ],
           "sokuyaku_truth": []
@@ -648,7 +648,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T23:51:39.501393+09:00",
+      "last_updated": "2026-06-26T00:02:51.673942+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -955,29 +955,29 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T23:52:07.468647+09:00",
+      "last_updated": "2026-06-26T00:03:18.564986+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-29",
       "short": "6/29(月)",
       "dow": "月",
-      "open_count": 11,
-      "booked_count": 2,
+      "open_count": 10,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "18:30",
       "last_open": "23:00",
       "first_booked": "18:40",
-      "last_booked": "19:00",
+      "last_booked": "19:40",
       "per_platform_open": {
         "GMO": 2,
-        "CLINICS": 4,
+        "CLINICS": 3,
         "SOKUYAKU": 3,
         "クロン": 2
       },
       "per_platform_booked": {
-        "CLINICS": 1,
+        "CLINICS": 2,
         "gcal": 2,
         "SOKUYAKU": 1
       },
@@ -1114,11 +1114,23 @@
           "time": "19:40",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "神尾朋彦",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:50",
+              "karte_id": "150715",
+              "karte_src": "platform",
+              "pharmacy": "",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1188,7 +1200,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T23:52:36.105699+09:00",
+      "last_updated": "2026-06-26T00:03:46.606984+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1707,7 +1719,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T22:46:33.461849+09:00",
+      "last_updated": "2026-06-26T00:02:18.546725+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1867,7 +1879,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T22:46:59.498776+09:00",
+      "last_updated": "2026-06-26T00:02:52.544475+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1944,7 +1956,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T22:47:26.140675+09:00",
+      "last_updated": "2026-06-26T00:03:19.869927+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2097,7 +2109,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T22:47:55.710312+09:00",
+      "last_updated": "2026-06-26T00:03:50.012424+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5590,10 +5602,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 60,
-  "sigma_last_run": "2026-06-25T23:58:49.209330",
+  "sigma_qualified_count": 53,
+  "sigma_last_run": "2026-06-26T00:03:49.367151",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T23:58:26.494108+09:00",
+    "fetched_at": "2026-06-26T00:01:40.026852+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
