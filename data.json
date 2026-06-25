@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-26T08:31:31.913558+09:00",
+  "generated": "2026-06-26T08:34:01.033528+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
     "short": "6/26(金)",
     "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "code": "K",
+    "patient_name": "根本 陽子",
+    "visit_type": "初診",
     "department": "",
     "karte_id": "",
     "karte_src": "",
     "pharmacy": "",
-    "status": "open"
+    "status": "booked"
   },
   "days": [
     {
@@ -20,20 +20,20 @@
       "short": "6/26(金)",
       "dow": "金",
       "open_count": 5,
-      "booked_count": 4,
-      "new_count": 0,
+      "booked_count": 5,
+      "new_count": 1,
       "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:20",
-      "first_booked": "22:10",
+      "first_booked": "22:00",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 4
       },
       "per_platform_booked": {
+        "gcal": 5,
         "CLINICS": 1,
-        "gcal": 4,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -63,7 +63,18 @@
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "根本 陽子",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "22:10",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": ""
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -232,7 +243,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T08:30:35.531686+09:00",
+      "last_updated": "2026-06-26T08:33:59.258275+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5828,11 +5839,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "根本 陽子",
+      "date": "2026-06-26",
+      "time": "22:00",
+      "ts": "2026-06-26T08:34:00+09:00"
+    }
+  ],
   "sigma_qualified_count": 54,
-  "sigma_last_run": "2026-06-26T08:28:48.552030",
+  "sigma_last_run": "2026-06-26T08:33:50.741130",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T08:28:22.312987+09:00",
+    "fetched_at": "2026-06-26T08:31:45.453620+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
