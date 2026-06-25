@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T19:37:22.460416+09:00",
+  "generated": "2026-06-25T19:40:27.084578+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -159,7 +159,7 @@
               "end_time": "22:45",
               "karte_id": "149406",
               "karte_src": "manual",
-              "pharmacy": "",
+              "pharmacy": "ウエルシア薬局八王子川口店(ウエルシア薬局)",
               "qualified": true,
               "qualified_at": "R08.06.25 12:51:38"
             }
@@ -226,7 +226,7 @@
               "end_time": "23:10",
               "karte_id": "50000408",
               "karte_src": "manual",
-              "pharmacy": "",
+              "pharmacy": "きりはな薬局",
               "qualified": true,
               "qualified_at": "R08.06.25 12:49:51"
             }
@@ -293,7 +293,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T19:37:20.978693+09:00",
+      "last_updated": "2026-06-25T19:40:25.781011+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -397,7 +397,7 @@
               "end_time": "22:40",
               "karte_id": "150260",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "ニック調剤薬局高砂店"
             }
           ],
           "sokuyaku_truth": [
@@ -425,7 +425,7 @@
               "end_time": "22:55",
               "karte_id": "150261",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "ニック調剤薬局高砂店"
             }
           ],
           "sokuyaku_truth": [
@@ -464,7 +464,7 @@
               "end_time": "23:10",
               "karte_id": "153147",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "みらい薬局"
             }
           ],
           "sokuyaku_truth": []
@@ -503,7 +503,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T19:26:53.084480+09:00",
+      "last_updated": "2026-06-25T19:39:50.865727+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -669,7 +669,7 @@
               "end_time": "18:50",
               "karte_id": "153419",
               "karte_src": "platform",
-              "pharmacy": "薬局ダックス南丹園部店",
+              "pharmacy": "",
               "name_src": "truth"
             }
           ],
@@ -692,7 +692,7 @@
               "end_time": "19:00",
               "karte_id": "152193",
               "karte_src": "platform",
-              "pharmacy": "アイ薬局（山科）"
+              "pharmacy": ""
             }
           ],
           "sokuyaku_truth": []
@@ -770,7 +770,7 @@
               "end_time": "19:30",
               "karte_id": "152808",
               "karte_src": "platform",
-              "pharmacy": "チェルシー薬局"
+              "pharmacy": ""
             }
           ],
           "sokuyaku_truth": []
@@ -941,7 +941,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T19:27:23.819328+09:00",
+      "last_updated": "2026-06-25T19:40:18.091465+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1031,7 +1031,7 @@
               "end_time": "19:00",
               "karte_id": "149512",
               "karte_src": "platform",
-              "pharmacy": "アイン薬局 淀店",
+              "pharmacy": "",
               "name_src": "truth"
             }
           ],
@@ -5871,9 +5871,9 @@
     }
   ],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-25T19:33:49.329459",
+  "sigma_last_run": "2026-06-25T19:38:48.971769",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T19:35:27.472653+09:00",
+    "fetched_at": "2026-06-25T19:38:31.293681+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
