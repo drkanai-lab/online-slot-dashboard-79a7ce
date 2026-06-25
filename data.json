@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T23:57:17.715115+09:00",
+  "generated": "2026-06-26T00:00:29.600509+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -15,310 +15,6 @@
     "status": "open"
   },
   "days": [
-    {
-      "date": "2026-06-25",
-      "short": "6/25(木)",
-      "dow": "木",
-      "open_count": 0,
-      "booked_count": 9,
-      "new_count": 2,
-      "revisit_count": 7,
-      "first_open": "",
-      "last_open": "",
-      "first_booked": "22:00",
-      "last_booked": "23:20",
-      "per_platform_open": {},
-      "per_platform_booked": {
-        "クロン": 1,
-        "gcal": 9,
-        "CLINICS": 5,
-        "SOKUYAKU": 2,
-        "GMO": 1
-      },
-      "full_platforms": [
-        {
-          "name": "CLINICS",
-          "code": "C"
-        },
-        {
-          "name": "SOKUYAKU",
-          "code": "S"
-        },
-        {
-          "name": "クロン",
-          "code": "K"
-        },
-        {
-          "name": "GMO",
-          "code": "G"
-        }
-      ],
-      "ranges": [
-        [
-          "22:00",
-          "23:30"
-        ]
-      ],
-      "range_text": "22:00〜23:30",
-      "slots": [
-        {
-          "time": "13:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "13:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "吉村 菜緒",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:10",
-              "karte_id": "149956",
-              "karte_src": "platform",
-              "pharmacy": "コスモヘルスケア薬局東照宮店",
-              "qualified": true,
-              "qualified_at": "R08.06.22 23:21:37"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "22:20"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "山岡恭子",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:20",
-              "karte_id": "50000048",
-              "karte_src": "platform",
-              "pharmacy": "V・drug 鯖江長泉寺薬局",
-              "qualified": true,
-              "qualified_at": "R08.06.25 12:54:18"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "22:30"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "松下真也",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:30",
-              "karte_id": "152511",
-              "karte_src": "platform",
-              "pharmacy": "日本調剤 川口東薬局",
-              "qualified": true,
-              "qualified_at": "R08.06.25 22:05:06"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "22:45"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "久村 直生",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:45",
-              "karte_id": "149406",
-              "karte_src": "manual",
-              "pharmacy": "ウエルシア薬局八王子川口店",
-              "qualified": true,
-              "qualified_at": "R08.06.25 12:51:38"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "久村 直生",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.06.25 12:51:38"
-            }
-          ]
-        },
-        {
-          "time": "22:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "成田 久二",
-              "visit_type": "初診",
-              "department": "総診",
-              "end_time": "22:55",
-              "karte_id": "50000400",
-              "karte_src": "manual",
-              "pharmacy": "ヨヤクスリ薬局",
-              "qualified": true,
-              "qualified_at": "R08.06.20 23:25:37"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "成田 久二",
-              "visit_type": "初診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.06.20 23:25:37"
-            }
-          ]
-        },
-        {
-          "time": "22:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "23:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "杉本哲平",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:00",
-              "karte_id": "153689",
-              "karte_src": "platform",
-              "pharmacy": "",
-              "qualified": true,
-              "qualified_at": "R08.06.25 12:53:57"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:00",
-          "platforms": {
-            "GMO": {
-              "status": "booked",
-              "end_time": "23:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "田島 洋子",
-              "visit_type": "初診",
-              "department": "眼",
-              "end_time": "23:10",
-              "karte_id": "50000408",
-              "karte_src": "manual",
-              "pharmacy": "きりはな薬局",
-              "qualified": true,
-              "qualified_at": "R08.06.25 12:49:51"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "23:20"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "川西史人",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:20",
-              "karte_id": "154422",
-              "karte_src": "platform",
-              "pharmacy": "わらび鈴薬局",
-              "qualified": true,
-              "qualified_at": "R08.06.23 15:04:29"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "23:30"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "上村僚",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:30",
-              "karte_id": "152259",
-              "karte_src": "platform",
-              "pharmacy": "ユタカ薬局東向日",
-              "qualified": true,
-              "qualified_at": "R08.06.25 18:02:14"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        }
-      ],
-      "last_updated": "2026-06-25T23:57:16.408033+09:00",
-      "sokuyaku_reserve_ok": true
-    },
     {
       "date": "2026-06-26",
       "short": "6/26(金)",
@@ -387,7 +83,9 @@
               "end_time": "22:20",
               "karte_id": "152743",
               "karte_src": "platform",
-              "pharmacy": "日本調剤 新神戸薬局"
+              "pharmacy": "日本調剤 新神戸薬局",
+              "qualified": true,
+              "qualified_at": "R08.06.25 08:20:20"
             }
           ],
           "sokuyaku_truth": []
@@ -420,14 +118,18 @@
               "end_time": "22:40",
               "karte_id": "150260",
               "karte_src": "manual",
-              "pharmacy": "ニック調剤薬局高砂店"
+              "pharmacy": "ニック調剤薬局高砂店",
+              "qualified": true,
+              "qualified_at": "R08.06.25 13:11:28"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 奈央子",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.25 13:11:28"
             }
           ]
         },
@@ -448,14 +150,18 @@
               "end_time": "22:55",
               "karte_id": "150261",
               "karte_src": "manual",
-              "pharmacy": "ニック調剤薬局高砂店"
+              "pharmacy": "ニック調剤薬局高砂店",
+              "qualified": true,
+              "qualified_at": "R08.06.25 13:11:48"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 宣郎",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.25 13:11:48"
             }
           ]
         },
@@ -5860,21 +5566,34 @@
       ],
       "last_updated": "2026-06-25T22:59:31.487385+09:00",
       "sokuyaku_reserve_ok": true
-    }
-  ],
-  "recent_events": [
+    },
     {
-      "type": "new",
-      "patient_name": "久村 直生",
-      "date": "2026-06-25",
-      "time": "22:30",
-      "ts": "2026-06-25T17:00:32+09:00"
+      "date": "2026-07-26",
+      "short": "7/26(日)",
+      "dow": "日",
+      "open_count": 0,
+      "booked_count": 0,
+      "new_count": 0,
+      "revisit_count": 0,
+      "first_open": "",
+      "last_open": "",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {},
+      "per_platform_booked": {},
+      "full_platforms": [],
+      "ranges": [],
+      "range_text": "",
+      "slots": [],
+      "last_updated": null,
+      "sokuyaku_reserve_ok": false
     }
   ],
+  "recent_events": [],
   "sigma_qualified_count": 60,
-  "sigma_last_run": "2026-06-25T23:53:50.487111",
+  "sigma_last_run": "2026-06-25T23:58:49.209330",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T23:55:13.980460+09:00",
+    "fetched_at": "2026-06-25T23:58:26.494108+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
