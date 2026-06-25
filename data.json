@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T20:03:29.257976+09:00",
+  "generated": "2026-06-25T20:05:27.590048+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -23,8 +23,8 @@
       "dow": "木",
       "open_count": 0,
       "booked_count": 9,
-      "new_count": 1,
-      "revisit_count": 8,
+      "new_count": 2,
+      "revisit_count": 7,
       "first_open": "",
       "last_open": "",
       "first_booked": "22:00",
@@ -32,7 +32,7 @@
       "per_platform_open": {},
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 5,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -184,7 +184,20 @@
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "成田 久二",
+              "visit_type": "初診",
+              "department": "総診",
+              "end_time": "22:55",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "ヨヤクスリ薬局",
+              "qualified": true,
+              "qualified_at": "R08.06.20 23:25:37"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "成田 久二",
@@ -303,7 +316,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T20:02:10.910463+09:00",
+      "last_updated": "2026-06-25T20:05:26.295543+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
