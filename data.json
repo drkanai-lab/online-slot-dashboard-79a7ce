@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T06:19:39.558297+09:00",
+  "generated": "2026-06-26T06:22:34.404280+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -232,7 +232,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T06:19:11.397935+09:00",
+      "last_updated": "2026-06-26T06:22:33.476185+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1878,7 +1878,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T05:17:09.956252+09:00",
+      "last_updated": "2026-06-26T06:20:09.467500+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1955,7 +1955,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T05:17:10.994396+09:00",
+      "last_updated": "2026-06-26T06:20:35.816315+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2108,7 +2108,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T05:17:12.017491+09:00",
+      "last_updated": "2026-06-26T06:21:05.230741+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2199,8 +2199,8 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "18:50",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "153975",
+              "karte_src": "platform",
               "pharmacy": ""
             }
           ],
@@ -2221,8 +2221,8 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "19:00",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "151672",
+              "karte_src": "platform",
               "pharmacy": ""
             }
           ],
@@ -2280,7 +2280,19 @@
               "end_time": "19:50"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "森田敦",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:50",
+              "karte_id": "40298",
+              "karte_src": "platform",
+              "pharmacy": "",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2416,7 +2428,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T05:17:12.961985+09:00",
+      "last_updated": "2026-06-26T06:21:38.646839+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2460,7 +2472,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T05:17:14.126932+09:00",
+      "last_updated": "2026-06-26T06:22:07.794597+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5821,7 +5833,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-26T06:18:47.633492",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T06:17:01.025019+09:00",
+    "fetched_at": "2026-06-26T06:20:22.766762+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
