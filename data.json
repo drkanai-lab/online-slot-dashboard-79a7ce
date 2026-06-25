@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T19:55:54.100446+09:00",
+  "generated": "2026-06-25T19:58:31.027063+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -11,7 +11,7 @@
     "department": "",
     "karte_id": "149956",
     "karte_src": "platform",
-    "pharmacy": "",
+    "pharmacy": "コスモヘルスケア薬局東照宮店",
     "status": "booked",
     "qualified": true,
     "qualified_at": "R08.06.22 23:21:37"
@@ -89,7 +89,7 @@
               "end_time": "22:10",
               "karte_id": "149956",
               "karte_src": "platform",
-              "pharmacy": "",
+              "pharmacy": "コスモヘルスケア薬局東照宮店",
               "qualified": true,
               "qualified_at": "R08.06.22 23:21:37"
             }
@@ -293,7 +293,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T19:55:52.847909+09:00",
+      "last_updated": "2026-06-25T19:58:03.242288+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -503,7 +503,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T19:52:33.153433+09:00",
+      "last_updated": "2026-06-25T19:58:29.684510+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5871,9 +5871,9 @@
     }
   ],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-25T19:53:47.803771",
+  "sigma_last_run": "2026-06-25T19:58:50.497789",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T19:53:57.852877+09:00",
+    "fetched_at": "2026-06-25T19:57:02.399481+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
