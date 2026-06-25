@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T05:13:53.448583+09:00",
+  "generated": "2026-06-26T05:17:09.912710+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -81,9 +81,9 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "22:20",
-              "karte_id": "152743",
-              "karte_src": "platform",
-              "pharmacy": "日本調剤 新神戸薬局",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
               "qualified": true,
               "qualified_at": "R08.06.25 08:20:20"
             }
@@ -193,7 +193,7 @@
               "end_time": "23:10",
               "karte_id": "153147",
               "karte_src": "manual",
-              "pharmacy": "みらい薬局"
+              "pharmacy": ""
             }
           ],
           "sokuyaku_truth": []
@@ -232,7 +232,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T05:13:52.458302+09:00",
+      "last_updated": "2026-06-26T05:17:09.889821+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -389,19 +389,7 @@
               "end_time": "18:50"
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "野田功",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "18:50",
-              "karte_id": "153419",
-              "karte_src": "platform",
-              "pharmacy": "薬局ダックス南丹園部店",
-              "name_src": "truth"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -419,9 +407,9 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "19:00",
-              "karte_id": "152193",
-              "karte_src": "platform",
-              "pharmacy": "アイ薬局（山科）"
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": ""
             }
           ],
           "sokuyaku_truth": []
@@ -497,9 +485,9 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "19:30",
-              "karte_id": "152808",
-              "karte_src": "platform",
-              "pharmacy": "チェルシー薬局"
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": ""
             }
           ],
           "sokuyaku_truth": []
@@ -4210,7 +4198,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T03:58:03.254183+09:00",
+      "last_updated": "2026-06-26T05:14:14.472756+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4363,7 +4351,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T03:58:37.539131+09:00",
+      "last_updated": "2026-06-26T05:14:47.129176+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4494,7 +4482,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T03:59:13.555575+09:00",
+      "last_updated": "2026-06-26T05:15:23.848598+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4684,7 +4672,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T03:59:49.549463+09:00",
+      "last_updated": "2026-06-26T05:15:59.671381+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4826,7 +4814,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T04:00:25.515929+09:00",
+      "last_updated": "2026-06-26T05:16:36.131900+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5833,7 +5821,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-26T00:48:50.215033",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T05:11:41.891027+09:00",
+    "fetched_at": "2026-06-26T05:15:02.614914+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
