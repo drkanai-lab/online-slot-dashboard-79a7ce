@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T21:16:29.416011+09:00",
+  "generated": "2026-06-25T21:20:04.795155+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -316,7 +316,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T21:16:28.002698+09:00",
+      "last_updated": "2026-06-25T21:20:03.315508+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -487,7 +487,7 @@
               "end_time": "23:10",
               "karte_id": "153147",
               "karte_src": "manual",
-              "pharmacy": "みらい薬局"
+              "pharmacy": ""
             }
           ],
           "sokuyaku_truth": []
@@ -526,7 +526,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T21:06:59.169252+09:00",
+      "last_updated": "2026-06-25T21:18:17.422244+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -942,7 +942,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T21:07:26.795047+09:00",
+      "last_updated": "2026-06-25T21:18:42.454581+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1249,7 +1249,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T21:07:55.016579+09:00",
+      "last_updated": "2026-06-25T21:19:09.421311+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1482,7 +1482,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T21:08:23.171254+09:00",
+      "last_updated": "2026-06-25T21:19:36.271725+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1624,7 +1624,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T21:08:50.078225+09:00",
+      "last_updated": "2026-06-25T21:20:02.730723+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5872,11 +5872,13 @@
     }
   ],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-25T21:14:02.876244",
+  "sigma_last_run": "2026-06-25T21:18:56.469167",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T21:14:28.246230+09:00",
-    "scrape_ok": true,
-    "errors": [],
+    "fetched_at": "2026-06-25T21:17:37.922963+09:00",
+    "scrape_ok": false,
+    "errors": [
+      "login failed"
+    ],
     "total_waiting": 0,
     "menus": [],
     "menus_with_waits": [],
