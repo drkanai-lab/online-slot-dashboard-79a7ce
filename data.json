@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-25T22:08:06.144381+09:00",
+  "generated": "2026-06-25T22:11:17.430272+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
     "short": "6/25(木)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "山岡恭子",
+    "patient_name": "松下真也",
     "visit_type": "再診",
     "department": "",
-    "karte_id": "50000048",
+    "karte_id": "152511",
     "karte_src": "platform",
-    "pharmacy": "V・drug 鯖江長泉寺薬局",
+    "pharmacy": "日本調剤 川口東薬局",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.25 12:54:18"
+    "qualified_at": "R08.06.25 22:05:06"
   },
   "days": [
     {
@@ -318,7 +318,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T22:08:04.667130+09:00",
+      "last_updated": "2026-06-25T22:11:15.988904+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5876,7 +5876,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-06-25T22:08:49.955001",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T22:06:03.361639+09:00",
+    "fetched_at": "2026-06-25T22:09:14.519516+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
