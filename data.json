@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-25T23:09:43.302342+09:00",
+  "generated": "2026-06-25T23:12:21.180008+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
     "short": "6/25(木)",
-    "time": "23:10",
+    "time": "23:20",
     "code": "C",
-    "patient_name": "川西史人",
+    "patient_name": "上村僚",
     "visit_type": "再診",
     "department": "",
-    "karte_id": "154422",
+    "karte_id": "152259",
     "karte_src": "platform",
-    "pharmacy": "わらび鈴薬局",
+    "pharmacy": "ユタカ薬局東向日",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.23 15:04:29"
+    "qualified_at": "R08.06.25 18:02:14"
   },
   "days": [
     {
@@ -318,7 +318,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T23:09:10.054333+09:00",
+      "last_updated": "2026-06-25T23:12:19.781680+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5876,7 +5876,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-06-25T23:08:52.469931",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T23:07:06.601110+09:00",
+    "fetched_at": "2026-06-25T23:10:20.214994+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
