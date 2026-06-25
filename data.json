@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T12:40:16.610909+09:00",
+  "generated": "2026-06-25T12:42:05.738448+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -259,7 +259,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:39:22.778249+09:00",
+      "last_updated": "2026-06-25T12:42:04.405413+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2133,7 +2133,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T11:24:52.969409+09:00",
+      "last_updated": "2026-06-25T12:40:34.924350+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2286,31 +2286,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T11:25:36.378371+09:00",
+      "last_updated": "2026-06-25T12:41:05.929193+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-06",
       "short": "7/6(月)",
       "dow": "月",
-      "open_count": 15,
-      "booked_count": 3,
+      "open_count": 14,
+      "booked_count": 4,
       "new_count": 0,
-      "revisit_count": 3,
-      "first_open": "18:50",
+      "revisit_count": 4,
+      "first_open": "19:00",
       "last_open": "23:20",
       "first_booked": "18:30",
       "last_booked": "19:40",
       "per_platform_open": {
-        "CLINICS": 8,
         "SOKUYAKU": 4,
+        "CLINICS": 7,
         "クロン": 2,
         "GMO": 1
       },
       "per_platform_booked": {
         "GMO": 1,
-        "gcal": 2,
-        "CLINICS": 2
+        "gcal": 3,
+        "CLINICS": 3
       },
       "full_platforms": [],
       "ranges": [
@@ -2382,11 +2382,21 @@
           "time": "18:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "服部みゆき",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:00",
+              "karte_id": "151672",
+              "karte_src": "platform"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -2566,7 +2576,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T11:26:09.671419+09:00",
+      "last_updated": "2026-06-25T12:41:40.357775+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5734,7 +5744,7 @@
   "sigma_qualified_count": 47,
   "sigma_last_run": "2026-06-25T12:39:12.540087",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T12:37:59.638937+09:00",
+    "fetched_at": "2026-06-25T12:40:32.588770+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
