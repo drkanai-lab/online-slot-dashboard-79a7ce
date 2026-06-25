@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T14:36:36.332620+09:00",
+  "generated": "2026-06-25T14:39:10.111606+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 7,
+        "gcal": 8,
         "CLINICS": 5,
         "SOKUYAKU": 1,
         "GMO": 1
@@ -265,8 +265,7 @@
               "department": "",
               "end_time": "23:30",
               "karte_id": "152259",
-              "karte_src": "platform",
-              "name_src": "truth"
+              "karte_src": "platform"
             }
           ],
           "sokuyaku_truth": []
@@ -283,7 +282,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T14:36:34.949219+09:00",
+      "last_updated": "2026-06-25T14:39:08.838368+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5821,9 +5820,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-06-25T14:33:47.525291",
+  "sigma_last_run": "2026-06-25T14:38:47.439522",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T14:35:11.703152+09:00",
+    "fetched_at": "2026-06-25T14:37:44.861284+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
