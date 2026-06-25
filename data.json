@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T13:07:47.554231+09:00",
+  "generated": "2026-06-25T13:10:23.186194+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -269,24 +269,24 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T13:07:46.221650+09:00",
+      "last_updated": "2026-06-25T13:10:21.888262+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-26",
       "short": "6/26(金)",
       "dow": "金",
-      "open_count": 3,
+      "open_count": 5,
       "booked_count": 4,
       "new_count": 0,
       "revisit_count": 4,
       "first_open": "22:00",
-      "last_open": "22:50",
+      "last_open": "23:20",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 2
+        "CLINICS": 4
       },
       "per_platform_booked": {
         "CLINICS": 1,
@@ -307,10 +307,10 @@
       "ranges": [
         [
           "22:00",
-          "23:10"
+          "23:30"
         ]
       ],
-      "range_text": "22:00〜23:10",
+      "range_text": "22:00〜23:30",
       "slots": [
         {
           "time": "22:00",
@@ -442,6 +442,28 @@
           "sokuyaku_truth": []
         },
         {
+          "time": "23:10",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "23:20",
+          "platforms": {
+            "CLINICS": {
+              "status": "open",
+              "end_time": ""
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
           "time": "23:30",
           "platforms": {
             "クロン": {
@@ -453,7 +475,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:58:02.381278+09:00",
+      "last_updated": "2026-06-25T13:08:14.111696+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -593,8 +615,8 @@
               "visit_type": "再診",
               "department": "耳鼻",
               "end_time": "18:40",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "153962",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": []
@@ -870,7 +892,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:58:30.364006+09:00",
+      "last_updated": "2026-06-25T13:08:41.674819+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1162,7 +1184,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:59:23.705727+09:00",
+      "last_updated": "2026-06-25T13:09:10.110649+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1393,7 +1415,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:59:52.138906+09:00",
+      "last_updated": "2026-06-25T13:10:05.386208+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5752,9 +5774,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 51,
-  "sigma_last_run": "2026-06-25T13:03:46.451258",
+  "sigma_last_run": "2026-06-25T13:09:00.227705",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T13:06:20.954588+09:00",
+    "fetched_at": "2026-06-25T13:08:55.127288+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
