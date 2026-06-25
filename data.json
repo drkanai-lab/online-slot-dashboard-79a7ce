@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T13:43:49.771606+09:00",
+  "generated": "2026-06-25T13:46:23.172201+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -269,7 +269,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T13:43:48.327054+09:00",
+      "last_updated": "2026-06-25T13:46:21.844886+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1752,8 +1752,8 @@
               "visit_type": "初診",
               "department": "肛門",
               "end_time": "12:20",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "50000410",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": []
@@ -2405,8 +2405,8 @@
               "visit_type": "再診",
               "department": "不眠",
               "end_time": "18:40",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "50000103",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": []
@@ -3658,8 +3658,8 @@
               "visit_type": "再診",
               "department": "整形",
               "end_time": "19:10",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "148393",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": [
@@ -5809,7 +5809,7 @@
   "sigma_qualified_count": 58,
   "sigma_last_run": "2026-06-25T13:44:01.347645",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T13:42:22.946337+09:00",
+    "fetched_at": "2026-06-25T13:44:57.417238+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
