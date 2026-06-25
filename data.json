@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T13:41:52.541204+09:00",
+  "generated": "2026-06-25T13:43:49.771606+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -269,7 +269,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T13:41:13.857642+09:00",
+      "last_updated": "2026-06-25T13:43:48.327054+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1872,8 +1872,8 @@
               "visit_type": "再診",
               "department": "多汗",
               "end_time": "22:40",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "50000344",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": [
@@ -2004,8 +2004,8 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "22:10",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "50000371",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": []
@@ -5807,9 +5807,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-06-25T13:38:47.911221",
+  "sigma_last_run": "2026-06-25T13:44:01.347645",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T13:39:49.574060+09:00",
+    "fetched_at": "2026-06-25T13:42:22.946337+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
