@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T12:57:30.154822+09:00",
+  "generated": "2026-06-25T13:00:04.718958+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -107,7 +107,9 @@
               "department": "",
               "end_time": "22:20",
               "karte_id": "50000048",
-              "karte_src": "platform"
+              "karte_src": "platform",
+              "qualified": true,
+              "qualified_at": "R08.06.25 12:54:18"
             }
           ],
           "sokuyaku_truth": []
@@ -149,14 +151,18 @@
               "department": "総診",
               "end_time": "22:40",
               "karte_id": "149406",
-              "karte_src": "manual"
+              "karte_src": "manual",
+              "qualified": true,
+              "qualified_at": "R08.06.25 12:51:38"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "久村 直生",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.25 12:51:38"
             }
           ]
         },
@@ -187,7 +193,9 @@
               "department": "",
               "end_time": "23:00",
               "karte_id": "153689",
-              "karte_src": "platform"
+              "karte_src": "platform",
+              "qualified": true,
+              "qualified_at": "R08.06.25 12:53:57"
             }
           ],
           "sokuyaku_truth": []
@@ -208,7 +216,9 @@
               "department": "眼",
               "end_time": "23:10",
               "karte_id": "50000408",
-              "karte_src": "manual"
+              "karte_src": "manual",
+              "qualified": true,
+              "qualified_at": "R08.06.25 12:49:51"
             }
           ],
           "sokuyaku_truth": []
@@ -259,7 +269,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:57:28.821538+09:00",
+      "last_updated": "2026-06-25T13:00:03.347904+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -443,7 +453,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:47:40.914127+09:00",
+      "last_updated": "2026-06-25T12:58:02.381278+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -545,8 +555,8 @@
               "visit_type": "再診",
               "department": "耳鼻",
               "end_time": "12:55",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "149431",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": [
@@ -860,7 +870,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:48:36.003745+09:00",
+      "last_updated": "2026-06-25T12:58:30.364006+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1152,7 +1162,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:49:05.293143+09:00",
+      "last_updated": "2026-06-25T12:59:23.705727+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1383,7 +1393,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T12:49:34.306533+09:00",
+      "last_updated": "2026-06-25T12:59:52.138906+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5741,10 +5751,10 @@
     }
   ],
   "recent_events": [],
-  "sigma_qualified_count": 47,
-  "sigma_last_run": "2026-06-25T12:50:29.001094",
+  "sigma_qualified_count": 51,
+  "sigma_last_run": "2026-06-25T12:59:47.747914",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T12:56:04.015063+09:00",
+    "fetched_at": "2026-06-25T12:58:38.685748+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
