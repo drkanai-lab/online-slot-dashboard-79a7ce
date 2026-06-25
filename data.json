@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T06:12:28.172465+09:00",
+  "generated": "2026-06-26T06:15:50.452595+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -81,9 +81,9 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "22:20",
-              "karte_id": "",
-              "karte_src": "",
-              "pharmacy": "",
+              "karte_id": "152743",
+              "karte_src": "platform",
+              "pharmacy": "日本調剤 新神戸薬局",
               "qualified": true,
               "qualified_at": "R08.06.25 08:20:20"
             }
@@ -193,7 +193,7 @@
               "end_time": "23:10",
               "karte_id": "153147",
               "karte_src": "manual",
-              "pharmacy": ""
+              "pharmacy": "みらい薬局"
             }
           ],
           "sokuyaku_truth": []
@@ -232,7 +232,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T06:12:28.166184+09:00",
+      "last_updated": "2026-06-26T06:15:49.462415+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5795,9 +5795,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 54,
-  "sigma_last_run": "2026-06-26T00:48:50.215033",
+  "sigma_last_run": "2026-06-26T06:03:47.759373",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T05:15:02.614914+09:00",
+    "fetched_at": "2026-06-26T06:13:28.337821+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
