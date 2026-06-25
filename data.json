@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-25T22:59:34.699998+09:00",
+  "generated": "2026-06-25T23:02:43.698774+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
     "short": "6/25(木)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "田島 洋子",
-    "visit_type": "初診",
-    "department": "眼",
-    "karte_id": "50000408",
-    "karte_src": "manual",
-    "pharmacy": "きりはな薬局",
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "川西史人",
+    "visit_type": "再診",
+    "department": "",
+    "karte_id": "154422",
+    "karte_src": "platform",
+    "pharmacy": "わらび鈴薬局",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.25 12:49:51"
+    "qualified_at": "R08.06.23 15:04:29"
   },
   "days": [
     {
@@ -318,7 +318,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T22:59:32.608776+09:00",
+      "last_updated": "2026-06-25T23:02:42.344355+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5876,7 +5876,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-06-25T22:58:52.917071",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T22:57:30.034003+09:00",
+    "fetched_at": "2026-06-25T23:00:42.596710+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
