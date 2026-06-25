@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25T13:13:00.255554+09:00",
+  "generated": "2026-06-25T13:15:34.763801+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-25",
@@ -269,7 +269,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-25T13:12:58.949494+09:00",
+      "last_updated": "2026-06-25T13:15:33.516392+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -852,8 +852,8 @@
               "visit_type": "再診",
               "department": "総診",
               "end_time": "23:10",
-              "karte_id": "",
-              "karte_src": ""
+              "karte_id": "154435",
+              "karte_src": "manual"
             }
           ],
           "sokuyaku_truth": []
@@ -5774,9 +5774,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 51,
-  "sigma_last_run": "2026-06-25T13:09:00.227705",
+  "sigma_last_run": "2026-06-25T13:14:07.238207",
   "gmo_realtime": {
-    "fetched_at": "2026-06-25T13:11:34.480337+09:00",
+    "fetched_at": "2026-06-25T13:14:08.951950+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
