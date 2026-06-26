@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T10:59:02.046053+09:00",
+  "generated": "2026-06-26T11:02:24.504875+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -9,8 +9,8 @@
     "patient_name": "根本 陽子",
     "visit_type": "初診",
     "department": "",
-    "karte_id": "",
-    "karte_src": "",
+    "karte_id": "50000411",
+    "karte_src": "manual",
     "pharmacy": "けやき薬局松原店",
     "status": "booked"
   },
@@ -74,8 +74,8 @@
               "visit_type": "初診",
               "department": "",
               "end_time": "22:10",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "50000411",
+              "karte_src": "manual",
               "pharmacy": "けやき薬局松原店"
             }
           ],
@@ -247,7 +247,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T10:59:00.619889+09:00",
+      "last_updated": "2026-06-26T11:02:21.964824+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -944,8 +944,8 @@
               "visit_type": "再診",
               "department": "アレ",
               "end_time": "23:10",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "152570",
+              "karte_src": "manual",
               "pharmacy": ""
             }
           ],
@@ -5822,7 +5822,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-26T10:58:48.037315",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T10:56:47.984099+09:00",
+    "fetched_at": "2026-06-26T11:00:10.092694+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
