@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T11:02:24.504875+09:00",
+  "generated": "2026-06-26T11:05:47.759241+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -10,9 +10,11 @@
     "visit_type": "初診",
     "department": "",
     "karte_id": "50000411",
-    "karte_src": "manual",
+    "karte_src": "platform",
     "pharmacy": "けやき薬局松原店",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.26 10:59:24"
   },
   "days": [
     {
@@ -75,8 +77,10 @@
               "department": "",
               "end_time": "22:10",
               "karte_id": "50000411",
-              "karte_src": "manual",
-              "pharmacy": "けやき薬局松原店"
+              "karte_src": "platform",
+              "pharmacy": "けやき薬局松原店",
+              "qualified": true,
+              "qualified_at": "R08.06.26 10:59:24"
             }
           ],
           "sokuyaku_truth": []
@@ -247,7 +251,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T11:02:21.964824+09:00",
+      "last_updated": "2026-06-26T11:05:46.203523+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -663,7 +667,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T10:53:19.399707+09:00",
+      "last_updated": "2026-06-26T11:04:24.141814+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -985,7 +989,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T10:53:47.125975+09:00",
+      "last_updated": "2026-06-26T11:04:52.001584+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1181,7 +1185,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T10:54:17.122283+09:00",
+      "last_updated": "2026-06-26T11:05:20.599584+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5819,10 +5823,10 @@
       "ts": "2026-06-26T08:34:00+09:00"
     }
   ],
-  "sigma_qualified_count": 54,
-  "sigma_last_run": "2026-06-26T10:58:48.037315",
+  "sigma_qualified_count": 55,
+  "sigma_last_run": "2026-06-26T11:03:48.311080",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T11:00:10.092694+09:00",
+    "fetched_at": "2026-06-26T11:03:33.997387+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
