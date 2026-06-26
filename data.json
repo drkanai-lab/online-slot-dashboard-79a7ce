@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T20:33:49.436580+09:00",
+  "generated": "2026-06-26T20:34:34.402028+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -21,7 +21,7 @@
       "date": "2026-06-26",
       "short": "6/26(金)",
       "dow": "金",
-      "open_count": 3,
+      "open_count": 4,
       "booked_count": 6,
       "new_count": 1,
       "revisit_count": 5,
@@ -30,14 +30,14 @@
       "first_booked": "22:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 3
+        "CLINICS": 3,
+        "GMO": 1
       },
       "per_platform_booked": {
         "クロン": 1,
         "gcal": 6,
         "CLINICS": 2,
-        "SOKUYAKU": 2,
-        "GMO": 1
+        "SOKUYAKU": 2
       },
       "full_platforms": [
         {
@@ -47,10 +47,6 @@
         {
           "name": "クロン",
           "code": "K"
-        },
-        {
-          "name": "GMO",
-          "code": "G"
         }
       ],
       "ranges": [
@@ -210,7 +206,7 @@
           "time": "23:00",
           "platforms": {
             "GMO": {
-              "status": "booked",
+              "status": "open",
               "end_time": "23:10"
             }
           },
@@ -223,7 +219,7 @@
               "end_time": "23:10",
               "karte_id": "153147",
               "karte_src": "manual",
-              "pharmacy": "みらい薬局"
+              "pharmacy": ""
             }
           ],
           "sokuyaku_truth": []
@@ -262,7 +258,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T20:30:59.421428+09:00",
+      "last_updated": "2026-06-26T20:34:32.373114+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5859,13 +5855,6 @@
     }
   ],
   "recent_events": [
-    {
-      "type": "new",
-      "patient_name": "根本 陽子",
-      "date": "2026-06-26",
-      "time": "22:00",
-      "ts": "2026-06-26T08:34:00+09:00"
-    },
     {
       "type": "new",
       "patient_name": "黒田 証",
