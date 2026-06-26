@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T12:37:10.787631+09:00",
+  "generated": "2026-06-26T12:40:35.333881+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -251,7 +251,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T12:37:09.532016+09:00",
+      "last_updated": "2026-06-26T12:40:33.904432+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1711,24 +1711,29 @@
       "date": "2026-07-03",
       "short": "7/3(金)",
       "dow": "金",
-      "open_count": 9,
+      "open_count": 8,
       "booked_count": 1,
       "new_count": 0,
       "revisit_count": 1,
-      "first_open": "22:00",
+      "first_open": "22:10",
       "last_open": "23:20",
       "first_booked": "22:00",
       "last_booked": "22:00",
       "per_platform_open": {
-        "クロン": 1,
         "CLINICS": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
+        "クロン": 1,
         "gcal": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "クロン",
+          "code": "K"
+        }
+      ],
       "ranges": [
         [
           "22:00",
@@ -1741,7 +1746,7 @@
           "time": "22:00",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:10"
             }
           },
@@ -1859,7 +1864,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T11:24:00.625435+09:00",
+      "last_updated": "2026-06-26T12:40:33.345784+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5796,9 +5801,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-26T12:33:48.772869",
+  "sigma_last_run": "2026-06-26T12:38:48.501512",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T12:34:56.974554+09:00",
+    "fetched_at": "2026-06-26T12:38:21.233166+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
