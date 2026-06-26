@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T11:26:04.404916+09:00",
+  "generated": "2026-06-26T11:28:54.936761+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -540,7 +540,7 @@
               "end_time": "19:40",
               "karte_id": "50000409",
               "karte_src": "manual",
-              "pharmacy": "はな薬局天六店"
+              "pharmacy": ""
             }
           ],
           "sokuyaku_truth": []
@@ -667,7 +667,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T11:15:28.568560+09:00",
+      "last_updated": "2026-06-26T11:26:21.826056+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -989,7 +989,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T11:16:05.257486+09:00",
+      "last_updated": "2026-06-26T11:26:59.709968+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1185,7 +1185,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T11:16:34.899861+09:00",
+      "last_updated": "2026-06-26T11:27:30.068149+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1327,7 +1327,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T11:17:02.727180+09:00",
+      "last_updated": "2026-06-26T11:27:56.901792+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1371,7 +1371,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T11:17:29.970015+09:00",
+      "last_updated": "2026-06-26T11:28:23.671634+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1704,7 +1704,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T11:17:58.253495+09:00",
+      "last_updated": "2026-06-26T11:28:53.394468+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2428,31 +2428,8 @@
       "full_platforms": [],
       "ranges": [],
       "range_text": "",
-      "slots": [
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        }
-      ],
-      "last_updated": "2026-06-26T10:09:56.453429+09:00",
+      "slots": [],
+      "last_updated": "2026-06-26T11:26:34.550396+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2620,7 +2597,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T10:10:26.956347+09:00",
+      "last_updated": "2026-06-26T11:27:04.883801+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2773,7 +2750,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T10:10:57.467959+09:00",
+      "last_updated": "2026-06-26T11:27:34.841465+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2915,7 +2892,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T10:11:27.874173+09:00",
+      "last_updated": "2026-06-26T11:28:05.147813+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3090,7 +3067,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T10:11:57.908243+09:00",
+      "last_updated": "2026-06-26T11:28:34.972693+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5819,9 +5796,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-26T11:23:48.364624",
+  "sigma_last_run": "2026-06-26T11:28:49.214466",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T11:23:50.849329+09:00",
+    "fetched_at": "2026-06-26T11:27:13.180876+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
