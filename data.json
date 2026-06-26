@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T00:30:51.662789+09:00",
+  "generated": "2026-06-27T00:34:27.287513+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -325,7 +325,7 @@
               "department": "",
               "end_time": "19:40",
               "karte_id": "50000409",
-              "karte_src": "manual",
+              "karte_src": "platform",
               "pharmacy": "はな薬局天六店",
               "demo": "M 56歳",
               "qualified": true,
@@ -477,7 +477,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T00:30:50.215015+09:00",
+      "last_updated": "2026-06-27T00:34:25.622238+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5943,9 +5943,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-27T00:18:51.573531",
+  "sigma_last_run": "2026-06-27T00:33:49.378253",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T00:28:18.740516+09:00",
+    "fetched_at": "2026-06-27T00:32:01.064377+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
