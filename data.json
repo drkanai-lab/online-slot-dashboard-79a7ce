@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T22:12:12.481817+09:00",
+  "generated": "2026-06-26T22:15:44.060492+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -21,8 +21,8 @@
       "dow": "金",
       "open_count": 2,
       "booked_count": 6,
-      "new_count": 1,
-      "revisit_count": 5,
+      "new_count": 2,
+      "revisit_count": 4,
       "first_open": "22:20",
       "last_open": "23:10",
       "first_booked": "22:00",
@@ -32,7 +32,7 @@
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 5,
+        "gcal": 6,
         "CLINICS": 2,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -219,7 +219,19 @@
               "end_time": "23:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "G",
+              "patient_name": "坂内　菜穂",
+              "visit_type": "初診",
+              "department": "眼",
+              "end_time": "23:10",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": "F 26歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -245,7 +257,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T22:12:10.248112+09:00",
+      "last_updated": "2026-06-26T22:15:42.611865+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5891,9 +5903,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-26T22:08:50.930628",
+  "sigma_last_run": "2026-06-26T22:13:49.036637",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T22:09:49.319717+09:00",
+    "fetched_at": "2026-06-26T22:13:20.533252+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
