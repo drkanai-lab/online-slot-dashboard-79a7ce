@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T16:13:10.902971+09:00",
+  "generated": "2026-06-26T16:16:41.858908+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -251,17 +251,17 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T16:13:09.571208+09:00",
+      "last_updated": "2026-06-26T16:16:40.568963+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-27",
       "short": "6/27(土)",
       "dow": "土",
-      "open_count": 8,
-      "booked_count": 10,
+      "open_count": 7,
+      "booked_count": 11,
       "new_count": 1,
-      "revisit_count": 9,
+      "revisit_count": 10,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "12:30",
@@ -269,11 +269,11 @@
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 5,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 4,
-        "gcal": 9,
+        "SOKUYAKU": 5,
+        "gcal": 10,
         "GMO": 2,
         "CLINICS": 3,
         "クロン": 1
@@ -582,11 +582,22 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒田 証",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:40",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "いちご薬局（志木市）"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒田 証",
@@ -673,7 +684,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T16:03:12.126639+09:00",
+      "last_updated": "2026-06-26T16:14:22.863824+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -995,7 +1006,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T16:03:39.919801+09:00",
+      "last_updated": "2026-06-26T16:14:50.085857+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1207,7 +1218,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T16:04:09.619064+09:00",
+      "last_updated": "2026-06-26T16:15:18.346109+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1349,7 +1360,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T16:04:36.822444+09:00",
+      "last_updated": "2026-06-26T16:15:45.443800+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1393,7 +1404,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T16:05:03.855636+09:00",
+      "last_updated": "2026-06-26T16:16:11.941608+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1726,7 +1737,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T16:05:33.473631+09:00",
+      "last_updated": "2026-06-26T16:16:40.298293+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5843,12 +5854,19 @@
       "date": "2026-06-26",
       "time": "22:00",
       "ts": "2026-06-26T08:34:00+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "黒田 証",
+      "date": "2026-06-27",
+      "time": "22:30",
+      "ts": "2026-06-26T16:16:41+09:00"
     }
   ],
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-06-26T16:13:48.543799",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T16:10:51.143995+09:00",
+    "fetched_at": "2026-06-26T16:14:20.150216+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
