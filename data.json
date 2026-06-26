@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T14:01:31.612609+09:00",
+  "generated": "2026-06-26T14:03:57.911943+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -667,7 +667,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T13:50:59.492985+09:00",
+      "last_updated": "2026-06-26T14:01:36.954064+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -989,33 +989,38 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T13:51:26.563129+09:00",
+      "last_updated": "2026-06-26T14:02:05.328431+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-29",
       "short": "6/29(月)",
       "dow": "月",
-      "open_count": 5,
-      "booked_count": 3,
+      "open_count": 4,
+      "booked_count": 4,
       "new_count": 0,
-      "revisit_count": 3,
-      "first_open": "18:30",
+      "revisit_count": 4,
+      "first_open": "18:50",
       "last_open": "19:30",
-      "first_booked": "18:40",
+      "first_booked": "18:30",
       "last_booked": "19:40",
       "per_platform_open": {
-        "GMO": 1,
         "CLINICS": 2,
         "SOKUYAKU": 1,
         "クロン": 1
       },
       "per_platform_booked": {
+        "GMO": 1,
         "CLINICS": 2,
         "gcal": 3,
         "SOKUYAKU": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "GMO",
+          "code": "G"
+        }
+      ],
       "ranges": [
         [
           "18:30",
@@ -1039,7 +1044,7 @@
           "time": "18:30",
           "platforms": {
             "GMO": {
-              "status": "open",
+              "status": "booked",
               "end_time": "18:40"
             }
           },
@@ -1185,7 +1190,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T13:51:55.903126+09:00",
+      "last_updated": "2026-06-26T14:02:33.449998+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1327,7 +1332,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T13:52:22.457738+09:00",
+      "last_updated": "2026-06-26T14:03:00.860698+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1371,7 +1376,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T13:52:49.420492+09:00",
+      "last_updated": "2026-06-26T14:03:26.803391+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1704,7 +1709,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T13:53:17.801284+09:00",
+      "last_updated": "2026-06-26T14:03:55.231613+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3274,7 +3279,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T12:45:29.966491+09:00",
+      "last_updated": "2026-06-26T14:02:00.972969+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3576,7 +3581,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T12:46:03.038911+09:00",
+      "last_updated": "2026-06-26T14:02:34.029940+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3718,7 +3723,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T12:46:36.640771+09:00",
+      "last_updated": "2026-06-26T14:03:07.330716+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3860,7 +3865,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T12:47:09.406485+09:00",
+      "last_updated": "2026-06-26T14:03:40.338989+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5824,9 +5829,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-26T13:58:49.636205",
+  "sigma_last_run": "2026-06-26T14:03:48.689730",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T13:59:19.755043+09:00",
+    "fetched_at": "2026-06-26T14:02:42.124502+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
