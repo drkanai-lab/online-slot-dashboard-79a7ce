@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T17:30:11.374710+09:00",
+  "generated": "2026-06-26T17:33:41.951237+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -21,21 +21,21 @@
       "date": "2026-06-26",
       "short": "6/26(金)",
       "dow": "金",
-      "open_count": 4,
-      "booked_count": 5,
+      "open_count": 3,
+      "booked_count": 6,
       "new_count": 1,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "22:20",
       "last_open": "23:20",
       "first_booked": "22:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 4
+        "CLINICS": 3
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 5,
-        "CLINICS": 1,
+        "gcal": 6,
+        "CLINICS": 2,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -188,11 +188,22 @@
           "time": "22:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "藤田梨乃",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00",
+              "karte_id": "50000249",
+              "karte_src": "platform",
+              "pharmacy": "さわやか薬局"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -251,7 +262,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T17:30:09.993631+09:00",
+      "last_updated": "2026-06-26T17:33:40.503197+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -684,7 +695,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T17:21:37.727756+09:00",
+      "last_updated": "2026-06-26T17:32:56.234514+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1006,7 +1017,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T17:22:14.010535+09:00",
+      "last_updated": "2026-06-26T17:33:24.152905+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5861,12 +5872,19 @@
       "date": "2026-06-27",
       "time": "22:30",
       "ts": "2026-06-26T16:16:41+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "藤田梨乃",
+      "date": "2026-06-26",
+      "time": "22:50",
+      "ts": "2026-06-26T17:33:41+09:00"
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-26T17:28:49.780516",
+  "sigma_last_run": "2026-06-26T17:33:49.421047",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T17:27:50.195425+09:00",
+    "fetched_at": "2026-06-26T17:31:19.805581+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
