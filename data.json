@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T07:18:37.167475+09:00",
+  "generated": "2026-06-27T07:19:53.788194+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -1225,7 +1225,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T07:05:51.522219+09:00",
+      "last_updated": "2026-06-27T07:18:57.399531+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1563,31 +1563,36 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T07:06:19.088450+09:00",
+      "last_updated": "2026-06-27T07:19:25.716860+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-03",
       "short": "7/3(金)",
       "dow": "金",
-      "open_count": 9,
+      "open_count": 8,
       "booked_count": 1,
       "new_count": 0,
       "revisit_count": 1,
-      "first_open": "22:00",
+      "first_open": "22:10",
       "last_open": "23:20",
       "first_booked": "22:00",
       "last_booked": "22:00",
       "per_platform_open": {
-        "クロン": 1,
         "CLINICS": 5,
         "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
+        "クロン": 1,
         "gcal": 1
       },
-      "full_platforms": [],
+      "full_platforms": [
+        {
+          "name": "クロン",
+          "code": "K"
+        }
+      ],
       "ranges": [
         [
           "22:00",
@@ -1600,7 +1605,7 @@
           "time": "22:00",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:10"
             }
           },
@@ -1612,9 +1617,9 @@
               "department": "",
               "end_time": "22:10",
               "karte_id": "50000371",
-              "karte_src": "manual",
+              "karte_src": "platform",
               "pharmacy": "",
-              "demo": ""
+              "demo": "M 37歳"
             }
           ],
           "sokuyaku_truth": []
@@ -1719,7 +1724,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T07:06:45.506225+09:00",
+      "last_updated": "2026-06-27T07:19:52.008274+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
