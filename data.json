@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T21:40:53.476185+09:00",
+  "generated": "2026-06-26T21:44:04.366619+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-26",
@@ -197,7 +197,9 @@
               "end_time": "23:00",
               "karte_id": "50000249",
               "karte_src": "platform",
-              "pharmacy": "さわやか薬局"
+              "pharmacy": "さわやか薬局",
+              "qualified": true,
+              "qualified_at": "R08.06.26 21:40:13"
             }
           ],
           "sokuyaku_truth": []
@@ -236,7 +238,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T21:40:31.977519+09:00",
+      "last_updated": "2026-06-26T21:44:03.282485+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4031,7 +4033,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T20:24:51.098583+09:00",
+      "last_updated": "2026-06-26T21:41:26.365559+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4213,7 +4215,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T20:25:34.663677+09:00",
+      "last_updated": "2026-06-26T21:41:59.587211+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4366,7 +4368,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T20:26:08.430283+09:00",
+      "last_updated": "2026-06-26T21:42:32.257061+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4497,7 +4499,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T20:26:44.748280+09:00",
+      "last_updated": "2026-06-26T21:43:08.988109+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4687,7 +4689,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-26T20:27:21.351920+09:00",
+      "last_updated": "2026-06-26T21:43:45.035406+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5848,10 +5850,10 @@
       "ts": "2026-06-26T17:33:41+09:00"
     }
   ],
-  "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-06-26T21:38:51.162703",
+  "sigma_qualified_count": 56,
+  "sigma_last_run": "2026-06-26T21:43:48.542703",
   "gmo_realtime": {
-    "fetched_at": "2026-06-26T21:40:05.134010+09:00",
+    "fetched_at": "2026-06-26T21:41:42.239918+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
