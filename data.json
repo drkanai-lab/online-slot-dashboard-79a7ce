@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-27T22:17:44.960386+09:00",
+  "generated": "2026-06-27T22:21:27.853614+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
     "short": "6/27(土)",
-    "time": "22:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "karte_id": "",
-    "karte_src": "",
-    "pharmacy": "",
-    "status": "open"
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "黒田 証",
+    "visit_type": "再診",
+    "department": "整形",
+    "karte_id": "50000377",
+    "karte_src": "manual",
+    "pharmacy": "いちご薬局（志木市）",
+    "status": "booked"
   },
   "days": [
     {
@@ -491,7 +491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T22:17:43.496215+09:00",
+      "last_updated": "2026-06-27T22:21:26.608879+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6038,9 +6038,9 @@
     }
   ],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-06-27T22:13:52.122102",
+  "sigma_last_run": "2026-06-27T22:18:54.230990",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T22:15:11.039314+09:00",
+    "fetched_at": "2026-06-27T22:18:53.015510+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
