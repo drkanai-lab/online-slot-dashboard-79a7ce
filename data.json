@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T20:14:13.611417+09:00",
+  "generated": "2026-06-27T20:18:04.850563+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -304,7 +304,7 @@
               "end_time": "19:40",
               "karte_id": "50000409",
               "karte_src": "platform",
-              "pharmacy": "",
+              "pharmacy": "患者さんはこちらの薬局でお薬を受け取ります",
               "demo": "M 56歳",
               "qualified": true,
               "qualified_at": "R08.06.21 21:30:07"
@@ -491,7 +491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T20:14:12.305649+09:00",
+      "last_updated": "2026-06-27T20:18:03.485132+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -830,7 +830,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T20:06:19.034667+09:00",
+      "last_updated": "2026-06-27T20:17:56.524219+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6013,9 +6013,9 @@
     }
   ],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-06-27T20:13:51.882135",
+  "sigma_last_run": "2026-06-27T20:18:52.473564",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T20:11:35.509550+09:00",
+    "fetched_at": "2026-06-27T20:15:27.417570+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
