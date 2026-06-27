@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T15:26:13.487741+09:00",
+  "generated": "2026-06-27T15:29:47.315585+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -91,21 +91,13 @@
               "end_time": "12:40",
               "karte_id": "149163",
               "karte_src": "manual",
-              "pharmacy": "ニック調剤薬局高砂店",
-              "demo": "F 19歳",
+              "pharmacy": "",
+              "demo": "",
               "qualified": true,
               "qualified_at": "R08.06.25 13:12:17"
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "黒井 愛",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.06.25 13:12:17"
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "12:45",
@@ -477,7 +469,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T15:26:12.126991+09:00",
+      "last_updated": "2026-06-27T15:29:45.577386+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -816,7 +808,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T15:18:16.490492+09:00",
+      "last_updated": "2026-06-27T15:29:11.520531+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1032,7 +1024,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T15:18:46.237212+09:00",
+      "last_updated": "2026-06-27T15:29:39.720026+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1966,7 +1958,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T14:10:01.098300+09:00",
+      "last_updated": "2026-06-27T15:26:21.884619+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2290,7 +2282,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T14:10:35.377253+09:00",
+      "last_updated": "2026-06-27T15:26:54.357253+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2334,7 +2326,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T14:11:04.660698+09:00",
+      "last_updated": "2026-06-27T15:27:23.990286+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2502,7 +2494,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T14:11:34.981330+09:00",
+      "last_updated": "2026-06-27T15:28:22.478096+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2655,7 +2647,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T14:12:04.779617+09:00",
+      "last_updated": "2026-06-27T15:28:52.864700+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2797,7 +2789,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T14:12:35.369660+09:00",
+      "last_updated": "2026-06-27T15:29:22.565705+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5974,9 +5966,9 @@
     }
   ],
   "sigma_qualified_count": 57,
-  "sigma_last_run": "2026-06-27T15:23:48.776925",
+  "sigma_last_run": "2026-06-27T15:28:50.108369",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T15:23:47.026070+09:00",
+    "fetched_at": "2026-06-27T15:27:21.891209+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
