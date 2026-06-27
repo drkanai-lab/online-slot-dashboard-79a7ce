@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T17:39:56.542417+09:00",
+  "generated": "2026-06-27T17:43:48.013085+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -23,8 +23,8 @@
       "dow": "土",
       "open_count": 6,
       "booked_count": 12,
-      "new_count": 2,
-      "revisit_count": 10,
+      "new_count": 1,
+      "revisit_count": 11,
       "first_open": "12:30",
       "last_open": "23:20",
       "first_booked": "12:45",
@@ -36,7 +36,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 5,
-        "gcal": 11,
+        "gcal": 12,
         "GMO": 2,
         "CLINICS": 4,
         "クロン": 1
@@ -335,14 +335,13 @@
             {
               "code": "C",
               "patient_name": "山田麻衣子",
-              "visit_type": "初診",
-              "department": "",
+              "visit_type": "再診",
+              "department": "泌尿",
               "end_time": "22:20",
               "karte_id": "149037",
               "karte_src": "platform",
               "pharmacy": "",
-              "demo": "F 39歳",
-              "name_src": "truth"
+              "demo": "F 39歳"
             }
           ],
           "sokuyaku_truth": []
@@ -490,7 +489,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T17:39:54.979248+09:00",
+      "last_updated": "2026-06-27T17:43:46.124173+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6000,9 +5999,9 @@
     }
   ],
   "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-06-27T17:39:03.013935",
+  "sigma_last_run": "2026-06-27T17:43:50.365964",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T17:37:20.298207+09:00",
+    "fetched_at": "2026-06-27T17:41:10.717244+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
