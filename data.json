@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T20:36:48.194816+09:00",
+  "generated": "2026-06-27T20:40:32.860271+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -491,7 +491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T20:36:46.966234+09:00",
+      "last_updated": "2026-06-27T20:40:31.557487+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3190,30 +3190,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T19:20:41.168025+09:00",
+      "last_updated": "2026-06-27T20:37:15.615047+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-13",
       "short": "7/13(月)",
       "dow": "月",
-      "open_count": 19,
-      "booked_count": 1,
+      "open_count": 17,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 1,
-      "first_open": "12:00",
+      "revisit_count": 3,
+      "first_open": "12:20",
       "last_open": "23:20",
-      "first_booked": "19:00",
+      "first_booked": "12:00",
       "last_booked": "19:00",
       "per_platform_open": {
-        "CLINICS": 12,
+        "CLINICS": 10,
         "GMO": 2,
         "SOKUYAKU": 3,
         "クロン": 2
       },
       "per_platform_booked": {
-        "SOKUYAKU": 1,
-        "gcal": 1
+        "CLINICS": 2,
+        "gcal": 3,
+        "SOKUYAKU": 1
       },
       "full_platforms": [],
       "ranges": [
@@ -3236,22 +3237,46 @@
           "time": "12:00",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "12:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "野田功",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:10",
+              "karte_id": "153419",
+              "karte_src": "platform",
+              "pharmacy": "",
+              "demo": "M 66歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
           "time": "12:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "12:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "かわぐちけんた",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "12:20",
+              "karte_id": "152808",
+              "karte_src": "platform",
+              "pharmacy": "",
+              "demo": "M 43歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -3493,7 +3518,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T19:21:14.679903+09:00",
+      "last_updated": "2026-06-27T20:37:50.405593+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3635,7 +3660,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T19:21:47.747411+09:00",
+      "last_updated": "2026-06-27T20:38:24.219176+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3777,7 +3802,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T19:22:20.797087+09:00",
+      "last_updated": "2026-06-27T20:38:57.463155+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3930,7 +3955,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T19:22:55.100314+09:00",
+      "last_updated": "2026-06-27T20:39:59.713529+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6013,9 +6038,9 @@
     }
   ],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-06-27T20:33:52.326034",
+  "sigma_last_run": "2026-06-27T20:38:51.631891",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T20:34:12.930345+09:00",
+    "fetched_at": "2026-06-27T20:37:56.162222+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
