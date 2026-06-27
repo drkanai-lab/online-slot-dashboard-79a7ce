@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T14:00:24.083188+09:00",
+  "generated": "2026-06-27T14:01:43.982020+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -1237,7 +1237,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T13:49:24.286161+09:00",
+      "last_updated": "2026-06-27T14:00:45.553659+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1575,7 +1575,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T13:49:53.306970+09:00",
+      "last_updated": "2026-06-27T14:01:14.805266+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1736,7 +1736,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T13:50:20.148919+09:00",
+      "last_updated": "2026-06-27T14:01:42.094200+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5964,11 +5964,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "井戸柚葉",
+      "date": "2026-06-28",
+      "time": "18:40",
+      "ts": "2026-06-27T14:01:43+09:00"
+    }
+  ],
   "sigma_qualified_count": 57,
   "sigma_last_run": "2026-06-27T13:58:48.271323",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T13:57:56.819238+09:00",
+    "fetched_at": "2026-06-27T14:01:34.861987+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
