@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T00:20:27.997935+09:00",
+  "generated": "2026-06-28T00:22:29.486699+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -34,7 +34,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 5,
+        "gcal": 6,
         "CLINICS": 2,
         "SOKUYAKU": 2
       },
@@ -118,12 +118,11 @@
               "patient_name": "宮地一成",
               "visit_type": "再診",
               "department": "",
-              "end_time": "19:00",
+              "end_time": "19:05",
               "karte_id": "149512",
               "karte_src": "platform",
               "pharmacy": "アイン薬局 淀店",
               "demo": "M 58歳",
-              "name_src": "truth",
               "qualified": true,
               "qualified_at": "R08.06.26 23:45:20"
             }
@@ -361,7 +360,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T00:19:30.270396+09:00",
+      "last_updated": "2026-06-28T00:22:28.497423+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5723,7 +5722,7 @@
   "sigma_qualified_count": 60,
   "sigma_last_run": "2026-06-28T00:18:50.690637",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T00:17:41.339785+09:00",
+    "fetched_at": "2026-06-28T00:20:39.577642+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
