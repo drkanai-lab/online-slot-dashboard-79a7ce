@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T15:51:53.798319+09:00",
+  "generated": "2026-06-27T15:54:09.197935+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -1032,7 +1032,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T15:40:39.714027+09:00",
+      "last_updated": "2026-06-27T15:52:18.007273+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1054,8 +1054,8 @@
       },
       "per_platform_booked": {
         "CLINICS": 1,
-        "GMO": 1,
-        "gcal": 1
+        "gcal": 2,
+        "GMO": 1
       },
       "full_platforms": [
         {
@@ -1100,8 +1100,7 @@
               "karte_id": "152056",
               "karte_src": "platform",
               "pharmacy": "",
-              "demo": "F 20歳",
-              "name_src": "truth"
+              "demo": "F 20歳"
             }
           ],
           "sokuyaku_truth": []
@@ -1207,7 +1206,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T15:41:16.513840+09:00",
+      "last_updated": "2026-06-27T15:52:45.241430+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1251,7 +1250,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T15:41:42.752985+09:00",
+      "last_updated": "2026-06-27T15:53:12.214150+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1589,7 +1588,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T15:42:11.561790+09:00",
+      "last_updated": "2026-06-27T15:53:41.356912+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1750,7 +1749,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T15:42:38.102272+09:00",
+      "last_updated": "2026-06-27T15:54:07.846095+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5988,9 +5987,9 @@
     }
   ],
   "sigma_qualified_count": 58,
-  "sigma_last_run": "2026-06-27T15:48:51.604707",
+  "sigma_last_run": "2026-06-27T15:53:49.527904",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T15:49:19.420884+09:00",
+    "fetched_at": "2026-06-27T15:53:01.405941+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
