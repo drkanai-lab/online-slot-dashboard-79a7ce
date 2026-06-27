@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-27T19:14:04.683403+09:00",
+  "generated": "2026-06-27T19:17:48.818901+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
     "short": "6/27(土)",
-    "time": "19:15",
-    "code": "S",
-    "patient_name": "黒井 きぼう",
+    "time": "19:20",
+    "code": "C",
+    "patient_name": "かわぐちけんた",
     "visit_type": "再診",
-    "department": "多汗",
-    "karte_id": "149185",
-    "karte_src": "manual",
-    "pharmacy": "ニック調剤薬局高砂店",
+    "department": "",
+    "karte_id": "152808",
+    "karte_src": "platform",
+    "pharmacy": "チェルシー薬局",
     "status": "booked"
   },
   "days": [
@@ -487,7 +487,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T19:14:03.433753+09:00",
+      "last_updated": "2026-06-27T19:17:47.574392+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1848,7 +1848,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T17:59:28.339364+09:00",
+      "last_updated": "2026-06-27T19:16:03.224399+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2001,7 +2001,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T17:59:58.350576+09:00",
+      "last_updated": "2026-06-27T19:16:33.071928+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2325,7 +2325,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:00:32.417280+09:00",
+      "last_updated": "2026-06-27T19:17:07.303205+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2369,7 +2369,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:01:03.148029+09:00",
+      "last_updated": "2026-06-27T19:17:37.722795+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6011,7 +6011,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-06-27T19:13:49.873118",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T19:11:27.070601+09:00",
+    "fetched_at": "2026-06-27T19:15:12.294303+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
