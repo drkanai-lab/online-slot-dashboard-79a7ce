@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T18:32:41.501067+09:00",
+  "generated": "2026-06-27T18:36:08.462095+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
@@ -487,7 +487,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:32:40.133079+09:00",
+      "last_updated": "2026-06-27T18:33:11.717046+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -826,30 +826,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:22:09.047017+09:00",
+      "last_updated": "2026-06-27T18:33:44.229389+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-29",
       "short": "6/29(月)",
       "dow": "月",
-      "open_count": 4,
-      "booked_count": 4,
+      "open_count": 3,
+      "booked_count": 5,
       "new_count": 1,
-      "revisit_count": 3,
-      "first_open": "18:50",
+      "revisit_count": 4,
+      "first_open": "19:15",
       "last_open": "19:30",
       "first_booked": "18:30",
       "last_booked": "19:40",
       "per_platform_open": {
-        "CLINICS": 2,
         "SOKUYAKU": 1,
+        "CLINICS": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "GMO": 1,
-        "gcal": 4,
-        "CLINICS": 2,
+        "gcal": 5,
+        "CLINICS": 3,
         "SOKUYAKU": 1
       },
       "full_platforms": [
@@ -927,11 +927,23 @@
           "time": "18:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "石原ひろみ",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:00",
+              "karte_id": "152005",
+              "karte_src": "platform",
+              "pharmacy": "",
+              "demo": "F 57歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -1042,7 +1054,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:22:38.265898+09:00",
+      "last_updated": "2026-06-27T18:34:14.232831+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1216,7 +1228,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:23:06.452801+09:00",
+      "last_updated": "2026-06-27T18:34:43.082864+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1260,7 +1272,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:23:33.034965+09:00",
+      "last_updated": "2026-06-27T18:35:09.410069+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1598,7 +1610,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:24:02.086093+09:00",
+      "last_updated": "2026-06-27T18:35:39.362507+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1759,7 +1771,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:24:28.759591+09:00",
+      "last_updated": "2026-06-27T18:36:06.628261+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5997,9 +6009,9 @@
     }
   ],
   "sigma_qualified_count": 59,
-  "sigma_last_run": "2026-06-27T18:28:49.302990",
+  "sigma_last_run": "2026-06-27T18:33:49.014659",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T18:30:07.223066+09:00",
+    "fetched_at": "2026-06-27T18:33:49.149355+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
