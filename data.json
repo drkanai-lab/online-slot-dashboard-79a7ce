@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-27T12:44:40.535374+09:00",
+  "generated": "2026-06-27T12:48:16.611575+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
     "short": "6/27(土)",
-    "time": "12:45",
-    "code": "S",
-    "patient_name": "松本 幸子",
+    "time": "18:30",
+    "code": "G",
+    "patient_name": "渡邉　裕正",
     "visit_type": "再診",
     "department": "耳鼻",
-    "karte_id": "149431",
+    "karte_id": "153962",
     "karte_src": "manual",
-    "pharmacy": "スギ薬局　上野広小路店(東京都)",
+    "pharmacy": "ツルハドラッグ 仙台泉中央3丁目店",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.25 13:12:35"
+    "qualified_at": "R08.06.25 13:12:56"
   },
   "days": [
     {
@@ -477,7 +477,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T12:44:39.200541+09:00",
+      "last_updated": "2026-06-27T12:48:15.360432+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5954,9 +5954,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-27T12:43:50.191268",
+  "sigma_last_run": "2026-06-27T12:48:50.238907",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T12:42:12.914537+09:00",
+    "fetched_at": "2026-06-27T12:45:48.540459+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
