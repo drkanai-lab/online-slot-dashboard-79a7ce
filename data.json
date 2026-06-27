@@ -1,20 +1,18 @@
 {
-  "generated": "2026-06-27T18:28:58.334472+09:00",
+  "generated": "2026-06-27T18:32:41.501067+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
     "short": "6/27(土)",
-    "time": "18:30",
-    "code": "G",
-    "patient_name": "渡邉　裕正",
+    "time": "18:40",
+    "code": "C",
+    "patient_name": "野田功",
     "visit_type": "再診",
-    "department": "耳鼻",
-    "karte_id": "153962",
-    "karte_src": "manual",
-    "pharmacy": "ツルハドラッグ 仙台泉中央3丁目店",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.25 13:12:56"
+    "department": "",
+    "karte_id": "153419",
+    "karte_src": "platform",
+    "pharmacy": "薬局ダックス南丹園部店",
+    "status": "booked"
   },
   "days": [
     {
@@ -489,7 +487,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:28:56.840947+09:00",
+      "last_updated": "2026-06-27T18:32:40.133079+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6001,7 +5999,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-06-27T18:28:49.302990",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T18:26:21.258576+09:00",
+    "fetched_at": "2026-06-27T18:30:07.223066+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
