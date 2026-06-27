@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-27T18:48:05.444559+09:00",
+  "generated": "2026-06-27T18:51:25.914290+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
     "short": "6/27(土)",
-    "time": "18:50",
-    "code": "C",
-    "patient_name": "堤大洋",
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "黒井 奈央子",
     "visit_type": "再診",
-    "department": "",
-    "karte_id": "152193",
-    "karte_src": "platform",
-    "pharmacy": "アイ薬局（山科）",
+    "department": "内科",
+    "karte_id": "150260",
+    "karte_src": "manual",
+    "pharmacy": "ニック調剤薬局高砂店",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.25 09:55:14"
+    "qualified_at": "R08.06.25 13:11:28"
   },
   "days": [
     {
@@ -489,7 +489,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T18:47:39.849791+09:00",
+      "last_updated": "2026-06-27T18:51:24.650047+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6013,7 +6013,7 @@
   "sigma_qualified_count": 59,
   "sigma_last_run": "2026-06-27T18:48:50.518712",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T18:45:04.715646+09:00",
+    "fetched_at": "2026-06-27T18:48:49.227960+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
