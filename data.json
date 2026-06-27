@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T01:33:36.484676+09:00",
+  "generated": "2026-06-28T01:34:02.844322+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -19,10 +19,10 @@
       "date": "2026-06-28",
       "short": "6/28(日)",
       "dow": "日",
-      "open_count": 12,
-      "booked_count": 6,
+      "open_count": 11,
+      "booked_count": 7,
       "new_count": 1,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "19:20",
       "last_open": "23:20",
       "first_booked": "18:30",
@@ -30,13 +30,13 @@
       "per_platform_open": {
         "CLINICS": 8,
         "クロン": 2,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 2,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 3
       },
       "full_platforms": [
         {
@@ -272,11 +272,23 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "大見 英二",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:40",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "ウエルシア松戸元山薬局",
+              "demo": "M 66歳"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "大見 英二",
@@ -366,7 +378,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T01:30:54.227634+09:00",
+      "last_updated": "2026-06-28T01:34:01.867625+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5844,6 +5856,13 @@
       "date": "2026-06-29",
       "time": "18:50",
       "ts": "2026-06-27T18:36:07+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "大見 英二",
+      "date": "2026-06-28",
+      "time": "22:30",
+      "ts": "2026-06-28T01:34:02+09:00"
     }
   ],
   "sigma_qualified_count": 60,
