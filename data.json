@@ -1,20 +1,18 @@
 {
-  "generated": "2026-06-27T22:43:51.811608+09:00",
+  "generated": "2026-06-27T22:47:34.343758+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
     "short": "6/27(土)",
-    "time": "22:45",
-    "code": "S",
-    "patient_name": "黒井 愛",
-    "visit_type": "再診",
-    "department": "泌尿",
-    "karte_id": "149163",
-    "karte_src": "manual",
-    "pharmacy": "ニック調剤薬局高砂店",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.25 13:12:17"
+    "time": "22:50",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "karte_id": "",
+    "karte_src": "",
+    "pharmacy": "",
+    "status": "open"
   },
   "days": [
     {
@@ -493,7 +491,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T22:43:50.495657+09:00",
+      "last_updated": "2026-06-27T22:47:33.060446+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6042,7 +6040,7 @@
   "sigma_qualified_count": 62,
   "sigma_last_run": "2026-06-27T22:43:54.051805",
   "gmo_realtime": {
-    "fetched_at": "2026-06-27T22:41:15.190650+09:00",
+    "fetched_at": "2026-06-27T22:44:59.921872+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
