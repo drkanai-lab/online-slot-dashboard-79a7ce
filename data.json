@@ -1,18 +1,20 @@
 {
-  "generated": "2026-06-27T22:50:57.896162+09:00",
+  "generated": "2026-06-27T22:51:19.030284+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-27",
     "short": "6/27(土)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "karte_id": "",
-    "karte_src": "",
-    "pharmacy": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "千葉　尚志",
+    "visit_type": "再診",
+    "department": "総診",
+    "karte_id": "154435",
+    "karte_src": "manual",
+    "pharmacy": "薬局24 byGMO",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.25 13:13:35"
   },
   "days": [
     {
@@ -491,7 +493,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-27T22:47:45.865028+09:00",
+      "last_updated": "2026-06-27T22:51:17.505873+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
