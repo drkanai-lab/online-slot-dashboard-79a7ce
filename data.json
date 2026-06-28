@@ -1,18 +1,20 @@
 {
-  "generated": "2026-06-28T22:00:05.302502+09:00",
+  "generated": "2026-06-28T22:03:25.582698+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
     "short": "6/28(日)",
-    "time": "22:00",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "time": "22:10",
+    "code": "C",
+    "patient_name": "細野優真",
+    "visit_type": "再診",
     "department": "",
-    "karte_id": "",
-    "karte_src": "",
-    "pharmacy": "",
-    "status": "open"
+    "karte_id": "152272",
+    "karte_src": "platform",
+    "pharmacy": "ユタカ薬局宇治木幡南",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.28 18:26:36"
   },
   "days": [
     {
@@ -415,7 +417,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T22:00:03.817069+09:00",
+      "last_updated": "2026-06-28T22:03:24.176597+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5918,9 +5920,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-28T21:58:36.646565",
+  "sigma_last_run": "2026-06-28T22:03:53.683760",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T21:57:55.609839+09:00",
+    "fetched_at": "2026-06-28T22:01:15.354441+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
