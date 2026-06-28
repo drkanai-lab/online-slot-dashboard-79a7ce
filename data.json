@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T20:04:35.963698+09:00",
+  "generated": "2026-06-28T20:07:53.967242+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -101,7 +101,9 @@
               "karte_id": "146986",
               "karte_src": "platform",
               "pharmacy": "アイン薬局 淀店",
-              "demo": "F 2歳"
+              "demo": "F 2歳",
+              "qualified": true,
+              "qualified_at": "R08.06.27 22:22:11"
             }
           ],
           "sokuyaku_truth": []
@@ -164,14 +166,18 @@
               "karte_id": "150260",
               "karte_src": "manual",
               "pharmacy": "ニック調剤薬局高砂店",
-              "demo": "F 53歳"
+              "demo": "F 53歳",
+              "qualified": true,
+              "qualified_at": "R08.06.25 13:11:28"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "黒井 奈央子",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.25 13:11:28"
             }
           ]
         },
@@ -218,7 +224,7 @@
               "pharmacy": "ウエルシア薬局富山天正寺店",
               "demo": "F 54歳",
               "qualified": true,
-              "qualified_at": "R08.06.28 16:40:07"
+              "qualified_at": "R08.06.28 10:00:11"
             }
           ],
           "sokuyaku_truth": []
@@ -365,7 +371,9 @@
               "karte_id": "152570",
               "karte_src": "manual",
               "pharmacy": "薬局24 byGMO",
-              "demo": "F 20歳"
+              "demo": "F 20歳",
+              "qualified": true,
+              "qualified_at": "R08.06.26 23:45:42"
             }
           ],
           "sokuyaku_truth": []
@@ -404,7 +412,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T20:04:34.668303+09:00",
+      "last_updated": "2026-06-28T20:07:52.664265+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -647,7 +655,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T19:55:56.181367+09:00",
+      "last_updated": "2026-06-28T20:06:45.936964+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -821,7 +829,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T19:56:20.969332+09:00",
+      "last_updated": "2026-06-28T20:07:10.570804+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -989,7 +997,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T19:56:45.614393+09:00",
+      "last_updated": "2026-06-28T20:07:34.324087+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5906,10 +5914,10 @@
       "ts": "2026-06-28T18:42:04+09:00"
     }
   ],
-  "sigma_qualified_count": 6,
-  "sigma_last_run": "2026-06-28T19:59:04.541314",
+  "sigma_qualified_count": 65,
+  "sigma_last_run": "2026-06-28T20:08:52.633367",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T20:02:24.859419+09:00",
+    "fetched_at": "2026-06-28T20:05:44.747970+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
