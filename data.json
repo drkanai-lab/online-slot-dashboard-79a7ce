@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-28T22:20:01.559930+09:00",
+  "generated": "2026-06-28T22:23:20.920389+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
     "short": "6/28(日)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "近藤香菜子",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "大見 英二",
     "visit_type": "再診",
-    "department": "",
-    "karte_id": "149972",
-    "karte_src": "platform",
-    "pharmacy": "ププレひまわり薬局尾道中央店",
+    "department": "整形",
+    "karte_id": "148436",
+    "karte_src": "manual",
+    "pharmacy": "ウエルシア松戸元山薬局",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.28 21:50:07"
+    "qualified_at": "R08.06.28 18:26:54"
   },
   "days": [
     {
@@ -417,7 +417,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T22:20:00.093828+09:00",
+      "last_updated": "2026-06-28T22:23:19.524788+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5920,9 +5920,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-28T22:18:54.323109",
+  "sigma_last_run": "2026-06-28T22:23:52.807202",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T22:17:50.921554+09:00",
+    "fetched_at": "2026-06-28T22:21:11.595227+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
