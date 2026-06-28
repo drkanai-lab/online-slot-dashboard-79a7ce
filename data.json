@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T18:31:59.188038+09:00",
+  "generated": "2026-06-28T18:35:17.512805+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -274,7 +274,9 @@
               "karte_id": "152272",
               "karte_src": "platform",
               "pharmacy": "ユタカ薬局宇治木幡南",
-              "demo": "M 11歳"
+              "demo": "M 11歳",
+              "qualified": true,
+              "qualified_at": "R08.06.28 18:26:36"
             }
           ],
           "sokuyaku_truth": []
@@ -308,14 +310,18 @@
               "karte_id": "",
               "karte_src": "",
               "pharmacy": "ウエルシア松戸元山薬局",
-              "demo": "M 66歳"
+              "demo": "M 66歳",
+              "qualified": true,
+              "qualified_at": "R08.06.28 18:26:54"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "大見 英二",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.28 18:26:54"
             }
           ]
         },
@@ -337,14 +343,18 @@
               "karte_id": "",
               "karte_src": "",
               "pharmacy": "調剤薬局ツルハドラッグ北野店",
-              "demo": "M 52歳"
+              "demo": "M 52歳",
+              "qualified": true,
+              "qualified_at": "R08.06.28 18:27:14"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "北川 貴博",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.28 18:27:14"
             }
           ]
         },
@@ -418,7 +428,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:31:57.884324+09:00",
+      "last_updated": "2026-06-28T18:35:16.134406+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5905,10 +5915,10 @@
       "ts": "2026-06-28T14:58:26+09:00"
     }
   ],
-  "sigma_qualified_count": 62,
-  "sigma_last_run": "2026-06-28T18:28:51.417957",
+  "sigma_qualified_count": 65,
+  "sigma_last_run": "2026-06-28T18:33:52.111847",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T18:29:47.387490+09:00",
+    "fetched_at": "2026-06-28T18:33:06.975690+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
