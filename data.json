@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T17:38:23.720967+09:00",
+  "generated": "2026-06-28T17:41:42.324494+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -19,7 +19,7 @@
       "date": "2026-06-28",
       "short": "6/28(日)",
       "dow": "日",
-      "open_count": 7,
+      "open_count": 8,
       "booked_count": 11,
       "new_count": 2,
       "revisit_count": 9,
@@ -28,13 +28,13 @@
       "first_booked": "18:30",
       "last_booked": "23:10",
       "per_platform_open": {
-        "CLINICS": 6,
+        "CLINICS": 7,
         "クロン": 1
       },
       "per_platform_booked": {
         "GMO": 2,
         "gcal": 11,
-        "CLINICS": 4,
+        "CLINICS": 3,
         "SOKUYAKU": 4,
         "クロン": 1
       },
@@ -396,8 +396,8 @@
           "time": "23:10",
           "platforms": {
             "CLINICS": {
-              "status": "booked",
-              "end_time": "23:20"
+              "status": "open",
+              "end_time": ""
             }
           },
           "gcals": [
@@ -410,7 +410,7 @@
               "karte_id": "",
               "karte_src": "",
               "pharmacy": "",
-              "demo": "F 38歳"
+              "demo": ""
             }
           ],
           "sokuyaku_truth": []
@@ -438,7 +438,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T17:38:22.089116+09:00",
+      "last_updated": "2026-06-28T17:41:39.542353+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5928,7 +5928,7 @@
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-06-28T17:38:50.174885",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T17:36:09.820233+09:00",
+    "fetched_at": "2026-06-28T17:39:32.240228+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
