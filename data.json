@@ -1,18 +1,18 @@
 {
-  "generated": "2026-06-28T18:48:36.912774+09:00",
+  "generated": "2026-06-28T18:51:55.400427+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
     "short": "6/28(日)",
-    "time": "18:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "karte_id": "",
-    "karte_src": "",
-    "pharmacy": "",
-    "status": "open"
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "黒井 きぼう",
+    "visit_type": "再診",
+    "department": "皮膚",
+    "karte_id": "149185",
+    "karte_src": "manual",
+    "pharmacy": "ニック調剤薬局高砂店",
+    "status": "booked"
   },
   "days": [
     {
@@ -412,7 +412,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:48:35.557676+09:00",
+      "last_updated": "2026-06-28T18:51:53.998298+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -655,7 +655,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:40:00.309082+09:00",
+      "last_updated": "2026-06-28T18:51:03.711229+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -829,7 +829,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:40:24.391938+09:00",
+      "last_updated": "2026-06-28T18:51:28.905496+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -997,7 +997,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:40:48.503161+09:00",
+      "last_updated": "2026-06-28T18:51:52.616514+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5915,9 +5915,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-06-28T18:44:06.274270",
+  "sigma_last_run": "2026-06-28T18:48:52.639354",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T18:46:25.725997+09:00",
+    "fetched_at": "2026-06-28T18:49:45.097404+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
