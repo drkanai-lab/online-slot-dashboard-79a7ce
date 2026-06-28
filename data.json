@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T22:29:39.862178+09:00",
+  "generated": "2026-06-28T22:30:05.035669+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -21,22 +21,22 @@
       "date": "2026-06-28",
       "short": "6/28(日)",
       "dow": "日",
-      "open_count": 4,
-      "booked_count": 11,
+      "open_count": 3,
+      "booked_count": 12,
       "new_count": 1,
-      "revisit_count": 10,
+      "revisit_count": 11,
       "first_open": "18:50",
       "last_open": "23:10",
       "first_booked": "18:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 3,
+        "CLINICS": 2,
         "クロン": 1
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 11,
-        "CLINICS": 4,
+        "gcal": 12,
+        "CLINICS": 5,
         "SOKUYAKU": 4,
         "クロン": 1
       },
@@ -362,11 +362,23 @@
           "time": "22:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "内田康太郎",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00",
+              "karte_id": "148969",
+              "karte_src": "platform",
+              "pharmacy": "ププレひまわり薬局　倉敷新倉敷店",
+              "demo": "M 17歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -417,7 +429,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T22:27:08.681714+09:00",
+      "last_updated": "2026-06-28T22:30:03.463945+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5899,13 +5911,6 @@
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "細野優真",
-      "date": "2026-06-28",
-      "time": "22:10",
-      "ts": "2026-06-28T11:12:44+09:00"
-    },
-    {
-      "type": "new",
       "patient_name": "松井真利",
       "date": "2026-06-28",
       "time": "23:10",
@@ -5917,6 +5922,13 @@
       "date": "2026-06-29",
       "time": "19:20",
       "ts": "2026-06-28T18:42:04+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "内田康太郎",
+      "date": "2026-06-28",
+      "time": "22:50",
+      "ts": "2026-06-28T22:30:04+09:00"
     }
   ],
   "sigma_qualified_count": 66,
