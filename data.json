@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T14:55:11.477135+09:00",
+  "generated": "2026-06-28T14:58:26.514525+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -19,22 +19,22 @@
       "date": "2026-06-28",
       "short": "6/28(日)",
       "dow": "日",
-      "open_count": 8,
-      "booked_count": 10,
-      "new_count": 1,
+      "open_count": 7,
+      "booked_count": 11,
+      "new_count": 2,
       "revisit_count": 9,
       "first_open": "19:20",
       "last_open": "23:20",
       "first_booked": "18:30",
-      "last_booked": "23:00",
+      "last_booked": "23:10",
       "per_platform_open": {
-        "CLINICS": 7,
+        "CLINICS": 6,
         "クロン": 1
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 10,
-        "CLINICS": 3,
+        "gcal": 11,
+        "CLINICS": 4,
         "SOKUYAKU": 4,
         "クロン": 1
       },
@@ -396,11 +396,23 @@
           "time": "23:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "松井真利",
+              "visit_type": "初診",
+              "department": "婦人",
+              "end_time": "23:20",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": "F 38歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -426,7 +438,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T14:55:05.538622+09:00",
+      "last_updated": "2026-06-28T14:58:24.997912+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5904,12 +5916,19 @@
       "date": "2026-06-28",
       "time": "22:10",
       "ts": "2026-06-28T11:12:44+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "松井真利",
+      "date": "2026-06-28",
+      "time": "23:10",
+      "ts": "2026-06-28T14:58:26+09:00"
     }
   ],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-06-28T14:53:49.368246",
+  "sigma_last_run": "2026-06-28T14:58:49.060886",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T14:52:57.735468+09:00",
+    "fetched_at": "2026-06-28T14:56:14.987990+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
