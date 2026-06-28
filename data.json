@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T06:34:18.931948+09:00",
+  "generated": "2026-06-29T06:37:01.938545+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-29",
@@ -267,7 +267,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T06:34:17.986002+09:00",
+      "last_updated": "2026-06-29T06:37:00.944220+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4100,7 +4100,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T05:19:25.610522+09:00",
+      "last_updated": "2026-06-29T06:34:26.218557+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4268,7 +4268,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T05:19:58.215886+09:00",
+      "last_updated": "2026-06-29T06:34:59.200791+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4469,23 +4469,22 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T05:20:30.521514+09:00",
+      "last_updated": "2026-06-29T06:35:33.125759+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-24",
       "short": "7/24(金)",
       "dow": "金",
-      "open_count": 12,
+      "open_count": 11,
       "booked_count": 0,
       "new_count": 0,
       "revisit_count": 0,
-      "first_open": "22:00",
+      "first_open": "22:10",
       "last_open": "23:50",
       "first_booked": "",
       "last_booked": "",
       "per_platform_open": {
-        "クロン": 2,
         "CLINICS": 6,
         "SOKUYAKU": 4,
         "GMO": 1
@@ -4494,23 +4493,12 @@
       "full_platforms": [],
       "ranges": [
         [
-          "22:00",
+          "22:10",
           "24:00"
         ]
       ],
-      "range_text": "22:00〜24:00",
+      "range_text": "22:10〜24:00",
       "slots": [
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
         {
           "time": "22:10",
           "platforms": {
@@ -4605,10 +4593,6 @@
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:45"
-            },
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
             }
           },
           "gcals": [],
@@ -4637,7 +4621,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T05:21:03.923609+09:00",
+      "last_updated": "2026-06-29T06:36:06.278255+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4864,7 +4848,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T05:22:05.312629+09:00",
+      "last_updated": "2026-06-29T06:36:38.949462+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5696,7 +5680,7 @@
   "sigma_qualified_count": 53,
   "sigma_last_run": "2026-06-29T06:34:00.196072",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T06:32:45.854736+09:00",
+    "fetched_at": "2026-06-29T06:35:27.240819+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
