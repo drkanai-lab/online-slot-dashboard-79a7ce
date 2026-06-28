@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T21:57:01.474853+09:00",
+  "generated": "2026-06-28T22:00:05.302502+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -283,7 +283,9 @@
               "karte_id": "149972",
               "karte_src": "platform",
               "pharmacy": "ププレひまわり薬局尾道中央店",
-              "demo": "F 28歳"
+              "demo": "F 28歳",
+              "qualified": true,
+              "qualified_at": "R08.06.28 21:50:07"
             }
           ],
           "sokuyaku_truth": []
@@ -413,7 +415,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T21:56:46.406591+09:00",
+      "last_updated": "2026-06-28T22:00:03.817069+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5915,10 +5917,10 @@
       "ts": "2026-06-28T18:42:04+09:00"
     }
   ],
-  "sigma_qualified_count": 65,
+  "sigma_qualified_count": 66,
   "sigma_last_run": "2026-06-28T21:58:36.646565",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T21:54:38.029065+09:00",
+    "fetched_at": "2026-06-28T21:57:55.609839+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
