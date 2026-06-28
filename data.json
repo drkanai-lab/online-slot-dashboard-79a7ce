@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T11:09:22.585122+09:00",
+  "generated": "2026-06-28T11:12:44.636263+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -19,22 +19,22 @@
       "date": "2026-06-28",
       "short": "6/28(日)",
       "dow": "日",
-      "open_count": 9,
-      "booked_count": 9,
+      "open_count": 8,
+      "booked_count": 10,
       "new_count": 1,
-      "revisit_count": 8,
+      "revisit_count": 9,
       "first_open": "19:20",
       "last_open": "23:20",
       "first_booked": "18:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 8,
+        "CLINICS": 7,
         "クロン": 1
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 9,
-        "CLINICS": 2,
+        "gcal": 10,
+        "CLINICS": 3,
         "SOKUYAKU": 4,
         "クロン": 1
       },
@@ -268,11 +268,23 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "細野優真",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20",
+              "karte_id": "152272",
+              "karte_src": "platform",
+              "pharmacy": "ユタカ薬局宇治木幡南",
+              "demo": "M 11歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -414,7 +426,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T11:09:21.202866+09:00",
+      "last_updated": "2026-06-28T11:12:42.993541+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5892,12 +5904,19 @@
       "date": "2026-06-28",
       "time": "19:30",
       "ts": "2026-06-28T10:00:17+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "細野優真",
+      "date": "2026-06-28",
+      "time": "22:10",
+      "ts": "2026-06-28T11:12:44+09:00"
     }
   ],
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-06-28T11:08:49.508573",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T11:07:13.935496+09:00",
+    "fetched_at": "2026-06-28T11:10:31.869899+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
