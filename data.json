@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-28T22:30:05.035669+09:00",
+  "generated": "2026-06-28T22:33:25.147999+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
     "short": "6/28(日)",
-    "time": "22:30",
+    "time": "22:45",
     "code": "S",
-    "patient_name": "大見 英二",
+    "patient_name": "北川 貴博",
     "visit_type": "再診",
-    "department": "整形",
-    "karte_id": "148436",
+    "department": "皮膚",
+    "karte_id": "150906",
     "karte_src": "manual",
-    "pharmacy": "ウエルシア松戸元山薬局",
+    "pharmacy": "調剤薬局ツルハドラッグ北野店",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.28 18:26:54"
+    "qualified_at": "R08.06.28 18:27:14"
   },
   "days": [
     {
@@ -429,7 +429,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T22:30:03.463945+09:00",
+      "last_updated": "2026-06-28T22:33:23.896736+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5932,9 +5932,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-06-28T22:28:56.499021",
+  "sigma_last_run": "2026-06-28T22:33:52.889618",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T22:27:48.441922+09:00",
+    "fetched_at": "2026-06-28T22:31:12.908097+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
