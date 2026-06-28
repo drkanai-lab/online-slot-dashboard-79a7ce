@@ -1,20 +1,18 @@
 {
-  "generated": "2026-06-28T18:38:36.130313+09:00",
+  "generated": "2026-06-28T18:41:55.685403+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
     "short": "6/28(日)",
-    "time": "18:40",
-    "code": "C",
-    "patient_name": "井戸柚葉",
-    "visit_type": "初診",
-    "department": "発熱",
-    "karte_id": "146986",
-    "karte_src": "platform",
-    "pharmacy": "アイン薬局 淀店",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.27 22:22:11"
+    "time": "18:50",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
+    "department": "",
+    "karte_id": "",
+    "karte_src": "",
+    "pharmacy": "",
+    "status": "open"
   },
   "days": [
     {
@@ -414,33 +412,36 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:38:34.552797+09:00",
+      "last_updated": "2026-06-28T18:41:54.425021+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-29",
       "short": "6/29(月)",
       "dow": "月",
-      "open_count": 3,
-      "booked_count": 5,
+      "open_count": 2,
+      "booked_count": 6,
       "new_count": 1,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "19:15",
       "last_open": "19:30",
       "first_booked": "18:30",
       "last_booked": "19:40",
       "per_platform_open": {
         "SOKUYAKU": 1,
-        "CLINICS": 1,
         "クロン": 1
       },
       "per_platform_booked": {
         "GMO": 1,
-        "gcal": 5,
-        "CLINICS": 3,
+        "gcal": 6,
+        "CLINICS": 4,
         "SOKUYAKU": 1
       },
       "full_platforms": [
+        {
+          "name": "CLINICS",
+          "code": "C"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -578,11 +579,23 @@
           "time": "19:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "宮地一成",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:30",
+              "karte_id": "149512",
+              "karte_src": "platform",
+              "pharmacy": "アイン薬局 淀店",
+              "demo": "M 58歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -642,7 +655,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:29:14.626104+09:00",
+      "last_updated": "2026-06-28T18:40:00.309082+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -816,7 +829,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:29:39.287698+09:00",
+      "last_updated": "2026-06-28T18:40:24.391938+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -984,7 +997,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:30:03.304348+09:00",
+      "last_updated": "2026-06-28T18:40:48.503161+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1322,7 +1335,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:30:28.541644+09:00",
+      "last_updated": "2026-06-28T18:41:15.358021+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1483,7 +1496,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:30:51.686768+09:00",
+      "last_updated": "2026-06-28T18:41:38.598177+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5904,7 +5917,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-06-28T18:38:58.950666",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T18:36:26.538615+09:00",
+    "fetched_at": "2026-06-28T18:39:44.496486+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
