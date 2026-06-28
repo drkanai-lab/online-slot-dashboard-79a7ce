@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T21:46:50.960655+09:00",
+  "generated": "2026-06-28T21:50:10.704181+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -19,22 +19,22 @@
       "date": "2026-06-28",
       "short": "6/28(日)",
       "dow": "日",
-      "open_count": 6,
-      "booked_count": 10,
+      "open_count": 5,
+      "booked_count": 11,
       "new_count": 1,
-      "revisit_count": 9,
+      "revisit_count": 10,
       "first_open": "18:50",
       "last_open": "23:20",
       "first_booked": "18:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 5,
+        "CLINICS": 4,
         "クロン": 1
       },
       "per_platform_booked": {
         "GMO": 2,
         "gcal": 10,
-        "CLINICS": 3,
+        "CLINICS": 4,
         "SOKUYAKU": 4,
         "クロン": 1
       },
@@ -269,11 +269,24 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "近藤香菜子",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30",
+              "karte_id": "149972",
+              "karte_src": "platform",
+              "pharmacy": "ププレひまわり薬局尾道中央店",
+              "demo": "F 28歳",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -412,7 +425,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T21:46:49.669279+09:00",
+      "last_updated": "2026-06-28T21:50:08.955983+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3239,7 +3252,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T20:31:24.122474+09:00",
+      "last_updated": "2026-06-28T21:46:57.931187+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3381,7 +3394,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T20:31:53.858125+09:00",
+      "last_updated": "2026-06-28T21:47:28.493511+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3523,7 +3536,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T20:32:23.586344+09:00",
+      "last_updated": "2026-06-28T21:47:58.009420+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3676,7 +3689,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T20:32:55.272844+09:00",
+      "last_updated": "2026-06-28T21:48:27.875061+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3859,7 +3872,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T20:33:26.292939+09:00",
+      "last_updated": "2026-06-28T21:48:58.441010+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4012,7 +4025,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T20:33:56.944173+09:00",
+      "last_updated": "2026-06-28T21:49:27.855529+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4143,7 +4156,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T20:34:29.980472+09:00",
+      "last_updated": "2026-06-28T21:50:02.703899+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5915,9 +5928,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-06-28T21:44:00.559172",
+  "sigma_last_run": "2026-06-28T21:49:05.212715",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T21:44:44.243486+09:00",
+    "fetched_at": "2026-06-28T21:49:00.824799+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
