@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T09:57:00.783599+09:00",
+  "generated": "2026-06-28T10:00:18.251869+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
@@ -20,9 +20,9 @@
       "short": "6/28(日)",
       "dow": "日",
       "open_count": 10,
-      "booked_count": 8,
+      "booked_count": 9,
       "new_count": 1,
-      "revisit_count": 7,
+      "revisit_count": 8,
       "first_open": "19:20",
       "last_open": "23:20",
       "first_booked": "18:30",
@@ -33,7 +33,7 @@
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 8,
+        "gcal": 9,
         "CLINICS": 2,
         "SOKUYAKU": 4
       },
@@ -213,7 +213,19 @@
               "end_time": "19:40"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "高田 めぐみ",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "19:40",
+              "karte_id": "150916",
+              "karte_src": "platform",
+              "pharmacy": "ウエルシア薬局富山天正寺店",
+              "demo": "F 54歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -399,7 +411,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T09:56:59.749422+09:00",
+      "last_updated": "2026-06-28T10:00:16.684758+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5870,12 +5882,19 @@
       "date": "2026-06-28",
       "time": "22:30",
       "ts": "2026-06-28T01:34:02+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "高田 めぐみ",
+      "date": "2026-06-28",
+      "time": "19:30",
+      "ts": "2026-06-28T10:00:17+09:00"
     }
   ],
   "sigma_qualified_count": 60,
-  "sigma_last_run": "2026-06-28T09:53:49.781974",
+  "sigma_last_run": "2026-06-28T09:58:49.246024",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T09:54:49.422740+09:00",
+    "fetched_at": "2026-06-28T09:58:08.574909+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
