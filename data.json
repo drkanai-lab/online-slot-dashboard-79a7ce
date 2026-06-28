@@ -1,18 +1,20 @@
 {
-  "generated": "2026-06-28T18:58:31.558632+09:00",
+  "generated": "2026-06-28T19:01:47.769741+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-28",
     "short": "6/28(日)",
-    "time": "19:00",
+    "time": "19:15",
     "code": "S",
-    "patient_name": "黒井 きぼう",
+    "patient_name": "黒井 奈央子",
     "visit_type": "再診",
     "department": "皮膚",
-    "karte_id": "149185",
+    "karte_id": "150260",
     "karte_src": "manual",
     "pharmacy": "ニック調剤薬局高砂店",
-    "status": "booked"
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.06.25 13:11:28"
   },
   "days": [
     {
@@ -412,7 +414,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-28T18:58:30.080177+09:00",
+      "last_updated": "2026-06-28T19:01:46.422206+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5917,7 +5919,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-06-28T18:58:51.050754",
   "gmo_realtime": {
-    "fetched_at": "2026-06-28T18:56:20.232775+09:00",
+    "fetched_at": "2026-06-28T18:59:40.308218+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
