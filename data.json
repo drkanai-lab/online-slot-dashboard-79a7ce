@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T06:17:14.604565+09:00",
+  "generated": "2026-06-30T06:19:59.510195+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -214,7 +214,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T06:17:13.966120+09:00",
+      "last_updated": "2026-06-30T06:19:58.718659+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -403,7 +403,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T06:09:31.203255+09:00",
+      "last_updated": "2026-06-30T06:19:47.266512+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3937,7 +3937,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T05:02:58.756851+09:00",
+      "last_updated": "2026-06-30T06:17:43.563223+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4120,24 +4120,25 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T05:03:32.047734+09:00",
+      "last_updated": "2026-06-30T06:18:16.410251+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-23",
       "short": "7/23(木)",
       "dow": "木",
-      "open_count": 12,
+      "open_count": 14,
       "booked_count": 0,
       "new_count": 0,
       "revisit_count": 0,
       "first_open": "18:40",
-      "last_open": "23:20",
+      "last_open": "23:30",
       "first_booked": "",
       "last_booked": "",
       "per_platform_open": {
         "CLINICS": 7,
         "SOKUYAKU": 4,
+        "クロン": 2,
         "GMO": 1
       },
       "per_platform_booked": {},
@@ -4148,12 +4149,23 @@
           "19:30"
         ],
         [
-          "22:10",
-          "23:30"
+          "22:00",
+          "23:40"
         ]
       ],
-      "range_text": "18:40〜19:30, 22:10〜23:30",
+      "range_text": "18:40〜19:30, 22:00〜23:40",
       "slots": [
+        {
+          "time": "13:00",
+          "platforms": {
+            "クロン": {
+              "status": "closed",
+              "end_time": "13:10"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
         {
           "time": "18:40",
           "platforms": {
@@ -4193,6 +4205,17 @@
             "SOKUYAKU": {
               "status": "open",
               "end_time": "19:30"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
+        },
+        {
+          "time": "22:00",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "22:10"
             }
           },
           "gcals": [],
@@ -4285,9 +4308,20 @@
           },
           "gcals": [],
           "sokuyaku_truth": []
+        },
+        {
+          "time": "23:30",
+          "platforms": {
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
+            }
+          },
+          "gcals": [],
+          "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T05:04:05.409380+09:00",
+      "last_updated": "2026-06-30T06:18:49.530832+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4455,7 +4489,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T05:04:38.272523+09:00",
+      "last_updated": "2026-06-30T06:19:23.670488+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4682,7 +4716,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T05:05:12.663686+09:00",
+      "last_updated": "2026-06-30T06:19:56.487746+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5794,9 +5828,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 52,
-  "sigma_last_run": "2026-06-30T06:03:47.348263",
+  "sigma_last_run": "2026-06-30T06:18:48.189565",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T06:15:41.675296+09:00",
+    "fetched_at": "2026-06-30T06:18:25.545440+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
