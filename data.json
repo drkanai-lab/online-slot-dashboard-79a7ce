@@ -1,20 +1,18 @@
 {
-  "generated": "2026-06-29T18:49:43.801280+09:00",
+  "generated": "2026-06-29T18:52:34.502459+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-29",
     "short": "6/29(月)",
-    "time": "18:50",
-    "code": "C",
-    "patient_name": "石原ひろみ",
+    "time": "19:00",
+    "code": "S",
+    "patient_name": "塚本 力",
     "visit_type": "再診",
-    "department": "",
-    "karte_id": "152005",
-    "karte_src": "platform",
-    "pharmacy": "調剤薬局ツルハドラッグ旭川末広北店",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.27 18:24:59"
+    "department": "整形",
+    "karte_id": "148237",
+    "karte_src": "manual",
+    "pharmacy": "調剤薬局ツルハドラッグ能代北店",
+    "status": "booked"
   },
   "days": [
     {
@@ -288,7 +286,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T18:49:42.837004+09:00",
+      "last_updated": "2026-06-29T18:52:33.565291+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -486,7 +484,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T18:41:26.583835+09:00",
+      "last_updated": "2026-06-29T18:51:42.163905+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -654,7 +652,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T18:41:49.740192+09:00",
+      "last_updated": "2026-06-29T18:52:06.634405+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1017,7 +1015,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T18:42:40.805626+09:00",
+      "last_updated": "2026-06-29T18:52:34.340033+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5773,7 +5771,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-29T18:48:48.938949",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T18:48:02.584255+09:00",
+    "fetched_at": "2026-06-29T18:50:53.029743+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
