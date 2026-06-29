@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-29T19:15:02.843493+09:00",
+  "generated": "2026-06-29T19:17:17.525214+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-29",
     "short": "6/29(月)",
-    "time": "19:15",
-    "code": "S",
-    "patient_name": "小山 夏実",
-    "visit_type": "初診",
-    "department": "心療",
-    "karte_id": "50000414",
-    "karte_src": "manual",
-    "pharmacy": "ヨヤクスリ薬局",
+    "time": "19:20",
+    "code": "C",
+    "patient_name": "宮地一成",
+    "visit_type": "再診",
+    "department": "",
+    "karte_id": "149512",
+    "karte_src": "platform",
+    "pharmacy": "アイン薬局 淀店",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.29 19:10:46"
+    "qualified_at": "R08.06.26 23:45:20"
   },
   "days": [
     {
@@ -292,7 +292,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T19:12:31.367143+09:00",
+      "last_updated": "2026-06-29T19:17:16.584264+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5777,7 +5777,7 @@
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-06-29T19:13:57.324087",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T19:10:51.234877+09:00",
+    "fetched_at": "2026-06-29T19:15:34.027363+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
