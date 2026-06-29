@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T22:37:53.829605+09:00",
+  "generated": "2026-06-29T22:40:43.997710+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -290,7 +290,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:37:52.870616+09:00",
+      "last_updated": "2026-06-29T22:40:43.023751+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -488,28 +488,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:28:10.999269+09:00",
+      "last_updated": "2026-06-29T22:38:31.486043+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-01",
       "short": "7/1(水)",
       "dow": "水",
-      "open_count": 12,
-      "booked_count": 0,
+      "open_count": 11,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 0,
+      "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "23:50",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "22:30",
+      "last_booked": "22:30",
       "per_platform_open": {
         "クロン": 2,
         "CLINICS": 6,
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 3,
         "GMO": 1
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 1
+      },
       "full_platforms": [],
       "ranges": [
         [
@@ -556,11 +559,23 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "菅原 冴香",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:40",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": ""
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "菅原 冴香",
@@ -662,7 +677,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:28:34.458372+09:00",
+      "last_updated": "2026-06-29T22:38:54.901907+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1025,7 +1040,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:29:25.141499+09:00",
+      "last_updated": "2026-06-29T22:39:21.486763+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1186,7 +1201,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:29:48.501893+09:00",
+      "last_updated": "2026-06-29T22:40:10.866798+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1263,7 +1278,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:30:12.113571+09:00",
+      "last_updated": "2026-06-29T22:40:34.143200+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1740,7 +1755,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T21:25:27.381419+09:00",
+      "last_updated": "2026-06-29T22:40:34.332023+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5812,7 +5827,7 @@
   "sigma_qualified_count": 61,
   "sigma_last_run": "2026-06-29T22:38:51.339767",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T22:36:11.779290+09:00",
+    "fetched_at": "2026-06-29T22:39:02.236948+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
