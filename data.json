@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T23:57:08.908477+09:00",
+  "generated": "2026-06-30T00:00:05.250799+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -15,284 +15,6 @@
     "status": "open"
   },
   "days": [
-    {
-      "date": "2026-06-29",
-      "short": "6/29(月)",
-      "dow": "月",
-      "open_count": 1,
-      "booked_count": 7,
-      "new_count": 2,
-      "revisit_count": 5,
-      "first_open": "19:30",
-      "last_open": "19:30",
-      "first_booked": "18:30",
-      "last_booked": "19:40",
-      "per_platform_open": {
-        "クロン": 1
-      },
-      "per_platform_booked": {
-        "GMO": 1,
-        "gcal": 7,
-        "CLINICS": 4,
-        "SOKUYAKU": 2
-      },
-      "full_platforms": [
-        {
-          "name": "CLINICS",
-          "code": "C"
-        },
-        {
-          "name": "SOKUYAKU",
-          "code": "S"
-        },
-        {
-          "name": "GMO",
-          "code": "G"
-        }
-      ],
-      "ranges": [
-        [
-          "18:30",
-          "19:50"
-        ]
-      ],
-      "range_text": "18:30〜19:50",
-      "slots": [
-        {
-          "time": "13:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "13:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:30",
-          "platforms": {
-            "GMO": {
-              "status": "booked",
-              "end_time": "18:40"
-            }
-          },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "舟橋　一揮",
-              "visit_type": "初診",
-              "department": "総診",
-              "end_time": "18:40",
-              "karte_id": "50000219",
-              "karte_src": "manual",
-              "pharmacy": "薬局24 byGMO",
-              "demo": "M 37歳",
-              "qualified": true,
-              "qualified_at": "R08.06.26 23:44:38"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "18:50"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "村田ナオミ",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "18:50",
-              "karte_id": "149627",
-              "karte_src": "platform",
-              "pharmacy": "",
-              "demo": "F 71歳",
-              "qualified": true,
-              "qualified_at": "R08.06.25 13:23:50"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "18:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "19:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "石原ひろみ",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "19:00",
-              "karte_id": "152005",
-              "karte_src": "platform",
-              "pharmacy": "調剤薬局ツルハドラッグ旭川末広北店",
-              "demo": "F 57歳",
-              "qualified": true,
-              "qualified_at": "R08.06.27 18:24:59"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:00",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "19:15"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "塚本 力",
-              "visit_type": "再診",
-              "department": "整形",
-              "end_time": "19:10",
-              "karte_id": "148237",
-              "karte_src": "manual",
-              "pharmacy": "調剤薬局ツルハドラッグ能代北店",
-              "demo": "M 53歳"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "塚本 力",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
-        },
-        {
-          "time": "19:15",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "19:30"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "小山 夏実",
-              "visit_type": "初診",
-              "department": "心療",
-              "end_time": "19:25",
-              "karte_id": "50000414",
-              "karte_src": "manual",
-              "pharmacy": "ヨヤクスリ薬局",
-              "demo": "F 31歳",
-              "qualified": true,
-              "qualified_at": "R08.06.29 19:10:46"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "小山 夏実",
-              "visit_type": "初診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.06.29 19:10:46"
-            }
-          ]
-        },
-        {
-          "time": "19:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "19:30"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "宮地一成",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "19:30",
-              "karte_id": "149512",
-              "karte_src": "platform",
-              "pharmacy": "アイン薬局 淀店",
-              "demo": "M 58歳",
-              "qualified": true,
-              "qualified_at": "R08.06.26 23:45:20"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:30",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "19:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "19:40",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "19:50"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "神尾朋彦",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "19:50",
-              "karte_id": "150715",
-              "karte_src": "platform",
-              "pharmacy": "",
-              "demo": "M 43歳",
-              "qualified": true,
-              "qualified_at": "R08.06.26 00:15:09"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "closed",
-              "end_time": "23:40"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        }
-      ],
-      "last_updated": "2026-06-29T23:57:07.736099+09:00",
-      "sokuyaku_reserve_ok": true
-    },
     {
       "date": "2026-06-30",
       "short": "6/30(火)",
@@ -358,7 +80,9 @@
               "karte_id": "152056",
               "karte_src": "platform",
               "pharmacy": "ウエルシア薬局右京西院月双店",
-              "demo": "F 20歳"
+              "demo": "F 20歳",
+              "qualified": true,
+              "qualified_at": "R08.06.27 15:45:13"
             }
           ],
           "sokuyaku_truth": []
@@ -426,7 +150,9 @@
               "karte_id": "154008",
               "karte_src": "platform",
               "pharmacy": "調剤薬局ツルハドラッグ函館鍛治店",
-              "demo": "M 31歳"
+              "demo": "M 31歳",
+              "qualified": true,
+              "qualified_at": "R08.06.29 13:25:09"
             }
           ],
           "sokuyaku_truth": []
@@ -2437,7 +2163,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:42:49.395336+09:00",
+      "last_updated": "2026-06-29T23:57:35.900999+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2616,7 +2342,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:43:20.624889+09:00",
+      "last_updated": "2026-06-29T23:58:05.549771+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2975,7 +2701,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:43:52.775413+09:00",
+      "last_updated": "2026-06-29T23:58:38.079982+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3117,7 +2843,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:44:22.863586+09:00",
+      "last_updated": "2026-06-29T23:59:08.241408+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3259,7 +2985,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:44:52.712564+09:00",
+      "last_updated": "2026-06-29T23:59:39.280989+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5821,13 +5547,34 @@
       ],
       "last_updated": "2026-06-29T22:53:09.478470+09:00",
       "sokuyaku_reserve_ok": true
+    },
+    {
+      "date": "2026-07-30",
+      "short": "7/30(木)",
+      "dow": "木",
+      "open_count": 0,
+      "booked_count": 0,
+      "new_count": 0,
+      "revisit_count": 0,
+      "first_open": "",
+      "last_open": "",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {},
+      "per_platform_booked": {},
+      "full_platforms": [],
+      "ranges": [],
+      "range_text": "",
+      "slots": [],
+      "last_updated": null,
+      "sokuyaku_reserve_ok": false
     }
   ],
   "recent_events": [],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-06-29T23:53:50.054618",
+  "sigma_last_run": "2026-06-29T23:58:50.780686",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T23:55:25.766654+09:00",
+    "fetched_at": "2026-06-29T23:58:18.903219+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
