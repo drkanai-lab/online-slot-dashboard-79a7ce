@@ -1,20 +1,18 @@
 {
-  "generated": "2026-06-29T19:40:18.111712+09:00",
+  "generated": "2026-06-29T19:43:07.168557+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-06-29",
-    "short": "6/29(月)",
-    "time": "19:40",
-    "code": "C",
-    "patient_name": "神尾朋彦",
-    "visit_type": "再診",
+    "date": "2026-06-30",
+    "short": "6/30(火)",
+    "time": "22:00",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "karte_id": "150715",
-    "karte_src": "platform",
+    "karte_id": "",
+    "karte_src": "",
     "pharmacy": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.26 00:15:09"
+    "status": "open"
   },
   "days": [
     {
@@ -292,7 +290,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T19:40:16.982126+09:00",
+      "last_updated": "2026-06-29T19:43:06.112113+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5777,7 +5775,7 @@
   "sigma_qualified_count": 55,
   "sigma_last_run": "2026-06-29T19:38:56.734506",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T19:38:34.321897+09:00",
+    "fetched_at": "2026-06-29T19:41:26.416572+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
