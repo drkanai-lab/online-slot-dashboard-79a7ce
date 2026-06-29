@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T12:41:58.113573+09:00",
+  "generated": "2026-06-29T12:44:39.906702+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-29",
@@ -267,28 +267,28 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T12:41:57.179658+09:00",
+      "last_updated": "2026-06-29T12:44:38.925807+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-30",
       "short": "6/30(火)",
       "dow": "火",
-      "open_count": 7,
-      "booked_count": 2,
+      "open_count": 6,
+      "booked_count": 3,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 3,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 4,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 2,
+        "CLINICS": 3
       },
       "per_platform_booked": {
-        "CLINICS": 1,
+        "CLINICS": 2,
         "gcal": 2,
         "GMO": 1
       },
@@ -344,11 +344,24 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "飯田彰美",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30",
+              "karte_id": "149668",
+              "karte_src": "platform",
+              "pharmacy": "ウエルシア薬局敦賀中央町店",
+              "demo": "F 52歳",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -441,7 +454,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T12:34:28.920570+09:00",
+      "last_updated": "2026-06-29T12:44:19.931286+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2040,7 +2053,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T11:26:56.195234+09:00",
+      "last_updated": "2026-06-29T12:41:59.579474+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2182,7 +2195,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T11:27:23.136781+09:00",
+      "last_updated": "2026-06-29T12:42:26.597438+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2357,7 +2370,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T11:27:50.111312+09:00",
+      "last_updated": "2026-06-29T12:42:53.318306+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2536,7 +2549,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T11:28:20.283486+09:00",
+      "last_updated": "2026-06-29T12:43:25.270598+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -2877,7 +2890,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T11:28:52.471823+09:00",
+      "last_updated": "2026-06-29T12:43:59.443238+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3019,7 +3032,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T11:29:22.475501+09:00",
+      "last_updated": "2026-06-29T12:44:28.883443+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5699,9 +5712,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 53,
-  "sigma_last_run": "2026-06-29T12:39:45.772452",
+  "sigma_last_run": "2026-06-29T12:43:53.190253",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T12:40:20.924189+09:00",
+    "fetched_at": "2026-06-29T12:43:05.938209+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
