@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-29T18:38:22.106805+09:00",
+  "generated": "2026-06-29T18:41:12.572671+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-29",
     "short": "6/29(月)",
-    "time": "18:40",
+    "time": "18:50",
     "code": "C",
-    "patient_name": "村田ナオミ",
+    "patient_name": "石原ひろみ",
     "visit_type": "再診",
     "department": "",
-    "karte_id": "149627",
+    "karte_id": "152005",
     "karte_src": "platform",
-    "pharmacy": "",
+    "pharmacy": "調剤薬局ツルハドラッグ旭川末広北店",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.06.25 13:23:50"
+    "qualified_at": "R08.06.27 18:24:59"
   },
   "days": [
     {
@@ -276,7 +276,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T18:38:20.925309+09:00",
+      "last_updated": "2026-06-29T18:41:11.614203+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5761,7 +5761,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-29T18:38:49.970356",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T18:36:40.697314+09:00",
+    "fetched_at": "2026-06-29T18:39:30.003034+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
