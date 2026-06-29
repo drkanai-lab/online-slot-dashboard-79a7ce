@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T18:43:55.906761+09:00",
+  "generated": "2026-06-29T18:44:03.972871+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-29",
@@ -23,8 +23,8 @@
       "dow": "月",
       "open_count": 1,
       "booked_count": 7,
-      "new_count": 1,
-      "revisit_count": 6,
+      "new_count": 2,
+      "revisit_count": 5,
       "first_open": "19:30",
       "last_open": "19:30",
       "first_booked": "18:30",
@@ -34,7 +34,7 @@
       },
       "per_platform_booked": {
         "GMO": 1,
-        "gcal": 6,
+        "gcal": 7,
         "CLINICS": 4,
         "SOKUYAKU": 2
       },
@@ -183,7 +183,19 @@
               "end_time": "19:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "小山 夏実",
+              "visit_type": "初診",
+              "department": "心療",
+              "end_time": "19:25",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "ヨヤクスリ薬局",
+              "demo": "F 31歳"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "小山 夏実",
@@ -276,7 +288,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T18:41:11.614203+09:00",
+      "last_updated": "2026-06-29T18:44:03.013734+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
