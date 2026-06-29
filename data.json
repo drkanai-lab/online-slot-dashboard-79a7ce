@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T22:26:15.156863+09:00",
+  "generated": "2026-06-29T22:29:06.229802+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -290,7 +290,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:26:14.215669+09:00",
+      "last_updated": "2026-06-29T22:29:05.200526+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -488,7 +488,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:17:39.132411+09:00",
+      "last_updated": "2026-06-29T22:28:10.999269+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -561,7 +561,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "菅原 冴香",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -656,7 +662,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T22:18:03.319748+09:00",
+      "last_updated": "2026-06-29T22:28:34.458372+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5804,9 +5810,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-06-29T22:23:48.386138",
+  "sigma_last_run": "2026-06-29T22:28:51.041543",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T22:24:34.585295+09:00",
+    "fetched_at": "2026-06-29T22:27:24.676520+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
