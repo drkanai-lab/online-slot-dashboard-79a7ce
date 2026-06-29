@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T13:22:59.974049+09:00",
+  "generated": "2026-06-29T13:25:44.412367+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-29",
@@ -267,17 +267,17 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T13:22:59.032835+09:00",
+      "last_updated": "2026-06-29T13:25:43.456826+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-06-30",
       "short": "6/30(火)",
       "dow": "火",
-      "open_count": 6,
-      "booked_count": 3,
+      "open_count": 5,
+      "booked_count": 4,
       "new_count": 0,
-      "revisit_count": 3,
+      "revisit_count": 4,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "22:10",
@@ -285,10 +285,10 @@
       "per_platform_open": {
         "クロン": 1,
         "SOKUYAKU": 2,
-        "CLINICS": 3
+        "CLINICS": 2
       },
       "per_platform_booked": {
-        "CLINICS": 2,
+        "CLINICS": 3,
         "gcal": 3,
         "GMO": 1
       },
@@ -389,11 +389,24 @@
           "time": "22:50",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "工藤勇人",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "23:00",
+              "karte_id": "154008",
+              "karte_src": "platform",
+              "pharmacy": "調剤薬局ツルハドラッグ函館鍛治店",
+              "demo": "M 31歳",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -453,7 +466,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T13:14:43.896024+09:00",
+      "last_updated": "2026-06-29T13:24:42.257095+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -621,7 +634,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T13:15:08.110632+09:00",
+      "last_updated": "2026-06-29T13:25:31.844200+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5711,9 +5724,9 @@
   ],
   "recent_events": [],
   "sigma_qualified_count": 53,
-  "sigma_last_run": "2026-06-29T13:18:49.154758",
+  "sigma_last_run": "2026-06-29T13:24:40.759888",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T13:21:25.466864+09:00",
+    "fetched_at": "2026-06-29T13:24:08.675793+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
