@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T15:17:54.068656+09:00",
+  "generated": "2026-06-29T15:20:35.141582+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-29",
@@ -267,7 +267,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T15:17:53.144104+09:00",
+      "last_updated": "2026-06-29T15:20:33.911977+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -465,7 +465,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T15:08:48.176424+09:00",
+      "last_updated": "2026-06-29T15:18:59.325542+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -633,7 +633,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T15:09:12.766193+09:00",
+      "last_updated": "2026-06-29T15:19:22.622069+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -996,7 +996,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T15:09:39.884463+09:00",
+      "last_updated": "2026-06-29T15:19:48.465972+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1157,7 +1157,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T15:10:03.807769+09:00",
+      "last_updated": "2026-06-29T15:20:12.474377+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4149,28 +4149,30 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T14:03:10.086708+09:00",
+      "last_updated": "2026-06-29T15:17:57.290874+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-22",
       "short": "7/22(水)",
       "dow": "水",
-      "open_count": 12,
-      "booked_count": 0,
+      "open_count": 11,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 0,
-      "first_open": "22:00",
+      "revisit_count": 1,
+      "first_open": "22:10",
       "last_open": "23:50",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "22:00",
+      "last_booked": "22:00",
       "per_platform_open": {
-        "クロン": 2,
         "CLINICS": 6,
         "SOKUYAKU": 4,
-        "GMO": 1
+        "GMO": 1,
+        "クロン": 1
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "クロン": 1
+      },
       "full_platforms": [],
       "ranges": [
         [
@@ -4184,11 +4186,24 @@
           "time": "22:00",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "吉村 菜緒",
+              "visit_type": "",
+              "department": "",
+              "end_time": "22:10",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": "",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -4317,7 +4332,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T14:03:43.015346+09:00",
+      "last_updated": "2026-06-29T15:18:56.013700+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4518,7 +4533,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T14:04:16.406593+09:00",
+      "last_updated": "2026-06-29T15:19:29.215445+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4686,7 +4701,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-29T14:04:50.180005+09:00",
+      "last_updated": "2026-06-29T15:20:03.340202+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5737,7 +5752,7 @@
   "sigma_qualified_count": 54,
   "sigma_last_run": "2026-06-29T15:18:50.227255",
   "gmo_realtime": {
-    "fetched_at": "2026-06-29T15:16:20.717140+09:00",
+    "fetched_at": "2026-06-29T15:19:01.946121+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
