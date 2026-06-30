@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T18:57:42.231022+09:00",
+  "generated": "2026-06-30T19:00:44.390485+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -254,7 +254,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T18:57:41.283015+09:00",
+      "last_updated": "2026-06-30T19:00:43.468353+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -276,8 +276,8 @@
       },
       "per_platform_booked": {
         "クロン": 1,
+        "gcal": 3,
         "SOKUYAKU": 1,
-        "gcal": 2,
         "GMO": 1
       },
       "full_platforms": [
@@ -306,14 +306,13 @@
             {
               "code": "K",
               "patient_name": "柳田 梓",
-              "visit_type": "",
+              "visit_type": "再診",
               "department": "",
               "end_time": "22:10",
               "karte_id": "50000356",
               "karte_src": "platform",
               "pharmacy": "スギ薬局板橋幸町店",
-              "demo": "F 35歳",
-              "name_src": "truth"
+              "demo": "F 35歳"
             }
           ],
           "sokuyaku_truth": []
@@ -474,7 +473,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T18:50:13.789326+09:00",
+      "last_updated": "2026-06-30T19:00:38.929752+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5945,9 +5944,9 @@
     }
   ],
   "sigma_qualified_count": 54,
-  "sigma_last_run": "2026-06-30T18:53:47.270359",
+  "sigma_last_run": "2026-06-30T18:58:49.874183",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T18:55:50.665787+09:00",
+    "fetched_at": "2026-06-30T18:58:50.968729+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
