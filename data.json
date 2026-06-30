@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T17:45:26.573821+09:00",
+  "generated": "2026-06-30T17:48:28.127520+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -19,26 +19,29 @@
       "date": "2026-06-30",
       "short": "6/30(火)",
       "dow": "火",
-      "open_count": 4,
-      "booked_count": 5,
+      "open_count": 3,
+      "booked_count": 6,
       "new_count": 0,
-      "revisit_count": 5,
+      "revisit_count": 6,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "SOKUYAKU": 1,
         "CLINICS": 2
       },
       "per_platform_booked": {
         "CLINICS": 3,
-        "gcal": 5,
-        "SOKUYAKU": 1,
+        "gcal": 6,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -144,11 +147,23 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "竹内 大稀",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "22:55",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "ヨヤクスリ薬局",
+              "demo": "M 25歳"
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "竹内 大稀",
@@ -239,7 +254,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T17:45:25.387881+09:00",
+      "last_updated": "2026-06-30T17:48:26.846063+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -445,23 +460,23 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T17:36:18.714962+09:00",
+      "last_updated": "2026-06-30T17:46:44.529322+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-02",
       "short": "7/2(木)",
       "dow": "木",
-      "open_count": 12,
-      "booked_count": 7,
-      "new_count": 1,
+      "open_count": 11,
+      "booked_count": 8,
+      "new_count": 2,
       "revisit_count": 6,
       "first_open": "12:40",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "22:30",
       "per_platform_open": {
-        "CLINICS": 8,
+        "CLINICS": 7,
         "クロン": 2,
         "SOKUYAKU": 1,
         "GMO": 1
@@ -469,7 +484,7 @@
       "per_platform_booked": {
         "SOKUYAKU": 3,
         "gcal": 7,
-        "CLINICS": 3,
+        "CLINICS": 4,
         "GMO": 1
       },
       "full_platforms": [],
@@ -672,11 +687,24 @@
           "time": "13:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "13:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "岡嶋加奈",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "13:30",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": "F 50歳",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -808,7 +836,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T17:36:45.582214+09:00",
+      "last_updated": "2026-06-30T17:47:11.926970+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -988,7 +1016,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T17:37:08.785357+09:00",
+      "last_updated": "2026-06-30T17:47:37.139832+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1065,7 +1093,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T17:37:32.495167+09:00",
+      "last_updated": "2026-06-30T17:48:00.651254+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1218,7 +1246,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T17:37:59.186770+09:00",
+      "last_updated": "2026-06-30T17:48:27.820944+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5894,12 +5922,19 @@
       "date": "2026-06-30",
       "time": "22:30",
       "ts": "2026-06-30T12:53:03+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "竹内 大稀",
+      "date": "2026-06-30",
+      "time": "22:45",
+      "ts": "2026-06-30T17:48:27+09:00"
     }
   ],
   "sigma_qualified_count": 52,
-  "sigma_last_run": "2026-06-30T17:43:48.860436",
+  "sigma_last_run": "2026-06-30T17:48:49.728929",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T17:43:33.768461+09:00",
+    "fetched_at": "2026-06-30T17:46:35.774814+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
