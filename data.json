@@ -1,20 +1,18 @@
 {
-  "generated": "2026-06-30T22:18:53.770622+09:00",
+  "generated": "2026-06-30T22:22:02.626383+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
     "short": "6/30(火)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "飯田彰美",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "黒井 きぼう",
     "visit_type": "再診",
-    "department": "",
-    "karte_id": "149668",
-    "karte_src": "platform",
-    "pharmacy": "ウエルシア薬局敦賀中央町店",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.06.30 21:56:45"
+    "department": "皮膚",
+    "karte_id": "149185",
+    "karte_src": "manual",
+    "pharmacy": "ニック調剤薬局高砂店",
+    "status": "booked"
   },
   "days": [
     {
@@ -274,7 +272,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T22:18:52.829147+09:00",
+      "last_updated": "2026-06-30T22:22:01.554166+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -511,7 +509,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T22:10:46.532948+09:00",
+      "last_updated": "2026-06-30T22:21:34.144938+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6020,7 +6018,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-06-30T22:18:57.086146",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T22:16:53.423572+09:00",
+    "fetched_at": "2026-06-30T22:20:01.961687+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
