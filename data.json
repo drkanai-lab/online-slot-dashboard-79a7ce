@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T06:15:59.325388+09:00",
+  "generated": "2026-07-01T06:16:24.198813+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -31,8 +31,8 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 5,
-        "SOKUYAKU": 2,
-        "クロン": 1
+        "クロン": 1,
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "クロン": 1,
@@ -231,13 +231,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -266,7 +266,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T06:13:17.965354+09:00",
+      "last_updated": "2026-07-01T06:16:22.992308+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
