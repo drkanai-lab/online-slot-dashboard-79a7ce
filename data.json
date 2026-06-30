@@ -1,17 +1,17 @@
 {
-  "generated": "2026-06-30T23:00:17.257905+09:00",
+  "generated": "2026-06-30T23:03:25.969723+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
     "short": "6/30(火)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "石橋 愛梨",
-    "visit_type": "再診",
-    "department": "婦人",
-    "karte_id": "50000365",
-    "karte_src": "manual",
-    "pharmacy": "薬局24 byGMO",
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "中島望",
+    "visit_type": "初診",
+    "department": "内科",
+    "karte_id": "",
+    "karte_src": "",
+    "pharmacy": "ウエルシア薬局鎌ケ谷くぬぎ山店",
     "status": "booked"
   },
   "days": [
@@ -272,7 +272,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:00:15.889209+09:00",
+      "last_updated": "2026-06-30T23:03:24.813327+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6015,9 +6015,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-30T22:58:52.457300",
+  "sigma_last_run": "2026-06-30T23:03:50.926412",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T22:58:13.811921+09:00",
+    "fetched_at": "2026-06-30T23:01:27.203931+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
