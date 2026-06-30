@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T23:16:55.022416+09:00",
+  "generated": "2026-06-30T23:19:37.555172+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -19,7 +19,7 @@
       "date": "2026-06-30",
       "short": "6/30(火)",
       "dow": "火",
-      "open_count": 2,
+      "open_count": 3,
       "booked_count": 7,
       "new_count": 1,
       "revisit_count": 6,
@@ -29,10 +29,10 @@
       "last_booked": "23:10",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 1
+        "CLINICS": 2
       },
       "per_platform_booked": {
-        "CLINICS": 4,
+        "CLINICS": 3,
         "gcal": 7,
         "SOKUYAKU": 2,
         "GMO": 1
@@ -230,8 +230,8 @@
           "time": "23:10",
           "platforms": {
             "CLINICS": {
-              "status": "booked",
-              "end_time": "23:20"
+              "status": "open",
+              "end_time": ""
             }
           },
           "gcals": [
@@ -243,8 +243,8 @@
               "end_time": "23:20",
               "karte_id": "",
               "karte_src": "",
-              "pharmacy": "ウエルシア薬局鎌ケ谷くぬぎ山店",
-              "demo": "M 22歳"
+              "pharmacy": "",
+              "demo": ""
             }
           ],
           "sokuyaku_truth": []
@@ -272,7 +272,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:16:25.082077+09:00",
+      "last_updated": "2026-06-30T23:19:35.562715+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6015,9 +6015,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-30T23:14:07.011768",
+  "sigma_last_run": "2026-06-30T23:18:50.992430",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T23:14:22.216523+09:00",
+    "fetched_at": "2026-06-30T23:17:35.257611+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
