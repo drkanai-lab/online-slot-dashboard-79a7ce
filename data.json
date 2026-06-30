@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T23:47:35.292342+09:00",
+  "generated": "2026-06-30T23:50:08.306763+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -483,7 +483,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:35:54.710841+09:00",
+      "last_updated": "2026-06-30T23:47:56.758405+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -491,8 +491,8 @@
       "short": "7/2(木)",
       "dow": "木",
       "open_count": 10,
-      "booked_count": 10,
-      "new_count": 3,
+      "booked_count": 9,
+      "new_count": 2,
       "revisit_count": 7,
       "first_open": "13:00",
       "last_open": "23:20",
@@ -505,7 +505,7 @@
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 10,
+        "gcal": 9,
         "CLINICS": 4,
         "GMO": 2
       },
@@ -730,19 +730,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "岡嶋加奈",
-              "visit_type": "初診",
-              "department": "心療",
-              "end_time": "13:30",
-              "karte_id": "",
-              "karte_src": "",
-              "pharmacy": "",
-              "demo": ""
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -886,7 +874,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:36:22.320101+09:00",
+      "last_updated": "2026-06-30T23:48:23.280101+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1066,7 +1054,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:36:46.277145+09:00",
+      "last_updated": "2026-06-30T23:48:47.361222+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1143,7 +1131,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:37:09.795164+09:00",
+      "last_updated": "2026-06-30T23:49:10.924037+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1296,7 +1284,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:37:36.472799+09:00",
+      "last_updated": "2026-06-30T23:49:37.046056+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1620,7 +1608,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:38:05.564240+09:00",
+      "last_updated": "2026-06-30T23:50:06.319074+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -3934,28 +3922,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T22:32:44.034472+09:00",
+      "last_updated": "2026-06-30T23:47:42.906318+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-21",
       "short": "7/21(火)",
       "dow": "火",
-      "open_count": 10,
-      "booked_count": 0,
+      "open_count": 9,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 0,
+      "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "23:30",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "22:10",
+      "last_booked": "22:10",
       "per_platform_open": {
         "クロン": 2,
-        "CLINICS": 5,
+        "CLINICS": 4,
         "SOKUYAKU": 2,
         "GMO": 1
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "CLINICS": 1,
+        "gcal": 1
+      },
       "full_platforms": [],
       "ranges": [
         [
@@ -3980,11 +3971,23 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "工藤勇人",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20",
+              "karte_id": "154008",
+              "karte_src": "platform",
+              "pharmacy": "",
+              "demo": "M 31歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -4076,7 +4079,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T22:33:17.915024+09:00",
+      "last_updated": "2026-06-30T23:48:15.838486+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4259,7 +4262,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T22:33:50.921377+09:00",
+      "last_updated": "2026-06-30T23:48:48.657248+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4460,7 +4463,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T22:34:24.459745+09:00",
+      "last_updated": "2026-06-30T23:49:21.544559+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4628,7 +4631,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T22:34:57.484311+09:00",
+      "last_updated": "2026-06-30T23:49:55.140243+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5989,7 +5992,7 @@
     }
   ],
   "sigma_qualified_count": 57,
-  "sigma_last_run": "2026-06-30T23:43:49.602990",
+  "sigma_last_run": "2026-06-30T23:48:50.350536",
   "gmo_realtime": {
     "fetched_at": "2026-06-30T23:45:38.717317+09:00",
     "scrape_ok": true,
