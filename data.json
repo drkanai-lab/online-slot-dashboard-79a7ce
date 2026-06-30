@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T12:50:10.305133+09:00",
+  "generated": "2026-06-30T12:53:04.127069+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -19,22 +19,23 @@
       "date": "2026-06-30",
       "short": "6/30(火)",
       "dow": "火",
-      "open_count": 5,
-      "booked_count": 4,
+      "open_count": 4,
+      "booked_count": 5,
       "new_count": 0,
-      "revisit_count": 4,
+      "revisit_count": 5,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "22:10",
       "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 1,
         "CLINICS": 2
       },
       "per_platform_booked": {
         "CLINICS": 3,
-        "gcal": 4,
+        "gcal": 5,
+        "SOKUYAKU": 1,
         "GMO": 1
       },
       "full_platforms": [
@@ -114,12 +115,30 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "黒井 きぼう",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "22:40",
+              "karte_id": "149185",
+              "karte_src": "manual",
+              "pharmacy": "ニック調剤薬局高砂店",
+              "demo": "M 17歳"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "黒井 きぼう",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -214,7 +233,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T12:50:09.669946+09:00",
+      "last_updated": "2026-06-30T12:53:02.907298+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5843,11 +5862,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "黒井 きぼう",
+      "date": "2026-06-30",
+      "time": "22:30",
+      "ts": "2026-06-30T12:53:03+09:00"
+    }
+  ],
   "sigma_qualified_count": 52,
-  "sigma_last_run": "2026-06-30T12:48:49.042461",
+  "sigma_last_run": "2026-06-30T12:53:48.330798",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T12:48:35.718829+09:00",
+    "fetched_at": "2026-06-30T12:51:18.027559+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
