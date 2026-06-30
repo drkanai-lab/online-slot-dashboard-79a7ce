@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T00:05:23.491856+09:00",
+  "generated": "2026-07-01T00:08:42.109484+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -21,22 +21,23 @@
       "date": "2026-07-01",
       "short": "7/1(水)",
       "dow": "水",
-      "open_count": 8,
-      "booked_count": 4,
+      "open_count": 7,
+      "booked_count": 5,
       "new_count": 0,
-      "revisit_count": 4,
-      "first_open": "22:10",
+      "revisit_count": 5,
+      "first_open": "22:20",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 6,
+        "CLINICS": 5,
         "クロン": 1,
         "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "クロン": 1,
         "gcal": 4,
+        "CLINICS": 1,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -83,11 +84,24 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "田中奈々",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20",
+              "karte_id": "152979",
+              "karte_src": "platform",
+              "pharmacy": "ウエルシア薬局伏見小栗栖店",
+              "demo": "F 39歳",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -253,7 +267,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T00:05:22.497350+09:00",
+      "last_updated": "2026-07-01T00:08:40.777770+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5763,7 +5777,7 @@
   "sigma_qualified_count": 49,
   "sigma_last_run": "2026-07-01T00:03:53.239962",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T00:03:13.326619+09:00",
+    "fetched_at": "2026-07-01T00:06:31.906692+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
