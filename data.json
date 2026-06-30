@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T16:22:05.689095+09:00",
+  "generated": "2026-06-30T16:25:00.433270+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -233,7 +233,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T16:22:04.484240+09:00",
+      "last_updated": "2026-06-30T16:24:59.335258+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -439,7 +439,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T16:14:08.270265+09:00",
+      "last_updated": "2026-06-30T16:24:07.352481+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -802,7 +802,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T16:14:39.204684+09:00",
+      "last_updated": "2026-06-30T16:24:59.173679+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -894,7 +894,13 @@
             }
           },
           "gcals": [],
-          "sokuyaku_truth": []
+          "sokuyaku_truth": [
+            {
+              "patient_name": "清水 美穂子",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -5581,7 +5587,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T15:07:31.660448+09:00",
+      "last_updated": "2026-06-30T16:22:25.858420+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5858,7 +5864,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T15:08:08.057253+09:00",
+      "last_updated": "2026-06-30T16:23:02.505752+09:00",
       "sokuyaku_reserve_ok": true
     }
   ],
@@ -5872,9 +5878,9 @@
     }
   ],
   "sigma_qualified_count": 52,
-  "sigma_last_run": "2026-06-30T16:18:57.500578",
+  "sigma_last_run": "2026-06-30T16:23:47.791217",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T16:20:22.313476+09:00",
+    "fetched_at": "2026-06-30T16:23:16.644742+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
