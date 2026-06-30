@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T00:11:44.174661+09:00",
+  "generated": "2026-07-01T00:12:02.192343+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -21,22 +21,23 @@
       "date": "2026-07-01",
       "short": "7/1(水)",
       "dow": "水",
-      "open_count": 8,
-      "booked_count": 4,
+      "open_count": 7,
+      "booked_count": 5,
       "new_count": 0,
-      "revisit_count": 4,
-      "first_open": "22:10",
+      "revisit_count": 5,
+      "first_open": "22:20",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:00",
       "per_platform_open": {
-        "CLINICS": 6,
-        "SOKUYAKU": 2,
-        "クロン": 1
+        "CLINICS": 5,
+        "クロン": 1,
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
         "クロン": 1,
         "gcal": 4,
+        "CLINICS": 1,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -83,11 +84,24 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:20"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "田中奈々",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:20",
+              "karte_id": "152979",
+              "karte_src": "platform",
+              "pharmacy": "ウエルシア薬局伏見小栗栖店",
+              "demo": "F 39歳",
+              "name_src": "truth"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -218,13 +232,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "open",
+              "end_time": "23:45"
             }
           },
           "gcals": [],
@@ -253,7 +267,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T00:09:03.562150+09:00",
+      "last_updated": "2026-07-01T00:12:00.858224+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
