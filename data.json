@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30T22:15:41.675409+09:00",
+  "generated": "2026-06-30T22:18:53.770622+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-06-30",
@@ -274,7 +274,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T22:15:40.699846+09:00",
+      "last_updated": "2026-06-30T22:18:52.829147+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -374,8 +374,8 @@
               "visit_type": "再診",
               "department": "整形",
               "end_time": "22:40",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "151609",
+              "karte_src": "manual",
               "pharmacy": "ウエルシア薬局石巻赤十字病院前店",
               "demo": "F 35歳"
             }
@@ -403,8 +403,8 @@
               "visit_type": "再診",
               "department": "心療",
               "end_time": "22:55",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "152587",
+              "karte_src": "manual",
               "pharmacy": "ヨヤクスリ薬局",
               "demo": "F 48歳"
             }
@@ -443,8 +443,8 @@
               "visit_type": "再診",
               "department": "アレ",
               "end_time": "23:10",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "152498",
+              "karte_src": "manual",
               "pharmacy": "スギ薬局",
               "demo": "F 49歳"
             }
@@ -6018,9 +6018,9 @@
     }
   ],
   "sigma_qualified_count": 56,
-  "sigma_last_run": "2026-06-30T22:13:50.992955",
+  "sigma_last_run": "2026-06-30T22:18:57.086146",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T22:13:42.138185+09:00",
+    "fetched_at": "2026-06-30T22:16:53.423572+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
