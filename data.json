@@ -1,39 +1,39 @@
 {
-  "generated": "2026-06-30T23:19:37.555172+09:00",
+  "generated": "2026-06-30T23:22:49.267374+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
-    "date": "2026-06-30",
-    "short": "6/30(火)",
-    "time": "23:20",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
+    "date": "2026-07-01",
+    "short": "7/1(水)",
+    "time": "22:00",
+    "code": "K",
+    "patient_name": "柳田 梓",
+    "visit_type": "再診",
     "department": "",
-    "karte_id": "",
-    "karte_src": "",
-    "pharmacy": "",
-    "status": "open"
+    "karte_id": "50000356",
+    "karte_src": "platform",
+    "pharmacy": "スギ薬局板橋幸町店",
+    "status": "booked"
   },
   "days": [
     {
       "date": "2026-06-30",
       "short": "6/30(火)",
       "dow": "火",
-      "open_count": 3,
-      "booked_count": 7,
-      "new_count": 1,
+      "open_count": 4,
+      "booked_count": 6,
+      "new_count": 0,
       "revisit_count": 6,
       "first_open": "22:00",
       "last_open": "23:20",
       "first_booked": "22:10",
-      "last_booked": "23:10",
+      "last_booked": "23:00",
       "per_platform_open": {
         "クロン": 1,
-        "CLINICS": 2
+        "CLINICS": 3
       },
       "per_platform_booked": {
-        "CLINICS": 3,
-        "gcal": 7,
+        "gcal": 6,
+        "CLINICS": 2,
         "SOKUYAKU": 2,
         "GMO": 1
       },
@@ -70,8 +70,8 @@
           "time": "22:10",
           "platforms": {
             "CLINICS": {
-              "status": "booked",
-              "end_time": "22:20"
+              "status": "open",
+              "end_time": ""
             }
           },
           "gcals": [
@@ -81,10 +81,10 @@
               "visit_type": "再診",
               "department": "",
               "end_time": "22:20",
-              "karte_id": "152056",
-              "karte_src": "platform",
-              "pharmacy": "ウエルシア薬局右京西院月双店",
-              "demo": "F 20歳",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": "",
               "qualified": true,
               "qualified_at": "R08.06.27 15:45:13"
             }
@@ -234,19 +234,7 @@
               "end_time": ""
             }
           },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "中島望",
-              "visit_type": "初診",
-              "department": "内科",
-              "end_time": "23:20",
-              "karte_id": "",
-              "karte_src": "",
-              "pharmacy": "",
-              "demo": ""
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": []
         },
         {
@@ -272,7 +260,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-06-30T23:19:35.562715+09:00",
+      "last_updated": "2026-06-30T23:22:47.453088+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6017,7 +6005,7 @@
   "sigma_qualified_count": 56,
   "sigma_last_run": "2026-06-30T23:18:50.992430",
   "gmo_realtime": {
-    "fetched_at": "2026-06-30T23:17:35.257611+09:00",
+    "fetched_at": "2026-06-30T23:20:48.937525+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
