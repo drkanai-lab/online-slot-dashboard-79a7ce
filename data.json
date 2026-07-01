@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T19:20:26.709618+09:00",
+  "generated": "2026-07-01T19:24:13.820465+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -300,7 +300,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:20:25.368576+09:00",
+      "last_updated": "2026-07-01T19:24:12.486044+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -497,8 +497,8 @@
               "visit_type": "初診",
               "department": "",
               "end_time": "13:10",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "50000415",
+              "karte_src": "manual",
               "pharmacy": "ウエルシア薬局大津堅田店",
               "demo": "F 50歳"
             }
@@ -5914,10 +5914,10 @@
       "ts": "2026-07-01T12:50:51+09:00"
     }
   ],
-  "sigma_qualified_count": 60,
-  "sigma_last_run": "2026-07-01T19:18:48.282359",
+  "sigma_qualified_count": 61,
+  "sigma_last_run": "2026-07-01T19:23:48.955617",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T19:17:56.204420+09:00",
+    "fetched_at": "2026-07-01T19:21:35.366028+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
