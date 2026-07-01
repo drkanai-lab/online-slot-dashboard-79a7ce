@@ -1,20 +1,20 @@
 {
-  "generated": "2026-07-01T22:09:46.280152+09:00",
+  "generated": "2026-07-01T22:13:26.978723+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
     "short": "7/1(水)",
-    "time": "22:10",
+    "time": "22:20",
     "code": "C",
-    "patient_name": "田中奈々",
+    "patient_name": "片山竣矢",
     "visit_type": "再診",
     "department": "",
-    "karte_id": "152979",
+    "karte_id": "50000105",
     "karte_src": "platform",
-    "pharmacy": "ウエルシア薬局伏見小栗栖店",
+    "pharmacy": "調剤薬局ツルハドラッグ沼ノ端店",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.07.01 19:12:57"
+    "qualified_at": "R08.07.01 20:05:10"
   },
   "days": [
     {
@@ -314,7 +314,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:09:44.556307+09:00",
+      "last_updated": "2026-07-01T22:13:25.565745+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6009,9 +6009,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-07-01T22:08:51.444368",
+  "sigma_last_run": "2026-07-01T22:13:53.988598",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T22:07:14.036479+09:00",
+    "fetched_at": "2026-07-01T22:10:54.516271+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
