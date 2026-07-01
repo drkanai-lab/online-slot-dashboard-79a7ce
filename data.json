@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T21:07:08.051147+09:00",
+  "generated": "2026-07-01T21:10:51.354908+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -11,7 +11,7 @@
     "department": "",
     "karte_id": "50000356",
     "karte_src": "platform",
-    "pharmacy": "スギ薬局板橋幸町店",
+    "pharmacy": "",
     "status": "booked",
     "qualified": true,
     "qualified_at": "R08.06.30 18:50:13"
@@ -72,7 +72,7 @@
               "end_time": "22:10",
               "karte_id": "50000356",
               "karte_src": "platform",
-              "pharmacy": "スギ薬局板橋幸町店",
+              "pharmacy": "",
               "demo": "F 35歳",
               "qualified": true,
               "qualified_at": "R08.06.30 18:50:13"
@@ -257,13 +257,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "booked",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [
@@ -314,7 +314,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:07:06.717237+09:00",
+      "last_updated": "2026-07-01T21:08:11.336554+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -527,9 +527,9 @@
               "department": "",
               "end_time": "13:10",
               "karte_id": "50000415",
-              "karte_src": "platform",
-              "pharmacy": "ウエルシア薬局大津堅田店",
-              "demo": "F 50歳"
+              "karte_src": "manual",
+              "pharmacy": "",
+              "demo": ""
             }
           ],
           "sokuyaku_truth": []
@@ -681,7 +681,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:57:38.773755+09:00",
+      "last_updated": "2026-07-01T21:08:40.018618+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -864,7 +864,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:58:03.034788+09:00",
+      "last_updated": "2026-07-01T21:09:04.565020+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -941,7 +941,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:58:26.955442+09:00",
+      "last_updated": "2026-07-01T21:09:27.731008+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1094,7 +1094,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:58:53.431984+09:00",
+      "last_updated": "2026-07-01T21:09:54.726768+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1437,7 +1437,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:59:22.752257+09:00",
+      "last_updated": "2026-07-01T21:10:23.670751+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1481,7 +1481,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:59:50.997217+09:00",
+      "last_updated": "2026-07-01T21:10:49.939532+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5988,9 +5988,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-07-01T21:03:49.939199",
+  "sigma_last_run": "2026-07-01T21:08:49.252885",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T21:04:30.889063+09:00",
+    "fetched_at": "2026-07-01T21:08:24.158629+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
