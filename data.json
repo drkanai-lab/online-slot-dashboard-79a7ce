@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T19:24:13.820465+09:00",
+  "generated": "2026-07-01T19:27:52.010332+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -300,34 +300,37 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:24:12.486044+09:00",
+      "last_updated": "2026-07-01T19:27:50.658206+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-02",
       "short": "7/2(木)",
       "dow": "木",
-      "open_count": 9,
-      "booked_count": 8,
+      "open_count": 7,
+      "booked_count": 10,
       "new_count": 2,
-      "revisit_count": 6,
+      "revisit_count": 8,
       "first_open": "12:10",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 6,
-        "クロン": 1,
-        "SOKUYAKU": 2
+        "クロン": 1
       },
       "per_platform_booked": {
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 4,
         "CLINICS": 3,
-        "gcal": 6,
+        "gcal": 7,
         "GMO": 2,
         "クロン": 1
       },
       "full_platforms": [
+        {
+          "name": "SOKUYAKU",
+          "code": "S"
+        },
         {
           "name": "GMO",
           "code": "G"
@@ -498,7 +501,7 @@
               "department": "",
               "end_time": "13:10",
               "karte_id": "50000415",
-              "karte_src": "manual",
+              "karte_src": "platform",
               "pharmacy": "ウエルシア薬局大津堅田店",
               "demo": "F 50歳"
             }
@@ -542,7 +545,7 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
@@ -559,12 +562,30 @@
           "time": "22:45",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "23:00"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "東 寿広",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:55",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "ウエルシア薬局越谷宮本店",
+              "demo": "M 48歳"
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "東 寿広",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:50",
@@ -634,7 +655,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:16:07.468759+09:00",
+      "last_updated": "2026-07-01T19:27:17.102901+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -817,7 +838,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:16:30.915032+09:00",
+      "last_updated": "2026-07-01T19:27:40.563609+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5914,10 +5935,10 @@
       "ts": "2026-07-01T12:50:51+09:00"
     }
   ],
-  "sigma_qualified_count": 61,
-  "sigma_last_run": "2026-07-01T19:23:48.955617",
+  "sigma_qualified_count": 63,
+  "sigma_last_run": "2026-07-01T19:28:59.056508",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T19:21:35.366028+09:00",
+    "fetched_at": "2026-07-01T19:25:21.584592+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
