@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T14:43:06.453997+09:00",
+  "generated": "2026-07-01T14:43:28.798471+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -231,13 +231,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "23:45"
             }
           },
           "gcals": [
@@ -284,7 +284,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T14:40:28.486687+09:00",
+      "last_updated": "2026-07-01T14:43:27.501798+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
