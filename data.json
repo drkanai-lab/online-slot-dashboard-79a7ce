@@ -1,20 +1,20 @@
 {
-  "generated": "2026-07-01T22:20:50.691361+09:00",
+  "generated": "2026-07-01T22:24:32.729134+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
     "short": "7/1(水)",
-    "time": "22:20",
-    "code": "C",
-    "patient_name": "片山竣矢",
+    "time": "22:30",
+    "code": "S",
+    "patient_name": "菅原 冴香",
     "visit_type": "再診",
-    "department": "",
-    "karte_id": "50000105",
-    "karte_src": "platform",
-    "pharmacy": "調剤薬局ツルハドラッグ沼ノ端店",
+    "department": "整形",
+    "karte_id": "151609",
+    "karte_src": "manual",
+    "pharmacy": "ウエルシア薬局石巻赤十字病院前店",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.07.01 20:05:10"
+    "qualified_at": "R08.07.01 19:11:56"
   },
   "days": [
     {
@@ -314,7 +314,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:20:48.083136+09:00",
+      "last_updated": "2026-07-01T22:24:31.007120+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6011,7 +6011,7 @@
   "sigma_qualified_count": 65,
   "sigma_last_run": "2026-07-01T22:19:17.377556",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T22:18:17.124558+09:00",
+    "fetched_at": "2026-07-01T22:22:00.527189+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
