@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T21:32:48.509494+09:00",
+  "generated": "2026-07-01T21:33:04.060947+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -147,8 +147,8 @@
               "end_time": "22:40",
               "karte_id": "151609",
               "karte_src": "manual",
-              "pharmacy": "ウエルシア薬局石巻赤十字病院前店",
-              "demo": "F 35歳",
+              "pharmacy": "西須薬局 (Nishisu Pharmacy)",
+              "demo": "F 25歳",
               "qualified": true,
               "qualified_at": "R08.07.01 19:11:56"
             }
@@ -180,8 +180,8 @@
               "end_time": "22:55",
               "karte_id": "152587",
               "karte_src": "manual",
-              "pharmacy": "ヨヤクスリ薬局",
-              "demo": "F 48歳",
+              "pharmacy": "ウエルシア薬局石巻赤十字病院前店",
+              "demo": "F 35歳",
               "qualified": true,
               "qualified_at": "R08.07.01 19:12:18"
             }
@@ -257,13 +257,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:45"
-            },
             "クロン": {
               "status": "open",
               "end_time": "23:40"
+            },
+            "SOKUYAKU": {
+              "status": "booked",
+              "end_time": "23:45"
             }
           },
           "gcals": [
@@ -275,8 +275,8 @@
               "end_time": "23:40",
               "karte_id": "152606",
               "karte_src": "manual",
-              "pharmacy": "西須薬局 (Nishisu Pharmacy)",
-              "demo": "F 25歳",
+              "pharmacy": "杏林堂薬局 上西店",
+              "demo": "F 53歳",
               "qualified": true,
               "qualified_at": "R08.07.01 19:13:23"
             }
@@ -314,7 +314,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:30:03.068882+09:00",
+      "last_updated": "2026-07-01T21:33:02.720107+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5988,7 +5988,7 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-07-01T21:28:49.730728",
+  "sigma_last_run": "2026-07-01T21:33:57.516162",
   "gmo_realtime": {
     "fetched_at": "2026-07-01T21:30:33.186198+09:00",
     "scrape_ok": true,
