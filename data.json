@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T13:11:58.905112+09:00",
+  "generated": "2026-07-01T13:14:27.643015+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -291,10 +291,10 @@
       "date": "2026-07-02",
       "short": "7/2(木)",
       "dow": "木",
-      "open_count": 9,
-      "booked_count": 10,
+      "open_count": 10,
+      "booked_count": 9,
       "new_count": 3,
-      "revisit_count": 7,
+      "revisit_count": 6,
       "first_open": "13:10",
       "last_open": "23:20",
       "first_booked": "11:30",
@@ -302,12 +302,12 @@
       "per_platform_open": {
         "CLINICS": 7,
         "クロン": 1,
-        "SOKUYAKU": 1
+        "SOKUYAKU": 2
       },
       "per_platform_booked": {
-        "SOKUYAKU": 3,
-        "gcal": 10,
+        "SOKUYAKU": 2,
         "CLINICS": 4,
+        "gcal": 7,
         "GMO": 2,
         "クロン": 1
       },
@@ -337,19 +337,7 @@
               "end_time": "11:45"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "小宮山 剛",
-              "visit_type": "再診",
-              "department": "整形",
-              "end_time": "11:40",
-              "karte_id": "149330",
-              "karte_src": "manual",
-              "pharmacy": "スギ薬局　上野広小路店(東京都)",
-              "demo": "M 57歳"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": [
             {
               "patient_name": "小宮山 剛",
@@ -366,19 +354,7 @@
               "end_time": "12:00"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "石原 明日香",
-              "visit_type": "再診",
-              "department": "内科",
-              "end_time": "11:55",
-              "karte_id": "152863",
-              "karte_src": "manual",
-              "pharmacy": "杏林堂薬局 上西店",
-              "demo": "F 53歳"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": [
             {
               "patient_name": "石原 明日香",
@@ -584,23 +560,11 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "22:45"
             }
           },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "古谷 沙織",
-              "visit_type": "再診",
-              "department": "多汗",
-              "end_time": "22:40",
-              "karte_id": "50000344",
-              "karte_src": "manual",
-              "pharmacy": "薬局ダックス伏見丹波橋店",
-              "demo": "F 48歳"
-            }
-          ],
+          "gcals": [],
           "sokuyaku_truth": [
             {
               "patient_name": "古谷 沙織",
@@ -688,30 +652,29 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T13:01:03.131400+09:00",
+      "last_updated": "2026-07-01T13:12:11.959425+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-03",
       "short": "7/3(金)",
       "dow": "金",
-      "open_count": 7,
-      "booked_count": 2,
+      "open_count": 8,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 2,
+      "revisit_count": 1,
       "first_open": "22:10",
       "last_open": "23:20",
       "first_booked": "22:00",
-      "last_booked": "22:30",
+      "last_booked": "22:00",
       "per_platform_open": {
         "CLINICS": 5,
-        "SOKUYAKU": 1,
+        "SOKUYAKU": 2,
         "GMO": 1
       },
       "per_platform_booked": {
         "クロン": 1,
-        "gcal": 2,
-        "SOKUYAKU": 1
+        "gcal": 1
       },
       "full_platforms": [
         {
@@ -776,24 +739,18 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "booked",
+              "status": "open",
               "end_time": "22:45"
             }
           },
-          "gcals": [
+          "gcals": [],
+          "sokuyaku_truth": [
             {
-              "code": "S",
               "patient_name": "清水 美穂子",
               "visit_type": "再診",
-              "department": "不眠",
-              "end_time": "22:40",
-              "karte_id": "50000123",
-              "karte_src": "manual",
-              "pharmacy": "",
-              "demo": ""
+              "department": ""
             }
-          ],
-          "sokuyaku_truth": []
+          ]
         },
         {
           "time": "22:45",
@@ -862,7 +819,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T13:01:26.230532+09:00",
+      "last_updated": "2026-07-01T13:12:36.221507+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -939,7 +896,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T13:01:49.882786+09:00",
+      "last_updated": "2026-07-01T13:13:00.597938+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1092,7 +1049,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T13:02:17.780070+09:00",
+      "last_updated": "2026-07-01T13:13:28.060594+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1416,7 +1373,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T13:02:48.314631+09:00",
+      "last_updated": "2026-07-01T13:13:58.509995+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1460,7 +1417,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T13:03:14.123231+09:00",
+      "last_updated": "2026-07-01T13:14:25.596545+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5961,9 +5918,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-07-01T13:08:47.226078",
+  "sigma_last_run": "2026-07-01T13:13:48.860997",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T13:09:37.444195+09:00",
+    "fetched_at": "2026-07-01T13:13:08.197829+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
