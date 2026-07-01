@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T19:07:18.872919+09:00",
+  "generated": "2026-07-01T19:09:40.356366+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -247,8 +247,8 @@
               "visit_type": "再診",
               "department": "心療",
               "end_time": "23:40",
-              "karte_id": "",
-              "karte_src": "",
+              "karte_id": "152606",
+              "karte_src": "manual",
               "pharmacy": "西須薬局 (Nishisu Pharmacy)",
               "demo": "F 25歳"
             }
@@ -284,7 +284,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:06:09.965373+09:00",
+      "last_updated": "2026-07-01T19:09:39.039214+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5899,9 +5899,9 @@
     }
   ],
   "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-07-01T19:03:48.312884",
+  "sigma_last_run": "2026-07-01T19:08:47.944355",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T19:03:50.584844+09:00",
+    "fetched_at": "2026-07-01T19:07:19.557780+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
