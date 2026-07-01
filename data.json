@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T19:27:52.010332+09:00",
+  "generated": "2026-07-01T19:29:31.355798+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -915,7 +915,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:16:53.685349+09:00",
+      "last_updated": "2026-07-01T19:28:03.948495+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1068,7 +1068,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:17:20.213641+09:00",
+      "last_updated": "2026-07-01T19:28:33.262394+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1392,7 +1392,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:17:49.604344+09:00",
+      "last_updated": "2026-07-01T19:29:03.162357+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1436,7 +1436,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:18:15.818359+09:00",
+      "last_updated": "2026-07-01T19:29:29.489107+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5933,12 +5933,19 @@
       "date": "2026-07-01",
       "time": "23:30",
       "ts": "2026-07-01T12:50:51+09:00"
+    },
+    {
+      "type": "new",
+      "patient_name": "東 寿広",
+      "date": "2026-07-02",
+      "time": "22:45",
+      "ts": "2026-07-01T19:29:30+09:00"
     }
   ],
   "sigma_qualified_count": 63,
   "sigma_last_run": "2026-07-01T19:28:59.056508",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T19:25:21.584592+09:00",
+    "fetched_at": "2026-07-01T19:29:00.381287+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
