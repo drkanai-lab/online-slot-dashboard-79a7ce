@@ -1,20 +1,20 @@
 {
-  "generated": "2026-07-01T22:59:39.627929+09:00",
+  "generated": "2026-07-01T23:03:20.857697+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
     "short": "7/1(水)",
-    "time": "23:00",
-    "code": "G",
-    "patient_name": "荒木　昭子",
+    "time": "23:10",
+    "code": "C",
+    "patient_name": "萩野貴之",
     "visit_type": "再診",
-    "department": "アレ",
-    "karte_id": "152498",
-    "karte_src": "manual",
-    "pharmacy": "スギ薬局",
+    "department": "",
+    "karte_id": "153073",
+    "karte_src": "platform",
+    "pharmacy": "",
     "status": "booked",
     "qualified": true,
-    "qualified_at": "R08.07.01 19:12:37"
+    "qualified_at": "R08.07.01 22:50:10"
   },
   "days": [
     {
@@ -328,7 +328,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:59:38.208736+09:00",
+      "last_updated": "2026-07-01T23:03:19.363269+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -695,7 +695,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:48:50.686566+09:00",
+      "last_updated": "2026-07-01T23:01:52.348677+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -878,7 +878,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:49:14.807837+09:00",
+      "last_updated": "2026-07-01T23:02:15.799264+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -955,7 +955,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:49:37.926860+09:00",
+      "last_updated": "2026-07-01T23:02:38.393106+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1129,7 +1129,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:50:04.055371+09:00",
+      "last_updated": "2026-07-01T23:03:04.624665+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6023,9 +6023,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-07-01T22:58:50.017284",
+  "sigma_last_run": "2026-07-01T23:03:48.736650",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T22:57:04.865633+09:00",
+    "fetched_at": "2026-07-01T23:00:49.162388+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
