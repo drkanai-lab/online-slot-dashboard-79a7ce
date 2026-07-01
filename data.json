@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T20:04:16.418873+09:00",
+  "generated": "2026-07-01T20:07:55.235032+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -21,23 +21,23 @@
       "date": "2026-07-01",
       "short": "7/1(水)",
       "dow": "水",
-      "open_count": 7,
-      "booked_count": 6,
+      "open_count": 6,
+      "booked_count": 7,
       "new_count": 0,
-      "revisit_count": 6,
-      "first_open": "22:20",
+      "revisit_count": 7,
+      "first_open": "22:50",
       "last_open": "23:50",
       "first_booked": "22:00",
       "last_booked": "23:30",
       "per_platform_open": {
-        "CLINICS": 5,
+        "CLINICS": 4,
         "クロン": 1,
         "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "クロン": 1,
         "gcal": 6,
-        "CLINICS": 1,
+        "CLINICS": 2,
         "SOKUYAKU": 3,
         "GMO": 1
       },
@@ -109,11 +109,26 @@
           "time": "22:20",
           "platforms": {
             "CLINICS": {
-              "status": "open",
-              "end_time": ""
+              "status": "booked",
+              "end_time": "22:30"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "C",
+              "patient_name": "片山竣矢",
+              "visit_type": "再診",
+              "department": "",
+              "end_time": "22:30",
+              "karte_id": "50000105",
+              "karte_src": "platform",
+              "pharmacy": "調剤薬局ツルハドラッグ沼ノ端店",
+              "demo": "M 27歳",
+              "name_src": "truth",
+              "qualified": true,
+              "qualified_at": "R08.07.01 20:05:10"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -300,7 +315,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:04:14.820613+09:00",
+      "last_updated": "2026-07-01T20:07:53.606132+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4654,7 +4669,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T18:48:45.863679+09:00",
+      "last_updated": "2026-07-01T20:04:37.236726+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -4889,7 +4904,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T18:49:21.877189+09:00",
+      "last_updated": "2026-07-01T20:05:14.781077+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5172,7 +5187,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T18:49:59.597299+09:00",
+      "last_updated": "2026-07-01T20:05:53.703362+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5314,7 +5329,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T18:50:35.640142+09:00",
+      "last_updated": "2026-07-01T20:06:29.651424+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5482,7 +5497,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T18:51:12.209532+09:00",
+      "last_updated": "2026-07-01T20:07:06.418453+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5759,7 +5774,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T18:51:48.997916+09:00",
+      "last_updated": "2026-07-01T20:07:42.999027+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5954,10 +5969,10 @@
       "ts": "2026-07-01T19:29:30+09:00"
     }
   ],
-  "sigma_qualified_count": 64,
-  "sigma_last_run": "2026-07-01T20:03:51.031823",
+  "sigma_qualified_count": 65,
+  "sigma_last_run": "2026-07-01T20:08:55.319177",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T20:01:47.196922+09:00",
+    "fetched_at": "2026-07-01T20:05:24.384021+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
