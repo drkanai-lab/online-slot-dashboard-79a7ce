@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T10:59:21.669738+09:00",
+  "generated": "2026-07-01T11:02:34.667471+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -31,8 +31,8 @@
       "last_booked": "23:00",
       "per_platform_open": {
         "CLINICS": 5,
-        "クロン": 1,
-        "SOKUYAKU": 2
+        "SOKUYAKU": 2,
+        "クロン": 1
       },
       "per_platform_booked": {
         "クロン": 1,
@@ -231,13 +231,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "open",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [],
@@ -266,31 +266,32 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T10:59:20.164727+09:00",
+      "last_updated": "2026-07-01T10:59:51.000750+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-02",
       "short": "7/2(木)",
       "dow": "木",
-      "open_count": 10,
-      "booked_count": 9,
-      "new_count": 2,
+      "open_count": 9,
+      "booked_count": 10,
+      "new_count": 3,
       "revisit_count": 7,
-      "first_open": "13:00",
+      "first_open": "13:10",
       "last_open": "23:20",
       "first_booked": "11:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "クロン": 2,
         "CLINICS": 7,
+        "クロン": 1,
         "SOKUYAKU": 1
       },
       "per_platform_booked": {
         "SOKUYAKU": 3,
-        "gcal": 9,
+        "gcal": 10,
         "CLINICS": 4,
-        "GMO": 2
+        "GMO": 2,
+        "クロン": 1
       },
       "full_platforms": [
         {
@@ -487,11 +488,23 @@
           "time": "13:00",
           "platforms": {
             "クロン": {
-              "status": "open",
+              "status": "booked",
               "end_time": "13:10"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "K",
+              "patient_name": "今坂 郁",
+              "visit_type": "初診",
+              "department": "",
+              "end_time": "13:10",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": "F 50歳"
+            }
+          ],
           "sokuyaku_truth": []
         },
         {
@@ -657,7 +670,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T10:48:56.190993+09:00",
+      "last_updated": "2026-07-01T11:00:21.194745+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -712,9 +725,9 @@
               "department": "",
               "end_time": "22:10",
               "karte_id": "50000371",
-              "karte_src": "platform",
+              "karte_src": "manual",
               "pharmacy": "",
-              "demo": "M 37歳"
+              "demo": ""
             }
           ],
           "sokuyaku_truth": []
@@ -837,7 +850,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T10:49:19.470490+09:00",
+      "last_updated": "2026-07-01T11:00:44.991082+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -914,7 +927,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T10:49:43.853629+09:00",
+      "last_updated": "2026-07-01T11:01:09.494590+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1067,7 +1080,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T10:50:10.858346+09:00",
+      "last_updated": "2026-07-01T11:01:35.978386+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1391,7 +1404,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T10:50:41.130837+09:00",
+      "last_updated": "2026-07-01T11:02:05.513218+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1435,7 +1448,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T10:51:07.948367+09:00",
+      "last_updated": "2026-07-01T11:02:32.872551+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5919,11 +5932,19 @@
       "sokuyaku_reserve_ok": true
     }
   ],
-  "recent_events": [],
+  "recent_events": [
+    {
+      "type": "new",
+      "patient_name": "今坂 郁",
+      "date": "2026-07-02",
+      "time": "13:00",
+      "ts": "2026-07-01T11:02:34+09:00"
+    }
+  ],
   "sigma_qualified_count": 50,
   "sigma_last_run": "2026-07-01T08:58:49.117033",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T10:57:09.520191+09:00",
+    "fetched_at": "2026-07-01T11:00:31.163062+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
