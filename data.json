@@ -1,18 +1,20 @@
 {
-  "generated": "2026-07-01T22:50:59.852835+09:00",
+  "generated": "2026-07-01T22:52:12.415910+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
     "short": "7/1(水)",
-    "time": "22:50",
-    "code": "",
-    "patient_name": "",
-    "visit_type": "",
-    "department": "",
-    "karte_id": "",
-    "karte_src": "",
-    "pharmacy": "",
-    "status": "open"
+    "time": "23:00",
+    "code": "G",
+    "patient_name": "荒木　昭子",
+    "visit_type": "再診",
+    "department": "アレ",
+    "karte_id": "152498",
+    "karte_src": "manual",
+    "pharmacy": "スギ薬局",
+    "status": "booked",
+    "qualified": true,
+    "qualified_at": "R08.07.01 19:12:37"
   },
   "days": [
     {
@@ -324,7 +326,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:48:31.749985+09:00",
+      "last_updated": "2026-07-01T22:52:11.053743+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
