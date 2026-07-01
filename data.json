@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T20:56:00.077551+09:00",
+  "generated": "2026-07-01T20:59:41.447063+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -314,7 +314,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:55:58.741155+09:00",
+      "last_updated": "2026-07-01T20:59:40.048612+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -681,7 +681,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:46:09.252572+09:00",
+      "last_updated": "2026-07-01T20:57:38.773755+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -864,7 +864,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:46:33.252933+09:00",
+      "last_updated": "2026-07-01T20:58:03.034788+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -941,7 +941,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:46:57.052996+09:00",
+      "last_updated": "2026-07-01T20:58:26.955442+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1094,30 +1094,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:47:24.110280+09:00",
+      "last_updated": "2026-07-01T20:58:53.431984+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-06",
       "short": "7/6(月)",
       "dow": "月",
-      "open_count": 13,
-      "booked_count": 5,
+      "open_count": 12,
+      "booked_count": 6,
       "new_count": 0,
-      "revisit_count": 5,
-      "first_open": "19:00",
+      "revisit_count": 6,
+      "first_open": "19:15",
       "last_open": "23:20",
       "first_booked": "18:30",
       "last_booked": "23:00",
       "per_platform_open": {
-        "SOKUYAKU": 4,
+        "SOKUYAKU": 3,
         "CLINICS": 7,
         "クロン": 2
       },
       "per_platform_booked": {
         "GMO": 2,
-        "gcal": 5,
-        "CLINICS": 3
+        "gcal": 6,
+        "CLINICS": 3,
+        "SOKUYAKU": 1
       },
       "full_platforms": [
         {
@@ -1221,11 +1222,23 @@
           "time": "19:00",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "19:15"
             }
           },
-          "gcals": [],
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "矢野 順平",
+              "visit_type": "再診",
+              "department": "皮膚",
+              "end_time": "19:10",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": ""
+            }
+          ],
           "sokuyaku_truth": [
             {
               "patient_name": "矢野 順平",
@@ -1424,7 +1437,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T20:47:53.190603+09:00",
+      "last_updated": "2026-07-01T20:59:22.752257+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5975,9 +5988,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-07-01T20:53:49.922877",
+  "sigma_last_run": "2026-07-01T20:58:55.199272",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T20:53:28.424632+09:00",
+    "fetched_at": "2026-07-01T20:57:09.114578+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
