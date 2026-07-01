@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T23:59:51.619130+09:00",
+  "generated": "2026-07-02T00:02:03.312434+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-02",
@@ -15,320 +15,6 @@
     "status": "booked"
   },
   "days": [
-    {
-      "date": "2026-07-01",
-      "short": "7/1(水)",
-      "dow": "水",
-      "open_count": 5,
-      "booked_count": 8,
-      "new_count": 0,
-      "revisit_count": 8,
-      "first_open": "22:50",
-      "last_open": "23:50",
-      "first_booked": "22:00",
-      "last_booked": "23:30",
-      "per_platform_open": {
-        "CLINICS": 3,
-        "クロン": 1,
-        "SOKUYAKU": 1
-      },
-      "per_platform_booked": {
-        "クロン": 1,
-        "gcal": 8,
-        "CLINICS": 3,
-        "SOKUYAKU": 3,
-        "GMO": 1
-      },
-      "full_platforms": [
-        {
-          "name": "GMO",
-          "code": "G"
-        }
-      ],
-      "ranges": [
-        [
-          "22:00",
-          "24:00"
-        ]
-      ],
-      "range_text": "22:00〜24:00",
-      "slots": [
-        {
-          "time": "22:00",
-          "platforms": {
-            "クロン": {
-              "status": "booked",
-              "end_time": "22:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "K",
-              "patient_name": "柳田 梓",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:10",
-              "karte_id": "50000356",
-              "karte_src": "platform",
-              "pharmacy": "スギ薬局板橋幸町店",
-              "demo": "F 35歳",
-              "qualified": true,
-              "qualified_at": "R08.06.30 18:50:13"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "22:20"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "田中奈々",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:20",
-              "karte_id": "152979",
-              "karte_src": "platform",
-              "pharmacy": "ウエルシア薬局伏見小栗栖店",
-              "demo": "F 39歳",
-              "qualified": true,
-              "qualified_at": "R08.07.01 19:12:57"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "22:30"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "片山竣矢",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "22:30",
-              "karte_id": "50000105",
-              "karte_src": "platform",
-              "pharmacy": "調剤薬局ツルハドラッグ沼ノ端店",
-              "demo": "M 27歳",
-              "qualified": true,
-              "qualified_at": "R08.07.01 20:05:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "22:30",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "22:45"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "菅原 冴香",
-              "visit_type": "再診",
-              "department": "整形",
-              "end_time": "22:40",
-              "karte_id": "151609",
-              "karte_src": "manual",
-              "pharmacy": "ウエルシア薬局石巻赤十字病院前店",
-              "demo": "F 35歳",
-              "qualified": true,
-              "qualified_at": "R08.07.01 19:11:56"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "菅原 冴香",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.07.01 19:11:56"
-            }
-          ]
-        },
-        {
-          "time": "22:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:00"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "廣瀬 峰実",
-              "visit_type": "再診",
-              "department": "心療",
-              "end_time": "22:55",
-              "karte_id": "152587",
-              "karte_src": "manual",
-              "pharmacy": "ヨヤクスリ薬局",
-              "demo": "F 48歳",
-              "qualified": true,
-              "qualified_at": "R08.07.01 19:12:18"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "廣瀬 峰実",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.07.01 19:12:18"
-            }
-          ]
-        },
-        {
-          "time": "22:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:00",
-          "platforms": {
-            "GMO": {
-              "status": "booked",
-              "end_time": "23:10"
-            }
-          },
-          "gcals": [
-            {
-              "code": "G",
-              "patient_name": "荒木　昭子",
-              "visit_type": "再診",
-              "department": "アレ",
-              "end_time": "23:10",
-              "karte_id": "152498",
-              "karte_src": "manual",
-              "pharmacy": "スギ薬局",
-              "demo": "F 49歳",
-              "qualified": true,
-              "qualified_at": "R08.07.01 19:12:37"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:10",
-          "platforms": {
-            "CLINICS": {
-              "status": "booked",
-              "end_time": "23:20"
-            }
-          },
-          "gcals": [
-            {
-              "code": "C",
-              "patient_name": "萩野貴之",
-              "visit_type": "再診",
-              "department": "",
-              "end_time": "23:20",
-              "karte_id": "153073",
-              "karte_src": "platform",
-              "pharmacy": "ウエルシア薬局福井文京店",
-              "demo": "M 54歳",
-              "qualified": true,
-              "qualified_at": "R08.07.01 22:50:10"
-            }
-          ],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:20",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:30",
-          "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
-            "SOKUYAKU": {
-              "status": "booked",
-              "end_time": "23:45"
-            }
-          },
-          "gcals": [
-            {
-              "code": "S",
-              "patient_name": "高柳美月",
-              "visit_type": "再診",
-              "department": "心療",
-              "end_time": "23:40",
-              "karte_id": "152606",
-              "karte_src": "manual",
-              "pharmacy": "西須薬局 (Nishisu Pharmacy)",
-              "demo": "F 25歳",
-              "qualified": true,
-              "qualified_at": "R08.07.01 19:13:23"
-            }
-          ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "高柳美月",
-              "visit_type": "再診",
-              "department": "",
-              "qualified": true,
-              "qualified_at": "R08.07.01 19:13:23"
-            }
-          ]
-        },
-        {
-          "time": "23:45",
-          "platforms": {
-            "SOKUYAKU": {
-              "status": "open",
-              "end_time": "23:59"
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        },
-        {
-          "time": "23:50",
-          "platforms": {
-            "CLINICS": {
-              "status": "open",
-              "end_time": ""
-            }
-          },
-          "gcals": [],
-          "sokuyaku_truth": []
-        }
-      ],
-      "last_updated": "2026-07-01T23:59:50.246430+09:00",
-      "sokuyaku_reserve_ok": true
-    },
     {
       "date": "2026-07-02",
       "short": "7/2(木)",
@@ -387,7 +73,9 @@
             {
               "patient_name": "小宮山 剛",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.29 20:11:19"
             }
           ]
         },
@@ -404,7 +92,9 @@
             {
               "patient_name": "石原 明日香",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.29 20:10:53"
             }
           ]
         },
@@ -426,7 +116,9 @@
               "karte_id": "149285",
               "karte_src": "platform",
               "pharmacy": "ウエルシア薬局神戸山の街店",
-              "demo": "M 50歳"
+              "demo": "M 50歳",
+              "qualified": true,
+              "qualified_at": "R08.06.29 20:10:28"
             }
           ],
           "sokuyaku_truth": []
@@ -449,7 +141,9 @@
               "karte_id": "50000410",
               "karte_src": "platform",
               "pharmacy": "",
-              "demo": "M 51歳"
+              "demo": "M 51歳",
+              "qualified": true,
+              "qualified_at": "R08.06.25 00:00:08"
             }
           ],
           "sokuyaku_truth": []
@@ -472,7 +166,9 @@
               "karte_id": "153281",
               "karte_src": "platform",
               "pharmacy": "",
-              "demo": "F 39歳"
+              "demo": "F 39歳",
+              "qualified": true,
+              "qualified_at": "R08.06.29 20:09:22"
             }
           ],
           "sokuyaku_truth": []
@@ -495,7 +191,9 @@
               "karte_id": "152760",
               "karte_src": "manual",
               "pharmacy": "薬局24 byGMO",
-              "demo": "F 33歳"
+              "demo": "F 33歳",
+              "qualified": true,
+              "qualified_at": "R08.06.29 20:11:39"
             }
           ],
           "sokuyaku_truth": []
@@ -518,7 +216,9 @@
               "karte_id": "154365",
               "karte_src": "platform",
               "pharmacy": "薬局ダックス伏見丹波橋店",
-              "demo": "M 48歳"
+              "demo": "M 48歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:24:41"
             }
           ],
           "sokuyaku_truth": []
@@ -541,7 +241,9 @@
               "karte_id": "50000415",
               "karte_src": "platform",
               "pharmacy": "ウエルシア薬局大津堅田店",
-              "demo": "F 50歳"
+              "demo": "F 50歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:19:56"
             }
           ],
           "sokuyaku_truth": []
@@ -592,7 +294,9 @@
             {
               "patient_name": "古谷 沙織",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.06.29 20:12:22"
             }
           ]
         },
@@ -654,7 +358,9 @@
               "karte_id": "50000407",
               "karte_src": "manual",
               "pharmacy": "薬局24 byGMO",
-              "demo": "M 46歳"
+              "demo": "M 46歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:25:12"
             }
           ],
           "sokuyaku_truth": []
@@ -693,7 +399,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:48:39.130825+09:00",
+      "last_updated": "2026-07-01T23:59:54.437855+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -836,7 +542,7 @@
               "end_time": "23:10",
               "karte_id": "",
               "karte_src": "",
-              "pharmacy": "",
+              "pharmacy": "ドラッグストア クリエイト エス・ディー",
               "demo": "F 23歳"
             }
           ],
@@ -876,7 +582,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:49:02.679677+09:00",
+      "last_updated": "2026-07-02T00:00:17.886067+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -953,7 +659,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:49:25.380554+09:00",
+      "last_updated": "2026-07-02T00:00:40.874874+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1127,7 +833,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:49:52.036650+09:00",
+      "last_updated": "2026-07-02T00:01:07.196148+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1470,7 +1176,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:50:19.967572+09:00",
+      "last_updated": "2026-07-02T00:01:35.220458+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1514,7 +1220,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:50:46.023981+09:00",
+      "last_updated": "2026-07-02T00:02:01.853375+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5995,15 +5701,36 @@
       ],
       "last_updated": "2026-07-01T23:55:37.382535+09:00",
       "sokuyaku_reserve_ok": true
+    },
+    {
+      "date": "2026-08-01",
+      "short": "8/1(土)",
+      "dow": "土",
+      "open_count": 0,
+      "booked_count": 0,
+      "new_count": 0,
+      "revisit_count": 0,
+      "first_open": "",
+      "last_open": "",
+      "first_booked": "",
+      "last_booked": "",
+      "per_platform_open": {},
+      "per_platform_booked": {},
+      "full_platforms": [],
+      "ranges": [],
+      "range_text": "",
+      "slots": [],
+      "last_updated": null,
+      "sokuyaku_reserve_ok": false
     }
   ],
   "recent_events": [
     {
       "type": "new",
-      "patient_name": "高柳美月",
-      "date": "2026-07-01",
-      "time": "23:30",
-      "ts": "2026-07-01T12:50:51+09:00"
+      "patient_name": "患者名不明",
+      "date": "2026-07-03",
+      "time": "23:00",
+      "ts": "2026-07-01T18:23:49+09:00"
     },
     {
       "type": "new",
@@ -6011,19 +5738,12 @@
       "date": "2026-07-02",
       "time": "22:45",
       "ts": "2026-07-01T19:29:30+09:00"
-    },
-    {
-      "type": "new",
-      "patient_name": "萩野貴之",
-      "date": "2026-07-01",
-      "time": "23:10",
-      "ts": "2026-07-01T22:48:33+09:00"
     }
   ],
   "sigma_qualified_count": 67,
   "sigma_last_run": "2026-07-01T23:53:51.348402",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T23:57:11.554019+09:00",
+    "fetched_at": "2026-07-02T00:01:00.591092+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
