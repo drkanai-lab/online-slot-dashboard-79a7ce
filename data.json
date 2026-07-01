@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T12:57:51.434847+09:00",
+  "generated": "2026-07-01T13:01:22.282893+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -284,7 +284,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T12:57:50.114572+09:00",
+      "last_updated": "2026-07-01T13:01:20.749632+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -346,17 +346,11 @@
               "end_time": "11:40",
               "karte_id": "149330",
               "karte_src": "manual",
-              "pharmacy": "スギ薬局　上野広小路店(東京都)",
-              "demo": "M 57歳"
+              "pharmacy": "",
+              "demo": ""
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "小宮山 剛",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "11:45",
@@ -375,17 +369,11 @@
               "end_time": "11:55",
               "karte_id": "152863",
               "karte_src": "manual",
-              "pharmacy": "杏林堂薬局 上西店",
-              "demo": "F 53歳"
+              "pharmacy": "",
+              "demo": ""
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "石原 明日香",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "12:00",
@@ -597,17 +585,11 @@
               "end_time": "22:40",
               "karte_id": "50000344",
               "karte_src": "manual",
-              "pharmacy": "薬局ダックス伏見丹波橋店",
-              "demo": "F 48歳"
+              "pharmacy": "",
+              "demo": ""
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "古谷 沙織",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "22:45",
@@ -688,7 +670,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T12:50:58.985382+09:00",
+      "last_updated": "2026-07-01T13:01:03.131400+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -793,13 +775,7 @@
               "demo": ""
             }
           ],
-          "sokuyaku_truth": [
-            {
-              "patient_name": "清水 美穂子",
-              "visit_type": "再診",
-              "department": ""
-            }
-          ]
+          "sokuyaku_truth": []
         },
         {
           "time": "22:45",
@@ -5969,7 +5945,7 @@
   "sigma_qualified_count": 50,
   "sigma_last_run": "2026-07-01T08:58:49.117033",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T12:55:30.105675+09:00",
+    "fetched_at": "2026-07-01T12:59:00.138417+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
