@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T21:40:22.717064+09:00",
+  "generated": "2026-07-01T21:43:53.230551+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -257,13 +257,13 @@
         {
           "time": "23:30",
           "platforms": {
-            "クロン": {
-              "status": "open",
-              "end_time": "23:40"
-            },
             "SOKUYAKU": {
               "status": "booked",
               "end_time": "23:45"
+            },
+            "クロン": {
+              "status": "open",
+              "end_time": "23:40"
             }
           },
           "gcals": [
@@ -314,7 +314,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:40:21.293081+09:00",
+      "last_updated": "2026-07-01T21:41:17.109954+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -681,7 +681,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:30:35.158168+09:00",
+      "last_updated": "2026-07-01T21:41:44.866604+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -864,7 +864,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:31:02.727447+09:00",
+      "last_updated": "2026-07-01T21:42:08.010516+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -941,28 +941,31 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:31:25.679832+09:00",
+      "last_updated": "2026-07-01T21:42:31.369876+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
       "date": "2026-07-05",
       "short": "7/5(日)",
       "dow": "日",
-      "open_count": 9,
-      "booked_count": 0,
+      "open_count": 8,
+      "booked_count": 1,
       "new_count": 0,
-      "revisit_count": 0,
+      "revisit_count": 1,
       "first_open": "22:00",
       "last_open": "23:20",
-      "first_booked": "",
-      "last_booked": "",
+      "first_booked": "22:30",
+      "last_booked": "22:30",
       "per_platform_open": {
         "クロン": 1,
         "CLINICS": 5,
-        "SOKUYAKU": 2,
+        "SOKUYAKU": 1,
         "GMO": 1
       },
-      "per_platform_booked": {},
+      "per_platform_booked": {
+        "SOKUYAKU": 1,
+        "gcal": 1
+      },
       "full_platforms": [],
       "ranges": [
         [
@@ -1020,12 +1023,30 @@
           "time": "22:30",
           "platforms": {
             "SOKUYAKU": {
-              "status": "open",
+              "status": "booked",
               "end_time": "22:45"
             }
           },
-          "gcals": [],
-          "sokuyaku_truth": []
+          "gcals": [
+            {
+              "code": "S",
+              "patient_name": "小野松 智大",
+              "visit_type": "再診",
+              "department": "整形",
+              "end_time": "22:40",
+              "karte_id": "",
+              "karte_src": "",
+              "pharmacy": "",
+              "demo": ""
+            }
+          ],
+          "sokuyaku_truth": [
+            {
+              "patient_name": "小野松 智大",
+              "visit_type": "再診",
+              "department": ""
+            }
+          ]
         },
         {
           "time": "22:45",
@@ -1094,7 +1115,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:31:52.056005+09:00",
+      "last_updated": "2026-07-01T21:42:57.567316+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1437,7 +1458,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:32:20.969174+09:00",
+      "last_updated": "2026-07-01T21:43:25.939154+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1481,7 +1502,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T21:32:47.109032+09:00",
+      "last_updated": "2026-07-01T21:43:51.881250+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5988,9 +6009,9 @@
     }
   ],
   "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-07-01T21:38:51.134596",
+  "sigma_last_run": "2026-07-01T21:43:57.781588",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T21:37:51.963679+09:00",
+    "fetched_at": "2026-07-01T21:41:31.958693+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
