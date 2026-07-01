@@ -1,20 +1,18 @@
 {
-  "generated": "2026-07-01T23:10:44.350561+09:00",
+  "generated": "2026-07-01T23:14:25.652740+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
     "short": "7/1(水)",
-    "time": "23:10",
-    "code": "C",
-    "patient_name": "萩野貴之",
-    "visit_type": "再診",
+    "time": "23:20",
+    "code": "",
+    "patient_name": "",
+    "visit_type": "",
     "department": "",
-    "karte_id": "153073",
-    "karte_src": "platform",
+    "karte_id": "",
+    "karte_src": "",
     "pharmacy": "",
-    "status": "booked",
-    "qualified": true,
-    "qualified_at": "R08.07.01 22:50:10"
+    "status": "open"
   },
   "days": [
     {
@@ -328,7 +326,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:10:42.933199+09:00",
+      "last_updated": "2026-07-01T23:14:24.250462+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -695,7 +693,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:01:52.348677+09:00",
+      "last_updated": "2026-07-01T23:13:16.936177+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -878,7 +876,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:02:15.799264+09:00",
+      "last_updated": "2026-07-01T23:13:39.712279+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -955,7 +953,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T23:02:38.393106+09:00",
+      "last_updated": "2026-07-01T23:14:03.050016+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6023,9 +6021,9 @@
     }
   ],
   "sigma_qualified_count": 66,
-  "sigma_last_run": "2026-07-01T23:08:54.320170",
+  "sigma_last_run": "2026-07-01T23:13:49.176289",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T23:08:11.841284+09:00",
+    "fetched_at": "2026-07-01T23:11:54.291960+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
