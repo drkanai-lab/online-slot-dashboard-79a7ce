@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T19:16:47.411571+09:00",
+  "generated": "2026-07-01T19:18:17.248215+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -98,7 +98,9 @@
               "karte_id": "152979",
               "karte_src": "platform",
               "pharmacy": "ウエルシア薬局伏見小栗栖店",
-              "demo": "F 39歳"
+              "demo": "F 39歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:12:57"
             }
           ],
           "sokuyaku_truth": []
@@ -132,14 +134,18 @@
               "karte_id": "151609",
               "karte_src": "manual",
               "pharmacy": "ウエルシア薬局石巻赤十字病院前店",
-              "demo": "F 35歳"
+              "demo": "F 35歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:11:56"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "菅原 冴香",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:11:56"
             }
           ]
         },
@@ -161,14 +167,18 @@
               "karte_id": "152587",
               "karte_src": "manual",
               "pharmacy": "ヨヤクスリ薬局",
-              "demo": "F 48歳"
+              "demo": "F 48歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:12:18"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "廣瀬 峰実",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:12:18"
             }
           ]
         },
@@ -201,7 +211,9 @@
               "karte_id": "152498",
               "karte_src": "manual",
               "pharmacy": "スギ薬局",
-              "demo": "F 49歳"
+              "demo": "F 49歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:12:37"
             }
           ],
           "sokuyaku_truth": []
@@ -250,14 +262,18 @@
               "karte_id": "152606",
               "karte_src": "manual",
               "pharmacy": "西須薬局 (Nishisu Pharmacy)",
-              "demo": "F 25歳"
+              "demo": "F 25歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:13:23"
             }
           ],
           "sokuyaku_truth": [
             {
               "patient_name": "高柳美月",
               "visit_type": "再診",
-              "department": ""
+              "department": "",
+              "qualified": true,
+              "qualified_at": "R08.07.01 19:13:23"
             }
           ]
         },
@@ -878,7 +894,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:05:53.500514+09:00",
+      "last_updated": "2026-07-01T19:16:53.685349+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1031,7 +1047,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:06:20.126746+09:00",
+      "last_updated": "2026-07-01T19:17:20.213641+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1355,7 +1371,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:06:51.154527+09:00",
+      "last_updated": "2026-07-01T19:17:49.604344+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -1399,7 +1415,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T19:07:17.288619+09:00",
+      "last_updated": "2026-07-01T19:18:15.818359+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -5898,10 +5914,10 @@
       "ts": "2026-07-01T12:50:51+09:00"
     }
   ],
-  "sigma_qualified_count": 55,
-  "sigma_last_run": "2026-07-01T19:13:50.281772",
+  "sigma_qualified_count": 60,
+  "sigma_last_run": "2026-07-01T19:18:48.282359",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T19:14:18.974764+09:00",
+    "fetched_at": "2026-07-01T19:17:56.204420+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
