@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T22:52:12.415910+09:00",
+  "generated": "2026-07-01T22:55:55.947712+09:00",
   "timezone": "Asia/Tokyo",
   "next_appointment": {
     "date": "2026-07-01",
@@ -250,7 +250,9 @@
               "karte_id": "153073",
               "karte_src": "platform",
               "pharmacy": "",
-              "demo": "M 54歳"
+              "demo": "M 54歳",
+              "qualified": true,
+              "qualified_at": "R08.07.01 22:50:10"
             }
           ],
           "sokuyaku_truth": []
@@ -326,7 +328,7 @@
           "sokuyaku_truth": []
         }
       ],
-      "last_updated": "2026-07-01T22:52:11.053743+09:00",
+      "last_updated": "2026-07-01T22:55:54.147262+09:00",
       "sokuyaku_reserve_ok": true
     },
     {
@@ -6020,10 +6022,10 @@
       "ts": "2026-07-01T22:48:33+09:00"
     }
   ],
-  "sigma_qualified_count": 65,
-  "sigma_last_run": "2026-07-01T22:48:35.218495",
+  "sigma_qualified_count": 66,
+  "sigma_last_run": "2026-07-01T22:53:50.338389",
   "gmo_realtime": {
-    "fetched_at": "2026-07-01T22:49:41.742123+09:00",
+    "fetched_at": "2026-07-01T22:53:23.743589+09:00",
     "scrape_ok": true,
     "errors": [],
     "total_waiting": 0,
